@@ -34,11 +34,9 @@ uplinks:
   npmjs:
     url: https://registry.npmjs.org/
     cache: false
-  # azure: 
-  #   url: https://pkgs.dev.azure.com/hiae-mda/COCKPIT/_packaging/HIAE.COCKPIT/npm/registry/
 
 packages:
-  '@jota/*':
+  '@cockpit/*':
     access: $all
     publish: $all
 
