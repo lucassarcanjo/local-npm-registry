@@ -1,0 +1,1069 @@
+{
+	"name": "array.prototype.find",
+	"versions": {
+		"0.1.0": {
+			"name": "array.prototype.find",
+			"version": "0.1.0",
+			"description": "Array.prototype.find ES6 polyfill.",
+			"keywords": [
+				"Array.prototype.find",
+				"find",
+				"es6",
+				"ecmascript 6",
+				"polyfill"
+			],
+			"main": "index.js",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/paulmillr/Array.prototype.find.git"
+			},
+			"author": {
+				"name": "Paul Miller",
+				"email": "http://paulmillr.com"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/paulmillr/Array.prototype.find/issues"
+			},
+			"homepage": "https://github.com/paulmillr/Array.prototype.find",
+			"_id": "array.prototype.find@0.1.0",
+			"dist": {
+				"shasum": "e4d74dbfe4cc8040ae56374d2ea22b9caf2efa61",
+				"tarball": "https://registry.npmjs.org/array.prototype.find/-/array.prototype.find-0.1.0.tgz",
+				"integrity": "sha512-49aBP8lPu8v5n1HchTN+H6Turoq4dUDqOLfLiFi0JeylBBMeX9FY9848ZyUWesOHrMM6fHDJY3nANlNVT4SzKg==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCLBjUKt4cneRHF6NZWripYDABsR3d6Rm/+cmOqunwuugIhAI3KvGvi+BIucTrgT6hgvDRgQ9rY3Hugagf9bh+mSIVW"
+					}
+				]
+			},
+			"_from": ".",
+			"_npmVersion": "1.3.14",
+			"_npmUser": {
+				"name": "paulmillr",
+				"email": "paul@paulmillr.com"
+			},
+			"maintainers": [
+				{
+					"name": "paulmillr",
+					"email": "paul@paulmillr.com"
+				}
+			],
+			"directories": {},
+			"contributors": []
+		},
+		"0.1.1": {
+			"name": "array.prototype.find",
+			"version": "0.1.1",
+			"description": "Array.prototype.find ES6 polyfill.",
+			"keywords": [
+				"Array.prototype.find",
+				"find",
+				"es6",
+				"ecmascript 6",
+				"polyfill"
+			],
+			"main": "index.js",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/paulmillr/Array.prototype.find.git"
+			},
+			"author": {
+				"name": "Paul Miller",
+				"email": "http://paulmillr.com"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/paulmillr/Array.prototype.find/issues"
+			},
+			"homepage": "https://github.com/paulmillr/Array.prototype.find",
+			"_id": "array.prototype.find@0.1.1",
+			"dist": {
+				"shasum": "a3ac2fd0e9d617b64b263670480bde28fa8f796f",
+				"tarball": "https://registry.npmjs.org/array.prototype.find/-/array.prototype.find-0.1.1.tgz",
+				"integrity": "sha512-tstUO2irLgKMvBaKb+kubpjPYvQlWjIQKBNafyOZjG1cte52wyNxCB+NhGlbw6kMw8hrlMR4Ca90Kv9QlZShMQ==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCrppt6Caa1KmGUMne8cdQTbAR3vCeE/SKkt3Xg9paTZwIhAMf7qXN/nd6R15rCBWBya1S2AZ0EymRRDPhUjuzL8y9G"
+					}
+				]
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.6",
+			"_npmUser": {
+				"name": "paulmillr",
+				"email": "paul@paulmillr.com"
+			},
+			"maintainers": [
+				{
+					"name": "paulmillr",
+					"email": "paul@paulmillr.com"
+				}
+			],
+			"directories": {},
+			"contributors": []
+		},
+		"1.0.0": {
+			"name": "array.prototype.find",
+			"version": "1.0.0",
+			"description": "Array.prototype.find ES6 polyfill.",
+			"keywords": [
+				"Array.prototype.find",
+				"find",
+				"es6",
+				"ecmascript 6",
+				"polyfill"
+			],
+			"main": "index.js",
+			"scripts": {
+				"test": "mocha tests/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/paulmillr/Array.prototype.find.git"
+			},
+			"author": {
+				"name": "Paul Miller",
+				"email": "http://paulmillr.com"
+			},
+			"contributors": [
+				{
+					"name": "Duncan Hall",
+					"email": "himself@duncanhall.net"
+				}
+			],
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/paulmillr/Array.prototype.find/issues"
+			},
+			"devDependencies": {
+				"chai": "~1.9.1",
+				"mocha": "~1.21.4"
+			},
+			"gitHead": "633f2d4beb13c005c92b67b34883b1125574b2d0",
+			"homepage": "https://github.com/paulmillr/Array.prototype.find",
+			"_id": "array.prototype.find@1.0.0",
+			"_shasum": "52d81768eb1c5692577ee29d96ca603dc76eb3a6",
+			"_from": ".",
+			"_npmVersion": "2.0.0-alpha-5",
+			"_npmUser": {
+				"name": "paulmillr",
+				"email": "paul@paulmillr.com"
+			},
+			"maintainers": [
+				{
+					"name": "paulmillr",
+					"email": "paul@paulmillr.com"
+				}
+			],
+			"dist": {
+				"shasum": "52d81768eb1c5692577ee29d96ca603dc76eb3a6",
+				"tarball": "https://registry.npmjs.org/array.prototype.find/-/array.prototype.find-1.0.0.tgz",
+				"integrity": "sha512-6m1zoZx2M/8eNxClUjm2fcCuvy6DMjmV1pcl3XY6ZueWKjFSZ4it9QNpPw9ngfMwW+qQmV4zLs3BAwXgrbkwhA==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIACYZJksWhWxqp+LheBuMEcqdmV7sqCXoZbAEg/W74DhAiEAjlNLp0RX13ZmHzPizw6KMkWuEeNnb88nunadxZFih8o="
+					}
+				]
+			},
+			"directories": {}
+		},
+		"2.0.0": {
+			"name": "array.prototype.find",
+			"version": "2.0.0",
+			"description": "Array.prototype.find ES6 polyfill.",
+			"keywords": [
+				"Array.prototype.find",
+				"find",
+				"es6",
+				"ecmascript 6",
+				"polyfill"
+			],
+			"main": "index.js",
+			"scripts": {
+				"test": "es-shim-api --bound && mocha tests/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/paulmillr/Array.prototype.find.git"
+			},
+			"author": {
+				"name": "Paul Miller",
+				"email": "http://paulmillr.com"
+			},
+			"contributors": [
+				{
+					"name": "Duncan Hall",
+					"email": "himself@duncanhall.net"
+				}
+			],
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/paulmillr/Array.prototype.find/issues"
+			},
+			"devDependencies": {
+				"@es-shims/api": "^1.0.0",
+				"chai": "^3.5.0",
+				"mocha": "^2.4.5"
+			},
+			"dependencies": {
+				"define-properties": "^1.1.2",
+				"es-abstract": "^1.5.0"
+			},
+			"gitHead": "1454b62ff913f84e618668faaa70174e10f7a92a",
+			"homepage": "https://github.com/paulmillr/Array.prototype.find#readme",
+			"_id": "array.prototype.find@2.0.0",
+			"_shasum": "56a9ab1edde2a7701ed6d9166acec338919d8430",
+			"_from": ".",
+			"_npmVersion": "3.3.12",
+			"_nodeVersion": "5.5.0",
+			"_npmUser": {
+				"name": "ljharb",
+				"email": "ljharb@gmail.com"
+			},
+			"dist": {
+				"shasum": "56a9ab1edde2a7701ed6d9166acec338919d8430",
+				"tarball": "https://registry.npmjs.org/array.prototype.find/-/array.prototype.find-2.0.0.tgz",
+				"integrity": "sha512-bqub8f8MRMHDViIknB+j4+fo9XtgGHWCErVe4jsREZs6L3JZv78cL2YdHhGQ4UlxHcmOewOTFahAGrsLyCzscA==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCICvgtW8Px6RpoZc9sq5OpPRT+pcCsv0aPTiU53wOFmrWAiEAkBEOBT5EQHTGB520ObJJYUyOcF7+tNYqAGFiFnl4hHs="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "ljharb",
+					"email": "ljharb@gmail.com"
+				},
+				{
+					"name": "paulmillr",
+					"email": "paul@paulmillr.com"
+				}
+			],
+			"directories": {}
+		},
+		"2.0.1": {
+			"name": "array.prototype.find",
+			"version": "2.0.1",
+			"description": "Array.prototype.find ES6 polyfill.",
+			"keywords": [
+				"Array.prototype.find",
+				"find",
+				"es6",
+				"ecmascript 6",
+				"polyfill"
+			],
+			"main": "index.js",
+			"scripts": {
+				"lint": "eslint .",
+				"pretest": "npm run lint",
+				"tests-only": "es-shim-api --bound && mocha tests/*.js",
+				"test": "npm run tests-only"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/paulmillr/Array.prototype.find.git"
+			},
+			"author": {
+				"name": "Paul Miller",
+				"email": "http://paulmillr.com"
+			},
+			"contributors": [
+				{
+					"name": "Duncan Hall",
+					"email": "himself@duncanhall.net"
+				}
+			],
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/paulmillr/Array.prototype.find/issues"
+			},
+			"devDependencies": {
+				"@es-shims/api": "^1.0.0",
+				"chai": "^3.5.0",
+				"mocha": "^2.4.5",
+				"eslint": "^3.9.1",
+				"@ljharb/eslint-config": "^8.0.0"
+			},
+			"dependencies": {
+				"define-properties": "^1.1.2",
+				"es-abstract": "^1.5.0"
+			},
+			"gitHead": "103e87ae5be2f2dad649b4662f77c3e7e10a64be",
+			"homepage": "https://github.com/paulmillr/Array.prototype.find#readme",
+			"_id": "array.prototype.find@2.0.1",
+			"_shasum": "1557f888df6c57e4d1256f20852d687a25b51fde",
+			"_from": ".",
+			"_npmVersion": "3.10.9",
+			"_nodeVersion": "7.2.0",
+			"_npmUser": {
+				"name": "ljharb",
+				"email": "ljharb@gmail.com"
+			},
+			"dist": {
+				"shasum": "1557f888df6c57e4d1256f20852d687a25b51fde",
+				"tarball": "https://registry.npmjs.org/array.prototype.find/-/array.prototype.find-2.0.1.tgz",
+				"integrity": "sha512-sb5N8NxHGyTQxEpdg8Vo1cCd9a/Pe8R4I9dxsOtboWVPkDnMoy3Uu3konY7/GBpYcFiYTYGbPX7POzBjAQOHDQ==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDI92xK60sAYTtII1kKE4+mx9SrJKnh5vnyQe6jPKpwagIgVGRkOakAqRbhOxoxragqYGwp5R59DhIKyBpgXBJyjNc="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "ljharb",
+					"email": "ljharb@gmail.com"
+				},
+				{
+					"name": "paulmillr",
+					"email": "paul@paulmillr.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/array.prototype.find-2.0.1.tgz_1481619977654_0.6496792228426784"
+			},
+			"directories": {}
+		},
+		"2.0.2": {
+			"name": "array.prototype.find",
+			"version": "2.0.2",
+			"description": "Array.prototype.find ES6 polyfill.",
+			"keywords": [
+				"Array.prototype.find",
+				"find",
+				"es6",
+				"ecmascript 6",
+				"polyfill"
+			],
+			"main": "index.js",
+			"scripts": {
+				"lint": "eslint .",
+				"pretest": "npm run lint",
+				"tests-only": "es-shim-api --bound && mocha tests/*.js",
+				"test": "npm run tests-only"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/paulmillr/Array.prototype.find.git"
+			},
+			"author": {
+				"name": "Paul Miller",
+				"email": "http://paulmillr.com"
+			},
+			"contributors": [
+				{
+					"name": "Duncan Hall",
+					"email": "himself@duncanhall.net"
+				}
+			],
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/paulmillr/Array.prototype.find/issues"
+			},
+			"devDependencies": {
+				"@es-shims/api": "^1.2.0",
+				"chai": "^3.5.0",
+				"mocha": "^3.2.0",
+				"eslint": "^3.14.0",
+				"@ljharb/eslint-config": "^10.0.0"
+			},
+			"dependencies": {
+				"define-properties": "^1.1.2",
+				"es-abstract": "^1.7.0"
+			},
+			"gitHead": "0412e2d31c1271cb6a25aa26c721d8a22f159f9d",
+			"homepage": "https://github.com/paulmillr/Array.prototype.find#readme",
+			"_id": "array.prototype.find@2.0.2",
+			"_shasum": "fb35f376ca4ef90ff03c98a545a68f211d8640c0",
+			"_from": ".",
+			"_npmVersion": "2.15.11",
+			"_nodeVersion": "4.7.2",
+			"_npmUser": {
+				"name": "ljharb",
+				"email": "ljharb@gmail.com"
+			},
+			"dist": {
+				"shasum": "fb35f376ca4ef90ff03c98a545a68f211d8640c0",
+				"tarball": "https://registry.npmjs.org/array.prototype.find/-/array.prototype.find-2.0.2.tgz",
+				"integrity": "sha512-lWy9ZpFwat/rY7789r09I+qzfhhknN51jVWJC8njOnI81jUX95GMC32YscJv0LUGCjfEgRIYeaq2euurtQUEoQ==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIEqSRj4OxcQOFkig3NSFu3OKaUOGhwUKJ6DsHL9krdZvAiEAxg4K20LISNtW3V8a7+7h9A22bVorsPCTcD0YOfowsGY="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "ljharb",
+					"email": "ljharb@gmail.com"
+				},
+				{
+					"name": "paulmillr",
+					"email": "paul@paulmillr.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/array.prototype.find-2.0.2.tgz_1485218450692_0.8274853501934558"
+			},
+			"directories": {}
+		},
+		"2.0.3": {
+			"name": "array.prototype.find",
+			"version": "2.0.3",
+			"description": "Array.prototype.find ES6 polyfill.",
+			"keywords": [
+				"Array.prototype.find",
+				"find",
+				"es6",
+				"ecmascript 6",
+				"polyfill"
+			],
+			"main": "index.js",
+			"scripts": {
+				"lint": "eslint .",
+				"pretest": "npm run lint",
+				"tests-only": "es-shim-api --bound && mocha tests/*.js",
+				"test": "npm run tests-only"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/paulmillr/Array.prototype.find.git"
+			},
+			"author": {
+				"name": "Paul Miller",
+				"email": "http://paulmillr.com"
+			},
+			"contributors": [
+				{
+					"name": "Duncan Hall",
+					"email": "himself@duncanhall.net"
+				}
+			],
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/paulmillr/Array.prototype.find/issues"
+			},
+			"devDependencies": {
+				"@es-shims/api": "^1.2.0",
+				"chai": "^3.5.0",
+				"mocha": "^3.2.0",
+				"eslint": "^3.14.0",
+				"@ljharb/eslint-config": "^10.0.0"
+			},
+			"dependencies": {
+				"define-properties": "^1.1.2",
+				"es-abstract": "^1.7.0"
+			},
+			"gitHead": "adf8eb022edc8c467d871f70adbfddf2806b0d12",
+			"homepage": "https://github.com/paulmillr/Array.prototype.find#readme",
+			"_id": "array.prototype.find@2.0.3",
+			"_shasum": "08c3ec33e32ec4bab362a2958e686ae92f59271d",
+			"_from": ".",
+			"_npmVersion": "2.15.11",
+			"_nodeVersion": "4.7.2",
+			"_npmUser": {
+				"name": "ljharb",
+				"email": "ljharb@gmail.com"
+			},
+			"dist": {
+				"shasum": "08c3ec33e32ec4bab362a2958e686ae92f59271d",
+				"tarball": "https://registry.npmjs.org/array.prototype.find/-/array.prototype.find-2.0.3.tgz",
+				"integrity": "sha512-O2kdAk8DG7ILhen3jMGOv0ZVjMqCmD75EdXhN+OhOhbevfgD8rVZPStlJUe3vmpawQ2xl4E21V7bRXXvqU4t0Q==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCM7EOaeJhMvZtsF3n+PYUy42Qi+nm0aw3ovKK4iI+3gAIhAMYROaPJtZnkcM4HlytUgfqyLTASXdzHcYUf3N5rFsAK"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "ljharb",
+					"email": "ljharb@gmail.com"
+				},
+				{
+					"name": "paulmillr",
+					"email": "paul@paulmillr.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/array.prototype.find-2.0.3.tgz_1485239866826_0.2718442212790251"
+			},
+			"directories": {}
+		},
+		"2.0.4": {
+			"name": "array.prototype.find",
+			"version": "2.0.4",
+			"description": "Array.prototype.find ES6 polyfill.",
+			"keywords": [
+				"Array.prototype.find",
+				"find",
+				"es6",
+				"ecmascript 6",
+				"polyfill"
+			],
+			"main": "index.js",
+			"scripts": {
+				"lint": "eslint .",
+				"pretest": "npm run lint",
+				"tests-only": "es-shim-api --bound && mocha tests/*.js",
+				"test": "npm run tests-only"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/paulmillr/Array.prototype.find.git"
+			},
+			"author": {
+				"name": "Paul Miller",
+				"email": "http://paulmillr.com"
+			},
+			"contributors": [
+				{
+					"name": "Duncan Hall",
+					"email": "himself@duncanhall.net"
+				}
+			],
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/paulmillr/Array.prototype.find/issues"
+			},
+			"devDependencies": {
+				"@es-shims/api": "^1.2.0",
+				"chai": "^3.5.0",
+				"mocha": "^3.2.0",
+				"eslint": "^3.14.0",
+				"@ljharb/eslint-config": "^10.0.0"
+			},
+			"dependencies": {
+				"define-properties": "^1.1.2",
+				"es-abstract": "^1.7.0"
+			},
+			"gitHead": "40aace99875a36c06579844de3319b13fe16e598",
+			"homepage": "https://github.com/paulmillr/Array.prototype.find#readme",
+			"_id": "array.prototype.find@2.0.4",
+			"_shasum": "556a5c5362c08648323ddaeb9de9d14bc1864c90",
+			"_from": ".",
+			"_npmVersion": "4.2.0",
+			"_nodeVersion": "7.8.0",
+			"_npmUser": {
+				"name": "ljharb",
+				"email": "ljharb@gmail.com"
+			},
+			"dist": {
+				"shasum": "556a5c5362c08648323ddaeb9de9d14bc1864c90",
+				"tarball": "https://registry.npmjs.org/array.prototype.find/-/array.prototype.find-2.0.4.tgz",
+				"integrity": "sha512-bTk9+sjVFDEHXGn7UU9UlfD1FqdvE/oFNXCMxnsRQg+yS7rSltM9Wro9+EJQMYGljl6Bc4kOpBgLQaXbzTTCsw==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIBVTjG0LQ8uypUVHbdiTpMvGRiO6kP252osU0IN3e5ZIAiEA/BThvnZn20LjXpFFig22rD+DlElvn0a/ilVhwaVHkbQ="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "ljharb",
+					"email": "ljharb@gmail.com"
+				},
+				{
+					"name": "paulmillr",
+					"email": "paul@paulmillr.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/array.prototype.find-2.0.4.tgz_1490903664417_0.6494288474787027"
+			},
+			"directories": {}
+		},
+		"2.1.0": {
+			"name": "array.prototype.find",
+			"version": "2.1.0",
+			"description": "Array.prototype.find ES6 polyfill.",
+			"keywords": [
+				"Array.prototype.find",
+				"find",
+				"es6",
+				"ecmascript 6",
+				"polyfill"
+			],
+			"main": "index.js",
+			"scripts": {
+				"lint": "eslint .",
+				"pretest": "npm run lint",
+				"tests-only": "es-shim-api --bound && mocha tests/*.js",
+				"test": "npm run tests-only",
+				"posttest": "npx aud"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/paulmillr/Array.prototype.find.git"
+			},
+			"author": {
+				"name": "Paul Miller",
+				"email": "http://paulmillr.com"
+			},
+			"contributors": [
+				{
+					"name": "Duncan Hall",
+					"email": "himself@duncanhall.net"
+				}
+			],
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/paulmillr/Array.prototype.find/issues"
+			},
+			"devDependencies": {
+				"@es-shims/api": "^2.1.2",
+				"@ljharb/eslint-config": "^13.1.1",
+				"chai": "^3.5.0",
+				"eslint": "^5.16.0",
+				"mocha": "^3.5.3"
+			},
+			"dependencies": {
+				"define-properties": "^1.1.3",
+				"es-abstract": "^1.13.0"
+			},
+			"gitHead": "507f2151e54b2fead3a543f0688374962e020601",
+			"homepage": "https://github.com/paulmillr/Array.prototype.find#readme",
+			"_id": "array.prototype.find@2.1.0",
+			"_nodeVersion": "12.3.0",
+			"_npmVersion": "6.9.0",
+			"dist": {
+				"integrity": "sha512-Wn41+K1yuO5p7wRZDl7890c3xvv5UBrfVXTVIe28rSQb6LS0fZMDrQB6PAcxQFRFy6vJTLDc3A2+3CjQdzVKRg==",
+				"shasum": "630f2eaf70a39e608ac3573e45cf8ccd0ede9ad7",
+				"tarball": "https://registry.npmjs.org/array.prototype.find/-/array.prototype.find-2.1.0.tgz",
+				"fileCount": 14,
+				"unpackedSize": 20736,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc5kTaCRA9TVsSAnZWagAATDEP/0GpwRv1nWVqXr9GMK+/\nUZU/5vWah6qYKKn7+zLifEGWsYBUWspuMzhtqsG+9FgJpfz80FpcujFn7vOt\ndlCpwo9Y9dO3WUFhvU3MIKb100KN6p8PIEOvDxBCFec/aeRBgvMmZegm0UfE\nDdBzDSa488shRboEzeA5CvQs4iUiuu8+iabZ5yI2ySM0pHF4FYwvNIX+Dc8D\n2QVeK3fIuQ3z5FuXssSJVVEel4SXjfq5WxZUlnpdU2FQJqNUq2E/iRHmRHYa\nY4zSf88PF6mGAMjMCGGFQ0EYGgIMXNedowKQHG6xGHdzg+E7PW7KshUSbWaX\neSzfkzt1cHyWyhIhUNW9Yx1fhRIe20e7P3nAY1bLnex+BlvxLa4S4iHtSL+y\nEN7GTw2v3UelTPWT47Xvg1yyYzcA2yFQ+d3N3U1Ml9HY8J2qNhqYyhNcLP9T\nOJfglXz90IkY4dH63HPl5I4WN81iML/o4Fo9vrgH1OUzCoxDSPW508D6LlaN\nC7MTMN3g+ZrkITvwIZs8FD4fIkwqXyrS5l5e5EEKb+7crl0G+5WeGiOskckS\ntm6IuAjJhuU6+oY0Wdl+liMEzvFwF3IcUeyWKmvTrQPvClU8Tqao5T3H9ERj\nsW2wYP8M3yGrXwehjWE0ndrJssyLOSKwSSRhhCslLpgpIXckfwMF58gWgZpB\nChIZ\r\n=NidI\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDu72+6Z/rnE/SS2uoaBzU5nDntm/gmteAhPmcpSz8GDgIgC2YfNDbvlS74xmF0Kgca/PCUnR/dANLV9/bmzuiqMXk="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "ljharb",
+					"email": "ljharb@gmail.com"
+				},
+				{
+					"name": "paulmillr",
+					"email": "paul@paulmillr.com"
+				}
+			],
+			"_npmUser": {
+				"name": "ljharb",
+				"email": "ljharb@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/array.prototype.find_2.1.0_1558594777498_0.27614093832746467"
+			},
+			"_hasShrinkwrap": false
+		},
+		"2.1.1": {
+			"name": "array.prototype.find",
+			"version": "2.1.1",
+			"description": "Array.prototype.find ES6 polyfill.",
+			"keywords": [
+				"Array.prototype.find",
+				"find",
+				"es6",
+				"ecmascript 6",
+				"polyfill"
+			],
+			"main": "index.js",
+			"scripts": {
+				"prepublish": "safe-publish-latest",
+				"lint": "eslint .",
+				"pretest": "npm run lint",
+				"tests-only": "es-shim-api --bound && mocha tests/*.js",
+				"test": "npm run tests-only",
+				"posttest": "npx aud --production"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/paulmillr/Array.prototype.find.git"
+			},
+			"author": {
+				"name": "Paul Miller",
+				"email": "http://paulmillr.com"
+			},
+			"funding": {
+				"url": "https://github.com/sponsors/ljharb"
+			},
+			"contributors": [
+				{
+					"name": "Duncan Hall",
+					"email": "himself@duncanhall.net"
+				}
+			],
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/paulmillr/Array.prototype.find/issues"
+			},
+			"devDependencies": {
+				"@es-shims/api": "^2.1.2",
+				"@ljharb/eslint-config": "^16.0.0",
+				"chai": "^3.5.0",
+				"eslint": "^6.8.0",
+				"mocha": "^3.5.3",
+				"safe-publish-latest": "^1.1.4"
+			},
+			"dependencies": {
+				"define-properties": "^1.1.3",
+				"es-abstract": "^1.17.4"
+			},
+			"gitHead": "629475380fa64afea2ee782f5fdb5e6fa5b7bdfd",
+			"homepage": "https://github.com/paulmillr/Array.prototype.find#readme",
+			"_id": "array.prototype.find@2.1.1",
+			"_nodeVersion": "13.9.0",
+			"_npmVersion": "6.13.7",
+			"dist": {
+				"integrity": "sha512-mi+MYNJYLTx2eNYy+Yh6raoQacCsNeeMUaspFPh9Y141lFSsWxxB8V9mM2ye+eqiRs917J6/pJ4M9ZPzenWckA==",
+				"shasum": "3baca26108ca7affb08db06bf0be6cb3115a969c",
+				"tarball": "https://registry.npmjs.org/array.prototype.find/-/array.prototype.find-2.1.1.tgz",
+				"fileCount": 14,
+				"unpackedSize": 12543,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeVDzbCRA9TVsSAnZWagAAGLQQAJuKw+N9g/pAHMLeEWKi\nTthbgSgaSTy6FtAb4x6zD/Ad1y//JdqzBzWG58/tMyNLpG4sbg8h61DhqJUO\nT4ODWvIJNchUD5S9PJKgst7RYSkbT9TkLm+RMTruYmfMFMtMr/VTkLmQrT8n\n0nnL0OjGfWT/PGygPZXM2awhNxsqFJf/+TtY8wn1hh0JLhKK7bpkQVVB8pPS\na642/1V5u6p5KBYwTRZaVWQkLwtfCh8Obt9AJQ1LZ3MdbWwGIbJqOggapY0+\nDx9vZ0ttKa/T0FVQZg0naBp+K8e4wkuCiklSuGu1A9pYVcyZTnmuCzh9wDFy\nHVGb253fyCaT2Kz3PYm4sv/JlzPuffCrM7HYKchTtooamfTW9iPb3zkH+FP3\nB+tcGotvzcWbuXdEbwj2trlgllvUpB1AiY6iWBjDTHzgUZbyx5fkDhgZ5vzY\nDQFoWs5/Cc4Pvuyv5t+kKy/OPM4Eb+ERHiw8dMYYm3aBA2KjS5d1WzBTPFIT\nmVMV8L3TD1em/JjuSl0j7pLw7EHYuz6p5Z2CeLs0b/xQfFNWzvkUhLVxlyVK\n4L5ws2NYv4/kpJmvTzTi/TF5y0HbJyC8MAhHigay0q+eH4ykwTLH9+nXvLp0\nLixXRftSsLmqcuLtUKSyi306I1lrkgsGe9O4T1QhgKGO3x3m5/eg+9rVhhyS\nj0IF\r\n=Rttb\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDd9fE8aW4wvaDtet+rIu+G8qJmlHffu8wIhBgHkiF2eAIhAIpc5QiPB1Q5Jt5Zot2EI9jIMXVUyZza7xDxX95d5m+m"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "ljharb",
+					"email": "ljharb@gmail.com"
+				},
+				{
+					"name": "paulmillr",
+					"email": "paul@paulmillr.com"
+				}
+			],
+			"_npmUser": {
+				"name": "ljharb",
+				"email": "ljharb@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/array.prototype.find_2.1.1_1582578906762_0.6290642403022764"
+			},
+			"_hasShrinkwrap": false
+		},
+		"2.1.2": {
+			"name": "array.prototype.find",
+			"version": "2.1.2",
+			"description": "Array.prototype.find ES6 polyfill.",
+			"keywords": [
+				"Array.prototype.find",
+				"find",
+				"es6",
+				"ecmascript 6",
+				"polyfill"
+			],
+			"main": "index.js",
+			"scripts": {
+				"prepublishOnly": "safe-publish-latest",
+				"prepublish": "not-in-publish || npm run prepublishOnly",
+				"lint": "eslint --ext=js,mjs .",
+				"postlint": "es-shim-api --bound",
+				"pretest": "npm run lint",
+				"tests-only": "mocha tests/*.js",
+				"test": "npm run tests-only",
+				"posttest": "aud --production"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/paulmillr/Array.prototype.find.git"
+			},
+			"author": {
+				"name": "Paul Miller",
+				"email": "http://paulmillr.com"
+			},
+			"funding": {
+				"url": "https://github.com/sponsors/ljharb"
+			},
+			"contributors": [
+				{
+					"name": "Duncan Hall",
+					"email": "himself@duncanhall.net"
+				}
+			],
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/paulmillr/Array.prototype.find/issues"
+			},
+			"devDependencies": {
+				"@es-shims/api": "^2.2.1",
+				"@ljharb/eslint-config": "^18.0.0",
+				"aud": "^1.1.5",
+				"chai": "^3.5.0",
+				"eslint": "^7.32.0",
+				"in-publish": "^2.0.1",
+				"mocha": "^3.5.3",
+				"safe-publish-latest": "^1.1.4"
+			},
+			"dependencies": {
+				"call-bind": "^1.0.2",
+				"define-properties": "^1.1.3",
+				"es-abstract": "^1.19.0"
+			},
+			"gitHead": "6cb3898ab707606988582c19e5373d68c29f0200",
+			"homepage": "https://github.com/paulmillr/Array.prototype.find#readme",
+			"_id": "array.prototype.find@2.1.2",
+			"_nodeVersion": "16.10.0",
+			"_npmVersion": "7.24.0",
+			"dist": {
+				"integrity": "sha512-00S1O4ewO95OmmJW7EesWfQlrCrLEL8kZ40w3+GkLX2yTt0m2ggcePPa2uHPJ9KUmJvwRq+lCV9bD8Yim23x/Q==",
+				"shasum": "6abbd0c2573925d8094f7d23112306af8c16d534",
+				"tarball": "https://registry.npmjs.org/array.prototype.find/-/array.prototype.find-2.1.2.tgz",
+				"fileCount": 13,
+				"unpackedSize": 14222,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJh2ju9CRA9TVsSAnZWagAAWCIP/Asezc7WA18XyWE6slwF\nbftn4EBwJ9rLv6uMezZVPDj0scOj6b3Movhi5FJOO6hv/B2Dlc6O68G7GM2C\nU4rlAQGOUig+sf8hHLva6K5WXBhwAmy1wle5S1jFfeBW0a7v9O0VbS9IbMX1\nK6k9icF6Uyhixs2sDwS1QNChBK394puu+dkfzQ3ioSnks4LnwvsjCsgs6ssH\nHCRYDrUikk4g4+Sp46Obmod+ZxHIEzvBhnZVj2TZ4QMx8CzA/YpNy0r7m53+\n2tEaTN30TcHPrdPcfc8XLplIckkzNXJoYJBWVmx4OEV4liVDZnoRILuVh37V\nleZvQEvENwuPnyXVhn5dRqrgrhNInbEOBQ+xwGkrXpITJ85QEdiJ6l7eFrit\n04nVagdhKu1yRIizYX5wATGrYIvUAWzad2WhGZb3xQs06djiKCjq8yCopXtB\nMd+VZBkHwZlIKUBvCVlqgBVMlOXUQ8t2bk3dbEVuki3d9Bhh0uQpkIba8rIj\nN6LjLF5rtt+bnjMYQ92kv1ORya/fCCLsTaY4XayZs73tfKOW53PRhXcQ8jRz\nAnqcqlKygvRKVy045JXDQaB/chesTrEcqfYENdXc3LjTi4raFA8K4gdENUvq\nz99HCnVfS0QjIXa/HKLl5rGugiaH3mbIrW517kXqA95WrRM8BjjgOF+nRsiD\n1wRp\r\n=GNMn\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCwyJwOX9Jbh1B/uHFExwWhPYfqtpvUPtFkHnjr2Y7K9AIhAKrYRJFnZyBvpOGBA67iw7bzPnQ9XXiA8z9aarb/jA5H"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "ljharb",
+				"email": "ljharb@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "paulmillr",
+					"email": "paul@paulmillr.com"
+				},
+				{
+					"name": "ljharb",
+					"email": "ljharb@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/array.prototype.find_2.1.2_1633103524411_0.10506542397468532"
+			},
+			"_hasShrinkwrap": false
+		},
+		"2.2.0": {
+			"name": "array.prototype.find",
+			"version": "2.2.0",
+			"description": "Array.prototype.find ES6 polyfill.",
+			"keywords": [
+				"Array.prototype.find",
+				"find",
+				"es6",
+				"ecmascript 6",
+				"polyfill"
+			],
+			"main": "index.js",
+			"scripts": {
+				"prepublishOnly": "safe-publish-latest",
+				"prepublish": "not-in-publish || npm run prepublishOnly",
+				"lint": "eslint --ext=js,mjs .",
+				"postlint": "es-shim-api --bound",
+				"pretest": "npm run lint",
+				"tests-only": "nyc tape 'test/**/*.js'",
+				"test": "npm run tests-only",
+				"posttest": "aud --production"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/paulmillr/Array.prototype.find.git"
+			},
+			"author": {
+				"name": "Paul Miller",
+				"email": "http://paulmillr.com"
+			},
+			"funding": {
+				"url": "https://github.com/sponsors/ljharb"
+			},
+			"contributors": [
+				{
+					"name": "Duncan Hall",
+					"email": "himself@duncanhall.net"
+				}
+			],
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/paulmillr/Array.prototype.find/issues"
+			},
+			"devDependencies": {
+				"@es-shims/api": "^2.2.3",
+				"@ljharb/eslint-config": "^21.0.0",
+				"aud": "^2.0.0",
+				"eslint": "=8.8.0",
+				"functions-have-names": "^1.2.2",
+				"has-strict-mode": "^1.0.1",
+				"in-publish": "^2.0.1",
+				"nyc": "^10.3.2",
+				"safe-publish-latest": "^2.0.0",
+				"tape": "^5.5.3"
+			},
+			"dependencies": {
+				"call-bind": "^1.0.2",
+				"define-properties": "^1.1.3",
+				"es-abstract": "^1.19.4",
+				"es-shim-unscopables": "^1.0.0"
+			},
+			"gitHead": "082563f95736b9b22bb9b3be909e9da2851f880c",
+			"homepage": "https://github.com/paulmillr/Array.prototype.find#readme",
+			"_id": "array.prototype.find@2.2.0",
+			"_nodeVersion": "17.9.0",
+			"_npmVersion": "8.3.1",
+			"dist": {
+				"integrity": "sha512-sn40qmUiLYAcRb/1HsIQjTTZ1kCy8II8VtZJpMn2Aoen9twULhbWXisfh3HimGqMlHGUul0/TfKCnXg42LuPpQ==",
+				"shasum": "153b8a28ad8965cd86d3117b07e6596af6f2880d",
+				"tarball": "https://registry.npmjs.org/array.prototype.find/-/array.prototype.find-2.2.0.tgz",
+				"fileCount": 16,
+				"unpackedSize": 15361,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIAp/MeZELSPCRbFL+A9CloVXk2fhQ+oC075a/Z8EzSWyAiAzcdpvIJ5IYsbDiGGwPVPRUJTfuK+bDorzf9zSwK1stQ=="
+					}
+				],
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJiVffTACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2VmqOSA/+L7CJWWSEwDhe4YwOZ371B0BOEyG7YranDZiiz1tVo2jVfDrF\r\nyR5sUBpqhyhn9Y//iGwR123msPCkhBG/8JHDCaeoy2KdbJ6aa5Zuz+HUN6g7\r\n0vlhGbqVAiiwSyy0QBZZhtlUonUYMfVIPVNZvtPeGHnPt1lSmHQERjDAZCBD\r\n7T64UJsO5yg0HxqFSENV/Gv7bxub+CgHkDnsz7hAdnjtz7hO3vtkgPk4xjN9\r\nDuqdZ39gF4kzIQzQwZNf/Lq0z+lcsdgHWVjZ+c/n/VbXPvv9az4mljXzHraS\r\nIkLk6/k4Lvpt90Q07auW7Rq4ZbW7bf5vQbAJV3VyjrLhy6EoBki2pY51kmUB\r\nB0Vy/zpOpNObTTeJm/Ru5/kv2Cuj7ITylvJKSBHxeYxUizMjSRZgDVG3QuuB\r\nYm9k6PIByx618XO4A8VtYtsWwCXBJ6WA1AzzOdfpdgwQEo5Au8pOuTwGvEmf\r\nUmUfYXxZeq75IX7g/+CN3PLTX56+f8Rdh+q7YtQaoEhQOtcg3fqyaXn3XJvV\r\nMAJr5yA94FAdMPvyv+RxTgs/1KOsSNiCTwqc32vrjGVae9gaSJ+6JziGRptx\r\nLc/LK7/7L3V2Dy9wiTDvurk+/dRhIIvMbi0aZ4/C8g2/Uhi0V4jeqUCvvZJ4\r\npgl/aWu0SCusc/+Qb0aBznojRnRu0EEk+UE=\r\n=DeI4\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "ljharb",
+				"email": "ljharb@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "paulmillr",
+					"email": "paul@paulmillr.com"
+				},
+				{
+					"name": "ljharb",
+					"email": "ljharb@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/array.prototype.find_2.2.0_1649801171418_0.14733201480473057"
+			},
+			"_hasShrinkwrap": false
+		}
+	},
+	"time": {
+		"modified": "2022-06-13T03:29:07.530Z",
+		"created": "2013-12-20T15:21:57.708Z",
+		"0.1.0": "2013-12-20T15:22:00.887Z",
+		"0.1.1": "2014-03-24T22:01:24.119Z",
+		"1.0.0": "2014-08-14T05:51:25.594Z",
+		"2.0.0": "2016-01-31T22:25:32.653Z",
+		"2.0.1": "2016-12-13T09:06:17.900Z",
+		"2.0.2": "2017-01-24T00:40:50.915Z",
+		"2.0.3": "2017-01-24T06:37:48.612Z",
+		"2.0.4": "2017-03-30T19:54:26.385Z",
+		"2.1.0": "2019-05-23T06:59:37.629Z",
+		"2.1.1": "2020-02-24T21:15:06.924Z",
+		"2.1.2": "2021-10-01T15:52:04.540Z",
+		"2.2.0": "2022-04-12T22:06:11.582Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "2.2.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"3e8f33db06dccd0aea196d4a9814c2c5\"",
+			"fetched": 1660840799323
+		}
+	},
+	"_distfiles": {
+		"array.prototype.find-0.1.0.tgz": {
+			"url": "https://registry.npmjs.org/array.prototype.find/-/array.prototype.find-0.1.0.tgz",
+			"sha": "e4d74dbfe4cc8040ae56374d2ea22b9caf2efa61",
+			"registry": "npmjs"
+		},
+		"array.prototype.find-0.1.1.tgz": {
+			"url": "https://registry.npmjs.org/array.prototype.find/-/array.prototype.find-0.1.1.tgz",
+			"sha": "a3ac2fd0e9d617b64b263670480bde28fa8f796f",
+			"registry": "npmjs"
+		},
+		"array.prototype.find-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/array.prototype.find/-/array.prototype.find-1.0.0.tgz",
+			"sha": "52d81768eb1c5692577ee29d96ca603dc76eb3a6",
+			"registry": "npmjs"
+		},
+		"array.prototype.find-2.0.0.tgz": {
+			"url": "https://registry.npmjs.org/array.prototype.find/-/array.prototype.find-2.0.0.tgz",
+			"sha": "56a9ab1edde2a7701ed6d9166acec338919d8430",
+			"registry": "npmjs"
+		},
+		"array.prototype.find-2.0.1.tgz": {
+			"url": "https://registry.npmjs.org/array.prototype.find/-/array.prototype.find-2.0.1.tgz",
+			"sha": "1557f888df6c57e4d1256f20852d687a25b51fde",
+			"registry": "npmjs"
+		},
+		"array.prototype.find-2.0.2.tgz": {
+			"url": "https://registry.npmjs.org/array.prototype.find/-/array.prototype.find-2.0.2.tgz",
+			"sha": "fb35f376ca4ef90ff03c98a545a68f211d8640c0",
+			"registry": "npmjs"
+		},
+		"array.prototype.find-2.0.3.tgz": {
+			"url": "https://registry.npmjs.org/array.prototype.find/-/array.prototype.find-2.0.3.tgz",
+			"sha": "08c3ec33e32ec4bab362a2958e686ae92f59271d",
+			"registry": "npmjs"
+		},
+		"array.prototype.find-2.0.4.tgz": {
+			"url": "https://registry.npmjs.org/array.prototype.find/-/array.prototype.find-2.0.4.tgz",
+			"sha": "556a5c5362c08648323ddaeb9de9d14bc1864c90",
+			"registry": "npmjs"
+		},
+		"array.prototype.find-2.1.0.tgz": {
+			"url": "https://registry.npmjs.org/array.prototype.find/-/array.prototype.find-2.1.0.tgz",
+			"sha": "630f2eaf70a39e608ac3573e45cf8ccd0ede9ad7",
+			"registry": "npmjs"
+		},
+		"array.prototype.find-2.1.1.tgz": {
+			"url": "https://registry.npmjs.org/array.prototype.find/-/array.prototype.find-2.1.1.tgz",
+			"sha": "3baca26108ca7affb08db06bf0be6cb3115a969c",
+			"registry": "npmjs"
+		},
+		"array.prototype.find-2.1.2.tgz": {
+			"url": "https://registry.npmjs.org/array.prototype.find/-/array.prototype.find-2.1.2.tgz",
+			"sha": "6abbd0c2573925d8094f7d23112306af8c16d534",
+			"registry": "npmjs"
+		},
+		"array.prototype.find-2.2.0.tgz": {
+			"url": "https://registry.npmjs.org/array.prototype.find/-/array.prototype.find-2.2.0.tgz",
+			"sha": "153b8a28ad8965cd86d3117b07e6596af6f2880d",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_rev": "3-0ca2a6a37ac9f364",
+	"_id": "array.prototype.find",
+	"readme": "# array.prototype.find <sup>[![Version Badge][npm-version-svg]][package-url]</sup>\n\n[![github actions][actions-image]][actions-url]\n[![coverage][codecov-image]][codecov-url]\n[![dependency status][deps-svg]][deps-url]\n[![dev dependency status][dev-deps-svg]][dev-deps-url]\n[![License][license-image]][license-url]\n[![Downloads][downloads-image]][downloads-url]\n\n[![npm badge][npm-badge-png]][package-url]\n\nSimple ES6 [Array.prototype.find](http://people.mozilla.org/%7Ejorendorff/es6-draft.html#sec-array.prototype.find) polyfill for older environments taken from [es6-shim](https://github.com/paulmillr/es6-shim).\n\nFor browsers and node.js.\n\n## Installation\n* Just include repo before your scripts.\n* `npm install array.prototype.find`\n\n## Usage\n\n* `Array.prototype.find(predicate[, thisArg])` returns first item that matches `predicate` function.\n* `predicate(value, index, collection)`: takes three arguments\n    * `value`: current collection element\n    * `index`: current collection element index\n    * `collection`: the collection\n\n```javascript\n// as a function\nvar find = require('array.prototype.find');\nfind([1, 2], function (x) { return x === 2; }); // 2\n\n// to shim it\nrequire('array.prototype.find').shim();\n```\n\nCode example:\n\n```javascript\n// Default:\n[1, 5, 10, 15].find(function (a) { return a > 9; }) // 10\n```\n\n## Acknowledgements\n\nTests, fixes, and travis support added by [_duncanhall](http://twitter.com/_duncanhall)\n\n## License\n\n[The MIT License](https://github.com/paulmillr/mit) (c) 2016 Paul Miller (http://paulmillr.com)\n\n[package-url]: https://npmjs.org/package/array.prototype.find\n[npm-version-svg]: https://versionbadg.es/es-shims/Array.prototype.find.svg\n[deps-svg]: https://david-dm.org/es-shims/Array.prototype.find.svg\n[deps-url]: https://david-dm.org/es-shims/Array.prototype.find\n[dev-deps-svg]: https://david-dm.org/es-shims/Array.prototype.find/dev-status.svg\n[dev-deps-url]: https://david-dm.org/es-shims/Array.prototype.find#info=devDependencies\n[npm-badge-png]: https://nodei.co/npm/array.prototype.find.png?downloads=true&stars=true\n[license-image]: https://img.shields.io/npm/l/array.prototype.find.svg\n[license-url]: LICENSE\n[downloads-image]: https://img.shields.io/npm/dm/array.prototype.find.svg\n[downloads-url]: https://npm-stat.com/charts.html?package=array.prototype.find\n[codecov-image]: https://codecov.io/gh/es-shims/Array.prototype.find/branch/master/graphs/badge.svg\n[codecov-url]: https://app.codecov.io/gh/es-shims/Array.prototype.find/\n[actions-image]: https://img.shields.io/endpoint?url=https://github-actions-badge-u3jn4tfpocch.runkit.sh/es-shims/Array.prototype.find\n[actions-url]: https://github.com/es-shims/Array.prototype.find/actions"
+}

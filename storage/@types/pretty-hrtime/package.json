@@ -1,0 +1,177 @@
+{
+	"name": "@types/pretty-hrtime",
+	"versions": {
+		"1.0.0": {
+			"name": "@types/pretty-hrtime",
+			"version": "1.0.0",
+			"description": "TypeScript definitions for pretty-hrtime",
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "BendingBender",
+					"url": "https://github.com/BendingBender",
+					"githubUsername": "BendingBender"
+				}
+			],
+			"main": "",
+			"types": "index",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+			},
+			"scripts": {},
+			"dependencies": {},
+			"typesPublisherContentHash": "676fd85fa5cbefc2af5ccec3614a729d73778669993016c1eee4e32d7c79b70f",
+			"typeScriptVersion": "2.0",
+			"_id": "@types/pretty-hrtime@1.0.0",
+			"dist": {
+				"integrity": "sha512-xl+5r2rcrxdLViAYkkiLMYsoUs3qEyrAnHFyEzYysgRxdVp3WbhysxIvJIxZp9FvZ2CYezh0TaHZorivH+voOQ==",
+				"shasum": "c5a2d644a135e988b2932f99737e67b3c62528d0",
+				"tarball": "https://registry.npmjs.org/@types/pretty-hrtime/-/pretty-hrtime-1.0.0.tgz",
+				"fileCount": 4,
+				"unpackedSize": 2838,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcLR7rCRA9TVsSAnZWagAA4poP/3+bAa2X8FfgOU1PB9Cu\nmIYK9I1vQIKlouYL8zgx1issewAS1rCX4DuHPh4PyTEZI1zS5BQVbv/t9DBa\nUdLcOIQkznhrf2pP30hJQCsOgSKs9jSJWRX05HKa/af9PI1WKd9sKOQDRD4w\n0a2nrnIA48+ImZQXzmQWoOspMMUnGwwOwRrEvzgMYGoOU58YG3fNo6EbycDm\nsqyU984FjmGRozL1qlj4VGNJqcOTZ4yVbLGHJa8A0wYT/5BRPdEMaq7viohp\nheHnEjL8Dd5n3eP05U80Be4w0noiNRQ2CtVdBNLmFGsKbhv1laNEwYDuL+gq\nCNqJGlHMtVfC5yANi8d8nEfpxs6M+9n5JCz2nkRBw5DvZmx2dM39uvPXTtcO\n0jb9vettFo2VchjbzVKSxB20rgNJzHcFPgDAofHYQMe1AclOwUr8o5gJyUli\nT1piMgot2avA3Jr/vuN5B/qKPVHrp7Vza7aD5pOOXIuN5OrKJcjO9y3AXM0o\n6hQm/SNkhaVQFUg2/tnpatcr8KBzJcO1z9bgCteVLqVR6yNgRDYB+9XrrxhQ\n7FKk/vqv3v4Hzxk7xRiFM7z21H+GsIqTO3ZJ6mefLQmcnCIbldOCN8lwQvTa\nBFW9kw3XvOcnSD073RJtwzlZGT1HLq4L1BH5JmpqWFMs5fthlefxcawID6qS\nl19v\r\n=v9iY\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIGi5eWqfDKxOJ6hRfjy/V2Kbd0U+WXkSK9jE0t6I+i8kAiEAoWOElVxI9AWh9rSCJz0Pk/rR79vgw0G6Oq6lr+iqeDs="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/pretty-hrtime_1.0.0_1546460906564_0.2681297272163188"
+			},
+			"_hasShrinkwrap": false
+		},
+		"1.0.1": {
+			"name": "@types/pretty-hrtime",
+			"version": "1.0.1",
+			"description": "TypeScript definitions for pretty-hrtime",
+			"homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/pretty-hrtime",
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "BendingBender",
+					"url": "https://github.com/BendingBender",
+					"githubUsername": "BendingBender"
+				}
+			],
+			"main": "",
+			"types": "index.d.ts",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+				"directory": "types/pretty-hrtime"
+			},
+			"scripts": {},
+			"dependencies": {},
+			"typesPublisherContentHash": "07c71fb19b9f4bd050a4d55c91feb009edc868782d04901060547dad83049b06",
+			"typeScriptVersion": "3.6",
+			"_id": "@types/pretty-hrtime@1.0.1",
+			"dist": {
+				"integrity": "sha512-VjID5MJb1eGKthz2qUerWT8+R4b9N+CHvGCzg9fn4kWZgaF9AhdYikQio3R7wV8YY1NsQKPaCwKz1Yff+aHNUQ==",
+				"shasum": "72a26101dc567b0d68fd956cf42314556e42d601",
+				"tarball": "https://registry.npmjs.org/@types/pretty-hrtime/-/pretty-hrtime-1.0.1.tgz",
+				"fileCount": 4,
+				"unpackedSize": 3601,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJg5eFBCRA9TVsSAnZWagAAF4AP/A4W3tDa5IkA6ArLtX34\nGGUz/avsU7QydPv/p+TAVP5yt3K25qTEjoSANehmtFsm5GtlD2kWqpU5Bqiw\nc/Wfh4wpVkdCximiNmov3Yc//r/nZRqd3XOLLMNLeQXH7mwJXAnPGZJkL4xr\nIR81dJXv5ZBLr0bEX2/01dLHN3PZeQ13cht0g58H8eJTeUJt4hPfZ7oZBtLk\nKHxoJpkmvTIFEdKCUyWvq0n68UJimLM8+s2z7buduJguchcQejZX3XTk8XQl\njjMzGwtIOaf90sJvEWPSFm2A5hgLk1XCBFADYw6VVjmaUN4CTvekX/hvNvux\nF3upcSEt48A8rPkmIzDfLispyIp6vUWTZe/2ylYX2+UAEOox6PjQKv2cXEit\nUgOWJ4RV/vVBJ+PRyWgGuVubMMR/9xI8p9SG+Rs2wdh6MOwZ89s/7T8uH/Zs\n0hHr46a9VLtYkM9n2tf1xbXxpZaf4EViBRFJFUlrKkiznA7ZnNR4T389EF1G\nSbV6lhF7G09cQ3bSPzQ7Mm4iu9Lhq/z+31xkVUFXe8D59V9evjfKRf3ZFMCS\nhB0tDTDy0zEnhUfw2z7rRrIuc/EgPCw65Xi+K7urMzWfBpmkFGhzSV1POLrA\ngzvoQsT/XKq17LitCvnoDgkX3qzX8+jYdVLg+/ZqkzBqaVPh8kePjK5OT7Qj\nOK+h\r\n=Nm2z\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDsyZqA8j8DgQL8lYolb1MwOnslVP0eY6Zw0FIpTOJfwwIhAJCAkjXOdxA4ZpKAWdWIEZn8/Lbr/zVL1LkcVLCq5Rrk"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/pretty-hrtime_1.0.1_1625678145029_0.9704805821943516"
+			},
+			"_hasShrinkwrap": false
+		}
+	},
+	"time": {
+		"created": "2019-01-02T20:28:26.383Z",
+		"1.0.0": "2019-01-02T20:28:26.689Z",
+		"modified": "2022-08-15T08:30:58.816Z",
+		"1.0.1": "2021-07-07T17:15:45.142Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "1.0.1",
+		"ts2.0": "1.0.0",
+		"ts2.1": "1.0.0",
+		"ts2.2": "1.0.0",
+		"ts2.3": "1.0.0",
+		"ts2.4": "1.0.0",
+		"ts2.5": "1.0.0",
+		"ts2.6": "1.0.0",
+		"ts2.7": "1.0.0",
+		"ts2.8": "1.0.0",
+		"ts2.9": "1.0.0",
+		"ts3.0": "1.0.0",
+		"ts3.1": "1.0.0",
+		"ts3.2": "1.0.0",
+		"ts3.3": "1.0.0",
+		"ts3.4": "1.0.0",
+		"ts3.5": "1.0.0",
+		"ts3.6": "1.0.1",
+		"ts3.7": "1.0.1",
+		"ts3.8": "1.0.1",
+		"ts3.9": "1.0.1",
+		"ts4.0": "1.0.1",
+		"ts4.1": "1.0.1",
+		"ts4.2": "1.0.1",
+		"ts4.3": "1.0.1",
+		"ts4.4": "1.0.1",
+		"ts4.5": "1.0.1",
+		"ts4.6": "1.0.1",
+		"ts4.7": "1.0.1",
+		"ts4.8": "1.0.1",
+		"ts4.9": "1.0.1"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"0f9d83ffe6214529fb0af555d83b2bdd\"",
+			"fetched": 1660840752340
+		}
+	},
+	"_distfiles": {
+		"pretty-hrtime-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/@types/pretty-hrtime/-/pretty-hrtime-1.0.0.tgz",
+			"sha": "c5a2d644a135e988b2932f99737e67b3c62528d0",
+			"registry": "npmjs"
+		},
+		"pretty-hrtime-1.0.1.tgz": {
+			"url": "https://registry.npmjs.org/@types/pretty-hrtime/-/pretty-hrtime-1.0.1.tgz",
+			"sha": "72a26101dc567b0d68fd956cf42314556e42d601",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_rev": "3-4dbe4078cf8968cd",
+	"_id": "@types/pretty-hrtime",
+	"readme": "# Installation\r\n> `npm install --save @types/pretty-hrtime`\r\n\r\n# Summary\r\nThis package contains type definitions for pretty-hrtime (https://github.com/robrich/pretty-hrtime).\r\n\r\n# Details\r\nFiles were exported from https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/pretty-hrtime.\r\n## [index.d.ts](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/pretty-hrtime/index.d.ts)\r\n````ts\r\n// Type definitions for pretty-hrtime 1.0\n// Project: https://github.com/robrich/pretty-hrtime\n// Definitions by: BendingBender <https://github.com/BendingBender>\n// Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped\n\nexport = prettyHrtime;\n\ndeclare function prettyHrtime(hrTime: [number, number], options?: prettyHrtime.Options): string;\n\ndeclare namespace prettyHrtime {\n    interface Options {\n        verbose?: boolean | undefined;\n        precise?: boolean | undefined;\n    }\n}\n\r\n````\r\n\r\n### Additional Details\r\n * Last updated: Wed, 07 Jul 2021 17:02:36 GMT\r\n * Dependencies: none\r\n * Global values: none\r\n\r\n# Credits\r\nThese definitions were written by [BendingBender](https://github.com/BendingBender)."
+}

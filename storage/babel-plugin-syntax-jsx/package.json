@@ -1,0 +1,2243 @@
+{
+	"name": "babel-plugin-syntax-jsx",
+	"versions": {
+		"6.0.2": {
+			"name": "babel-plugin-syntax-jsx",
+			"version": "6.0.2",
+			"description": "",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/babel/babel.git"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"dependencies": {
+				"babel-runtime": "^6.0.2"
+			},
+			"bugs": {
+				"url": "https://github.com/babel/babel/issues"
+			},
+			"homepage": "https://github.com/babel/babel#readme",
+			"_id": "babel-plugin-syntax-jsx@6.0.2",
+			"scripts": {},
+			"_shasum": "4f1ba73a604e0fbe3b7f0d801fe48f7b08654f6c",
+			"_from": ".",
+			"_npmVersion": "2.14.3",
+			"_nodeVersion": "4.1.0",
+			"_npmUser": {
+				"name": "sebmck",
+				"email": "sebmck@gmail.com"
+			},
+			"dist": {
+				"shasum": "4f1ba73a604e0fbe3b7f0d801fe48f7b08654f6c",
+				"tarball": "https://registry.npmjs.org/babel-plugin-syntax-jsx/-/babel-plugin-syntax-jsx-6.0.2.tgz",
+				"integrity": "sha512-Sf+qgzeHPDDKc59amVeOHaq+gqQm+xuHzb1USTbtfB6DxHg1aRLRcTV0db5itK/EK9Cs+QFh4JR/T+zXvtTtRw==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQD0UEHvJpCFycSOqG8LqI5r6akVh+E74onOnJishmFCHAIhAK5iT0KKxN7UbNqlrQnpCFsKzXdS8DEJxeIa7xqAgn5f"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "sebmck",
+					"email": "sebmck@gmail.com"
+				}
+			],
+			"directories": {},
+			"contributors": []
+		},
+		"6.0.14": {
+			"name": "babel-plugin-syntax-jsx",
+			"version": "6.0.14",
+			"description": "",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-jsx"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"dependencies": {
+				"babel-runtime": "^5.0.0"
+			},
+			"_id": "babel-plugin-syntax-jsx@6.0.14",
+			"scripts": {},
+			"_shasum": "d93e2f2aafc61f30534daa27abfdb3e558c2f1f2",
+			"_from": ".",
+			"_npmVersion": "2.14.9",
+			"_nodeVersion": "4.1.0",
+			"_npmUser": {
+				"name": "sebmck",
+				"email": "sebmck@gmail.com"
+			},
+			"dist": {
+				"shasum": "d93e2f2aafc61f30534daa27abfdb3e558c2f1f2",
+				"tarball": "https://registry.npmjs.org/babel-plugin-syntax-jsx/-/babel-plugin-syntax-jsx-6.0.14.tgz",
+				"integrity": "sha512-jgxFtll1rCFiRTH+FsduKw+fkGINLYlldyr9LtDcxzCs9puknKhcPiWI6e9KIq8E9GkpVrMjEHOYwMpzNn2Sqg==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQC6t4sbDvVjk3b2BTfdddemOM6nSuo1th9ufOTg+1R1OAIgZuETD8ZE2CeU0OwdX1VkCK1S9DgHjMy/KO96KMKLsiI="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "sebmck",
+					"email": "sebmck@gmail.com"
+				}
+			],
+			"directories": {},
+			"contributors": []
+		},
+		"6.1.4": {
+			"name": "babel-plugin-syntax-jsx",
+			"version": "6.1.4",
+			"description": "",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-jsx"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"dependencies": {
+				"babel-runtime": "^5.0.0"
+			},
+			"devDependencies": {
+				"babel-helper-plugin-test-runner": "^6.1.4"
+			},
+			"_id": "babel-plugin-syntax-jsx@6.1.4",
+			"scripts": {},
+			"_shasum": "5b60946a7f1327c89882787e239809bce59e6907",
+			"_from": ".",
+			"_npmVersion": "3.3.10",
+			"_nodeVersion": "4.1.0",
+			"_npmUser": {
+				"name": "sebmck",
+				"email": "sebmck@gmail.com"
+			},
+			"dist": {
+				"shasum": "5b60946a7f1327c89882787e239809bce59e6907",
+				"tarball": "https://registry.npmjs.org/babel-plugin-syntax-jsx/-/babel-plugin-syntax-jsx-6.1.4.tgz",
+				"integrity": "sha512-HJanQCgIYs+YpRUuTbuY0XXPVu0pZcvbu11Rfj17tQA5sf6VOQrGHMcYkXXN1fpNyt2lfR8nhpYOm15SBRvG8A==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIFNA0rqUEcSqmDNKAPyuO7255U50quD/RxOBmaQWnvJ9AiBNNHxnaBz96V8FFxJYIKu0fwYi0uZLe0PajJNagRbIDg=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "sebmck",
+					"email": "sebmck@gmail.com"
+				}
+			],
+			"directories": {},
+			"contributors": []
+		},
+		"6.1.5": {
+			"name": "babel-plugin-syntax-jsx",
+			"version": "6.1.5",
+			"description": "",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-jsx"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"dependencies": {
+				"babel-runtime": "^5.0.0"
+			},
+			"devDependencies": {
+				"babel-helper-plugin-test-runner": "^6.1.5"
+			},
+			"_id": "babel-plugin-syntax-jsx@6.1.5",
+			"scripts": {},
+			"_shasum": "368d380126c843032292fa765f181b8cda933017",
+			"_from": ".",
+			"_npmVersion": "3.3.10",
+			"_nodeVersion": "4.1.0",
+			"_npmUser": {
+				"name": "sebmck",
+				"email": "sebmck@gmail.com"
+			},
+			"dist": {
+				"shasum": "368d380126c843032292fa765f181b8cda933017",
+				"tarball": "https://registry.npmjs.org/babel-plugin-syntax-jsx/-/babel-plugin-syntax-jsx-6.1.5.tgz",
+				"integrity": "sha512-eNp9ZMmDHTr+d+Zll6A4EecnasOOa8mLj6NeO8stZI/nZZ49aHtaN9v28P0qV+LPxp2lup/D+QW3QUVvCizDkg==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDuDg7FNIHdquaDG35ZGvChRuvJ23xG5Y39MlwERA8EpAIgDmE66d0uecJ+vTUoZcVBpAUtTlJyhiwZlF9Cd9Wq46A="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "sebmck",
+					"email": "sebmck@gmail.com"
+				}
+			],
+			"directories": {},
+			"contributors": []
+		},
+		"6.1.6": {
+			"name": "babel-plugin-syntax-jsx",
+			"version": "6.1.6",
+			"description": "",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-jsx"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"dependencies": {
+				"babel-runtime": "^5.0.0"
+			},
+			"devDependencies": {
+				"babel-helper-plugin-test-runner": "^6.1.6"
+			},
+			"_id": "babel-plugin-syntax-jsx@6.1.6",
+			"scripts": {},
+			"_shasum": "11a29737e8bf6aa0967964075aca14f906cd5951",
+			"_from": ".",
+			"_npmVersion": "3.3.10",
+			"_nodeVersion": "4.1.0",
+			"_npmUser": {
+				"name": "sebmck",
+				"email": "sebmck@gmail.com"
+			},
+			"dist": {
+				"shasum": "11a29737e8bf6aa0967964075aca14f906cd5951",
+				"tarball": "https://registry.npmjs.org/babel-plugin-syntax-jsx/-/babel-plugin-syntax-jsx-6.1.6.tgz",
+				"integrity": "sha512-pOc/8ufiUdMPPMaefR6zqN4LNdg+4wgVno2InRbQVE8X73KlmPXwk/Cz7U4IR8bo0L3tfgmOLWWSNOAE2MdaNQ==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDLhlA44F+A8KDFZKUZuC0CUUbBhRGwLW6v8Oe0bJ8wjwIgWsp4FQ+hK8kldXa0XwH6VqekMLQsxcWPLEOovqXTRbk="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "amasad",
+					"email": "amjad.masad@gmail.com"
+				},
+				{
+					"name": "sebmck",
+					"email": "sebmck@gmail.com"
+				},
+				{
+					"name": "thejameskyle",
+					"email": "me@thejameskyle.com"
+				}
+			],
+			"directories": {},
+			"contributors": []
+		},
+		"6.1.10": {
+			"name": "babel-plugin-syntax-jsx",
+			"version": "6.1.10",
+			"description": "",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-jsx"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"dependencies": {
+				"babel-runtime": "^5.0.0"
+			},
+			"devDependencies": {
+				"babel-helper-plugin-test-runner": "^6.1.10"
+			},
+			"_id": "babel-plugin-syntax-jsx@6.1.10",
+			"scripts": {},
+			"_shasum": "e3375b7f483a5f491e366f3b0565c6bf04f5feef",
+			"_from": ".",
+			"_npmVersion": "3.3.10",
+			"_nodeVersion": "4.1.0",
+			"_npmUser": {
+				"name": "sebmck",
+				"email": "sebmck@gmail.com"
+			},
+			"dist": {
+				"shasum": "e3375b7f483a5f491e366f3b0565c6bf04f5feef",
+				"tarball": "https://registry.npmjs.org/babel-plugin-syntax-jsx/-/babel-plugin-syntax-jsx-6.1.10.tgz",
+				"integrity": "sha512-x/h9MzqMfywpigxpsW4vrS/7iRDuOAgR9t1PC6esInafFrMk9tV1wFxcQtoAwgtuf+juHvcW6Rjmlc3u1+QcAQ==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDr20zQOtl7bO4sYyxngApXXi/ezkBuAR7I3fSWVtVn5gIhAIvz2UvYhv43zP84PO00ES0pgXf0ULPPYqxinPuQb11/"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "amasad",
+					"email": "amjad.masad@gmail.com"
+				},
+				{
+					"name": "sebmck",
+					"email": "sebmck@gmail.com"
+				},
+				{
+					"name": "thejameskyle",
+					"email": "me@thejameskyle.com"
+				}
+			],
+			"directories": {},
+			"contributors": []
+		},
+		"6.1.13": {
+			"name": "babel-plugin-syntax-jsx",
+			"version": "6.1.13",
+			"description": "",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-jsx"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"dependencies": {
+				"babel-runtime": "^5.0.0"
+			},
+			"devDependencies": {
+				"babel-helper-plugin-test-runner": "^6.1.13"
+			},
+			"_id": "babel-plugin-syntax-jsx@6.1.13",
+			"scripts": {},
+			"_shasum": "258473e2582672a8b5c5553bf3949f7c5c13ec75",
+			"_from": ".",
+			"_npmVersion": "3.3.10",
+			"_nodeVersion": "4.1.0",
+			"_npmUser": {
+				"name": "sebmck",
+				"email": "sebmck@gmail.com"
+			},
+			"dist": {
+				"shasum": "258473e2582672a8b5c5553bf3949f7c5c13ec75",
+				"tarball": "https://registry.npmjs.org/babel-plugin-syntax-jsx/-/babel-plugin-syntax-jsx-6.1.13.tgz",
+				"integrity": "sha512-ENh/DoGiBwTH463Gfx/VU1+5d8BZEXrfSeOOngmdr8QLScQaQ0LX6dsF5C8oPwLbpBfULl5zUpU9ZEv49mqErg==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIG3iOivzIO+wQU/eT7j8GS+p7/wz3iJVbqN/2ImIDQjyAiA8R7b8foTBDJiBjGv8YxdyI2HR/XKy9XL8UKLrWlbb/w=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "amasad",
+					"email": "amjad.masad@gmail.com"
+				},
+				{
+					"name": "sebmck",
+					"email": "sebmck@gmail.com"
+				},
+				{
+					"name": "thejameskyle",
+					"email": "me@thejameskyle.com"
+				}
+			],
+			"directories": {},
+			"contributors": []
+		},
+		"6.1.16": {
+			"name": "babel-plugin-syntax-jsx",
+			"version": "6.1.16",
+			"description": "",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-jsx"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"dependencies": {
+				"babel-runtime": "^5.0.0"
+			},
+			"devDependencies": {
+				"babel-helper-plugin-test-runner": "^6.1.16"
+			},
+			"_id": "babel-plugin-syntax-jsx@6.1.16",
+			"scripts": {},
+			"_shasum": "6c1d47b89278fddbda72a174b9d5c6bd970c0746",
+			"_from": ".",
+			"_npmVersion": "3.3.10",
+			"_nodeVersion": "4.1.0",
+			"_npmUser": {
+				"name": "sebmck",
+				"email": "sebmck@gmail.com"
+			},
+			"dist": {
+				"shasum": "6c1d47b89278fddbda72a174b9d5c6bd970c0746",
+				"tarball": "https://registry.npmjs.org/babel-plugin-syntax-jsx/-/babel-plugin-syntax-jsx-6.1.16.tgz",
+				"integrity": "sha512-GCU/8MUOnsvl4C74e9V2KO1c8ZJ0lCCoqwHdgCIRhWy+/MWiXXTtYDjfFf8My/dJZGpkshVIediWcETZZTkbEw==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIHhD1RdSf7SE+30ZxPsDvZg2vAmsYxDhtvczkr88igd1AiA+SJ6ObZRjMRCwLQbgyaryjyzByPrKDtiR9fe5bRd7jA=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "amasad",
+					"email": "amjad.masad@gmail.com"
+				},
+				{
+					"name": "sebmck",
+					"email": "sebmck@gmail.com"
+				},
+				{
+					"name": "thejameskyle",
+					"email": "me@thejameskyle.com"
+				}
+			],
+			"directories": {},
+			"contributors": []
+		},
+		"6.1.17": {
+			"name": "babel-plugin-syntax-jsx",
+			"version": "6.1.17",
+			"description": "",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-jsx"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"dependencies": {
+				"babel-runtime": "^5.0.0"
+			},
+			"devDependencies": {
+				"babel-helper-plugin-test-runner": "^6.1.17"
+			},
+			"_id": "babel-plugin-syntax-jsx@6.1.17",
+			"scripts": {},
+			"_shasum": "aed15519766375e101aafafd24354f7b41dc9cc7",
+			"_from": ".",
+			"_npmVersion": "3.3.10",
+			"_nodeVersion": "4.1.0",
+			"_npmUser": {
+				"name": "sebmck",
+				"email": "sebmck@gmail.com"
+			},
+			"dist": {
+				"shasum": "aed15519766375e101aafafd24354f7b41dc9cc7",
+				"tarball": "https://registry.npmjs.org/babel-plugin-syntax-jsx/-/babel-plugin-syntax-jsx-6.1.17.tgz",
+				"integrity": "sha512-6tDrMrgDTaxTPq+LYB6J5kVe//cQXwC+G42sJkWlTxLx6gqXnjdU/YK6qyySGc2aSoXh4YhVi48kMfOrYGvNjw==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCMlvj2RcNkJ90oXMIvAnmLmUuoXrPzK+jaKEF/e8drRgIhAI7FZcB0K9NZ7PO+agnGpyhPOZUl20/e+C6FB/Eg6888"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "amasad",
+					"email": "amjad.masad@gmail.com"
+				},
+				{
+					"name": "sebmck",
+					"email": "sebmck@gmail.com"
+				},
+				{
+					"name": "thejameskyle",
+					"email": "me@thejameskyle.com"
+				}
+			],
+			"directories": {},
+			"contributors": []
+		},
+		"6.1.18": {
+			"name": "babel-plugin-syntax-jsx",
+			"version": "6.1.18",
+			"description": "",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-jsx"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"dependencies": {
+				"babel-runtime": "^5.0.0"
+			},
+			"devDependencies": {
+				"babel-helper-plugin-test-runner": "^6.1.18"
+			},
+			"_id": "babel-plugin-syntax-jsx@6.1.18",
+			"scripts": {},
+			"_shasum": "ec0f97ea561aca201c74137dcc54b3253c6f6818",
+			"_from": ".",
+			"_npmVersion": "3.3.10",
+			"_nodeVersion": "4.1.0",
+			"_npmUser": {
+				"name": "sebmck",
+				"email": "sebmck@gmail.com"
+			},
+			"dist": {
+				"shasum": "ec0f97ea561aca201c74137dcc54b3253c6f6818",
+				"tarball": "https://registry.npmjs.org/babel-plugin-syntax-jsx/-/babel-plugin-syntax-jsx-6.1.18.tgz",
+				"integrity": "sha512-H+fMdKVJr4zqymt85aLJYPdxOPT7fkH7x2fyTV7sepxnNcVFD8T6hS32eByXEJrVTJBkFf4k5y461Qd8pZ7xdA==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIEeTtv23G8pc6CT20t+Alyy9qUfhn0Ch2I1cXtW9tzNMAiAApMHdM8NRDVTFFiEAkySXBP9pDPVsJkAhYbRm98Jtnw=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "amasad",
+					"email": "amjad.masad@gmail.com"
+				},
+				{
+					"name": "sebmck",
+					"email": "sebmck@gmail.com"
+				},
+				{
+					"name": "thejameskyle",
+					"email": "me@thejameskyle.com"
+				}
+			],
+			"directories": {},
+			"contributors": []
+		},
+		"6.2.4": {
+			"name": "babel-plugin-syntax-jsx",
+			"version": "6.2.4",
+			"description": "",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-jsx"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"dependencies": {
+				"babel-runtime": "^5.0.0"
+			},
+			"devDependencies": {
+				"babel-helper-plugin-test-runner": "^6.2.4"
+			},
+			"_id": "babel-plugin-syntax-jsx@6.2.4",
+			"scripts": {},
+			"_shasum": "cff49835e0a5f2f24992fb0d1c41d4c955407758",
+			"_from": ".",
+			"_npmVersion": "3.3.10",
+			"_nodeVersion": "4.1.0",
+			"_npmUser": {
+				"name": "sebmck",
+				"email": "sebmck@gmail.com"
+			},
+			"dist": {
+				"shasum": "cff49835e0a5f2f24992fb0d1c41d4c955407758",
+				"tarball": "https://registry.npmjs.org/babel-plugin-syntax-jsx/-/babel-plugin-syntax-jsx-6.2.4.tgz",
+				"integrity": "sha512-OGeYDRgEOsFTFY3g6rHfA7+AdErS9wwYMzdOg7FF2h61abyUT/f3IiRa4HYTKg9IS9Bc0rREtQYTU7iylEIWNA==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQCYhitZ1yDHypBP3mrRw9z6IjM3KDnA+Wh+6r7FcZgiogIgShUpDQITYul6BwqMeCjc5XosTrDHbU60/5h6sZ/WujM="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "amasad",
+					"email": "amjad.masad@gmail.com"
+				},
+				{
+					"name": "sebmck",
+					"email": "sebmck@gmail.com"
+				},
+				{
+					"name": "thejameskyle",
+					"email": "me@thejameskyle.com"
+				}
+			],
+			"directories": {},
+			"contributors": []
+		},
+		"6.3.13": {
+			"name": "babel-plugin-syntax-jsx",
+			"version": "6.3.13",
+			"description": "",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-jsx"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"dependencies": {
+				"babel-runtime": "^5.0.0"
+			},
+			"devDependencies": {
+				"babel-helper-plugin-test-runner": "^6.3.13"
+			},
+			"_id": "babel-plugin-syntax-jsx@6.3.13",
+			"scripts": {},
+			"_shasum": "5018d1da9f020fd629ef72264220e3a5bac764d1",
+			"_from": ".",
+			"_npmVersion": "3.3.10",
+			"_nodeVersion": "4.1.0",
+			"_npmUser": {
+				"name": "sebmck",
+				"email": "sebmck@gmail.com"
+			},
+			"dist": {
+				"shasum": "5018d1da9f020fd629ef72264220e3a5bac764d1",
+				"tarball": "https://registry.npmjs.org/babel-plugin-syntax-jsx/-/babel-plugin-syntax-jsx-6.3.13.tgz",
+				"integrity": "sha512-l0aL1IXmtjUSGvnzO9eO7GDkcNWyOYOR9D0yO6hne1rRvC56RQSI+oEPPFQo6Gh/XEzkbEvjvZifq9A+yJGaIA==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDDlFkArEKTr0zwHR95a6ZnnMM/uj9GwZY8wrwq2Qq0JAIhAOC37eSQ8BTEImnftnLFOSG5rTzRm4k6WJsJ4m7CNWWM"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "amasad",
+					"email": "amjad.masad@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "jmm",
+					"email": "npm-public@jessemccarthy.net"
+				},
+				{
+					"name": "loganfsmyth",
+					"email": "loganfsmyth@gmail.com"
+				},
+				{
+					"name": "sebmck",
+					"email": "sebmck@gmail.com"
+				},
+				{
+					"name": "thejameskyle",
+					"email": "me@thejameskyle.com"
+				}
+			],
+			"directories": {},
+			"contributors": []
+		},
+		"6.5.0": {
+			"name": "babel-plugin-syntax-jsx",
+			"version": "6.5.0",
+			"description": "",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-jsx"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"dependencies": {
+				"babel-runtime": "^5.0.0"
+			},
+			"devDependencies": {
+				"babel-helper-plugin-test-runner": "^6.3.13"
+			},
+			"_id": "babel-plugin-syntax-jsx@6.5.0",
+			"scripts": {},
+			"_shasum": "fa708c5761d13ec39128a4ba24abfe8be6ad8170",
+			"_from": ".",
+			"_npmVersion": "3.6.0",
+			"_nodeVersion": "5.1.0",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"shasum": "fa708c5761d13ec39128a4ba24abfe8be6ad8170",
+				"tarball": "https://registry.npmjs.org/babel-plugin-syntax-jsx/-/babel-plugin-syntax-jsx-6.5.0.tgz",
+				"integrity": "sha512-pZC/ue+QFhnKkAqakuUPcOrhi4w/tZwwdRY4z+5T2F93ngNS5K6dRnfn6ZtZfZVvEt4j3PI88BQdzVs/ybSRVA==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCICiuRAMqHsBDO+X4zPv/pDkCcNBdnhAs8HNwaof6xX4PAiB8jZYkDY7k6jSHMfoqFLoJgVXf7phkvHjlsCxJrqJKKw=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "amasad",
+					"email": "amjad.masad@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "jmm",
+					"email": "npm-public@jessemccarthy.net"
+				},
+				{
+					"name": "loganfsmyth",
+					"email": "loganfsmyth@gmail.com"
+				},
+				{
+					"name": "sebmck",
+					"email": "sebmck@gmail.com"
+				},
+				{
+					"name": "thejameskyle",
+					"email": "me@thejameskyle.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-5-east.internal.npmjs.com",
+				"tmp": "tmp/babel-plugin-syntax-jsx-6.5.0.tgz_1454803639252_0.10849612834863365"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"6.5.0-1": {
+			"name": "babel-plugin-syntax-jsx",
+			"version": "6.5.0-1",
+			"description": "",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-jsx"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"dependencies": {
+				"babel-runtime": "^5.0.0"
+			},
+			"devDependencies": {
+				"babel-helper-plugin-test-runner": "^6.5.0-1"
+			},
+			"_id": "babel-plugin-syntax-jsx@6.5.0-1",
+			"scripts": {},
+			"_shasum": "d37649c43df9d8dc744b19461a5d68b8326d4f75",
+			"_from": ".",
+			"_npmVersion": "3.6.0",
+			"_nodeVersion": "5.1.0",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"shasum": "d37649c43df9d8dc744b19461a5d68b8326d4f75",
+				"tarball": "https://registry.npmjs.org/babel-plugin-syntax-jsx/-/babel-plugin-syntax-jsx-6.5.0-1.tgz",
+				"integrity": "sha512-Oy032ZqW/H/AASFZnAqP9dO0/DkGp5uCSSIWq7ZZd4xrUU7H65VDnmOIqYhxQcURgOxA7G5OwqZycxy4S+BVUg==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDGX1yYqHX2QuiW1YP/N/7jsIahCGiFiMX4Yse0Sv1wGgIhAOB/bNYTYlwGfJCweqqz9nCZAn+eXqF69Kf+jHgvi8O+"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "amasad",
+					"email": "amjad.masad@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "jmm",
+					"email": "npm-public@jessemccarthy.net"
+				},
+				{
+					"name": "loganfsmyth",
+					"email": "loganfsmyth@gmail.com"
+				},
+				{
+					"name": "sebmck",
+					"email": "sebmck@gmail.com"
+				},
+				{
+					"name": "thejameskyle",
+					"email": "me@thejameskyle.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-5-east.internal.npmjs.com",
+				"tmp": "tmp/babel-plugin-syntax-jsx-6.5.0-1.tgz_1454812869883_0.5484390447381884"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"6.8.0": {
+			"name": "babel-plugin-syntax-jsx",
+			"version": "6.8.0",
+			"description": "",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-jsx"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"dependencies": {
+				"babel-runtime": "^6.0.0"
+			},
+			"devDependencies": {
+				"babel-helper-plugin-test-runner": "^6.8.0"
+			},
+			"_id": "babel-plugin-syntax-jsx@6.8.0",
+			"scripts": {},
+			"_shasum": "1c5430a488a5046a47c8da1ad631f16afe8d111a",
+			"_from": ".",
+			"_npmVersion": "3.8.6",
+			"_nodeVersion": "5.1.0",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"maintainers": [
+				{
+					"name": "amasad",
+					"email": "amjad.masad@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "jmm",
+					"email": "npm-public@jessemccarthy.net"
+				},
+				{
+					"name": "loganfsmyth",
+					"email": "loganfsmyth@gmail.com"
+				},
+				{
+					"name": "sebmck",
+					"email": "sebmck@gmail.com"
+				},
+				{
+					"name": "thejameskyle",
+					"email": "me@thejameskyle.com"
+				}
+			],
+			"dist": {
+				"shasum": "1c5430a488a5046a47c8da1ad631f16afe8d111a",
+				"tarball": "https://registry.npmjs.org/babel-plugin-syntax-jsx/-/babel-plugin-syntax-jsx-6.8.0.tgz",
+				"integrity": "sha512-vbvMelzK1cn3mApKym9hRRePeFm4geaUYUd8kNzZ5xlFmtht2pk7/CRTAzWnGSHS6dHCdJqT9yndGHie3q2Z3A==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIEicFX67H0vWnRa1tVSa2NIQg2FdBzNBUdhBLuYxsMETAiEA/yZqZEeRV0c3qwpDILxx6Yp2teMyyI93oX6M1Na4ycI="
+					}
+				]
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/babel-plugin-syntax-jsx-6.8.0.tgz_1462232664010_0.724689710419625"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"6.13.0": {
+			"name": "babel-plugin-syntax-jsx",
+			"version": "6.13.0",
+			"description": "",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-jsx"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"dependencies": {},
+			"devDependencies": {},
+			"_id": "babel-plugin-syntax-jsx@6.13.0",
+			"scripts": {},
+			"_shasum": "e741ff3992c578310be45c571bcd90a2f9c5586e",
+			"_from": ".",
+			"_npmVersion": "3.10.3",
+			"_nodeVersion": "5.11.1",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"shasum": "e741ff3992c578310be45c571bcd90a2f9c5586e",
+				"tarball": "https://registry.npmjs.org/babel-plugin-syntax-jsx/-/babel-plugin-syntax-jsx-6.13.0.tgz",
+				"integrity": "sha512-9u4wIwsdKU8lSn8eChezPGz5k+VNBsut3Uw3ul/hu+jaAW5pokmRs6Aqs5lyWBx40Kj67JMq5FSgvKmoeV9cDQ==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIFj+GdIpC+HVUZo//Nv+YlLS1LS1ttDzYo+OS/SbnFxXAiEAkO98wlQhKLo5FT02BxF3W4HTqaY5/qvikUIdHb5qlgA="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "amasad",
+					"email": "amjad.masad@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "jmm",
+					"email": "npm-public@jessemccarthy.net"
+				},
+				{
+					"name": "loganfsmyth",
+					"email": "loganfsmyth@gmail.com"
+				},
+				{
+					"name": "sebmck",
+					"email": "sebmck@gmail.com"
+				},
+				{
+					"name": "thejameskyle",
+					"email": "me@thejameskyle.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/babel-plugin-syntax-jsx-6.13.0.tgz_1470353701397_0.4456785914953798"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"6.18.0": {
+			"name": "babel-plugin-syntax-jsx",
+			"version": "6.18.0",
+			"description": "Allow parsing of jsx",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-jsx"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"dependencies": {},
+			"devDependencies": {},
+			"_id": "babel-plugin-syntax-jsx@6.18.0",
+			"scripts": {},
+			"_shasum": "0af32a9a6e13ca7a3fd5069e62d7b0f58d0d8946",
+			"_from": ".",
+			"_npmVersion": "3.10.8",
+			"_nodeVersion": "6.9.0",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"shasum": "0af32a9a6e13ca7a3fd5069e62d7b0f58d0d8946",
+				"tarball": "https://registry.npmjs.org/babel-plugin-syntax-jsx/-/babel-plugin-syntax-jsx-6.18.0.tgz",
+				"integrity": "sha512-qrPaCSo9c8RHNRHIotaufGbuOBN8rtdC4QrrFFc43vyWCCz7Kl7GL1PGaXtMGQZUXrkCjNEgxDfmAuAabr/rlw==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIEKIebCBGXP3ZX/oollpQRAtehhiuaezcaR6dVTXdAifAiEApotWRHVkNHfD0XP0KTkvaJB04pYiY+j49F/G3xYJSYc="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "amasad",
+					"email": "amjad.masad@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "jmm",
+					"email": "npm-public@jessemccarthy.net"
+				},
+				{
+					"name": "loganfsmyth",
+					"email": "loganfsmyth@gmail.com"
+				},
+				{
+					"name": "sebmck",
+					"email": "sebmck@gmail.com"
+				},
+				{
+					"name": "thejameskyle",
+					"email": "me@thejameskyle.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/babel-plugin-syntax-jsx-6.18.0.tgz_1477343936472_0.17020426644012332"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"7.0.0-alpha.1": {
+			"name": "babel-plugin-syntax-jsx",
+			"version": "7.0.0-alpha.1",
+			"description": "Allow parsing of jsx",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-jsx"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"dependencies": {},
+			"devDependencies": {},
+			"_id": "babel-plugin-syntax-jsx@7.0.0-alpha.1",
+			"scripts": {},
+			"_shasum": "ab41578d3a64ded46001671fd7fb883f1ca358b2",
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_nodeVersion": "6.9.0",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"shasum": "ab41578d3a64ded46001671fd7fb883f1ca358b2",
+				"tarball": "https://registry.npmjs.org/babel-plugin-syntax-jsx/-/babel-plugin-syntax-jsx-7.0.0-alpha.1.tgz",
+				"integrity": "sha512-VXOwdHp2NYwjnEkm4R0n/Vr9U9dOAtQEHM0WW4IYvfAExWC5aqgssnOEH8wXY53ImIMj+opO6qmbFNY6bukaJQ==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIBqzEV1iYzUrIkm0PCFcOxLprTfrFsDaU+hZ1AaB/lXmAiBIkXTeLIDY1VT+3G0a226kV3FIVpjPge5S3r7MZ6U1ig=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "amasad",
+					"email": "amjad.masad@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "jmm",
+					"email": "npm-public@jessemccarthy.net"
+				},
+				{
+					"name": "loganfsmyth",
+					"email": "loganfsmyth@gmail.com"
+				},
+				{
+					"name": "sebmck",
+					"email": "sebmck@gmail.com"
+				},
+				{
+					"name": "thejameskyle",
+					"email": "me@thejameskyle.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/babel-plugin-syntax-jsx-7.0.0-alpha.1.tgz_1488488698993_0.8801234546117485"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"7.0.0-alpha.3": {
+			"name": "babel-plugin-syntax-jsx",
+			"version": "7.0.0-alpha.3",
+			"description": "Allow parsing of jsx",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-jsx"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"dependencies": {},
+			"devDependencies": {},
+			"_id": "babel-plugin-syntax-jsx@7.0.0-alpha.3",
+			"scripts": {},
+			"_shasum": "290de5097523fdee19a6606116774d075e6b7149",
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_nodeVersion": "6.9.0",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"shasum": "290de5097523fdee19a6606116774d075e6b7149",
+				"tarball": "https://registry.npmjs.org/babel-plugin-syntax-jsx/-/babel-plugin-syntax-jsx-7.0.0-alpha.3.tgz",
+				"integrity": "sha512-13z04isyACCgO8KxMCHPxW01RYHcc3fLH1zCEYDpi7cwhXucqFLJ62HM96dg+OxKXdWuZaNxNSGb2lwpXd96cw==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIFCoTQFNn9PARFmDG5jILC+FyFpRKpsaT2QT0abEu5NQAiEAnLyFdCuin4I8Sf95TNBREUbWO4vn2X657lvf2fzG71c="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "amasad",
+					"email": "amjad.masad@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "jmm",
+					"email": "npm-public@jessemccarthy.net"
+				},
+				{
+					"name": "loganfsmyth",
+					"email": "loganfsmyth@gmail.com"
+				},
+				{
+					"name": "sebmck",
+					"email": "sebmck@gmail.com"
+				},
+				{
+					"name": "thejameskyle",
+					"email": "me@thejameskyle.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/babel-plugin-syntax-jsx-7.0.0-alpha.3.tgz_1490298549674_0.8162136725150049"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"7.0.0-alpha.9": {
+			"name": "babel-plugin-syntax-jsx",
+			"version": "7.0.0-alpha.9",
+			"description": "Allow parsing of jsx",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-jsx"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"dependencies": {},
+			"devDependencies": {},
+			"_id": "babel-plugin-syntax-jsx@7.0.0-alpha.9",
+			"scripts": {},
+			"_shasum": "22846d0a2c001882d01fbc0295cb5ba912c7eeea",
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_nodeVersion": "6.9.0",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"shasum": "22846d0a2c001882d01fbc0295cb5ba912c7eeea",
+				"tarball": "https://registry.npmjs.org/babel-plugin-syntax-jsx/-/babel-plugin-syntax-jsx-7.0.0-alpha.9.tgz",
+				"integrity": "sha512-u3u3CNhy7WBj+1MGtbzoCeyrTRutMdkN+1kkdr0jTE2+NM6tAAft1wsxBzUBdzeXeieg516d/DR+JHovjoew0Q==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQCUYLco15xKJEegpb9maz4yxYAwtSH9/j0ISVVyA+XnlwIgTHBYU5my1g4kxXn3RLB2/40PifI4I5AuFtsWfYoRVn8="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "amasad",
+					"email": "amjad.masad@gmail.com"
+				},
+				{
+					"name": "hzoo",
+					"email": "hi@henryzoo.com"
+				},
+				{
+					"name": "jmm",
+					"email": "npm-public@jessemccarthy.net"
+				},
+				{
+					"name": "loganfsmyth",
+					"email": "loganfsmyth@gmail.com"
+				},
+				{
+					"name": "sebmck",
+					"email": "sebmck@gmail.com"
+				},
+				{
+					"name": "thejameskyle",
+					"email": "me@thejameskyle.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/babel-plugin-syntax-jsx-7.0.0-alpha.9.tgz_1492526500628_0.48303497303277254"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"7.0.0-alpha.12": {
+			"name": "babel-plugin-syntax-jsx",
+			"version": "7.0.0-alpha.12",
+			"description": "Allow parsing of jsx",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-jsx"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"dependencies": {},
+			"devDependencies": {},
+			"_id": "babel-plugin-syntax-jsx@7.0.0-alpha.12",
+			"_npmVersion": "5.0.0",
+			"_nodeVersion": "6.9.0",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-xhwy946eqNhx+SfdbOMFH60wlQZqwajysKv7Q4W7v1IIC2NCU3J8klj04BEtWKREIRWLFltR174hj7YL0gTOSg==",
+				"shasum": "c6935db402537860f6ca9b35f21a28191ce97e58",
+				"tarball": "https://registry.npmjs.org/babel-plugin-syntax-jsx/-/babel-plugin-syntax-jsx-7.0.0-alpha.12.tgz",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIGefKMBZyqj/fS7jzuBZXneOSR5Owbq5zNRT+l5WWFQsAiEA0HA5RaQFGYTXyCeRZXMohjKGLg/500BqAo4OI9l4ym8="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"email": "sebmck@gmail.com",
+					"name": "sebmck"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/babel-plugin-syntax-jsx-7.0.0-alpha.12.tgz_1496265106069_0.000018369639292359352"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"7.0.0-alpha.13": {
+			"name": "babel-plugin-syntax-jsx",
+			"version": "7.0.0-alpha.13",
+			"description": "Allow parsing of jsx",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-jsx"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"dependencies": {},
+			"devDependencies": {},
+			"_id": "babel-plugin-syntax-jsx@7.0.0-alpha.13",
+			"scripts": {},
+			"_shasum": "bc57d63894605dd4aee838d1f8161e145a85bfef",
+			"_from": ".",
+			"_npmVersion": "4.6.1",
+			"_nodeVersion": "6.9.0",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"shasum": "bc57d63894605dd4aee838d1f8161e145a85bfef",
+				"tarball": "https://registry.npmjs.org/babel-plugin-syntax-jsx/-/babel-plugin-syntax-jsx-7.0.0-alpha.13.tgz",
+				"integrity": "sha512-+GcqMr6uI3SvH1oPY68h9CLdiPRoH27mOIO3Q6ppcjlG9mR0FnhXM837PJgbcibWeRa2upBRvijj4YvPFTmfDg==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQD1NVmgymn6EXiV+cro8ATbN3gRj5c17OPsRYPxNDvQ8AIgOM9HnnK25x6t1boDGj6gZ75iw7+247W6qYuAildmHVI="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"email": "sebmck@gmail.com",
+					"name": "sebmck"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/babel-plugin-syntax-jsx-7.0.0-alpha.13.tgz_1499826489230_0.07984956144355237"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"7.0.0-alpha.14": {
+			"name": "babel-plugin-syntax-jsx",
+			"version": "7.0.0-alpha.14",
+			"description": "Allow parsing of jsx",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-jsx"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"dependencies": {},
+			"devDependencies": {},
+			"_id": "babel-plugin-syntax-jsx@7.0.0-alpha.14",
+			"scripts": {},
+			"_shasum": "1cc843d8c8edd21b41736f952bc972122e04fb36",
+			"_from": ".",
+			"_npmVersion": "4.6.1",
+			"_nodeVersion": "6.9.0",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"shasum": "1cc843d8c8edd21b41736f952bc972122e04fb36",
+				"tarball": "https://registry.npmjs.org/babel-plugin-syntax-jsx/-/babel-plugin-syntax-jsx-7.0.0-alpha.14.tgz",
+				"integrity": "sha512-o+4G5d0UaLn8qXupAvqOpleU+Ltt1ZKJNPuV2wIRKIx8jYl+M9NIKpuM0hGoXepTyy9PK6xt2lTczDt1yIeDeg==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQD7J+PIY8iJAD43/SpGdzTN8URmLLxvKrNRxwiaQ82DDQIgaKfFuFSrDlpdDAFS9HADbTwM6JgOiygWX4ZOXOGXG5A="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"email": "sebmck@gmail.com",
+					"name": "sebmck"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/babel-plugin-syntax-jsx-7.0.0-alpha.14.tgz_1499828000746_0.043846396962180734"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"7.0.0-alpha.15": {
+			"name": "babel-plugin-syntax-jsx",
+			"version": "7.0.0-alpha.15",
+			"description": "Allow parsing of jsx",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-jsx"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"dependencies": {},
+			"devDependencies": {},
+			"_id": "babel-plugin-syntax-jsx@7.0.0-alpha.15",
+			"scripts": {},
+			"_shasum": "18522fdcc239bbc477db3fb317786160dec8b948",
+			"_from": ".",
+			"_npmVersion": "4.6.1",
+			"_nodeVersion": "6.9.0",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"shasum": "18522fdcc239bbc477db3fb317786160dec8b948",
+				"tarball": "https://registry.npmjs.org/babel-plugin-syntax-jsx/-/babel-plugin-syntax-jsx-7.0.0-alpha.15.tgz",
+				"integrity": "sha512-hrJ55w356/NPJRYYWLCH0jOTAVHLupBWYcl1Ueq3tGKEb0bo+3adYKls9unZYLnIBYY5Vs1Vk20XxzgeG+0XSw==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQD++dG7WHjvlDb5vcGz1Lhj/3tdcAy0epBI/b5lG5qsSgIgCLDYRywrAO2wiXXecxoRLkMUD9pqjL5Jj7azODEHhDE="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"email": "sebmck@gmail.com",
+					"name": "sebmck"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/babel-plugin-syntax-jsx-7.0.0-alpha.15.tgz_1499830535182_0.38174846465699375"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"7.0.0-alpha.16": {
+			"name": "babel-plugin-syntax-jsx",
+			"version": "7.0.0-alpha.16",
+			"description": "Allow parsing of jsx",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-jsx"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"dependencies": {},
+			"devDependencies": {},
+			"_id": "babel-plugin-syntax-jsx@7.0.0-alpha.16",
+			"scripts": {},
+			"_shasum": "9c3d371012c3ebcb0d386efb2f4ed4568b61b499",
+			"_from": ".",
+			"_npmVersion": "4.6.1",
+			"_nodeVersion": "6.9.0",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"shasum": "9c3d371012c3ebcb0d386efb2f4ed4568b61b499",
+				"tarball": "https://registry.npmjs.org/babel-plugin-syntax-jsx/-/babel-plugin-syntax-jsx-7.0.0-alpha.16.tgz",
+				"integrity": "sha512-llWfvNiR8Sf9KffXZM1EwqMCvTxM7MBW0YOkiAE/dyzw5d+XB2ScImRQ5iKA6xFFglpFvihIbY/78SeKVCKB4g==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIBa9RBdPI7Lf2ESpe48t211DTFiCSxEi+70sI6I5zv/rAiAjiZr7Nj8Kb+mN7qnYrPLaUNROasCsYzSWMs/nXZMl8w=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"email": "sebmck@gmail.com",
+					"name": "sebmck"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/babel-plugin-syntax-jsx-7.0.0-alpha.16.tgz_1501017451882_0.30141189228743315"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"7.0.0-alpha.17": {
+			"name": "babel-plugin-syntax-jsx",
+			"version": "7.0.0-alpha.17",
+			"description": "Allow parsing of jsx",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-jsx"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"dependencies": {},
+			"devDependencies": {},
+			"_id": "babel-plugin-syntax-jsx@7.0.0-alpha.17",
+			"scripts": {},
+			"_shasum": "e1c1136a0ac9d532de2295bcf5971c3c4561b0a8",
+			"_from": ".",
+			"_npmVersion": "4.6.1",
+			"_nodeVersion": "6.9.0",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"shasum": "e1c1136a0ac9d532de2295bcf5971c3c4561b0a8",
+				"tarball": "https://registry.npmjs.org/babel-plugin-syntax-jsx/-/babel-plugin-syntax-jsx-7.0.0-alpha.17.tgz",
+				"integrity": "sha512-oB0ti4mCZLhsbuV3TbweHMJoLW+P56h0INsobDceeCysYQLrXBlGcd4WQXd4Pyees7KvAIdK2orZ4+4v1wQ99g==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDaAjFvdDL9O8Uc8H5ju4UcxqeFEuP+hfsJW+yfCl2vlQIhAJ4Rd16qofjAvDTBmcawfNeKMnYe3aqNmpVd3rpciUi0"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"email": "sebmck@gmail.com",
+					"name": "sebmck"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/babel-plugin-syntax-jsx-7.0.0-alpha.17.tgz_1501072736460_0.1412397159729153"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"7.0.0-alpha.18": {
+			"name": "babel-plugin-syntax-jsx",
+			"version": "7.0.0-alpha.18",
+			"description": "Allow parsing of jsx",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-jsx"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"dependencies": {},
+			"devDependencies": {},
+			"_id": "babel-plugin-syntax-jsx@7.0.0-alpha.18",
+			"_npmVersion": "5.3.0",
+			"_nodeVersion": "8.1.4",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-rRw88NG/67Th3izyCnBTgcD3KfIhTFwhjCIwwKsCmfQHvs7vY1Os2hhO9hn5CrETQR4oEcGpzglSrS2+7B3xxQ==",
+				"shasum": "2b906e64c28ae2324f0ad07c832b5e7b6c5d1ccb",
+				"tarball": "https://registry.npmjs.org/babel-plugin-syntax-jsx/-/babel-plugin-syntax-jsx-7.0.0-alpha.18.tgz",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQCcuOmR3UHT2SxysWpfIyLas7MNDqvIOHYVEKF+36wXgAIgeAt4mIVPvIf6FTEVUT1AR/RfIR6Yx5t1C9lSTNTLX4I="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"email": "me@thejameskyle.com",
+					"name": "thejameskyle"
+				},
+				{
+					"email": "sebmck@gmail.com",
+					"name": "sebmck"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/babel-plugin-syntax-jsx-7.0.0-alpha.18.tgz_1501798845155_0.12593574146740139"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"7.0.0-alpha.19": {
+			"name": "babel-plugin-syntax-jsx",
+			"version": "7.0.0-alpha.19",
+			"description": "Allow parsing of jsx",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-jsx"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"_id": "babel-plugin-syntax-jsx@7.0.0-alpha.19",
+			"_npmVersion": "5.3.0",
+			"_nodeVersion": "8.1.4",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-xQEWRBNZ+W594GFZ6ipoeDfjlk5w0/KqIjSe942gCnFGvOwqh3cFGbdA996ldgRf5bjvRlCs9WTwdSW2SmqAlA==",
+				"shasum": "b713b245b4b5226f40727358e3894cfc022ee8a0",
+				"tarball": "https://registry.npmjs.org/babel-plugin-syntax-jsx/-/babel-plugin-syntax-jsx-7.0.0-alpha.19.tgz",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQC/8z4ENl7m90SJ1vDYtrO7115u4V1DBN3aq+dRO1JYFwIhAJBmwIuODwI2b3gkoXC4hahKdZIBhiDfs+unrPkhNumE"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"email": "me@thejameskyle.com",
+					"name": "thejameskyle"
+				},
+				{
+					"email": "sebmck@gmail.com",
+					"name": "sebmck"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/babel-plugin-syntax-jsx-7.0.0-alpha.19.tgz_1502144480361_0.586323406547308"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"7.0.0-alpha.20": {
+			"name": "babel-plugin-syntax-jsx",
+			"version": "7.0.0-alpha.20",
+			"description": "Allow parsing of jsx",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-jsx"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"_id": "babel-plugin-syntax-jsx@7.0.0-alpha.20",
+			"_npmVersion": "5.3.0",
+			"_nodeVersion": "8.1.4",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-b00CtxYpPuZU0oDrvvSLEmSRh5sPFR8kemHDbsavA3hCKRdcZ7i9LDEBzQxe7WsLsBPok59t96JC+5bpMwfDkg==",
+				"shasum": "039bb7f8db206b77e6770bf982cf806cf4eb8678",
+				"tarball": "https://registry.npmjs.org/babel-plugin-syntax-jsx/-/babel-plugin-syntax-jsx-7.0.0-alpha.20.tgz",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIBGsRv3BOIHhBkFGbciDLj5Y1smDKl4Fq1ccDCF2IWIsAiAzv0IviqsDvLDQPo7fk9ygd4hFA02WYyRrBcd9LDue+A=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"email": "me@thejameskyle.com",
+					"name": "thejameskyle"
+				},
+				{
+					"email": "sebmck@gmail.com",
+					"name": "sebmck"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/babel-plugin-syntax-jsx-7.0.0-alpha.20.tgz_1504119108590_0.8461939480621368"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"7.0.0-beta.0": {
+			"name": "babel-plugin-syntax-jsx",
+			"version": "7.0.0-beta.0",
+			"description": "Allow parsing of jsx",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-jsx"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"_id": "babel-plugin-syntax-jsx@7.0.0-beta.0",
+			"_npmVersion": "5.3.0",
+			"_nodeVersion": "8.1.4",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-Dtgr7yv7djNqvJGAgFcOFbAAnYAWaWW4lCcdposQlx/FlEkDcgl8erNXCp+d2lq+DoGWsta9DPl8TqDcsY1fig==",
+				"shasum": "b288e6904fc00e2267c778b7ab5d28815c4f3487",
+				"tarball": "https://registry.npmjs.org/babel-plugin-syntax-jsx/-/babel-plugin-syntax-jsx-7.0.0-beta.0.tgz",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIH9o5mWHtUqkxf9PSinexinIu5uJfbNWyHj+pziZqQcNAiEAl0sOkLBTlvtQy18rfEng8A53u0bUjhXbyk9Ic4TSOSE="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"email": "me@thejameskyle.com",
+					"name": "thejameskyle"
+				},
+				{
+					"email": "sebmck@gmail.com",
+					"name": "sebmck"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/babel-plugin-syntax-jsx-7.0.0-beta.0.tgz_1505185314522_0.5592366482596844"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"7.0.0-beta.1": {
+			"name": "babel-plugin-syntax-jsx",
+			"version": "7.0.0-beta.1",
+			"description": "Allow parsing of jsx",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-jsx"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"_id": "babel-plugin-syntax-jsx@7.0.0-beta.1",
+			"_npmVersion": "5.4.1",
+			"_nodeVersion": "8.1.4",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-RdU1ZsaxfKblUpWObjcyFNZTTok400732MAKIgJu1AL+mXvgoSoy/GjlffqpaeARnRpyTSa/09LJvcRrtZ62EQ==",
+				"shasum": "a766b1506f9847371619aaca9d0b530898fe0c35",
+				"tarball": "https://registry.npmjs.org/babel-plugin-syntax-jsx/-/babel-plugin-syntax-jsx-7.0.0-beta.1.tgz",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQCCJ7jQsu+vMSJIV1ha5Jm4XZx9dq27q41/L6vcxbkJ+gIgMMsq6yEkEivM4HvXeUxfyMHxBSIcyNs8eyQ3B257zwI="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"email": "me@thejameskyle.com",
+					"name": "thejameskyle"
+				},
+				{
+					"email": "sebmck@gmail.com",
+					"name": "sebmck"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/babel-plugin-syntax-jsx-7.0.0-beta.1.tgz_1505851746901_0.4870160957798362"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"7.0.0-beta.2": {
+			"name": "babel-plugin-syntax-jsx",
+			"version": "7.0.0-beta.2",
+			"description": "Allow parsing of jsx",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-jsx"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"_id": "babel-plugin-syntax-jsx@7.0.0-beta.2",
+			"_npmVersion": "5.4.1",
+			"_nodeVersion": "8.1.4",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-DWpRxFR5vhjotUI2XuYkgFFZn/2cjt2dztUZPZyIeMGlR9I2/gDiD/OIRke/8IDMGbjghYN8M/Aulzf1zCeOcw==",
+				"shasum": "a1f2be97c0d91e26da2d3ad39a0bb72f5f56628a",
+				"tarball": "https://registry.npmjs.org/babel-plugin-syntax-jsx/-/babel-plugin-syntax-jsx-7.0.0-beta.2.tgz",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCau9fO3TJqDnLSqieTs5HY11TmlLSy8y1ev3MlsRI03QIhAN1t4GZNq6Kcm0EFQBukFezN2h+xdyafXzvb8pCegdXb"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "me@thejameskyle.com",
+					"name": "thejameskyle"
+				},
+				{
+					"email": "sebmck@gmail.com",
+					"name": "sebmck"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/babel-plugin-syntax-jsx-7.0.0-beta.2.tgz_1506438890545_0.3374752893578261"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"7.0.0-beta.3": {
+			"name": "babel-plugin-syntax-jsx",
+			"version": "7.0.0-beta.3",
+			"description": "Allow parsing of jsx",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-jsx"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"keywords": [
+				"babel-plugin"
+			],
+			"_id": "babel-plugin-syntax-jsx@7.0.0-beta.3",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "8.1.4",
+			"_npmUser": {
+				"name": "hzoo",
+				"email": "hi@henryzoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-MH/oJ4i6dm1nqirLIBOiy9T+5gXkouEtHYGot1539jcQTrjDEfX2hgj/cEO9C8LNMMwyr2S95/q6tgfmh4pzlA==",
+				"shasum": "e45983c652a50d3647dfa4acd9db5567c0c2b701",
+				"tarball": "https://registry.npmjs.org/babel-plugin-syntax-jsx/-/babel-plugin-syntax-jsx-7.0.0-beta.3.tgz",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIA9WIb/D2oSZMxfP2A/IYF9ylIWelzGo4Mq+Febk9e6ZAiEA4VB6W7J7+IWCIqzbjFZhIR2f+yAaVQSkceVUfdX+OFI="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"email": "bng412@gmail.com",
+					"name": "existentialism"
+				},
+				{
+					"email": "me@thejameskyle.com",
+					"name": "thejameskyle"
+				},
+				{
+					"email": "sebmck@gmail.com",
+					"name": "sebmck"
+				},
+				{
+					"email": "daniel@tschinder.de",
+					"name": "danez"
+				},
+				{
+					"email": "hi@henryzoo.com",
+					"name": "hzoo"
+				},
+				{
+					"email": "loganfsmyth@gmail.com",
+					"name": "loganfsmyth"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/babel-plugin-syntax-jsx-7.0.0-beta.3.tgz_1508073076813_0.07820933382026851"
+			},
+			"directories": {},
+			"contributors": []
+		}
+	},
+	"time": {
+		"modified": "2022-06-13T04:03:46.934Z",
+		"created": "2015-10-29T18:11:41.714Z",
+		"6.0.2": "2015-10-29T18:11:41.714Z",
+		"6.0.14": "2015-10-30T23:35:25.198Z",
+		"6.1.4": "2015-11-11T10:12:00.985Z",
+		"6.1.5": "2015-11-12T06:54:30.645Z",
+		"6.1.6": "2015-11-12T07:34:31.289Z",
+		"6.1.10": "2015-11-12T07:54:25.753Z",
+		"6.1.13": "2015-11-12T19:59:07.741Z",
+		"6.1.16": "2015-11-12T21:35:25.197Z",
+		"6.1.17": "2015-11-12T21:41:41.349Z",
+		"6.1.18": "2015-11-12T21:48:33.301Z",
+		"6.2.4": "2015-11-25T03:13:54.773Z",
+		"6.3.13": "2015-12-04T11:58:26.960Z",
+		"6.5.0": "2016-02-07T00:07:20.429Z",
+		"6.5.0-1": "2016-02-07T02:41:10.990Z",
+		"6.8.0": "2016-05-02T23:44:26.682Z",
+		"6.13.0": "2016-08-04T23:35:03.283Z",
+		"6.18.0": "2016-10-24T21:18:58.370Z",
+		"7.0.0-alpha.1": "2017-03-02T21:04:59.701Z",
+		"7.0.0-alpha.3": "2017-03-23T19:49:09.893Z",
+		"7.0.0-alpha.9": "2017-04-18T14:41:42.744Z",
+		"7.0.0-alpha.12": "2017-05-31T21:11:46.135Z",
+		"7.0.0-alpha.13": "2017-07-12T02:28:10.139Z",
+		"7.0.0-alpha.14": "2017-07-12T02:53:21.685Z",
+		"7.0.0-alpha.15": "2017-07-12T03:35:36.162Z",
+		"7.0.0-alpha.16": "2017-07-25T21:17:33.036Z",
+		"7.0.0-alpha.17": "2017-07-26T12:38:57.429Z",
+		"7.0.0-alpha.18": "2017-08-03T22:20:45.245Z",
+		"7.0.0-alpha.19": "2017-08-07T22:21:20.427Z",
+		"7.0.0-alpha.20": "2017-08-30T18:51:48.677Z",
+		"7.0.0-beta.0": "2017-09-12T03:01:55.435Z",
+		"7.0.0-beta.1": "2017-09-19T20:09:06.966Z",
+		"7.0.0-beta.2": "2017-09-26T15:14:51.452Z",
+		"7.0.0-beta.3": "2017-10-15T13:11:17.779Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "6.18.0",
+		"next": "7.0.0-beta.3"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"c4a70434780b9db13cb95e91bd6ed0b0\"",
+			"fetched": 1660840857213
+		}
+	},
+	"_distfiles": {
+		"babel-plugin-syntax-jsx-6.0.2.tgz": {
+			"url": "https://registry.npmjs.org/babel-plugin-syntax-jsx/-/babel-plugin-syntax-jsx-6.0.2.tgz",
+			"sha": "4f1ba73a604e0fbe3b7f0d801fe48f7b08654f6c",
+			"registry": "npmjs"
+		},
+		"babel-plugin-syntax-jsx-6.0.14.tgz": {
+			"url": "https://registry.npmjs.org/babel-plugin-syntax-jsx/-/babel-plugin-syntax-jsx-6.0.14.tgz",
+			"sha": "d93e2f2aafc61f30534daa27abfdb3e558c2f1f2",
+			"registry": "npmjs"
+		},
+		"babel-plugin-syntax-jsx-6.1.4.tgz": {
+			"url": "https://registry.npmjs.org/babel-plugin-syntax-jsx/-/babel-plugin-syntax-jsx-6.1.4.tgz",
+			"sha": "5b60946a7f1327c89882787e239809bce59e6907",
+			"registry": "npmjs"
+		},
+		"babel-plugin-syntax-jsx-6.1.5.tgz": {
+			"url": "https://registry.npmjs.org/babel-plugin-syntax-jsx/-/babel-plugin-syntax-jsx-6.1.5.tgz",
+			"sha": "368d380126c843032292fa765f181b8cda933017",
+			"registry": "npmjs"
+		},
+		"babel-plugin-syntax-jsx-6.1.6.tgz": {
+			"url": "https://registry.npmjs.org/babel-plugin-syntax-jsx/-/babel-plugin-syntax-jsx-6.1.6.tgz",
+			"sha": "11a29737e8bf6aa0967964075aca14f906cd5951",
+			"registry": "npmjs"
+		},
+		"babel-plugin-syntax-jsx-6.1.10.tgz": {
+			"url": "https://registry.npmjs.org/babel-plugin-syntax-jsx/-/babel-plugin-syntax-jsx-6.1.10.tgz",
+			"sha": "e3375b7f483a5f491e366f3b0565c6bf04f5feef",
+			"registry": "npmjs"
+		},
+		"babel-plugin-syntax-jsx-6.1.13.tgz": {
+			"url": "https://registry.npmjs.org/babel-plugin-syntax-jsx/-/babel-plugin-syntax-jsx-6.1.13.tgz",
+			"sha": "258473e2582672a8b5c5553bf3949f7c5c13ec75",
+			"registry": "npmjs"
+		},
+		"babel-plugin-syntax-jsx-6.1.16.tgz": {
+			"url": "https://registry.npmjs.org/babel-plugin-syntax-jsx/-/babel-plugin-syntax-jsx-6.1.16.tgz",
+			"sha": "6c1d47b89278fddbda72a174b9d5c6bd970c0746",
+			"registry": "npmjs"
+		},
+		"babel-plugin-syntax-jsx-6.1.17.tgz": {
+			"url": "https://registry.npmjs.org/babel-plugin-syntax-jsx/-/babel-plugin-syntax-jsx-6.1.17.tgz",
+			"sha": "aed15519766375e101aafafd24354f7b41dc9cc7",
+			"registry": "npmjs"
+		},
+		"babel-plugin-syntax-jsx-6.1.18.tgz": {
+			"url": "https://registry.npmjs.org/babel-plugin-syntax-jsx/-/babel-plugin-syntax-jsx-6.1.18.tgz",
+			"sha": "ec0f97ea561aca201c74137dcc54b3253c6f6818",
+			"registry": "npmjs"
+		},
+		"babel-plugin-syntax-jsx-6.2.4.tgz": {
+			"url": "https://registry.npmjs.org/babel-plugin-syntax-jsx/-/babel-plugin-syntax-jsx-6.2.4.tgz",
+			"sha": "cff49835e0a5f2f24992fb0d1c41d4c955407758",
+			"registry": "npmjs"
+		},
+		"babel-plugin-syntax-jsx-6.3.13.tgz": {
+			"url": "https://registry.npmjs.org/babel-plugin-syntax-jsx/-/babel-plugin-syntax-jsx-6.3.13.tgz",
+			"sha": "5018d1da9f020fd629ef72264220e3a5bac764d1",
+			"registry": "npmjs"
+		},
+		"babel-plugin-syntax-jsx-6.5.0.tgz": {
+			"url": "https://registry.npmjs.org/babel-plugin-syntax-jsx/-/babel-plugin-syntax-jsx-6.5.0.tgz",
+			"sha": "fa708c5761d13ec39128a4ba24abfe8be6ad8170",
+			"registry": "npmjs"
+		},
+		"babel-plugin-syntax-jsx-6.5.0-1.tgz": {
+			"url": "https://registry.npmjs.org/babel-plugin-syntax-jsx/-/babel-plugin-syntax-jsx-6.5.0-1.tgz",
+			"sha": "d37649c43df9d8dc744b19461a5d68b8326d4f75",
+			"registry": "npmjs"
+		},
+		"babel-plugin-syntax-jsx-6.8.0.tgz": {
+			"url": "https://registry.npmjs.org/babel-plugin-syntax-jsx/-/babel-plugin-syntax-jsx-6.8.0.tgz",
+			"sha": "1c5430a488a5046a47c8da1ad631f16afe8d111a",
+			"registry": "npmjs"
+		},
+		"babel-plugin-syntax-jsx-6.13.0.tgz": {
+			"url": "https://registry.npmjs.org/babel-plugin-syntax-jsx/-/babel-plugin-syntax-jsx-6.13.0.tgz",
+			"sha": "e741ff3992c578310be45c571bcd90a2f9c5586e",
+			"registry": "npmjs"
+		},
+		"babel-plugin-syntax-jsx-6.18.0.tgz": {
+			"url": "https://registry.npmjs.org/babel-plugin-syntax-jsx/-/babel-plugin-syntax-jsx-6.18.0.tgz",
+			"sha": "0af32a9a6e13ca7a3fd5069e62d7b0f58d0d8946",
+			"registry": "npmjs"
+		},
+		"babel-plugin-syntax-jsx-7.0.0-alpha.1.tgz": {
+			"url": "https://registry.npmjs.org/babel-plugin-syntax-jsx/-/babel-plugin-syntax-jsx-7.0.0-alpha.1.tgz",
+			"sha": "ab41578d3a64ded46001671fd7fb883f1ca358b2",
+			"registry": "npmjs"
+		},
+		"babel-plugin-syntax-jsx-7.0.0-alpha.3.tgz": {
+			"url": "https://registry.npmjs.org/babel-plugin-syntax-jsx/-/babel-plugin-syntax-jsx-7.0.0-alpha.3.tgz",
+			"sha": "290de5097523fdee19a6606116774d075e6b7149",
+			"registry": "npmjs"
+		},
+		"babel-plugin-syntax-jsx-7.0.0-alpha.9.tgz": {
+			"url": "https://registry.npmjs.org/babel-plugin-syntax-jsx/-/babel-plugin-syntax-jsx-7.0.0-alpha.9.tgz",
+			"sha": "22846d0a2c001882d01fbc0295cb5ba912c7eeea",
+			"registry": "npmjs"
+		},
+		"babel-plugin-syntax-jsx-7.0.0-alpha.12.tgz": {
+			"url": "https://registry.npmjs.org/babel-plugin-syntax-jsx/-/babel-plugin-syntax-jsx-7.0.0-alpha.12.tgz",
+			"sha": "c6935db402537860f6ca9b35f21a28191ce97e58",
+			"registry": "npmjs"
+		},
+		"babel-plugin-syntax-jsx-7.0.0-alpha.13.tgz": {
+			"url": "https://registry.npmjs.org/babel-plugin-syntax-jsx/-/babel-plugin-syntax-jsx-7.0.0-alpha.13.tgz",
+			"sha": "bc57d63894605dd4aee838d1f8161e145a85bfef",
+			"registry": "npmjs"
+		},
+		"babel-plugin-syntax-jsx-7.0.0-alpha.14.tgz": {
+			"url": "https://registry.npmjs.org/babel-plugin-syntax-jsx/-/babel-plugin-syntax-jsx-7.0.0-alpha.14.tgz",
+			"sha": "1cc843d8c8edd21b41736f952bc972122e04fb36",
+			"registry": "npmjs"
+		},
+		"babel-plugin-syntax-jsx-7.0.0-alpha.15.tgz": {
+			"url": "https://registry.npmjs.org/babel-plugin-syntax-jsx/-/babel-plugin-syntax-jsx-7.0.0-alpha.15.tgz",
+			"sha": "18522fdcc239bbc477db3fb317786160dec8b948",
+			"registry": "npmjs"
+		},
+		"babel-plugin-syntax-jsx-7.0.0-alpha.16.tgz": {
+			"url": "https://registry.npmjs.org/babel-plugin-syntax-jsx/-/babel-plugin-syntax-jsx-7.0.0-alpha.16.tgz",
+			"sha": "9c3d371012c3ebcb0d386efb2f4ed4568b61b499",
+			"registry": "npmjs"
+		},
+		"babel-plugin-syntax-jsx-7.0.0-alpha.17.tgz": {
+			"url": "https://registry.npmjs.org/babel-plugin-syntax-jsx/-/babel-plugin-syntax-jsx-7.0.0-alpha.17.tgz",
+			"sha": "e1c1136a0ac9d532de2295bcf5971c3c4561b0a8",
+			"registry": "npmjs"
+		},
+		"babel-plugin-syntax-jsx-7.0.0-alpha.18.tgz": {
+			"url": "https://registry.npmjs.org/babel-plugin-syntax-jsx/-/babel-plugin-syntax-jsx-7.0.0-alpha.18.tgz",
+			"sha": "2b906e64c28ae2324f0ad07c832b5e7b6c5d1ccb",
+			"registry": "npmjs"
+		},
+		"babel-plugin-syntax-jsx-7.0.0-alpha.19.tgz": {
+			"url": "https://registry.npmjs.org/babel-plugin-syntax-jsx/-/babel-plugin-syntax-jsx-7.0.0-alpha.19.tgz",
+			"sha": "b713b245b4b5226f40727358e3894cfc022ee8a0",
+			"registry": "npmjs"
+		},
+		"babel-plugin-syntax-jsx-7.0.0-alpha.20.tgz": {
+			"url": "https://registry.npmjs.org/babel-plugin-syntax-jsx/-/babel-plugin-syntax-jsx-7.0.0-alpha.20.tgz",
+			"sha": "039bb7f8db206b77e6770bf982cf806cf4eb8678",
+			"registry": "npmjs"
+		},
+		"babel-plugin-syntax-jsx-7.0.0-beta.0.tgz": {
+			"url": "https://registry.npmjs.org/babel-plugin-syntax-jsx/-/babel-plugin-syntax-jsx-7.0.0-beta.0.tgz",
+			"sha": "b288e6904fc00e2267c778b7ab5d28815c4f3487",
+			"registry": "npmjs"
+		},
+		"babel-plugin-syntax-jsx-7.0.0-beta.1.tgz": {
+			"url": "https://registry.npmjs.org/babel-plugin-syntax-jsx/-/babel-plugin-syntax-jsx-7.0.0-beta.1.tgz",
+			"sha": "a766b1506f9847371619aaca9d0b530898fe0c35",
+			"registry": "npmjs"
+		},
+		"babel-plugin-syntax-jsx-7.0.0-beta.2.tgz": {
+			"url": "https://registry.npmjs.org/babel-plugin-syntax-jsx/-/babel-plugin-syntax-jsx-7.0.0-beta.2.tgz",
+			"sha": "a1f2be97c0d91e26da2d3ad39a0bb72f5f56628a",
+			"registry": "npmjs"
+		},
+		"babel-plugin-syntax-jsx-7.0.0-beta.3.tgz": {
+			"url": "https://registry.npmjs.org/babel-plugin-syntax-jsx/-/babel-plugin-syntax-jsx-7.0.0-beta.3.tgz",
+			"sha": "e45983c652a50d3647dfa4acd9db5567c0c2b701",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_rev": "3-815ecefb453045d1",
+	"_id": "babel-plugin-syntax-jsx",
+	"readme": "# babel-plugin-syntax-jsx\n\n\n\n## Installation\n\n```sh\n$ npm install babel-plugin-syntax-jsx\n```\n\n## Usage\n\n### Via `.babelrc` (Recommended)\n\n**.babelrc**\n\n```json\n{\n  \"plugins\": [\"syntax-jsx\"]\n}\n```\n\n### Via CLI\n\n```sh\n$ babel --plugins syntax-jsx script.js\n```\n\n### Via Node API\n\n```javascript\nrequire(\"babel-core\").transform(\"code\", {\n  plugins: [\"syntax-jsx\"]\n});\n```"
+}

@@ -1,0 +1,609 @@
+{
+	"name": "prop-types-exact",
+	"versions": {
+		"1.0.0": {
+			"name": "prop-types-exact",
+			"version": "1.0.0",
+			"description": "For use with React PropTypes. Will error on any prop not explicitly specified.",
+			"main": "build",
+			"scripts": {
+				"prepublish": "safe-publish-latest && (not-in-publish || npm run build)",
+				"clean": "npm run clean:build && npm run clean:coverage",
+				"clean:build": "rimraf build",
+				"prebuild": "npm run clean:build",
+				"build": "babel src --out-dir build --source-maps",
+				"lint": "eslint .",
+				"mocha": "mocha --recursive test/helpers/_failTestsOnErrors",
+				"clean:cover": "rimraf coverage",
+				"precoverage": "NODE_ENV=test npm run build && npm run clean:cover",
+				"coverage": "nyc --show-process-tree npm run --silent mocha test -- --reporter=dot",
+				"tests-only": "npm run mocha test",
+				"pretest": "npm run lint",
+				"test": "npm run tests-only",
+				"pretravis": "npm run build",
+				"travis": "npm run tests-only",
+				"react:clean": "rimraf node_modules/react node_modules/react-dom node_modules/react-addons-test-utils",
+				"react:13": "npm run react:clean && npm i --no-save react@0.13",
+				"react:14": "npm run react:clean && npm i --no-save react@0.14 react-dom@0.14 react-addons-test-utils@0.14",
+				"react:15": "npm run react:clean && npm i --no-save react@15 react-dom@15 react-addons-test-utils@15",
+				"react:16": "npm run react:clean && npm i --no-save react@16.0.0-alpha.12 react-dom@16.0.0-alpha.12"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/airbnb/prop-types-exact.git"
+			},
+			"keywords": [
+				"react",
+				"propTypes",
+				"airbnb",
+				"prop",
+				"types",
+				"validator",
+				"validation",
+				"exact"
+			],
+			"author": {
+				"name": "Jordan Harband",
+				"email": "ljharb@gmail.com"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/airbnb/prop-types-exact/issues"
+			},
+			"homepage": "https://github.com/airbnb/prop-types-exact#readme",
+			"devDependencies": {
+				"babel-cli": "^6.24.1",
+				"babel-plugin-add-module-exports": "^0.2.1",
+				"babel-plugin-istanbul": "^4.1.4",
+				"babel-plugin-transform-replace-object-assign": "^0.2.1",
+				"babel-preset-airbnb": "^2.2.3",
+				"chai": "^4.0.1",
+				"eslint": "^3.19.0",
+				"eslint-config-airbnb": "^15.0.1",
+				"eslint-plugin-import": "^2.3.0",
+				"eslint-plugin-jsx-a11y": "^5.0.3",
+				"eslint-plugin-react": "^7.0.1",
+				"in-publish": "^2.0.0",
+				"mocha": "^3.4.2",
+				"nyc": "^11.0.2",
+				"prop-types": "^15.5.10",
+				"react": "^0.13 || ^0.14 || ^15 || ^16.0.0-alpha.12",
+				"rimraf": "^2.6.1",
+				"safe-publish-latest": "^1.1.1"
+			},
+			"dependencies": {
+				"has": "^1.0.1",
+				"object.assign": "^4.0.4"
+			},
+			"gitHead": "26171902eead104f48c0f0747476aa183c2a7501",
+			"_id": "prop-types-exact@1.0.0",
+			"_npmVersion": "5.0.2",
+			"_nodeVersion": "8.0.0",
+			"_npmUser": {
+				"name": "ljharb",
+				"email": "ljharb@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-SkT9l3Bgp32ynqZF3IkexYXxsXYRASR7WS3UPLXmi/0FFMG8qlnI6PV414TjJxuY+gH0VxBMTNb4hVZRnPd8OA==",
+				"shasum": "2ab8866fdea26000a407c636ebd803e1f30bb486",
+				"tarball": "https://registry.npmjs.org/prop-types-exact/-/prop-types-exact-1.0.0.tgz",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCICupXLuNHJZyjSA7Rdx2MAmyI/SrnD62tJd+iwtQu+MAAiEAiyHTzxLHMkMjYqINeUG+ptYzU62XtbSGwUyxWTa+yr0="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "ljharb",
+					"email": "ljharb@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/prop-types-exact-1.0.0.tgz_1496636667849_0.6657779361121356"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.1.0": {
+			"name": "prop-types-exact",
+			"version": "1.1.0",
+			"description": "For use with React PropTypes. Will error on any prop not explicitly specified.",
+			"main": "build",
+			"scripts": {
+				"prepublish": "safe-publish-latest && (not-in-publish || npm run build)",
+				"clean": "npm run clean:build && npm run clean:coverage",
+				"clean:build": "rimraf build",
+				"prebuild": "npm run clean:build",
+				"build": "babel src --out-dir build --source-maps",
+				"lint": "eslint .",
+				"mocha": "mocha --recursive test/helpers/_failTestsOnErrors",
+				"clean:cover": "rimraf coverage",
+				"precoverage": "NODE_ENV=test npm run build && npm run clean:cover",
+				"coverage": "nyc --show-process-tree npm run --silent mocha test -- --reporter=dot",
+				"tests-only": "npm run mocha test",
+				"pretest": "npm run lint",
+				"test": "npm run tests-only",
+				"pretravis": "npm run build",
+				"travis": "npm run tests-only",
+				"react:clean": "rimraf node_modules/react node_modules/react-dom node_modules/react-addons-test-utils",
+				"react:13": "npm run react:clean && npm i --no-save react@0.13",
+				"react:14": "npm run react:clean && npm i --no-save react@0.14 react-dom@0.14 react-addons-test-utils@0.14",
+				"react:15": "npm run react:clean && npm i --no-save react@15 react-dom@15 react-addons-test-utils@15",
+				"react:16": "npm run react:clean && npm i --no-save react@16.0.0-alpha.12 react-dom@16.0.0-alpha.12"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/airbnb/prop-types-exact.git"
+			},
+			"keywords": [
+				"react",
+				"propTypes",
+				"airbnb",
+				"prop",
+				"types",
+				"validator",
+				"validation",
+				"exact"
+			],
+			"author": {
+				"name": "Jordan Harband",
+				"email": "ljharb@gmail.com"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/airbnb/prop-types-exact/issues"
+			},
+			"homepage": "https://github.com/airbnb/prop-types-exact#readme",
+			"devDependencies": {
+				"babel-cli": "^6.24.1",
+				"babel-plugin-add-module-exports": "^0.2.1",
+				"babel-plugin-istanbul": "^4.1.4",
+				"babel-plugin-transform-replace-object-assign": "^0.2.1",
+				"babel-preset-airbnb": "^2.2.3",
+				"chai": "^4.0.2",
+				"eslint": "^3.19.0",
+				"eslint-config-airbnb": "^15.0.1",
+				"eslint-plugin-import": "^2.3.0",
+				"eslint-plugin-jsx-a11y": "^5.0.3",
+				"eslint-plugin-react": "^7.0.1",
+				"in-publish": "^2.0.0",
+				"mocha": "^3.4.2",
+				"nyc": "^11.0.2",
+				"prop-types": "^15.5.10",
+				"react": "^0.13 || ^0.14 || ^15 || ^16.0.0-alpha.12",
+				"reflect.ownkeys": "^0.2.0",
+				"rimraf": "^2.6.1",
+				"safe-publish-latest": "^1.1.1"
+			},
+			"dependencies": {
+				"has": "^1.0.1",
+				"has-symbols": "^1.0.0",
+				"object.assign": "^4.0.4"
+			},
+			"gitHead": "47d3a2443e52c906d88cce747221c782f3f9c1bb",
+			"_id": "prop-types-exact@1.1.0",
+			"_npmVersion": "5.0.2",
+			"_nodeVersion": "8.0.0",
+			"_npmUser": {
+				"name": "ljharb",
+				"email": "ljharb@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-OQ32OtuA7aCKLucHxu0OzBb6lxoNZ4mwV/UCg7q4ILT6m8ePoH+Hnkcj2FccCzRqEXwZRuy8f0AhQudsdnnbUg==",
+				"shasum": "d914182e3042934f1a0152e26cf897e573d941d1",
+				"tarball": "https://registry.npmjs.org/prop-types-exact/-/prop-types-exact-1.1.0.tgz",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIG1YJvwbXXri4oWE5bOE9FlIvLr89OXMJ7DiKUAcHMXCAiA5I213EJ+wnxu6ZhJqVYLxIQNPFuRokdgHZvcLFPs5BA=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "airbnb",
+					"email": "jordan.harband+npm@airbnb.com"
+				},
+				{
+					"name": "ljharb",
+					"email": "ljharb@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/prop-types-exact-1.1.0.tgz_1496702230820_0.8740911760833114"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.1.1": {
+			"name": "prop-types-exact",
+			"version": "1.1.1",
+			"description": "For use with React PropTypes. Will error on any prop not explicitly specified.",
+			"main": "build",
+			"scripts": {
+				"prepublish": "safe-publish-latest && (not-in-publish || npm run build)",
+				"clean": "npm run clean:build && npm run clean:coverage",
+				"clean:build": "rimraf build",
+				"prebuild": "npm run clean:build",
+				"build": "babel src --out-dir build --source-maps",
+				"lint": "eslint .",
+				"mocha": "mocha --recursive test/helpers/_failTestsOnErrors",
+				"clean:cover": "rimraf coverage",
+				"precoverage": "NODE_ENV=test npm run build && npm run clean:cover",
+				"coverage": "nyc --show-process-tree npm run --silent mocha test -- --reporter=dot",
+				"tests-only": "npm run mocha test",
+				"pretest": "npm run lint",
+				"test": "npm run tests-only",
+				"pretravis": "npm run build",
+				"travis": "npm run tests-only",
+				"react:clean": "rimraf node_modules/react node_modules/react-dom node_modules/react-addons-test-utils",
+				"react:13": "npm run react:clean && npm i --no-save react@0.13",
+				"react:14": "npm run react:clean && npm i --no-save react@0.14 react-dom@0.14 react-addons-test-utils@0.14",
+				"react:15": "npm run react:clean && npm i --no-save react@15 react-dom@15 react-addons-test-utils@15",
+				"react:16": "npm run react:clean && npm i --no-save react@16.0.0-alpha.12 react-dom@16.0.0-alpha.12"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/airbnb/prop-types-exact.git"
+			},
+			"keywords": [
+				"react",
+				"propTypes",
+				"airbnb",
+				"prop",
+				"types",
+				"validator",
+				"validation",
+				"exact"
+			],
+			"author": {
+				"name": "Jordan Harband",
+				"email": "ljharb@gmail.com"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/airbnb/prop-types-exact/issues"
+			},
+			"homepage": "https://github.com/airbnb/prop-types-exact#readme",
+			"devDependencies": {
+				"babel-cli": "^6.24.1",
+				"babel-plugin-add-module-exports": "^0.2.1",
+				"babel-plugin-istanbul": "^4.1.4",
+				"babel-plugin-transform-replace-object-assign": "^0.2.1",
+				"babel-preset-airbnb": "^2.2.3",
+				"chai": "^4.0.2",
+				"eslint": "^3.19.0",
+				"eslint-config-airbnb": "^15.0.1",
+				"eslint-plugin-import": "^2.3.0",
+				"eslint-plugin-jsx-a11y": "^5.0.3",
+				"eslint-plugin-react": "^7.0.1",
+				"in-publish": "^2.0.0",
+				"mocha": "^3.4.2",
+				"nyc": "^11.0.2",
+				"prop-types": "^15.5.10",
+				"react": "^0.13 || ^0.14 || ^15 || ^16.0.0-alpha.12",
+				"reflect.ownkeys": "^0.2.0",
+				"rimraf": "^2.6.1",
+				"safe-publish-latest": "^1.1.1"
+			},
+			"dependencies": {
+				"has": "^1.0.1",
+				"object.assign": "^4.0.4"
+			},
+			"gitHead": "fb5f5695d599747d26c08e5449d577204ede2c28",
+			"_id": "prop-types-exact@1.1.1",
+			"_npmVersion": "5.0.3",
+			"_nodeVersion": "8.1.3",
+			"_npmUser": {
+				"name": "ljharb",
+				"email": "ljharb@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-VrFC2QoIt7oj9bxVTAYDfDMBYV3u+VHQUOWJWk9OURT7uwPEenH879MQoAQ/reY2GZ55il6p/eCqHRs2nqm8wA==",
+				"shasum": "c2620207e4f77f9762fa1835b0387a464bd08978",
+				"tarball": "https://registry.npmjs.org/prop-types-exact/-/prop-types-exact-1.1.1.tgz",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIFgyenR4X5GPRu7IICdCf5NS2gwYiD+oNUohXfK3zskcAiBLOh6yD9WwpSyuccdycezYfWEYONL1Zcf98ytmGaxoNQ=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "airbnb",
+					"email": "jordan.harband+npm@airbnb.com"
+				},
+				{
+					"name": "ljharb",
+					"email": "ljharb@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/prop-types-exact-1.1.1.tgz_1499326695123_0.7390714187640697"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.1.2": {
+			"name": "prop-types-exact",
+			"version": "1.1.2",
+			"description": "For use with React PropTypes. Will error on any prop not explicitly specified.",
+			"main": "build",
+			"scripts": {
+				"prepublish": "safe-publish-latest && (not-in-publish || npm run build)",
+				"clean": "npm run clean:build && npm run clean:coverage",
+				"clean:build": "rimraf build",
+				"prebuild": "npm run clean:build",
+				"build": "babel src --out-dir build --source-maps",
+				"lint": "eslint --ext js,jsx src test",
+				"mocha": "mocha test/helpers/_failTestsOnErrors",
+				"clean:coverage": "rimraf coverage",
+				"precoverage": "NODE_ENV=test npm run build && npm run clean:coverage",
+				"coverage": "nyc --show-process-tree npm run --silent mocha 'test/**.{js,jsx}' -- --reporter=dot",
+				"tests-only": "npm run mocha 'test/**.{js,jsx}'",
+				"pretest": "npm run build && npm run lint",
+				"test": "npm run tests-only",
+				"pretravis": "npm run build",
+				"travis": "npm run tests-only",
+				"react:clean": "rimraf node_modules/react node_modules/react-dom node_modules/react-addons-test-utils",
+				"react:13": "npm run react:clean && npm i --no-save react@0.13",
+				"react:14": "npm run react:clean && npm i --no-save react@0.14 react-dom@0.14 react-addons-test-utils@0.14",
+				"react:15": "npm run react:clean && npm i --no-save react@15 react-dom@15 react-addons-test-utils@15",
+				"react:16": "npm run react:clean && npm i --no-save react@16.0.0-alpha.12 react-dom@16.0.0-alpha.12"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/airbnb/prop-types-exact.git"
+			},
+			"keywords": [
+				"react",
+				"propTypes",
+				"airbnb",
+				"prop",
+				"types",
+				"validator",
+				"validation",
+				"exact"
+			],
+			"author": {
+				"name": "Jordan Harband",
+				"email": "ljharb@gmail.com"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/airbnb/prop-types-exact/issues"
+			},
+			"homepage": "https://github.com/airbnb/prop-types-exact#readme",
+			"devDependencies": {
+				"babel-cli": "^6.26.0",
+				"babel-plugin-add-module-exports": "^0.2.1",
+				"babel-plugin-istanbul": "^4.1.5",
+				"babel-plugin-transform-replace-object-assign": "^0.2.1",
+				"babel-preset-airbnb": "^2.4.0",
+				"chai": "^4.1.2",
+				"eslint": "^4.15.0",
+				"eslint-config-airbnb": "^16.1.0",
+				"eslint-plugin-import": "^2.8.0",
+				"eslint-plugin-jsx-a11y": "^6.0.3",
+				"eslint-plugin-react": "^7.5.1",
+				"in-publish": "^2.0.0",
+				"mocha": "^3.5.3",
+				"nyc": "^11.4.1",
+				"prop-types": "^15.6.0",
+				"react": "^0.13 || ^0.14 || ^15 || ^16.0.0-alpha.12",
+				"reflect.ownkeys": "^0.2.0",
+				"rimraf": "^2.6.2",
+				"safe-publish-latest": "^1.1.1"
+			},
+			"dependencies": {
+				"has": "^1.0.1",
+				"object.assign": "^4.1.0"
+			},
+			"gitHead": "c9070ed48e13db03f09bd0a5f5fa38bdcd0d5d44",
+			"_id": "prop-types-exact@1.1.2",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "9.4.0",
+			"_npmUser": {
+				"name": "ljharb",
+				"email": "ljharb@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-3x4BWv7w2luSStiHwSzrhK9U1sm+vHwSyg9le2RfY41pZyJdiPKDOKh6TCQywwl++SCr7MMKu7POp4LU/L/eIA==",
+				"shasum": "0b5addd8ff3ea10823fe1d94f030f4b4296b513f",
+				"tarball": "https://registry.npmjs.org/prop-types-exact/-/prop-types-exact-1.1.2.tgz",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDDIlkvQB7wamwZROjx6/2+puGgjzYu5SYIc6ABdOtIywIhAK+3GO0yEv21xuiePFjfHeUm+MVoTBumsyvrKW6rr51M"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "airbnb",
+					"email": "jordan.harband+npm@airbnb.com"
+				},
+				{
+					"name": "ljharb",
+					"email": "ljharb@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/prop-types-exact-1.1.2.tgz_1516221360743_0.7855752352625132"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.2.0": {
+			"name": "prop-types-exact",
+			"version": "1.2.0",
+			"description": "For use with React PropTypes. Will error on any prop not explicitly specified.",
+			"main": "build",
+			"scripts": {
+				"prepublish": "safe-publish-latest && (not-in-publish || npm run build)",
+				"clean": "npm run clean:build && npm run clean:coverage",
+				"clean:build": "rimraf build",
+				"prebuild": "npm run clean:build",
+				"build": "babel src --out-dir build --source-maps",
+				"lint": "eslint --ext js,jsx src test",
+				"tape": "tape --require babel-register --require ./test/helpers/_failTestsOnErrors",
+				"clean:coverage": "rimraf coverage",
+				"precoverage": "NODE_ENV=test npm run build && npm run clean:coverage",
+				"coverage": "nyc --show-process-tree npm run --silent tests-only -- --",
+				"tests-only": "npm run tape './test/*.*'",
+				"pretest": "npm run build && npm run lint",
+				"test": "npm run tests-only",
+				"pretravis": "npm run build",
+				"travis": "npm run tests-only",
+				"react:clean": "rimraf node_modules/react node_modules/react-dom node_modules/react-addons-test-utils",
+				"react:13": "npm run react:clean && npm i --no-save react@0.13",
+				"react:14": "npm run react:clean && npm i --no-save react@0.14 react-dom@0.14 react-addons-test-utils@0.14",
+				"react:15": "npm run react:clean && npm i --no-save react@15 react-dom@15 react-addons-test-utils@15",
+				"react:16": "npm run react:clean && npm i --no-save react@16.0.0-alpha.12 react-dom@16.0.0-alpha.12"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/airbnb/prop-types-exact.git"
+			},
+			"keywords": [
+				"react",
+				"propTypes",
+				"airbnb",
+				"prop",
+				"types",
+				"validator",
+				"validation",
+				"exact"
+			],
+			"author": {
+				"name": "Jordan Harband",
+				"email": "ljharb@gmail.com"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/airbnb/prop-types-exact/issues"
+			},
+			"homepage": "https://github.com/airbnb/prop-types-exact#readme",
+			"devDependencies": {
+				"babel-cli": "^6.26.0",
+				"babel-plugin-add-module-exports": "^0.2.1",
+				"babel-plugin-istanbul": "^4.1.6",
+				"babel-plugin-transform-replace-object-assign": "^1.0.0",
+				"babel-preset-airbnb": "^2.4.0",
+				"eslint": "^4.19.1",
+				"eslint-config-airbnb": "^16.1.0",
+				"eslint-plugin-import": "^2.12.0",
+				"eslint-plugin-jsx-a11y": "^6.0.3",
+				"eslint-plugin-react": "^7.9.1",
+				"in-publish": "^2.0.0",
+				"nyc": "^10.3.2",
+				"prop-types": "^15.6.1",
+				"react": "^0.13 || ^0.14 || ^15 || ^16.0.0-alpha.12",
+				"rimraf": "^2.6.2",
+				"safe-publish-latest": "^1.1.1",
+				"tape": "^4.9.1"
+			},
+			"dependencies": {
+				"has": "^1.0.3",
+				"object.assign": "^4.1.0",
+				"reflect.ownkeys": "^0.2.0"
+			},
+			"gitHead": "02e008f30a604f7cd54f0c352acae3344292ad9e",
+			"_id": "prop-types-exact@1.2.0",
+			"_npmVersion": "6.1.0",
+			"_nodeVersion": "10.4.1",
+			"_npmUser": {
+				"name": "ljharb",
+				"email": "ljharb@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-K+Tk3Kd9V0odiXFP9fwDHUYRyvK3Nun3GVyPapSIs5OBkITAm15W0CPFD/YKTkMUAbc0b9CUwRQp2ybiBIq+eA==",
+				"shasum": "825d6be46094663848237e3925a98c6e944e9869",
+				"tarball": "https://registry.npmjs.org/prop-types-exact/-/prop-types-exact-1.2.0.tgz",
+				"fileCount": 25,
+				"unpackedSize": 24063,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbI0LCCRA9TVsSAnZWagAA1fsP/0Yr4BHN4GTxl5NflGKS\nSYdfM13IoKBFlXdIkL9nDxxjZRPIza5VuXK3mBihs2gW2DlMENMwVkPHGpRt\nc3VUYJ5fKPbsm6yQXWdQw0gZwPCaQcS5UOGe20ZgVKfoCQetcoIICoIa7IOw\nQ9Z0fk/QkZZN4BoG+GWmKuJa9chASSzdZ1ao6G21hRAZbfRWltTVTE/eiyhp\nLanWN2/pfTjm/kdRRkpG3plszpjMMuyULVpPA0Jh+Rf6KwOfaPWYJNhtlQhe\nc9lXrNTlkHujo5de+WAzhyfglV6Nwjbh+5pwCfFicuukUa7L5urLjo9GOu3L\n3D9kQNej9xhnyUNBEG1rW2LgO+/Yvw6fBE0P+QsqJuzzpksCFma6kN5xtbty\nY2HnvY842UbJoi4FskW8xf5PYwBjWwXVB9b9TGPh1vtxlG8LjPSZo2YU0Jc3\nS4Lphc0EGw/FpM70XIc0XTGHjr0kbGCfXM/HNXcyeagLxS9bPNDaXPCHb7Sr\nmZUCTOFKB0405z6lFNmhDiqebMN3qzGJN4jii4zIRQhEw6rOlQppW50kWCID\nxNw93OriMWgFK7nol4qK7fZqF2fl5nkBqvKcsv4phWEvAhthnAyq5q4elQFp\ncx9Rjc5ZxAGE8saDmVIZmTDN+YPoW8k5xy8C5mzSswyQtLvdlDlztUK8zvfe\nTQZs\r\n=30hy\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIF/6oy6H6Preks825gAz457Ijmk2gN7A41CVBs3VmoOfAiEAw5Hi724ualjkmgR5lj8I48uCP7lPs6/SjgluaVBk0mQ="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "airbnb",
+					"email": "jordan.harband+npm@airbnb.com"
+				},
+				{
+					"name": "ljharb",
+					"email": "ljharb@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/prop-types-exact_1.2.0_1529037505281_0.7571192442286236"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		}
+	},
+	"time": {
+		"modified": "2022-05-13T13:03:48.682Z",
+		"created": "2017-06-05T04:24:28.737Z",
+		"1.0.0": "2017-06-05T04:24:28.737Z",
+		"1.1.0": "2017-06-05T22:37:10.962Z",
+		"1.1.1": "2017-07-06T07:38:16.052Z",
+		"1.1.2": "2018-01-17T20:36:00.804Z",
+		"1.2.0": "2018-06-15T04:38:25.364Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "1.2.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"59db8ba6650a72efd781b008ca16e2fa\"",
+			"fetched": 1660840799348
+		}
+	},
+	"_distfiles": {
+		"prop-types-exact-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/prop-types-exact/-/prop-types-exact-1.0.0.tgz",
+			"sha": "2ab8866fdea26000a407c636ebd803e1f30bb486",
+			"registry": "npmjs"
+		},
+		"prop-types-exact-1.1.0.tgz": {
+			"url": "https://registry.npmjs.org/prop-types-exact/-/prop-types-exact-1.1.0.tgz",
+			"sha": "d914182e3042934f1a0152e26cf897e573d941d1",
+			"registry": "npmjs"
+		},
+		"prop-types-exact-1.1.1.tgz": {
+			"url": "https://registry.npmjs.org/prop-types-exact/-/prop-types-exact-1.1.1.tgz",
+			"sha": "c2620207e4f77f9762fa1835b0387a464bd08978",
+			"registry": "npmjs"
+		},
+		"prop-types-exact-1.1.2.tgz": {
+			"url": "https://registry.npmjs.org/prop-types-exact/-/prop-types-exact-1.1.2.tgz",
+			"sha": "0b5addd8ff3ea10823fe1d94f030f4b4296b513f",
+			"registry": "npmjs"
+		},
+		"prop-types-exact-1.2.0.tgz": {
+			"url": "https://registry.npmjs.org/prop-types-exact/-/prop-types-exact-1.2.0.tgz",
+			"sha": "825d6be46094663848237e3925a98c6e944e9869",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_rev": "3-971ddafe509c778b",
+	"_id": "prop-types-exact",
+	"readme": "# prop-types-exact <sup>[![Version Badge][npm-version-svg]][package-url]</sup>\n\n[![Build Status][travis-svg]][travis-url]\n[![dependency status][deps-svg]][deps-url]\n[![dev dependency status][dev-deps-svg]][dev-deps-url]\n[![License][license-image]][license-url]\n[![Downloads][downloads-image]][downloads-url]\n\n[![npm badge][npm-badge-png]][package-url]\n\nFor use with React PropTypes. Will error on any prop not explicitly specified.\n\n## Usage\n\n```jsx\nimport PropTypes from 'prop-types';\nimport exact from 'prop-types-exact';\n\nfunction Foo({ foo, bar }) {\n  return <div>{foo}{bar}</div>\n}\nFoo.propTypes = exact({\n  foo: PropTypes.string,\n  bar: PropTypes.number,\n});\n\n<Foo foo=\"hi\" bar={3} /> // no warnings\n\n<Foo foo=\"hi\" bar={3} baz=\"extra\" /> // propTypes warning!\n```\n\n## Tests\nSimply clone the repo, `npm install`, and run `npm test`\n\n[package-url]: https://npmjs.org/package/prop-types-exact\n[npm-version-svg]: http://versionbadg.es/airbnb/prop-types-exact.svg\n[travis-svg]: https://travis-ci.org/airbnb/prop-types-exact.svg\n[travis-url]: https://travis-ci.org/airbnb/prop-types-exact\n[deps-svg]: https://david-dm.org/airbnb/prop-types-exact.svg\n[deps-url]: https://david-dm.org/airbnb/prop-types-exact\n[dev-deps-svg]: https://david-dm.org/airbnb/prop-types-exact/dev-status.svg\n[dev-deps-url]: https://david-dm.org/airbnb/prop-types-exact#info=devDependencies\n[npm-badge-png]: https://nodei.co/npm/prop-types-exact.png?downloads=true&stars=true\n[license-image]: http://img.shields.io/npm/l/prop-types-exact.svg\n[license-url]: LICENSE\n[downloads-image]: http://img.shields.io/npm/dm/prop-types-exact.svg\n[downloads-url]: http://npm-stat.com/charts.html?package=prop-types-exact"
+}

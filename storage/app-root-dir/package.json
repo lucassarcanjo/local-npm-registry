@@ -1,0 +1,218 @@
+{
+	"name": "app-root-dir",
+	"versions": {
+		"1.0.0": {
+			"name": "app-root-dir",
+			"version": "1.0.0",
+			"description": "Simple module to infer the root directory of the currently running node application",
+			"main": "lib/index.js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/philidem/node-app-root-dir.git"
+			},
+			"keywords": [
+				"modules",
+				"path",
+				"node",
+				"app",
+				"root",
+				"directory"
+			],
+			"author": {
+				"name": "Phillip Gates-Idem",
+				"email": "phillip.idem@gmail.com"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/philidem/node-app-root-dir/issues"
+			},
+			"homepage": "https://github.com/philidem/node-app-root-dir",
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/"
+			},
+			"gitHead": "45f7f9857f9c87fcb1276f6dc5d01084b2eb1982",
+			"_id": "app-root-dir@1.0.0",
+			"scripts": {},
+			"_shasum": "e3490ca66ea038c9e891e1bb48e69e89f0c61d6b",
+			"_from": ".",
+			"_npmVersion": "1.4.14",
+			"_npmUser": {
+				"name": "philidem",
+				"email": "phillip.idem@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "philidem",
+					"email": "phillip.idem@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "e3490ca66ea038c9e891e1bb48e69e89f0c61d6b",
+				"tarball": "https://registry.npmjs.org/app-root-dir/-/app-root-dir-1.0.0.tgz",
+				"integrity": "sha512-/1OJJF58WtyRQ0Km0aeL6A4yDaqVY5m3qylFS07mrFud0yG2NZGndC5Fejiv67co9pyxV0hMnFMh7GDLPJXffw==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDI7rP7qk51Q2Q9pbULcLoe4TUY6bsi22NocCLrsmHYxgIgZl4gjA5PjyzR4qzetg/nftgXVGOSJSRHwlLuSMSJiLw="
+					}
+				]
+			},
+			"contributors": []
+		},
+		"1.0.1": {
+			"name": "app-root-dir",
+			"version": "1.0.1",
+			"description": "Simple module to infer the root directory of the currently running node application",
+			"main": "lib/index.js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/philidem/node-app-root-dir.git"
+			},
+			"keywords": [
+				"modules",
+				"path",
+				"node",
+				"app",
+				"root",
+				"directory"
+			],
+			"author": {
+				"name": "Phillip Gates-Idem",
+				"email": "phillip.idem@gmail.com"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/philidem/node-app-root-dir/issues"
+			},
+			"homepage": "https://github.com/philidem/node-app-root-dir",
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/"
+			},
+			"gitHead": "9ca71e8a789921084a5a7ceb32b632ab70d38337",
+			"_id": "app-root-dir@1.0.1",
+			"scripts": {},
+			"_shasum": "46d085e3189c5c8f845c7578ec7d860cede21a3c",
+			"_from": ".",
+			"_npmVersion": "1.4.28",
+			"_npmUser": {
+				"name": "philidem",
+				"email": "phillip.idem@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "philidem",
+					"email": "phillip.idem@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "46d085e3189c5c8f845c7578ec7d860cede21a3c",
+				"tarball": "https://registry.npmjs.org/app-root-dir/-/app-root-dir-1.0.1.tgz",
+				"integrity": "sha512-RXwj18UK87RB+/WcVhSPtCG2yuAaElAN63WVXWCK00cBS2H+QnacindRfNfWzwM7pAqzApgh+sBKqKNY6XU6rw==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIDpjPUAyeWCRdqgLepJewIf1zSAX3cM+p/Hd60O9o9KRAiEAiXkD81V2JeBBKsHVdDpp7DPEZtUosh/BbkxoEziXCbQ="
+					}
+				]
+			},
+			"contributors": []
+		},
+		"1.0.2": {
+			"name": "app-root-dir",
+			"description": "Simple module to infer the root directory of the currently running node application",
+			"main": "lib/index.js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/philidem/node-app-root-dir.git"
+			},
+			"keywords": [
+				"modules",
+				"path",
+				"node",
+				"app",
+				"root",
+				"directory"
+			],
+			"author": {
+				"name": "Phillip Gates-Idem",
+				"email": "phillip.idem@gmail.com"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/philidem/node-app-root-dir/issues"
+			},
+			"homepage": "https://github.com/philidem/node-app-root-dir",
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/"
+			},
+			"version": "1.0.2",
+			"gitHead": "700eb56ed0ad9747acc4d4053c68f2c105945d6a",
+			"_id": "app-root-dir@1.0.2",
+			"scripts": {},
+			"_shasum": "38187ec2dea7577fff033ffcb12172692ff6e118",
+			"_from": ".",
+			"_npmVersion": "2.7.4",
+			"_nodeVersion": "0.12.2",
+			"_npmUser": {
+				"name": "philidem",
+				"email": "phillip.idem@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "philidem",
+					"email": "phillip.idem@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "38187ec2dea7577fff033ffcb12172692ff6e118",
+				"tarball": "https://registry.npmjs.org/app-root-dir/-/app-root-dir-1.0.2.tgz",
+				"integrity": "sha512-jlpIfsOoNoafl92Sz//64uQHGSyMrD2vYG5d8o2a4qGvyNCvXur7bzIsWtAC/6flI2RYAp3kv8rsfBtaLm7w0g==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQCicpYV5xRs02fb4PItCw2m7A/z+mUcIqyrhetK+mokrwIgBj5TgzoBP2B5ZKRA8zBi0fBHeuwyf/1SJrYgP7IS/vM="
+					}
+				]
+			},
+			"contributors": []
+		}
+	},
+	"time": {
+		"modified": "2022-06-13T03:16:29.183Z",
+		"created": "2014-06-17T17:58:12.197Z",
+		"1.0.0": "2014-06-17T17:58:12.197Z",
+		"1.0.1": "2014-10-16T03:47:44.748Z",
+		"1.0.2": "2015-05-28T15:51:58.559Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "1.0.2"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"39177989587f5d374e8a87c1c137a016\"",
+			"fetched": 1660840760753
+		}
+	},
+	"_distfiles": {
+		"app-root-dir-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/app-root-dir/-/app-root-dir-1.0.0.tgz",
+			"sha": "e3490ca66ea038c9e891e1bb48e69e89f0c61d6b",
+			"registry": "npmjs"
+		},
+		"app-root-dir-1.0.1.tgz": {
+			"url": "https://registry.npmjs.org/app-root-dir/-/app-root-dir-1.0.1.tgz",
+			"sha": "46d085e3189c5c8f845c7578ec7d860cede21a3c",
+			"registry": "npmjs"
+		},
+		"app-root-dir-1.0.2.tgz": {
+			"url": "https://registry.npmjs.org/app-root-dir/-/app-root-dir-1.0.2.tgz",
+			"sha": "38187ec2dea7577fff033ffcb12172692ff6e118",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_rev": "3-fe8d6836837c59e0",
+	"_id": "app-root-dir",
+	"readme": "node-app-root-dir\n=================\n\nSimple module to infer the root directory of the currently running node application\n\n## Usage\n```javascript\n// get the application's root directory\nvar appRootDir = require('app-root-dir').get();\n\n// set the application's root directory\n// (this will set a global so that no matter\n// how many instances of app-root-dir module are\n// installed, they will all return the same\n// directory)\nrequire('app-root-dir').set(__dirname);\n```\n\n\n## How it Works\nThe following strategy is used to find the application's root directory (the directory in your project that contains the main package.json file):\n\n* If **package.json** exists at `process.cwd()` then use `process.cwd()` as the application root directory.\n* Else if, the **app-root-dir** module has **node_modules** directory in its path then use the directory above this as the application root directory. NOTE: The parent directory of the _first_ **node_modules** directory in the path is used if the **app-root-dir** module is installed as a submodule of another module.\n* Else, use the directory of **app-root-dir** module as the application root directory.\n\nFor example, consider this directory structure for the scenarios below:\n+ my-project\n  + package.json\n  + server.js\n  + node_modules\n    + app-root-dir\n      + lib\n        + index.js\n\n### Scenario 1:\nApplication is ran as:\n`node server.js`\n\nThe application root directory will be **my-project** because **package.json** exists at `process.cwd()`\n\n### Scenario 2:\nApplication is ran as:\n`node my-project/server.js`\n\nThere is no **package.json** at `process.cwd()`. The application root directory will still be **my-project** because **my-project/node_modules/app-root-dir/lib/index.js** has **node_modules** in its path and the directory above **node_modules** is the application's root directory."
+}

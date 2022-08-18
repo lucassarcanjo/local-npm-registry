@@ -1,0 +1,885 @@
+{
+	"name": "is-whitespace-character",
+	"versions": {
+		"1.0.0": {
+			"name": "is-whitespace-character",
+			"version": "1.0.0",
+			"description": "Check if a character is a whitespace character",
+			"license": "MIT",
+			"keywords": [
+				"string",
+				"character",
+				"char",
+				"code",
+				"whitespace",
+				"white",
+				"space"
+			],
+			"files": [
+				"index.js"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/wooorm/is-whitespace-character.git"
+			},
+			"bugs": {
+				"url": "https://github.com/wooorm/is-whitespace-character/issues"
+			},
+			"author": {
+				"name": "Titus Wormer",
+				"email": "tituswormer@gmail.com",
+				"url": "http://wooorm.com"
+			},
+			"contributors": [
+				{
+					"name": "Titus Wormer",
+					"email": "tituswormer@gmail.com",
+					"url": "http://wooorm.com"
+				}
+			],
+			"dependencies": {},
+			"devDependencies": {
+				"browserify": "^13.0.1",
+				"esmangle": "^1.0.1",
+				"nyc": "^7.0.0",
+				"remark-cli": "^1.0.0",
+				"remark-comment-config": "^4.0.0",
+				"remark-github": "^5.0.0",
+				"remark-lint": "^4.0.0",
+				"remark-validate-links": "^4.0.0",
+				"tape": "^4.0.0",
+				"xo": "^0.16.0"
+			},
+			"scripts": {
+				"build-md": "remark . --quiet --frail",
+				"build-bundle": "browserify index.js --bare -s isWhitespaceCharacter > is-whitespace-character.js",
+				"build-mangle": "esmangle < is-whitespace-character.js > is-whitespace-character.min.js",
+				"build": "npm run build-md && npm run build-bundle && npm run build-mangle",
+				"lint": "xo",
+				"test-api": "node test",
+				"test-coverage": "nyc --reporter lcov tape test.js",
+				"test": "npm run build && npm run lint && npm run test-coverage"
+			},
+			"xo": {
+				"space": true,
+				"ignores": [
+					"is-whitespace-character.js",
+					"is-whitespace-character.min.js"
+				]
+			},
+			"nyc": {
+				"check-coverage": true,
+				"lines": 100,
+				"functions": 100,
+				"branches": 100
+			},
+			"remarkConfig": {
+				"output": true,
+				"plugins": [
+					"comment-config",
+					"github",
+					"lint",
+					"validate-links"
+				],
+				"settings": {
+					"bullet": "*"
+				}
+			},
+			"gitHead": "e9d51189eaedeec4612985d4fef745f0596dfec0",
+			"homepage": "https://github.com/wooorm/is-whitespace-character#readme",
+			"_id": "is-whitespace-character@1.0.0",
+			"_shasum": "bbf4a83764ead0d451bec2a55218e91961adc275",
+			"_from": ".",
+			"_npmVersion": "3.3.6",
+			"_nodeVersion": "5.0.0",
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"dist": {
+				"shasum": "bbf4a83764ead0d451bec2a55218e91961adc275",
+				"tarball": "https://registry.npmjs.org/is-whitespace-character/-/is-whitespace-character-1.0.0.tgz",
+				"integrity": "sha512-ay4+RjydJ3V7BTslT2UN1sOmh+myx2KECXJYz3c2M+PcdqvuAbOt9MfEBIrFxZVKunGBaZcyuut5Xq/xY21ubw==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIFzuZdnDTLySaDyGgikaxPhHjm1SmaTuWfTEimGXEiC7AiBOIKUzv9/QbwOvXPaWiCpjsF63hOpJ0dLtXbPkrzUIMw=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/is-whitespace-character-1.0.0.tgz_1468316627887_0.5652096970006824"
+			},
+			"directories": {}
+		},
+		"1.0.1": {
+			"name": "is-whitespace-character",
+			"version": "1.0.1",
+			"description": "Check if a character is a whitespace character",
+			"license": "MIT",
+			"keywords": [
+				"string",
+				"character",
+				"char",
+				"code",
+				"whitespace",
+				"white",
+				"space"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/wooorm/is-whitespace-character.git"
+			},
+			"bugs": {
+				"url": "https://github.com/wooorm/is-whitespace-character/issues"
+			},
+			"author": {
+				"name": "Titus Wormer",
+				"email": "tituswormer@gmail.com",
+				"url": "http://wooorm.com"
+			},
+			"contributors": [
+				{
+					"name": "Titus Wormer",
+					"email": "tituswormer@gmail.com",
+					"url": "http://wooorm.com"
+				}
+			],
+			"files": [
+				"index.js"
+			],
+			"dependencies": {},
+			"devDependencies": {
+				"browserify": "^14.1.0",
+				"esmangle": "^1.0.1",
+				"nyc": "^11.0.0",
+				"remark-cli": "^3.0.0",
+				"remark-preset-wooorm": "^3.0.0",
+				"tape": "^4.0.0",
+				"xo": "^0.18.0"
+			},
+			"scripts": {
+				"build-md": "remark . -qfo",
+				"build-bundle": "browserify index.js --bare -s isWhitespaceCharacter > is-whitespace-character.js",
+				"build-mangle": "esmangle < is-whitespace-character.js > is-whitespace-character.min.js",
+				"build": "npm run build-md && npm run build-bundle && npm run build-mangle",
+				"lint": "xo",
+				"test-api": "node test",
+				"test-coverage": "nyc --reporter lcov tape test.js",
+				"test": "npm run build && npm run lint && npm run test-coverage"
+			},
+			"xo": {
+				"space": true,
+				"esnext": false,
+				"ignores": [
+					"is-whitespace-character.js"
+				]
+			},
+			"nyc": {
+				"check-coverage": true,
+				"lines": 100,
+				"functions": 100,
+				"branches": 100
+			},
+			"remarkConfig": {
+				"plugins": [
+					"preset-wooorm"
+				]
+			},
+			"gitHead": "64f48a819633a88e8c6fc233dbb643a4641c83a9",
+			"homepage": "https://github.com/wooorm/is-whitespace-character#readme",
+			"_id": "is-whitespace-character@1.0.1",
+			"_shasum": "9ae0176f3282b65457a1992cdb084f8a5f833e3b",
+			"_from": ".",
+			"_npmVersion": "2.14.2",
+			"_nodeVersion": "4.0.0",
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"dist": {
+				"shasum": "9ae0176f3282b65457a1992cdb084f8a5f833e3b",
+				"tarball": "https://registry.npmjs.org/is-whitespace-character/-/is-whitespace-character-1.0.1.tgz",
+				"integrity": "sha512-pgBSzU5KiJdjNWGkax2jRnjyOjI0GyulbZGYbVeMNQGznRXYUmP8T4A4gfzBZpoJauiAFMnauNDpr6P5aGXcVQ==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIC/8QXGyBJSwMAfCsCE7LFICJJGg9lnil/Sl/ExzHATEAiBmK5dTiRFrl/cNUAsFChXMfxwm4zbG7qpYopFTefFKNA=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/is-whitespace-character-1.0.1.tgz_1500394695038_0.734413735801354"
+			},
+			"directories": {}
+		},
+		"1.0.2": {
+			"name": "is-whitespace-character",
+			"version": "1.0.2",
+			"description": "Check if a character is a whitespace character",
+			"license": "MIT",
+			"keywords": [
+				"string",
+				"character",
+				"char",
+				"code",
+				"whitespace",
+				"white",
+				"space"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/wooorm/is-whitespace-character.git"
+			},
+			"bugs": {
+				"url": "https://github.com/wooorm/is-whitespace-character/issues"
+			},
+			"author": {
+				"name": "Titus Wormer",
+				"email": "tituswormer@gmail.com",
+				"url": "http://wooorm.com"
+			},
+			"contributors": [
+				{
+					"name": "Titus Wormer",
+					"email": "tituswormer@gmail.com",
+					"url": "http://wooorm.com"
+				}
+			],
+			"files": [
+				"index.js"
+			],
+			"dependencies": {},
+			"devDependencies": {
+				"browserify": "^16.0.0",
+				"esmangle": "^1.0.1",
+				"nyc": "^11.0.0",
+				"prettier": "^1.12.1",
+				"remark-cli": "^5.0.0",
+				"remark-preset-wooorm": "^4.0.0",
+				"tape": "^4.0.0",
+				"xo": "^0.20.0"
+			},
+			"scripts": {
+				"format": "remark . -qfo && prettier --write '**/*.js' && xo --fix",
+				"build-bundle": "browserify index.js --bare -s isWhitespaceCharacter > is-whitespace-character.js",
+				"build-mangle": "esmangle < is-whitespace-character.js > is-whitespace-character.min.js",
+				"build": "npm run build-bundle && npm run build-mangle",
+				"test-api": "node test",
+				"test-coverage": "nyc --reporter lcov tape test.js",
+				"test": "npm run format && npm run build && npm run test-coverage"
+			},
+			"prettier": {
+				"tabWidth": 2,
+				"useTabs": false,
+				"singleQuote": true,
+				"bracketSpacing": false,
+				"semi": false,
+				"trailingComma": "none"
+			},
+			"xo": {
+				"prettier": true,
+				"esnext": false,
+				"rules": {
+					"no-var": "off",
+					"prefer-arrow-callback": "off"
+				},
+				"ignores": [
+					"is-whitespace-character.js"
+				]
+			},
+			"nyc": {
+				"check-coverage": true,
+				"lines": 100,
+				"functions": 100,
+				"branches": 100
+			},
+			"remarkConfig": {
+				"plugins": [
+					"preset-wooorm"
+				]
+			},
+			"gitHead": "931b28150b968aea58c04364d0ffa6abe33d620d",
+			"homepage": "https://github.com/wooorm/is-whitespace-character#readme",
+			"_id": "is-whitespace-character@1.0.2",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "9.5.0",
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-SzM+T5GKUCtLhlHFKt2SDAX2RFzfS6joT91F2/WSi9LxgFdsnhfPK/UIA+JhRR2xuyLdrCys2PiFDrtn1fU5hQ==",
+				"shasum": "ede53b4c6f6fb3874533751ec9280d01928d03ed",
+				"tarball": "https://registry.npmjs.org/is-whitespace-character/-/is-whitespace-character-1.0.2.tgz",
+				"fileCount": 4,
+				"unpackedSize": 4965,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJa2wgtCRA9TVsSAnZWagAA+9AP/1pJbChJs8FhSWqdVmqF\nxJ298qHdYZEj+Khc7cD1vSdBXyEiki/C9CHzjfgb1BlcAU+DsYCuurrRQs8+\nRvL+kd3TV5iKRnfvvUhd53fA2sqp6cF+spAc4hBVL1L4rIzEgIm5WuzE6Fvs\njv5C3Ssk2YcEhXVwdTNlme5N3GN0AwjEHG3yeS2pLk0CBSxUHRyA6v/ayTr2\nh5midwdr7dwbJZAgB5agkn8j671tOYMcgn8zleGp0wRBFFN0RQjN0p5CoSu8\ntXlkHODI0cwYA7ZGANCJhPSJkG9xufwTt9OZcIaiYK4kqM0cWv1WfeFACrEX\nxJmfoSZuTAAS0jmveQJmZdmZZz1G5Mziuq9NMIQnlqGyiA36VvSBe1OfvCwK\nO9PbnE+LZOxMiqvOCeclQ3lIlU3B2qK489S8ilmlAznCx8hjaRR0JuG2c0/4\nq/WDt5B3A+Ga2qW5ta+R3ULbJeIK6h45rJbr/NCD1gXiofTM2VBow9Mb+vjq\nmQlK/EzOwVLUwyrLtYvuYYB7LDcaxF3mpzeFrYwBSRhFht3Zz7zdT/jA6yjC\nIsi7WMnLQxSr9e6+CHCwr/CD8PZ7igPt8IB3t04VWWiouE7FCPwIrZZ7VqlF\nymR42TW4rRS+0WHKyiX5/b/buiWUq0uUiYKWLlTmVnZFtuuoeUphcaEJJD5g\nZjKW\r\n=j/ew\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIG71HHUpM+753ZE2wP/G6E62JPI6NTiaKvY0kS3SPciKAiAVw4hLVYjAmEEjZwfEXTzRweD6RRQHKnaZ0tWEDVIlMQ=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/is-whitespace-character_1.0.2_1524303916408_0.932532492075242"
+			},
+			"_hasShrinkwrap": false
+		},
+		"1.0.3": {
+			"name": "is-whitespace-character",
+			"version": "1.0.3",
+			"description": "Check if a character is a whitespace character",
+			"license": "MIT",
+			"keywords": [
+				"string",
+				"character",
+				"char",
+				"code",
+				"whitespace",
+				"white",
+				"space"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/wooorm/is-whitespace-character.git"
+			},
+			"bugs": {
+				"url": "https://github.com/wooorm/is-whitespace-character/issues"
+			},
+			"author": {
+				"name": "Titus Wormer",
+				"email": "tituswormer@gmail.com",
+				"url": "https://wooorm.com"
+			},
+			"contributors": [
+				{
+					"name": "Titus Wormer",
+					"email": "tituswormer@gmail.com",
+					"url": "https://wooorm.com"
+				}
+			],
+			"dependencies": {},
+			"devDependencies": {
+				"browserify": "^16.0.0",
+				"nyc": "^14.0.0",
+				"prettier": "^1.12.1",
+				"remark-cli": "^6.0.0",
+				"remark-preset-wooorm": "^4.0.0",
+				"tape": "^4.0.0",
+				"tinyify": "^2.5.0",
+				"xo": "^0.24.0"
+			},
+			"scripts": {
+				"format": "remark . -qfo && prettier --write \"**/*.js\" && xo --fix",
+				"build-bundle": "browserify . -s isWhitespaceCharacter -o is-whitespace-character.js",
+				"build-mangle": "browserify . -s isWhitespaceCharacter -p tinyify -o is-whitespace-character.min.js",
+				"build": "npm run build-bundle && npm run build-mangle",
+				"test-api": "node test",
+				"test-coverage": "nyc --reporter lcov tape test.js",
+				"test": "npm run format && npm run build && npm run test-coverage"
+			},
+			"prettier": {
+				"tabWidth": 2,
+				"useTabs": false,
+				"singleQuote": true,
+				"bracketSpacing": false,
+				"semi": false,
+				"trailingComma": "none"
+			},
+			"xo": {
+				"prettier": true,
+				"esnext": false,
+				"ignores": [
+					"is-whitespace-character.js"
+				]
+			},
+			"nyc": {
+				"check-coverage": true,
+				"lines": 100,
+				"functions": 100,
+				"branches": 100
+			},
+			"remarkConfig": {
+				"plugins": [
+					"preset-wooorm"
+				]
+			},
+			"gitHead": "f89a4c59a7f44470550c7fa2dfaccaeec034021b",
+			"homepage": "https://github.com/wooorm/is-whitespace-character#readme",
+			"_id": "is-whitespace-character@1.0.3",
+			"_nodeVersion": "11.9.0",
+			"_npmVersion": "6.9.0",
+			"dist": {
+				"integrity": "sha512-SNPgMLz9JzPccD3nPctcj8sZlX9DAMJSKH8bP7Z6bohCwuNgX8xbWr1eTAYXX9Vpi/aSn8Y1akL9WgM3t43YNQ==",
+				"shasum": "b3ad9546d916d7d3ffa78204bca0c26b56257fac",
+				"tarball": "https://registry.npmjs.org/is-whitespace-character/-/is-whitespace-character-1.0.3.tgz",
+				"fileCount": 4,
+				"unpackedSize": 5240,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc1cVcCRA9TVsSAnZWagAABy8P/1fDPMhjnXNc6aucttbC\nbLQXuTDdG/rekugiWJZuRDzGOXREgAyT35XRZe2+pwb6mesOjVySK5ppQRge\nmpL8kMkoBy9t0y4fMLG4br2dtpf5MReWKCJoud0AoUBMIWDwN8am8PoThdR9\neDACpZP0h3hYjNDJ39166W6AkutxnN3bEVk9Iuyr89IaNrB7dqYqixAcGvoQ\n9ABB2Zci2K+Sg95v1HhTuUvgwZr5dxD3FjjdtzZXbFhU0/FT1jUcyNzn3HUa\nL2L1RUFad8CF8EO2VrYiTQQFcYxcWZ+igkN48IWJvU3BUu4j9+D4hIYBnRfx\nrO0xp7KDaB88ok2lmibtXkxAPrM8F5609r0VdS2Honu9Sn90TUTf4kwBUo60\niEqlDgHSd5K5vpa8mZOununWO6dnARQ4LN3s7A7fjLzaChqNhMYrnABrmzXR\niKZH9xWif3otg9aVHEHWxdvm/6TiVyj0ioAdQCKDZQUIZbdtq8Y4p7KI7cy9\nUFEI0tg/MEM/vDjRGXTPKmfXqclDLkZKFciuyn5Z0e+b5NAicoqk4rv8hOGx\nqvMMuKjyYNPAr3b+nNAktcQmm75/Yh4h57H2KETABgR8bvIt+rrXWWmZfjxM\ndRHyGtXxb7sFfyIoKOqNOquczM6E2JNvt9orqkOoY83BexI874LZxvQe0tGR\nOx9P\r\n=qBiJ\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIA0oI1Ft1gHYP/oQ2fuSCrcplFR1pMsFLg6TzDJQ1oAuAiB3lJPP5ksCiy88XOhVThB/AEN7FrzKeDwRAUWLyTBnFQ=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				}
+			],
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/is-whitespace-character_1.0.3_1557513563520_0.5342030939025058"
+			},
+			"_hasShrinkwrap": false
+		},
+		"1.0.4": {
+			"name": "is-whitespace-character",
+			"version": "1.0.4",
+			"description": "Check if a character is a whitespace character",
+			"license": "MIT",
+			"keywords": [
+				"string",
+				"character",
+				"char",
+				"code",
+				"whitespace",
+				"white",
+				"space"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/wooorm/is-whitespace-character.git"
+			},
+			"bugs": {
+				"url": "https://github.com/wooorm/is-whitespace-character/issues"
+			},
+			"funding": {
+				"type": "github",
+				"url": "https://github.com/sponsors/wooorm"
+			},
+			"author": {
+				"name": "Titus Wormer",
+				"email": "tituswormer@gmail.com",
+				"url": "https://wooorm.com"
+			},
+			"contributors": [
+				{
+					"name": "Titus Wormer",
+					"email": "tituswormer@gmail.com",
+					"url": "https://wooorm.com"
+				}
+			],
+			"dependencies": {},
+			"devDependencies": {
+				"browserify": "^16.0.0",
+				"nyc": "^15.0.0",
+				"prettier": "^1.0.0",
+				"remark-cli": "^7.0.0",
+				"remark-preset-wooorm": "^6.0.0",
+				"tape": "^4.0.0",
+				"tinyify": "^2.0.0",
+				"xo": "^0.25.0"
+			},
+			"scripts": {
+				"format": "remark . -qfo && prettier --write \"**/*.js\" && xo --fix",
+				"build-bundle": "browserify . -s isWhitespaceCharacter -o is-whitespace-character.js",
+				"build-mangle": "browserify . -s isWhitespaceCharacter -p tinyify -o is-whitespace-character.min.js",
+				"build": "npm run build-bundle && npm run build-mangle",
+				"test-api": "node test",
+				"test-coverage": "nyc --reporter lcov tape test.js",
+				"test": "npm run format && npm run build && npm run test-coverage"
+			},
+			"prettier": {
+				"tabWidth": 2,
+				"useTabs": false,
+				"singleQuote": true,
+				"bracketSpacing": false,
+				"semi": false,
+				"trailingComma": "none"
+			},
+			"xo": {
+				"prettier": true,
+				"esnext": false,
+				"ignores": [
+					"is-whitespace-character.js"
+				]
+			},
+			"nyc": {
+				"check-coverage": true,
+				"lines": 100,
+				"functions": 100,
+				"branches": 100
+			},
+			"remarkConfig": {
+				"plugins": [
+					"preset-wooorm"
+				]
+			},
+			"gitHead": "433a8149f14c0a1db3a66224b2757ef9f8611e94",
+			"homepage": "https://github.com/wooorm/is-whitespace-character#readme",
+			"_id": "is-whitespace-character@1.0.4",
+			"_nodeVersion": "13.0.1",
+			"_npmVersion": "6.13.6",
+			"dist": {
+				"integrity": "sha512-SDweEzfIZM0SJV0EUga669UTKlmL0Pq8Lno0QDQsPnvECB3IM2aP0gdx5TrU0A01MAPfViaZiI2V1QMZLaKK5w==",
+				"shasum": "0858edd94a95594c7c9dd0b5c174ec6e45ee4aa7",
+				"tarball": "https://registry.npmjs.org/is-whitespace-character/-/is-whitespace-character-1.0.4.tgz",
+				"fileCount": 4,
+				"unpackedSize": 5313,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeLB5ACRA9TVsSAnZWagAA03YQAI9bX98QkyE9qWl3KnM2\nFGrZytwJMjXN4wenBHmyU1eKaDgL6oRCoMX/Tv0HRSuGvdDhgJyGYF4p3s7U\nLBiMmHg58huQbXTB2hyhxTPEuvXK8aiocz6Oi5wqLP6NgWckxwkLZ34S8RRy\nqNUDwe0O2NyetcnuzH7S9LIr0TjsHi3nNdq4oYtFFFATihSnFd6+4EcvpeuC\nhJY+CegCftPyN5+pUpOAOYxFnSZAaP+Zjk8TcmTv1W34bhU/erus+7voD95F\nJmKMxOQ9+b7OM+Q5Msb7aCW1csNoC9SYp4I4kzwtccpBXIpxz6fuouRlxFrA\nPDX3i+A7wefTHdm6mGpPINjMFszgPphudoZB2f1/T+KyxqHYXT8NylLphXDK\nezHx+Rry32LHQaKSRi1vH4qIcrULfPSN9ugUBesNXJT1jTOtbzC51+icoUil\nWVEaz8uLID7xn7Kvs/dXgeRaC08KsqFkp9OQBw3eq1ki+bpD5KzHNgvrLG6a\ne2WIMxZTWZ6tKHndGLOFaOEVlZ/7reuwAj0ayRuQGsSm6RKL76t6DJZreKqB\nnuRhEkR1GySJkDb6qEVDKTpuwanCwQZgdo2Kz0RKcM5ZKeP7PNwYQumFiPZa\n+N48Y352kBb2F2Hc1D6ctr8d/3/CsU+T9TXMZa7otk9qB3k9ztZ6rF5AMYjo\nRjOT\r\n=XlSq\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEMCHz4LsxkfTUkWEzx7ksjiBQi4W3mU79uTNooN2ICFpqUCICWn+Jau0dw5l5U4XdGiYrdDOuj5mS/+Tgem3E0y133L"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				}
+			],
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/is-whitespace-character_1.0.4_1579949631505_0.5796490812093833"
+			},
+			"_hasShrinkwrap": false
+		},
+		"2.0.0": {
+			"name": "is-whitespace-character",
+			"version": "2.0.0",
+			"description": "Check if a character is a whitespace character",
+			"license": "MIT",
+			"keywords": [
+				"string",
+				"character",
+				"char",
+				"code",
+				"whitespace",
+				"white",
+				"space"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/wooorm/is-whitespace-character.git"
+			},
+			"bugs": {
+				"url": "https://github.com/wooorm/is-whitespace-character/issues"
+			},
+			"funding": {
+				"type": "github",
+				"url": "https://github.com/sponsors/wooorm"
+			},
+			"author": {
+				"name": "Titus Wormer",
+				"email": "tituswormer@gmail.com",
+				"url": "https://wooorm.com"
+			},
+			"contributors": [
+				{
+					"name": "Titus Wormer",
+					"email": "tituswormer@gmail.com",
+					"url": "https://wooorm.com"
+				}
+			],
+			"sideEffects": false,
+			"type": "module",
+			"main": "index.js",
+			"types": "index.d.ts",
+			"devDependencies": {
+				"@types/tape": "^4.0.0",
+				"c8": "^7.0.0",
+				"prettier": "^2.0.0",
+				"remark-cli": "^9.0.0",
+				"remark-preset-wooorm": "^8.0.0",
+				"rimraf": "^3.0.0",
+				"tape": "^5.0.0",
+				"typescript": "^4.0.0",
+				"xo": "^0.38.0"
+			},
+			"scripts": {
+				"prepublishOnly": "npm run build && npm run format",
+				"prebuild": "rimraf \"*.d.ts\"",
+				"build": "tsc",
+				"format": "remark . -qfo && prettier . -w --loglevel warn && xo --fix",
+				"test-api": "node test.js",
+				"test-coverage": "c8 --check-coverage --branches 100 --functions 100 --lines 100 --statements 100 --reporter lcov node test.js",
+				"test": "npm run build && npm run format && npm run test-coverage"
+			},
+			"prettier": {
+				"tabWidth": 2,
+				"useTabs": false,
+				"singleQuote": true,
+				"bracketSpacing": false,
+				"semi": false,
+				"trailingComma": "none"
+			},
+			"xo": {
+				"prettier": true,
+				"rules": {
+					"no-var": "off",
+					"prefer-arrow-callback": "off"
+				}
+			},
+			"remarkConfig": {
+				"plugins": [
+					"preset-wooorm"
+				]
+			},
+			"gitHead": "8b36bf2bc329faf0e8fe697ce1fdb5cf13860aae",
+			"homepage": "https://github.com/wooorm/is-whitespace-character#readme",
+			"_id": "is-whitespace-character@2.0.0",
+			"_nodeVersion": "15.11.0",
+			"_npmVersion": "7.6.1",
+			"dist": {
+				"integrity": "sha512-7Zd42uq/TmbJuad7VhFVlNK6CMINV87Gyt72nkNywuBRDCCFkLXM5C+KyxkfuZEaAicXTK8SUor2ppm4i4vpOw==",
+				"shasum": "8c6eb7cecf8f085ef8796b0da5b8bfc5a9420159",
+				"tarball": "https://registry.npmjs.org/is-whitespace-character/-/is-whitespace-character-2.0.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 5928,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgSdPCCRA9TVsSAnZWagAAkAYP+wcgqbaAv3WQfZze0ziq\nvvIwKIIBlhJbsPHKCFr4zpstHGO+Tr0iD6pvdupgdat/u3y9jNDWHxqWkNYS\n7wg8M0s167jhh4ix1Aw4L4yUEcmr+DhAMFe/bWLGlIOWKbSMUifHOqpnVgTt\n2l0qutoh2pQh2Fjeu+Q1D9XTTn0ubUeUPUN0N8LDSmkIno2x9sKMgCmXFbFR\nuzO95jG8X1EitI9JCRrQBhREsS77lYnwJ6N+84HumqqHApU7rJPkqAM82dkQ\nBaHvnmRhy12TZNW8PQeY94Se80Ka7yo7qizVMenKSpq82UJYCYkcCKJdLObo\nXA12AOHe0/wC1mHoUJeD29Mk9lCtAwKVkaIiX7nvC6gtEs5hIZe3IAOsBIEc\nNljMGs5aYdw2augRKQaw4xz7go7xD7sz/WnCswjnWk1QLUctE9u6Xf8NBv5R\nT5/LBQxveqH8wn2mvHrniHnwAUaUicu/e//1KhWmVbGJhVnNRcRRTxga4PQi\nnuak14QbIpTDBf2KE0GQRgDewh7QxtQD67GkmhZRxlpWa8HipaZSUlqnYeDE\nFeVeJFWf8N6T9vr0Qyxy3Fd0TF1+mYOzMOW882lCdgKXjlTbtZJbFz0u7hIa\n5W9vJb8Cco5wme/wn/xQsRelrBMHZUh8AlfGWSzHunLSb7zh0IllagL8Hku4\nF0gB\r\n=+q5T\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQCQ6dEEjEwYWybTjp52h5EDWRF1NFW8tLtQEYYAuNa+IAIgOqnyhUy44tldUfpwxbM9HGZtVON4BBEFqWGtdtqknYw="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/is-whitespace-character_2.0.0_1615451073623_0.5178197151681541"
+			},
+			"_hasShrinkwrap": false
+		},
+		"2.0.1": {
+			"name": "is-whitespace-character",
+			"version": "2.0.1",
+			"description": "Check if a character is a whitespace character",
+			"license": "MIT",
+			"keywords": [
+				"string",
+				"character",
+				"char",
+				"code",
+				"whitespace",
+				"white",
+				"space"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/wooorm/is-whitespace-character.git"
+			},
+			"bugs": {
+				"url": "https://github.com/wooorm/is-whitespace-character/issues"
+			},
+			"funding": {
+				"type": "github",
+				"url": "https://github.com/sponsors/wooorm"
+			},
+			"author": {
+				"name": "Titus Wormer",
+				"email": "tituswormer@gmail.com",
+				"url": "https://wooorm.com"
+			},
+			"contributors": [
+				{
+					"name": "Titus Wormer",
+					"email": "tituswormer@gmail.com",
+					"url": "https://wooorm.com"
+				}
+			],
+			"sideEffects": false,
+			"type": "module",
+			"main": "index.js",
+			"types": "index.d.ts",
+			"devDependencies": {
+				"@types/tape": "^4.0.0",
+				"c8": "^7.0.0",
+				"prettier": "^2.0.0",
+				"remark-cli": "^10.0.0",
+				"remark-preset-wooorm": "^9.0.0",
+				"rimraf": "^3.0.0",
+				"tape": "^5.0.0",
+				"type-coverage": "^2.0.0",
+				"typescript": "^4.0.0",
+				"xo": "^0.46.0"
+			},
+			"scripts": {
+				"prepublishOnly": "npm run build && npm run format",
+				"build": "rimraf \"*.d.ts\" && tsc && type-coverage",
+				"format": "remark . -qfo && prettier . -w --loglevel warn && xo --fix",
+				"test-api": "node --conditions development test.js",
+				"test-coverage": "c8 --check-coverage --branches 100 --functions 100 --lines 100 --statements 100 --reporter lcov npm run test-api",
+				"test": "npm run build && npm run format && npm run test-coverage"
+			},
+			"prettier": {
+				"tabWidth": 2,
+				"useTabs": false,
+				"singleQuote": true,
+				"bracketSpacing": false,
+				"semi": false,
+				"trailingComma": "none"
+			},
+			"xo": {
+				"prettier": true
+			},
+			"remarkConfig": {
+				"plugins": [
+					"preset-wooorm"
+				]
+			},
+			"typeCoverage": {
+				"atLeast": 100,
+				"detail": true,
+				"strict": true,
+				"ignoreCatch": true
+			},
+			"gitHead": "1a9246b814fbc5ff090d57bdffcceba42212ef10",
+			"homepage": "https://github.com/wooorm/is-whitespace-character#readme",
+			"_id": "is-whitespace-character@2.0.1",
+			"_nodeVersion": "17.0.1",
+			"_npmVersion": "8.1.0",
+			"dist": {
+				"integrity": "sha512-gkZdE/Vz5z7fnE03FRp4BUdLAqycmm7Yd36vsyvEX8YmBYtAiCVwEnKNg5BxXBfpJ3aK6RmokQD6RNBN9smXiA==",
+				"shasum": "6521b229f9fcfb306b22997c15cf9561fdb6dfc6",
+				"tarball": "https://registry.npmjs.org/is-whitespace-character/-/is-whitespace-character-2.0.1.tgz",
+				"fileCount": 5,
+				"unpackedSize": 7656,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJh2wG6CRA9TVsSAnZWagAAE7MP/1zeFhpx/8r9drQxv3p5\n0TobBqgrrRa9sjijbQl2VYGf9oBu3EIOJNxuoUn3CM5s/2anDYxZ9ZEUohs1\nzuqn+M7ptFmm6/iiPTp5+mKRHUmIL+uUle0Mo3TpNg4mi0vVLAHCnKGvEkfK\n+Ltdhjb5iq8Q2FwqiOx3nqQKeElf9NWQT7h+slSG5OnP/lls05PBnv4RDFbe\nBSGg2EMdvj/XEQPwAqk2Cj0ALem0ah7j+eBwT/Il4WPSeqnDkIT6FXr2aEer\n2xfzgYJJY784W0O4fmNkvpxTi4Jkf7LuI44mJb0tho8uHk7L5xnr0f8N/opE\np4N4d0DebF8/YtPcNf9yIxDQGxR7ZHO8Q4lf5ropsK4QEiCm/YiXk+YDeUf4\ncuMArGzJD8K4V0WpDxIG/oSrzMFS3rM4O2MPg+zzZMh1+r5XbcTt3t2/c4Q2\naRCo0+CnbuqBcHBR6Yq23K7s9R6FRTPRxBqm6HRQrNE8mEMfCu14Z47yhDc3\n1rncUXLlbPukHvRmPr9z/5xa0HPWACT9QOsAK+rVrwjlsmLT1Lw0BeLk2Pkh\nIwXcMEEX54dxkHu2o4wrxyNFAYUBhUcP6FTPek8X9L6M9vRxE8BTU68+VSi+\nHwQFwLbOSLOW5PfoU0PeA+xHv63Z2om5QaRSXBJmVHql0D+vI4uWuLYFj+2w\nnabC\r\n=lKfl\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIA09xcILcVBTLMz65IZn6mrMZT1PJVyASCKzbE4nqbheAiEAyLt2M/0QCAuBB1mvPzYYse42ZduSGS1VVSwN2PEmS4g="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/is-whitespace-character_2.0.1_1636008152091_0.9880944342838252"
+			},
+			"_hasShrinkwrap": false
+		}
+	},
+	"time": {
+		"modified": "2022-06-19T02:53:47.417Z",
+		"created": "2016-07-12T09:43:48.399Z",
+		"1.0.0": "2016-07-12T09:43:48.399Z",
+		"1.0.1": "2017-07-18T16:18:16.040Z",
+		"1.0.2": "2018-04-21T09:45:16.503Z",
+		"1.0.3": "2019-05-10T18:39:23.703Z",
+		"1.0.4": "2020-01-25T10:53:51.679Z",
+		"2.0.0": "2021-03-11T08:24:33.752Z",
+		"2.0.1": "2021-11-04T06:42:32.322Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "2.0.1"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"c1c04021d3b41a46209feac29bf81e5d\"",
+			"fetched": 1660840764375
+		}
+	},
+	"_distfiles": {
+		"is-whitespace-character-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/is-whitespace-character/-/is-whitespace-character-1.0.0.tgz",
+			"sha": "bbf4a83764ead0d451bec2a55218e91961adc275",
+			"registry": "npmjs"
+		},
+		"is-whitespace-character-1.0.1.tgz": {
+			"url": "https://registry.npmjs.org/is-whitespace-character/-/is-whitespace-character-1.0.1.tgz",
+			"sha": "9ae0176f3282b65457a1992cdb084f8a5f833e3b",
+			"registry": "npmjs"
+		},
+		"is-whitespace-character-1.0.2.tgz": {
+			"url": "https://registry.npmjs.org/is-whitespace-character/-/is-whitespace-character-1.0.2.tgz",
+			"sha": "ede53b4c6f6fb3874533751ec9280d01928d03ed",
+			"registry": "npmjs"
+		},
+		"is-whitespace-character-1.0.3.tgz": {
+			"url": "https://registry.npmjs.org/is-whitespace-character/-/is-whitespace-character-1.0.3.tgz",
+			"sha": "b3ad9546d916d7d3ffa78204bca0c26b56257fac",
+			"registry": "npmjs"
+		},
+		"is-whitespace-character-1.0.4.tgz": {
+			"url": "https://registry.npmjs.org/is-whitespace-character/-/is-whitespace-character-1.0.4.tgz",
+			"sha": "0858edd94a95594c7c9dd0b5c174ec6e45ee4aa7",
+			"registry": "npmjs"
+		},
+		"is-whitespace-character-2.0.0.tgz": {
+			"url": "https://registry.npmjs.org/is-whitespace-character/-/is-whitespace-character-2.0.0.tgz",
+			"sha": "8c6eb7cecf8f085ef8796b0da5b8bfc5a9420159",
+			"registry": "npmjs"
+		},
+		"is-whitespace-character-2.0.1.tgz": {
+			"url": "https://registry.npmjs.org/is-whitespace-character/-/is-whitespace-character-2.0.1.tgz",
+			"sha": "6521b229f9fcfb306b22997c15cf9561fdb6dfc6",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_rev": "3-b816d34e5348e81a",
+	"_id": "is-whitespace-character",
+	"readme": "# is-whitespace-character\n\n[![Build][build-badge]][build]\n[![Coverage][coverage-badge]][coverage]\n[![Downloads][downloads-badge]][downloads]\n[![Size][size-badge]][size]\n\nCheck if a character is a white space character.\n\n## Contents\n\n*   [What is this?](#what-is-this)\n*   [When should I use this?](#when-should-i-use-this)\n*   [Install](#install)\n*   [Use](#use)\n*   [API](#api)\n    *   [`isWhitespaceCharacter(character|code)`](#iswhitespacecharactercharactercode)\n*   [Types](#types)\n*   [Compatibility](#compatibility)\n*   [Security](#security)\n*   [Related](#related)\n*   [Contribute](#contribute)\n*   [License](#license)\n\n## What is this?\n\nThis is a function that checks if a given character is a white space character:\n`\\s`, which equals all Unicode Space Separators (including `[ \\t\\v\\f]`), the BOM\n(`\\uFEFF`), and line terminators (`[\\n\\r\\u2028\\u2029]`).\n\n## When should I use this?\n\nNot often, as it’s relatively simple to do yourself.\nThis package exists because it’s needed in several related packages, at which\npoint it becomes useful to defer to one shared function.\n\n## Install\n\nThis package is [ESM only][esm].\nIn Node.js (version 12.20+, 14.14+, or 16.0+), install with [npm][]:\n\n```sh\nnpm install is-whitespace-character\n```\n\nIn Deno with [Skypack][]:\n\n```js\nimport {isWhitespaceCharacter} from 'https://cdn.skypack.dev/is-whitespace-character@2?dts'\n```\n\nIn browsers with [Skypack][]:\n\n```html\n<script type=\"module\">\n  import {isWhitespaceCharacter} from 'https://cdn.skypack.dev/is-whitespace-character@2?min'\n</script>\n```\n\n## Use\n\n```js\nimport {isWhitespaceCharacter} from 'is-whitespace-character'\n\nisWhitespaceCharacter(' ') // => true\nisWhitespaceCharacter('\\n') // => true\nisWhitespaceCharacter('\\uFEFF') // => true\nisWhitespaceCharacter('_') // => false\nisWhitespaceCharacter('a') // => false\nisWhitespaceCharacter('💩') // => false\n```\n\n## API\n\nThis package exports the following identifiers: `isWhitespaceCharacter`.\nThere is no default export.\n\n### `isWhitespaceCharacter(character|code)`\n\nCheck whether the given character code (`number`) or the character code at the\nfirst position (`string`) is a whitespace character.\n\n## Types\n\nThis package is fully typed with [TypeScript][].\n\n## Compatibility\n\nThis package is at least compatible with all maintained versions of Node.js.\nAs of now, that is Node.js 12.20+, 14.14+, and 16.0+.\nIt also works in Deno and modern browsers.\n\n## Security\n\nThis package is safe.\n\n## Related\n\n*   [`wooorm/is-alphabetical`](https://github.com/wooorm/is-alphabetical)\n*   [`wooorm/is-alphanumerical`](https://github.com/wooorm/is-alphanumerical)\n*   [`wooorm/is-decimal`](https://github.com/wooorm/is-decimal)\n*   [`wooorm/is-hexadecimal`](https://github.com/wooorm/is-hexadecimal)\n*   [`wooorm/is-word-character`](https://github.com/wooorm/is-word-character)\n\n## Contribute\n\nYes please!\nSee [How to Contribute to Open Source][contribute].\n\n## License\n\n[MIT][license] © [Titus Wormer][author]\n\n<!-- Definitions -->\n\n[build-badge]: https://github.com/wooorm/is-whitespace-character/workflows/main/badge.svg\n\n[build]: https://github.com/wooorm/is-whitespace-character/actions\n\n[coverage-badge]: https://img.shields.io/codecov/c/github/wooorm/is-whitespace-character.svg\n\n[coverage]: https://codecov.io/github/wooorm/is-whitespace-character\n\n[downloads-badge]: https://img.shields.io/npm/dm/is-whitespace-character.svg\n\n[downloads]: https://www.npmjs.com/package/is-whitespace-character\n\n[size-badge]: https://img.shields.io/bundlephobia/minzip/is-whitespace-character.svg\n\n[size]: https://bundlephobia.com/result?p=is-whitespace-character\n\n[npm]: https://docs.npmjs.com/cli/install\n\n[skypack]: https://www.skypack.dev\n\n[license]: license\n\n[author]: https://wooorm.com\n\n[esm]: https://gist.github.com/sindresorhus/a39789f98801d908bbc7ff3ecc99d99c\n\n[typescript]: https://www.typescriptlang.org\n\n[contribute]: https://opensource.guide/how-to-contribute/"
+}

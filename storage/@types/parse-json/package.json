@@ -1,0 +1,110 @@
+{
+	"name": "@types/parse-json",
+	"versions": {
+		"4.0.0": {
+			"name": "@types/parse-json",
+			"version": "4.0.0",
+			"description": "TypeScript definitions for parse-json",
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "mrmlnc",
+					"url": "https://github.com/mrmlnc",
+					"githubUsername": "mrmlnc"
+				}
+			],
+			"main": "",
+			"repository": {
+				"type": "git",
+				"url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+			},
+			"scripts": {},
+			"dependencies": {},
+			"typesPublisherContentHash": "68b3120a3ffa0ae0c978a90b74a1e50adc0340a9d11f17cc1efb7bf2186e7751",
+			"typeScriptVersion": "2.0",
+			"_id": "@types/parse-json@4.0.0",
+			"dist": {
+				"integrity": "sha512-//oorEZjL6sbPcKUaCdIGlIUeH26mgzimjBB77G6XRgnDl/L5wOnpyBGRe/Mmf5CVW3PwEBE1NjiMZ/ssFh4wA==",
+				"shasum": "2f8bb441434d163b35fb8ffdccd7138927ffb8c0",
+				"tarball": "https://registry.npmjs.org/@types/parse-json/-/parse-json-4.0.0.tgz",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIGC35GyU38g9f37HshpyMa31LzToKzAqNhzzosICTJtHAiEA3yFrMiLAR8jax00jYolrjrsStZwTxijh5sP0aJUAQUY="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/parse-json-4.0.0.tgz_1510619472516_0.8941616243682802"
+			},
+			"directories": {}
+		}
+	},
+	"time": {
+		"modified": "2022-08-15T08:30:50.808Z",
+		"created": "2017-11-14T00:31:12.629Z",
+		"4.0.0": "2017-11-14T00:31:12.629Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "4.0.0",
+		"ts2.0": "4.0.0",
+		"ts2.1": "4.0.0",
+		"ts2.2": "4.0.0",
+		"ts2.3": "4.0.0",
+		"ts2.4": "4.0.0",
+		"ts2.5": "4.0.0",
+		"ts2.6": "4.0.0",
+		"ts2.7": "4.0.0",
+		"ts2.8": "4.0.0",
+		"ts2.9": "4.0.0",
+		"ts3.0": "4.0.0",
+		"ts3.1": "4.0.0",
+		"ts3.2": "4.0.0",
+		"ts3.3": "4.0.0",
+		"ts3.4": "4.0.0",
+		"ts3.5": "4.0.0",
+		"ts3.6": "4.0.0",
+		"ts3.7": "4.0.0",
+		"ts3.8": "4.0.0",
+		"ts3.9": "4.0.0",
+		"ts4.0": "4.0.0",
+		"ts4.1": "4.0.0",
+		"ts4.2": "4.0.0",
+		"ts4.3": "4.0.0",
+		"ts4.4": "4.0.0",
+		"ts4.5": "4.0.0",
+		"ts4.6": "4.0.0",
+		"ts4.7": "4.0.0",
+		"ts4.8": "4.0.0",
+		"ts4.9": "4.0.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"bf3c8991b2485a055c4a4eb4c6666cd2\"",
+			"fetched": 1660840779616
+		}
+	},
+	"_distfiles": {
+		"parse-json-4.0.0.tgz": {
+			"url": "https://registry.npmjs.org/@types/parse-json/-/parse-json-4.0.0.tgz",
+			"sha": "2f8bb441434d163b35fb8ffdccd7138927ffb8c0",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_rev": "3-352dd6d30eb91788",
+	"_id": "@types/parse-json",
+	"readme": "# Installation\r\n> `npm install --save @types/parse-json`\r\n\r\n# Summary\r\nThis package contains type definitions for parse-json (https://github.com/sindresorhus/parse-json).\r\n\r\n# Details\r\nFiles were exported from https://www.github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/parse-json\r\n\r\nAdditional Details\r\n * Last updated: Tue, 14 Nov 2017 00:30:05 GMT\r\n * Dependencies: none\r\n * Global values: none\r\n\r\n# Credits\r\nThese definitions were written by mrmlnc <https://github.com/mrmlnc>."
+}

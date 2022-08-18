@@ -1,0 +1,352 @@
+{
+	"name": "make-event-props",
+	"versions": {
+		"1.0.0": {
+			"name": "make-event-props",
+			"version": "1.0.0",
+			"description": "Returns an object with on-event callback props curried with provided args.",
+			"main": "dist/entry.js",
+			"es6": "src/entry.js",
+			"scripts": {
+				"build": "babel src -d dist --ignore **/__tests__",
+				"prepublishOnly": "npm run build",
+				"test": "npm run test-eslint && npm run test-jest",
+				"test-eslint": "eslint ./src",
+				"test-jest": "jest",
+				"test-jest-coverage": "jest --coverage"
+			},
+			"keywords": [
+				"react",
+				"event",
+				"event props"
+			],
+			"author": {
+				"name": "Wojciech Maj",
+				"email": "kontakt@wojtekmaj.pl"
+			},
+			"license": "MIT",
+			"devDependencies": {
+				"babel-cli": "^6.26.0",
+				"babel-eslint": "^8.2.3",
+				"babel-preset-env": "^1.6.1",
+				"eslint": "^4.19.1",
+				"eslint-config-airbnb-base": "^12.1.0",
+				"eslint-plugin-import": "^2.8.0",
+				"jest": "^22.4.3"
+			},
+			"files": [
+				"LICENSE",
+				"README.md",
+				"dist/",
+				"src/"
+			],
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wojtekmaj/merge-class-names.git"
+			},
+			"licenseText": "MIT License\n\nCopyright (c) 2018 Wojciech Maj\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n",
+			"_id": "make-event-props@1.0.0",
+			"dist": {
+				"shasum": "c6f7c409fdd51bc58edb262124b343faf028a62a",
+				"tarball": "https://registry.npmjs.org/make-event-props/-/make-event-props-1.0.0.tgz",
+				"fileCount": 10,
+				"unpackedSize": 7414,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJa7EqVCRA9TVsSAnZWagAAmXIP/1Lnx6Spm2gmn6mKmZdj\nH8hq/7OqfzrIFfodjI/+kfRMPZu7u1B+u0tnyUn9yD31mNMkm8z54qYnmL73\nSYMvuortaQHBCeX2fJTVi2bYhdcbA8NCb3p9Jy0FyCaUmZOlRqjMY2ifECxf\n4MMdiVx+Ln7b0+LKGyTG2XxpPAIfXiAd6KXffn4F6FMDpQDVvfjqTCrUCImE\n0nhVAaGvYJwrdJUPQ1bIG7DttqD4GgqB36Yk3Dk3e4irNXxacMOzMc8WG1S8\nRAjgmNFGKLQakAZ6PraVWPkkqLSWV8ORRoMqnniilbvBMLYEMz6Y4tjbb34o\nzGWCk5wmVsoVxwjpLl5bSuX6ykw1zrhAkrOd7R9RMkzRFgvYm0ff90pOU7Lm\nAu7DWJgIU7noq+jnDvolNM7sW8W7Rcyo4vi47/TC5vjcylQ3kmwJVV9S0xWy\njgfOLAvkyPuyB+3OfMDefCQj8ZZnTrxrmEXkNB6AzoXXom904SgI0MZOn5XC\ndf5/DDI0tv6OwYbnF/l53YaJ++tZ64Yi+jlsZ8Wryj/QG1RQe4c7Zw8ZY3yT\ngZEL36nQO0m46WKsPdqGVq9yWCy11FrNqGy2BGKdZ2ox7WfgTRXbWqtOfNaz\n83Wtoc/HrmSMowMGcVpL439xW3hL7d+sAm1Oh3R5SgoEtaLJt31GnVnZ7BpC\nTGZG\r\n=WIAX\r\n-----END PGP SIGNATURE-----\r\n",
+				"integrity": "sha512-RlWnyJxehB58yGzMMBDXvCRA6OGGDkjMWJOeLUrxtZel2ZTXzMeZx2hptB2Clvfneel2N/7ctLSF8NvoYWXtQA==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIHad0pc1DQZJSkj8cBUnC2y1IyLDfjuoZ8f0GioRcQpbAiAR2GsXanWo9nGLotuOedUZRBvURPEUr0PdidlgIp7c5w=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "wojtekmaj",
+					"email": "kontakt@wojtekmaj.pl"
+				}
+			],
+			"_npmUser": {
+				"name": "wojtekmaj",
+				"email": "kontakt@wojtekmaj.pl"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/make-event-props_1.0.0_1525435029180_0.33665991552303187"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.1.0": {
+			"name": "make-event-props",
+			"version": "1.1.0",
+			"description": "Returns an object with on-event callback props curried with provided args.",
+			"main": "dist/entry.js",
+			"es6": "src/entry.js",
+			"scripts": {
+				"build": "babel src -d dist --ignore **/__tests__",
+				"prepublishOnly": "yarn run build",
+				"test": "yarn run test-eslint && yarn run test-jest",
+				"test-eslint": "eslint src/ --ext .jsx,.js",
+				"test-jest": "jest",
+				"test-jest-coverage": "jest --coverage"
+			},
+			"keywords": [
+				"react",
+				"event",
+				"event props"
+			],
+			"author": {
+				"name": "Wojciech Maj",
+				"email": "kontakt@wojtekmaj.pl"
+			},
+			"license": "MIT",
+			"devDependencies": {
+				"@babel/cli": "^7.0.0",
+				"@babel/core": "^7.0.0",
+				"@babel/preset-env": "^7.0.0",
+				"babel-core": "7.0.0-bridge.0",
+				"babel-eslint": "^9.0.0",
+				"babel-jest": "^23.6.0",
+				"eslint": "^5.5.0",
+				"eslint-config-airbnb-base": "^13.1.0",
+				"eslint-plugin-import": "^2.14.0",
+				"jest": "^23.6.0"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wojtekmaj/merge-class-names.git"
+			},
+			"licenseText": "MIT License\n\nCopyright (c) 2018 Wojciech Maj\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n",
+			"_id": "make-event-props@1.1.0",
+			"dist": {
+				"shasum": "900a4818aeda72ec0ab6b5dc2c3407291592da76",
+				"tarball": "https://registry.npmjs.org/make-event-props/-/make-event-props-1.1.0.tgz",
+				"integrity": "sha512-BqMN1ToP0Fi7sHPBt6gvIPbDWSULFBmMZPmf+73cohr6LQZtcEWZcDX/mCysky2DL7x1d+E35NVaBorj/eVZSg==",
+				"fileCount": 10,
+				"unpackedSize": 8055,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbofoDCRA9TVsSAnZWagAAMJAP/RCUukCGPkg+jX92Gu59\nKkGUIH+VveV97X+efqAx/9oJBEYseE8PQceXrE/7OvefYxJubgxRnu+u70BQ\nbhqPmD13tgwyOVu5uCpbf+zZH2OxkKx09XOsyBws6Gpnoy0u74uHVBlwOzfd\nPkS7wzzRVryKj3GgdqgbsJ1CNJFjojeXhZgvb9Mf2FttRou5vpC6b1QXpk/G\nxwqMc1I48Y8ighv0vQ14ZLhWsY491DXgGriRPcprl/mDqcMIdOMY5d/m09a+\n0B49DYGB4h1jPLMwnfaJVrQ4Uiyvui5n/LVTZqBpL3TNuuQMzc8/JX6fLjMv\nDd9X6WL1HDsjXrrxmxawy+ZCwpF3vbG5k4NimEBXqetlNlYwoWGNqR5hxWeJ\nRzYdFqehQtWK8NzjeMzgCKrnbBQGJ6VqFV4YEiAyGea20N5hflM/lvpOxLrc\n/94mmY0Gkh5ablb85SMCSvuDkS/ooV92Sso7jV7spOeZJkpLmPQBPF9iXLS1\nkJPQ4pf1alKx2lFPgi0U2Pj5/XtQQ1F/t9EDXlHFUJ25J49gIGu9LaJwpsCU\nNk7SYGQ1+M7busdmX+KyPPVlHHkGuSg6AkjAAzRheMpx3EpbKFwFz9oABZit\nlloAqrqW23UbWtBqY3WzpadBrkuufqNn4AFH9Xc8tHysNq0R6ST7MYl/iiIh\nYFhK\r\n=yCT9\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIHOOw8ECBEM0hQ4YQZ/vXGdOIiZiOaWUaPrpdcIo92gpAiEAyk5hvVx6jRgd15E1otWgcIYtmlvENPGsFPBUi6UXYgw="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "wojtekmaj",
+					"email": "kontakt@wojtekmaj.pl"
+				}
+			],
+			"_npmUser": {
+				"name": "wojtekmaj",
+				"email": "kontakt@wojtekmaj.pl"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/make-event-props_1.1.0_1537341954862_0.7176662202096946"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.2.0": {
+			"name": "make-event-props",
+			"version": "1.2.0",
+			"description": "Returns an object with on-event callback props curried with provided args.",
+			"main": "dist/entry.js",
+			"es6": "src/entry.js",
+			"scripts": {
+				"build": "babel src -d dist --ignore **/__tests__",
+				"prepublishOnly": "yarn run build",
+				"test": "yarn run test-eslint && yarn run test-jest",
+				"test-eslint": "eslint src/ --ext .jsx,.js",
+				"test-jest": "jest",
+				"test-jest-coverage": "jest --coverage"
+			},
+			"keywords": [
+				"react",
+				"event",
+				"event props"
+			],
+			"author": {
+				"name": "Wojciech Maj",
+				"email": "kontakt@wojtekmaj.pl"
+			},
+			"license": "MIT",
+			"devDependencies": {
+				"@babel/cli": "^7.0.0",
+				"@babel/core": "^7.0.0",
+				"@babel/preset-env": "^7.0.0",
+				"babel-core": "7.0.0-bridge.0",
+				"babel-jest": "^23.6.0",
+				"eslint": "^5.5.0",
+				"eslint-config-airbnb-base": "^13.1.0",
+				"eslint-plugin-import": "^2.14.0",
+				"jest": "^23.6.0"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wojtekmaj/make-event-props.git"
+			},
+			"licenseText": "MIT License\n\nCopyright (c) 2018 Wojciech Maj\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n",
+			"_id": "make-event-props@1.2.0",
+			"dist": {
+				"shasum": "96b87d88919533b8f8934b58b4c3d5679459a0cf",
+				"integrity": "sha512-BmWFkm/jZzVH9A0tEBdkjAARUz/eha+5IRyfOndeSMKRadkgR5DawoBHoRwLxkYmjJOI5bHkXKpaZocxj+dKgg==",
+				"tarball": "https://registry.npmjs.org/make-event-props/-/make-event-props-1.2.0.tgz",
+				"fileCount": 10,
+				"unpackedSize": 8350,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcIW2oCRA9TVsSAnZWagAA5xAP/inTQd4tlH0ETq7WZsJc\nAsBp/UZXC7eMK8bdejGs16nsatB+/MjZ2nPOYWS/LvWrdlof0SO1+9K661SP\n+iToo4o7cw/o+tOMTwzvpJXsgdMuEMKAnANUNyR/YlQV6k5C7YZ8iRYi2HTU\nnOJFIfuVfMqnlGG8VnBkvkcHD7OBeR2scV63PlPNDpcX8kVESvs0bDO5c/5Z\nMJGutlVdF/WuXBQcxC/KlKl8eejLgwIGAzUCXkM0YFuifBoXrTcbgVpHI09n\njD0GgK9wJb6WG4yt7f7vv3jRqzv4/gQigpWxf1/Ara8HEPTIdOtrFD+ODqFj\nNW19ySP0+gkxV2008NMfs1sGuQViLXkzIyBpOouf/+0yablwCnjI33/kkT20\nYAW7dMpbLcg0pFmQy+CZLN3N520NSCb5qpC9GYplBLeR6Q+quI8Hf670VqYr\nhDAAyggpqZT1FPekbxSmAsSbkSFI7Yp1dP9PGlg2hMFjwIHne5czIMVNJmyg\nXB9BqGNLWvdqljOIN/w2Y5YS9PLnUz3KHef2Y3KG+TfkxmWw+ihPxxcxoer7\nRx7TxtHpmMAeDejCRFuTcuOP1KHqlgNDED3/SQhIRoJnbPLlBZZ89aXWo2Cy\nH6Z9dnUs7S2iW9fJ9b+fAxRJQw+HBCB8Wi/8khuNb0XACEWZIDqOHXyVyJWx\nXT6R\r\n=Kbsj\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCID1gtKALUFt8L7a4mPzOFlpE03E3J2NblAKdKIpte2UkAiAnfL/D6aou0RUPKtPcOgrFBJx3YfK0c5mdBvTj7wwRAQ=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "wojtekmaj",
+					"email": "kontakt@wojtekmaj.pl"
+				}
+			],
+			"_npmUser": {
+				"name": "wojtekmaj",
+				"email": "kontakt@wojtekmaj.pl"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/make-event-props_1.2.0_1545694631501_0.5563578983135342"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.3.0": {
+			"name": "make-event-props",
+			"version": "1.3.0",
+			"description": "Returns an object with on-event callback props curried with provided args.",
+			"main": "dist/umd/index.js",
+			"module": "dist/esm/index.js",
+			"source": "src/index.js",
+			"sideEffects": false,
+			"scripts": {
+				"build": "yarn build-esm && yarn build-umd",
+				"build-esm": "BABEL_ENV=production-esm babel src -d dist/esm --ignore \"**/*.spec.js\"",
+				"build-umd": "BABEL_ENV=production-umd babel src -d dist/umd --ignore \"**/*.spec.js\"",
+				"clean": "rimraf dist",
+				"jest": "jest",
+				"jest-coverage": "jest --coverage",
+				"lint": "eslint src/ --ext .jsx,.js",
+				"prepack": "yarn clean && yarn build",
+				"test": "yarn lint && yarn jest"
+			},
+			"keywords": [
+				"react",
+				"event",
+				"event props"
+			],
+			"author": {
+				"name": "Wojciech Maj",
+				"email": "kontakt@wojtekmaj.pl"
+			},
+			"license": "MIT",
+			"devDependencies": {
+				"@babel/cli": "^7.15.0",
+				"@babel/core": "^7.15.0",
+				"@babel/preset-env": "^7.15.0",
+				"eslint": "~7.19.0",
+				"eslint-config-wojtekmaj": "^0.5.0",
+				"jest": "^27.0.0",
+				"rimraf": "^3.0.0"
+			},
+			"resolutions": {
+				"semver@7.0.0": "^7.0.0"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wojtekmaj/make-event-props.git"
+			},
+			"funding": "https://github.com/wojtekmaj/make-event-props?sponsor=1",
+			"_id": "make-event-props@1.3.0",
+			"dist": {
+				"shasum": "2434cb390d58bcf40898d009ef5b1f936de9671b",
+				"integrity": "sha512-oWiDZMcVB1/A487251hEWza1xzgCzl6MXxe9aF24l5Bt9N9UEbqTqKumEfuuLhmlhRZYnc+suVvW4vUs8bwO7Q==",
+				"tarball": "https://registry.npmjs.org/make-event-props/-/make-event-props-1.3.0.tgz",
+				"fileCount": 7,
+				"unpackedSize": 15129,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJh2ymcCRA9TVsSAnZWagAAgJkP/2z58JoqJR78GPKy06Nh\nfyHeIp1C9eZq/cm5g65eXK0/q/i1lpTLg3bsXl6qcuiyE6VBmVXydGphjrkb\n1STOaljLJIAAO01HueKSnaBF9WX9zFO6Qh9lgfSuUNoI045M8COUQj/C4qJ9\nxl1HY9ZKwQOOZuvLLYea3oWYWgLXUMpXsuBCYEqNj9VNUMXAEvquPEHaT/AP\nO3eQwlJI/AHhIelEn2Z7iWSzZfmm3SgKgHHKIBEZZKASKsrFcaLMK1NCAwdM\nXMYemj1nt9z+0IG8ZxIRKGDDhy9daUiQv/99qT4tZRhpVzJOZv7zhuUP/uJN\nPzQ3U6q3FLga6LwZUVQ5vFOkuk9UguZRU7SfcyR8J4nI5rNU9bz0qdPg2O0u\nlE9roHr85r3eoEnntojhc8tlHw4Zk1tmy04f4lqrv+vOmn1jXGZl4PeTZm6A\ny15NpRMoi3ctOeIvYxGoXELyRDWq7NnFGBI+OSFshYHtrTqCY0gGqdKuEBP0\npiLl49Sn+5GfOLh4jNQzCSvKnzAVYxp0DJUYbwKOU+uR2qr2vBsk4y25DPUC\nwdKcZWqS5lWBB7DVGAnCGYFarqWQz/kEuEBokA8CFORqfaypRcTviCPaNFhP\na/DQad7QOfAMURpLAPK2NmqpOlheQOBS8hBhBBD3FVLE2vP6745ZelX+E8IQ\nFoFW\r\n=zh2K\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDg7iQ5uKE/2wdI6yUuR1wU9AZXnZdejPt7XR9YWn9TKgIhAOGSh1jyokiAXqkyTIVStgPCccu3QKncvW23vnKE0/CX"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "wojtekmaj",
+				"email": "kontakt@wojtekmaj.pl"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "wojtekmaj",
+					"email": "kontakt@wojtekmaj.pl"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/make-event-props_1.3.0_1632750936282_0.10819866818969581"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		}
+	},
+	"time": {
+		"created": "2018-05-04T11:57:09.179Z",
+		"1.0.0": "2018-05-04T11:57:09.304Z",
+		"modified": "2022-06-19T15:32:26.870Z",
+		"1.1.0": "2018-09-19T07:25:55.016Z",
+		"1.2.0": "2018-12-24T23:37:11.682Z",
+		"1.3.0": "2021-09-27T13:55:36.407Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "1.3.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"8d28687bd06be239d73647f8d3df97ed\"",
+			"fetched": 1660840728061
+		}
+	},
+	"_distfiles": {
+		"make-event-props-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/make-event-props/-/make-event-props-1.0.0.tgz",
+			"sha": "c6f7c409fdd51bc58edb262124b343faf028a62a",
+			"registry": "npmjs"
+		},
+		"make-event-props-1.1.0.tgz": {
+			"url": "https://registry.npmjs.org/make-event-props/-/make-event-props-1.1.0.tgz",
+			"sha": "900a4818aeda72ec0ab6b5dc2c3407291592da76",
+			"registry": "npmjs"
+		},
+		"make-event-props-1.2.0.tgz": {
+			"url": "https://registry.npmjs.org/make-event-props/-/make-event-props-1.2.0.tgz",
+			"sha": "96b87d88919533b8f8934b58b4c3d5679459a0cf",
+			"registry": "npmjs"
+		},
+		"make-event-props-1.3.0.tgz": {
+			"url": "https://registry.npmjs.org/make-event-props/-/make-event-props-1.3.0.tgz",
+			"sha": "2434cb390d58bcf40898d009ef5b1f936de9671b",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_rev": "3-a00973b592508ac9",
+	"_id": "make-event-props",
+	"readme": ""
+}

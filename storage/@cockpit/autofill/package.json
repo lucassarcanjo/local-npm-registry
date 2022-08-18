@@ -1,0 +1,272 @@
+{
+	"name": "@cockpit/autofill",
+	"versions": {
+		"1.0.4": {
+			"name": "@cockpit/autofill",
+			"version": "1.0.4",
+			"description": "Cockpit AutoFill",
+			"author": {
+				"name": "Cockpit Team"
+			},
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "HIAE.COCKPIT.AutoPreenchimento.Frontend"
+			},
+			"main": "dist/index.js",
+			"module": "dist/index.js",
+			"source": "src/index.ts",
+			"engines": {
+				"node": ">=14"
+			},
+			"scripts": {
+				"build": "microbundle --no-compress --format esm --jsx --tsconfig tsconfig.build.json",
+				"start": "microbundle watch --no-compress --format esm",
+				"storybook": "start-storybook -p 6006",
+				"build-storybook": "build-storybook -c .storybook -o ./out",
+				"test:dev": "jest --passWithNoTests --noStackTrace --runInBand --watch --coverage",
+				"test:ci": "jest --passWithNoTests --noStackTrace --runInBand --silent",
+				"prepare": "husky install"
+			},
+			"peerDependencies": {
+				"react": "^16.13.1",
+				"react-dom": "^16.13.1",
+				"react-hook-form": "^7.25.0",
+				"styled-components": "5.3.5"
+			},
+			"devDependencies": {
+				"@babel/core": "^7.18.5",
+				"@commitlint/cli": "^17.0.3",
+				"@commitlint/config-conventional": "^17.0.3",
+				"@fontsource/inter": "^4.5.11",
+				"@storybook/addon-actions": "^6.5.9",
+				"@storybook/addon-essentials": "^6.5.9",
+				"@storybook/addon-interactions": "^6.5.9",
+				"@storybook/addon-links": "^6.5.9",
+				"@storybook/builder-webpack5": "^6.5.9",
+				"@storybook/manager-webpack5": "^6.5.9",
+				"@storybook/react": "^6.5.9",
+				"@storybook/testing-library": "^0.0.13",
+				"@svgr/cli": "^6.2.1",
+				"@testing-library/dom": "^8.14.0",
+				"@testing-library/jest-dom": "^5.16.4",
+				"@testing-library/react": "^12.1.5",
+				"@testing-library/user-event": "^14.2.1",
+				"@types/jest": "^28.1.2",
+				"@types/jsdom": "^16.2.14",
+				"@types/lodash.debounce": "^4.0.7",
+				"@types/node": "^16.11.7",
+				"@types/react": "^16.9.56",
+				"@types/react-dom": "^16.9.16",
+				"@types/styled-components": "^5.1.25",
+				"@typescript-eslint/eslint-plugin": "^5.29.0",
+				"@typescript-eslint/parser": "^5.29.0",
+				"babel-loader": "8.2.5",
+				"cross-env": "^7.0.2",
+				"eslint": "^8.18.0",
+				"eslint-config-prettier": "^8.5.0",
+				"eslint-config-standard": "^17.0.0",
+				"eslint-plugin-import": "^2.26.0",
+				"eslint-plugin-node": "^11.1.0",
+				"eslint-plugin-prettier": "^4.0.0",
+				"eslint-plugin-promise": "^6.0.0",
+				"eslint-plugin-react": "7.30.0",
+				"html-webpack-plugin": "^5.5.0",
+				"husky": "^7.0.4",
+				"jest": "^28.1.1",
+				"jest-environment-jsdom": "^28.1.1",
+				"jsdom": "^20.0.0",
+				"lint-staged": "^11.2.6",
+				"microbundle": "^0.15.0",
+				"prettier": "^2.7.1",
+				"react-loader-spinner": "^5.1.5",
+				"react-scripts": "5.0.1",
+				"react-transition-group": "^4.4.5",
+				"styled-components": "^5.3.5",
+				"ts-jest": "^28.0.5",
+				"tsconfig-paths-webpack-plugin": "^3.5.2",
+				"typescript": "^4.7.4"
+			},
+			"files": [
+				"dist"
+			],
+			"dependencies": {
+				"@cockpit/zera": "^1.2.129",
+				"@material-ui/core": "^4.12.4",
+				"axios": "^0.27.2",
+				"date-fns": "^2.28.0",
+				"lodash.debounce": "^4.0.8",
+				"react": "^16.13.1",
+				"react-dom": "^16.13.1",
+				"react-hook-form": "^7.25.0"
+			},
+			"resolutions": {
+				"@types/react": "16.9.56",
+				"@types/react-dom": "16.9.16"
+			},
+			"lint-staged": {
+				"*.{ts,tsx}": [
+					"npm run test:staged"
+				]
+			},
+			"types": "./dist/index.d.ts",
+			"readmeFilename": "README.md",
+			"gitHead": "52429340737d0f8f9121d91de02de376b9a49151",
+			"_id": "@cockpit/autofill@1.0.4",
+			"_nodeVersion": "16.16.0",
+			"_npmVersion": "8.15.1",
+			"dist": {
+				"integrity": "sha512-/mAw1fw9avJTyAypKSbdMm8+Ih5aIxxa2k27e4J9ogiGsOcL+ncLui8PaY6DLgn211M4ba8Zk1aBlAnAB/EbMA==",
+				"shasum": "650f7733aa72f7090d5a35298579f01ab21742bc",
+				"tarball": "http://localhost:4873/@cockpit/autofill/-/@cockpit/autofill-1.0.4.tgz"
+			},
+			"contributors": []
+		},
+		"1.0.13": {
+			"name": "@cockpit/autofill",
+			"version": "1.0.13",
+			"description": "Cockpit AutoFill",
+			"author": {
+				"name": "Cockpit Team"
+			},
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "HIAE.COCKPIT.AutoPreenchimento.Frontend"
+			},
+			"main": "dist/index.js",
+			"module": "dist/index.js",
+			"source": "src/index.ts",
+			"engines": {
+				"node": ">=14"
+			},
+			"scripts": {
+				"build": "microbundle --no-compress --format esm --jsx --tsconfig tsconfig.build.json",
+				"start": "microbundle watch --no-compress --format esm",
+				"storybook": "start-storybook -p 6006",
+				"build-storybook": "build-storybook -c .storybook -o ./out",
+				"test:dev": "jest --passWithNoTests --noStackTrace --runInBand --watch --coverage",
+				"test:ci": "jest --passWithNoTests --noStackTrace --runInBand --silent",
+				"prepare": "husky install"
+			},
+			"peerDependencies": {
+				"react": "^16.13.1",
+				"react-dom": "^16.13.1",
+				"react-hook-form": "^7.25.0",
+				"styled-components": "5.3.5"
+			},
+			"devDependencies": {
+				"@babel/core": "^7.18.5",
+				"@commitlint/cli": "^17.0.3",
+				"@commitlint/config-conventional": "^17.0.3",
+				"@fontsource/inter": "^4.5.11",
+				"@storybook/addon-actions": "^6.5.9",
+				"@storybook/addon-essentials": "^6.5.9",
+				"@storybook/addon-interactions": "^6.5.9",
+				"@storybook/addon-links": "^6.5.9",
+				"@storybook/builder-webpack5": "^6.5.9",
+				"@storybook/manager-webpack5": "^6.5.9",
+				"@storybook/react": "^6.5.9",
+				"@storybook/testing-library": "^0.0.13",
+				"@svgr/cli": "^6.2.1",
+				"@testing-library/dom": "^8.14.0",
+				"@testing-library/jest-dom": "^5.16.4",
+				"@testing-library/react": "^12.1.5",
+				"@testing-library/user-event": "^14.2.1",
+				"@types/jest": "^28.1.2",
+				"@types/jsdom": "^16.2.14",
+				"@types/lodash.debounce": "^4.0.7",
+				"@types/node": "^16.11.7",
+				"@types/react": "^16.9.56",
+				"@types/react-dom": "^16.9.16",
+				"@types/styled-components": "^5.1.25",
+				"@typescript-eslint/eslint-plugin": "^5.29.0",
+				"@typescript-eslint/parser": "^5.29.0",
+				"babel-loader": "8.2.5",
+				"cross-env": "^7.0.2",
+				"eslint": "^8.18.0",
+				"eslint-config-prettier": "^8.5.0",
+				"eslint-config-standard": "^17.0.0",
+				"eslint-plugin-import": "^2.26.0",
+				"eslint-plugin-node": "^11.1.0",
+				"eslint-plugin-prettier": "^4.0.0",
+				"eslint-plugin-promise": "^6.0.0",
+				"eslint-plugin-react": "7.30.0",
+				"html-webpack-plugin": "^5.5.0",
+				"husky": "^7.0.4",
+				"jest": "^28.1.1",
+				"jest-environment-jsdom": "^28.1.1",
+				"jsdom": "^20.0.0",
+				"lint-staged": "^11.2.6",
+				"microbundle": "^0.15.0",
+				"prettier": "^2.7.1",
+				"react-loader-spinner": "^5.1.5",
+				"react-scripts": "5.0.1",
+				"react-transition-group": "^4.4.5",
+				"styled-components": "^5.3.5",
+				"ts-jest": "^28.0.5",
+				"tsconfig-paths-webpack-plugin": "^3.5.2",
+				"typescript": "^4.7.4"
+			},
+			"files": [
+				"dist"
+			],
+			"dependencies": {
+				"@cockpit/zera": "^1.2.129",
+				"@material-ui/core": "^4.12.4",
+				"axios": "^0.27.2",
+				"date-fns": "^2.28.0",
+				"lodash.debounce": "^4.0.8",
+				"react": "^16.13.1",
+				"react-dom": "^16.13.1",
+				"react-hook-form": "^7.25.0"
+			},
+			"resolutions": {
+				"@types/react": "16.9.56",
+				"@types/react-dom": "16.9.16"
+			},
+			"lint-staged": {
+				"*.{ts,tsx}": [
+					"npm run test:staged"
+				]
+			},
+			"types": "./dist/index.d.ts",
+			"readmeFilename": "README.md",
+			"gitHead": "9c9abe685bca6093dfc5df8bf34c7a2349b0f55e",
+			"_id": "@cockpit/autofill@1.0.13",
+			"_nodeVersion": "16.16.0",
+			"_npmVersion": "8.15.1",
+			"dist": {
+				"integrity": "sha512-W0mZOtkvavRkDd+hhAprFUYDKy8Qq5zuNuyHLq/0orSfUwSo6Roq6NF7T9yqLjDvq7gzhnPtG2mNxlACbc9cTQ==",
+				"shasum": "d947d05237321f9b3ebda7092567c1915578984e",
+				"tarball": "http://localhost:4873/@cockpit/autofill/-/@cockpit/autofill-1.0.13.tgz"
+			},
+			"contributors": []
+		}
+	},
+	"time": {
+		"modified": "2022-08-18T16:29:21.578Z",
+		"created": "2022-08-18T13:46:30.108Z",
+		"1.0.4": "2022-08-18T13:46:30.108Z",
+		"1.0.13": "2022-08-18T16:29:21.578Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "1.0.13"
+	},
+	"_uplinks": {},
+	"_distfiles": {},
+	"_attachments": {
+		"autofill-1.0.4.tgz": {
+			"shasum": "650f7733aa72f7090d5a35298579f01ab21742bc",
+			"version": "1.0.4"
+		},
+		"autofill-1.0.13.tgz": {
+			"shasum": "d947d05237321f9b3ebda7092567c1915578984e",
+			"version": "1.0.13"
+		}
+	},
+	"_rev": "6-a880d217bd888f92",
+	"_id": "@cockpit/autofill",
+	"readme": "# Introduction \r\nTODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. \r\n\r\n# Getting Started\r\nTODO: Guide users through getting your code up and running on their own system. In this section you can talk about:\r\n1.\tInstallation process\r\n2.\tSoftware dependencies\r\n3.\tLatest releases\r\n4.\tAPI references\r\n\r\n# Build and Test\r\nTODO: Describe and show how to build your code and run the tests. \r\n\r\n# Contribute\r\nTODO: Explain how other users and developers can contribute to make your code better. \r\n\r\nIf you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:\r\n- [ASP.NET Core](https://github.com/aspnet/Home)\r\n- [Visual Studio Code](https://github.com/Microsoft/vscode)\r\n- [Chakra Core](https://github.com/Microsoft/ChakraCore)"
+}

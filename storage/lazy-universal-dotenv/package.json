@@ -1,0 +1,440 @@
+{
+	"name": "lazy-universal-dotenv",
+	"versions": {
+		"1.9.1": {
+			"name": "lazy-universal-dotenv",
+			"version": "1.9.1",
+			"description": "Robust Environment Configuration for Universal Applications.",
+			"main": "lib/index.cjs.js",
+			"module": "lib/index.esm.js",
+			"scripts": {
+				"lint": "eslint .",
+				"fix": "eslint --fix .",
+				"format": "prettier --ignore-path .gitignore --write '**/*.js' && npm run fix",
+				"test": "jest",
+				"prepare": "rimraf lib && preppy",
+				"precommit": "lint-staged",
+				"release": "git push && release-it --github.release --npm.publish --non-interactive",
+				"release:minor": "git push && release-it --github.release --npm.publish --non-interactive --increment minor",
+				"release:major": "git push && release-it --github.release --npm.publish --non-interactive --increment major"
+			},
+			"engines": {
+				"node": ">=6.0.0",
+				"yarn": ">=1.0.0",
+				"npm": ">=6.0.0"
+			},
+			"keywords": [
+				"dotenv",
+				"universal",
+				"env"
+			],
+			"license": "Apache-2.0",
+			"author": {
+				"name": "Sebastian Software",
+				"email": "s.werner@sebastian-software.de",
+				"url": "https://www.sebastian-software.de"
+			},
+			"bugs": {
+				"url": "https://github.com/sebastian-software/universal-dotenv/issues"
+			},
+			"homepage": "https://github.com/sebastian-software/universal-dotenv#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sebastian-software/universal-dotenv.git"
+			},
+			"pre-commit": "lint-staged",
+			"lint-staged": {
+				"*.js": "eslint"
+			},
+			"jest": {
+				"testEnvironment": "node"
+			},
+			"devDependencies": {
+				"@babel/core": "^7.1.0",
+				"babel-core": "^7.0.0-bridge.0",
+				"babel-jest": "^23.6.0",
+				"babel-preset-edge": "^4.13.1",
+				"eslint": "^5.6.0",
+				"eslint-config-readable": "^2.2.0",
+				"flow-bin": "^0.81.0",
+				"husky": "^0.14.3",
+				"jest": "^23.6.0",
+				"lint-staged": "^7.2.2",
+				"preppy": "^4.3.2",
+				"prettier": "^1.14.2",
+				"rimraf": "^2.6.2"
+			},
+			"dependencies": {
+				"@babel/runtime": "^7.0.0",
+				"app-root-dir": "^1.0.2",
+				"core-js": "^2.5.7",
+				"dotenv": "^6.0.0",
+				"dotenv-expand": "^4.2.0"
+			},
+			"gitHead": "e12f5434d118e0fe4fac9192454392b6f8adc370",
+			"_id": "lazy-universal-dotenv@1.9.1",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "10.6.0",
+			"_npmUser": {
+				"name": "pksunkara",
+				"email": "pavan.sss1991@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-Xd8XLG1S1TgoOcuPJZcxzAadRhXG5HLzOHUMPlon9VV/ewhAc56HGKPWbES99owbBoextbG8nb/AQA3c0S7TIQ==",
+				"shasum": "d3fe9d5dd30309fc84eea1dab2a03585491474f9",
+				"tarball": "https://registry.npmjs.org/lazy-universal-dotenv/-/lazy-universal-dotenv-1.9.1.tgz",
+				"fileCount": 7,
+				"unpackedSize": 29869,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbw1P5CRA9TVsSAnZWagAAWowP/RgE9c9poepcNpWow4cF\nWCX4A6dLYsxI7ahWRmlq5Syta82Eb59lneV+PfVPGNZ/khnJU1YWi8Evsdrh\nVBMeqTZ//WEnIMS/9eYVh+mwrHDTSFvmDVUKa7OVWdab5Q8bMqSCkn+98hul\nqsgF9cSyzDGgg5NrxoFBXHEtTKpFfj4V6iLkrHVWGye6S0fh52C+liu1Ks+N\nm5bzOtJi/nUEm/XbIMgQuXAFRfUhHHuhTa6MvdP4oUokpn75nhtJsC8wr363\npBI6BffYjFaRNPEKgt2CBiSk6ltGj4+5RDEJkoMEOCQcyn8TG8uGNFqHdve2\n2AEkGAnPkmGGZsLkZpBWRDTxwMYuoKZKgUWfbzBItq4gpMKKy+EYDwSvaXvY\njnMKiGXx74NV8812xw0QYNi0lv/wM9dqAR09ZXmYf+axqahCusb2yiye1XDC\nOzy3p4FJYXB4N2GamzXygWzV/1vLJrXXntZiVAbl0XfRKKZjI/985WXYe1iG\ncdb3sqXlrgNUnnjSnIvN4JBLeYGK1QkqJt4Fo5zeQsNvflGZX3rXMRMjtniK\n2iT1S5qVcr0JciManryJAnHAg+WXGkRFeQF2kVSsbRxAj4a2IxIrQLttgt+9\nRt4mE7zQk0WubtKggKWNPdq0NL8LZT5TxEZJSdlEABvBmtajimR78eVWap/r\nSbKD\r\n=rTKC\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDRVg4h0erWzTOqTYniePXLgbV073J0XLcwmooCsE7c4AIhAOSWcIIOCihoggRPjWPqHR5kTRwe1iupTqsqlFB8jAyq"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "pksunkara",
+					"email": "pavan.sss1991@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/lazy-universal-dotenv_1.9.1_1539527672628_0.04059182977303011"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"2.0.0": {
+			"name": "lazy-universal-dotenv",
+			"version": "2.0.0",
+			"description": "Robust Environment Configuration for Universal Applications.",
+			"main": "lib/index.cjs.js",
+			"module": "lib/index.esm.js",
+			"scripts": {
+				"test": "jest",
+				"prepare": "rimraf lib && preppy"
+			},
+			"engines": {
+				"node": ">=6.0.0",
+				"yarn": ">=1.0.0",
+				"npm": ">=6.0.0"
+			},
+			"keywords": [
+				"dotenv",
+				"universal",
+				"env"
+			],
+			"license": "Apache-2.0",
+			"author": {
+				"name": "Storybook Team"
+			},
+			"bugs": {
+				"url": "https://github.com/storybooks/lazy-universal-dotenv/issues"
+			},
+			"homepage": "https://github.com/storybooks/lazy-universal-dotenv#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/storybooks/lazy-universal-dotenv.git"
+			},
+			"jest": {
+				"testEnvironment": "node"
+			},
+			"devDependencies": {
+				"@babel/core": "^7.1.0",
+				"babel-core": "^7.0.0-bridge.0",
+				"babel-jest": "^23.6.0",
+				"babel-preset-edge": "^4.13.1",
+				"jest": "^23.6.0",
+				"preppy": "^4.3.2",
+				"rimraf": "^2.6.2"
+			},
+			"dependencies": {
+				"@babel/runtime": "^7.0.0",
+				"app-root-dir": "^1.0.2",
+				"core-js": "^2.5.7",
+				"dotenv": "^6.0.0",
+				"dotenv-expand": "^4.2.0"
+			},
+			"gitHead": "f5668ea370f81a07892acce9f93fdcda71bd8c11",
+			"_id": "lazy-universal-dotenv@2.0.0",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "10.6.0",
+			"_npmUser": {
+				"name": "pksunkara",
+				"email": "pavan.sss1991@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-1Wi0zgZMfRLaRAK21g3odYuU+HE1d85Loe2tb44YhcNwIzhmD49mTPR9aKckpB9Q9Q9mA+hUMLI2xlkcCAe3yw==",
+				"shasum": "e015ad9f77be9ef811956d53ea9519b1c0ab0214",
+				"tarball": "https://registry.npmjs.org/lazy-universal-dotenv/-/lazy-universal-dotenv-2.0.0.tgz",
+				"fileCount": 7,
+				"unpackedSize": 27096,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbw5QfCRA9TVsSAnZWagAAHaIP/3dbF3BxgrUTz5vzjpEn\nwTD0ePYFAdzcs+QVOqihn7O+odoYunnRbHHR7V55b8ofW2N+B99mvV51fX5G\nXAFHs4uL/YEPPU/zZ+7AgacjxBOaYYlQ5E5UZv8wd8upd6VHGBE6eVs4LPWG\nOkavZCRt/JJk714Er3SHKQb8mWPWHWYDLyOpxgV+fsShJWHEZaM4vwLF0+9b\nn/OzzwxJE/yM6IwQEDxQNwysc4m3chdEMdoyYO5+LybAuGbVSt/HKe3+9W1I\nxgGMi/7g4DLCxMrvS4j6q66cklPVf+all7SkuguQ+3iIaBvYa06sKS8isgI4\npMEqevUDRsiMLZ9vfEQltWs0pBWOf4ZYCDRPwzcT33fGWsnGbeX8O/9MduoH\nBi9jovPdM7equR8izhbZ0D54+JUo5LJ+tzbMdEiTRp/slls8MSMsBt1Yhtdl\nq6Pijqz4XN70f0U/14Z7SbiRgonk/QqiM5O8iwDS+sx/qEmpieRGbMQeNpzZ\nUT1RjcctusRGQD0dTNCobG+8JfcS1txMPEQnSSm9TeiDJhiCAUtoFtt/JUBY\nnsC7OPbhCxEDPCE756P81VEJYkxRGWp34k6pC/3wyNBt8RiGtkfe82h9Ch5Z\njm7ujty04Q1t6aI5GJnoDnEkptL8cDOnE4LBXCMQTQ3UXpF1WXVBjA39TfBV\n/uxB\r\n=3KcF\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIBGRI2/gQVmIWZZQdgt1WjZy3FIEUT+KipSDiMkX2rypAiEA59y8gi9tJ84R5i/PH/8iRKyr7wiDGkHPHJor+KUTZV8="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "pksunkara",
+					"email": "pavan.sss1991@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/lazy-universal-dotenv_2.0.0_1539544094509_0.1378659087100027"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.0.0": {
+			"name": "lazy-universal-dotenv",
+			"version": "3.0.0",
+			"description": "Robust Environment Configuration for Universal Applications.",
+			"keywords": [
+				"dotenv",
+				"env",
+				"universal"
+			],
+			"homepage": "https://github.com/storybooks/lazy-universal-dotenv#readme",
+			"bugs": {
+				"url": "https://github.com/storybooks/lazy-universal-dotenv/issues"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/storybooks/lazy-universal-dotenv.git"
+			},
+			"license": "Apache-2.0",
+			"author": {
+				"name": "Storybook Team"
+			},
+			"main": "lib/index.cjs.js",
+			"module": "lib/index.esm.js",
+			"scripts": {
+				"prepare": "rimraf lib && preppy",
+				"test": "jest"
+			},
+			"jest": {
+				"testEnvironment": "node"
+			},
+			"dependencies": {
+				"@babel/runtime": "^7.0.0",
+				"app-root-dir": "^1.0.2",
+				"core-js": "^3.0.4",
+				"dotenv": "^8.0.0",
+				"dotenv-expand": "^5.1.0"
+			},
+			"devDependencies": {
+				"@babel/core": "^7.1.0",
+				"babel-core": "^7.0.0-bridge.0",
+				"babel-jest": "^24.8.0",
+				"babel-preset-edge": "^5.2.2",
+				"jest": "^24.8.0",
+				"preppy": "^8.1.3",
+				"rimraf": "^2.6.2"
+			},
+			"engines": {
+				"node": ">=6.0.0",
+				"npm": ">=6.0.0",
+				"yarn": ">=1.0.0"
+			},
+			"gitHead": "f1d3723de28fabe0c4ebb90b2ee61a77a6b58567",
+			"_id": "lazy-universal-dotenv@3.0.0",
+			"_nodeVersion": "10.15.3",
+			"_npmVersion": "6.9.0",
+			"dist": {
+				"integrity": "sha512-Mbf5AeGOs74lE5BdQXHFJ7Rt383jxnWKNfW2EWL0Pibnhea5JRStRIiUpdTenyMxCGuCjlMpYQhhay1XZBSSQA==",
+				"shasum": "e71f07f89d8de6bbf491478e4503df3c96729b8d",
+				"tarball": "https://registry.npmjs.org/lazy-universal-dotenv/-/lazy-universal-dotenv-3.0.0.tgz",
+				"fileCount": 7,
+				"unpackedSize": 27101,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdCqNRCRA9TVsSAnZWagAAmr0P/0Lb2x2G0y9AXQB3aUlv\nCV1RuOOF7me0AMjo6yD4J3Avky00fBdVTCmCQRiGPJySgOX8J4cXjz15V/15\n5DUZUlmQo2aLVAsr7HIctSjXmehUnSZtCiBPyPLlBIqld7urjXh7xQMQMvej\nJ1IeGEu/3egJ5b3GPI71PWmFbRJ7MYlYB11gP7etkLz26+mQw6B4eKelyT9j\niitx/cl8eBB6BBwmOKNUyLLziqKilVOYDSVoPggcvlATrJcsnr3ZHEaeXiUF\nEvro7TRVEUL6PkUdIo5rf1lHO/xELoMt3ugWYScvEJiCbNADaaJ43F6hS1tS\nLBs/OFWP8BqfkCVZWXeF0EyGVfApRDPf6+ftVuHTIJiolFM56p+v1atYiGeb\nY5OoVIkeN34g6kSRuojwEUZcAHUN7KiRtty0r0Df2lgU7RMT4JVlRHeZNN9t\nMWAPSqYqr4crc3Ld1l2442LL0PVxa290XTBS54nA3PrIJwDWSG0q5bhNTMWt\nefxoxW8yNrfBmwmdFlHJcbM+TfXYIwGuWCHjzXXfWh9ta+VXknov/zFG1eSB\nCKmjhJQO6F2OzcI085Px7RouJC5TpeuyCBSTMGd8yl32d5UqmEfIBCOtoJUT\nt8xQ2wVxvAK/YouDJCe3veicLIxEpEiYU7KjpOPrwsmy+UUyfw+zdcyaByzO\n0fUb\r\n=L5Gz\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIH/wRVozdvDwHKRTcMMwm6mCEgR/+xqrtpUzb1cXzH37AiEA418n2xPrkuj1EstVEetPCMZqHiqZT85ou29lmgI0zIY="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"email": "talpa@yandex.ru",
+					"name": "hypnosphi"
+				},
+				{
+					"email": "davydkin.igor@gmail.com",
+					"name": "igor-dv"
+				},
+				{
+					"email": "ndelangen@me.com",
+					"name": "ndelangen"
+				},
+				{
+					"email": "pavan.sss1991@gmail.com",
+					"name": "pksunkara"
+				}
+			],
+			"_npmUser": {
+				"name": "ndelangen",
+				"email": "ndelangen@me.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/lazy-universal-dotenv_3.0.0_1560978256576_0.4489171115201329"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.0.1": {
+			"name": "lazy-universal-dotenv",
+			"version": "3.0.1",
+			"description": "Robust Environment Configuration for Universal Applications.",
+			"keywords": [
+				"dotenv",
+				"env",
+				"universal"
+			],
+			"homepage": "https://github.com/storybooks/lazy-universal-dotenv#readme",
+			"bugs": {
+				"url": "https://github.com/storybooks/lazy-universal-dotenv/issues"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/storybooks/lazy-universal-dotenv.git"
+			},
+			"license": "Apache-2.0",
+			"author": {
+				"name": "Storybook Team"
+			},
+			"main": "lib/index.cjs.js",
+			"module": "lib/index.esm.js",
+			"scripts": {
+				"prepare": "rimraf lib && preppy",
+				"test": "jest"
+			},
+			"jest": {
+				"testEnvironment": "node"
+			},
+			"dependencies": {
+				"@babel/runtime": "^7.5.0",
+				"app-root-dir": "^1.0.2",
+				"core-js": "^3.0.4",
+				"dotenv": "^8.0.0",
+				"dotenv-expand": "^5.1.0"
+			},
+			"devDependencies": {
+				"@babel/core": "^7.5.5",
+				"babel-core": "^7.0.0-bridge.0",
+				"babel-jest": "^24.8.0",
+				"babel-preset-edge": "^5.3.0",
+				"jest": "^24.8.0",
+				"preppy": "^8.3.0",
+				"rimraf": "^2.6.2"
+			},
+			"engines": {
+				"node": ">=6.0.0",
+				"npm": ">=6.0.0",
+				"yarn": ">=1.0.0"
+			},
+			"gitHead": "36ac3220663e8f0b59266f3c45df6a75c0d4f488",
+			"_id": "lazy-universal-dotenv@3.0.1",
+			"_nodeVersion": "10.15.3",
+			"_npmVersion": "6.9.0",
+			"dist": {
+				"integrity": "sha512-prXSYk799h3GY3iOWnC6ZigYzMPjxN2svgjJ9shk7oMadSNX3wXy0B6F32PMJv7qtMnrIbUxoEHzbutvxR2LBQ==",
+				"shasum": "a6c8938414bca426ab8c9463940da451a911db38",
+				"tarball": "https://registry.npmjs.org/lazy-universal-dotenv/-/lazy-universal-dotenv-3.0.1.tgz",
+				"fileCount": 7,
+				"unpackedSize": 27101,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdPwK8CRA9TVsSAnZWagAAM70QAIh3/awGehWnzDNF2nIE\nqlWCgyv5XzIGbdzPy2r97OPSEqLDX8wTSbKFUuldaBTZRt/xCRCXfjRTx8GT\nbqgoDeSaZbJaa+l4bQadxoVOp01yyvLUEqBWI+y+pJsfgsDio51Wsp6i0BI+\n2J+szF7KNVkcUGN7Bs9bCh7eZJVKbgP/acjwjNHgeMwYaTywceEpWr6olhfi\nWsJF2KxeFrMn6QJwaGiHQQmiKO5+P+jmHuETW6ZzKxKJlXjN/HCo6mnqJr6F\nifhVF1bMp7dmNYgnfHMzrU7MioGls6h2uTHj9xWAvHsr8H/WIqgiQ3/AB0R7\nKXcRkntyjAIJRv+nN8XsjSBcJGl4mG/5IlGc96O0j9sNhOmyVvaXvoCTiysO\n0mKBBiSIPWJ8YrZN3lQeUFPirotStlX979ShWVK4U0F87+WnJWvKZudw/eN5\ntu2Fdl+H5QLIHtJQxShBoOsoUR0sRMZMV28qvqMcg+QfbCm1cSzkBE4kDSS4\nH/bkjOlFZjyIy7WmXWIaixv6OuSF+v/NuT8KxT5hWk4/DXZYP7e2IXfyS5Lv\nhQybRQifi9nFYXmRvpRznFGXngRGB3BMZM8ie+pzytclPr1OzetBWuq9WuRN\nTXYfVnCsj7l0a0JlNUCrP2G73tBc6zcXxEZ9Ks//z5UJfDu/u7PhZhxFqYHl\np2TA\r\n=HGGR\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDRKZ+wXIbvrqM8SCP3DC2kjby01lQJvtmx5ziCqKuxqQIhALbGWP66w/4B0QiYYUixwiAAH0X7GHfypB1hx1TEsRtu"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"email": "talpa@yandex.ru",
+					"name": "hypnosphi"
+				},
+				{
+					"email": "davydkin.igor@gmail.com",
+					"name": "igor-dv"
+				},
+				{
+					"email": "ndelangen@me.com",
+					"name": "ndelangen"
+				},
+				{
+					"email": "pavan.sss1991@gmail.com",
+					"name": "pksunkara"
+				}
+			],
+			"_npmUser": {
+				"name": "ndelangen",
+				"email": "ndelangen@me.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/lazy-universal-dotenv_3.0.1_1564410555825_0.35617712611534325"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		}
+	},
+	"time": {
+		"created": "2018-10-14T14:34:32.627Z",
+		"1.9.1": "2018-10-14T14:34:32.745Z",
+		"modified": "2022-05-07T17:21:30.663Z",
+		"2.0.0": "2018-10-14T19:08:14.659Z",
+		"3.0.0": "2019-06-19T21:04:16.717Z",
+		"3.0.1": "2019-07-29T14:29:15.968Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "3.0.1"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"b13e59e527eca1c05847cdc77864f2fd\"",
+			"fetched": 1660840752228
+		}
+	},
+	"_distfiles": {
+		"lazy-universal-dotenv-1.9.1.tgz": {
+			"url": "https://registry.npmjs.org/lazy-universal-dotenv/-/lazy-universal-dotenv-1.9.1.tgz",
+			"sha": "d3fe9d5dd30309fc84eea1dab2a03585491474f9",
+			"registry": "npmjs"
+		},
+		"lazy-universal-dotenv-2.0.0.tgz": {
+			"url": "https://registry.npmjs.org/lazy-universal-dotenv/-/lazy-universal-dotenv-2.0.0.tgz",
+			"sha": "e015ad9f77be9ef811956d53ea9519b1c0ab0214",
+			"registry": "npmjs"
+		},
+		"lazy-universal-dotenv-3.0.0.tgz": {
+			"url": "https://registry.npmjs.org/lazy-universal-dotenv/-/lazy-universal-dotenv-3.0.0.tgz",
+			"sha": "e71f07f89d8de6bbf491478e4503df3c96729b8d",
+			"registry": "npmjs"
+		},
+		"lazy-universal-dotenv-3.0.1.tgz": {
+			"url": "https://registry.npmjs.org/lazy-universal-dotenv/-/lazy-universal-dotenv-3.0.1.tgz",
+			"sha": "a6c8938414bca426ab8c9463940da451a911db38",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_rev": "3-c4bf81c4d772db87",
+	"_id": "lazy-universal-dotenv",
+	"readme": "# Lazy Universal DotEnv\n\n[npm]: https://www.npmjs.com/package/universal-dotenv\n[travis]: https://travis-ci.org/storybooks/lazy-universal-dotenv\n\nLazy Universal DotEnv - A Robust Environment Configuration for Universal Applications.\n\n## Features\n\n- Supports loading `.env` files with overriding between different `NODE_ENV` settings and `BUILD_TARGET` configurations.\n- Supports variable expansion between different settings.\n- Allows local overrides using files which use a \".local\" postfix.\n\n## All Strings\n\nIt is important to remember that all environment variables are always stored as strings. Even numbers and booleans. The casting to other types must therefore take place in the application code. See also: https://github.com/motdotla/dotenv/issues/51\n\n## Variables\n\n- `NODE_ENV`: Typically either `production`, `development` or `test`\n- `BUILD_TARGET`: Either `client` or `server`\n\n## File Priority\n\nFiles are being loaded in this order. Values which are already set are never overwritten. Command line environment settings e.g. via [cross-env](https://www.npmjs.com/package/cross-env) always win.\n\n- `.env.${BUILD_TARGET}.${NODE_ENV}.local`\n- `.env.${BUILD_TARGET}.${NODE_ENV}`\n- `.env.${BUILD_TARGET}.local`\n- `.env.${BUILD_TARGET}`\n- `.env.${NODE_ENV}.local`\n- `.env.${NODE_ENV}`\n- `.env.local`\n- `.env`\n\nNote: `local` files without `NODE_ENV` are not respected when running in `NODE_ENV=test`.\n\n## Basic Usage\n\n```js\nimport { getEnvironment } from \"lazy-dotenv-universal\";\n\nconst environment = getEnvironment({ nodeEnv, buildTarget });\n\nconst { raw, stringified, webpack } = environment;\n```\n\nAfter this you can access all environment settings you have defined in one of your `.env` files.\n\nA .env file:\n```\nMY_END=awesome\n```\n\nWebpack config:\n```js\nimport { getEnvironment } from \"lazy-dotenv-universal\";\n\nexport default {\n  // ... \n  plugins: [\n    new webpack.DefinePlugin(getEnvironment().webpack),\n  ],\n  // ...\n}\n```\n\nCode being bundled by webpack:\n```js\nconsole.log(process.env.MY_ENV); // -> \"awesome\"\n```\n\n### Serialization\n\n- raw: Just a plain JS object containing all app settings\n- stringified: Plain object but with JSON stringified values\n- webpack: For usage with [Webpacks Define Plugin](https://webpack.js.org/plugins/define-plugin/)\n\n\n## License\n\n[Apache License Version 2.0, January 2004](license)\n\n## Copyright\n\nCopyright 2018<br/>[Sebastian Software GmbH](http://www.sebastian-software.de)"
+}

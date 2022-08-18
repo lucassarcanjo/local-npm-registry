@@ -1,0 +1,335 @@
+{
+	"name": "is-window",
+	"versions": {
+		"0.0.0": {
+			"name": "is-window",
+			"version": "0.0.0",
+			"description": "Checks whether a value is window object",
+			"main": "index.js",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/bubkoo/is-window.git"
+			},
+			"keywords": [
+				"is",
+				"check",
+				"window",
+				"object"
+			],
+			"author": {
+				"name": "bubkoo",
+				"email": "bubkoo.wy@gmail.com",
+				"url": "https://github.com/bubkoo"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/bubkoo/is-window/issues"
+			},
+			"homepage": "https://github.com/bubkoo/is-window#readme",
+			"gitHead": "1675b2c11acba9c391d7e04cfacefd521253f240",
+			"_id": "is-window@0.0.0",
+			"_shasum": "d73f88ac10409329f3781f96bb3d6c40fc811e0b",
+			"_from": ".",
+			"_npmVersion": "3.8.5",
+			"_nodeVersion": "4.4.0",
+			"_npmUser": {
+				"name": "bubkoo",
+				"email": "bubkoo.wy@gmail.com"
+			},
+			"dist": {
+				"shasum": "d73f88ac10409329f3781f96bb3d6c40fc811e0b",
+				"tarball": "https://registry.npmjs.org/is-window/-/is-window-0.0.0.tgz",
+				"integrity": "sha512-DgMXAeXMTmbmsCqxWDJuPdlwwJgsminTJyN3qjenKXmN63vvHRst1XLheYUIbIgxc5NQBJVd4HKoSNKCy5+sXA==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDlUtorFUC+JwWXnktSsgwKbbB3l3sAxD8HkMn2DJPqHQIgOCxKipvlw/cg1ympzWvrrHybejCxg/aM+eF36lACs/0="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "bubkoo",
+					"email": "bubkoo.wy@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/is-window-0.0.0.tgz_1460433430911_0.9718736323993653"
+			},
+			"contributors": []
+		},
+		"1.0.0": {
+			"name": "is-window",
+			"version": "1.0.0",
+			"description": "Check if the given value is a window object.",
+			"main": "index.js",
+			"scripts": {
+				"lint": "jshint index.js",
+				"pretest": "npm run lint",
+				"test": "mocha -R spec",
+				"test:cov": "rm -rf ./test/coverage && istanbul cover _mocha --dir ./test/coverage -- -R spec",
+				"test:rpt": "npm run test:cov && coveralls < ./test/coverage/lcov.info",
+				"prepublish": "npm test"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/bubkoo/is-window.git"
+			},
+			"keywords": [
+				"is",
+				"check",
+				"detect",
+				"window",
+				"object"
+			],
+			"author": {
+				"name": "bubkoo",
+				"email": "bubkoo.wy@gmail.com"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/bubkoo/is-window/issues"
+			},
+			"homepage": "https://github.com/bubkoo/is-window#readme",
+			"devDependencies": {
+				"jshint": "^2.9.1",
+				"chai": "^3.5.0",
+				"coveralls": "^2.11.9",
+				"istanbul": "^0.4.2",
+				"mocha": "^2.4.5"
+			},
+			"gitHead": "2c6e16810f66be438db95844f4fd1128ad891531",
+			"_id": "is-window@1.0.0",
+			"_shasum": "2acb4e086f940f85b12fe3b42fba0aedda6a2617",
+			"_from": ".",
+			"_npmVersion": "3.8.5",
+			"_nodeVersion": "4.4.0",
+			"_npmUser": {
+				"name": "bubkoo",
+				"email": "bubkoo.wy@gmail.com"
+			},
+			"dist": {
+				"shasum": "2acb4e086f940f85b12fe3b42fba0aedda6a2617",
+				"tarball": "https://registry.npmjs.org/is-window/-/is-window-1.0.0.tgz",
+				"integrity": "sha512-8WtK6kI34KHVyQUEEoUaGdQhTtF7euxapkea5+sXdRr1EkaQPXfGmeKyYifUYwgYHXiWfcyp2TodBId6WLYuUw==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQCx3Y+8BVa/axftXbiKy99jqYGgVs1CfgwPQ8XFFpmZkwIgPHcSWcMTyFp/ednpe0I+nbUeT+ePvtjULs1WKDn15ws="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "bubkoo",
+					"email": "bubkoo.wy@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/is-window-1.0.0.tgz_1460436226464_0.9651111008133739"
+			},
+			"contributors": []
+		},
+		"1.0.1": {
+			"name": "is-window",
+			"version": "1.0.1",
+			"description": "Checks if the given value is a window object.",
+			"main": "index.js",
+			"scripts": {
+				"lint": "jshint index.js",
+				"pretest": "npm run lint",
+				"test": "mocha -R spec",
+				"test:cov": "rm -rf ./test/coverage && istanbul cover _mocha --dir ./test/coverage -- -R spec",
+				"test:rpt": "npm run test:cov && coveralls < ./test/coverage/lcov.info",
+				"prepublish": "npm test"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/bubkoo/is-window.git"
+			},
+			"keywords": [
+				"is",
+				"check",
+				"checks",
+				"detect",
+				"window",
+				"object",
+				"type",
+				"null"
+			],
+			"author": {
+				"name": "bubkoo",
+				"email": "bubkoo.wy@gmail.com"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/bubkoo/is-window/issues"
+			},
+			"homepage": "https://github.com/bubkoo/is-window#readme",
+			"devDependencies": {
+				"jshint": "^2.9.1",
+				"chai": "^3.5.0",
+				"coveralls": "^2.11.9",
+				"istanbul": "^0.4.2",
+				"mocha": "^2.4.5"
+			},
+			"gitHead": "6afd04961b84b0f3443e14199cd7826cb16df01e",
+			"_id": "is-window@1.0.1",
+			"_shasum": "ce84d1ca07a8dde00afe343063ca2519c2eba6e7",
+			"_from": ".",
+			"_npmVersion": "3.8.5",
+			"_nodeVersion": "4.4.0",
+			"_npmUser": {
+				"name": "bubkoo",
+				"email": "bubkoo.wy@gmail.com"
+			},
+			"dist": {
+				"shasum": "ce84d1ca07a8dde00afe343063ca2519c2eba6e7",
+				"tarball": "https://registry.npmjs.org/is-window/-/is-window-1.0.1.tgz",
+				"integrity": "sha512-qcO5YG99bgw+RBDRqVf8Cp+ezUX9rbg9iX/6X+rAAjFYaoMsmh7Zi+ZFcj1v8BVHJzQwWA0oKgi76ZZc+/G/Tg==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIDtrQ76pF5wDjIcpOnOqcU49WLZeSWpzeqtojXACTmg8AiEAgeNSaJ37PGie0mCG1XnKtagfqQBehti0dzm1hRmNVbk="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "bubkoo",
+					"email": "bubkoo.wy@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/is-window-1.0.1.tgz_1460536178552_0.8415397480130196"
+			},
+			"contributors": []
+		},
+		"1.0.2": {
+			"name": "is-window",
+			"version": "1.0.2",
+			"description": "Checks if the given value is a window object.",
+			"main": "index.js",
+			"scripts": {
+				"lint": "jshint index.js",
+				"pretest": "npm run lint",
+				"test": "mocha -R spec",
+				"test:cov": "rm -rf ./test/coverage && istanbul cover _mocha --dir ./test/coverage -- -R spec",
+				"test:rpt": "npm run test:cov && coveralls < ./test/coverage/lcov.info",
+				"prepublish": "npm test"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/gearcase/is-window.git"
+			},
+			"keywords": [
+				"is",
+				"check",
+				"checks",
+				"detect",
+				"window",
+				"object",
+				"type",
+				"null"
+			],
+			"author": {
+				"name": "bubkoo",
+				"email": "bubkoo.wy@gmail.com"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/gearcase/is-window/issues"
+			},
+			"homepage": "https://github.com/gearcase/is-window#readme",
+			"devDependencies": {
+				"jshint": "^2.9.1",
+				"chai": "^3.5.0",
+				"coveralls": "^2.11.9",
+				"istanbul": "^0.4.2",
+				"mocha": "^2.4.5"
+			},
+			"gitHead": "41549b22e56fbfeeee4be329eb9e6639370c2b64",
+			"_id": "is-window@1.0.2",
+			"_shasum": "2c896ca53db97de45d3c33133a65d8c9f563480d",
+			"_from": ".",
+			"_npmVersion": "3.8.5",
+			"_nodeVersion": "4.4.0",
+			"_npmUser": {
+				"name": "bubkoo",
+				"email": "bubkoo.wy@gmail.com"
+			},
+			"dist": {
+				"shasum": "2c896ca53db97de45d3c33133a65d8c9f563480d",
+				"tarball": "https://registry.npmjs.org/is-window/-/is-window-1.0.2.tgz",
+				"integrity": "sha512-uj00kdXyZb9t9RcAUAwMZAnkBUwdYGhYlt7djMXhfyhUCzwNba50tIiBKR7q0l7tdoBtFVw/3JmLY6fI3rmZmg==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQCwxIi7l9v7qWNle26T3wE69bzm9/u2hdNjM7MEEyqb3QIgXlAouetEU9jnkYKPHwoioM3uIfep8bc5fhcEtNxi9Y0="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "bubkoo",
+					"email": "bubkoo.wy@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/is-window-1.0.2.tgz_1460694591535_0.36712936172261834"
+			},
+			"contributors": []
+		}
+	},
+	"time": {
+		"modified": "2022-06-19T02:53:52.413Z",
+		"created": "2016-04-12T03:57:11.401Z",
+		"0.0.0": "2016-04-12T03:57:11.401Z",
+		"1.0.0": "2016-04-12T04:43:48.962Z",
+		"1.0.1": "2016-04-13T08:29:39.054Z",
+		"1.0.2": "2016-04-15T04:29:54.915Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "1.0.2"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"662c27410fbdc54d298259933391b6af\"",
+			"fetched": 1660840840703
+		}
+	},
+	"_distfiles": {
+		"is-window-0.0.0.tgz": {
+			"url": "https://registry.npmjs.org/is-window/-/is-window-0.0.0.tgz",
+			"sha": "d73f88ac10409329f3781f96bb3d6c40fc811e0b",
+			"registry": "npmjs"
+		},
+		"is-window-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/is-window/-/is-window-1.0.0.tgz",
+			"sha": "2acb4e086f940f85b12fe3b42fba0aedda6a2617",
+			"registry": "npmjs"
+		},
+		"is-window-1.0.1.tgz": {
+			"url": "https://registry.npmjs.org/is-window/-/is-window-1.0.1.tgz",
+			"sha": "ce84d1ca07a8dde00afe343063ca2519c2eba6e7",
+			"registry": "npmjs"
+		},
+		"is-window-1.0.2.tgz": {
+			"url": "https://registry.npmjs.org/is-window/-/is-window-1.0.2.tgz",
+			"sha": "2c896ca53db97de45d3c33133a65d8c9f563480d",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_rev": "3-b39340cecfd99ac1",
+	"_id": "is-window",
+	"readme": "# is-window\n\n> Checks if the given value is a window object.\n\n[![MIT License](https://img.shields.io/badge/license-MIT_License-green.svg?style=flat-square)](https://github.com/gearcase/is-window/blob/master/LICENSE)\n\n[![build:?](https://img.shields.io/travis/gearcase/is-window/master.svg?style=flat-square)](https://travis-ci.org/gearcase/is-window)\n[![coverage:?](https://img.shields.io/coveralls/gearcase/is-window/master.svg?style=flat-square)](https://coveralls.io/github/gearcase/is-window)\n\n\n## Install\n\n```\n$ npm install --save is-window \n```\n\n\n## Usage\n\n```js\nvar isWindow = require('is-window');\n\nisWindow();               // => false\nisWindow(1);              // => false\nisWindow('1');            // => false\nisWindow(true);           // => false\nisWindow(null);           // => false\nisWindow({});             // => false\nisWindow(function () {}); // => false\nisWindow([]);             // => false\nisWindow([1, 2, 3]);      // => false\n```\n\n## Related\n\n- [is-nil](https://github.com/gearcase/is-nil) - Checks if the given value is null or undefined.\n- [is-null](https://github.com/gearcase/is-null) - Checks if the given value is null.\n- [is-native](https://github.com/gearcase/is-native) - Checks if the given value is a native function.\n- [is-index](https://github.com/gearcase/is-index) - Checks if the given value is a valid array-like index.\n- [is-length](https://github.com/gearcase/is-length) - Checks if the given value is a valid array-like length.\n- [is-array-like](https://github.com/gearcase/is-array-like) - Checks if the given value is an array or an array-like object.\n\n## Contributing\n\nPull requests and stars are highly welcome.\n\nFor bugs and feature requests, please [create an issue](https://github.com/gearcase/is-window/issues/new)."
+}

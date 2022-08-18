@@ -1,0 +1,2882 @@
+{
+	"name": "@storybook/react-docgen-typescript-plugin",
+	"versions": {
+		"0.7.2-canary.91cf050.0": {
+			"name": "@storybook/react-docgen-typescript-plugin",
+			"version": "0.7.2-canary.91cf050.0",
+			"description": "A webpack plugin to inject react typescript docgen information.",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/hipstersmoothie/react-docgen-typescript-plugin.git"
+			},
+			"author": {
+				"name": "Andrew Lisowski",
+				"email": "lisowski54@gmail.com"
+			},
+			"main": "dist/index.js",
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/",
+				"access": "public"
+			},
+			"scripts": {
+				"build:example": "npm run build && webpack",
+				"build": "tsc -p tsconfig.build.json",
+				"start": "yarn build --watch",
+				"lint": "eslint src --ext .ts,.js",
+				"test": "npm run test:v4 && npm run test:v5",
+				"pretest:v4": "add-no-save @types/webpack ts-loader@8 webpack@4",
+				"test:v4": "jest",
+				"pretest:v5": "add-no-save webpack@5",
+				"test:v5": "jest",
+				"release": "auto shipit"
+			},
+			"keywords": [
+				"react",
+				"docgen",
+				"typescript",
+				"webpack",
+				"plugin"
+			],
+			"dependencies": {
+				"debug": "^4.1.1",
+				"endent": "^2.0.1",
+				"find-cache-dir": "^3.3.1",
+				"flat-cache": "^3.0.4",
+				"micromatch": "^4.0.2",
+				"react-docgen-typescript": "^1.22.0",
+				"tslib": "^2.0.0",
+				"webpack-sources": "^2.2.0"
+			},
+			"devDependencies": {
+				"@types/debug": "^4.1.5",
+				"@types/find-cache-dir": "^3.2.0",
+				"@types/flat-cache": "^2.0.0",
+				"@types/jest": "^26.0.23",
+				"@types/micromatch": "^4.0.1",
+				"@types/node": "^14.0.12",
+				"@types/react": "^17.0.0",
+				"@types/webpack-sources": "^2.1.0",
+				"@typescript-eslint/eslint-plugin": "^4.9.0",
+				"@typescript-eslint/parser": "^4.9.0",
+				"auto": "^10.2.3",
+				"auto-config-hipstersmoothie": "^4.0.0",
+				"eslint": "^7.14.0",
+				"eslint-config-airbnb-base": "^14.2.1",
+				"eslint-config-prettier": "6.11.0",
+				"eslint-config-xo": "0.29.1",
+				"eslint-plugin-import": "^2.22.1",
+				"eslint-plugin-jest": "^24.1.3",
+				"eslint-plugin-jsdoc": "25.2.0",
+				"eslint-plugin-jsx-a11y": "^6.4.1",
+				"eslint-plugin-prettier": "3.1.3",
+				"jest": "^26.6.3",
+				"memfs": "^3.2.2",
+				"memory-fs": "^0.5.0",
+				"prettier": "^2.0.5",
+				"react": "^17.0.1",
+				"ts-jest": "^26.5.6",
+				"ts-loader": "^9.1.2",
+				"typescript": "3.8.3",
+				"webpack": "^5.36.2",
+				"webpack-cli": "^4.7.0",
+				"yarn-add-no-save": "^1.0.3"
+			},
+			"peerDependencies": {
+				"typescript": ">= 3.x",
+				"webpack": ">= 4"
+			},
+			"lint-staged": {
+				"*.{js,css,md}": [
+					"prettier --write",
+					"git add"
+				]
+			},
+			"auto": {
+				"extends": "hipstersmoothie"
+			},
+			"gitHead": "91cf0509cdbf7360261db0ac2332b8e114551ef7",
+			"bugs": {
+				"url": "https://github.com/hipstersmoothie/react-docgen-typescript-plugin/issues"
+			},
+			"homepage": "https://github.com/hipstersmoothie/react-docgen-typescript-plugin#readme",
+			"_id": "@storybook/react-docgen-typescript-plugin@0.7.2-canary.91cf050.0",
+			"_nodeVersion": "14.16.1",
+			"_npmVersion": "6.14.12",
+			"dist": {
+				"integrity": "sha512-y54RIY5/GxRRC5+SOxxlidYU6TzBOMYMjVzmzOXwHuPdfqJ5DOam4dhe5vh86U0gyyFSF1WF6WS5Rws6IwQ1hw==",
+				"shasum": "d1f3515b4ef18dea5aaf829f9e655cda6f1b0fb5",
+				"tarball": "https://registry.npmjs.org/@storybook/react-docgen-typescript-plugin/-/react-docgen-typescript-plugin-0.7.2-canary.91cf050.0.tgz",
+				"fileCount": 24,
+				"unpackedSize": 57291,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgpeRlCRA9TVsSAnZWagAAkeEP/3cEWTPaJWtZnMpI/WVV\nUIeeL9Dv4HE9caNKjuoOZ4081YC3F7MUlxCf5z0opSC4UAi/HP5T9jtSeNaA\nHJEcz3+kV3lOWXe5gkz9VeYq5U2Q7xMUMTIyxAAyZvvm0e5l1OXyrfCxZt3f\n1XZ0FV4GPKRWseW+qQbvJ3fJ0mtR1MtTv3CQHnfPKgnTbX5B4PMyxjm4+kcP\nqcahPTILwd3QFcbpS/Z1+p9ATF4AAVgG/vfGW4l+Nmv6qtGUo/QslRhvYoDc\n7+xxK+W/Kd7/yIF5IrjPSzbuDXAfg4R9n86erpHfGcT0FhluHEGXgmCs4IJu\n7PaQXCnQCj6iH951WLxFc6j1UKIhzcJXvjR2zphqRkVm9eQp4Gz7g4WnkMuQ\ntJbEPOoHYG+UHWbHXPNieuPm+/mgGM6U4ODRpjWjS443lyonsK64q8D+Cx1n\nGRUG3PQcKYVPDuE1G7ugriPJ/eS3YiU+Z6DlHaY1maC4nK/kQ3j5I4dAtlum\npKIKWeGTilbZaaVAd4KlnzGjLj3Sp18egt/IR3/mRzs9IdnTKCItTnbX9BXT\nL5FOF7i57A0HKdKfYAcyLND7nvrE4Rx4z9AkZ5465PnkcCjUho03SRk3dOcD\nYTQ97j2WhAwdDSeDInceO7B7680I3PlyePek8WBAzyRrKT3PY+8ufotrDWpL\nuIjI\r\n=WEOc\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIDfBc2geQIWbsY/rStuxj52R1QHXK6LO4G5hbAT8NKOjAiBX7YnvGLUepI2i4Km4WrG00yvf7h6wdM2UKJ1MOkPGUA=="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "shilman",
+				"email": "michael@lab80.co"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "yannbf",
+					"email": "yannbf@gmail.com"
+				},
+				{
+					"name": "phated",
+					"email": "blaine.bublitz@gmail.com"
+				},
+				{
+					"name": "ndelangen",
+					"email": "ndelangen@me.com"
+				},
+				{
+					"name": "shilman",
+					"email": "michael@lab80.co"
+				},
+				{
+					"name": "alexandrebodin",
+					"email": "bodin.alex@gmail.com"
+				},
+				{
+					"name": "hypnosphi",
+					"email": "talpa@yandex.ru"
+				},
+				{
+					"name": "danielduan",
+					"email": "dduan@yahoo.com"
+				},
+				{
+					"name": "igor-dv",
+					"email": "davydkin.igor@gmail.com"
+				},
+				{
+					"name": "pksunkara",
+					"email": "pavan.sss1991@gmail.com"
+				},
+				{
+					"name": "tmeasday",
+					"email": "tom@thesnail.org"
+				},
+				{
+					"name": "gongreg",
+					"email": "gytis.vinclovas@gmail.com"
+				},
+				{
+					"name": "domyen",
+					"email": "dom@hichroma.com"
+				},
+				{
+					"name": "usulpro",
+					"email": "regx@usul.su"
+				},
+				{
+					"name": "kylesuss",
+					"email": "susskyle@gmail.com"
+				},
+				{
+					"name": "ghengeveld",
+					"email": "info@ghengeveld.nl"
+				},
+				{
+					"name": "pago",
+					"email": "patrick.gotthardt@trivago.com"
+				},
+				{
+					"name": "dandean",
+					"email": "me@dandean.com"
+				},
+				{
+					"name": "codebyalex",
+					"email": "wilsonc.alexander@gmail.com"
+				},
+				{
+					"name": "mrmckeb",
+					"email": "mrmckeb.npm@outlook.com"
+				},
+				{
+					"name": "dannyhw",
+					"email": "danny.h.williams@hotmail.com"
+				},
+				{
+					"name": "winkervsbecks",
+					"email": "varunvachhar@gmail.com"
+				},
+				{
+					"name": "rvasikarla",
+					"email": "vasikarla.raj@gmail.com"
+				},
+				{
+					"name": "amalik2",
+					"email": "ahnmalik2@gmail.com"
+				},
+				{
+					"name": "lshadler",
+					"email": "lshadler13@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-docgen-typescript-plugin_0.7.2-canary.91cf050.0_1621484644698_0.8324352505675399"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.7.2-canary.36bd3a4.0": {
+			"name": "@storybook/react-docgen-typescript-plugin",
+			"version": "0.7.2-canary.36bd3a4.0",
+			"description": "A webpack plugin to inject react typescript docgen information.",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/hipstersmoothie/react-docgen-typescript-plugin.git"
+			},
+			"author": {
+				"name": "Andrew Lisowski",
+				"email": "lisowski54@gmail.com"
+			},
+			"main": "dist/index.js",
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/",
+				"access": "public"
+			},
+			"scripts": {
+				"build:example": "npm run build && webpack",
+				"build": "tsc -p tsconfig.build.json",
+				"start": "yarn build --watch",
+				"lint": "eslint src --ext .ts,.js",
+				"test": "npm run test:v4 && npm run test:v5",
+				"pretest:v4": "add-no-save @types/webpack ts-loader@8 webpack@4",
+				"test:v4": "jest",
+				"pretest:v5": "add-no-save webpack@5",
+				"test:v5": "jest",
+				"release": "auto shipit"
+			},
+			"keywords": [
+				"react",
+				"docgen",
+				"typescript",
+				"webpack",
+				"plugin"
+			],
+			"dependencies": {
+				"debug": "^4.1.1",
+				"endent": "^2.0.1",
+				"find-cache-dir": "^3.3.1",
+				"flat-cache": "^3.0.4",
+				"micromatch": "^4.0.2",
+				"react-docgen-typescript": "^1.22.0",
+				"tslib": "^2.0.0",
+				"webpack-sources": "^2.2.0"
+			},
+			"devDependencies": {
+				"@types/debug": "^4.1.5",
+				"@types/find-cache-dir": "^3.2.0",
+				"@types/flat-cache": "^2.0.0",
+				"@types/jest": "^26.0.23",
+				"@types/micromatch": "^4.0.1",
+				"@types/node": "^14.0.12",
+				"@types/react": "^17.0.0",
+				"@types/webpack-sources": "^2.1.0",
+				"@typescript-eslint/eslint-plugin": "^4.9.0",
+				"@typescript-eslint/parser": "^4.9.0",
+				"auto": "^10.2.3",
+				"auto-config-hipstersmoothie": "^4.0.0",
+				"eslint": "^7.14.0",
+				"eslint-config-airbnb-base": "^14.2.1",
+				"eslint-config-prettier": "6.11.0",
+				"eslint-config-xo": "0.29.1",
+				"eslint-plugin-import": "^2.22.1",
+				"eslint-plugin-jest": "^24.1.3",
+				"eslint-plugin-jsdoc": "25.2.0",
+				"eslint-plugin-jsx-a11y": "^6.4.1",
+				"eslint-plugin-prettier": "3.1.3",
+				"jest": "^26.6.3",
+				"memfs": "^3.2.2",
+				"memory-fs": "^0.5.0",
+				"prettier": "^2.0.5",
+				"react": "^17.0.1",
+				"ts-jest": "^26.5.6",
+				"ts-loader": "^9.1.2",
+				"typescript": "3.8.3",
+				"webpack": "^5.36.2",
+				"webpack-cli": "^4.7.0",
+				"yarn-add-no-save": "^1.0.3"
+			},
+			"peerDependencies": {
+				"typescript": ">= 3.x",
+				"webpack": ">= 4"
+			},
+			"lint-staged": {
+				"*.{js,css,md}": [
+					"prettier --write",
+					"git add"
+				]
+			},
+			"auto": {
+				"extends": "hipstersmoothie"
+			},
+			"readmeFilename": "README.md",
+			"gitHead": "36bd3a4237d1dd3bd51217f73816ce3a8bb30e19",
+			"bugs": {
+				"url": "https://github.com/hipstersmoothie/react-docgen-typescript-plugin/issues"
+			},
+			"homepage": "https://github.com/hipstersmoothie/react-docgen-typescript-plugin#readme",
+			"_id": "@storybook/react-docgen-typescript-plugin@0.7.2-canary.36bd3a4.0",
+			"_nodeVersion": "14.16.1",
+			"_npmVersion": "6.14.12",
+			"dist": {
+				"integrity": "sha512-cMa2A5hbw1wVsk9InLa5uWF5cj1u4T+a3EyKd2iBhDV4hPFgy3DIFU/u+m8dv/Jo7zqFxYVu8jm9kbPKg2YkIw==",
+				"shasum": "a69880e21cec8d8827c63dd0edf950247c99e6a7",
+				"tarball": "https://registry.npmjs.org/@storybook/react-docgen-typescript-plugin/-/react-docgen-typescript-plugin-0.7.2-canary.36bd3a4.0.tgz",
+				"fileCount": 24,
+				"unpackedSize": 57453,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgphWSCRA9TVsSAnZWagAAICsP/iN2ZAtfm+uMOjNtiZaU\nebhE4YPwv/wjoNa/easTjNteCTNW1S1jI4YLep19+HdjI3c1Lmc+udaMRTCw\nTT8ypWgEb7UEtvk9K6te/xNlvSJmTmx0jx4b9o12cM8ME/BijfPsgNqpaz3V\nudnt6Q3+FUsGWI8maHt06f7JdMlSqqeQF3Rm6RhLxM0lqZmr5otecbiQJ6gn\ntOvmd2JmgLXToRXA6PEqhTfuFwcRB5iDri8ZwjnGRxt/g5aei0Am11Ss4SLt\nkIZLYSnjEMFiFmbd29w0qbH+ywu4vXumlLAbwpS9sNJ/VySqbjTIntzuZwWx\n7pDOdFCdMqXXc0yfdLeuCzEGa3uD28LxSf0DtqN14kdSG+pbfxYqN33wM9Gz\nQD2qT8+9SotqX31drapBBXl5GarfFtNapTC2rw3c1wwpxMSoUVF7UmoGExZO\nBsAyah7hjXBLdoAG9MCiKUHRRtp5S5enl41+hrdq1p5IyP8gotcXC7pjSdRi\n4i+tgAxl9XoTwBLUNLAse8mvG6otXGArlQTWjxePmNm68fOipkivYVgm5PyR\nsw/hE4Dd70wIzzM+Dcs76JV4JW0EedKLPrcZhYlbmEclVH9s3PvOhTS9cNkt\n/a8U8zQiIPnAwVkei4F+wqyzhw0GB0UZlZWe05bc1rgJJXeiQ8R6ple072Hd\nAnT0\r\n=JWPB\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDEhhaDZfvM1viADX7o7/FJEEzq9XCArTyZ8um1ss5WZwIhAM2hUF0XQ0YAxoYE6bg+rQP8ckclWIXmElTH4qtF0AAq"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "shilman",
+				"email": "michael@lab80.co"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "yannbf",
+					"email": "yannbf@gmail.com"
+				},
+				{
+					"name": "phated",
+					"email": "blaine.bublitz@gmail.com"
+				},
+				{
+					"name": "ndelangen",
+					"email": "ndelangen@me.com"
+				},
+				{
+					"name": "shilman",
+					"email": "michael@lab80.co"
+				},
+				{
+					"name": "alexandrebodin",
+					"email": "bodin.alex@gmail.com"
+				},
+				{
+					"name": "hypnosphi",
+					"email": "talpa@yandex.ru"
+				},
+				{
+					"name": "danielduan",
+					"email": "dduan@yahoo.com"
+				},
+				{
+					"name": "igor-dv",
+					"email": "davydkin.igor@gmail.com"
+				},
+				{
+					"name": "pksunkara",
+					"email": "pavan.sss1991@gmail.com"
+				},
+				{
+					"name": "tmeasday",
+					"email": "tom@thesnail.org"
+				},
+				{
+					"name": "gongreg",
+					"email": "gytis.vinclovas@gmail.com"
+				},
+				{
+					"name": "domyen",
+					"email": "dom@hichroma.com"
+				},
+				{
+					"name": "usulpro",
+					"email": "regx@usul.su"
+				},
+				{
+					"name": "kylesuss",
+					"email": "susskyle@gmail.com"
+				},
+				{
+					"name": "ghengeveld",
+					"email": "info@ghengeveld.nl"
+				},
+				{
+					"name": "pago",
+					"email": "patrick.gotthardt@trivago.com"
+				},
+				{
+					"name": "dandean",
+					"email": "me@dandean.com"
+				},
+				{
+					"name": "codebyalex",
+					"email": "wilsonc.alexander@gmail.com"
+				},
+				{
+					"name": "mrmckeb",
+					"email": "mrmckeb.npm@outlook.com"
+				},
+				{
+					"name": "dannyhw",
+					"email": "danny.h.williams@hotmail.com"
+				},
+				{
+					"name": "winkervsbecks",
+					"email": "varunvachhar@gmail.com"
+				},
+				{
+					"name": "rvasikarla",
+					"email": "vasikarla.raj@gmail.com"
+				},
+				{
+					"name": "amalik2",
+					"email": "ahnmalik2@gmail.com"
+				},
+				{
+					"name": "lshadler",
+					"email": "lshadler13@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-docgen-typescript-plugin_0.7.2-canary.36bd3a4.0_1621497234294_0.20330598847283898"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.7.2-canary.abb479f.0": {
+			"name": "@storybook/react-docgen-typescript-plugin",
+			"version": "0.7.2-canary.abb479f.0",
+			"description": "A webpack plugin to inject react typescript docgen information.",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/hipstersmoothie/react-docgen-typescript-plugin.git"
+			},
+			"author": {
+				"name": "Andrew Lisowski",
+				"email": "lisowski54@gmail.com"
+			},
+			"main": "dist/index.js",
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/",
+				"access": "public"
+			},
+			"scripts": {
+				"build:example": "npm run build && webpack",
+				"build": "tsc -p tsconfig.build.json",
+				"start": "yarn build --watch",
+				"lint": "eslint src --ext .ts,.js",
+				"test": "npm run test:v4 && npm run test:v5",
+				"pretest:v4": "add-no-save @types/webpack ts-loader@8 webpack@4",
+				"test:v4": "jest",
+				"pretest:v5": "add-no-save webpack@5",
+				"test:v5": "jest",
+				"release": "auto shipit"
+			},
+			"keywords": [
+				"react",
+				"docgen",
+				"typescript",
+				"webpack",
+				"plugin"
+			],
+			"dependencies": {
+				"debug": "^4.1.1",
+				"endent": "^2.0.1",
+				"find-cache-dir": "^3.3.1",
+				"flat-cache": "^3.0.4",
+				"micromatch": "^4.0.2",
+				"react-docgen-typescript": "^1.22.0",
+				"tslib": "^2.0.0",
+				"webpack-sources": "^2.2.0"
+			},
+			"devDependencies": {
+				"@types/debug": "^4.1.5",
+				"@types/find-cache-dir": "^3.2.0",
+				"@types/flat-cache": "^2.0.0",
+				"@types/jest": "^26.0.23",
+				"@types/micromatch": "^4.0.1",
+				"@types/node": "^14.0.12",
+				"@types/react": "^17.0.0",
+				"@types/webpack-sources": "^2.1.0",
+				"@typescript-eslint/eslint-plugin": "^4.9.0",
+				"@typescript-eslint/parser": "^4.9.0",
+				"auto": "^10.2.3",
+				"auto-config-hipstersmoothie": "^4.0.0",
+				"eslint": "^7.14.0",
+				"eslint-config-airbnb-base": "^14.2.1",
+				"eslint-config-prettier": "6.11.0",
+				"eslint-config-xo": "0.29.1",
+				"eslint-plugin-import": "^2.22.1",
+				"eslint-plugin-jest": "^24.1.3",
+				"eslint-plugin-jsdoc": "25.2.0",
+				"eslint-plugin-jsx-a11y": "^6.4.1",
+				"eslint-plugin-prettier": "3.1.3",
+				"jest": "^26.6.3",
+				"memfs": "^3.2.2",
+				"memory-fs": "^0.5.0",
+				"prettier": "^2.0.5",
+				"react": "^17.0.1",
+				"ts-jest": "^26.5.6",
+				"ts-loader": "^9.1.2",
+				"typescript": "3.8.3",
+				"webpack": "^5.36.2",
+				"webpack-cli": "^4.7.0",
+				"yarn-add-no-save": "^1.0.3"
+			},
+			"peerDependencies": {
+				"typescript": ">= 3.x",
+				"webpack": ">= 4"
+			},
+			"lint-staged": {
+				"*.{js,css,md}": [
+					"prettier --write",
+					"git add"
+				]
+			},
+			"auto": {
+				"extends": "hipstersmoothie"
+			},
+			"readmeFilename": "README.md",
+			"gitHead": "abb479f7e131bae27b7a4cd394ce58f18ff3390f",
+			"bugs": {
+				"url": "https://github.com/hipstersmoothie/react-docgen-typescript-plugin/issues"
+			},
+			"homepage": "https://github.com/hipstersmoothie/react-docgen-typescript-plugin#readme",
+			"_id": "@storybook/react-docgen-typescript-plugin@0.7.2-canary.abb479f.0",
+			"_nodeVersion": "14.16.1",
+			"_npmVersion": "6.14.12",
+			"dist": {
+				"integrity": "sha512-Vx6CDrVfIKG0YJCfd1mZskO+9ZUyR35e7eUmb46uyRNpXnjlha57jdlK2clN9TvKZx4589EsoqxDC0QT3+Nm4A==",
+				"shasum": "6fe466f05adbc86623e8801270b7d945d86da6ff",
+				"tarball": "https://registry.npmjs.org/@storybook/react-docgen-typescript-plugin/-/react-docgen-typescript-plugin-0.7.2-canary.abb479f.0.tgz",
+				"fileCount": 24,
+				"unpackedSize": 57691,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgpl3XCRA9TVsSAnZWagAA1R8P/1V3pPFL+RITEb66ZO1M\nbkrVajs+K4QMYbFbJkv04kB86J1zG8LE1UqZSnkXEvbPSoATpGyAP/Zh7KLc\nBlevGYMZ/JDLW8tmVzZvx59ayNO8+oddsJ3YluF2CHHhImcAHbx+C5IJWwsc\nB2VZVRO69B++zn0tAa3SbJ2MfFsmEykY4H6dvy5QTdAa/Z99bULIx0Z9yXtM\nh+zpqiZYEN2X8PWAel2gv4Y2xZL66rLsRTCcZnPiI8oG7iiMXig90nR5x5wR\nlbWPSSNCjGBE93iD16YkwlIyrNt9ibJGpSVh4Nky2Zzn7T29Dvge1D4hMp+1\nsKJSM78ZruzxIbcEXT32Rsbz53ouxAN9RWqY0y8s2gW80pC5cSsGbMuRl0vH\nQWqw8c82JnMhGZ8VA6hcQAc7Olq1+jjE+cuhgWDxlz/ssqeEnhQ0VjJH83hS\n7c07IND0VK/rMgW9WqpyhsKWsuqzbWU7mC+JZgkUhYgMKtnN0DPNhvVrgA6e\n883wtYnUYXawXtV/gG/J+uePeBoPzXxrrt++zJ1cmZIFepWsRWwaUfUoW7ri\nVQ0ITdCZiIcJwMdpDzrVgyIx51YjksHcfO9qRpHGbJCvzNLESZ518eCgBp5q\ngaAHlzYyyLzcnLIdHJ8Onda1aBXaXv3aHUmM81HGUYzKR4ljr/cYfL9BBste\nZE3B\r\n=1brs\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDFu+mYemDi84qgHYNWqN8GLm3Ebp0lIEjBy3+MaI3gogIhAOnaDxGdbfdq8ONUL213b7IVg2A/Vyw5CqUdFMw6jAYT"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "shilman",
+				"email": "michael@lab80.co"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "yannbf",
+					"email": "yannbf@gmail.com"
+				},
+				{
+					"name": "phated",
+					"email": "blaine.bublitz@gmail.com"
+				},
+				{
+					"name": "ndelangen",
+					"email": "ndelangen@me.com"
+				},
+				{
+					"name": "shilman",
+					"email": "michael@lab80.co"
+				},
+				{
+					"name": "alexandrebodin",
+					"email": "bodin.alex@gmail.com"
+				},
+				{
+					"name": "hypnosphi",
+					"email": "talpa@yandex.ru"
+				},
+				{
+					"name": "danielduan",
+					"email": "dduan@yahoo.com"
+				},
+				{
+					"name": "igor-dv",
+					"email": "davydkin.igor@gmail.com"
+				},
+				{
+					"name": "pksunkara",
+					"email": "pavan.sss1991@gmail.com"
+				},
+				{
+					"name": "tmeasday",
+					"email": "tom@thesnail.org"
+				},
+				{
+					"name": "gongreg",
+					"email": "gytis.vinclovas@gmail.com"
+				},
+				{
+					"name": "domyen",
+					"email": "dom@hichroma.com"
+				},
+				{
+					"name": "usulpro",
+					"email": "regx@usul.su"
+				},
+				{
+					"name": "kylesuss",
+					"email": "susskyle@gmail.com"
+				},
+				{
+					"name": "ghengeveld",
+					"email": "info@ghengeveld.nl"
+				},
+				{
+					"name": "pago",
+					"email": "patrick.gotthardt@trivago.com"
+				},
+				{
+					"name": "dandean",
+					"email": "me@dandean.com"
+				},
+				{
+					"name": "codebyalex",
+					"email": "wilsonc.alexander@gmail.com"
+				},
+				{
+					"name": "mrmckeb",
+					"email": "mrmckeb.npm@outlook.com"
+				},
+				{
+					"name": "dannyhw",
+					"email": "danny.h.williams@hotmail.com"
+				},
+				{
+					"name": "winkervsbecks",
+					"email": "varunvachhar@gmail.com"
+				},
+				{
+					"name": "rvasikarla",
+					"email": "vasikarla.raj@gmail.com"
+				},
+				{
+					"name": "amalik2",
+					"email": "ahnmalik2@gmail.com"
+				},
+				{
+					"name": "lshadler",
+					"email": "lshadler13@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-docgen-typescript-plugin_0.7.2-canary.abb479f.0_1621515734604_0.390479190544603"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.7.2-canary.375d65e.0": {
+			"name": "@storybook/react-docgen-typescript-plugin",
+			"version": "0.7.2-canary.375d65e.0",
+			"description": "A webpack plugin to inject react typescript docgen information.",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/hipstersmoothie/react-docgen-typescript-plugin.git"
+			},
+			"author": {
+				"name": "Andrew Lisowski",
+				"email": "lisowski54@gmail.com"
+			},
+			"main": "dist/index.js",
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/",
+				"access": "public"
+			},
+			"scripts": {
+				"build:example": "npm run build && webpack",
+				"build": "tsc -p tsconfig.build.json",
+				"start": "yarn build --watch",
+				"lint": "eslint src --ext .ts,.js",
+				"test": "npm run test:v4 && npm run test:v5",
+				"pretest:v4": "add-no-save @types/webpack ts-loader@8 webpack@4",
+				"test:v4": "jest",
+				"pretest:v5": "add-no-save webpack@5",
+				"test:v5": "jest",
+				"release": "auto shipit"
+			},
+			"keywords": [
+				"react",
+				"docgen",
+				"typescript",
+				"webpack",
+				"plugin"
+			],
+			"dependencies": {
+				"debug": "^4.1.1",
+				"endent": "^2.0.1",
+				"find-cache-dir": "^3.3.1",
+				"flat-cache": "^3.0.4",
+				"micromatch": "^4.0.2",
+				"react-docgen-typescript": "^1.22.0",
+				"tslib": "^2.0.0",
+				"webpack-sources": "^2.2.0"
+			},
+			"devDependencies": {
+				"@types/debug": "^4.1.5",
+				"@types/find-cache-dir": "^3.2.0",
+				"@types/flat-cache": "^2.0.0",
+				"@types/jest": "^26.0.23",
+				"@types/micromatch": "^4.0.1",
+				"@types/node": "^14.0.12",
+				"@types/react": "^17.0.0",
+				"@types/webpack-sources": "^2.1.0",
+				"@typescript-eslint/eslint-plugin": "^4.9.0",
+				"@typescript-eslint/parser": "^4.9.0",
+				"auto": "^10.2.3",
+				"auto-config-hipstersmoothie": "^4.0.0",
+				"eslint": "^7.14.0",
+				"eslint-config-airbnb-base": "^14.2.1",
+				"eslint-config-prettier": "6.11.0",
+				"eslint-config-xo": "0.29.1",
+				"eslint-plugin-import": "^2.22.1",
+				"eslint-plugin-jest": "^24.1.3",
+				"eslint-plugin-jsdoc": "25.2.0",
+				"eslint-plugin-jsx-a11y": "^6.4.1",
+				"eslint-plugin-prettier": "3.1.3",
+				"jest": "^26.6.3",
+				"memfs": "^3.2.2",
+				"memory-fs": "^0.5.0",
+				"prettier": "^2.0.5",
+				"react": "^17.0.1",
+				"ts-jest": "^26.5.6",
+				"ts-loader": "^9.1.2",
+				"typescript": "3.8.3",
+				"webpack": "^5.36.2",
+				"webpack-cli": "^4.7.0",
+				"yarn-add-no-save": "^1.0.3"
+			},
+			"peerDependencies": {
+				"typescript": ">= 3.x",
+				"webpack": ">= 4"
+			},
+			"lint-staged": {
+				"*.{js,css,md}": [
+					"prettier --write",
+					"git add"
+				]
+			},
+			"auto": {
+				"extends": "hipstersmoothie"
+			},
+			"readmeFilename": "README.md",
+			"gitHead": "375d65e007d0820eacbefbdcbf49c3305bdc1685",
+			"bugs": {
+				"url": "https://github.com/hipstersmoothie/react-docgen-typescript-plugin/issues"
+			},
+			"homepage": "https://github.com/hipstersmoothie/react-docgen-typescript-plugin#readme",
+			"_id": "@storybook/react-docgen-typescript-plugin@0.7.2-canary.375d65e.0",
+			"_nodeVersion": "15.14.0",
+			"_npmVersion": "7.7.6",
+			"dist": {
+				"integrity": "sha512-5oWJECcAyaYR9AUvqVmogPbVvyRqxGPHwMBZnKK6nEp9T9vdOFAIHTArcg8zDa5qZ7cupddpKOQD0nedp3MRyA==",
+				"shasum": "09d92362e433063ece1ce6297c551d26dd2dd656",
+				"tarball": "https://registry.npmjs.org/@storybook/react-docgen-typescript-plugin/-/react-docgen-typescript-plugin-0.7.2-canary.375d65e.0.tgz",
+				"fileCount": 24,
+				"unpackedSize": 57750,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgrEqSCRA9TVsSAnZWagAAP4YQAII9KWdQogQ8j3GqN1Iu\n48l2oApOFqtpiZZtqbkjmWv+cMpj3x7tod+0jMYBtSIdJwLCa0PDpbiaZs7N\nGjzV48D7VzIUinr5HhzsXRChzPKWUcqCWpUK9AZX0/FK15bBQyapQqqKYsni\nqcDr3wpEYSGXbthOHGgbU0fvELifu498/sRknEbUCrbe7jSHHZtUb+UiPhHt\nlJhlYDjy7DgSQCMFjBddMngwu2wq9GwH35poPhUERMmaAE8xSVV6xgF27c1U\nNthLaIpZMu1a5/i1evR1IP0DqyNw83O2+uMxGGmKVvnTwWz3Ch2Gis02CubC\nmCaDGLQeej2BTrn90lWE5TzDajEoT+cdnIstd6JgckKOLzgluWyhP5mDltNN\nMGwTt8Of5YbyvsA9YlfwggjS0gOtvntp1DpRK6OUdZlobeN0RocAM75XHRQ1\n6L1M5urgztRoGMDWUV0DAVHk3SVE5JoGHQnPzLqJSNTPM3q+GnHk75awPwCE\n+qILr+mJMu3aBTxl6hwiCkRYWKFUkdpPvkrgUFO5570iOWh/ShPT7BhglJQ0\nXjVD5eZWirPqlImU9fqmtTydwm3KerVGGGtddJYTQTcBxLDgTTC9TQp11gGn\nlmSkCjixz3A3ZElEwG9MAHpuXIfmFgxW9BVD3IglUjCvfFlHOaCiTH8kWQld\nc2Rl\r\n=avku\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIDc6luj+SJUdFm9ivCakLJvN+ezvs4/Igb/Dv112X/5NAiEAgnIrnHJVHrrmqkYXzhtTA9zCIj0U+LjY2541dC5Fcxs="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "shilman",
+				"email": "michael@lab80.co"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "dylanpiercey",
+					"email": "pierceydylan@gmail.com"
+				},
+				{
+					"name": "yannbf",
+					"email": "yannbf@gmail.com"
+				},
+				{
+					"name": "phated",
+					"email": "blaine.bublitz@gmail.com"
+				},
+				{
+					"name": "ndelangen",
+					"email": "ndelangen@me.com"
+				},
+				{
+					"name": "shilman",
+					"email": "michael@lab80.co"
+				},
+				{
+					"name": "alexandrebodin",
+					"email": "bodin.alex@gmail.com"
+				},
+				{
+					"name": "hypnosphi",
+					"email": "talpa@yandex.ru"
+				},
+				{
+					"name": "danielduan",
+					"email": "dduan@yahoo.com"
+				},
+				{
+					"name": "igor-dv",
+					"email": "davydkin.igor@gmail.com"
+				},
+				{
+					"name": "pksunkara",
+					"email": "pavan.sss1991@gmail.com"
+				},
+				{
+					"name": "tmeasday",
+					"email": "tom@thesnail.org"
+				},
+				{
+					"name": "gongreg",
+					"email": "gytis.vinclovas@gmail.com"
+				},
+				{
+					"name": "domyen",
+					"email": "dom@hichroma.com"
+				},
+				{
+					"name": "usulpro",
+					"email": "regx@usul.su"
+				},
+				{
+					"name": "kylesuss",
+					"email": "susskyle@gmail.com"
+				},
+				{
+					"name": "ghengeveld",
+					"email": "info@ghengeveld.nl"
+				},
+				{
+					"name": "pago",
+					"email": "patrick.gotthardt@trivago.com"
+				},
+				{
+					"name": "dandean",
+					"email": "me@dandean.com"
+				},
+				{
+					"name": "codebyalex",
+					"email": "wilsonc.alexander@gmail.com"
+				},
+				{
+					"name": "mrmckeb",
+					"email": "mrmckeb.npm@outlook.com"
+				},
+				{
+					"name": "dannyhw",
+					"email": "danny.h.williams@hotmail.com"
+				},
+				{
+					"name": "winkervsbecks",
+					"email": "varunvachhar@gmail.com"
+				},
+				{
+					"name": "rvasikarla",
+					"email": "vasikarla.raj@gmail.com"
+				},
+				{
+					"name": "amalik2",
+					"email": "ahnmalik2@gmail.com"
+				},
+				{
+					"name": "lshadler",
+					"email": "lshadler13@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-docgen-typescript-plugin_0.7.2-canary.375d65e.0_1621904018227_0.5279369376786309"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.0.2-canary.f7e28c0.0": {
+			"name": "@storybook/react-docgen-typescript-plugin",
+			"version": "1.0.2-canary.f7e28c0.0",
+			"description": "A webpack plugin to inject react typescript docgen information.",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/hipstersmoothie/react-docgen-typescript-plugin.git"
+			},
+			"author": {
+				"name": "Andrew Lisowski",
+				"email": "lisowski54@gmail.com"
+			},
+			"main": "dist/index.js",
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/",
+				"access": "public"
+			},
+			"scripts": {
+				"build:example": "npm run build && webpack",
+				"build": "tsc -p tsconfig.build.json",
+				"start": "yarn build --watch",
+				"lint": "eslint src --ext .ts,.js",
+				"test": "npm run test:v4 && npm run test:v5",
+				"pretest:v4": "add-no-save @types/webpack ts-loader@8 webpack@4",
+				"test:v4": "jest",
+				"pretest:v5": "add-no-save webpack@5",
+				"test:v5": "jest",
+				"release": "auto shipit"
+			},
+			"keywords": [
+				"react",
+				"docgen",
+				"typescript",
+				"webpack",
+				"plugin"
+			],
+			"dependencies": {
+				"debug": "^4.1.1",
+				"endent": "^2.0.1",
+				"find-cache-dir": "^3.3.1",
+				"flat-cache": "^3.0.4",
+				"micromatch": "^4.0.2",
+				"react-docgen-typescript": "^1.22.0",
+				"tslib": "^2.0.0"
+			},
+			"devDependencies": {
+				"@types/debug": "^4.1.5",
+				"@types/find-cache-dir": "^3.2.0",
+				"@types/flat-cache": "^2.0.0",
+				"@types/jest": "^26.0.23",
+				"@types/micromatch": "^4.0.1",
+				"@types/node": "^14.0.12",
+				"@types/react": "^17.0.0",
+				"@typescript-eslint/eslint-plugin": "^4.9.0",
+				"@typescript-eslint/parser": "^4.9.0",
+				"auto": "^10.2.3",
+				"auto-config-hipstersmoothie": "^4.0.0",
+				"eslint": "^7.14.0",
+				"eslint-config-airbnb-base": "^14.2.1",
+				"eslint-config-prettier": "6.11.0",
+				"eslint-config-xo": "0.29.1",
+				"eslint-plugin-import": "^2.22.1",
+				"eslint-plugin-jest": "^24.1.3",
+				"eslint-plugin-jsdoc": "25.2.0",
+				"eslint-plugin-jsx-a11y": "^6.4.1",
+				"eslint-plugin-prettier": "3.1.3",
+				"jest": "^26.6.3",
+				"memfs": "^3.2.2",
+				"memory-fs": "^0.5.0",
+				"prettier": "^2.0.5",
+				"react": "^17.0.1",
+				"ts-jest": "^26.5.6",
+				"ts-loader": "^9.1.2",
+				"typescript": "3.8.3",
+				"webpack": "^5.36.2",
+				"webpack-cli": "^4.7.0",
+				"yarn-add-no-save": "^1.0.3"
+			},
+			"peerDependencies": {
+				"typescript": ">= 3.x",
+				"webpack": ">= 4"
+			},
+			"lint-staged": {
+				"*.{js,css,md}": [
+					"prettier --write",
+					"git add"
+				]
+			},
+			"auto": {
+				"extends": "hipstersmoothie"
+			},
+			"readmeFilename": "README.md",
+			"gitHead": "f7e28c06652d3fdacca56162ffe71d5c7f5ca1b6",
+			"bugs": {
+				"url": "https://github.com/hipstersmoothie/react-docgen-typescript-plugin/issues"
+			},
+			"homepage": "https://github.com/hipstersmoothie/react-docgen-typescript-plugin#readme",
+			"_id": "@storybook/react-docgen-typescript-plugin@1.0.2-canary.f7e28c0.0",
+			"_nodeVersion": "15.14.0",
+			"_npmVersion": "7.7.6",
+			"dist": {
+				"integrity": "sha512-E1Fc8JN43GqLYpCcJdankERI2sAaGdgHVsT0jnIaNu/V+Ru4nB+XvErJluhlsgLbhnisC84kzerU0lIpKVWhGQ==",
+				"shasum": "7d286d6476305d0dd5f4f17d76688d0b883d4593",
+				"tarball": "https://registry.npmjs.org/@storybook/react-docgen-typescript-plugin/-/react-docgen-typescript-plugin-1.0.2-canary.f7e28c0.0.tgz",
+				"fileCount": 24,
+				"unpackedSize": 64119,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgx/BxCRA9TVsSAnZWagAAUvcQAJeqnT8m0O9aCsXR+EO7\nYRk6GvUKGJXKz71T4q0Yu6a2DJsZhhX30JgZP0gmMtjRScF8FqiI1VnoKTle\n1DnPSSoggQDUNurrLdL4oTmXU8/Swi1rQ3XAJ6TFurj+VA6XZ06ZLmO+FhRB\nnudeNEhyVoBYKSIaMGUVG1u0C77kMxECVzBUefaC7xGed6FoTZlxBRROR42p\nX2TcatnsBzLhNfDNYtC0JKHCRtWMFjLA2XSDHI+AonekwWwjw5vy+HRT8hMO\nGomm2nZ8JNQMJL0S4NCiDaK5c/mFU6/mULXAuw184VTomQMWLq3bYb8ix7+v\nWxmX6TFDAk45X041PnCQTLe028kmImlgEK6aJcqokd+R+EMvEWCSOpNnGdrr\nn78yhugiCnumcwI3Tx5FSDWmyMLq4zP+pGMXHYrRxoZPVoH5bSoX397gR+ss\nPmTz7H/gczRXZyOM296ogZ+Wyi9/sl8Ee/FBRAqWvlf7/d7L74mcmhcCG6ZA\nE9TXk528s8eoOJlfPvf4EhajFd0N9DQc9EFuM6R6OpGz6xusM8mzWEpF2c9p\n0x7h6qg3OJWxos8o4oN5/HYdlty1n8t7VbJHTy76lARkpKd0JzyUV8yBkw/+\n7G5DtLLlZrLrMcmamMoncMY1dGwFWwwZavjbQvltcavntGGu3BNLQpiWZbGz\nsEjE\r\n=L4aV\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDXNUbkmH/Hs1sdRAKJhG/va4XuGm8+yIe5khgml/vPtwIhANhuo+FDE9D55eaBbVFk29o01xPh7rkf90A61xobT30L"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "shilman",
+				"email": "michael@lab80.co"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "dylanpiercey",
+					"email": "pierceydylan@gmail.com"
+				},
+				{
+					"name": "yannbf",
+					"email": "yannbf@gmail.com"
+				},
+				{
+					"name": "phated",
+					"email": "blaine.bublitz@gmail.com"
+				},
+				{
+					"name": "ndelangen",
+					"email": "ndelangen@me.com"
+				},
+				{
+					"name": "shilman",
+					"email": "michael@lab80.co"
+				},
+				{
+					"name": "alexandrebodin",
+					"email": "bodin.alex@gmail.com"
+				},
+				{
+					"name": "hypnosphi",
+					"email": "talpa@yandex.ru"
+				},
+				{
+					"name": "danielduan",
+					"email": "dduan@yahoo.com"
+				},
+				{
+					"name": "igor-dv",
+					"email": "davydkin.igor@gmail.com"
+				},
+				{
+					"name": "pksunkara",
+					"email": "pavan.sss1991@gmail.com"
+				},
+				{
+					"name": "tmeasday",
+					"email": "tom@thesnail.org"
+				},
+				{
+					"name": "gongreg",
+					"email": "gytis.vinclovas@gmail.com"
+				},
+				{
+					"name": "domyen",
+					"email": "dom@hichroma.com"
+				},
+				{
+					"name": "usulpro",
+					"email": "regx@usul.su"
+				},
+				{
+					"name": "kylesuss",
+					"email": "susskyle@gmail.com"
+				},
+				{
+					"name": "ghengeveld",
+					"email": "info@ghengeveld.nl"
+				},
+				{
+					"name": "pago",
+					"email": "patrick.gotthardt@trivago.com"
+				},
+				{
+					"name": "dandean",
+					"email": "me@dandean.com"
+				},
+				{
+					"name": "codebyalex",
+					"email": "wilsonc.alexander@gmail.com"
+				},
+				{
+					"name": "mrmckeb",
+					"email": "mrmckeb.npm@outlook.com"
+				},
+				{
+					"name": "dannyhw",
+					"email": "danny.h.williams@hotmail.com"
+				},
+				{
+					"name": "winkervsbecks",
+					"email": "varunvachhar@gmail.com"
+				},
+				{
+					"name": "rvasikarla",
+					"email": "vasikarla.raj@gmail.com"
+				},
+				{
+					"name": "amalik2",
+					"email": "ahnmalik2@gmail.com"
+				},
+				{
+					"name": "lshadler",
+					"email": "lshadler13@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-docgen-typescript-plugin_1.0.2-canary.f7e28c0.0_1623715953180_0.8374361230112874"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.0.2-canary.a1497ff.0": {
+			"name": "@storybook/react-docgen-typescript-plugin",
+			"version": "1.0.2-canary.a1497ff.0",
+			"description": "A webpack plugin to inject react typescript docgen information.",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/hipstersmoothie/react-docgen-typescript-plugin.git"
+			},
+			"author": {
+				"name": "Andrew Lisowski",
+				"email": "lisowski54@gmail.com"
+			},
+			"main": "dist/index.js",
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/",
+				"access": "public"
+			},
+			"scripts": {
+				"build:example": "npm run build && webpack",
+				"build": "tsc -p tsconfig.build.json",
+				"start": "yarn build --watch",
+				"lint": "eslint src --ext .ts,.js",
+				"test": "npm run test:v4 && npm run test:v5",
+				"pretest:v4": "add-no-save @types/webpack ts-loader@8 webpack@4",
+				"test:v4": "jest",
+				"pretest:v5": "add-no-save webpack@5",
+				"test:v5": "jest",
+				"release": "auto shipit"
+			},
+			"keywords": [
+				"react",
+				"docgen",
+				"typescript",
+				"webpack",
+				"plugin"
+			],
+			"dependencies": {
+				"debug": "^4.1.1",
+				"endent": "^2.0.1",
+				"find-cache-dir": "^3.3.1",
+				"flat-cache": "^3.0.4",
+				"micromatch": "^4.0.2",
+				"react-docgen-typescript": "^2.0.0",
+				"tslib": "^2.0.0"
+			},
+			"devDependencies": {
+				"@types/debug": "^4.1.5",
+				"@types/find-cache-dir": "^3.2.0",
+				"@types/flat-cache": "^2.0.0",
+				"@types/jest": "^26.0.23",
+				"@types/micromatch": "^4.0.1",
+				"@types/node": "^14.0.12",
+				"@types/react": "^17.0.0",
+				"@typescript-eslint/eslint-plugin": "^4.9.0",
+				"@typescript-eslint/parser": "^4.9.0",
+				"auto": "^10.2.3",
+				"auto-config-hipstersmoothie": "^4.0.0",
+				"eslint": "^7.14.0",
+				"eslint-config-airbnb-base": "^14.2.1",
+				"eslint-config-prettier": "6.11.0",
+				"eslint-config-xo": "0.29.1",
+				"eslint-plugin-import": "^2.22.1",
+				"eslint-plugin-jest": "^24.1.3",
+				"eslint-plugin-jsdoc": "25.2.0",
+				"eslint-plugin-jsx-a11y": "^6.4.1",
+				"eslint-plugin-prettier": "3.1.3",
+				"jest": "^26.6.3",
+				"memfs": "^3.2.2",
+				"memory-fs": "^0.5.0",
+				"prettier": "^2.0.5",
+				"react": "^17.0.1",
+				"ts-jest": "^26.5.6",
+				"ts-loader": "^9.1.2",
+				"typescript": "3.8.3",
+				"webpack": "^5.36.2",
+				"webpack-cli": "^4.7.0",
+				"yarn-add-no-save": "^1.0.3"
+			},
+			"peerDependencies": {
+				"typescript": ">= 3.x",
+				"webpack": ">= 4"
+			},
+			"lint-staged": {
+				"*.{js,css,md}": [
+					"prettier --write",
+					"git add"
+				]
+			},
+			"auto": {
+				"extends": "hipstersmoothie"
+			},
+			"readmeFilename": "README.md",
+			"gitHead": "a1497ff77ee8d178a9efb5e02336b0cd7c4bc74b",
+			"bugs": {
+				"url": "https://github.com/hipstersmoothie/react-docgen-typescript-plugin/issues"
+			},
+			"homepage": "https://github.com/hipstersmoothie/react-docgen-typescript-plugin#readme",
+			"_id": "@storybook/react-docgen-typescript-plugin@1.0.2-canary.a1497ff.0",
+			"_nodeVersion": "14.16.1",
+			"_npmVersion": "6.14.12",
+			"dist": {
+				"integrity": "sha512-layxV70cx5oBu0sk2MK9oRTEtWVFB7SCk5WTee5zeJYya7zTai9gt+Uh/PlPFo0bjtk2Ak/8K5g6YRUbrec+Jg==",
+				"shasum": "f797132730b657b9e752822075c92c196bb9d1e5",
+				"tarball": "https://registry.npmjs.org/@storybook/react-docgen-typescript-plugin/-/react-docgen-typescript-plugin-1.0.2-canary.a1497ff.0.tgz",
+				"fileCount": 24,
+				"unpackedSize": 64118,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgyGcTCRA9TVsSAnZWagAAuZwP/icT1vhSSnHKr6FDGk6O\n7nRu94sZAiOfJwOREndzVGIjQnvKoulWJByhK1O9tbQV4Kd1fN5ZqMha0cn6\nniCDZcnFfmYG7C3sXMNucxvO9NJyLzbnIrsu6F5kNMFLL6leSJBu4ZYpAai6\nFEpizFe8SzvtWtdb57NwYnTHzfX1qzwhJXGqTx/3srgE27J91qPcEV/CecJD\n8mXh8CJke9wLH7CT9f8D1VnLKsVzcOQBjjx70yiu8PhbEyTLdDjvRX+nnktA\nZZjog00zrAZ4EP6jN/4x++rNQJ1qHcl1J58F6BIchmiTgRTh10OmOk/0bvrW\nttUYKzj/a8B33SaW4S6F5Ty4h0BTL1BG/q7HC1AbbAR3MVRlfsIoyDqI0ZY3\nnP597b4LrmT39FcVFqt1RmU4NUze5smKkexoMZ7t5p+GMRxtMEt1eLlB9vbT\nvH8m1hu8e+v1cYorAYOpHiGWRLjhJx6L2CzyIDZG7xSaSCTlddDyKlgSpETH\nhHab1FvPyB8EapXjpuRlnlX05LsTdRsPBbDyIkvp6xYg0dEBiABV3fZy3mTT\nfPoiMdAyaDTbYi3J1pPYjz5nd4/8ucIzr44xi63U3DVxILhz0qaFSoYKlx4/\nWY3QJNXMIu19IfNOcAZQGUkr4HE4NsAEe0ELU8un3WBVJHyPz341KHGhk/Nc\nFr38\r\n=td+i\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQD6rhgEKfxwq3xQgrWg+92lmZ2blf6KKOgeF+Ox+fyvQgIgfhKswvXlzH12hCDecEkCP+L1fVpmk7y1FYPxh6cF4wg="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "shilman",
+				"email": "michael@lab80.co"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "dylanpiercey",
+					"email": "pierceydylan@gmail.com"
+				},
+				{
+					"name": "yannbf",
+					"email": "yannbf@gmail.com"
+				},
+				{
+					"name": "phated",
+					"email": "blaine.bublitz@gmail.com"
+				},
+				{
+					"name": "ndelangen",
+					"email": "ndelangen@me.com"
+				},
+				{
+					"name": "shilman",
+					"email": "michael@lab80.co"
+				},
+				{
+					"name": "alexandrebodin",
+					"email": "bodin.alex@gmail.com"
+				},
+				{
+					"name": "hypnosphi",
+					"email": "talpa@yandex.ru"
+				},
+				{
+					"name": "danielduan",
+					"email": "dduan@yahoo.com"
+				},
+				{
+					"name": "igor-dv",
+					"email": "davydkin.igor@gmail.com"
+				},
+				{
+					"name": "pksunkara",
+					"email": "pavan.sss1991@gmail.com"
+				},
+				{
+					"name": "tmeasday",
+					"email": "tom@thesnail.org"
+				},
+				{
+					"name": "gongreg",
+					"email": "gytis.vinclovas@gmail.com"
+				},
+				{
+					"name": "domyen",
+					"email": "dom@hichroma.com"
+				},
+				{
+					"name": "usulpro",
+					"email": "regx@usul.su"
+				},
+				{
+					"name": "kylesuss",
+					"email": "susskyle@gmail.com"
+				},
+				{
+					"name": "ghengeveld",
+					"email": "info@ghengeveld.nl"
+				},
+				{
+					"name": "pago",
+					"email": "patrick.gotthardt@trivago.com"
+				},
+				{
+					"name": "dandean",
+					"email": "me@dandean.com"
+				},
+				{
+					"name": "codebyalex",
+					"email": "wilsonc.alexander@gmail.com"
+				},
+				{
+					"name": "mrmckeb",
+					"email": "mrmckeb.npm@outlook.com"
+				},
+				{
+					"name": "dannyhw",
+					"email": "danny.h.williams@hotmail.com"
+				},
+				{
+					"name": "winkervsbecks",
+					"email": "varunvachhar@gmail.com"
+				},
+				{
+					"name": "rvasikarla",
+					"email": "vasikarla.raj@gmail.com"
+				},
+				{
+					"name": "amalik2",
+					"email": "ahnmalik2@gmail.com"
+				},
+				{
+					"name": "lshadler",
+					"email": "lshadler13@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-docgen-typescript-plugin_1.0.2-canary.a1497ff.0_1623746323111_0.0852838057613925"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.0.2-canary.3c70e01.0": {
+			"name": "@storybook/react-docgen-typescript-plugin",
+			"version": "1.0.2-canary.3c70e01.0",
+			"description": "A webpack plugin to inject react typescript docgen information.",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/hipstersmoothie/react-docgen-typescript-plugin.git"
+			},
+			"author": {
+				"name": "Andrew Lisowski",
+				"email": "lisowski54@gmail.com"
+			},
+			"main": "dist/index.js",
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/",
+				"access": "public"
+			},
+			"scripts": {
+				"build:example": "npm run build && webpack",
+				"build": "tsc -p tsconfig.build.json",
+				"start": "yarn build --watch",
+				"lint": "eslint src --ext .ts,.js",
+				"test": "npm run test:v4 && npm run test:v5",
+				"pretest:v4": "add-no-save @types/webpack ts-loader@8 webpack@4",
+				"test:v4": "jest",
+				"pretest:v5": "add-no-save webpack@5",
+				"test:v5": "jest",
+				"release": "auto shipit"
+			},
+			"keywords": [
+				"react",
+				"docgen",
+				"typescript",
+				"webpack",
+				"plugin"
+			],
+			"dependencies": {
+				"debug": "^4.1.1",
+				"endent": "^2.0.1",
+				"find-cache-dir": "^3.3.1",
+				"flat-cache": "^3.0.4",
+				"micromatch": "^4.0.2",
+				"react-docgen-typescript": "^2.0.0",
+				"tslib": "^2.0.0"
+			},
+			"devDependencies": {
+				"@types/debug": "^4.1.5",
+				"@types/find-cache-dir": "^3.2.0",
+				"@types/flat-cache": "^2.0.0",
+				"@types/jest": "^26.0.23",
+				"@types/micromatch": "^4.0.1",
+				"@types/node": "^14.0.12",
+				"@types/react": "^17.0.0",
+				"@typescript-eslint/eslint-plugin": "^4.9.0",
+				"@typescript-eslint/parser": "^4.9.0",
+				"auto": "^10.2.3",
+				"auto-config-hipstersmoothie": "^4.0.0",
+				"eslint": "^7.14.0",
+				"eslint-config-airbnb-base": "^14.2.1",
+				"eslint-config-prettier": "6.11.0",
+				"eslint-config-xo": "0.29.1",
+				"eslint-plugin-import": "^2.22.1",
+				"eslint-plugin-jest": "^24.1.3",
+				"eslint-plugin-jsdoc": "25.2.0",
+				"eslint-plugin-jsx-a11y": "^6.4.1",
+				"eslint-plugin-prettier": "3.1.3",
+				"jest": "^26.6.3",
+				"memfs": "^3.2.2",
+				"memory-fs": "^0.5.0",
+				"prettier": "^2.0.5",
+				"react": "^17.0.1",
+				"ts-jest": "^26.5.6",
+				"ts-loader": "^9.1.2",
+				"typescript": "3.8.3",
+				"webpack": "^5.36.2",
+				"webpack-cli": "^4.7.0",
+				"yarn-add-no-save": "^1.0.3"
+			},
+			"peerDependencies": {
+				"typescript": ">= 3.x",
+				"webpack": ">= 4"
+			},
+			"lint-staged": {
+				"*.{js,css,md}": [
+					"prettier --write",
+					"git add"
+				]
+			},
+			"auto": {
+				"extends": "hipstersmoothie"
+			},
+			"readmeFilename": "README.md",
+			"gitHead": "3c70e01ee10d7eedd284a39c630a9efab4e6a83f",
+			"bugs": {
+				"url": "https://github.com/hipstersmoothie/react-docgen-typescript-plugin/issues"
+			},
+			"homepage": "https://github.com/hipstersmoothie/react-docgen-typescript-plugin#readme",
+			"_id": "@storybook/react-docgen-typescript-plugin@1.0.2-canary.3c70e01.0",
+			"_nodeVersion": "12.22.1",
+			"_npmVersion": "6.14.12",
+			"dist": {
+				"integrity": "sha512-go1LO+iM6qLGhgqvEoEpw339/kf2YBX86aG2JewWwlHCO0YyyYdlsdZd3KkB5MVtudyK7mtrcNDq0k/EIaB2JA==",
+				"shasum": "de49451523b86640463acc6028985ca11d8a63d1",
+				"tarball": "https://registry.npmjs.org/@storybook/react-docgen-typescript-plugin/-/react-docgen-typescript-plugin-1.0.2-canary.3c70e01.0.tgz",
+				"fileCount": 24,
+				"unpackedSize": 64308,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgzC2jCRA9TVsSAnZWagAAzXIP/13Zrszq742Y6N9tjTUE\ncEQL4xhVhf1ra1Xhc2DQoKH3m7AFcdQLcqVw0zTKWxF2RI0ZdLxm+nDqO2jd\n6rdd+Mp3b4AWZkN7Mr7y81lTeZsxIYaJ4DhYs1Mkunhgg4B+/WyzYL3mRb9a\nej9S0xGN+pRQDciebfHjd4WJrrrPynz8vpIdoCqOpU1jiyZ4CauzjRdSoyhr\ndf/k+01jN5c0XDhTI1BQGhkUYsYklIlOFhgXiwOLlv/qPuihcqyeZoSOwYl8\nl6Z4UtDf/LUIsF+WNntaikXe4J/prAExaXupX3KmOgVSEJv8Zs832kKVi2hw\nVmgBJXt86pofjL29f7FzxnF4iMnXbZtxyrHB77JyH7NNdEFkTLe+bBmsZEAb\n301JY6LGuPLI1CWHquPRg60Qc5cb/5Iq+g8fyfrsNg1sV7s1gl29kblpvJgn\ngrxlati/792nIVWQpJg8EWkdxppscr3xhwBlaF1GYtJoirRXBD1c3+jeq2cO\n6ghpM7cV3SFAPcepWrMay/8pCO/FBNBx9+3E2CCzc83gJFuHN2uuzwNaVLeK\nKOLb3cNUPJEKKaquMVFof5KiU+nfYR/YCtnVwfesWLc8Jd7yEmTQaflxzf56\n3i+BeTvCipDqAzExFEtWjZEH1aM6xiqHmgw2xheVUJBtzVgajXQoqa2jZpSr\nBYdf\r\n=aB1A\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIDKY901Doe6eaK9cHd9Z4m1Qx7/PZLXHOnRVjGcxS04BAiEA/qhvcsMt45fMWOWbkoUaU8DGYF2YRsaB/a4UmdU+dxo="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "shilman",
+				"email": "michael@lab80.co"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "dylanpiercey",
+					"email": "pierceydylan@gmail.com"
+				},
+				{
+					"name": "yannbf",
+					"email": "yannbf@gmail.com"
+				},
+				{
+					"name": "phated",
+					"email": "blaine.bublitz@gmail.com"
+				},
+				{
+					"name": "ndelangen",
+					"email": "ndelangen@me.com"
+				},
+				{
+					"name": "shilman",
+					"email": "michael@lab80.co"
+				},
+				{
+					"name": "alexandrebodin",
+					"email": "bodin.alex@gmail.com"
+				},
+				{
+					"name": "hypnosphi",
+					"email": "talpa@yandex.ru"
+				},
+				{
+					"name": "danielduan",
+					"email": "dduan@yahoo.com"
+				},
+				{
+					"name": "igor-dv",
+					"email": "davydkin.igor@gmail.com"
+				},
+				{
+					"name": "pksunkara",
+					"email": "pavan.sss1991@gmail.com"
+				},
+				{
+					"name": "tmeasday",
+					"email": "tom@thesnail.org"
+				},
+				{
+					"name": "gongreg",
+					"email": "gytis.vinclovas@gmail.com"
+				},
+				{
+					"name": "domyen",
+					"email": "dom@hichroma.com"
+				},
+				{
+					"name": "usulpro",
+					"email": "regx@usul.su"
+				},
+				{
+					"name": "kylesuss",
+					"email": "susskyle@gmail.com"
+				},
+				{
+					"name": "ghengeveld",
+					"email": "info@ghengeveld.nl"
+				},
+				{
+					"name": "pago",
+					"email": "patrick.gotthardt@trivago.com"
+				},
+				{
+					"name": "dandean",
+					"email": "me@dandean.com"
+				},
+				{
+					"name": "codebyalex",
+					"email": "wilsonc.alexander@gmail.com"
+				},
+				{
+					"name": "mrmckeb",
+					"email": "mrmckeb.npm@outlook.com"
+				},
+				{
+					"name": "dannyhw",
+					"email": "danny.h.williams@hotmail.com"
+				},
+				{
+					"name": "winkervsbecks",
+					"email": "varunvachhar@gmail.com"
+				},
+				{
+					"name": "rvasikarla",
+					"email": "vasikarla.raj@gmail.com"
+				},
+				{
+					"name": "amalik2",
+					"email": "ahnmalik2@gmail.com"
+				},
+				{
+					"name": "lshadler",
+					"email": "lshadler13@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-docgen-typescript-plugin_1.0.2-canary.3c70e01.0_1623993763307_0.39374340577124567"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.0.2-canary.424ea79.0": {
+			"name": "@storybook/react-docgen-typescript-plugin",
+			"version": "1.0.2-canary.424ea79.0",
+			"description": "A webpack plugin to inject react typescript docgen information.",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/hipstersmoothie/react-docgen-typescript-plugin.git"
+			},
+			"author": {
+				"name": "Andrew Lisowski",
+				"email": "lisowski54@gmail.com"
+			},
+			"main": "dist/index.js",
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/",
+				"access": "public"
+			},
+			"scripts": {
+				"build:example": "npm run build && webpack",
+				"build": "tsc -p tsconfig.build.json",
+				"start": "yarn build --watch",
+				"lint": "eslint src --ext .ts,.js",
+				"test": "npm run test:v4 && npm run test:v5",
+				"pretest:v4": "add-no-save @types/webpack ts-loader@8 webpack@4",
+				"test:v4": "jest",
+				"pretest:v5": "add-no-save webpack@5",
+				"test:v5": "jest",
+				"release": "auto shipit"
+			},
+			"keywords": [
+				"react",
+				"docgen",
+				"typescript",
+				"webpack",
+				"plugin"
+			],
+			"dependencies": {
+				"debug": "^4.1.1",
+				"endent": "^2.0.1",
+				"find-cache-dir": "^3.3.1",
+				"flat-cache": "^3.0.4",
+				"micromatch": "^4.0.2",
+				"react-docgen-typescript": "^1.22.0",
+				"tslib": "^2.0.0"
+			},
+			"devDependencies": {
+				"@types/debug": "^4.1.5",
+				"@types/find-cache-dir": "^3.2.0",
+				"@types/flat-cache": "^2.0.0",
+				"@types/jest": "^26.0.23",
+				"@types/micromatch": "^4.0.1",
+				"@types/node": "^14.0.12",
+				"@types/react": "^17.0.0",
+				"@typescript-eslint/eslint-plugin": "^4.9.0",
+				"@typescript-eslint/parser": "^4.9.0",
+				"auto": "^10.2.3",
+				"auto-config-hipstersmoothie": "^4.0.0",
+				"eslint": "^7.14.0",
+				"eslint-config-airbnb-base": "^14.2.1",
+				"eslint-config-prettier": "6.11.0",
+				"eslint-config-xo": "0.29.1",
+				"eslint-plugin-import": "^2.22.1",
+				"eslint-plugin-jest": "^24.1.3",
+				"eslint-plugin-jsdoc": "25.2.0",
+				"eslint-plugin-jsx-a11y": "^6.4.1",
+				"eslint-plugin-prettier": "3.1.3",
+				"jest": "^26.6.3",
+				"memfs": "^3.2.2",
+				"memory-fs": "^0.5.0",
+				"prettier": "^2.0.5",
+				"react": "^17.0.1",
+				"ts-jest": "^26.5.6",
+				"ts-loader": "^9.1.2",
+				"typescript": "3.8.3",
+				"webpack": "^5.36.2",
+				"webpack-cli": "^4.7.0",
+				"yarn-add-no-save": "^1.0.3"
+			},
+			"peerDependencies": {
+				"typescript": ">= 3.x",
+				"webpack": ">= 4"
+			},
+			"lint-staged": {
+				"*.{js,css,md}": [
+					"prettier --write",
+					"git add"
+				]
+			},
+			"auto": {
+				"extends": "hipstersmoothie"
+			},
+			"readmeFilename": "README.md",
+			"gitHead": "424ea79eb60bbb2849649633704e47ce681a4949",
+			"bugs": {
+				"url": "https://github.com/hipstersmoothie/react-docgen-typescript-plugin/issues"
+			},
+			"homepage": "https://github.com/hipstersmoothie/react-docgen-typescript-plugin#readme",
+			"_id": "@storybook/react-docgen-typescript-plugin@1.0.2-canary.424ea79.0",
+			"_nodeVersion": "15.14.0",
+			"_npmVersion": "7.7.6",
+			"dist": {
+				"integrity": "sha512-bgyFQSeDYP1KwdBn5Qekmmp3AUFxg0aSN+gjCqyYkiNH4HsXK0yeD9UAgMjV2sl5QsOCmurzjs0kE2o/68icpg==",
+				"shasum": "a5b0fcd947f3a0e322ae410d8120c3fbffa2cd53",
+				"tarball": "https://registry.npmjs.org/@storybook/react-docgen-typescript-plugin/-/react-docgen-typescript-plugin-1.0.2-canary.424ea79.0.tgz",
+				"fileCount": 24,
+				"unpackedSize": 65668,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJg3CGgCRA9TVsSAnZWagAA96UP/iEhVzppnZ4n3E+zp6WB\nqJyaNQOO3cm6C2stEOBE2NFdKF5c4iaSlCEdlb7Po6zrGQbTYcZNpvei79s9\n2HQgveCdExKrJupcosltqZudt5WEDFevfoIV04oH/6fL5QbZrpBS/f35jDKb\n4jD/+nKnw/OtktKTdPUTzdWBo5jqYDZk3IlX9h8vvCvij5leIZUU1sM3Gx03\nOY0DB1F4QLT06tK6eKPix/emJX31xVB6k3hDuL0I525BcDFZw7Nok10hu+vg\nUAb8r+wo4evaxWDq33Lbenmjsx6tFyElMhTGuA6qbHdTV7oAYSuMNyoofyW4\nUE8o3SmEiqc0MnpCjJWkSCvDyNKiUNU/QYYTKic2RtGkpwbtz9AMr8xdy5/g\nly/KKAdBRGkQZs30GmDsKBuPFyseA1iKmhnmxIOfeTFI4U8ul7QKLAMc+mZc\n8M1mGnK/4wiAfoax+IEeV3y245LHEpJb82T6grXa+LLeHkv/4cch/f3EC6jy\nN2AnqvWL+s/d79/AbaM/DTSXi5XiVBwbUBfazixm9GXJXAY3VZqIzwApSEZe\n1Hq5OimYVC6Bs31HdNcKcJ1GeGe2TmdzdaklW9+RGeq5E9rZS6KfUoccx+u5\ndc8Yphas2BH7XvWkcftN0VMNjK+4zCfWhVB9RsQ18bQruhBnT2mHuRDFAy/4\njV0K\r\n=fMsY\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIAkVWDwB00bT87lunkkjjbapUir4ERPJBsdkL6r4pxYhAiEAySXRUi+kBoGdnAcD5oX+T2e0um6GKXY6MHLWNiOC+x4="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "shilman",
+				"email": "michael@lab80.co"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "darleendenno",
+					"email": "darleendenno@gmail.com"
+				},
+				{
+					"name": "monkeyworks",
+					"email": "igor.szyporyn@gmail.com"
+				},
+				{
+					"name": "dylanpiercey",
+					"email": "pierceydylan@gmail.com"
+				},
+				{
+					"name": "yannbf",
+					"email": "yannbf@gmail.com"
+				},
+				{
+					"name": "phated",
+					"email": "blaine.bublitz@gmail.com"
+				},
+				{
+					"name": "ndelangen",
+					"email": "ndelangen@me.com"
+				},
+				{
+					"name": "shilman",
+					"email": "michael@lab80.co"
+				},
+				{
+					"name": "alexandrebodin",
+					"email": "bodin.alex@gmail.com"
+				},
+				{
+					"name": "hypnosphi",
+					"email": "talpa@yandex.ru"
+				},
+				{
+					"name": "danielduan",
+					"email": "dduan@yahoo.com"
+				},
+				{
+					"name": "igor-dv",
+					"email": "davydkin.igor@gmail.com"
+				},
+				{
+					"name": "pksunkara",
+					"email": "pavan.sss1991@gmail.com"
+				},
+				{
+					"name": "tmeasday",
+					"email": "tom@thesnail.org"
+				},
+				{
+					"name": "gongreg",
+					"email": "gytis.vinclovas@gmail.com"
+				},
+				{
+					"name": "domyen",
+					"email": "dom@hichroma.com"
+				},
+				{
+					"name": "usulpro",
+					"email": "regx@usul.su"
+				},
+				{
+					"name": "kylesuss",
+					"email": "susskyle@gmail.com"
+				},
+				{
+					"name": "ghengeveld",
+					"email": "info@ghengeveld.nl"
+				},
+				{
+					"name": "pago",
+					"email": "patrick.gotthardt@trivago.com"
+				},
+				{
+					"name": "dandean",
+					"email": "me@dandean.com"
+				},
+				{
+					"name": "codebyalex",
+					"email": "wilsonc.alexander@gmail.com"
+				},
+				{
+					"name": "mrmckeb",
+					"email": "mrmckeb.npm@outlook.com"
+				},
+				{
+					"name": "dannyhw",
+					"email": "danny.h.williams@hotmail.com"
+				},
+				{
+					"name": "winkervsbecks",
+					"email": "varunvachhar@gmail.com"
+				},
+				{
+					"name": "rvasikarla",
+					"email": "vasikarla.raj@gmail.com"
+				},
+				{
+					"name": "amalik2",
+					"email": "ahnmalik2@gmail.com"
+				},
+				{
+					"name": "lshadler",
+					"email": "lshadler13@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-docgen-typescript-plugin_1.0.2-canary.424ea79.0_1625039264142_0.1935151996934097"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.0.2-canary.253f8c1.0": {
+			"name": "@storybook/react-docgen-typescript-plugin",
+			"version": "1.0.2-canary.253f8c1.0",
+			"description": "A webpack plugin to inject react typescript docgen information.",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/hipstersmoothie/react-docgen-typescript-plugin.git"
+			},
+			"author": {
+				"name": "Andrew Lisowski",
+				"email": "lisowski54@gmail.com"
+			},
+			"main": "dist/index.js",
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/",
+				"access": "public"
+			},
+			"scripts": {
+				"build:example": "npm run build && webpack",
+				"build": "tsc -p tsconfig.build.json",
+				"start": "yarn build --watch",
+				"lint": "eslint src --ext .ts,.js",
+				"test": "npm run test:v4 && npm run test:v5",
+				"pretest:v4": "add-no-save @types/webpack ts-loader@8 webpack@4",
+				"test:v4": "jest",
+				"pretest:v5": "add-no-save webpack@5",
+				"test:v5": "jest",
+				"release": "auto shipit"
+			},
+			"keywords": [
+				"react",
+				"docgen",
+				"typescript",
+				"webpack",
+				"plugin"
+			],
+			"dependencies": {
+				"debug": "^4.1.1",
+				"endent": "^2.0.1",
+				"find-cache-dir": "^3.3.1",
+				"flat-cache": "^3.0.4",
+				"micromatch": "^4.0.2",
+				"react-docgen-typescript": "^2.0.0",
+				"tslib": "^2.0.0"
+			},
+			"devDependencies": {
+				"@types/debug": "^4.1.5",
+				"@types/find-cache-dir": "^3.2.0",
+				"@types/flat-cache": "^2.0.0",
+				"@types/jest": "^26.0.23",
+				"@types/micromatch": "^4.0.1",
+				"@types/node": "^14.0.12",
+				"@types/react": "^17.0.0",
+				"@typescript-eslint/eslint-plugin": "^4.9.0",
+				"@typescript-eslint/parser": "^4.9.0",
+				"auto": "^10.2.3",
+				"auto-config-hipstersmoothie": "^4.0.0",
+				"eslint": "^7.14.0",
+				"eslint-config-airbnb-base": "^14.2.1",
+				"eslint-config-prettier": "6.11.0",
+				"eslint-config-xo": "0.29.1",
+				"eslint-plugin-import": "^2.22.1",
+				"eslint-plugin-jest": "^24.1.3",
+				"eslint-plugin-jsdoc": "25.2.0",
+				"eslint-plugin-jsx-a11y": "^6.4.1",
+				"eslint-plugin-prettier": "3.1.3",
+				"jest": "^26.6.3",
+				"memfs": "^3.2.2",
+				"memory-fs": "^0.5.0",
+				"prettier": "^2.0.5",
+				"react": "^17.0.1",
+				"ts-jest": "^26.5.6",
+				"ts-loader": "^9.1.2",
+				"typescript": "3.8.3",
+				"webpack": "^5.36.2",
+				"webpack-cli": "^4.7.0",
+				"yarn-add-no-save": "^1.0.3"
+			},
+			"peerDependencies": {
+				"typescript": ">= 3.x",
+				"webpack": ">= 4"
+			},
+			"lint-staged": {
+				"*.{js,css,md}": [
+					"prettier --write",
+					"git add"
+				]
+			},
+			"auto": {
+				"extends": "hipstersmoothie"
+			},
+			"readmeFilename": "README.md",
+			"gitHead": "253f8c149a1b44d4276d762bcbf71359679bf509",
+			"bugs": {
+				"url": "https://github.com/hipstersmoothie/react-docgen-typescript-plugin/issues"
+			},
+			"homepage": "https://github.com/hipstersmoothie/react-docgen-typescript-plugin#readme",
+			"_id": "@storybook/react-docgen-typescript-plugin@1.0.2-canary.253f8c1.0",
+			"_nodeVersion": "15.14.0",
+			"_npmVersion": "7.7.6",
+			"dist": {
+				"integrity": "sha512-mmoRG/rNzAiTbh+vGP8d57dfcR2aP+5/Ll03KKFyfy5FqWFm/Gh7u27ikx1I3LmVMI8n6jh5SdWMkMKon7/tDw==",
+				"shasum": "f2da40e6aae4aa586c2fb284a4a1744602c3c7fa",
+				"tarball": "https://registry.npmjs.org/@storybook/react-docgen-typescript-plugin/-/react-docgen-typescript-plugin-1.0.2-canary.253f8c1.0.tgz",
+				"fileCount": 24,
+				"unpackedSize": 66502,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJg3DLTCRA9TVsSAnZWagAAdQcP/RsJn5RtI/SypG9a80GA\npYMpKce7hHeohHUJDOwgbFlG3rRpChNMmfqxxdi2QBBDIsjfvUMz2MfpUpiq\nNIyZr6Uvr2wivCnNKfYsfbHhYkcSnipip9hbc4OUkinacadJO7chJ37KDkNy\nRFEjkLCWo4MXsrt3z/97X8q2thHPALYH/KaQAHULiK/HDncGZ2+yMXPBVtfP\nDAJSIq8LSsywLZzH+LJCDm5zIzwvaS71Aw0NYdTbMuYyTwSMTnu2STKKdQem\nCpGpJ+j30dv8fnfDvRTrw9xpuv7D4G6dX8YlMjKTT0VEe7erUXBu0fUM+C0R\no0XgM2XSmsczLBj3Wt87qE3M3ZHFMspZECmxNNepcJQcN96NBvoFbBdOdj81\nt/Hl7xJ2IFgtKNVRZdIDvkVXgO9y5/ysfk2CXxkQwOIoI8CSys2O95vA0ELp\nUGDgZMHdTrIOs99r+nspvPdhWpqEtVtHNXfj4Q1tzftKNWfxK/Q7PAvEC5x3\nDU4zdWxNBQp7gAsymrjPFtgQq00y5gbxyeuM3VYw7NkpGnW5xQ6L31imOdZ3\niC+CArlGfTs0eWZloEm7Wc0GFT4IBbS5ghuAlzcTSD0hxwFc2odAFG3Xa6MR\nIoxNNcFRZXQhCJ/5M75vA1B1JgBHCCI8aOS3Pfm0QCvgOTwQjO+PX6EjqOzM\n8Mvo\r\n=ilaw\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCj/dW8nMulvkwAI1dY+Awt0gs4Zk31qNMe1YN1R71r7QIhAMaVH4yAARnfcu2JyFFt2PRzwJ1e9Q9p1G4aBBDfPqON"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "shilman",
+				"email": "michael@lab80.co"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "darleendenno",
+					"email": "darleendenno@gmail.com"
+				},
+				{
+					"name": "monkeyworks",
+					"email": "igor.szyporyn@gmail.com"
+				},
+				{
+					"name": "dylanpiercey",
+					"email": "pierceydylan@gmail.com"
+				},
+				{
+					"name": "yannbf",
+					"email": "yannbf@gmail.com"
+				},
+				{
+					"name": "phated",
+					"email": "blaine.bublitz@gmail.com"
+				},
+				{
+					"name": "ndelangen",
+					"email": "ndelangen@me.com"
+				},
+				{
+					"name": "shilman",
+					"email": "michael@lab80.co"
+				},
+				{
+					"name": "alexandrebodin",
+					"email": "bodin.alex@gmail.com"
+				},
+				{
+					"name": "hypnosphi",
+					"email": "talpa@yandex.ru"
+				},
+				{
+					"name": "danielduan",
+					"email": "dduan@yahoo.com"
+				},
+				{
+					"name": "igor-dv",
+					"email": "davydkin.igor@gmail.com"
+				},
+				{
+					"name": "pksunkara",
+					"email": "pavan.sss1991@gmail.com"
+				},
+				{
+					"name": "tmeasday",
+					"email": "tom@thesnail.org"
+				},
+				{
+					"name": "gongreg",
+					"email": "gytis.vinclovas@gmail.com"
+				},
+				{
+					"name": "domyen",
+					"email": "dom@hichroma.com"
+				},
+				{
+					"name": "usulpro",
+					"email": "regx@usul.su"
+				},
+				{
+					"name": "kylesuss",
+					"email": "susskyle@gmail.com"
+				},
+				{
+					"name": "ghengeveld",
+					"email": "info@ghengeveld.nl"
+				},
+				{
+					"name": "pago",
+					"email": "patrick.gotthardt@trivago.com"
+				},
+				{
+					"name": "dandean",
+					"email": "me@dandean.com"
+				},
+				{
+					"name": "codebyalex",
+					"email": "wilsonc.alexander@gmail.com"
+				},
+				{
+					"name": "mrmckeb",
+					"email": "mrmckeb.npm@outlook.com"
+				},
+				{
+					"name": "dannyhw",
+					"email": "danny.h.williams@hotmail.com"
+				},
+				{
+					"name": "winkervsbecks",
+					"email": "varunvachhar@gmail.com"
+				},
+				{
+					"name": "rvasikarla",
+					"email": "vasikarla.raj@gmail.com"
+				},
+				{
+					"name": "amalik2",
+					"email": "ahnmalik2@gmail.com"
+				},
+				{
+					"name": "lshadler",
+					"email": "lshadler13@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-docgen-typescript-plugin_1.0.2-canary.253f8c1.0_1625043666945_0.04706971150502648"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.0.1": {
+			"name": "@storybook/react-docgen-typescript-plugin",
+			"version": "1.0.1",
+			"description": "A webpack plugin to inject react typescript docgen information.",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/hipstersmoothie/react-docgen-typescript-plugin.git"
+			},
+			"author": {
+				"name": "Andrew Lisowski",
+				"email": "lisowski54@gmail.com"
+			},
+			"main": "dist/index.js",
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/",
+				"access": "public"
+			},
+			"scripts": {
+				"build:example": "npm run build && webpack",
+				"build": "tsc -p tsconfig.build.json",
+				"start": "yarn build --watch",
+				"lint": "eslint src --ext .ts,.js",
+				"test": "npm run test:v4 && npm run test:v5",
+				"pretest:v4": "add-no-save @types/webpack ts-loader@8 webpack@4",
+				"test:v4": "jest",
+				"pretest:v5": "add-no-save webpack@5",
+				"test:v5": "jest",
+				"release": "auto shipit"
+			},
+			"keywords": [
+				"react",
+				"docgen",
+				"typescript",
+				"webpack",
+				"plugin"
+			],
+			"dependencies": {
+				"debug": "^4.1.1",
+				"endent": "^2.0.1",
+				"find-cache-dir": "^3.3.1",
+				"flat-cache": "^3.0.4",
+				"micromatch": "^4.0.2",
+				"react-docgen-typescript": "^2.0.0",
+				"tslib": "^2.0.0"
+			},
+			"devDependencies": {
+				"@types/debug": "^4.1.5",
+				"@types/find-cache-dir": "^3.2.0",
+				"@types/flat-cache": "^2.0.0",
+				"@types/jest": "^26.0.23",
+				"@types/micromatch": "^4.0.1",
+				"@types/node": "^14.0.12",
+				"@types/react": "^17.0.0",
+				"@typescript-eslint/eslint-plugin": "^4.9.0",
+				"@typescript-eslint/parser": "^4.9.0",
+				"auto": "^10.2.3",
+				"auto-config-hipstersmoothie": "^4.0.0",
+				"eslint": "^7.14.0",
+				"eslint-config-airbnb-base": "^14.2.1",
+				"eslint-config-prettier": "6.11.0",
+				"eslint-config-xo": "0.29.1",
+				"eslint-plugin-import": "^2.22.1",
+				"eslint-plugin-jest": "^24.1.3",
+				"eslint-plugin-jsdoc": "25.2.0",
+				"eslint-plugin-jsx-a11y": "^6.4.1",
+				"eslint-plugin-prettier": "3.1.3",
+				"jest": "^26.6.3",
+				"memfs": "^3.2.2",
+				"memory-fs": "^0.5.0",
+				"prettier": "^2.0.5",
+				"react": "^17.0.1",
+				"ts-jest": "^26.5.6",
+				"ts-loader": "^9.1.2",
+				"typescript": "3.8.3",
+				"webpack": "^5.36.2",
+				"webpack-cli": "^4.7.0",
+				"yarn-add-no-save": "^1.0.3"
+			},
+			"peerDependencies": {
+				"typescript": ">= 3.x",
+				"webpack": ">= 4"
+			},
+			"lint-staged": {
+				"*.{js,css,md}": [
+					"prettier --write",
+					"git add"
+				]
+			},
+			"auto": {
+				"extends": "hipstersmoothie"
+			},
+			"licenseText": "MIT License\n\nCopyright (c) Andrew Lisowski <lisowski54@gmail.com> \n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+			"_id": "@storybook/react-docgen-typescript-plugin@1.0.1",
+			"dist": {
+				"shasum": "d4c94b1863036128e85e625c4ab888169be89f27",
+				"integrity": "sha512-dqbHa+5gaxaklFCuV1WTvljVPTo3QIJgpW4Ln+QeME7osPZUnUhjN2/djvo+sxrWUrTTuqX5jkn291aDngu9Tw==",
+				"tarball": "https://registry.npmjs.org/@storybook/react-docgen-typescript-plugin/-/react-docgen-typescript-plugin-1.0.1.tgz",
+				"fileCount": 26,
+				"unpackedSize": 67416,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJhA8P+CRA9TVsSAnZWagAA8/EP/06/1zWwCeu/1/F/rPuU\nOqzvgSuvaZP+tVhr6puCPxwHWYti4qlexQx+sbgwZ0AAAEChxmh+oC314T6r\nLaOF0JJXpiMs11Waxqlv9bnFfuT192aJ74Od7U7C3IXcGxbHnVes2yQsPtMt\nhdC8g7vQZX8RCg6HtY05pOQ7zZ4lVBk1wahufxKT8Qr9CBp9e2GYgFbfJhUE\nlPTQKXLaKLoYr6kUVJfU1r1qqBsZu7+Y5odCfsLYlNVBBq+3kuTv+Q3aA/At\nwuRG4Rz91dEg3rcvZ9iuuE4qhItE2Qpk1XG6N9gyGZcWNySNoPpbDJ3QpKQs\nAktuWbL9oVbtvFmQ7F4K36RGZIkhkvJsu5l/fS6loRONzOEiKyVf68UVoc4L\npKGEqApJB4c2QzfavOFW5f0Ooq3yqC3g2l6hjSK/ehKrmpYDC1ZhEQ4y1c3C\n/lhCZy6Y2P/H7Hpmh+aHBmvOuh7aECmbw7BYg8IRcTZxW23DOcmiUINclUx+\n0rCEkxPE3inVN7gchIvFrEir7r/3kjRDr4I1fvpON9VIUiez9xLTJrLOl1QV\nn31qAqMm+c7lW+bXTKcmOma20SSabdwhNSM1h0B/HQG/UFm4cGZKNhJAdR38\nSCm2DUaUJbe5tMPRgnT1DX1qB3+flz7mELSpTZ650OWn/+NkpgDiNbNLIwO2\nAXkO\r\n=7qO8\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIElCsvfp41b5WkynsFunvhrrTqyGsJ2qy4bgLMsZg8fIAiA8aAhZJ3MqvqD05NBsbG7qFz5dqFZabDfp9v3mPe85Ag=="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "shilman",
+				"email": "michael@lab80.co"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "ndelangen",
+					"email": "ndelangen@me.com"
+				},
+				{
+					"name": "shilman",
+					"email": "michael@lab80.co"
+				},
+				{
+					"name": "alexandrebodin",
+					"email": "bodin.alex@gmail.com"
+				},
+				{
+					"name": "hypnosphi",
+					"email": "talpa@yandex.ru"
+				},
+				{
+					"name": "danielduan",
+					"email": "dduan@yahoo.com"
+				},
+				{
+					"name": "igor-dv",
+					"email": "davydkin.igor@gmail.com"
+				},
+				{
+					"name": "pksunkara",
+					"email": "pavan.sss1991@gmail.com"
+				},
+				{
+					"name": "tmeasday",
+					"email": "tom@thesnail.org"
+				},
+				{
+					"name": "gongreg",
+					"email": "gytis.vinclovas@gmail.com"
+				},
+				{
+					"name": "domyen",
+					"email": "dom@hichroma.com"
+				},
+				{
+					"name": "usulpro",
+					"email": "regx@usul.su"
+				},
+				{
+					"name": "kylesuss",
+					"email": "susskyle@gmail.com"
+				},
+				{
+					"name": "ghengeveld",
+					"email": "info@ghengeveld.nl"
+				},
+				{
+					"name": "pago",
+					"email": "patrick.gotthardt@trivago.com"
+				},
+				{
+					"name": "dandean",
+					"email": "me@dandean.com"
+				},
+				{
+					"name": "codebyalex",
+					"email": "wilsonc.alexander@gmail.com"
+				},
+				{
+					"name": "mrmckeb",
+					"email": "mrmckeb.npm@outlook.com"
+				},
+				{
+					"name": "dannyhw",
+					"email": "danny.h.williams@hotmail.com"
+				},
+				{
+					"name": "winkervsbecks",
+					"email": "varunvachhar@gmail.com"
+				},
+				{
+					"name": "rvasikarla",
+					"email": "vasikarla.raj@gmail.com"
+				},
+				{
+					"name": "amalik2",
+					"email": "ahnmalik2@gmail.com"
+				},
+				{
+					"name": "lshadler",
+					"email": "lshadler13@gmail.com"
+				},
+				{
+					"name": "phated",
+					"email": "blaine.bublitz@gmail.com"
+				},
+				{
+					"name": "yannbf",
+					"email": "yannbf@gmail.com"
+				},
+				{
+					"name": "dylanpiercey",
+					"email": "pierceydylan@gmail.com"
+				},
+				{
+					"name": "monkeyworks",
+					"email": "igor.szyporyn@gmail.com"
+				},
+				{
+					"name": "darleendenno",
+					"email": "darleendenno@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-docgen-typescript-plugin_1.0.1_1627636733939_0.48099176225563034"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.0.2-canary.187a82f.0": {
+			"name": "@storybook/react-docgen-typescript-plugin",
+			"version": "1.0.2-canary.187a82f.0",
+			"description": "A webpack plugin to inject react typescript docgen information.",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/hipstersmoothie/react-docgen-typescript-plugin.git"
+			},
+			"author": {
+				"name": "Andrew Lisowski",
+				"email": "lisowski54@gmail.com"
+			},
+			"main": "dist/index.js",
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/",
+				"access": "public"
+			},
+			"scripts": {
+				"build:example": "npm run build && webpack",
+				"build": "tsc -p tsconfig.build.json",
+				"start": "yarn build --watch",
+				"lint": "eslint src --ext .ts,.js",
+				"test": "npm run test:v4 && npm run test:v5",
+				"pretest:v4": "add-no-save @types/webpack ts-loader@8 webpack@4",
+				"test:v4": "jest",
+				"pretest:v5": "add-no-save webpack@5",
+				"test:v5": "jest",
+				"release": "auto shipit"
+			},
+			"keywords": [
+				"react",
+				"docgen",
+				"typescript",
+				"webpack",
+				"plugin"
+			],
+			"dependencies": {
+				"debug": "^4.1.1",
+				"endent": "^2.0.1",
+				"find-cache-dir": "^3.3.1",
+				"flat-cache": "^3.0.4",
+				"micromatch": "^4.0.2",
+				"react-docgen-typescript": "^2.0.0",
+				"tslib": "^2.0.0"
+			},
+			"devDependencies": {
+				"@types/debug": "^4.1.5",
+				"@types/find-cache-dir": "^3.2.0",
+				"@types/flat-cache": "^2.0.0",
+				"@types/jest": "^26.0.23",
+				"@types/micromatch": "^4.0.1",
+				"@types/node": "^14.0.12",
+				"@types/react": "^17.0.0",
+				"@typescript-eslint/eslint-plugin": "^4.9.0",
+				"@typescript-eslint/parser": "^4.9.0",
+				"auto": "^10.2.3",
+				"auto-config-hipstersmoothie": "^4.0.0",
+				"eslint": "^7.14.0",
+				"eslint-config-airbnb-base": "^14.2.1",
+				"eslint-config-prettier": "6.11.0",
+				"eslint-config-xo": "0.29.1",
+				"eslint-plugin-import": "^2.22.1",
+				"eslint-plugin-jest": "^24.1.3",
+				"eslint-plugin-jsdoc": "25.2.0",
+				"eslint-plugin-jsx-a11y": "^6.4.1",
+				"eslint-plugin-prettier": "3.1.3",
+				"jest": "^26.6.3",
+				"memfs": "^3.2.2",
+				"memory-fs": "^0.5.0",
+				"prettier": "^2.0.5",
+				"react": "^17.0.1",
+				"ts-jest": "^26.5.6",
+				"ts-loader": "^9.1.2",
+				"typescript": "3.8.3",
+				"webpack": "^5.36.2",
+				"webpack-cli": "^4.7.0",
+				"yarn-add-no-save": "^1.0.3"
+			},
+			"peerDependencies": {
+				"typescript": ">= 3.x",
+				"webpack": ">= 4"
+			},
+			"lint-staged": {
+				"*.{js,css,md}": [
+					"prettier --write",
+					"git add"
+				]
+			},
+			"auto": {
+				"extends": "hipstersmoothie"
+			},
+			"readmeFilename": "README.md",
+			"gitHead": "187a82f54b1fbb8989e57c925ade34d828a7285c",
+			"bugs": {
+				"url": "https://github.com/hipstersmoothie/react-docgen-typescript-plugin/issues"
+			},
+			"homepage": "https://github.com/hipstersmoothie/react-docgen-typescript-plugin#readme",
+			"_id": "@storybook/react-docgen-typescript-plugin@1.0.2-canary.187a82f.0",
+			"_nodeVersion": "14.16.1",
+			"_npmVersion": "6.14.12",
+			"dist": {
+				"integrity": "sha512-Yxiw8de2kw3lNsKU++WK1GD1gavJQoKmOh4L/7N3DG7z/8YEFj/vTNeFZ5NiLdf5YTQP4oEI24gawbIU1BjeWQ==",
+				"shasum": "e53f254959f8f0468e0cfdd539433ec0d957c13b",
+				"tarball": "https://registry.npmjs.org/@storybook/react-docgen-typescript-plugin/-/react-docgen-typescript-plugin-1.0.2-canary.187a82f.0.tgz",
+				"fileCount": 24,
+				"unpackedSize": 67433,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJhA8QYCRA9TVsSAnZWagAAeIIQAJjGpWYxbVniXJ2JQXQb\nZXtqHkbQTulfMheq+8xKNNuyMdz8PDHh3DcINQAH8/oY+Tz35d5yiosHRYxB\n8iBPSzliUCXVk38Xb4hbBfT5NLOnv3ngr9PN8MSR2aGjxT0/dOD1I+nKA4sJ\njLQ2bzVgpdAzY3xrJICAuszkIf1IqNXPA2dx2T9yRLPE0s8fUSp2PQVJ7hXX\n1761Wzwct62A+opUWgmOqYQATuHvpBGEIAbn26C+Xd4RLP9yOqhPtlKaUuN8\n312FiqLHq3hrKuMz6AVt9nj16l/OPcEYTtzhy7sTJpc8tYcUQ3oeuwqCEEF0\nm55SRAT3cyZNoPMdNRpmJmLvZyUsSqc2+eOLTnhOKUBADt04GYLCg0046POB\nrjKvcTxd4OidFu/IWzwQHLNAS+qmR98bcx4sO8bd8LPB2zvuTKtO7R0oqTPu\nB3vjJnw9qz+bgxZWB+WtqCZ59ZObkagwInDSN0XHaZTMoZbsPyw/X3Wcg/oB\nKoeWop+z9ZLDkSC8/OKMERWHicoSg3Z03IrwLpsSzzvPQKOT5O2tzXL5ZcWe\nvSub4Jo8cJpGEYbz/v7NAQZeQfb8WVJ3PtAAVNMs51OVhzxRHqRrlE9eXFmy\n7HxVNbA7x/DNJrLeJUkCY7HesLa8NcuNU0DE1kdSFe9Mf/V782RnJEctlPa1\n/v0L\r\n=9ggA\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIHGBJlxQChrBo/G7jpRtXCNTNediARDgRqhmtE2jHTToAiBU2g7xf5es+tkxsEFOd2P1eqHULVDwavoGmeqmJd9lgQ=="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "shilman",
+				"email": "michael@lab80.co"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "ndelangen",
+					"email": "ndelangen@me.com"
+				},
+				{
+					"name": "shilman",
+					"email": "michael@lab80.co"
+				},
+				{
+					"name": "alexandrebodin",
+					"email": "bodin.alex@gmail.com"
+				},
+				{
+					"name": "hypnosphi",
+					"email": "talpa@yandex.ru"
+				},
+				{
+					"name": "danielduan",
+					"email": "dduan@yahoo.com"
+				},
+				{
+					"name": "igor-dv",
+					"email": "davydkin.igor@gmail.com"
+				},
+				{
+					"name": "pksunkara",
+					"email": "pavan.sss1991@gmail.com"
+				},
+				{
+					"name": "tmeasday",
+					"email": "tom@thesnail.org"
+				},
+				{
+					"name": "gongreg",
+					"email": "gytis.vinclovas@gmail.com"
+				},
+				{
+					"name": "domyen",
+					"email": "dom@hichroma.com"
+				},
+				{
+					"name": "usulpro",
+					"email": "regx@usul.su"
+				},
+				{
+					"name": "kylesuss",
+					"email": "susskyle@gmail.com"
+				},
+				{
+					"name": "ghengeveld",
+					"email": "info@ghengeveld.nl"
+				},
+				{
+					"name": "pago",
+					"email": "patrick.gotthardt@trivago.com"
+				},
+				{
+					"name": "dandean",
+					"email": "me@dandean.com"
+				},
+				{
+					"name": "codebyalex",
+					"email": "wilsonc.alexander@gmail.com"
+				},
+				{
+					"name": "mrmckeb",
+					"email": "mrmckeb.npm@outlook.com"
+				},
+				{
+					"name": "dannyhw",
+					"email": "danny.h.williams@hotmail.com"
+				},
+				{
+					"name": "winkervsbecks",
+					"email": "varunvachhar@gmail.com"
+				},
+				{
+					"name": "rvasikarla",
+					"email": "vasikarla.raj@gmail.com"
+				},
+				{
+					"name": "amalik2",
+					"email": "ahnmalik2@gmail.com"
+				},
+				{
+					"name": "lshadler",
+					"email": "lshadler13@gmail.com"
+				},
+				{
+					"name": "phated",
+					"email": "blaine.bublitz@gmail.com"
+				},
+				{
+					"name": "yannbf",
+					"email": "yannbf@gmail.com"
+				},
+				{
+					"name": "dylanpiercey",
+					"email": "pierceydylan@gmail.com"
+				},
+				{
+					"name": "monkeyworks",
+					"email": "igor.szyporyn@gmail.com"
+				},
+				{
+					"name": "darleendenno",
+					"email": "darleendenno@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-docgen-typescript-plugin_1.0.2-canary.187a82f.0_1627636760111_0.9202581658161881"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.0.2-canary.6.9d540b91e815f8fc2f8829189deb00553559ff63.0": {
+			"name": "@storybook/react-docgen-typescript-plugin",
+			"version": "1.0.2-canary.6.9d540b91e815f8fc2f8829189deb00553559ff63.0",
+			"description": "A webpack plugin to inject react typescript docgen information.",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/storybookjs/react-docgen-typescript-plugin.git"
+			},
+			"author": {
+				"name": "Andrew Lisowski",
+				"email": "lisowski54@gmail.com"
+			},
+			"main": "dist/index.js",
+			"publishConfig": {
+				"registry": "https://registry.npmjs.org/",
+				"access": "public"
+			},
+			"scripts": {
+				"build:example": "npm run build && webpack",
+				"build": "tsc -p tsconfig.build.json",
+				"start": "yarn build --watch",
+				"lint": "eslint src --ext .ts,.js",
+				"test": "npm run test:v4 && npm run test:v5",
+				"pretest:v4": "add-no-save @types/webpack ts-loader@8 webpack@4",
+				"test:v4": "jest",
+				"pretest:v5": "add-no-save webpack@5",
+				"test:v5": "jest",
+				"release": "auto shipit"
+			},
+			"keywords": [
+				"react",
+				"docgen",
+				"typescript",
+				"webpack",
+				"plugin"
+			],
+			"dependencies": {
+				"debug": "^4.1.1",
+				"endent": "^2.0.1",
+				"find-cache-dir": "^3.3.1",
+				"flat-cache": "^3.0.4",
+				"micromatch": "^4.0.2",
+				"react-docgen-typescript": "^2.1.1",
+				"tslib": "^2.0.0"
+			},
+			"devDependencies": {
+				"@types/debug": "^4.1.5",
+				"@types/find-cache-dir": "^3.2.0",
+				"@types/flat-cache": "^2.0.0",
+				"@types/jest": "^26.0.23",
+				"@types/micromatch": "^4.0.1",
+				"@types/node": "^14.0.12",
+				"@types/react": "^17.0.0",
+				"@typescript-eslint/eslint-plugin": "^4.9.0",
+				"@typescript-eslint/parser": "^4.9.0",
+				"auto": "^10.2.3",
+				"auto-config-hipstersmoothie": "^4.0.0",
+				"eslint": "^7.14.0",
+				"eslint-config-airbnb-base": "^14.2.1",
+				"eslint-config-prettier": "6.11.0",
+				"eslint-config-xo": "0.29.1",
+				"eslint-plugin-import": "^2.22.1",
+				"eslint-plugin-jest": "^24.1.3",
+				"eslint-plugin-jsdoc": "25.2.0",
+				"eslint-plugin-jsx-a11y": "^6.4.1",
+				"eslint-plugin-prettier": "3.1.3",
+				"jest": "^26.6.3",
+				"memfs": "^3.2.2",
+				"memory-fs": "^0.5.0",
+				"prettier": "^2.0.5",
+				"react": "^17.0.1",
+				"ts-jest": "^26.5.6",
+				"ts-loader": "^9.1.2",
+				"typescript": "3.8.3",
+				"webpack": "^5.36.2",
+				"webpack-cli": "^4.7.0",
+				"yarn-add-no-save": "^1.0.3"
+			},
+			"peerDependencies": {
+				"typescript": ">= 3.x",
+				"webpack": ">= 4"
+			},
+			"lint-staged": {
+				"*.{js,css,md}": [
+					"prettier --write",
+					"git add"
+				]
+			},
+			"auto": {
+				"extends": "hipstersmoothie"
+			},
+			"gitHead": "9d540b91e815f8fc2f8829189deb00553559ff63",
+			"readmeFilename": "README.md",
+			"bugs": {
+				"url": "https://github.com/storybookjs/react-docgen-typescript-plugin/issues"
+			},
+			"homepage": "https://github.com/storybookjs/react-docgen-typescript-plugin#readme",
+			"_id": "@storybook/react-docgen-typescript-plugin@1.0.2-canary.6.9d540b91e815f8fc2f8829189deb00553559ff63.0",
+			"_nodeVersion": "12.22.7",
+			"_npmVersion": "6.14.15",
+			"dist": {
+				"integrity": "sha512-eVg3BxlOm2P+chijHBTByr90IZVUtgRW56qEOLX7xlww2NBuKrcavBlcmn+HH7GIUktquWkMPtvy6e0W0NgA5w==",
+				"shasum": "3103532ff494fb7dc3cf835f10740ecf6a26c0f9",
+				"tarball": "https://registry.npmjs.org/@storybook/react-docgen-typescript-plugin/-/react-docgen-typescript-plugin-1.0.2-canary.6.9d540b91e815f8fc2f8829189deb00553559ff63.0.tgz",
+				"fileCount": 24,
+				"unpackedSize": 67508,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJhpdJqCRA9TVsSAnZWagAAPIoP/3Ss/Kls+LbgOkkGEpMn\nMOtyzQX0QGNq7mj8Anue4oDji+HptNhS05QIas6bGJqyFdG8WnTw425jpehs\nP6DpSSdUBGYdNsT3kDglPqvmXcW+z8/xNkOCqjASmj6KIYl8O+dIqHcJDb70\nMMBCHsby4fQJHdVoPcRV0m5tPoUXKX79fkupKTP/YHzLKODjo3mUDBeJstSF\nqOWpitrSTflFcdPshARSnifz7CCA8x2YFp4e7bjnseR0hfYfjpS5axUMvWkV\nJuQISk5idcdOrMuGyi6WHS1t89mPOLwnsu3OWXUY0NAN3a/EIsx0d8W1Yepx\naQ3LO+OyG2spbbyTU6+R+yl/mzIH/niMG9cNHeevaF55Dw9G3Vg3LPbQeA3V\niExBg7l7ken/Pd4G/AaOOSU97F6e+NXxIw/9fF9dQ1yKOdYmCURYg6W90zZo\nX6bWOY2ZLK9URsM7u8y0jwdcBFCG+cCP4jaSl9EFFK7ygOheuvBeTTG1oD0m\nL4/qUYET//yBau+4oF90QjbvG6nqW7itpNv+blkBSPR0Up8CKSUAXECNmB3I\n7Dg5LmDdQ3krex+VUe3lXVYjvHC4T418oUdsaz5i0T6GggI60vdz15FHujdN\nRpvY2xqBm21VDXiF2DewlM6Z7mpPgStV9w4w8aOZRWUmy6DoUEbPLVsHApO6\nkbwQ\r\n=oFyn\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIDd9iDvJ+NzrkQmxC5PlP2B5U47r1QeGSJ6UxmXvw9XWAiB4h7aTl0V+gwKglkRTSI5fZSn6jUafepdIT4RYqlUIaA=="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "shilman",
+				"email": "michael@lab80.co"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "kylegach",
+					"email": "kyle.gach@gmail.com"
+				},
+				{
+					"name": "tooppaaa",
+					"email": "clementdungler@gmail.com"
+				},
+				{
+					"name": "ndelangen",
+					"email": "ndelangen@me.com"
+				},
+				{
+					"name": "shilman",
+					"email": "michael@lab80.co"
+				},
+				{
+					"name": "alexandrebodin",
+					"email": "bodin.alex@gmail.com"
+				},
+				{
+					"name": "hypnosphi",
+					"email": "talpa@yandex.ru"
+				},
+				{
+					"name": "danielduan",
+					"email": "dduan@yahoo.com"
+				},
+				{
+					"name": "igor-dv",
+					"email": "davydkin.igor@gmail.com"
+				},
+				{
+					"name": "pksunkara",
+					"email": "pavan.sss1991@gmail.com"
+				},
+				{
+					"name": "tmeasday",
+					"email": "tom@thesnail.org"
+				},
+				{
+					"name": "gongreg",
+					"email": "gytis.vinclovas@gmail.com"
+				},
+				{
+					"name": "domyen",
+					"email": "dom@hichroma.com"
+				},
+				{
+					"name": "usulpro",
+					"email": "regx@usul.su"
+				},
+				{
+					"name": "kylesuss",
+					"email": "susskyle@gmail.com"
+				},
+				{
+					"name": "ghengeveld",
+					"email": "info@ghengeveld.nl"
+				},
+				{
+					"name": "pago",
+					"email": "patrick.gotthardt@trivago.com"
+				},
+				{
+					"name": "dandean",
+					"email": "me@dandean.com"
+				},
+				{
+					"name": "codebyalex",
+					"email": "wilsonc.alexander@gmail.com"
+				},
+				{
+					"name": "mrmckeb",
+					"email": "mrmckeb.npm@outlook.com"
+				},
+				{
+					"name": "dannyhw",
+					"email": "danny.h.williams@hotmail.com"
+				},
+				{
+					"name": "winkervsbecks",
+					"email": "varunvachhar@gmail.com"
+				},
+				{
+					"name": "rvasikarla",
+					"email": "vasikarla.raj@gmail.com"
+				},
+				{
+					"name": "amalik2",
+					"email": "ahnmalik2@gmail.com"
+				},
+				{
+					"name": "lshadler",
+					"email": "lshadler13@gmail.com"
+				},
+				{
+					"name": "phated",
+					"email": "blaine.bublitz@gmail.com"
+				},
+				{
+					"name": "yannbf",
+					"email": "yannbf@gmail.com"
+				},
+				{
+					"name": "dylanpiercey",
+					"email": "pierceydylan@gmail.com"
+				},
+				{
+					"name": "monkeyworks",
+					"email": "igor.szyporyn@gmail.com"
+				},
+				{
+					"name": "darleendenno",
+					"email": "darleendenno@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-docgen-typescript-plugin_1.0.2-canary.6.9d540b91e815f8fc2f8829189deb00553559ff63.0_1638257257876_0.9585621453806208"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		}
+	},
+	"time": {
+		"created": "2021-05-20T04:24:04.546Z",
+		"0.7.2-canary.91cf050.0": "2021-05-20T04:24:04.865Z",
+		"modified": "2022-04-07T02:52:24.800Z",
+		"0.7.2-canary.36bd3a4.0": "2021-05-20T07:53:54.448Z",
+		"0.7.2-canary.abb479f.0": "2021-05-20T13:02:14.836Z",
+		"0.7.2-canary.375d65e.0": "2021-05-25T00:53:38.412Z",
+		"1.0.2-canary.f7e28c0.0": "2021-06-15T00:12:33.300Z",
+		"1.0.2-canary.a1497ff.0": "2021-06-15T08:38:43.227Z",
+		"1.0.2-canary.3c70e01.0": "2021-06-18T05:22:43.466Z",
+		"1.0.2-canary.424ea79.0": "2021-06-30T07:47:44.250Z",
+		"1.0.2-canary.253f8c1.0": "2021-06-30T09:01:07.071Z",
+		"1.0.1": "2021-07-30T09:18:54.102Z",
+		"1.0.2-canary.187a82f.0": "2021-07-30T09:19:20.233Z",
+		"1.0.2-canary.6.9d540b91e815f8fc2f8829189deb00553559ff63.0": "2021-11-30T07:27:38.032Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"canary": "1.0.2-canary.6.9d540b91e815f8fc2f8829189deb00553559ff63.0",
+		"latest": "1.0.1"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"f567d1cf9c198234800d5280ed225759\"",
+			"fetched": 1660840723414
+		}
+	},
+	"_distfiles": {
+		"react-docgen-typescript-plugin-0.7.2-canary.91cf050.0.tgz": {
+			"url": "https://registry.npmjs.org/@storybook/react-docgen-typescript-plugin/-/react-docgen-typescript-plugin-0.7.2-canary.91cf050.0.tgz",
+			"sha": "d1f3515b4ef18dea5aaf829f9e655cda6f1b0fb5",
+			"registry": "npmjs"
+		},
+		"react-docgen-typescript-plugin-0.7.2-canary.36bd3a4.0.tgz": {
+			"url": "https://registry.npmjs.org/@storybook/react-docgen-typescript-plugin/-/react-docgen-typescript-plugin-0.7.2-canary.36bd3a4.0.tgz",
+			"sha": "a69880e21cec8d8827c63dd0edf950247c99e6a7",
+			"registry": "npmjs"
+		},
+		"react-docgen-typescript-plugin-0.7.2-canary.abb479f.0.tgz": {
+			"url": "https://registry.npmjs.org/@storybook/react-docgen-typescript-plugin/-/react-docgen-typescript-plugin-0.7.2-canary.abb479f.0.tgz",
+			"sha": "6fe466f05adbc86623e8801270b7d945d86da6ff",
+			"registry": "npmjs"
+		},
+		"react-docgen-typescript-plugin-0.7.2-canary.375d65e.0.tgz": {
+			"url": "https://registry.npmjs.org/@storybook/react-docgen-typescript-plugin/-/react-docgen-typescript-plugin-0.7.2-canary.375d65e.0.tgz",
+			"sha": "09d92362e433063ece1ce6297c551d26dd2dd656",
+			"registry": "npmjs"
+		},
+		"react-docgen-typescript-plugin-1.0.2-canary.f7e28c0.0.tgz": {
+			"url": "https://registry.npmjs.org/@storybook/react-docgen-typescript-plugin/-/react-docgen-typescript-plugin-1.0.2-canary.f7e28c0.0.tgz",
+			"sha": "7d286d6476305d0dd5f4f17d76688d0b883d4593",
+			"registry": "npmjs"
+		},
+		"react-docgen-typescript-plugin-1.0.2-canary.a1497ff.0.tgz": {
+			"url": "https://registry.npmjs.org/@storybook/react-docgen-typescript-plugin/-/react-docgen-typescript-plugin-1.0.2-canary.a1497ff.0.tgz",
+			"sha": "f797132730b657b9e752822075c92c196bb9d1e5",
+			"registry": "npmjs"
+		},
+		"react-docgen-typescript-plugin-1.0.2-canary.3c70e01.0.tgz": {
+			"url": "https://registry.npmjs.org/@storybook/react-docgen-typescript-plugin/-/react-docgen-typescript-plugin-1.0.2-canary.3c70e01.0.tgz",
+			"sha": "de49451523b86640463acc6028985ca11d8a63d1",
+			"registry": "npmjs"
+		},
+		"react-docgen-typescript-plugin-1.0.2-canary.424ea79.0.tgz": {
+			"url": "https://registry.npmjs.org/@storybook/react-docgen-typescript-plugin/-/react-docgen-typescript-plugin-1.0.2-canary.424ea79.0.tgz",
+			"sha": "a5b0fcd947f3a0e322ae410d8120c3fbffa2cd53",
+			"registry": "npmjs"
+		},
+		"react-docgen-typescript-plugin-1.0.2-canary.253f8c1.0.tgz": {
+			"url": "https://registry.npmjs.org/@storybook/react-docgen-typescript-plugin/-/react-docgen-typescript-plugin-1.0.2-canary.253f8c1.0.tgz",
+			"sha": "f2da40e6aae4aa586c2fb284a4a1744602c3c7fa",
+			"registry": "npmjs"
+		},
+		"react-docgen-typescript-plugin-1.0.1.tgz": {
+			"url": "https://registry.npmjs.org/@storybook/react-docgen-typescript-plugin/-/react-docgen-typescript-plugin-1.0.1.tgz",
+			"sha": "d4c94b1863036128e85e625c4ab888169be89f27",
+			"registry": "npmjs"
+		},
+		"react-docgen-typescript-plugin-1.0.2-canary.187a82f.0.tgz": {
+			"url": "https://registry.npmjs.org/@storybook/react-docgen-typescript-plugin/-/react-docgen-typescript-plugin-1.0.2-canary.187a82f.0.tgz",
+			"sha": "e53f254959f8f0468e0cfdd539433ec0d957c13b",
+			"registry": "npmjs"
+		},
+		"react-docgen-typescript-plugin-1.0.2-canary.6.9d540b91e815f8fc2f8829189deb00553559ff63.0.tgz": {
+			"url": "https://registry.npmjs.org/@storybook/react-docgen-typescript-plugin/-/react-docgen-typescript-plugin-1.0.2-canary.6.9d540b91e815f8fc2f8829189deb00553559ff63.0.tgz",
+			"sha": "3103532ff494fb7dc3cf835f10740ecf6a26c0f9",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_rev": "3-aa40cb324f7e2642",
+	"_id": "@storybook/react-docgen-typescript-plugin",
+	"readme": "<div align=\"center\">\n  <img  height=\"200\"\n    src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png\">\n  <h1>@storybook/react-docgen-typescript-plugin</h1>\n  <p>A webpack plugin to inject react typescript docgen information</p>\n</div>\n\n## Install\n\n```sh\nnpm install --save-dev @storybook/react-docgen-typescript-plugin\n# or\nyarn add -D @storybook/react-docgen-typescript-plugin\n```\n\n## Usage\n\n> NOTE: The TypeScript compiler options `allowSyntheticDefaultImports` and `esModuleInterop` will make\n> `react-docgen-typescript-plugin` a lot harder! Turn them off for faster build times.\n\n```ts\nconst ts = require(\"typescript\");\nconst ReactDocgenTypescriptPlugin = require(\"react-docgen-typescript-plugin\")\n  .default;\n\nmodule.exports = {\n  plugins: [\n    // Will default to loading your root tsconfig.json\n    new ReactDocgenTypescriptPlugin(),\n    // or with a specific tsconfig\n    new ReactDocgenTypescriptPlugin({ tsconfigPath: \"./tsconfig.dev.json\" }),\n    // or with compiler options\n    new ReactDocgenTypescriptPlugin({\n      compilerOptions: { jsx: ts.JsxEmit.Preserve },\n    }),\n  ],\n};\n```\n\n### Options\n\nThis plugins support all parser options from [react-docgen-typescript](https://github.com/styleguidist/react-docgen-typescript#parseroptions) and all of the following options\n\n| Option               | Type           | Description                                                                                                                                         | Default                   |\n| -------------------- | -------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------- |\n| tsconfigPath         | string         | Specify the location of the `tsconfig.json` to use.                                                                                                 | `null`                    |\n| compilerOptions      | object         | Specify compiler options. Cannot be used with `tsconfigPath`                                                                                        | `null`                    |\n| docgenCollectionName | string or null | Specify the docgen collection name to use. All docgen information will be collected into this global object. Set to `null` to disable.              | `STORYBOOK_REACT_CLASSES` |\n| setDisplayName       | boolean        | Set the components' display name. If you want to set display names yourself or are using another plugin to do this, you should disable this option. | `true`                    |\n| typePropName         | string         | Specify the name of the property for docgen info prop type.                                                                                         | `type`                    |\n| exclude              | glob[]         | Glob patterns to ignore and not generate docgen information for. (Great for ignoring large icon libraries)                                          | `[]`                      |\n| include              | glob[]         | Glob patterns to generate docgen information for                                                                                                    | `['**/**.tsx']`           |\n\n## Debugging\n\nIf you want to see how this plugins is including and excluding modules set the `DEBUG` environment variable.\n\n- `DEBUG=docgen:*` - All logs\n- `DEBUG=docgen:include` - Included modules\n- `DEBUG=docgen:exclude` - Excluded modules\n- `DEBUG=docgen:docs` - Generated docs\n\n```bash\nDEBUG=docgen:* npm run storybook\n```\n\n> Another great way of debugging your generated docs is to use a `debugger` statement in your component source file.\n> If you turn off source maps you will be able to see the code that this package generates.\n\n## Prior Art\n\n- [sn-client](https://github.com/SenseNet/sn-client/) - Inspired by this custom webpack plugin\n- [react-docgen-typescript-loader](https://github.com/strothj/react-docgen-typescript-loader/) - Webpack loader to generate docgen information from Typescript React components.\n\n## Contributors ✨\n\nThanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):\n\n<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->\n<!-- prettier-ignore-start -->\n<!-- markdownlint-disable -->\n<table>\n  <tr>\n    <td align=\"center\"><a href=\"http://hipstersmoothie.com/\"><img src=\"https://avatars3.githubusercontent.com/u/1192452?v=4?s=100\" width=\"100px;\" alt=\"\"/><br /><sub><b>Andrew Lisowski</b></sub></a><br /><a href=\"https://github.com/hipstersmoothie/react-docgen-typescript-plugin/commits?author=hipstersmoothie\" title=\"Code\">💻</a> <a href=\"#design-hipstersmoothie\" title=\"Design\">🎨</a> <a href=\"https://github.com/hipstersmoothie/react-docgen-typescript-plugin/commits?author=hipstersmoothie\" title=\"Documentation\">📖</a> <a href=\"#ideas-hipstersmoothie\" title=\"Ideas, Planning, & Feedback\">🤔</a> <a href=\"#maintenance-hipstersmoothie\" title=\"Maintenance\">🚧</a> <a href=\"#infra-hipstersmoothie\" title=\"Infrastructure (Hosting, Build-Tools, etc)\">🚇</a> <a href=\"https://github.com/hipstersmoothie/react-docgen-typescript-plugin/commits?author=hipstersmoothie\" title=\"Tests\">⚠️</a></td>\n    <td align=\"center\"><a href=\"http://shilman.net/\"><img src=\"https://avatars2.githubusercontent.com/u/488689?v=4?s=100\" width=\"100px;\" alt=\"\"/><br /><sub><b>Michael Shilman</b></sub></a><br /><a href=\"https://github.com/hipstersmoothie/react-docgen-typescript-plugin/commits?author=shilman\" title=\"Code\">💻</a></td>\n    <td align=\"center\"><a href=\"https://github.com/kherock\"><img src=\"https://avatars.githubusercontent.com/u/4993980?v=4?s=100\" width=\"100px;\" alt=\"\"/><br /><sub><b>Kyle Herock</b></sub></a><br /><a href=\"https://github.com/hipstersmoothie/react-docgen-typescript-plugin/commits?author=kherock\" title=\"Code\">💻</a></td>\n    <td align=\"center\"><a href=\"https://survivejs.com/\"><img src=\"https://avatars.githubusercontent.com/u/166921?v=4?s=100\" width=\"100px;\" alt=\"\"/><br /><sub><b>Juho Vepsäläinen</b></sub></a><br /><a href=\"#infra-bebraw\" title=\"Infrastructure (Hosting, Build-Tools, etc)\">🚇</a> <a href=\"https://github.com/hipstersmoothie/react-docgen-typescript-plugin/commits?author=bebraw\" title=\"Tests\">⚠️</a> <a href=\"https://github.com/hipstersmoothie/react-docgen-typescript-plugin/commits?author=bebraw\" title=\"Code\">💻</a></td>\n  </tr>\n</table>\n\n<!-- markdownlint-restore -->\n<!-- prettier-ignore-end -->\n\n<!-- ALL-CONTRIBUTORS-LIST:END -->\n\nThis project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!"
+}

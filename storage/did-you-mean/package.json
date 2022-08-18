@@ -1,0 +1,165 @@
+{
+	"name": "did-you-mean",
+	"versions": {
+		"0.0.0": {
+			"name": "did-you-mean",
+			"version": "0.0.0",
+			"description": "Fuzzy match a command from a list (typo-safety)",
+			"dependencies": {
+				"levenshtein": "*",
+				"underscore": "*"
+			},
+			"devDependencies": {
+				"mocha": "*"
+			},
+			"main": "lib/index.js",
+			"scripts": {
+				"test": "mocha -R spec"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/inca/did-you-mean"
+			},
+			"keywords": [
+				"typo",
+				"match",
+				"fuzzy",
+				"list",
+				"array",
+				"command",
+				"search",
+				"index"
+			],
+			"author": {
+				"name": "Boris Okunskiy"
+			},
+			"license": "ISC",
+			"bugs": {
+				"url": "https://github.com/inca/did-you-mean/issues"
+			},
+			"homepage": "https://github.com/inca/did-you-mean",
+			"_id": "did-you-mean@0.0.0",
+			"dist": {
+				"shasum": "ff2b59e6817e84d63c4aeca17eeb31d43a6c4f74",
+				"tarball": "https://registry.npmjs.org/did-you-mean/-/did-you-mean-0.0.0.tgz",
+				"integrity": "sha512-OOcXfRbKw0c1PZ0K+0w4dtmONfvNBYDawWlqVBR1DwhvAYevhdbK1P6jZONx3q6Ju24oHcFcnaq79/TI4BcAfQ==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDgbwGCnKkbT7/lmI5tk0gWvNL4E02IgsVe14u5Nj3fxQIgJWrWY3gCU4gntg3lvxPca2eHmEysXukRVtk4C5/281A="
+					}
+				]
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.6",
+			"_npmUser": {
+				"name": "inca",
+				"email": "boris@okunskiy.name"
+			},
+			"maintainers": [
+				{
+					"name": "inca",
+					"email": "boris@okunskiy.name"
+				}
+			],
+			"contributors": []
+		},
+		"0.0.1": {
+			"name": "did-you-mean",
+			"version": "0.0.1",
+			"description": "Fuzzy match a command from a list (typo-safety)",
+			"dependencies": {
+				"levenshtein": "*",
+				"underscore": "*"
+			},
+			"devDependencies": {
+				"mocha": "*"
+			},
+			"main": "lib/index.js",
+			"scripts": {
+				"test": "mocha -R spec"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/inca/did-you-mean"
+			},
+			"keywords": [
+				"typo",
+				"match",
+				"fuzzy",
+				"list",
+				"array",
+				"command",
+				"search",
+				"index"
+			],
+			"author": {
+				"name": "Boris Okunskiy"
+			},
+			"license": "ISC",
+			"bugs": {
+				"url": "https://github.com/inca/did-you-mean/issues"
+			},
+			"homepage": "https://github.com/inca/did-you-mean",
+			"gitHead": "ea6a1e7d2ad6e27f0a9aa6ff533d00f211fd5c32",
+			"_id": "did-you-mean@0.0.1",
+			"_shasum": "8851ce82407903cb62c12cb6ad4f676921ccdec3",
+			"_from": ".",
+			"_npmVersion": "1.4.28",
+			"_npmUser": {
+				"name": "inca",
+				"email": "boris@okunskiy.name"
+			},
+			"maintainers": [
+				{
+					"name": "inca",
+					"email": "boris@okunskiy.name"
+				}
+			],
+			"dist": {
+				"shasum": "8851ce82407903cb62c12cb6ad4f676921ccdec3",
+				"tarball": "https://registry.npmjs.org/did-you-mean/-/did-you-mean-0.0.1.tgz",
+				"integrity": "sha512-rKxPpbrHr4/u8VMPde6Z3DhbGoXw7kepHZIU2FGs+IU+LKnhEIlw1cx80FZ7fLruJXDyu0slKMai2FhPRZjwxQ==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIB99NN7RXfS3RXCGmRUPQxf6/zf5a8d3DF4M0qFv7+pOAiEArZo20QueGXMLwXYwtSalkg7KXCBmQrDM1Ndfbf/BCc0="
+					}
+				]
+			},
+			"contributors": []
+		}
+	},
+	"time": {
+		"modified": "2022-06-15T03:32:01.093Z",
+		"created": "2014-06-30T13:54:38.244Z",
+		"0.0.0": "2014-06-30T13:54:38.244Z",
+		"0.0.1": "2014-11-03T11:14:45.137Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "0.0.1"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"1a6eede9f303036906549e2f38a44bb0\"",
+			"fetched": 1660840728630
+		}
+	},
+	"_distfiles": {
+		"did-you-mean-0.0.0.tgz": {
+			"url": "https://registry.npmjs.org/did-you-mean/-/did-you-mean-0.0.0.tgz",
+			"sha": "ff2b59e6817e84d63c4aeca17eeb31d43a6c4f74",
+			"registry": "npmjs"
+		},
+		"did-you-mean-0.0.1.tgz": {
+			"url": "https://registry.npmjs.org/did-you-mean/-/did-you-mean-0.0.1.tgz",
+			"sha": "8851ce82407903cb62c12cb6ad4f676921ccdec3",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_rev": "3-4dfc47f423e5e356",
+	"_id": "did-you-mean",
+	"readme": "# Did You Mean ...\n\nFuzzy match a word from your list of commands or keywords in Node.js to provide\na friendly typo-safe human prompt.\n\nYou can use it in:\n\n  * your CLI\n  * a web application\n  * URLs\n  * etc.\n\n## Installation\n\n```\nnpm install did-you-mean\n```\n\n## Usage\n\n```\nvar Matcher = require('did-you-mean');\n\n// Create a matcher with a list of values\nvar m = new Matcher('init install update upgrade');\n\n// Get the closest match\nm.get('udpate');   // 'update'\n\n// Set the threshold (the maximum Levenshtein distance)\nm.setThreshold(3);\n\n// List all matches\nm.list('udpate');    // [ { value: 'update', distance: 2 }, { value: 'upgrade', distance: 3 } ]\n\n// Set ignore case\nm.ignoreCase();\n\n// Set match case\nm.matchCase();\n\n// Add more values\nm.add('merge', 'checkout', 'commit');\n```"
+}

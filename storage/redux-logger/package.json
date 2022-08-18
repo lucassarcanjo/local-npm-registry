@@ -1,0 +1,5303 @@
+{
+	"name": "redux-logger",
+	"versions": {
+		"0.0.1": {
+			"name": "redux-logger",
+			"version": "0.0.1",
+			"description": "Logger for redux",
+			"main": "build/logger.js",
+			"scripts": {
+				"test": "npm run lint",
+				"clean": "$(npm bin)/rimraf build",
+				"lint": "$(npm bin)/eslint src",
+				"build:module": "$(npm bin)/babel src --out-dir build",
+				"build:example": "$(npm bin)/webpack -p --config example/webpack.config.production.js",
+				"build": "npm run build:module && npm run build:example",
+				"prepublish": "npm run clean && npm run test && npm run build",
+				"deploy:ghpages": "$(npm bin)/gh-pages -d example/dist",
+				"deploy": "npm run build && git add -A && git commit -am 'chore: update docs' && git push && npm run deploy:ghpages"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/fcomb/redux-logger.git"
+			},
+			"keywords": [
+				"redux",
+				"logger",
+				"redux-logger",
+				"redux",
+				"middleware"
+			],
+			"author": {
+				"name": "Eugene Rodionov",
+				"url": "https://github.com/theaqua"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/fcomb/redux-logger/issues"
+			},
+			"homepage": "https://github.com/fcomb/redux-logger#readme",
+			"devDependencies": {
+				"babel": "^5.8.21",
+				"babel-core": "^5.8.22",
+				"babel-eslint": "^4.0.5",
+				"babel-loader": "^5.3.2",
+				"eslint": "^1.1.0",
+				"eslint-config-airbnb": "0.0.7",
+				"eslint-plugin-react": "^3.2.1",
+				"gh-pages": "^0.3.1",
+				"rimraf": "^2.4.2",
+				"webpack": "^1.11.0"
+			},
+			"gitHead": "634eaa65c2bcb2acd34492da238f26e09807300b",
+			"_id": "redux-logger@0.0.1",
+			"_shasum": "f9684d0f12c028bf6d3a3d329c99f5dbdc14d19c",
+			"_from": ".",
+			"_npmVersion": "2.13.3",
+			"_nodeVersion": "0.12.5",
+			"_npmUser": {
+				"name": "theaqua",
+				"email": "npm@theaqua.im"
+			},
+			"dist": {
+				"shasum": "f9684d0f12c028bf6d3a3d329c99f5dbdc14d19c",
+				"tarball": "https://registry.npmjs.org/redux-logger/-/redux-logger-0.0.1.tgz",
+				"integrity": "sha512-IKUYTA0lWLFiCDtEEHmQ6IiEFYeq6kigqqGfUqqH2osxzMVcVViF4StZLrifBE81sGZ1AwtQLvMQiEJaK4G30w==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDDhu/kFZqcxpsvhK7fOZ55NtbM9hp0163/zKh4t5470gIhAJSZgcBS0+fr/nrpqpLhAlrVXGBYakyntaErqOfyox2s"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "theaqua",
+					"email": "npm@theaqua.im"
+				}
+			],
+			"directories": {},
+			"contributors": []
+		},
+		"0.0.2": {
+			"name": "redux-logger",
+			"version": "0.0.2",
+			"description": "Logger for redux",
+			"main": "build/logger.js",
+			"scripts": {
+				"test": "npm run lint",
+				"clean": "$(npm bin)/rimraf build",
+				"lint": "$(npm bin)/eslint src",
+				"build:module": "$(npm bin)/babel src --out-dir build",
+				"build:example": "$(npm bin)/webpack -p --config example/webpack.config.production.js",
+				"build": "npm run build:module && npm run build:example",
+				"prepublish": "npm run clean && npm run test && npm run build",
+				"deploy:ghpages": "$(npm bin)/gh-pages -d example/dist",
+				"deploy": "npm run build && git add -A && git commit -am 'chore: update docs' && git push && npm run deploy:ghpages"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/fcomb/redux-logger.git"
+			},
+			"keywords": [
+				"redux",
+				"logger",
+				"redux-logger",
+				"redux",
+				"middleware"
+			],
+			"author": {
+				"name": "Eugene Rodionov",
+				"url": "https://github.com/theaqua"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/fcomb/redux-logger/issues"
+			},
+			"homepage": "https://github.com/fcomb/redux-logger#readme",
+			"devDependencies": {
+				"babel": "^5.8.21",
+				"babel-core": "^5.8.22",
+				"babel-eslint": "^4.0.5",
+				"babel-loader": "^5.3.2",
+				"eslint": "^1.1.0",
+				"eslint-config-airbnb": "0.0.7",
+				"eslint-plugin-react": "^3.2.1",
+				"gh-pages": "^0.3.1",
+				"rimraf": "^2.4.2",
+				"webpack": "^1.11.0"
+			},
+			"gitHead": "97918cdfff455b6613e4e32a943dc3f58cd52e14",
+			"_id": "redux-logger@0.0.2",
+			"_shasum": "63c956a651eb1c5de3545084dc2e0363ea28bb3d",
+			"_from": ".",
+			"_npmVersion": "2.13.3",
+			"_nodeVersion": "0.12.5",
+			"_npmUser": {
+				"name": "theaqua",
+				"email": "npm@theaqua.im"
+			},
+			"dist": {
+				"shasum": "63c956a651eb1c5de3545084dc2e0363ea28bb3d",
+				"tarball": "https://registry.npmjs.org/redux-logger/-/redux-logger-0.0.2.tgz",
+				"integrity": "sha512-BJCoGzrq2+kFqp1IaGgFOgpB6fCQrQ0AJ4MzjzAhU7n/02FN63wlehdUY/XVEvRznX5DJXWkN3A2a0d9ocQdWQ==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIApcX148yzHXcY8x+Rw9dQ3tSn/MvRqIe7yKof5HIQ4sAiA9VKv0IaTQ6uAnsfaD0ec6/p3jxB72mamn4HZjF14mMw=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "theaqua",
+					"email": "npm@theaqua.im"
+				}
+			],
+			"directories": {},
+			"contributors": []
+		},
+		"0.0.3": {
+			"name": "redux-logger",
+			"version": "0.0.3",
+			"description": "Logger for redux",
+			"main": "build/logger.js",
+			"scripts": {
+				"test": "npm run lint",
+				"clean": "$(npm bin)/rimraf build",
+				"lint": "$(npm bin)/eslint src",
+				"build:module": "$(npm bin)/babel src --out-dir build",
+				"build:example": "$(npm bin)/webpack -p --config example/webpack.config.production.js",
+				"build": "npm run build:module && npm run build:example",
+				"prepublish": "npm run clean && npm run test && npm run build",
+				"deploy:ghpages": "$(npm bin)/gh-pages -d example/dist",
+				"deploy": "npm run build && git add -A && git commit -am 'chore: update docs' && git push && npm run deploy:ghpages"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/fcomb/redux-logger.git"
+			},
+			"keywords": [
+				"redux",
+				"logger",
+				"redux-logger",
+				"redux",
+				"middleware"
+			],
+			"author": {
+				"name": "Eugene Rodionov",
+				"url": "https://github.com/theaqua"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/fcomb/redux-logger/issues"
+			},
+			"homepage": "https://github.com/fcomb/redux-logger#readme",
+			"devDependencies": {
+				"babel": "^5.8.21",
+				"babel-core": "^5.8.22",
+				"babel-eslint": "^4.0.5",
+				"babel-loader": "^5.3.2",
+				"eslint": "^1.1.0",
+				"eslint-config-airbnb": "0.0.7",
+				"eslint-plugin-react": "^3.2.1",
+				"gh-pages": "^0.3.1",
+				"rimraf": "^2.4.2",
+				"webpack": "^1.11.0"
+			},
+			"gitHead": "4410ae504f5317484baed798f0da4e6a4e32b6ab",
+			"_id": "redux-logger@0.0.3",
+			"_shasum": "ee1d477cf6b508f023a53c843cec5ed7842fee58",
+			"_from": ".",
+			"_npmVersion": "2.13.3",
+			"_nodeVersion": "0.12.5",
+			"_npmUser": {
+				"name": "theaqua",
+				"email": "npm@theaqua.im"
+			},
+			"dist": {
+				"shasum": "ee1d477cf6b508f023a53c843cec5ed7842fee58",
+				"tarball": "https://registry.npmjs.org/redux-logger/-/redux-logger-0.0.3.tgz",
+				"integrity": "sha512-NupceGSV5qRhyNtfd1zvmomxPfHo+RXtqD9dQRwEjwLs/BgK3xH1YbjsnaNnw3NYzpc81nkTO6e68HNVV2MvKQ==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIHQfFLk1GVVkmpVShnhegenAjFSA9FBpB7BioosTVJGlAiEA03v2jtrUteMCYtKgwSA6IR37nOwFdG9YdPXWsrfoWS8="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "theaqua",
+					"email": "npm@theaqua.im"
+				}
+			],
+			"directories": {},
+			"contributors": []
+		},
+		"1.0.0": {
+			"name": "redux-logger",
+			"version": "1.0.0",
+			"description": "Logger for redux",
+			"main": "build/index.js",
+			"scripts": {
+				"test": "npm run lint",
+				"clean": "$(npm bin)/rimraf build",
+				"lint": "$(npm bin)/eslint src",
+				"build:module": "$(npm bin)/babel src --out-dir build",
+				"build:example": "$(npm bin)/webpack -p --config example/webpack.config.production.js",
+				"build": "npm run build:module && npm run build:example",
+				"prepublish": "npm run clean && npm run test && npm run build",
+				"deploy:ghpages": "$(npm bin)/gh-pages -d example/dist",
+				"deploy": "npm run build && git add -A && git commit -am 'chore: update docs' && git push && npm run deploy:ghpages"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/fcomb/redux-logger.git"
+			},
+			"keywords": [
+				"redux",
+				"logger",
+				"redux-logger",
+				"redux",
+				"middleware"
+			],
+			"author": {
+				"name": "Eugene Rodionov",
+				"url": "https://github.com/theaqua"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/fcomb/redux-logger/issues"
+			},
+			"homepage": "https://github.com/fcomb/redux-logger#readme",
+			"devDependencies": {
+				"babel": "^5.8.21",
+				"babel-core": "^5.8.22",
+				"babel-eslint": "^4.0.5",
+				"babel-loader": "^5.3.2",
+				"eslint": "^1.1.0",
+				"eslint-config-airbnb": "0.0.7",
+				"eslint-plugin-react": "^3.2.1",
+				"gh-pages": "^0.3.1",
+				"rimraf": "^2.4.2",
+				"webpack": "^1.11.0"
+			},
+			"gitHead": "2451e8e2790f2176ee5749d05bd3b3d0591c3174",
+			"_id": "redux-logger@1.0.0",
+			"_shasum": "c3c0c85394d57f97aeaa8aad00aef36c3ebde082",
+			"_from": ".",
+			"_npmVersion": "2.13.3",
+			"_nodeVersion": "0.12.5",
+			"_npmUser": {
+				"name": "theaqua",
+				"email": "npm@theaqua.im"
+			},
+			"dist": {
+				"shasum": "c3c0c85394d57f97aeaa8aad00aef36c3ebde082",
+				"tarball": "https://registry.npmjs.org/redux-logger/-/redux-logger-1.0.0.tgz",
+				"integrity": "sha512-8QCoMGucpKFuG+7fQ12VDHRX45kj8lJEfmpPaTaqD/Oh+N5MsolzBoU/jPJchqiodgSaSaVJUG6SE0nhfsXxvA==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQC6pU2bizuodUvEqcJkXpk0FHmqr1VbjVefPEA9odxmpAIhAOw2ivWHs5NINhtFsbGq/bMMcMIARtjSkByhkRxwwGGQ"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "theaqua",
+					"email": "npm@theaqua.im"
+				}
+			],
+			"directories": {},
+			"contributors": []
+		},
+		"1.0.1": {
+			"name": "redux-logger",
+			"version": "1.0.1",
+			"description": "Logger for redux",
+			"main": "build/index.js",
+			"scripts": {
+				"test": "npm run lint",
+				"clean": "$(npm bin)/rimraf build",
+				"lint": "$(npm bin)/eslint src",
+				"build:module": "$(npm bin)/babel src --out-dir build",
+				"build:example": "$(npm bin)/webpack -p --config example/webpack.config.production.js",
+				"build": "npm run build:module && npm run build:example",
+				"prepublish": "npm run clean && npm run test && npm run build",
+				"deploy:ghpages": "$(npm bin)/gh-pages -d example/dist",
+				"deploy": "npm run build && git add -A && git commit -am 'chore: update docs' && git push && npm run deploy:ghpages"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/fcomb/redux-logger.git"
+			},
+			"keywords": [
+				"redux",
+				"logger",
+				"redux-logger",
+				"redux",
+				"middleware"
+			],
+			"author": {
+				"name": "Eugene Rodionov",
+				"url": "https://github.com/theaqua"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/fcomb/redux-logger/issues"
+			},
+			"homepage": "https://github.com/fcomb/redux-logger#readme",
+			"devDependencies": {
+				"babel": "^5.8.21",
+				"babel-core": "^5.8.22",
+				"babel-eslint": "^4.0.5",
+				"babel-loader": "^5.3.2",
+				"eslint": "^1.1.0",
+				"eslint-config-airbnb": "0.0.7",
+				"eslint-plugin-react": "^3.2.1",
+				"gh-pages": "^0.3.1",
+				"rimraf": "^2.4.2",
+				"webpack": "^1.11.0"
+			},
+			"gitHead": "2451e8e2790f2176ee5749d05bd3b3d0591c3174",
+			"_id": "redux-logger@1.0.1",
+			"_shasum": "76030c805e343c723cd62a0b949ab50bd1c2bc48",
+			"_from": ".",
+			"_npmVersion": "2.13.3",
+			"_nodeVersion": "0.12.5",
+			"_npmUser": {
+				"name": "theaqua",
+				"email": "npm@theaqua.im"
+			},
+			"dist": {
+				"shasum": "76030c805e343c723cd62a0b949ab50bd1c2bc48",
+				"tarball": "https://registry.npmjs.org/redux-logger/-/redux-logger-1.0.1.tgz",
+				"integrity": "sha512-g/fMczys53qFdoaIqQhXBF/i+/AC8U+nhP94ZYZfMHwWW9zwSYkQsIaWO4UoFhGAZU/V+JbrSi9AUcIUM2Bgaw==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIGFeXLIe1GRnRBgIPl4dI6WbPG2U3PWn3Ozdoxp5zNwvAiEAoCfzzGdPL3EU949KplGJBby5kLogQStqs5BfyIVb0Yo="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "theaqua",
+					"email": "npm@theaqua.im"
+				}
+			],
+			"directories": {},
+			"contributors": []
+		},
+		"1.0.2": {
+			"name": "redux-logger",
+			"version": "1.0.2",
+			"description": "Logger for redux",
+			"main": "build/index.js",
+			"scripts": {
+				"test": "npm run lint",
+				"clean": "$(npm bin)/rimraf build",
+				"lint": "$(npm bin)/eslint src",
+				"build:module": "$(npm bin)/babel src --out-dir build",
+				"build:example": "$(npm bin)/webpack -p --config example/webpack.config.production.js",
+				"build": "npm run build:module && npm run build:example",
+				"prepublish": "npm run clean && npm run test && npm run build",
+				"deploy:ghpages": "$(npm bin)/gh-pages -d example/dist",
+				"deploy": "git add -A && git commit -am 'chore: update docs' && git push && npm run deploy:ghpages"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/fcomb/redux-logger.git"
+			},
+			"keywords": [
+				"redux",
+				"logger",
+				"redux-logger",
+				"redux",
+				"middleware"
+			],
+			"author": {
+				"name": "Eugene Rodionov",
+				"url": "https://github.com/theaqua"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/fcomb/redux-logger/issues"
+			},
+			"homepage": "https://github.com/fcomb/redux-logger#readme",
+			"devDependencies": {
+				"babel": "^5.8.21",
+				"babel-core": "^5.8.22",
+				"babel-eslint": "^4.0.5",
+				"babel-loader": "^5.3.2",
+				"eslint": "^1.1.0",
+				"eslint-config-airbnb": "0.0.7",
+				"eslint-plugin-react": "^3.2.1",
+				"gh-pages": "^0.3.1",
+				"rimraf": "^2.4.2",
+				"webpack": "^1.11.0"
+			},
+			"gitHead": "91867aa78553f725a87c556e21d50d8f34e6719c",
+			"_id": "redux-logger@1.0.2",
+			"_shasum": "8fd868010a37feaa412bd449802de032a71aa428",
+			"_from": ".",
+			"_npmVersion": "2.13.3",
+			"_nodeVersion": "0.12.5",
+			"_npmUser": {
+				"name": "theaqua",
+				"email": "npm@theaqua.im"
+			},
+			"dist": {
+				"shasum": "8fd868010a37feaa412bd449802de032a71aa428",
+				"tarball": "https://registry.npmjs.org/redux-logger/-/redux-logger-1.0.2.tgz",
+				"integrity": "sha512-eCI8AptESac+lp1W7AbhUJ15cMlBJXyvn/TWOjTA49mDV9NT4DtW0GorNcTgVhNjwrQmOF8oARj2+nt/0WJrZw==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQC77q0abig5qFGzv7uN7iuq97cz4tY2M7rgga3lZp7CHgIgItn35YMdTiRXuPXIVAUEq9/b1GTePHvlagTPo+dRlqY="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "theaqua",
+					"email": "npm@theaqua.im"
+				}
+			],
+			"directories": {},
+			"contributors": []
+		},
+		"1.0.3": {
+			"name": "redux-logger",
+			"version": "1.0.3",
+			"description": "Logger for redux",
+			"main": "build/index.js",
+			"scripts": {
+				"test": "npm run lint",
+				"clean": "$(npm bin)/rimraf build",
+				"lint": "$(npm bin)/eslint src",
+				"build:module": "$(npm bin)/babel src --out-dir build",
+				"build:example": "$(npm bin)/webpack -p --config example/webpack.config.production.js",
+				"build": "npm run build:module && npm run build:example",
+				"prepublish": "npm run clean && npm run test && npm run build",
+				"deploy:ghpages": "$(npm bin)/gh-pages -d example/dist",
+				"deploy": "git add -A && git commit -am 'chore: update build' && git push && npm run deploy:ghpages"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/fcomb/redux-logger.git"
+			},
+			"keywords": [
+				"redux",
+				"logger",
+				"redux-logger",
+				"redux",
+				"middleware"
+			],
+			"author": {
+				"name": "Eugene Rodionov",
+				"url": "https://github.com/theaqua"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/fcomb/redux-logger/issues"
+			},
+			"homepage": "https://github.com/fcomb/redux-logger#readme",
+			"devDependencies": {
+				"babel": "^5.8.21",
+				"babel-core": "^5.8.22",
+				"babel-eslint": "^4.0.5",
+				"babel-loader": "^5.3.2",
+				"eslint": "^1.1.0",
+				"eslint-config-airbnb": "0.0.7",
+				"eslint-plugin-react": "^3.2.1",
+				"gh-pages": "^0.3.1",
+				"rimraf": "^2.4.2",
+				"webpack": "^1.11.0"
+			},
+			"gitHead": "d096ffb529881b62f2a5191d20a06fd4a5e6242a",
+			"_id": "redux-logger@1.0.3",
+			"_shasum": "be5a0fe529a58c06aea2bda39b2a085866df330a",
+			"_from": ".",
+			"_npmVersion": "2.13.3",
+			"_nodeVersion": "0.12.5",
+			"_npmUser": {
+				"name": "theaqua",
+				"email": "npm@theaqua.im"
+			},
+			"dist": {
+				"shasum": "be5a0fe529a58c06aea2bda39b2a085866df330a",
+				"tarball": "https://registry.npmjs.org/redux-logger/-/redux-logger-1.0.3.tgz",
+				"integrity": "sha512-mU3F2UPNGYjhnDOc59fqvztE4RVCWkZb3yFxyTDjwvuiAelK3comP0zViF7U7pWYlZhSQQAeyKlDIxVz21iAdg==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIDGQ9W+b/mHNwfFDoOgFIaxzDkG1JAjS+wKecV5OfXebAiEA+ngFpcDQLXNZ3yIToWuWTzTcTxnBi4dP/mXP3K1SPB4="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "theaqua",
+					"email": "npm@theaqua.im"
+				}
+			],
+			"directories": {},
+			"contributors": []
+		},
+		"1.0.4": {
+			"name": "redux-logger",
+			"version": "1.0.4",
+			"description": "Logger for redux",
+			"main": "build/index.js",
+			"scripts": {
+				"test": "npm run lint",
+				"clean": "$(npm bin)/rimraf build",
+				"lint": "$(npm bin)/eslint src",
+				"build:module": "$(npm bin)/babel src --out-dir build",
+				"build:example": "$(npm bin)/webpack -p --config example/webpack.config.production.js",
+				"build": "npm run build:module && npm run build:example",
+				"prepublish": "npm run clean && npm run test && npm run build",
+				"deploy:ghpages": "$(npm bin)/gh-pages -d example/dist",
+				"deploy": "git add -A && git commit -am 'chore: update build' && git push && npm run deploy:ghpages"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/fcomb/redux-logger.git"
+			},
+			"keywords": [
+				"redux",
+				"logger",
+				"redux-logger",
+				"redux",
+				"middleware"
+			],
+			"author": {
+				"name": "Eugene Rodionov",
+				"url": "https://github.com/theaqua"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/fcomb/redux-logger/issues"
+			},
+			"homepage": "https://github.com/fcomb/redux-logger#readme",
+			"devDependencies": {
+				"babel": "^5.8.21",
+				"babel-core": "^5.8.22",
+				"babel-eslint": "^4.0.5",
+				"babel-loader": "^5.3.2",
+				"eslint": "^1.1.0",
+				"eslint-config-airbnb": "0.0.7",
+				"eslint-plugin-react": "^3.2.1",
+				"gh-pages": "^0.3.1",
+				"rimraf": "^2.4.2",
+				"webpack": "^1.11.0"
+			},
+			"gitHead": "f60971850561de0f67fe875514ba524a8c03930c",
+			"_id": "redux-logger@1.0.4",
+			"_shasum": "ae225faec2250153021e549520541ae7fa7c68fe",
+			"_from": ".",
+			"_npmVersion": "2.13.3",
+			"_nodeVersion": "0.12.5",
+			"_npmUser": {
+				"name": "theaqua",
+				"email": "npm@theaqua.im"
+			},
+			"dist": {
+				"shasum": "ae225faec2250153021e549520541ae7fa7c68fe",
+				"tarball": "https://registry.npmjs.org/redux-logger/-/redux-logger-1.0.4.tgz",
+				"integrity": "sha512-jw6govYCTX+TugHlNWR6k9jUcEMeawSwOtyN/MfTrO31Ujghme+UIhOzomkiOOfZlXXKNwKWclrDCvPAVlwR4w==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCICc4IullZNKmY74lp6S7UKjg9B0SBjjoNydnCtIx2RX0AiEAiKKiNMuwDkhe95es3NeQTFhJXUX4C7nUnNlZGqRPshA="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "theaqua",
+					"email": "npm@theaqua.im"
+				}
+			],
+			"directories": {},
+			"contributors": []
+		},
+		"1.0.5": {
+			"name": "redux-logger",
+			"version": "1.0.5",
+			"description": "Logger for redux",
+			"main": "build/index.js",
+			"scripts": {
+				"test": "npm run lint",
+				"clean": "$(npm bin)/rimraf build",
+				"lint": "$(npm bin)/eslint src",
+				"build:module": "$(npm bin)/babel src --out-dir build",
+				"build:example": "$(npm bin)/webpack -p --config example/webpack.config.production.js",
+				"build": "npm run build:module && npm run build:example",
+				"prepublish": "npm run clean && npm run test && npm run build",
+				"deploy:ghpages": "$(npm bin)/gh-pages -d example/dist",
+				"deploy": "git add -A && git commit -am 'chore: update build' && git push && npm run deploy:ghpages"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/fcomb/redux-logger.git"
+			},
+			"keywords": [
+				"redux",
+				"logger",
+				"redux-logger",
+				"redux",
+				"middleware"
+			],
+			"author": {
+				"name": "Eugene Rodionov",
+				"url": "https://github.com/theaqua"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/fcomb/redux-logger/issues"
+			},
+			"homepage": "https://github.com/fcomb/redux-logger#readme",
+			"devDependencies": {
+				"babel": "^5.8.21",
+				"babel-core": "^5.8.22",
+				"babel-eslint": "^4.0.5",
+				"babel-loader": "^5.3.2",
+				"eslint": "^1.1.0",
+				"eslint-config-airbnb": "0.0.7",
+				"eslint-plugin-react": "^3.2.1",
+				"gh-pages": "^0.3.1",
+				"rimraf": "^2.4.2",
+				"webpack": "^1.11.0"
+			},
+			"gitHead": "3d2526d9fb820503b6cd11f104e62009ba8627a3",
+			"_id": "redux-logger@1.0.5",
+			"_shasum": "aefc46376fa7f4240586e400895d5359df7e487b",
+			"_from": ".",
+			"_npmVersion": "2.13.3",
+			"_nodeVersion": "0.12.5",
+			"_npmUser": {
+				"name": "theaqua",
+				"email": "npm@theaqua.im"
+			},
+			"dist": {
+				"shasum": "aefc46376fa7f4240586e400895d5359df7e487b",
+				"tarball": "https://registry.npmjs.org/redux-logger/-/redux-logger-1.0.5.tgz",
+				"integrity": "sha512-PBYiBcgxjZdmyhcYbKAogd5vzyczdgb4mf8CxdOr3I8BagogYIx6vazD8e03ksREp2O4OQtXWadb+wIz/0Dl0g==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQCpNMTUZAhH7521PXEm9AUg9tgSnfoTo7Fi09L4S5QedgIgMivOrRQ9F2EE8Is7YNMWTyD56tr1bEfFkZopus5NHdU="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "theaqua",
+					"email": "npm@theaqua.im"
+				}
+			],
+			"directories": {},
+			"contributors": []
+		},
+		"1.0.6": {
+			"name": "redux-logger",
+			"version": "1.0.6",
+			"description": "Logger for redux",
+			"main": "build/index.js",
+			"scripts": {
+				"test": "npm run lint",
+				"clean": "$(npm bin)/rimraf build",
+				"lint": "$(npm bin)/eslint src",
+				"build:module": "$(npm bin)/babel src --out-dir build",
+				"build:example": "$(npm bin)/webpack -p --config example/webpack.config.production.js",
+				"build": "npm run build:module && npm run build:example",
+				"prepublish": "npm run clean && npm run test && npm run build",
+				"deploy:ghpages": "$(npm bin)/gh-pages -d example/dist",
+				"deploy": "git add -A && git commit -am 'chore: update build' && git push && npm run deploy:ghpages"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/fcomb/redux-logger.git"
+			},
+			"keywords": [
+				"redux",
+				"logger",
+				"redux-logger",
+				"redux",
+				"middleware"
+			],
+			"author": {
+				"name": "Eugene Rodionov",
+				"url": "https://github.com/theaqua"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/fcomb/redux-logger/issues"
+			},
+			"homepage": "https://github.com/fcomb/redux-logger#readme",
+			"devDependencies": {
+				"babel": "^5.8.21",
+				"babel-core": "^5.8.22",
+				"babel-eslint": "^4.0.5",
+				"babel-loader": "^5.3.2",
+				"eslint": "^1.1.0",
+				"eslint-config-airbnb": "0.0.7",
+				"eslint-plugin-react": "^3.2.1",
+				"gh-pages": "^0.3.1",
+				"rimraf": "^2.4.2",
+				"webpack": "^1.11.0"
+			},
+			"gitHead": "c2bdb00a79a412cfde855aa71bb7059918104dc9",
+			"_id": "redux-logger@1.0.6",
+			"_shasum": "ad60dc8c4112a419e3ba0d13617e32c4623b9e4e",
+			"_from": ".",
+			"_npmVersion": "2.13.3",
+			"_nodeVersion": "0.12.5",
+			"_npmUser": {
+				"name": "theaqua",
+				"email": "npm@theaqua.im"
+			},
+			"dist": {
+				"shasum": "ad60dc8c4112a419e3ba0d13617e32c4623b9e4e",
+				"tarball": "https://registry.npmjs.org/redux-logger/-/redux-logger-1.0.6.tgz",
+				"integrity": "sha512-AjN/V+lPYn099LyOS/F8eYw1snhwEKj899PX4Ovjl4KIFx2qOTgBWoN6pQzwP3ga/deZlw6a/D02szziWtKdpQ==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIFKNo4vaEvdRkk3R++751K7edSvvYQhrIBXh0qchBFEhAiEA4CXd2G8C45cHSyohgaSeeqaPvtD52cFvNnJ8Eb0yiDc="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "theaqua",
+					"email": "npm@theaqua.im"
+				}
+			],
+			"directories": {},
+			"contributors": []
+		},
+		"1.0.7": {
+			"name": "redux-logger",
+			"version": "1.0.7",
+			"description": "Logger for redux",
+			"main": "build/index.js",
+			"scripts": {
+				"test": "npm run lint",
+				"clean": "$(npm bin)/rimraf build",
+				"lint": "$(npm bin)/eslint src",
+				"build:module": "$(npm bin)/babel src --out-dir build",
+				"build:example": "$(npm bin)/webpack -p --config example/webpack.config.production.js",
+				"build": "npm run build:module && npm run build:example",
+				"prepublish": "npm run clean && npm run test && npm run build",
+				"deploy:ghpages": "$(npm bin)/gh-pages -d example/dist",
+				"deploy": "npm run build:example && git add -A && git commit -am 'chore: update build' && git push && npm run deploy:ghpages"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/fcomb/redux-logger.git"
+			},
+			"keywords": [
+				"redux",
+				"logger",
+				"redux-logger",
+				"redux",
+				"middleware"
+			],
+			"author": {
+				"name": "Eugene Rodionov",
+				"url": "https://github.com/theaqua"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/fcomb/redux-logger/issues"
+			},
+			"homepage": "https://github.com/fcomb/redux-logger#readme",
+			"devDependencies": {
+				"babel": "^5.8.21",
+				"babel-core": "^5.8.22",
+				"babel-eslint": "^4.0.5",
+				"babel-loader": "^5.3.2",
+				"eslint": "^1.1.0",
+				"eslint-config-airbnb": "0.0.7",
+				"eslint-plugin-react": "^3.2.1",
+				"gh-pages": "^0.3.1",
+				"rimraf": "^2.4.2",
+				"webpack": "^1.11.0"
+			},
+			"gitHead": "72641c0c70e4a316c9934d2a3af67d873a772da3",
+			"_id": "redux-logger@1.0.7",
+			"_shasum": "ecdbcbc31a51f873a59a92b7909dc6461a8cee1e",
+			"_from": ".",
+			"_npmVersion": "2.13.3",
+			"_nodeVersion": "0.12.5",
+			"_npmUser": {
+				"name": "theaqua",
+				"email": "npm@theaqua.im"
+			},
+			"dist": {
+				"shasum": "ecdbcbc31a51f873a59a92b7909dc6461a8cee1e",
+				"tarball": "https://registry.npmjs.org/redux-logger/-/redux-logger-1.0.7.tgz",
+				"integrity": "sha512-fHSNO5lqd2WfiTwl+MY41k24w0jZnvKmQTLj/8IYjqddoXApBN0/2LxwQBMpr7U8+iJPHK3GRMtk1HVDTW08Zg==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIBE0zPVlh5pNKDIBJoQtaCshYtN9ArKvKpo78Xf/WeiMAiEAqs9QcopStbpZ3uZFzJGMpTeJDGMyjkTDXgr6Sx32WNQ="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "theaqua",
+					"email": "npm@theaqua.im"
+				}
+			],
+			"directories": {},
+			"contributors": []
+		},
+		"1.0.8": {
+			"name": "redux-logger",
+			"version": "1.0.8",
+			"description": "Logger for redux",
+			"main": "build/index.js",
+			"scripts": {
+				"test": "npm run lint",
+				"clean": "rimraf build",
+				"lint": "eslint src",
+				"build:module": "babel src --out-dir build",
+				"build:example": "webpack -p --config example/webpack.config.production.js",
+				"build": "npm run build:module && npm run build:example",
+				"prepublish": "npm run clean && npm run test && npm run build",
+				"deploy:ghpages": "gh-pages -d example/dist",
+				"deploy": "npm run build:example && git add -A && git commit -am 'chore: update build' && git push && npm run deploy:ghpages"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/fcomb/redux-logger.git"
+			},
+			"keywords": [
+				"redux",
+				"logger",
+				"redux-logger",
+				"redux",
+				"middleware"
+			],
+			"author": {
+				"name": "Eugene Rodionov",
+				"url": "https://github.com/theaqua"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/fcomb/redux-logger/issues"
+			},
+			"homepage": "https://github.com/fcomb/redux-logger#readme",
+			"devDependencies": {
+				"babel": "^5.8.23",
+				"babel-core": "^5.8.24",
+				"babel-eslint": "^4.1.2",
+				"babel-loader": "^5.3.2",
+				"eslint": "^1.4.3",
+				"eslint-config-airbnb": "0.0.8",
+				"gh-pages": "^0.4.0",
+				"rimraf": "^2.4.3",
+				"webpack": "^1.12.1"
+			},
+			"gitHead": "b3261c0dd674305a4ed9b509fdabf9044697c566",
+			"_id": "redux-logger@1.0.8",
+			"_shasum": "e2553ef890d0862215696ac326686a9729735870",
+			"_from": ".",
+			"_npmVersion": "2.13.3",
+			"_nodeVersion": "0.12.5",
+			"_npmUser": {
+				"name": "theaqua",
+				"email": "npm@theaqua.im"
+			},
+			"dist": {
+				"shasum": "e2553ef890d0862215696ac326686a9729735870",
+				"tarball": "https://registry.npmjs.org/redux-logger/-/redux-logger-1.0.8.tgz",
+				"integrity": "sha512-6XMEHg6GA4aNrl2ysoWIErvAurvH4XkVx9u17G+6nuPuZTcTvlG+HnR+WY+Sf5u05kWhQaTRiPTzB+k5ohq65A==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIG+wbtW6D+q5reJqsgBFTHlGCr1i0TtxCpyfhH1ReHHMAiAubmAjRcfP1aOCL0wBcoK3ZaoQuLUO091xO19Irj0VsA=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "theaqua",
+					"email": "npm@theaqua.im"
+				}
+			],
+			"directories": {},
+			"contributors": []
+		},
+		"1.0.9": {
+			"name": "redux-logger",
+			"version": "1.0.9",
+			"description": "Logger for redux",
+			"main": "build/index.js",
+			"scripts": {
+				"test": "npm run lint",
+				"clean": "rimraf build",
+				"lint": "eslint src",
+				"build:module": "babel src --out-dir build",
+				"build:example": "webpack -p --config example/webpack.config.production.js",
+				"build": "npm run build:module && npm run build:example",
+				"prepublish": "npm run clean && npm run test && npm run build",
+				"deploy:ghpages": "gh-pages -d example/dist",
+				"deploy": "npm run build:example && git add -A && git commit -am 'chore: update build' && git push && npm run deploy:ghpages"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/fcomb/redux-logger.git"
+			},
+			"keywords": [
+				"redux",
+				"logger",
+				"redux-logger",
+				"redux",
+				"middleware"
+			],
+			"author": {
+				"name": "Eugene Rodionov",
+				"url": "https://github.com/theaqua"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/fcomb/redux-logger/issues"
+			},
+			"homepage": "https://github.com/fcomb/redux-logger#readme",
+			"devDependencies": {
+				"babel": "^5.8.23",
+				"babel-core": "^5.8.24",
+				"babel-eslint": "^4.1.2",
+				"babel-loader": "^5.3.2",
+				"eslint": "^1.4.3",
+				"eslint-config-airbnb": "0.0.8",
+				"eslint-plugin-react": "^3.4.2",
+				"gh-pages": "^0.4.0",
+				"rimraf": "^2.4.3",
+				"webpack": "^1.12.1"
+			},
+			"gitHead": "bd028e8f8cd96a6512c71262a5c1659699d74d5c",
+			"_id": "redux-logger@1.0.9",
+			"_shasum": "144ff2c7c201a259ac71ca922b1ee215c9363478",
+			"_from": ".",
+			"_npmVersion": "2.13.3",
+			"_nodeVersion": "0.12.5",
+			"_npmUser": {
+				"name": "theaqua",
+				"email": "npm@theaqua.im"
+			},
+			"dist": {
+				"shasum": "144ff2c7c201a259ac71ca922b1ee215c9363478",
+				"tarball": "https://registry.npmjs.org/redux-logger/-/redux-logger-1.0.9.tgz",
+				"integrity": "sha512-TW6NEechFF19PU5+YDnkDjyhQ+ZMsH7lntnIuFU/zjuEE/doFsfaZb0iOFWPbGl+AOQuXBV1P6Y+6VwWVigRiQ==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIHHPhiUm6enH8QcoPdfiabLkWcve8yRao3d1MNBaVt7HAiBUHDVjQr0zNZWT0TSYHZAOFav8CsB8MLp6WNgHZteq6Q=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "theaqua",
+					"email": "npm@theaqua.im"
+				}
+			],
+			"directories": {},
+			"contributors": []
+		},
+		"2.0.0": {
+			"name": "redux-logger",
+			"version": "2.0.0",
+			"description": "Logger for redux",
+			"main": "lib/index.js",
+			"scripts": {
+				"test": "npm run lint",
+				"clean": "rimraf build",
+				"lint": "eslint src",
+				"build:lib": "babel src --out-dir lib",
+				"build:umd": "LIBRARY_NAME=reduxLogger webpack -p src/index.js dist/index.js --config webpack.config.production.js",
+				"build:umd:min": "LIBRARY_NAME=reduxLogger webpack -p src/index.js dist/index.min.js --config webpack.config.development.js",
+				"build:example": "webpack -p --config example/webpack.config.production.js",
+				"build": "npm run build:lib && npm run build:umd && npm run build:umd:min && npm run build:example",
+				"prepublish": "npm run clean && npm run test && npm run build",
+				"deploy": "gh-pages -d example/dist"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/fcomb/redux-logger.git"
+			},
+			"keywords": [
+				"redux",
+				"logger",
+				"redux-logger",
+				"redux",
+				"middleware"
+			],
+			"author": {
+				"name": "Eugene Rodionov",
+				"url": "https://github.com/theaqua"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/fcomb/redux-logger/issues"
+			},
+			"homepage": "https://github.com/fcomb/redux-logger#readme",
+			"devDependencies": {
+				"babel": "^5.8.23",
+				"babel-core": "^5.8.24",
+				"babel-eslint": "^4.1.2",
+				"babel-loader": "^5.3.2",
+				"babel-plugin-react-transform": "^1.1.0",
+				"eslint": "^1.4.3",
+				"eslint-config-airbnb": "0.0.8",
+				"eslint-plugin-react": "^3.4.2",
+				"gh-pages": "^0.4.0",
+				"rimraf": "^2.4.3",
+				"webpack": "^1.12.1"
+			},
+			"gitHead": "80cd18050a1cc5dac004b370ab59ca3c170f4c4f",
+			"_id": "redux-logger@2.0.0",
+			"_shasum": "38e93dfd1b1d9b30e33e7966eca86295e89514f8",
+			"_from": ".",
+			"_npmVersion": "2.13.3",
+			"_nodeVersion": "0.12.5",
+			"_npmUser": {
+				"name": "theaqua",
+				"email": "npm@theaqua.im"
+			},
+			"dist": {
+				"shasum": "38e93dfd1b1d9b30e33e7966eca86295e89514f8",
+				"tarball": "https://registry.npmjs.org/redux-logger/-/redux-logger-2.0.0.tgz",
+				"integrity": "sha512-3aqCekKvHCPRaSeySaFg/A7BFLqUsnfmqE2IirCZ2BtN0A6kb4vfoO8TpeN6/R61Qh6mycYt8w7P3DcTCDM9cQ==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQD3pCGZtohvzA0cdYffQkvrV2USAkI1QST9I93ziy1/9QIhAMgf+1kx3GP62ZLKOgKateobhw+3ID3vrGFtXadvz5Gm"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "theaqua",
+					"email": "npm@theaqua.im"
+				}
+			],
+			"directories": {},
+			"contributors": []
+		},
+		"2.0.1": {
+			"name": "redux-logger",
+			"version": "2.0.1",
+			"description": "Logger for redux",
+			"main": "lib/index.js",
+			"scripts": {
+				"test": "npm run lint",
+				"clean": "rimraf build",
+				"lint": "eslint src",
+				"build:lib": "babel src --out-dir lib",
+				"build:umd": "LIBRARY_NAME=reduxLogger webpack -p src/index.js dist/index.js --config webpack.config.production.js",
+				"build:umd:min": "LIBRARY_NAME=reduxLogger webpack -p src/index.js dist/index.min.js --config webpack.config.development.js",
+				"build:example": "webpack -p --config example/webpack.config.production.js",
+				"build": "npm run build:lib && npm run build:umd && npm run build:umd:min && npm run build:example",
+				"prepublish": "npm run clean && npm run test && npm run build",
+				"deploy": "gh-pages -d example/dist"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/fcomb/redux-logger.git"
+			},
+			"keywords": [
+				"redux",
+				"logger",
+				"redux-logger",
+				"redux",
+				"middleware"
+			],
+			"author": {
+				"name": "Eugene Rodionov",
+				"url": "https://github.com/theaqua"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/fcomb/redux-logger/issues"
+			},
+			"homepage": "https://github.com/fcomb/redux-logger#readme",
+			"devDependencies": {
+				"babel": "^5.8.23",
+				"babel-core": "^5.8.24",
+				"babel-eslint": "^4.1.2",
+				"babel-loader": "^5.3.2",
+				"babel-plugin-react-transform": "^1.1.0",
+				"eslint": "^1.4.3",
+				"eslint-config-airbnb": "0.0.8",
+				"eslint-plugin-react": "^3.4.2",
+				"gh-pages": "^0.4.0",
+				"rimraf": "^2.4.3",
+				"webpack": "^1.12.1"
+			},
+			"gitHead": "694daf2c592808ab738beb158f7dae704339ea33",
+			"_id": "redux-logger@2.0.1",
+			"_shasum": "6afe5f2c50dde20123bdaddda6552a451ff906a3",
+			"_from": ".",
+			"_npmVersion": "3.3.4",
+			"_nodeVersion": "4.1.1",
+			"_npmUser": {
+				"name": "theaqua",
+				"email": "npm@theaqua.im"
+			},
+			"dist": {
+				"shasum": "6afe5f2c50dde20123bdaddda6552a451ff906a3",
+				"tarball": "https://registry.npmjs.org/redux-logger/-/redux-logger-2.0.1.tgz",
+				"integrity": "sha512-len7djNjby00jYsvV6TfF5z5SsjjCsz99KL5HzJf3YlNjROnYxC0lKDEUnXgW+jaB1Ar0bwf5E4S8vlgKUZ3Ww==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIBzV9UsugUlDHFL9Yx2Eeu+n39e6ByN03mVoBKADN2psAiEA9CpfW/EzMnrnuy2jTpBufnZdoS0VDGxR6ZIaWXy8K6Q="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "theaqua",
+					"email": "npm@theaqua.im"
+				}
+			],
+			"directories": {},
+			"contributors": []
+		},
+		"2.0.2": {
+			"name": "redux-logger",
+			"version": "2.0.2",
+			"description": "Logger for redux",
+			"main": "lib/index.js",
+			"scripts": {
+				"lint": "eslint src",
+				"test": "npm run lint",
+				"clean": "rimraf build",
+				"deploy": "gh-pages -d examples/dist",
+				"build:lib": "babel src --out-dir lib",
+				"build:umd": "LIBRARY_NAME=reduxLogger webpack src/index.js dist/index.js --config webpack.config.production.js",
+				"build:umd:min": "LIBRARY_NAME=reduxLogger webpack -p src/index.js dist/index.min.js --config webpack.config.development.js",
+				"build": "npm run build:lib && npm run build:umd && npm run build:umd:min",
+				"prepublish": "npm run clean && npm run test && npm run build"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/fcomb/redux-logger.git"
+			},
+			"keywords": [
+				"redux",
+				"logger",
+				"redux-logger",
+				"redux",
+				"middleware"
+			],
+			"author": {
+				"name": "Eugene Rodionov",
+				"url": "https://github.com/theaqua"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/fcomb/redux-logger/issues"
+			},
+			"homepage": "https://github.com/fcomb/redux-logger#readme",
+			"devDependencies": {
+				"babel": "5.8.23",
+				"babel-core": "5.8.25",
+				"babel-eslint": "4.1.3",
+				"babel-loader": "5.3.2",
+				"babel-plugin-react-transform": "1.1.1",
+				"eslint": "1.6.0",
+				"eslint-config-airbnb": "0.1.0",
+				"eslint-plugin-react": "3.5.1",
+				"gh-pages": "0.4.0",
+				"rimraf": "2.4.3",
+				"webpack": "1.12.2"
+			},
+			"gitHead": "e98f93177d25b82615628dfe960fea9591825952",
+			"_id": "redux-logger@2.0.2",
+			"_shasum": "57cc132c1984549a883b90eafc9b6ce504765f0b",
+			"_from": ".",
+			"_npmVersion": "3.3.6",
+			"_nodeVersion": "4.1.1",
+			"_npmUser": {
+				"name": "theaqua",
+				"email": "npm@theaqua.im"
+			},
+			"dist": {
+				"shasum": "57cc132c1984549a883b90eafc9b6ce504765f0b",
+				"tarball": "https://registry.npmjs.org/redux-logger/-/redux-logger-2.0.2.tgz",
+				"integrity": "sha512-hLSQFh//1NCxoWfrkgWwni/p+LXAx51woKSOx66EPGNhpHtZtFgVkzLNNW5qTi5+MZAcs9uFYaGy9Q+19ZHEMw==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQCEvyKM9JVMg0cICnWrWejFf/J0MNMCf1IaJBLHn3t1kwIgPOaVvhP4oJ8ocRHvWKU2WxqAdFhdC4wg7nqZ3Mi86U8="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "theaqua",
+					"email": "npm@theaqua.im"
+				}
+			],
+			"directories": {},
+			"contributors": []
+		},
+		"2.0.3": {
+			"name": "redux-logger",
+			"version": "2.0.3",
+			"description": "Logger for redux",
+			"main": "lib/index.js",
+			"scripts": {
+				"lint": "eslint src",
+				"test": "npm run lint",
+				"clean": "rimraf build",
+				"build:lib": "babel src --out-dir lib",
+				"build:umd": "LIBRARY_NAME=reduxLogger webpack src/index.js dist/index.js --config webpack.config.production.js",
+				"build:umd:min": "LIBRARY_NAME=reduxLogger webpack -p src/index.js dist/index.min.js --config webpack.config.development.js",
+				"build": "npm run build:lib && npm run build:umd && npm run build:umd:min",
+				"prepublish": "npm run clean && npm run test && npm run build"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/fcomb/redux-logger.git"
+			},
+			"keywords": [
+				"redux",
+				"logger",
+				"redux-logger",
+				"redux",
+				"middleware"
+			],
+			"author": {
+				"name": "Eugene Rodionov",
+				"url": "https://github.com/theaqua"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/fcomb/redux-logger/issues"
+			},
+			"homepage": "https://github.com/fcomb/redux-logger#readme",
+			"devDependencies": {
+				"babel": "5.8.23",
+				"babel-core": "5.8.25",
+				"babel-eslint": "4.1.3",
+				"babel-loader": "5.3.2",
+				"babel-plugin-react-transform": "1.1.1",
+				"eslint": "1.6.0",
+				"eslint-config-airbnb": "0.1.0",
+				"eslint-plugin-react": "3.5.1",
+				"rimraf": "2.4.3",
+				"webpack": "1.12.2"
+			},
+			"gitHead": "f13c49945189005eaff5eb7afeaae0f4c7473412",
+			"_id": "redux-logger@2.0.3",
+			"_shasum": "7fd082eab7b04c2153b4688f30e109bdfacae878",
+			"_from": ".",
+			"_npmVersion": "3.3.6",
+			"_nodeVersion": "4.1.1",
+			"_npmUser": {
+				"name": "theaqua",
+				"email": "npm@theaqua.im"
+			},
+			"dist": {
+				"shasum": "7fd082eab7b04c2153b4688f30e109bdfacae878",
+				"tarball": "https://registry.npmjs.org/redux-logger/-/redux-logger-2.0.3.tgz",
+				"integrity": "sha512-89f5EFvRoU8uX2Fl5sN6+GAzxqTVZvRDXEubzgud19qPE+WGutRdWSZuidgh5/w3RKm/IPENZEe44gxa5iFgTQ==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIA5ZM/PsojDRqrj1pZuZ1qrizttqIuRP3qD4FPrLPVHgAiEA42qcGUNF7nBIBf4hw1PV0lidUGDNO0gkbzPtd6VtUBg="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "theaqua",
+					"email": "npm@theaqua.im"
+				}
+			],
+			"directories": {},
+			"contributors": []
+		},
+		"2.0.4": {
+			"name": "redux-logger",
+			"version": "2.0.4",
+			"description": "Logger for redux",
+			"main": "lib/index.js",
+			"scripts": {
+				"lint": "eslint src",
+				"test": "npm run lint",
+				"clean": "rimraf build",
+				"build:lib": "babel src --out-dir lib",
+				"build:umd": "LIBRARY_NAME=reduxLogger webpack src/index.js dist/index.js --config webpack.config.production.js",
+				"build:umd:min": "LIBRARY_NAME=reduxLogger webpack -p src/index.js dist/index.min.js --config webpack.config.development.js",
+				"build": "npm run build:lib && npm run build:umd && npm run build:umd:min",
+				"prepublish": "npm run clean && npm run test && npm run build"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/fcomb/redux-logger.git"
+			},
+			"keywords": [
+				"redux",
+				"logger",
+				"redux-logger",
+				"redux",
+				"middleware"
+			],
+			"author": {
+				"name": "Eugene Rodionov",
+				"url": "https://github.com/theaqua"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/fcomb/redux-logger/issues"
+			},
+			"homepage": "https://github.com/fcomb/redux-logger#readme",
+			"devDependencies": {
+				"babel": "5.8.23",
+				"babel-core": "5.8.25",
+				"babel-eslint": "4.1.3",
+				"babel-loader": "5.3.2",
+				"babel-plugin-react-transform": "1.1.1",
+				"eslint": "1.6.0",
+				"eslint-config-airbnb": "0.1.0",
+				"eslint-plugin-react": "3.5.1",
+				"rimraf": "2.4.3",
+				"webpack": "1.12.2"
+			},
+			"gitHead": "d1150a3b834a45de288af4611303ad30c31b1be9",
+			"_id": "redux-logger@2.0.4",
+			"_shasum": "e5f1a1963b47a5c5666967ae8323bba08fa915d3",
+			"_from": ".",
+			"_npmVersion": "3.3.6",
+			"_nodeVersion": "4.1.1",
+			"_npmUser": {
+				"name": "theaqua",
+				"email": "npm@theaqua.im"
+			},
+			"dist": {
+				"shasum": "e5f1a1963b47a5c5666967ae8323bba08fa915d3",
+				"tarball": "https://registry.npmjs.org/redux-logger/-/redux-logger-2.0.4.tgz",
+				"integrity": "sha512-0xvTWfjXwq4SIRzdYlYtU1exFlGgsijk0ZvxOZgxpZLK6j8HwfD5ZRWUub3FhnpgXnYPy9FZk80AE6CAG/QPZQ==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCICjK+9BgMSpQtOWdGalkZB+MNtDPPQl5t5lFG9W0oXl0AiEA+5GlOiW9wDUfVcSyQkkWD6vO/XxiNYIZwYqnDG5NIgg="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "theaqua",
+					"email": "npm@theaqua.im"
+				}
+			],
+			"directories": {},
+			"contributors": []
+		},
+		"2.0.5": {
+			"name": "redux-logger",
+			"version": "2.0.5",
+			"description": "Logger for redux",
+			"main": "lib/index.js",
+			"scripts": {
+				"lint": "$(npm bin)/eslint src",
+				"test": "npm run lint",
+				"clean": "$(npm bin)/rimraf dist lib",
+				"build:lib": "$(npm bin)/babel src --out-dir lib",
+				"build:umd": "LIBRARY_NAME=reduxLogger NODE_ENV=development $(npm bin)/webpack src/index.js dist/index.js --config webpack.build.js",
+				"build:umd:min": "LIBRARY_NAME=reduxLogger NODE_ENV=production $(npm bin)/webpack -p src/index.js dist/index.min.js --config webpack.build.js",
+				"build": "npm run build:lib && npm run build:umd && npm run build:umd:min",
+				"prepublish": "npm run clean && npm run test && npm run build"
+			},
+			"files": [
+				"dist",
+				"lib",
+				"src"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/fcomb/redux-logger.git"
+			},
+			"keywords": [
+				"redux",
+				"logger",
+				"redux-logger",
+				"redux",
+				"middleware"
+			],
+			"author": {
+				"name": "Eugene Rodionov",
+				"url": "https://github.com/theaqua"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/fcomb/redux-logger/issues"
+			},
+			"homepage": "https://github.com/fcomb/redux-logger#readme",
+			"devDependencies": {
+				"@dtrussia/eslint-config-dtrussia": "1.0.3",
+				"babel-cli": "6.3.13",
+				"babel-core": "6.3.13",
+				"babel-loader": "6.2.0",
+				"babel-preset-es2015": "6.3.13",
+				"babel-preset-react": "6.3.13",
+				"babel-preset-stage-0": "6.3.13",
+				"rimraf": "2.4.4",
+				"webpack": "1.12.9"
+			},
+			"gitHead": "4253d616dc250f3a8444d1de74575a4236d32487",
+			"_id": "redux-logger@2.0.5",
+			"_shasum": "da24c8ae34f7c15a994e684d531fae3dc55cdd33",
+			"_from": ".",
+			"_npmVersion": "3.3.12",
+			"_nodeVersion": "5.1.0",
+			"_npmUser": {
+				"name": "theaqua",
+				"email": "npm@theaqua.im"
+			},
+			"dist": {
+				"shasum": "da24c8ae34f7c15a994e684d531fae3dc55cdd33",
+				"tarball": "https://registry.npmjs.org/redux-logger/-/redux-logger-2.0.5.tgz",
+				"integrity": "sha512-dvaqQ6dcXiA1c8Jbdhk5eSj5CIoWhcrf7EsTo68v0F1tg7gfX+6i3XAWsHrkCR3cGCZmqkk9FDLHsiEckDcPqw==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQCYbJHZqvOmfAGkzOswHRUbsW94Osm18yFIy1PkwTUXCAIgJ2DLbXmGnUXP0676FkcdLJxMA6wmTn9t1JrFCF/vIHc="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "theaqua",
+					"email": "npm@theaqua.im"
+				},
+				{
+					"name": "toxic",
+					"email": "toxickg@openmailbox.org"
+				}
+			],
+			"directories": {},
+			"contributors": []
+		},
+		"2.1.0": {
+			"name": "redux-logger",
+			"version": "2.1.0",
+			"description": "Logger for redux",
+			"main": "lib/index.js",
+			"scripts": {
+				"lint": "$(npm bin)/eslint src",
+				"test": "npm run lint",
+				"clean": "$(npm bin)/rimraf dist lib",
+				"build:lib": "$(npm bin)/babel src --out-dir lib",
+				"build:umd": "LIBRARY_NAME=reduxLogger NODE_ENV=development $(npm bin)/webpack src/index.js dist/index.js --config webpack.build.js",
+				"build:umd:min": "LIBRARY_NAME=reduxLogger NODE_ENV=production $(npm bin)/webpack -p src/index.js dist/index.min.js --config webpack.build.js",
+				"build": "npm run build:lib && npm run build:umd && npm run build:umd:min",
+				"prepublish": "npm run clean && npm run test && npm run build"
+			},
+			"files": [
+				"dist",
+				"lib",
+				"src"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/fcomb/redux-logger.git"
+			},
+			"keywords": [
+				"redux",
+				"logger",
+				"redux-logger",
+				"redux",
+				"middleware"
+			],
+			"author": {
+				"name": "Eugene Rodionov",
+				"url": "https://github.com/theaqua"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/fcomb/redux-logger/issues"
+			},
+			"homepage": "https://github.com/fcomb/redux-logger#readme",
+			"devDependencies": {
+				"@dtrussia/eslint-config-dtrussia": "1.0.3",
+				"babel-cli": "6.3.13",
+				"babel-core": "6.3.13",
+				"babel-loader": "6.2.0",
+				"babel-preset-es2015": "6.3.13",
+				"babel-preset-react": "6.3.13",
+				"babel-preset-stage-0": "6.3.13",
+				"rimraf": "2.4.4",
+				"webpack": "1.12.9"
+			},
+			"gitHead": "4253d616dc250f3a8444d1de74575a4236d32487",
+			"_id": "redux-logger@2.1.0",
+			"_shasum": "6baa087492e7cda42a4364cfa5ccc5f2a88aa30d",
+			"_from": ".",
+			"_npmVersion": "3.3.12",
+			"_nodeVersion": "5.1.0",
+			"_npmUser": {
+				"name": "theaqua",
+				"email": "npm@theaqua.im"
+			},
+			"dist": {
+				"shasum": "6baa087492e7cda42a4364cfa5ccc5f2a88aa30d",
+				"tarball": "https://registry.npmjs.org/redux-logger/-/redux-logger-2.1.0.tgz",
+				"integrity": "sha512-7wlXgXm159nPXm3rpUHnq8EobiZkwOXgX3Sx2SpgvPXqFUiz7t3kFYoE//sqt5mBmoX+FuGyA3ApPBN+kMv04Q==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQC+iR86G9EECvt40vekyWcHVbkDcMUPIBslKi+alp4oZAIgZD3AxiWnrE2fx88F+cx1f+TxBYtZIc50qoJBrze+GuY="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "theaqua",
+					"email": "npm@theaqua.im"
+				},
+				{
+					"name": "toxic",
+					"email": "toxickg@openmailbox.org"
+				}
+			],
+			"directories": {},
+			"contributors": []
+		},
+		"2.1.1": {
+			"name": "redux-logger",
+			"version": "2.1.1",
+			"description": "Logger for redux",
+			"main": "lib/index.js",
+			"scripts": {
+				"lint": "$(npm bin)/eslint src",
+				"test": "npm run lint",
+				"clean": "$(npm bin)/rimraf dist lib",
+				"build:lib": "$(npm bin)/babel src --out-dir lib",
+				"build:umd": "LIBRARY_NAME=reduxLogger NODE_ENV=development $(npm bin)/webpack src/index.js dist/index.js --config webpack.build.js",
+				"build:umd:min": "LIBRARY_NAME=reduxLogger NODE_ENV=production $(npm bin)/webpack -p src/index.js dist/index.min.js --config webpack.build.js",
+				"build": "npm run build:lib && npm run build:umd && npm run build:umd:min",
+				"prepublish": "npm run clean && npm run test && npm run build"
+			},
+			"files": [
+				"dist",
+				"lib",
+				"src"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/fcomb/redux-logger.git"
+			},
+			"keywords": [
+				"redux",
+				"logger",
+				"redux-logger",
+				"redux",
+				"middleware"
+			],
+			"author": {
+				"name": "Eugene Rodionov",
+				"url": "https://github.com/theaqua"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/fcomb/redux-logger/issues"
+			},
+			"homepage": "https://github.com/fcomb/redux-logger#readme",
+			"devDependencies": {
+				"@dtrussia/eslint-config-dtrussia": "1.0.3",
+				"babel-cli": "6.3.13",
+				"babel-core": "6.3.13",
+				"babel-loader": "6.2.0",
+				"babel-preset-es2015": "6.3.13",
+				"babel-preset-react": "6.3.13",
+				"babel-preset-stage-0": "6.3.13",
+				"rimraf": "2.4.4",
+				"webpack": "1.12.9"
+			},
+			"gitHead": "4253d616dc250f3a8444d1de74575a4236d32487",
+			"_id": "redux-logger@2.1.1",
+			"_shasum": "fec7737e7f1feeb58857cec6e3f9ccdff6e18975",
+			"_from": ".",
+			"_npmVersion": "3.3.12",
+			"_nodeVersion": "5.1.0",
+			"_npmUser": {
+				"name": "theaqua",
+				"email": "npm@theaqua.im"
+			},
+			"dist": {
+				"shasum": "fec7737e7f1feeb58857cec6e3f9ccdff6e18975",
+				"tarball": "https://registry.npmjs.org/redux-logger/-/redux-logger-2.1.1.tgz",
+				"integrity": "sha512-rzmexQ8IhVj+bQmG9A+Z40q4V7JxqXfDjYyT56jB3In7qM8EifVB8HRmMRl2mDmDx5jP1m4SZQeKuHAH/wnWAg==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQD1W7+p+UR3xRLcqjYBolj51Cs8ciwLGjYdV7j610NXgwIgAUOcDD8r1N32G4IKslPDjFlJ07x63/cVn867a6hnp/s="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "theaqua",
+					"email": "npm@theaqua.im"
+				},
+				{
+					"name": "toxic",
+					"email": "toxickg@openmailbox.org"
+				}
+			],
+			"directories": {},
+			"contributors": []
+		},
+		"2.1.2": {
+			"name": "redux-logger",
+			"version": "2.1.2",
+			"description": "Logger for redux",
+			"main": "lib/index.js",
+			"scripts": {
+				"lint": "$(npm bin)/eslint src",
+				"test": "npm run lint",
+				"clean": "$(npm bin)/rimraf dist lib",
+				"build:lib": "$(npm bin)/babel src --out-dir lib",
+				"build:umd": "LIBRARY_NAME=reduxLogger NODE_ENV=development $(npm bin)/webpack src/index.js dist/index.js --config webpack.build.js",
+				"build:umd:min": "LIBRARY_NAME=reduxLogger NODE_ENV=production $(npm bin)/webpack -p src/index.js dist/index.min.js --config webpack.build.js",
+				"build": "npm run build:lib && npm run build:umd && npm run build:umd:min",
+				"prepublish": "npm run clean && npm run test && npm run build"
+			},
+			"files": [
+				"dist",
+				"lib",
+				"src"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/fcomb/redux-logger.git"
+			},
+			"keywords": [
+				"redux",
+				"logger",
+				"redux-logger",
+				"redux",
+				"middleware"
+			],
+			"author": {
+				"name": "Eugene Rodionov",
+				"url": "https://github.com/theaqua"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/fcomb/redux-logger/issues"
+			},
+			"homepage": "https://github.com/fcomb/redux-logger#readme",
+			"devDependencies": {
+				"@dtrussia/eslint-config-dtrussia": "1.0.3",
+				"babel-cli": "6.3.13",
+				"babel-core": "6.3.13",
+				"babel-loader": "6.2.0",
+				"babel-preset-es2015": "6.3.13",
+				"babel-preset-react": "6.3.13",
+				"babel-preset-stage-0": "6.3.13",
+				"rimraf": "2.4.4",
+				"webpack": "1.12.9"
+			},
+			"gitHead": "5b5209455c82f0448a83ad27b656e961ab0d926e",
+			"_id": "redux-logger@2.1.2",
+			"_shasum": "c4cae28c07fc6954ea6bf7d1635ec6e888abe56b",
+			"_from": ".",
+			"_npmVersion": "2.14.7",
+			"_nodeVersion": "4.2.0",
+			"_npmUser": {
+				"name": "theaqua",
+				"email": "npm@theaqua.im"
+			},
+			"dist": {
+				"shasum": "c4cae28c07fc6954ea6bf7d1635ec6e888abe56b",
+				"tarball": "https://registry.npmjs.org/redux-logger/-/redux-logger-2.1.2.tgz",
+				"integrity": "sha512-XSmG5+Tf7Q37W4xlaSMs5t+b+eeBMbRKVqX2X4MBYyLBYvUKnLxZG3e8s2xmD2JumIPJnl0r5cSCI0Qwj+MBHg==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIAvb8jhqTwREVuuaprzPdKtjH4q+3ZWzlCKY3zcstlxEAiEAiPRexzD7seCZ+we4pwhMD8bcJuke3zGofNyAKVGMICU="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "theaqua",
+					"email": "npm@theaqua.im"
+				},
+				{
+					"name": "toxic",
+					"email": "toxickg@openmailbox.org"
+				}
+			],
+			"directories": {},
+			"contributors": []
+		},
+		"2.1.3": {
+			"name": "redux-logger",
+			"version": "2.1.3",
+			"description": "Logger for redux",
+			"main": "lib/index.js",
+			"scripts": {
+				"lint": "$(npm bin)/eslint src",
+				"test": "npm run lint",
+				"clean": "$(npm bin)/rimraf dist lib",
+				"build:lib": "$(npm bin)/babel src --out-dir lib",
+				"build:umd": "LIBRARY_NAME=reduxLogger NODE_ENV=development $(npm bin)/webpack src/index.js dist/index.js --config webpack.build.js",
+				"build:umd:min": "LIBRARY_NAME=reduxLogger NODE_ENV=production $(npm bin)/webpack -p src/index.js dist/index.min.js --config webpack.build.js",
+				"build": "npm run build:lib && npm run build:umd && npm run build:umd:min",
+				"prepublish": "npm run clean && npm run test && npm run build"
+			},
+			"files": [
+				"dist",
+				"lib",
+				"src"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/fcomb/redux-logger.git"
+			},
+			"keywords": [
+				"redux",
+				"logger",
+				"redux-logger",
+				"redux",
+				"middleware"
+			],
+			"author": {
+				"name": "Eugene Rodionov",
+				"url": "https://github.com/theaqua"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/fcomb/redux-logger/issues"
+			},
+			"homepage": "https://github.com/fcomb/redux-logger#readme",
+			"devDependencies": {
+				"@dtrussia/eslint-config-dtrussia": "1.0.3",
+				"babel-cli": "6.3.13",
+				"babel-core": "6.3.13",
+				"babel-loader": "6.2.0",
+				"babel-plugin-add-module-exports": "0.1.1",
+				"babel-preset-es2015": "6.3.13",
+				"babel-preset-react": "6.3.13",
+				"babel-preset-stage-0": "6.3.13",
+				"rimraf": "2.4.4",
+				"webpack": "1.12.9"
+			},
+			"gitHead": "b304e64a35d2ea40952a2006032cc092a8891c4c",
+			"_id": "redux-logger@2.1.3",
+			"_shasum": "30a269a953500591c9cbb6f9c1eb53be41f15c47",
+			"_from": ".",
+			"_npmVersion": "2.14.7",
+			"_nodeVersion": "4.2.0",
+			"_npmUser": {
+				"name": "theaqua",
+				"email": "npm@theaqua.im"
+			},
+			"dist": {
+				"shasum": "30a269a953500591c9cbb6f9c1eb53be41f15c47",
+				"tarball": "https://registry.npmjs.org/redux-logger/-/redux-logger-2.1.3.tgz",
+				"integrity": "sha512-vTLu/UaO1BIx5LvLw6YRhrut2fi3/adqN0q35PRHHxn3JdtpmVOwkgnCeU8mWRquXnx+/3+gvSZOLyks1LKFZA==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIFny1FE5vWyeVYWAY2D1ouXfly4Jv+OlzvbM9fHRCEWsAiBL/MqU6Ud107WThwbFcsUhUwFBSp8vIGjmcPZPAbdPXA=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "theaqua",
+					"email": "npm@theaqua.im"
+				},
+				{
+					"name": "toxic",
+					"email": "toxickg@openmailbox.org"
+				}
+			],
+			"directories": {},
+			"contributors": []
+		},
+		"2.1.4": {
+			"name": "redux-logger",
+			"version": "2.1.4",
+			"description": "Logger for redux",
+			"main": "lib/index.js",
+			"scripts": {
+				"lint": "$(npm bin)/eslint src",
+				"test": "npm run lint",
+				"clean": "$(npm bin)/rimraf dist lib",
+				"build:lib": "$(npm bin)/babel src --out-dir lib",
+				"build:umd": "LIBRARY_NAME=reduxLogger NODE_ENV=development $(npm bin)/webpack src/index.js dist/index.js --config webpack.build.js",
+				"build:umd:min": "LIBRARY_NAME=reduxLogger NODE_ENV=production $(npm bin)/webpack -p src/index.js dist/index.min.js --config webpack.build.js",
+				"build": "npm run build:lib && npm run build:umd && npm run build:umd:min",
+				"prepublish": "npm run clean && npm run test && npm run build"
+			},
+			"files": [
+				"dist",
+				"lib",
+				"src"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/fcomb/redux-logger.git"
+			},
+			"keywords": [
+				"redux",
+				"logger",
+				"redux-logger",
+				"redux",
+				"middleware"
+			],
+			"author": {
+				"name": "Eugene Rodionov",
+				"url": "https://github.com/theaqua"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/fcomb/redux-logger/issues"
+			},
+			"homepage": "https://github.com/fcomb/redux-logger#readme",
+			"devDependencies": {
+				"@dtrussia/eslint-config-dtrussia": "1.0.3",
+				"babel-cli": "6.3.13",
+				"babel-core": "6.3.13",
+				"babel-loader": "6.2.0",
+				"babel-plugin-add-module-exports": "0.1.1",
+				"babel-preset-es2015": "6.3.13",
+				"babel-preset-react": "6.3.13",
+				"babel-preset-stage-0": "6.3.13",
+				"rimraf": "2.4.4",
+				"webpack": "1.12.9"
+			},
+			"gitHead": "154109f8f15aff61e22aeb5255832f9eb967f39e",
+			"_id": "redux-logger@2.1.4",
+			"_shasum": "41fbae19fe7f357d062e8ec134022dfbbb164066",
+			"_from": ".",
+			"_npmVersion": "2.14.7",
+			"_nodeVersion": "4.2.0",
+			"_npmUser": {
+				"name": "theaqua",
+				"email": "npm@theaqua.im"
+			},
+			"dist": {
+				"shasum": "41fbae19fe7f357d062e8ec134022dfbbb164066",
+				"tarball": "https://registry.npmjs.org/redux-logger/-/redux-logger-2.1.4.tgz",
+				"integrity": "sha512-BllaTt6D4xbWAcGlCt3xwqmx8DJVC2gmT36su3nOrsmg2teTqX/ZOItjWgkfbxaPvlbNg+1uZ2EOtjW5ZhtZJg==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIG+BNZJ6E5NSARDC7sSpcVek/DANZi5SyVuoF/Fv8zUYAiBHfCnhfdlekv6CVD/XepnZHk+KDpL6XpP7lzZQ0SylIg=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "theaqua",
+					"email": "npm@theaqua.im"
+				},
+				{
+					"name": "toxic",
+					"email": "toxickg@openmailbox.org"
+				}
+			],
+			"directories": {},
+			"contributors": []
+		},
+		"2.2.0": {
+			"name": "redux-logger",
+			"version": "2.2.0",
+			"description": "Logger for redux",
+			"main": "lib/index.js",
+			"scripts": {
+				"lint": "$(npm bin)/eslint src",
+				"test": "npm run lint",
+				"clean": "$(npm bin)/rimraf dist lib",
+				"build:lib": "$(npm bin)/babel src --out-dir lib",
+				"build:umd": "LIBRARY_NAME=reduxLogger NODE_ENV=development $(npm bin)/webpack src/index.js dist/index.js --config webpack.build.js",
+				"build:umd:min": "LIBRARY_NAME=reduxLogger NODE_ENV=production $(npm bin)/webpack -p src/index.js dist/index.min.js --config webpack.build.js",
+				"build": "npm run build:lib && npm run build:umd && npm run build:umd:min",
+				"prepublish": "npm run clean && npm run test && npm run build"
+			},
+			"files": [
+				"dist",
+				"lib",
+				"src"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/fcomb/redux-logger.git"
+			},
+			"keywords": [
+				"redux",
+				"logger",
+				"redux-logger",
+				"redux",
+				"middleware"
+			],
+			"author": {
+				"name": "Eugene Rodionov",
+				"url": "https://github.com/theaqua"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/fcomb/redux-logger/issues"
+			},
+			"homepage": "https://github.com/fcomb/redux-logger#readme",
+			"devDependencies": {
+				"@dtrussia/eslint-config-dtrussia": "1.0.3",
+				"babel-cli": "6.3.13",
+				"babel-core": "6.3.13",
+				"babel-loader": "6.2.0",
+				"babel-plugin-add-module-exports": "0.1.1",
+				"babel-preset-es2015": "6.3.13",
+				"babel-preset-react": "6.3.13",
+				"babel-preset-stage-0": "6.3.13",
+				"rimraf": "2.4.4",
+				"webpack": "1.12.9"
+			},
+			"gitHead": "79007f71e9d4677ed64f96b4bdd4ab4f1c155853",
+			"_id": "redux-logger@2.2.0",
+			"_shasum": "7ac5c82e4e888c45e0301b65563bd250ba1a4028",
+			"_from": ".",
+			"_npmVersion": "2.14.7",
+			"_nodeVersion": "4.2.0",
+			"_npmUser": {
+				"name": "theaqua",
+				"email": "npm@theaqua.im"
+			},
+			"dist": {
+				"shasum": "7ac5c82e4e888c45e0301b65563bd250ba1a4028",
+				"tarball": "https://registry.npmjs.org/redux-logger/-/redux-logger-2.2.0.tgz",
+				"integrity": "sha512-avsP4l2ioGWfL1Md7PZBX+H5MFGMrHZoUfzceD6H2v1dOU/zVKrjBIUjt1r+LgZTnSs+I60XJcDmMbRtTSV/IA==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIH+q366246HN8YESgNN8aqiJzLjsLg8qRodIBMEWhJs1AiBo00LYWxI6JxD9T0MfPVAm/9qj26MgKQM+FUWqZKbaqg=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "theaqua",
+					"email": "npm@theaqua.im"
+				},
+				{
+					"name": "toxic",
+					"email": "toxickg@openmailbox.org"
+				}
+			],
+			"directories": {},
+			"contributors": []
+		},
+		"2.2.1": {
+			"name": "redux-logger",
+			"version": "2.2.1",
+			"description": "Logger for redux",
+			"main": "lib/index.js",
+			"scripts": {
+				"lint": "$(npm bin)/eslint src",
+				"test": "npm run lint",
+				"clean": "$(npm bin)/rimraf dist lib",
+				"build:lib": "$(npm bin)/babel src --out-dir lib",
+				"build:umd": "LIBRARY_NAME=reduxLogger NODE_ENV=development $(npm bin)/webpack src/index.js dist/index.js --config webpack.build.js",
+				"build:umd:min": "LIBRARY_NAME=reduxLogger NODE_ENV=production $(npm bin)/webpack -p src/index.js dist/index.min.js --config webpack.build.js",
+				"build": "npm run build:lib && npm run build:umd && npm run build:umd:min",
+				"prepublish": "npm run clean && npm run test && npm run build"
+			},
+			"files": [
+				"dist",
+				"lib",
+				"src"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/fcomb/redux-logger.git"
+			},
+			"keywords": [
+				"redux",
+				"logger",
+				"redux-logger",
+				"redux",
+				"middleware"
+			],
+			"author": {
+				"name": "Eugene Rodionov",
+				"url": "https://github.com/theaqua"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/fcomb/redux-logger/issues"
+			},
+			"homepage": "https://github.com/fcomb/redux-logger#readme",
+			"devDependencies": {
+				"@dtrussia/eslint-config-dtrussia": "1.0.3",
+				"babel-cli": "6.3.13",
+				"babel-core": "6.3.13",
+				"babel-loader": "6.2.0",
+				"babel-plugin-add-module-exports": "0.1.1",
+				"babel-preset-es2015": "6.3.13",
+				"babel-preset-react": "6.3.13",
+				"babel-preset-stage-0": "6.3.13",
+				"rimraf": "2.4.4",
+				"webpack": "1.12.9"
+			},
+			"gitHead": "5d9738b761b001161162d2a53595b0359d72dd5d",
+			"_id": "redux-logger@2.2.1",
+			"_shasum": "f57dd1b3f48c0f48d4ad58ef8c026f753d6cb06c",
+			"_from": ".",
+			"_npmVersion": "2.14.7",
+			"_nodeVersion": "4.2.0",
+			"_npmUser": {
+				"name": "theaqua",
+				"email": "npm@theaqua.im"
+			},
+			"dist": {
+				"shasum": "f57dd1b3f48c0f48d4ad58ef8c026f753d6cb06c",
+				"tarball": "https://registry.npmjs.org/redux-logger/-/redux-logger-2.2.1.tgz",
+				"integrity": "sha512-lLFvXLJ8OLI0vcjiaI5ldtKLMR9E/liXow9SNXs7R8H6ExdAGiM7odAaQe6STQXAia5JRrgprBgptgx3B8aHWA==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDhnzYwliXl7dHMQdpnygE65zCUYzeJIqXQydaX2VUfCwIgbcBU8PlEbk5fS1Kwx/9Wpq7S47axW8yVho4I1V3xws4="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "theaqua",
+					"email": "npm@theaqua.im"
+				},
+				{
+					"name": "toxic",
+					"email": "toxickg@openmailbox.org"
+				}
+			],
+			"directories": {},
+			"contributors": []
+		},
+		"2.3.0": {
+			"name": "redux-logger",
+			"version": "2.3.0",
+			"description": "Logger for redux",
+			"main": "lib/index.js",
+			"scripts": {
+				"lint": "$(npm bin)/eslint src",
+				"test": "npm run lint",
+				"clean": "$(npm bin)/rimraf dist lib",
+				"build:lib": "$(npm bin)/babel src --out-dir lib",
+				"build:umd": "LIBRARY_NAME=reduxLogger NODE_ENV=development $(npm bin)/webpack src/index.js dist/index.js --config webpack.build.js",
+				"build:umd:min": "LIBRARY_NAME=reduxLogger NODE_ENV=production $(npm bin)/webpack -p src/index.js dist/index.min.js --config webpack.build.js",
+				"build": "npm run build:lib && npm run build:umd && npm run build:umd:min",
+				"prepublish": "npm run clean && npm run test && npm run build"
+			},
+			"files": [
+				"dist",
+				"lib",
+				"src"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/fcomb/redux-logger.git"
+			},
+			"keywords": [
+				"redux",
+				"logger",
+				"redux-logger",
+				"redux",
+				"middleware"
+			],
+			"author": {
+				"name": "Eugene Rodionov",
+				"url": "https://github.com/theaqua"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/fcomb/redux-logger/issues"
+			},
+			"homepage": "https://github.com/fcomb/redux-logger#readme",
+			"devDependencies": {
+				"@dtrussia/eslint-config-dtrussia": "1.0.3",
+				"babel-cli": "6.3.13",
+				"babel-core": "6.3.13",
+				"babel-loader": "6.2.0",
+				"babel-plugin-add-module-exports": "0.1.1",
+				"babel-preset-es2015": "6.3.13",
+				"babel-preset-react": "6.3.13",
+				"babel-preset-stage-0": "6.3.13",
+				"rimraf": "2.4.4",
+				"webpack": "1.12.9"
+			},
+			"gitHead": "f5e3d28ef52a854da3fd1967af125353b0185834",
+			"_id": "redux-logger@2.3.0",
+			"_shasum": "62f1c65d9ecc4b3822ed99d442779e9ce2e73c3c",
+			"_from": ".",
+			"_npmVersion": "2.14.7",
+			"_nodeVersion": "4.2.0",
+			"_npmUser": {
+				"name": "theaqua",
+				"email": "npm@theaqua.im"
+			},
+			"dist": {
+				"shasum": "62f1c65d9ecc4b3822ed99d442779e9ce2e73c3c",
+				"tarball": "https://registry.npmjs.org/redux-logger/-/redux-logger-2.3.0.tgz",
+				"integrity": "sha512-84jqAbDqyq6nnnmeIne/p5we/rwdjYuAScTwsjh56l8hj71y1ssnZwZfEss87MFEQyDRCpVV45WHvQoShYUFDQ==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQD4TzN7N5ePKQPB+uBpjcXH2DL73oyqMJDnKHr3K5gygAIhALO2IAN2+p9DRDtbyhJjln2QlBluMyk3E4a6+6NIrKYg"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "theaqua",
+					"email": "npm@theaqua.im"
+				},
+				{
+					"name": "toxic",
+					"email": "toxickg@openmailbox.org"
+				}
+			],
+			"directories": {},
+			"contributors": []
+		},
+		"2.3.1": {
+			"name": "redux-logger",
+			"version": "2.3.1",
+			"description": "Logger for redux",
+			"main": "lib/index.js",
+			"scripts": {
+				"lint": "$(npm bin)/eslint src",
+				"test": "npm run lint",
+				"clean": "$(npm bin)/rimraf dist lib",
+				"build:lib": "$(npm bin)/babel src --out-dir lib",
+				"build:umd": "LIBRARY_NAME=reduxLogger NODE_ENV=development $(npm bin)/webpack src/index.js dist/index.js --config webpack.build.js",
+				"build:umd:min": "LIBRARY_NAME=reduxLogger NODE_ENV=production $(npm bin)/webpack -p src/index.js dist/index.min.js --config webpack.build.js",
+				"build": "npm run build:lib && npm run build:umd && npm run build:umd:min",
+				"prepublish": "npm run clean && npm run test && npm run build"
+			},
+			"files": [
+				"dist",
+				"lib",
+				"src"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/fcomb/redux-logger.git"
+			},
+			"keywords": [
+				"redux",
+				"logger",
+				"redux-logger",
+				"redux",
+				"middleware"
+			],
+			"author": {
+				"name": "Eugene Rodionov",
+				"url": "https://github.com/theaqua"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/fcomb/redux-logger/issues"
+			},
+			"homepage": "https://github.com/fcomb/redux-logger#readme",
+			"devDependencies": {
+				"@dtrussia/eslint-config-dtrussia": "1.0.3",
+				"babel-cli": "6.3.13",
+				"babel-core": "6.3.13",
+				"babel-loader": "6.2.0",
+				"babel-plugin-add-module-exports": "0.1.1",
+				"babel-preset-es2015": "6.3.13",
+				"babel-preset-react": "6.3.13",
+				"babel-preset-stage-0": "6.3.13",
+				"rimraf": "2.4.4",
+				"webpack": "1.12.9"
+			},
+			"gitHead": "a76522ebd0c4ad0a3ebeceabc1a272abd295e281",
+			"_id": "redux-logger@2.3.1",
+			"_shasum": "cdd3ba5ff8c621409532e065b31d11ecb32f7ddb",
+			"_from": ".",
+			"_npmVersion": "2.14.7",
+			"_nodeVersion": "4.2.0",
+			"_npmUser": {
+				"name": "theaqua",
+				"email": "npm@theaqua.im"
+			},
+			"dist": {
+				"shasum": "cdd3ba5ff8c621409532e065b31d11ecb32f7ddb",
+				"tarball": "https://registry.npmjs.org/redux-logger/-/redux-logger-2.3.1.tgz",
+				"integrity": "sha512-s4i6Fe61yNteRur8MOC7+dSP/6TMLzWIK+ofWzLpRM7z0rLxa2Dibb4ygzNU66heuRG0XMVQJicqqY3vgQJBdg==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIGe+OvQoN5K26KNuPrRyBb6gu6qp/dnK8sQaUQmSJQbIAiBPIMqw6KgJUL4t8zSYhXbOVlPwVs+RapkD/49oreF+kQ=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "theaqua",
+					"email": "npm@theaqua.im"
+				},
+				{
+					"name": "toxic",
+					"email": "toxickg@openmailbox.org"
+				}
+			],
+			"directories": {},
+			"contributors": []
+		},
+		"2.3.2": {
+			"name": "redux-logger",
+			"version": "2.3.2",
+			"description": "Logger for redux",
+			"main": "lib/index.js",
+			"scripts": {
+				"lint": "$(npm bin)/eslint src",
+				"test": "npm run lint",
+				"clean": "$(npm bin)/rimraf dist lib",
+				"build:lib": "$(npm bin)/babel src --out-dir lib",
+				"build:umd": "LIBRARY_NAME=reduxLogger NODE_ENV=development $(npm bin)/webpack src/index.js dist/index.js --config webpack.build.js",
+				"build:umd:min": "LIBRARY_NAME=reduxLogger NODE_ENV=production $(npm bin)/webpack -p src/index.js dist/index.min.js --config webpack.build.js",
+				"build": "npm run build:lib && npm run build:umd && npm run build:umd:min",
+				"prepublish": "npm run clean && npm run test && npm run build"
+			},
+			"files": [
+				"dist",
+				"lib",
+				"src"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/fcomb/redux-logger.git"
+			},
+			"keywords": [
+				"redux",
+				"logger",
+				"redux-logger",
+				"redux",
+				"middleware"
+			],
+			"author": {
+				"name": "Eugene Rodionov",
+				"url": "https://github.com/theaqua"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/fcomb/redux-logger/issues"
+			},
+			"homepage": "https://github.com/fcomb/redux-logger#readme",
+			"devDependencies": {
+				"@dtrussia/eslint-config-dtrussia": "1.0.3",
+				"babel-cli": "6.3.13",
+				"babel-core": "6.3.13",
+				"babel-loader": "6.2.0",
+				"babel-plugin-add-module-exports": "0.1.1",
+				"babel-preset-es2015": "6.3.13",
+				"babel-preset-react": "6.3.13",
+				"babel-preset-stage-0": "6.3.13",
+				"rimraf": "2.4.4",
+				"webpack": "1.12.9"
+			},
+			"gitHead": "0183eabba53ac38330ceb1c90a7960b3e16a5e6b",
+			"_id": "redux-logger@2.3.2",
+			"_shasum": "75c492c75520af02cb441642e8852e8ee2c5239b",
+			"_from": ".",
+			"_npmVersion": "2.14.7",
+			"_nodeVersion": "4.2.0",
+			"_npmUser": {
+				"name": "theaqua",
+				"email": "npm@theaqua.im"
+			},
+			"dist": {
+				"shasum": "75c492c75520af02cb441642e8852e8ee2c5239b",
+				"tarball": "https://registry.npmjs.org/redux-logger/-/redux-logger-2.3.2.tgz",
+				"integrity": "sha512-XjV/0YGT2AAgTQmoI56WhwtrGrPTkxAerJdlL7o+FEVI6pSt6nw/4YjPRIltU75D3JxWEferthVNhVNJ6/SGEQ==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIBrKV/WDZWHyV0xI1owbioawVYdsKu9igF9mUMqHDw7qAiACfTqTlImv2KdX0JSic3FySRDWAVIoB59Q5RMUrya9AA=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "theaqua",
+					"email": "npm@theaqua.im"
+				},
+				{
+					"name": "toxic",
+					"email": "toxickg@openmailbox.org"
+				}
+			],
+			"directories": {},
+			"contributors": []
+		},
+		"2.4.0": {
+			"name": "redux-logger",
+			"version": "2.4.0",
+			"description": "Logger for redux",
+			"main": "lib/index.js",
+			"scripts": {
+				"lint": "$(npm bin)/eslint src",
+				"test": "npm run lint",
+				"clean": "$(npm bin)/rimraf dist lib",
+				"build:lib": "$(npm bin)/babel src --out-dir lib",
+				"build:umd": "LIBRARY_NAME=reduxLogger NODE_ENV=development $(npm bin)/webpack src/index.js dist/index.js --config webpack.build.js",
+				"build:umd:min": "LIBRARY_NAME=reduxLogger NODE_ENV=production $(npm bin)/webpack -p src/index.js dist/index.min.js --config webpack.build.js",
+				"build": "npm run build:lib && npm run build:umd && npm run build:umd:min",
+				"prepublish": "npm run clean && npm run test && npm run build"
+			},
+			"files": [
+				"dist",
+				"lib",
+				"src"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/fcomb/redux-logger.git"
+			},
+			"keywords": [
+				"redux",
+				"logger",
+				"redux-logger",
+				"redux",
+				"middleware"
+			],
+			"author": {
+				"name": "Eugene Rodionov",
+				"url": "https://github.com/theaqua"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/fcomb/redux-logger/issues"
+			},
+			"homepage": "https://github.com/fcomb/redux-logger#readme",
+			"devDependencies": {
+				"@dtrussia/eslint-config-dtrussia": "1.0.3",
+				"babel-cli": "6.3.13",
+				"babel-core": "6.3.13",
+				"babel-loader": "6.2.0",
+				"babel-plugin-add-module-exports": "0.1.1",
+				"babel-preset-es2015": "6.3.13",
+				"babel-preset-react": "6.3.13",
+				"babel-preset-stage-0": "6.3.13",
+				"rimraf": "2.4.4",
+				"webpack": "1.12.9"
+			},
+			"gitHead": "df8a04ec9f22c403c0bc711f1df3015edf29bb24",
+			"_id": "redux-logger@2.4.0",
+			"_shasum": "2586fcfc85cd0376a1494f23576d9d7f7d4fb3bd",
+			"_from": ".",
+			"_npmVersion": "2.14.7",
+			"_nodeVersion": "4.2.0",
+			"_npmUser": {
+				"name": "theaqua",
+				"email": "npm@theaqua.im"
+			},
+			"dist": {
+				"shasum": "2586fcfc85cd0376a1494f23576d9d7f7d4fb3bd",
+				"tarball": "https://registry.npmjs.org/redux-logger/-/redux-logger-2.4.0.tgz",
+				"integrity": "sha512-3eR15hWurez5c+yEVwjP5RiOzbrpMGshSEmQuSg33IZwyxlAm+9zmitx98kaHhFUuqJ4/MtJ278HJ4q7vtnyQg==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIG/Q/s5l0Q/HqDJg66M4Z35Q820rBOo852A0JTR3N2XlAiEAgVvKvW1ra2dLezxYWEyebMANFO1LRCEsuawsd2aZrTQ="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "theaqua",
+					"email": "npm@theaqua.im"
+				},
+				{
+					"name": "toxic",
+					"email": "toxickg@openmailbox.org"
+				}
+			],
+			"directories": {},
+			"contributors": []
+		},
+		"2.5.0": {
+			"name": "redux-logger",
+			"version": "2.5.0",
+			"description": "Logger for redux",
+			"main": "lib/index.js",
+			"scripts": {
+				"lint": "$(npm bin)/eslint src",
+				"test": "npm run lint",
+				"clean": "$(npm bin)/rimraf dist lib",
+				"build:lib": "$(npm bin)/babel src --out-dir lib",
+				"build:umd": "LIBRARY_NAME=reduxLogger NODE_ENV=development $(npm bin)/webpack src/index.js dist/index.js --config webpack.build.js",
+				"build:umd:min": "LIBRARY_NAME=reduxLogger NODE_ENV=production $(npm bin)/webpack -p src/index.js dist/index.min.js --config webpack.build.js",
+				"build": "npm run build:lib && npm run build:umd && npm run build:umd:min",
+				"prepublish": "npm run clean && npm run test && npm run build"
+			},
+			"files": [
+				"dist",
+				"lib",
+				"src"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/fcomb/redux-logger.git"
+			},
+			"keywords": [
+				"redux",
+				"logger",
+				"redux-logger",
+				"redux",
+				"middleware"
+			],
+			"author": {
+				"name": "Eugene Rodionov",
+				"url": "https://github.com/theaqua"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/fcomb/redux-logger/issues"
+			},
+			"homepage": "https://github.com/fcomb/redux-logger#readme",
+			"devDependencies": {
+				"@dtrussia/eslint-config-dtrussia": "1.0.3",
+				"babel-cli": "6.3.13",
+				"babel-core": "6.3.13",
+				"babel-loader": "6.2.0",
+				"babel-plugin-add-module-exports": "0.1.1",
+				"babel-preset-es2015": "6.3.13",
+				"babel-preset-react": "6.3.13",
+				"babel-preset-stage-0": "6.3.13",
+				"rimraf": "2.4.4",
+				"webpack": "1.12.9"
+			},
+			"gitHead": "3c1efd9f174a7e5774b9f80f0f415b28a6a4484b",
+			"_id": "redux-logger@2.5.0",
+			"_shasum": "cb7c0bb9b72d70edd95db7aae08989d3dbde70d9",
+			"_from": ".",
+			"_npmVersion": "2.14.7",
+			"_nodeVersion": "4.2.0",
+			"_npmUser": {
+				"name": "theaqua",
+				"email": "npm@theaqua.im"
+			},
+			"dist": {
+				"shasum": "cb7c0bb9b72d70edd95db7aae08989d3dbde70d9",
+				"tarball": "https://registry.npmjs.org/redux-logger/-/redux-logger-2.5.0.tgz",
+				"integrity": "sha512-YXQZ6l7lkaknld/Y89EBkBeXWcPRev/s3i/kqMa3uIx5A9Y2IU911TgYIqRdw22kVb88KRC/THsN2d6GFAxHIg==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIAykTGrpl6np+Dk3dQ+bYXjE7nGdP+WZP3IBL5z31X7iAiEAvUN+rF6A+WgOm3mQj4fil8cf/ODEZKS3VbDmJ3wBn5k="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "theaqua",
+					"email": "npm@theaqua.im"
+				},
+				{
+					"name": "toxic",
+					"email": "toxickg@openmailbox.org"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-5-east.internal.npmjs.com",
+				"tmp": "tmp/redux-logger-2.5.0.tgz_1454532389830_0.9714609130751342"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"2.5.1": {
+			"name": "redux-logger",
+			"version": "2.5.1",
+			"description": "Logger for redux",
+			"main": "lib/index.js",
+			"scripts": {
+				"lint": "$(npm bin)/eslint src",
+				"test": "npm run lint",
+				"clean": "$(npm bin)/rimraf dist lib",
+				"build:lib": "$(npm bin)/babel src --out-dir lib",
+				"build:umd": "LIBRARY_NAME=reduxLogger NODE_ENV=development $(npm bin)/webpack src/index.js dist/index.js --config webpack.build.js",
+				"build:umd:min": "LIBRARY_NAME=reduxLogger NODE_ENV=production $(npm bin)/webpack -p src/index.js dist/index.min.js --config webpack.build.js",
+				"build": "npm run build:lib && npm run build:umd && npm run build:umd:min",
+				"prepublish": "npm run clean && npm run test && npm run build"
+			},
+			"files": [
+				"dist",
+				"lib",
+				"src"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/fcomb/redux-logger.git"
+			},
+			"keywords": [
+				"redux",
+				"logger",
+				"redux-logger",
+				"redux",
+				"middleware"
+			],
+			"author": {
+				"name": "Eugene Rodionov",
+				"url": "https://github.com/theaqua"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/fcomb/redux-logger/issues"
+			},
+			"homepage": "https://github.com/fcomb/redux-logger#readme",
+			"devDependencies": {
+				"@dtrussia/eslint-config-dtrussia": "1.0.3",
+				"babel-cli": "6.3.13",
+				"babel-core": "6.3.13",
+				"babel-loader": "6.2.0",
+				"babel-plugin-add-module-exports": "0.1.1",
+				"babel-preset-es2015": "6.3.13",
+				"babel-preset-react": "6.3.13",
+				"babel-preset-stage-0": "6.3.13",
+				"rimraf": "2.4.4",
+				"webpack": "1.12.9"
+			},
+			"gitHead": "55763fac62d4a0538b4ec3d4fcd20f9ba5c185d2",
+			"_id": "redux-logger@2.5.1",
+			"_shasum": "d5f50f14a5c4c3f0ff1982aa346dec94bc97d1bb",
+			"_from": ".",
+			"_npmVersion": "2.14.7",
+			"_nodeVersion": "4.2.0",
+			"_npmUser": {
+				"name": "theaqua",
+				"email": "npm@theaqua.im"
+			},
+			"dist": {
+				"shasum": "d5f50f14a5c4c3f0ff1982aa346dec94bc97d1bb",
+				"tarball": "https://registry.npmjs.org/redux-logger/-/redux-logger-2.5.1.tgz",
+				"integrity": "sha512-GzIu1x7n6RNfZFrdgj+34P/hetkfwPjcIfLNXg6RQrL3uEQbYjYKc01a/whY/f+KTBoipccHv3RALR5hZXsvDg==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQCzrq89U66lUC7vnlRmIYZUFpLk6Ri0gJAlzfn3QwXpIgIgNRk7lDWjD9OdlhyBc28+LlDle6kbxr8qEmeyCFGKCPY="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "theaqua",
+					"email": "npm@theaqua.im"
+				},
+				{
+					"name": "toxic",
+					"email": "toxickg@openmailbox.org"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-9-west.internal.npmjs.com",
+				"tmp": "tmp/redux-logger-2.5.1.tgz_1455181789056_0.21220445958897471"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"2.5.2": {
+			"name": "redux-logger",
+			"version": "2.5.2",
+			"description": "Logger for redux",
+			"main": "lib/index.js",
+			"scripts": {
+				"lint": "$(npm bin)/eslint src",
+				"test": "npm run lint",
+				"clean": "$(npm bin)/rimraf dist lib",
+				"build:lib": "$(npm bin)/babel src --out-dir lib",
+				"build:umd": "LIBRARY_NAME=reduxLogger NODE_ENV=development $(npm bin)/webpack src/index.js dist/index.js --config webpack.build.js",
+				"build:umd:min": "LIBRARY_NAME=reduxLogger NODE_ENV=production $(npm bin)/webpack -p src/index.js dist/index.min.js --config webpack.build.js",
+				"build": "npm run build:lib && npm run build:umd && npm run build:umd:min",
+				"prepublish": "npm run clean && npm run test && npm run build"
+			},
+			"files": [
+				"dist",
+				"lib",
+				"src"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/fcomb/redux-logger.git"
+			},
+			"keywords": [
+				"redux",
+				"logger",
+				"redux-logger",
+				"redux",
+				"middleware"
+			],
+			"author": {
+				"name": "Eugene Rodionov",
+				"url": "https://github.com/theaqua"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/fcomb/redux-logger/issues"
+			},
+			"homepage": "https://github.com/fcomb/redux-logger#readme",
+			"devDependencies": {
+				"@dtrussia/eslint-config-dtrussia": "1.0.3",
+				"babel-cli": "6.3.13",
+				"babel-core": "6.3.13",
+				"babel-loader": "6.2.0",
+				"babel-plugin-add-module-exports": "0.1.1",
+				"babel-preset-es2015": "6.3.13",
+				"babel-preset-react": "6.3.13",
+				"babel-preset-stage-0": "6.3.13",
+				"rimraf": "2.4.4",
+				"webpack": "1.12.9"
+			},
+			"gitHead": "ca4a872f8d955527a53f14eee54746fdecb2c2f6",
+			"_id": "redux-logger@2.5.2",
+			"_shasum": "7831a6dbad6fb8b9a523585aca03812f29285ab8",
+			"_from": ".",
+			"_npmVersion": "2.14.7",
+			"_nodeVersion": "4.2.0",
+			"_npmUser": {
+				"name": "theaqua",
+				"email": "npm@theaqua.im"
+			},
+			"dist": {
+				"shasum": "7831a6dbad6fb8b9a523585aca03812f29285ab8",
+				"tarball": "https://registry.npmjs.org/redux-logger/-/redux-logger-2.5.2.tgz",
+				"integrity": "sha512-ctcWY5PhCWuD9kacDt+4/eqnPMNpkugUntS409jwyXJy68gx1fsjeztXFwxWHhJxTynp4DKSzPJiTu9x8oXIZg==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIA8D92h0qNv/gRwFghQ+3us4ohuqSsZ43bHnkv9JJAVcAiBF2uMX3Mw/VB+aThLE9+frxc9D/jjQOOKEofmHr5kZEQ=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "theaqua",
+					"email": "npm@theaqua.im"
+				},
+				{
+					"name": "toxic",
+					"email": "toxickg@openmailbox.org"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-9-west.internal.npmjs.com",
+				"tmp": "tmp/redux-logger-2.5.2.tgz_1455185656534_0.4090017529670149"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"2.6.0": {
+			"name": "redux-logger",
+			"version": "2.6.0",
+			"description": "Logger for redux",
+			"main": "lib/index.js",
+			"scripts": {
+				"lint": "$(npm bin)/eslint src",
+				"test": "npm run lint",
+				"clean": "$(npm bin)/rimraf dist lib",
+				"build:lib": "$(npm bin)/babel src --out-dir lib",
+				"build:umd": "LIBRARY_NAME=reduxLogger NODE_ENV=development $(npm bin)/webpack src/index.js dist/index.js --config webpack.build.js",
+				"build:umd:min": "LIBRARY_NAME=reduxLogger NODE_ENV=production $(npm bin)/webpack -p src/index.js dist/index.min.js --config webpack.build.js",
+				"build": "npm run build:lib && npm run build:umd && npm run build:umd:min",
+				"prepublish": "npm run clean && npm run test && npm run build"
+			},
+			"files": [
+				"dist",
+				"lib",
+				"src"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/fcomb/redux-logger.git"
+			},
+			"keywords": [
+				"redux",
+				"logger",
+				"redux-logger",
+				"redux",
+				"middleware"
+			],
+			"author": {
+				"name": "Eugene Rodionov",
+				"url": "https://github.com/theaqua"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/fcomb/redux-logger/issues"
+			},
+			"homepage": "https://github.com/fcomb/redux-logger#readme",
+			"devDependencies": {
+				"@dtrussia/eslint-config-dtrussia": "1.0.3",
+				"babel-cli": "6.3.13",
+				"babel-core": "6.3.13",
+				"babel-loader": "6.2.0",
+				"babel-plugin-add-module-exports": "0.1.1",
+				"babel-preset-es2015": "6.3.13",
+				"babel-preset-react": "6.3.13",
+				"babel-preset-stage-0": "6.3.13",
+				"rimraf": "2.4.4",
+				"webpack": "1.12.9"
+			},
+			"gitHead": "7f944901b174bc2e7e738996b41f1c2a6365f6af",
+			"_id": "redux-logger@2.6.0",
+			"_shasum": "8cae41dcec40f4089b0bf3dcb9f7d0081d4d1e1c",
+			"_from": ".",
+			"_npmVersion": "2.14.7",
+			"_nodeVersion": "4.2.0",
+			"_npmUser": {
+				"name": "theaqua",
+				"email": "npm@theaqua.im"
+			},
+			"dist": {
+				"shasum": "8cae41dcec40f4089b0bf3dcb9f7d0081d4d1e1c",
+				"tarball": "https://registry.npmjs.org/redux-logger/-/redux-logger-2.6.0.tgz",
+				"integrity": "sha512-FYpVTPcNgX8Xd7X3WwCmLln5dR4btrG0BIEzpwJgaEk6VhCn6Z3PJaOq1RdNmktCx33t3/lJMoEyx4gT7YJ9jA==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIG/9PZ1vsfCEC1b7oG97RiEYjxx8sPc6WAwlBfFmJREWAiBSDi1mCBOEs2IulKSLR9HJTY1q7oecJx9RSkN2d6wCeg=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "theaqua",
+					"email": "npm@theaqua.im"
+				},
+				{
+					"name": "toxic",
+					"email": "toxickg@openmailbox.org"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-5-east.internal.npmjs.com",
+				"tmp": "tmp/redux-logger-2.6.0.tgz_1456145528983_0.060195134254172444"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"2.6.1": {
+			"name": "redux-logger",
+			"version": "2.6.1",
+			"description": "Logger for redux",
+			"main": "lib/index.js",
+			"scripts": {
+				"lint": "$(npm bin)/eslint src",
+				"test": "npm run lint",
+				"clean": "$(npm bin)/rimraf dist lib",
+				"build:lib": "$(npm bin)/babel src --out-dir lib",
+				"build:umd": "LIBRARY_NAME=reduxLogger NODE_ENV=development $(npm bin)/webpack src/index.js dist/index.js --config webpack.build.js",
+				"build:umd:min": "LIBRARY_NAME=reduxLogger NODE_ENV=production $(npm bin)/webpack -p src/index.js dist/index.min.js --config webpack.build.js",
+				"build": "npm run build:lib && npm run build:umd && npm run build:umd:min",
+				"prepublish": "npm run clean && npm run test && npm run build"
+			},
+			"files": [
+				"dist",
+				"lib",
+				"src"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/fcomb/redux-logger.git"
+			},
+			"keywords": [
+				"redux",
+				"logger",
+				"redux-logger",
+				"redux",
+				"middleware"
+			],
+			"author": {
+				"name": "Eugene Rodionov",
+				"url": "https://github.com/theaqua"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/fcomb/redux-logger/issues"
+			},
+			"homepage": "https://github.com/fcomb/redux-logger#readme",
+			"devDependencies": {
+				"@dtrussia/eslint-config-dtrussia": "1.0.3",
+				"babel-cli": "6.3.13",
+				"babel-core": "6.3.13",
+				"babel-loader": "6.2.0",
+				"babel-plugin-add-module-exports": "0.1.1",
+				"babel-preset-es2015": "6.3.13",
+				"babel-preset-react": "6.3.13",
+				"babel-preset-stage-0": "6.3.13",
+				"rimraf": "2.4.4",
+				"webpack": "1.12.9"
+			},
+			"gitHead": "9fe6d13ff007a777a410509329c65ca9d9992c94",
+			"_id": "redux-logger@2.6.1",
+			"_shasum": "f558a40e3abd03feaf4e69ace4d71fec09803c74",
+			"_from": ".",
+			"_npmVersion": "2.14.7",
+			"_nodeVersion": "4.2.0",
+			"_npmUser": {
+				"name": "theaqua",
+				"email": "npm@theaqua.im"
+			},
+			"dist": {
+				"shasum": "f558a40e3abd03feaf4e69ace4d71fec09803c74",
+				"tarball": "https://registry.npmjs.org/redux-logger/-/redux-logger-2.6.1.tgz",
+				"integrity": "sha512-EMzSF/vbmHtgGxg6nEdarIt2U7R9BFl+ccbD6dkEwcziOun9rh+eFKAPaLLiUpV+Xw4U+FAuOCpo1R9dp72yOw==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQD9raD3cOzJGkil2yVBPD4GDDwndZDony/MOdMw2x/e3AIhAMn1cT3M7+f4pmRrejWnnimMKY11/iOcfd+6py3C4IAG"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "theaqua",
+					"email": "npm@theaqua.im"
+				},
+				{
+					"name": "toxic",
+					"email": "toxickg@openmailbox.org"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-5-east.internal.npmjs.com",
+				"tmp": "tmp/redux-logger-2.6.1.tgz_1456781745051_0.40818328759633005"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"2.7.0": {
+			"name": "redux-logger",
+			"version": "2.7.0",
+			"description": "Logger for Redux",
+			"main": "lib/index.js",
+			"scripts": {
+				"lint": "$(npm bin)/eslint src",
+				"test": "NODE_ENV=development npm run lint && npm run spec",
+				"test:production": "NODE_ENV=production npm run lint && npm run spec",
+				"spec": "NODE_PATH=src nyc --all --silent --require babel-core/register mocha --plugins transform-inline-environment-variables --recursive spec/*.spec.js",
+				"spec:watch": "NODE_ENV=development npm run spec -- --watch",
+				"coverage": "nyc report",
+				"coverage:html": "nyc report --reporter=html && (http-server -p 8077 ./coverage & open-url http://localhost:8077/)",
+				"coverage:production": "nyc report --reporter=text-lcov > coverage.lcov && codecov",
+				"clean": "$(npm bin)/rimraf dist lib",
+				"build:lib": "$(npm bin)/babel src --out-dir lib",
+				"build:umd": "LIBRARY_NAME=reduxLogger NODE_ENV=development $(npm bin)/webpack src/index.js dist/index.js --config webpack.build.js",
+				"build:umd:min": "LIBRARY_NAME=reduxLogger NODE_ENV=production $(npm bin)/webpack -p src/index.js dist/index.min.js --config webpack.build.js",
+				"build": "npm run build:lib && npm run build:umd && npm run build:umd:min",
+				"precommit": "npm run test",
+				"prepublish": "npm run clean && npm run test:production && npm run build"
+			},
+			"nyc": {
+				"exclude": [
+					"node_modules",
+					"spec",
+					"example",
+					"lib",
+					"dist",
+					"webpack.*.js"
+				]
+			},
+			"files": [
+				"dist",
+				"lib",
+				"src"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/theaqua/redux-logger.git"
+			},
+			"keywords": [
+				"redux",
+				"logger",
+				"redux-logger",
+				"redux",
+				"middleware"
+			],
+			"author": {
+				"name": "Eugene Rodionov",
+				"url": "https://github.com/theaqua"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/theaqua/redux-logger/issues"
+			},
+			"homepage": "https://github.com/theaqua/redux-logger#readme",
+			"devDependencies": {
+				"@dtrussia/eslint-config-dtrussia": "2.2.1",
+				"babel-cli": "6.3.13",
+				"babel-core": "6.3.13",
+				"babel-eslint": "6.0.4",
+				"babel-loader": "6.2.0",
+				"babel-plugin-add-module-exports": "0.1.1",
+				"babel-plugin-transform-inline-environment-variables": "6.3.13",
+				"babel-preset-es2015": "6.3.13",
+				"babel-preset-react": "6.3.13",
+				"babel-preset-stage-0": "6.3.13",
+				"chai": "3.5.0",
+				"codecov": "1.0.1",
+				"eslint": "2.10.2",
+				"eslint-plugin-react": "5.1.1",
+				"http-server": "0.9.0",
+				"husky": "0.11.8",
+				"mocha": "2.4.5",
+				"nyc": "6.4.4",
+				"open-url": "2.0.2",
+				"rimraf": "2.4.4",
+				"webpack": "1.12.9"
+			},
+			"dependencies": {
+				"deep-diff": "0.3.4"
+			},
+			"gitHead": "dd5fd5151d712462e0f014650015bbe835d505e5",
+			"_id": "redux-logger@2.7.0",
+			"_shasum": "77f0ee5c473b1440c7e1b3c3c7775e59741c5dbf",
+			"_from": ".",
+			"_npmVersion": "3.10.8",
+			"_nodeVersion": "4.2.0",
+			"_npmUser": {
+				"name": "theaqua",
+				"email": "npm@theaqua.im"
+			},
+			"dist": {
+				"shasum": "77f0ee5c473b1440c7e1b3c3c7775e59741c5dbf",
+				"tarball": "https://registry.npmjs.org/redux-logger/-/redux-logger-2.7.0.tgz",
+				"integrity": "sha512-ZYoNTuFXRakCd1u1hLMttN0sNiDy0RVYXDdknFV2XchblswLMsEMg8MYegxzSVl4Ty2aEGFXNyeSJORLkOefgw==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQCsqs6v5UeCHZ0Vr91n9IBucFIhVu8F6GLFxa5mLjl5qwIgW/GiHdStaTy8sDpqFoCDy6GtPI7oHkJE4ROJYJpitCo="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "theaqua",
+					"email": "npm@theaqua.im"
+				},
+				{
+					"name": "toxic",
+					"email": "toxickg@openmailbox.org"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/redux-logger-2.7.0.tgz_1475696370884_0.29571255948394537"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"2.7.1": {
+			"name": "redux-logger",
+			"version": "2.7.1",
+			"description": "Logger for Redux",
+			"main": "lib/index.js",
+			"scripts": {
+				"lint": "$(npm bin)/eslint src",
+				"test": "NODE_ENV=development npm run lint && npm run spec",
+				"test:production": "NODE_ENV=production npm run lint && npm run spec",
+				"spec": "NODE_PATH=src nyc --all --silent --require babel-core/register mocha --plugins transform-inline-environment-variables --recursive spec/*.spec.js",
+				"spec:watch": "NODE_ENV=development npm run spec -- --watch",
+				"coverage": "nyc report",
+				"coverage:html": "nyc report --reporter=html && (http-server -p 8077 ./coverage & open-url http://localhost:8077/)",
+				"coverage:production": "nyc report --reporter=text-lcov > coverage.lcov && codecov",
+				"clean": "$(npm bin)/rimraf dist lib",
+				"build:lib": "$(npm bin)/babel src --out-dir lib",
+				"build:umd": "LIBRARY_NAME=reduxLogger NODE_ENV=development $(npm bin)/webpack src/index.js dist/index.js --config webpack.build.js",
+				"build:umd:min": "LIBRARY_NAME=reduxLogger NODE_ENV=production $(npm bin)/webpack -p src/index.js dist/index.min.js --config webpack.build.js",
+				"build": "npm run build:lib && npm run build:umd && npm run build:umd:min",
+				"precommit": "npm run test",
+				"prepublish": "npm run clean && npm run test:production && npm run build"
+			},
+			"nyc": {
+				"exclude": [
+					"node_modules",
+					"spec",
+					"example",
+					"lib",
+					"dist",
+					"webpack.*.js"
+				]
+			},
+			"files": [
+				"dist",
+				"lib",
+				"src"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/theaqua/redux-logger.git"
+			},
+			"keywords": [
+				"redux",
+				"logger",
+				"redux-logger",
+				"redux",
+				"middleware"
+			],
+			"author": {
+				"name": "Eugene Rodionov",
+				"url": "https://github.com/theaqua"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/theaqua/redux-logger/issues"
+			},
+			"homepage": "https://github.com/theaqua/redux-logger#readme",
+			"devDependencies": {
+				"@dtrussia/eslint-config-dtrussia": "2.2.1",
+				"babel-cli": "6.3.13",
+				"babel-core": "6.3.13",
+				"babel-eslint": "6.0.4",
+				"babel-loader": "6.2.0",
+				"babel-plugin-add-module-exports": "0.1.1",
+				"babel-plugin-transform-inline-environment-variables": "6.3.13",
+				"babel-preset-es2015": "6.3.13",
+				"babel-preset-react": "6.3.13",
+				"babel-preset-stage-0": "6.3.13",
+				"chai": "3.5.0",
+				"codecov": "1.0.1",
+				"eslint": "2.10.2",
+				"eslint-plugin-react": "5.1.1",
+				"http-server": "0.9.0",
+				"husky": "0.11.8",
+				"mocha": "2.4.5",
+				"nyc": "6.4.4",
+				"open-url": "2.0.2",
+				"rimraf": "2.4.4",
+				"webpack": "1.12.9"
+			},
+			"dependencies": {
+				"deep-diff": "0.3.4"
+			},
+			"gitHead": "0193721188399b810fa812c0942e45b013084a75",
+			"_id": "redux-logger@2.7.1",
+			"_shasum": "97d8a45f9ff95959aea00b3efdd5cc7cd2af4cef",
+			"_from": ".",
+			"_npmVersion": "3.10.8",
+			"_nodeVersion": "6.8.1",
+			"_npmUser": {
+				"name": "theaqua",
+				"email": "npm@theaqua.im"
+			},
+			"dist": {
+				"shasum": "97d8a45f9ff95959aea00b3efdd5cc7cd2af4cef",
+				"tarball": "https://registry.npmjs.org/redux-logger/-/redux-logger-2.7.1.tgz",
+				"integrity": "sha512-9KISbVbbX7iSicpeuM1AYucSilYneDuryqlXluQhE300K605PoeKzsLdWAN/Y6ZnXVpkQNS6JVP9F6pVENMY+Q==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDb1qJkM3wunErEw1RkIRV45NGnzOZbOg4cGw953/AXUQIgWKo4Rm6fJTLMfVbgGtwKCC3KyP0oMMFr2SsvBUlXWb4="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "theaqua",
+					"email": "npm@theaqua.im"
+				},
+				{
+					"name": "toxic",
+					"email": "toxickg@openmailbox.org"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/redux-logger-2.7.1.tgz_1477684545367_0.6124864658340812"
+			},
+			"deprecated": "we merged PR that broke redux-logger in node, update to 2.7.4. More info @ https://github.com/evgenyrodionov/redux-logger/pull/185",
+			"directories": {},
+			"contributors": []
+		},
+		"2.7.2": {
+			"name": "redux-logger",
+			"version": "2.7.2",
+			"description": "Logger for Redux",
+			"main": "lib/index.js",
+			"scripts": {
+				"lint": "$(npm bin)/eslint src",
+				"test": "NODE_ENV=development npm run lint && npm run spec",
+				"test:production": "NODE_ENV=production npm run lint && npm run spec",
+				"spec": "NODE_PATH=src nyc --all --silent --require babel-core/register mocha --plugins transform-inline-environment-variables --recursive spec/*.spec.js",
+				"spec:watch": "NODE_ENV=development npm run spec -- --watch",
+				"coverage": "nyc report",
+				"coverage:html": "nyc report --reporter=html && (http-server -p 8077 ./coverage & open-url http://localhost:8077/)",
+				"coverage:production": "nyc report --reporter=text-lcov > coverage.lcov && codecov",
+				"clean": "$(npm bin)/rimraf dist lib",
+				"build:lib": "$(npm bin)/babel src --out-dir lib",
+				"build:umd": "LIBRARY_NAME=reduxLogger NODE_ENV=development $(npm bin)/webpack src/index.js dist/index.js --config webpack.build.js",
+				"build:umd:min": "LIBRARY_NAME=reduxLogger NODE_ENV=production $(npm bin)/webpack -p src/index.js dist/index.min.js --config webpack.build.js",
+				"build": "npm run build:lib && npm run build:umd && npm run build:umd:min",
+				"precommit": "npm run test",
+				"prepublish": "npm run clean && npm run test:production && npm run build"
+			},
+			"nyc": {
+				"exclude": [
+					"node_modules",
+					"spec",
+					"example",
+					"lib",
+					"dist",
+					"webpack.*.js"
+				]
+			},
+			"files": [
+				"dist",
+				"lib",
+				"src"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/theaqua/redux-logger.git"
+			},
+			"keywords": [
+				"redux",
+				"logger",
+				"redux-logger",
+				"redux",
+				"middleware"
+			],
+			"author": {
+				"name": "Eugene Rodionov",
+				"url": "https://github.com/theaqua"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/theaqua/redux-logger/issues"
+			},
+			"homepage": "https://github.com/theaqua/redux-logger#readme",
+			"devDependencies": {
+				"@dtrussia/eslint-config-dtrussia": "2.2.1",
+				"babel-cli": "6.3.13",
+				"babel-core": "6.3.13",
+				"babel-eslint": "6.0.4",
+				"babel-loader": "6.2.0",
+				"babel-plugin-add-module-exports": "0.1.1",
+				"babel-plugin-transform-inline-environment-variables": "6.3.13",
+				"babel-preset-es2015": "6.3.13",
+				"babel-preset-react": "6.3.13",
+				"babel-preset-stage-0": "6.3.13",
+				"chai": "3.5.0",
+				"codecov": "1.0.1",
+				"eslint": "2.10.2",
+				"eslint-plugin-react": "5.1.1",
+				"http-server": "0.9.0",
+				"husky": "0.11.8",
+				"mocha": "2.4.5",
+				"nyc": "6.4.4",
+				"open-url": "2.0.2",
+				"rimraf": "2.4.4",
+				"webpack": "1.12.9"
+			},
+			"dependencies": {
+				"deep-diff": "0.3.4"
+			},
+			"gitHead": "f54e73c21d870bf919910712e3485be886f73ea7",
+			"_id": "redux-logger@2.7.2",
+			"_shasum": "14dff3d60bbda7a6361a5901cb073fe3a9980fe1",
+			"_from": ".",
+			"_npmVersion": "3.10.8",
+			"_nodeVersion": "6.8.1",
+			"_npmUser": {
+				"name": "theaqua",
+				"email": "npm@theaqua.im"
+			},
+			"dist": {
+				"shasum": "14dff3d60bbda7a6361a5901cb073fe3a9980fe1",
+				"tarball": "https://registry.npmjs.org/redux-logger/-/redux-logger-2.7.2.tgz",
+				"integrity": "sha512-n8Ms/xag83N18/QfG2bOaFAMb6fhu0ZzasuoPrxTgWhMk1TvVntSj3x6zkrZ6iRbYiyZSoFnI50hKoQ0Hn6zmg==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIGT8OfM7OWcNN19r7nvYk3XUsFOIrixfWmjCQVGGKGbXAiEAuuhaBPirgzL6w8X10+SlXEMaBARZ/991Rh5iP8uIMQU="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "theaqua",
+					"email": "npm@theaqua.im"
+				},
+				{
+					"name": "toxic",
+					"email": "toxickg@openmailbox.org"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/redux-logger-2.7.2.tgz_1477686017406_0.6741789910010993"
+			},
+			"deprecated": "we merged PR that broke redux-logger in node, update to 2.7.4. More info @ https://github.com/evgenyrodionov/redux-logger/pull/185",
+			"directories": {},
+			"contributors": []
+		},
+		"2.7.3": {
+			"name": "redux-logger",
+			"version": "2.7.3",
+			"description": "Logger for Redux",
+			"main": "lib/index.js",
+			"scripts": {
+				"lint": "$(npm bin)/eslint src",
+				"test": "NODE_ENV=development npm run lint && npm run spec",
+				"test:production": "NODE_ENV=production npm run lint && npm run spec",
+				"spec": "NODE_PATH=src nyc --all --silent --require babel-core/register mocha --plugins transform-inline-environment-variables --recursive spec/*.spec.js",
+				"spec:watch": "NODE_ENV=development npm run spec -- --watch",
+				"coverage": "nyc report",
+				"coverage:html": "nyc report --reporter=html && (http-server -p 8077 ./coverage & open-url http://localhost:8077/)",
+				"coverage:production": "nyc report --reporter=text-lcov > coverage.lcov && codecov",
+				"clean": "$(npm bin)/rimraf dist lib",
+				"build:lib": "$(npm bin)/babel src --out-dir lib",
+				"build:umd": "LIBRARY_NAME=reduxLogger NODE_ENV=development $(npm bin)/webpack src/index.js dist/index.js --config webpack.build.js",
+				"build:umd:min": "LIBRARY_NAME=reduxLogger NODE_ENV=production $(npm bin)/webpack -p src/index.js dist/index.min.js --config webpack.build.js",
+				"build": "npm run build:lib && npm run build:umd && npm run build:umd:min",
+				"precommit": "npm run test",
+				"prepublish": "npm run clean && npm run test:production && npm run build"
+			},
+			"nyc": {
+				"exclude": [
+					"node_modules",
+					"spec",
+					"example",
+					"lib",
+					"dist",
+					"webpack.*.js"
+				]
+			},
+			"files": [
+				"dist",
+				"lib",
+				"src"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/theaqua/redux-logger.git"
+			},
+			"keywords": [
+				"redux",
+				"logger",
+				"redux-logger",
+				"redux",
+				"middleware"
+			],
+			"author": {
+				"name": "Eugene Rodionov",
+				"url": "https://github.com/theaqua"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/theaqua/redux-logger/issues"
+			},
+			"homepage": "https://github.com/theaqua/redux-logger#readme",
+			"devDependencies": {
+				"@dtrussia/eslint-config-dtrussia": "2.2.1",
+				"babel-cli": "6.3.13",
+				"babel-core": "6.3.13",
+				"babel-eslint": "6.0.4",
+				"babel-loader": "6.2.0",
+				"babel-plugin-add-module-exports": "0.1.1",
+				"babel-plugin-transform-inline-environment-variables": "6.3.13",
+				"babel-preset-es2015": "6.3.13",
+				"babel-preset-react": "6.3.13",
+				"babel-preset-stage-0": "6.3.13",
+				"chai": "3.5.0",
+				"codecov": "1.0.1",
+				"eslint": "2.10.2",
+				"eslint-plugin-react": "5.1.1",
+				"http-server": "0.9.0",
+				"husky": "0.11.8",
+				"mocha": "2.4.5",
+				"nyc": "6.4.4",
+				"open-url": "2.0.2",
+				"rimraf": "2.4.4",
+				"webpack": "1.12.9"
+			},
+			"dependencies": {
+				"deep-diff": "0.3.4"
+			},
+			"gitHead": "fa73b41ae9d4bc5d50af90ad2aadd2f66e2fdec1",
+			"_id": "redux-logger@2.7.3",
+			"_shasum": "412dee5a53079a323e110afc673ccf920219de00",
+			"_from": ".",
+			"_npmVersion": "3.10.8",
+			"_nodeVersion": "6.8.1",
+			"_npmUser": {
+				"name": "theaqua",
+				"email": "npm@theaqua.im"
+			},
+			"dist": {
+				"shasum": "412dee5a53079a323e110afc673ccf920219de00",
+				"tarball": "https://registry.npmjs.org/redux-logger/-/redux-logger-2.7.3.tgz",
+				"integrity": "sha512-vjb1Skg/ijf/m+CdxEh3R/BMmo45HF8FDFMMcS9UiVxR1c4FFzp/BzZoOcpqbS9ng3rZkk71A/LJNbUNpwG5UA==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQC/zVzVQ6gMsK7hGFo+YbFPMLpza+q7QcLBmbdZMKJzbwIgK7c6xL9wo0Ws/NOvUV7kQYLSbIj8p+uVAijrAqhpk14="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "theaqua",
+					"email": "npm@theaqua.im"
+				},
+				{
+					"name": "toxic",
+					"email": "toxickg@openmailbox.org"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/redux-logger-2.7.3.tgz_1477746935207_0.29977980395779014"
+			},
+			"deprecated": "we merged PR that broke redux-logger in node, update to 2.7.4. More info @ https://github.com/evgenyrodionov/redux-logger/pull/185",
+			"directories": {},
+			"contributors": []
+		},
+		"2.7.4": {
+			"name": "redux-logger",
+			"version": "2.7.4",
+			"description": "Logger for Redux",
+			"main": "lib/index.js",
+			"scripts": {
+				"lint": "$(npm bin)/eslint src",
+				"test": "NODE_ENV=development npm run lint && npm run spec",
+				"test:production": "NODE_ENV=production npm run lint && npm run spec",
+				"spec": "NODE_PATH=src nyc --all --silent --require babel-core/register mocha --plugins transform-inline-environment-variables --recursive spec/*.spec.js",
+				"spec:watch": "NODE_ENV=development npm run spec -- --watch",
+				"coverage": "nyc report",
+				"coverage:html": "nyc report --reporter=html && (http-server -p 8077 ./coverage & open-url http://localhost:8077/)",
+				"coverage:production": "nyc report --reporter=text-lcov > coverage.lcov && codecov",
+				"clean": "$(npm bin)/rimraf dist lib",
+				"build:lib": "$(npm bin)/babel src --out-dir lib",
+				"build:umd": "LIBRARY_NAME=reduxLogger NODE_ENV=development $(npm bin)/webpack src/index.js dist/index.js --config webpack.build.js",
+				"build:umd:min": "LIBRARY_NAME=reduxLogger NODE_ENV=production $(npm bin)/webpack -p src/index.js dist/index.min.js --config webpack.build.js",
+				"build": "npm run build:lib && npm run build:umd && npm run build:umd:min",
+				"precommit": "npm run test",
+				"prepublish": "npm run clean && npm run test:production && npm run build"
+			},
+			"nyc": {
+				"exclude": [
+					"node_modules",
+					"spec",
+					"example",
+					"lib",
+					"dist",
+					"webpack.*.js"
+				]
+			},
+			"files": [
+				"dist",
+				"lib",
+				"src"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/theaqua/redux-logger.git"
+			},
+			"keywords": [
+				"redux",
+				"logger",
+				"redux-logger",
+				"redux",
+				"middleware"
+			],
+			"author": {
+				"name": "Eugene Rodionov",
+				"url": "https://github.com/theaqua"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/theaqua/redux-logger/issues"
+			},
+			"homepage": "https://github.com/theaqua/redux-logger#readme",
+			"devDependencies": {
+				"@dtrussia/eslint-config-dtrussia": "2.2.1",
+				"babel-cli": "6.3.13",
+				"babel-core": "6.3.13",
+				"babel-eslint": "6.0.4",
+				"babel-loader": "6.2.0",
+				"babel-plugin-add-module-exports": "0.1.1",
+				"babel-plugin-transform-inline-environment-variables": "6.3.13",
+				"babel-preset-es2015": "6.3.13",
+				"babel-preset-react": "6.3.13",
+				"babel-preset-stage-0": "6.3.13",
+				"chai": "3.5.0",
+				"codecov": "1.0.1",
+				"eslint": "2.10.2",
+				"eslint-plugin-react": "5.1.1",
+				"http-server": "0.9.0",
+				"husky": "0.11.8",
+				"mocha": "2.4.5",
+				"nyc": "6.4.4",
+				"open-url": "2.0.2",
+				"rimraf": "2.4.4",
+				"webpack": "1.12.9"
+			},
+			"dependencies": {
+				"deep-diff": "0.3.4"
+			},
+			"gitHead": "fa73b41ae9d4bc5d50af90ad2aadd2f66e2fdec1",
+			"_id": "redux-logger@2.7.4",
+			"_shasum": "891e5d29e7f111d08b5781a237b9965b5858c7f8",
+			"_from": ".",
+			"_npmVersion": "3.10.8",
+			"_nodeVersion": "6.8.1",
+			"_npmUser": {
+				"name": "theaqua",
+				"email": "npm@theaqua.im"
+			},
+			"dist": {
+				"shasum": "891e5d29e7f111d08b5781a237b9965b5858c7f8",
+				"tarball": "https://registry.npmjs.org/redux-logger/-/redux-logger-2.7.4.tgz",
+				"integrity": "sha512-cmyOQ7C5RQgTGcGQDPufDUd2Fcod6kc0WSHRExukV//0IsqUhkuPuloIcZzguqw1sqzM0dVTJ4f7OiR3I5xqzg==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQC3wETj0iy9V2hWKD1Bl6SSF2dRX0LbmQmnpykfn/fQlgIhAPFuXkRMLKP9+zwrqEHUaNnGInvkbCFXNYqwoiQRMK4S"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "theaqua",
+					"email": "npm@theaqua.im"
+				},
+				{
+					"name": "toxic",
+					"email": "toxickg@openmailbox.org"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/redux-logger-2.7.4.tgz_1477747074409_0.7785783768631518"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"2.8.0": {
+			"name": "redux-logger",
+			"version": "2.8.0",
+			"description": "Logger for Redux",
+			"main": "lib/index.js",
+			"scripts": {
+				"lint": "$(npm bin)/eslint src",
+				"test": "NODE_ENV=development npm run lint && npm run spec",
+				"test:production": "NODE_ENV=production npm run lint && npm run spec",
+				"spec": "NODE_PATH=src nyc --all --silent --require babel-core/register mocha --plugins transform-inline-environment-variables --recursive spec/*.spec.js",
+				"spec:watch": "NODE_ENV=development npm run spec -- --watch",
+				"coverage": "nyc report",
+				"coverage:html": "nyc report --reporter=html && (http-server -p 8077 ./coverage & open-url http://localhost:8077/)",
+				"coverage:production": "nyc report --reporter=text-lcov > coverage.lcov && codecov",
+				"clean": "$(npm bin)/rimraf dist lib",
+				"build:lib": "$(npm bin)/babel src --out-dir lib",
+				"build:umd": "LIBRARY_NAME=reduxLogger NODE_ENV=development $(npm bin)/webpack src/index.js dist/index.js --config webpack.build.js",
+				"build:umd:min": "LIBRARY_NAME=reduxLogger NODE_ENV=production $(npm bin)/webpack -p src/index.js dist/index.min.js --config webpack.build.js",
+				"build": "npm run build:lib && npm run build:umd && npm run build:umd:min",
+				"precommit": "npm run test",
+				"prepublish": "npm run clean && npm run test:production && npm run build"
+			},
+			"nyc": {
+				"exclude": [
+					"node_modules",
+					"spec",
+					"example",
+					"lib",
+					"dist",
+					"webpack.*.js"
+				]
+			},
+			"files": [
+				"dist",
+				"lib",
+				"src"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/theaqua/redux-logger.git"
+			},
+			"keywords": [
+				"redux",
+				"logger",
+				"redux-logger",
+				"middleware"
+			],
+			"author": {
+				"name": "Eugene Rodionov",
+				"url": "https://github.com/theaqua"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/theaqua/redux-logger/issues"
+			},
+			"homepage": "https://github.com/theaqua/redux-logger#readme",
+			"devDependencies": {
+				"@dtrussia/eslint-config-dtrussia": "2.2.1",
+				"babel-cli": "6.18.0",
+				"babel-core": "6.18.2",
+				"babel-eslint": "7.1.1",
+				"babel-loader": "6.2.8",
+				"babel-plugin-add-module-exports": "0.2.1",
+				"babel-plugin-transform-inline-environment-variables": "6.8.0",
+				"babel-preset-es2015": "6.18.0",
+				"babel-preset-react": "6.16.0",
+				"babel-preset-stage-0": "6.16.0",
+				"chai": "3.5.0",
+				"codecov": "1.0.1",
+				"eslint": "3.10.2",
+				"eslint-plugin-react": "6.7.1",
+				"http-server": "0.9.0",
+				"husky": "0.11.9",
+				"mocha": "3.1.2",
+				"nyc": "9.0.1",
+				"open-url": "2.0.2",
+				"rimraf": "2.5.4",
+				"webpack": "1.13.3"
+			},
+			"dependencies": {
+				"deep-diff": "0.3.4"
+			},
+			"gitHead": "904329cb38e38c4fafddb199c6bbbc6397456bf2",
+			"_id": "redux-logger@2.8.0",
+			"_shasum": "ca4cf8a1da991c7620675b9d877fb6dfe21dc2fd",
+			"_from": ".",
+			"_npmVersion": "4.0.5",
+			"_nodeVersion": "7.2.0",
+			"_npmUser": {
+				"name": "theaqua",
+				"email": "npm@erodionov.ru"
+			},
+			"dist": {
+				"shasum": "ca4cf8a1da991c7620675b9d877fb6dfe21dc2fd",
+				"tarball": "https://registry.npmjs.org/redux-logger/-/redux-logger-2.8.0.tgz",
+				"integrity": "sha512-T227lxKZzpsxWzlm0oXM5dC/Rrx4Z7rCtejC84inNeb96yPdu0tWeTg4zOZ2aVI2WROGSE7bmdeT5Ubo2JEUVQ==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDuzicWqNiEtjwpO1qdG8+zsFqKihJL0cClZ/13un1h4gIhAIceRKu7s/62ANLjo/PHXjoajcboJiMsYsNugdQSryV4"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "theaqua",
+					"email": "npm@theaqua.im"
+				},
+				{
+					"name": "toxic",
+					"email": "toxickg@openmailbox.org"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/redux-logger-2.8.0.tgz_1485952807124_0.21309176948852837"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"2.8.1": {
+			"name": "redux-logger",
+			"version": "2.8.1",
+			"description": "Logger for Redux",
+			"main": "lib/index.js",
+			"scripts": {
+				"lint": "$(npm bin)/eslint src",
+				"test": "NODE_ENV=development npm run lint && npm run spec",
+				"test:production": "NODE_ENV=production npm run lint && npm run spec",
+				"spec": "NODE_PATH=src nyc --all --silent --require babel-core/register mocha --plugins transform-inline-environment-variables --recursive spec/*.spec.js",
+				"spec:watch": "NODE_ENV=development npm run spec -- --watch",
+				"coverage": "nyc report",
+				"coverage:html": "nyc report --reporter=html && (http-server -p 8077 ./coverage & open-url http://localhost:8077/)",
+				"coverage:production": "nyc report --reporter=text-lcov > coverage.lcov && codecov",
+				"clean": "$(npm bin)/rimraf dist lib",
+				"build:lib": "$(npm bin)/babel src --out-dir lib",
+				"build:umd": "LIBRARY_NAME=reduxLogger NODE_ENV=development $(npm bin)/webpack src/index.js dist/index.js --config webpack.build.js",
+				"build:umd:min": "LIBRARY_NAME=reduxLogger NODE_ENV=production $(npm bin)/webpack -p src/index.js dist/index.min.js --config webpack.build.js",
+				"build": "npm run build:lib && npm run build:umd && npm run build:umd:min",
+				"precommit": "npm run test",
+				"prepublish": "npm run clean && npm run test:production && npm run build"
+			},
+			"nyc": {
+				"exclude": [
+					"node_modules",
+					"spec",
+					"example",
+					"lib",
+					"dist",
+					"webpack.*.js"
+				]
+			},
+			"files": [
+				"dist",
+				"lib",
+				"src"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/theaqua/redux-logger.git"
+			},
+			"keywords": [
+				"redux",
+				"logger",
+				"redux-logger",
+				"middleware"
+			],
+			"author": {
+				"name": "Eugene Rodionov",
+				"url": "https://github.com/theaqua"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/theaqua/redux-logger/issues"
+			},
+			"homepage": "https://github.com/theaqua/redux-logger#readme",
+			"devDependencies": {
+				"@dtrussia/eslint-config-dtrussia": "2.2.1",
+				"babel-cli": "6.18.0",
+				"babel-core": "6.18.2",
+				"babel-eslint": "7.1.1",
+				"babel-loader": "6.2.8",
+				"babel-plugin-add-module-exports": "0.2.1",
+				"babel-plugin-transform-inline-environment-variables": "6.8.0",
+				"babel-preset-es2015": "6.18.0",
+				"babel-preset-react": "6.16.0",
+				"babel-preset-stage-0": "6.16.0",
+				"chai": "3.5.0",
+				"codecov": "1.0.1",
+				"eslint": "3.10.2",
+				"eslint-plugin-react": "6.7.1",
+				"http-server": "0.9.0",
+				"husky": "0.11.9",
+				"mocha": "3.1.2",
+				"nyc": "9.0.1",
+				"open-url": "2.0.2",
+				"rimraf": "2.5.4",
+				"webpack": "1.13.3"
+			},
+			"dependencies": {
+				"deep-diff": "0.3.4"
+			},
+			"gitHead": "904329cb38e38c4fafddb199c6bbbc6397456bf2",
+			"_id": "redux-logger@2.8.1",
+			"_shasum": "c00e689ba00342f44858701d76b1d73fbade72bd",
+			"_from": ".",
+			"_npmVersion": "4.0.5",
+			"_nodeVersion": "7.2.0",
+			"_npmUser": {
+				"name": "theaqua",
+				"email": "npm@erodionov.ru"
+			},
+			"dist": {
+				"shasum": "c00e689ba00342f44858701d76b1d73fbade72bd",
+				"tarball": "https://registry.npmjs.org/redux-logger/-/redux-logger-2.8.1.tgz",
+				"integrity": "sha512-eMeV7ccYpJ/+ksiWfufBt+4iOisJHRR2Qc15Ayy/0LmlaqAiZ+Rba6j6cIg3362n1U8sh1jOVp//IxntYjc+Qg==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQCSTzlTm5UkOvGiNu6l2zpxp8DnT96ByyLk9+TgKzSd3QIgASSWK5tiWwyAyLqfxU/ONLDMzbMh81lfoezBfjinx9c="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "theaqua",
+					"email": "npm@theaqua.im"
+				},
+				{
+					"name": "toxic",
+					"email": "toxickg@openmailbox.org"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/redux-logger-2.8.1.tgz_1486045756610_0.731883587082848"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"2.8.2": {
+			"name": "redux-logger",
+			"version": "2.8.2",
+			"description": "Logger for Redux",
+			"main": "lib/index.js",
+			"scripts": {
+				"lint": "$(npm bin)/eslint src",
+				"test": "NODE_ENV=development npm run lint && npm run spec",
+				"test:production": "NODE_ENV=production npm run lint && npm run spec",
+				"spec": "NODE_PATH=src nyc --all --silent --require babel-core/register mocha --plugins transform-inline-environment-variables --recursive spec/*.spec.js",
+				"spec:watch": "NODE_ENV=development npm run spec -- --watch",
+				"coverage": "nyc report",
+				"coverage:html": "nyc report --reporter=html && (http-server -p 8077 ./coverage & open-url http://localhost:8077/)",
+				"coverage:production": "nyc report --reporter=text-lcov > coverage.lcov && codecov",
+				"clean": "$(npm bin)/rimraf dist lib",
+				"build:lib": "$(npm bin)/babel src --out-dir lib",
+				"build:umd": "LIBRARY_NAME=reduxLogger NODE_ENV=development $(npm bin)/webpack src/index.js dist/index.js --config webpack.build.js",
+				"build:umd:min": "LIBRARY_NAME=reduxLogger NODE_ENV=production $(npm bin)/webpack -p src/index.js dist/index.min.js --config webpack.build.js",
+				"build": "npm run build:lib && npm run build:umd && npm run build:umd:min",
+				"precommit": "npm run test",
+				"prepublish": "npm run clean && npm run test:production && npm run build"
+			},
+			"nyc": {
+				"exclude": [
+					"node_modules",
+					"spec",
+					"example",
+					"lib",
+					"dist",
+					"webpack.*.js"
+				]
+			},
+			"files": [
+				"dist",
+				"lib",
+				"src"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/theaqua/redux-logger.git"
+			},
+			"keywords": [
+				"redux",
+				"logger",
+				"redux-logger",
+				"middleware"
+			],
+			"author": {
+				"name": "Eugene Rodionov",
+				"url": "https://github.com/theaqua"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/theaqua/redux-logger/issues"
+			},
+			"homepage": "https://github.com/theaqua/redux-logger#readme",
+			"devDependencies": {
+				"@dtrussia/eslint-config-dtrussia": "2.2.1",
+				"babel-cli": "6.18.0",
+				"babel-core": "6.18.2",
+				"babel-eslint": "7.1.1",
+				"babel-loader": "6.2.8",
+				"babel-plugin-add-module-exports": "0.2.1",
+				"babel-plugin-transform-inline-environment-variables": "6.8.0",
+				"babel-preset-es2015": "6.18.0",
+				"babel-preset-react": "6.16.0",
+				"babel-preset-stage-0": "6.16.0",
+				"chai": "3.5.0",
+				"codecov": "1.0.1",
+				"eslint": "3.10.2",
+				"eslint-plugin-react": "6.7.1",
+				"http-server": "0.9.0",
+				"husky": "0.11.9",
+				"mocha": "3.1.2",
+				"nyc": "9.0.1",
+				"open-url": "2.0.2",
+				"redux": "^3.6.0",
+				"rimraf": "2.5.4",
+				"sinon": "^1.17.7",
+				"webpack": "1.13.3"
+			},
+			"dependencies": {
+				"deep-diff": "0.3.4"
+			},
+			"gitHead": "d5adea2731eb3e3b7452dd6a40895d8fbd1743ab",
+			"_id": "redux-logger@2.8.2",
+			"_shasum": "52140a89afa1c1d25312cc17649c116650bf7fca",
+			"_from": ".",
+			"_npmVersion": "4.0.5",
+			"_nodeVersion": "7.2.0",
+			"_npmUser": {
+				"name": "theaqua",
+				"email": "npm@erodionov.ru"
+			},
+			"dist": {
+				"shasum": "52140a89afa1c1d25312cc17649c116650bf7fca",
+				"tarball": "https://registry.npmjs.org/redux-logger/-/redux-logger-2.8.2.tgz",
+				"integrity": "sha512-DzMPlK/MpsiYr+cDonVuyxLy4k8ashLPXK97GxLwFCFKEJMjok1r5aDcAiIfmU6krD3yL6y6kApinIo7gEUxHA==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDK6/WxZSHiQ9A7OY2zIiNfjPdq70jABsSl9ttUgvlu2AIhAOJIg8dnySRZ4Pgob+3SMNnGstypRmnNTZgpwlMbciES"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "theaqua",
+					"email": "npm@theaqua.im"
+				},
+				{
+					"name": "toxic",
+					"email": "toxickg@openmailbox.org"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/redux-logger-2.8.2.tgz_1488450852684_0.992315836250782"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"2.9.0": {
+			"name": "redux-logger",
+			"version": "2.9.0",
+			"description": "Logger for Redux",
+			"main": "lib/index.js",
+			"scripts": {
+				"lint": "$(npm bin)/eslint src",
+				"test": "NODE_ENV=development npm run lint && npm run spec",
+				"test:production": "NODE_ENV=production npm run lint && npm run spec",
+				"spec": "NODE_PATH=src nyc --all --silent --require babel-core/register mocha --plugins transform-inline-environment-variables --recursive spec/*.spec.js",
+				"spec:watch": "NODE_ENV=development npm run spec -- --watch",
+				"coverage": "nyc report",
+				"coverage:html": "nyc report --reporter=html && (http-server -p 8077 ./coverage & open-url http://localhost:8077/)",
+				"coverage:production": "nyc report --reporter=text-lcov > coverage.lcov && codecov",
+				"clean": "$(npm bin)/rimraf dist lib",
+				"build:lib": "$(npm bin)/babel src --out-dir lib",
+				"build:umd": "LIBRARY_NAME=reduxLogger NODE_ENV=development $(npm bin)/webpack src/index.js dist/index.js --config webpack.build.js",
+				"build:umd:min": "LIBRARY_NAME=reduxLogger NODE_ENV=production $(npm bin)/webpack -p src/index.js dist/index.min.js --config webpack.build.js",
+				"build": "npm run build:lib && npm run build:umd && npm run build:umd:min",
+				"precommit": "npm run test",
+				"prepublish": "npm run clean && npm run test:production && npm run build"
+			},
+			"nyc": {
+				"exclude": [
+					"node_modules",
+					"spec",
+					"example",
+					"lib",
+					"dist",
+					"webpack.*.js"
+				]
+			},
+			"files": [
+				"dist",
+				"lib",
+				"src"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/theaqua/redux-logger.git"
+			},
+			"keywords": [
+				"redux",
+				"logger",
+				"redux-logger",
+				"middleware"
+			],
+			"author": {
+				"name": "Eugene Rodionov",
+				"url": "https://github.com/theaqua"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/theaqua/redux-logger/issues"
+			},
+			"homepage": "https://github.com/theaqua/redux-logger#readme",
+			"devDependencies": {
+				"@dtrussia/eslint-config-dtrussia": "2.2.1",
+				"babel-cli": "6.18.0",
+				"babel-core": "6.18.2",
+				"babel-eslint": "7.1.1",
+				"babel-loader": "6.2.8",
+				"babel-plugin-add-module-exports": "0.2.1",
+				"babel-plugin-transform-inline-environment-variables": "6.8.0",
+				"babel-preset-es2015": "6.18.0",
+				"babel-preset-react": "6.16.0",
+				"babel-preset-stage-0": "6.16.0",
+				"chai": "3.5.0",
+				"codecov": "1.0.1",
+				"eslint": "3.10.2",
+				"eslint-plugin-react": "6.7.1",
+				"http-server": "0.9.0",
+				"husky": "0.11.9",
+				"mocha": "3.1.2",
+				"nyc": "9.0.1",
+				"open-url": "2.0.2",
+				"redux": "^3.6.0",
+				"rimraf": "2.5.4",
+				"sinon": "^1.17.7",
+				"webpack": "1.13.3"
+			},
+			"dependencies": {
+				"deep-diff": "0.3.4"
+			},
+			"gitHead": "d5adea2731eb3e3b7452dd6a40895d8fbd1743ab",
+			"_id": "redux-logger@2.9.0",
+			"_shasum": "cb50bf97cc96c0594f8474e9690d2883afd70fd5",
+			"_from": ".",
+			"_npmVersion": "4.4.1",
+			"_nodeVersion": "7.2.0",
+			"_npmUser": {
+				"name": "evgenyrodionov",
+				"email": "npm@erodionov.ru"
+			},
+			"dist": {
+				"shasum": "cb50bf97cc96c0594f8474e9690d2883afd70fd5",
+				"tarball": "https://registry.npmjs.org/redux-logger/-/redux-logger-2.9.0.tgz",
+				"integrity": "sha512-1GDYbxd4EJaigm7SBqJU9WhutMNPj8rp9pGwCkEldZC85iuS1o0uuT5AuPGK8bUrLThkiyd42xIIxPIfCbSGRw==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIHbBKu9fvE1eMj0OK0YUicH30eGkLaEKtDYLWlbIcluZAiEAuUdnDhAoJBlYHMMQ0JBgvDzQ3CiDAY9MkPoYrmI/Xg8="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "evgenyrodionov",
+					"email": "npm@erodionov.ru"
+				},
+				{
+					"name": "toxic",
+					"email": "toxickg@openmailbox.org"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/redux-logger-2.9.0.tgz_1490096865945_0.8708897717297077"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"2.9.1": {
+			"name": "redux-logger",
+			"version": "2.9.1",
+			"description": "Logger for Redux",
+			"main": "lib/index.js",
+			"scripts": {
+				"lint": "$(npm bin)/eslint src",
+				"test": "NODE_ENV=development npm run lint && npm run spec",
+				"test:production": "NODE_ENV=production npm run lint && npm run spec",
+				"spec": "NODE_PATH=src nyc --all --silent --require babel-core/register mocha --plugins transform-inline-environment-variables --recursive spec/*.spec.js",
+				"spec:watch": "NODE_ENV=development npm run spec -- --watch",
+				"coverage": "nyc report",
+				"coverage:html": "nyc report --reporter=html && (http-server -p 8077 ./coverage & open-url http://localhost:8077/)",
+				"coverage:production": "nyc report --reporter=text-lcov > coverage.lcov && codecov",
+				"clean": "$(npm bin)/rimraf dist lib",
+				"build:lib": "$(npm bin)/babel src --out-dir lib",
+				"build:umd": "LIBRARY_NAME=reduxLogger NODE_ENV=development $(npm bin)/webpack src/index.js dist/index.js --config webpack.build.js",
+				"build:umd:min": "LIBRARY_NAME=reduxLogger NODE_ENV=production $(npm bin)/webpack -p src/index.js dist/index.min.js --config webpack.build.js",
+				"build": "npm run build:lib && npm run build:umd && npm run build:umd:min",
+				"precommit": "npm run test",
+				"prepublish": "npm run clean && npm run test:production && npm run build"
+			},
+			"nyc": {
+				"exclude": [
+					"node_modules",
+					"spec",
+					"example",
+					"lib",
+					"dist",
+					"webpack.*.js"
+				]
+			},
+			"files": [
+				"dist",
+				"lib",
+				"src"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/theaqua/redux-logger.git"
+			},
+			"keywords": [
+				"redux",
+				"logger",
+				"redux-logger",
+				"middleware"
+			],
+			"author": {
+				"name": "Eugene Rodionov",
+				"url": "https://github.com/theaqua"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/theaqua/redux-logger/issues"
+			},
+			"homepage": "https://github.com/theaqua/redux-logger#readme",
+			"devDependencies": {
+				"@dtrussia/eslint-config-dtrussia": "2.2.1",
+				"babel-cli": "6.18.0",
+				"babel-core": "6.18.2",
+				"babel-eslint": "7.1.1",
+				"babel-loader": "6.2.8",
+				"babel-plugin-add-module-exports": "0.2.1",
+				"babel-plugin-transform-inline-environment-variables": "6.8.0",
+				"babel-preset-es2015": "6.18.0",
+				"babel-preset-react": "6.16.0",
+				"babel-preset-stage-0": "6.16.0",
+				"chai": "3.5.0",
+				"codecov": "1.0.1",
+				"eslint": "3.10.2",
+				"eslint-plugin-react": "6.7.1",
+				"http-server": "0.9.0",
+				"husky": "0.11.9",
+				"mocha": "3.1.2",
+				"nyc": "9.0.1",
+				"open-url": "2.0.2",
+				"redux": "^3.6.0",
+				"rimraf": "2.5.4",
+				"sinon": "^1.17.7",
+				"webpack": "1.13.3"
+			},
+			"dependencies": {
+				"deep-diff": "0.3.4"
+			},
+			"gitHead": "dbfd4f91913c00f66afdf5e64b4d0a1e02bf3b37",
+			"_id": "redux-logger@2.9.1",
+			"_shasum": "cf58a2084e948e0061a76bab0eb60132cd8ea8d9",
+			"_from": ".",
+			"_npmVersion": "4.4.1",
+			"_nodeVersion": "7.2.0",
+			"_npmUser": {
+				"name": "evgenyrodionov",
+				"email": "npm@erodionov.ru"
+			},
+			"dist": {
+				"shasum": "cf58a2084e948e0061a76bab0eb60132cd8ea8d9",
+				"tarball": "https://registry.npmjs.org/redux-logger/-/redux-logger-2.9.1.tgz",
+				"integrity": "sha512-guIhScRnBz320QX55IAGOYXrrlupwSNUqnPb6gcU7hrXSajZrTEoEMgjSu9/4RkHR+tRHd85SKfr6ByABtfK0w==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIBLI2rjzAoc61Wd9M/O4KM+dCWk9o9irEBiSUqgP4lLzAiBLW6VMHpFhWvAuqF+aRWhfIWOXFfZMdF7K1PK0Uikumg=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "evgenyrodionov",
+					"email": "npm@erodionov.ru"
+				},
+				{
+					"name": "toxic",
+					"email": "toxickg@openmailbox.org"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/redux-logger-2.9.1.tgz_1490098956645_0.46964273788034916"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"2.10.0": {
+			"name": "redux-logger",
+			"version": "2.10.0",
+			"description": "Logger for Redux",
+			"main": "lib/index.js",
+			"scripts": {
+				"lint": "$(npm bin)/eslint src",
+				"test": "NODE_ENV=development npm run lint && npm run spec",
+				"test:production": "NODE_ENV=production npm run lint && npm run spec",
+				"spec": "NODE_PATH=src nyc --all --silent --require babel-core/register mocha --plugins transform-inline-environment-variables --recursive spec/*.spec.js",
+				"spec:watch": "NODE_ENV=development npm run spec -- --watch",
+				"coverage": "nyc report",
+				"coverage:html": "nyc report --reporter=html && (http-server -p 8077 ./coverage & open-url http://localhost:8077/)",
+				"coverage:production": "nyc report --reporter=text-lcov > coverage.lcov && codecov",
+				"clean": "$(npm bin)/rimraf dist lib",
+				"build:lib": "$(npm bin)/babel src --out-dir lib",
+				"build:umd": "LIBRARY_NAME=reduxLogger NODE_ENV=development $(npm bin)/webpack src/index.js dist/index.js --config webpack.build.js",
+				"build:umd:min": "LIBRARY_NAME=reduxLogger NODE_ENV=production $(npm bin)/webpack -p src/index.js dist/index.min.js --config webpack.build.js",
+				"build": "npm run build:lib && npm run build:umd && npm run build:umd:min",
+				"precommit": "npm run test",
+				"prepublish": "npm run clean && npm run test:production && npm run build"
+			},
+			"nyc": {
+				"exclude": [
+					"node_modules",
+					"spec",
+					"example",
+					"lib",
+					"dist",
+					"webpack.*.js"
+				]
+			},
+			"files": [
+				"dist",
+				"lib",
+				"src"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/theaqua/redux-logger.git"
+			},
+			"keywords": [
+				"redux",
+				"logger",
+				"redux-logger",
+				"middleware"
+			],
+			"author": {
+				"name": "Eugene Rodionov",
+				"url": "https://github.com/theaqua"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/theaqua/redux-logger/issues"
+			},
+			"homepage": "https://github.com/theaqua/redux-logger#readme",
+			"devDependencies": {
+				"@dtrussia/eslint-config-dtrussia": "2.2.1",
+				"babel-cli": "6.18.0",
+				"babel-core": "6.18.2",
+				"babel-eslint": "7.1.1",
+				"babel-loader": "6.2.8",
+				"babel-plugin-add-module-exports": "0.2.1",
+				"babel-plugin-transform-inline-environment-variables": "6.8.0",
+				"babel-preset-es2015": "6.18.0",
+				"babel-preset-react": "6.16.0",
+				"babel-preset-stage-0": "6.16.0",
+				"chai": "3.5.0",
+				"codecov": "1.0.1",
+				"eslint": "3.10.2",
+				"eslint-plugin-react": "6.7.1",
+				"http-server": "0.9.0",
+				"husky": "0.11.9",
+				"mocha": "3.1.2",
+				"nyc": "9.0.1",
+				"open-url": "2.0.2",
+				"redux": "^3.6.0",
+				"rimraf": "2.5.4",
+				"sinon": "^1.17.7",
+				"webpack": "1.13.3"
+			},
+			"dependencies": {
+				"deep-diff": "0.3.4"
+			},
+			"gitHead": "0dd74fa93877766d31507c34ba2f0aeba3a850ba",
+			"_id": "redux-logger@2.10.0",
+			"_shasum": "445f76c207559bb5760cfba103c4439d127ac5dd",
+			"_from": ".",
+			"_npmVersion": "4.4.1",
+			"_nodeVersion": "7.2.0",
+			"_npmUser": {
+				"name": "evgenyrodionov",
+				"email": "npm@erodionov.ru"
+			},
+			"dist": {
+				"shasum": "445f76c207559bb5760cfba103c4439d127ac5dd",
+				"tarball": "https://registry.npmjs.org/redux-logger/-/redux-logger-2.10.0.tgz",
+				"integrity": "sha512-L4TgGJXw5aFQAqd1MTgqnW3TcxFsVzT0oUbz4mgy/4dXK8gvc/uwuKAUndfG3TPDb6Nq99cOCLvvHy7eLG2Puw==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIH80jqVBfDpZ1RypGIAgAbO8tMhwUI/r110JnxOF46OSAiBfZg19v6biFLlLOUZ+eUtjxvD+p4xSoxqYEpnHFxgv6A=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "evgenyrodionov",
+					"email": "npm@erodionov.ru"
+				},
+				{
+					"name": "toxic",
+					"email": "toxickg@openmailbox.org"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/redux-logger-2.10.0.tgz_1490102626430_0.1802628270816058"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"2.10.1": {
+			"name": "redux-logger",
+			"version": "2.10.1",
+			"description": "Logger for Redux",
+			"main": "lib/index.js",
+			"scripts": {
+				"lint": "$(npm bin)/eslint src",
+				"test": "NODE_ENV=development npm run lint && npm run spec",
+				"test:production": "NODE_ENV=production npm run lint && npm run spec",
+				"spec": "NODE_PATH=src nyc --all --silent --require babel-core/register mocha --plugins transform-inline-environment-variables --recursive spec/*.spec.js",
+				"spec:watch": "NODE_ENV=development npm run spec -- --watch",
+				"coverage": "nyc report",
+				"coverage:html": "nyc report --reporter=html && (http-server -p 8077 ./coverage & open-url http://localhost:8077/)",
+				"coverage:production": "nyc report --reporter=text-lcov > coverage.lcov && codecov",
+				"clean": "$(npm bin)/rimraf dist lib",
+				"build:lib": "$(npm bin)/babel src --out-dir lib",
+				"build:umd": "LIBRARY_NAME=reduxLogger NODE_ENV=development $(npm bin)/webpack src/index.js dist/index.js --config webpack.build.js",
+				"build:umd:min": "LIBRARY_NAME=reduxLogger NODE_ENV=production $(npm bin)/webpack -p src/index.js dist/index.min.js --config webpack.build.js",
+				"build": "npm run build:lib && npm run build:umd && npm run build:umd:min",
+				"precommit": "npm run test",
+				"prepublish": "npm run clean && npm run test:production && npm run build"
+			},
+			"nyc": {
+				"exclude": [
+					"node_modules",
+					"spec",
+					"example",
+					"lib",
+					"dist",
+					"webpack.*.js"
+				]
+			},
+			"files": [
+				"dist",
+				"lib",
+				"src"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/theaqua/redux-logger.git"
+			},
+			"keywords": [
+				"redux",
+				"logger",
+				"redux-logger",
+				"middleware"
+			],
+			"author": {
+				"name": "Eugene Rodionov",
+				"url": "https://github.com/theaqua"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/theaqua/redux-logger/issues"
+			},
+			"homepage": "https://github.com/theaqua/redux-logger#readme",
+			"devDependencies": {
+				"@dtrussia/eslint-config-dtrussia": "2.2.1",
+				"babel-cli": "^6.24.0",
+				"babel-core": "^6.24.0",
+				"babel-eslint": "7.1.1",
+				"babel-loader": "^6.4.1",
+				"babel-plugin-add-module-exports": "0.2.1",
+				"babel-plugin-transform-es2015-modules-umd": "6.24.0",
+				"babel-plugin-transform-inline-environment-variables": "6.8.0",
+				"babel-preset-es2015": "^6.24.0",
+				"babel-preset-react": "^6.23.0",
+				"babel-preset-stage-0": "^6.22.0",
+				"chai": "3.5.0",
+				"codecov": "1.0.1",
+				"eslint": "3.10.2",
+				"eslint-plugin-react": "6.7.1",
+				"http-server": "0.9.0",
+				"husky": "^0.13.2",
+				"mocha": "3.1.2",
+				"nyc": "9.0.1",
+				"open-url": "2.0.2",
+				"redux": "^3.6.0",
+				"rimraf": "^2.6.1",
+				"sinon": "^1.17.7",
+				"webpack": "1.13.3"
+			},
+			"dependencies": {
+				"deep-diff": "0.3.4"
+			},
+			"gitHead": "dbd6d5d1bb21c92bd9c7930c03ad16a9aae436b9",
+			"_id": "redux-logger@2.10.1",
+			"_shasum": "c34931a0e3d91aa12ad95d54a7fe8aa143484110",
+			"_from": ".",
+			"_npmVersion": "4.4.1",
+			"_nodeVersion": "7.2.0",
+			"_npmUser": {
+				"name": "evgenyrodionov",
+				"email": "npm@erodionov.ru"
+			},
+			"dist": {
+				"shasum": "c34931a0e3d91aa12ad95d54a7fe8aa143484110",
+				"tarball": "https://registry.npmjs.org/redux-logger/-/redux-logger-2.10.1.tgz",
+				"integrity": "sha512-HFy/mdSO6ysFa5JmqSekvq1CWmgJzB/oHB8bkAfi1XbF79njkqhve081InfCZpuhMHizBq/QGrNIFuN88riSzw==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQChLOFbNeS10O9esoRGb1GU+HmwdAnVo3VfYuTi+TUGtAIgdm+5QuOfUKkwzXvifE5kdxSvDTaubfGvBbS1wV0EksA="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "evgenyrodionov",
+					"email": "npm@erodionov.ru"
+				},
+				{
+					"name": "toxic",
+					"email": "toxickg@openmailbox.org"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/redux-logger-2.10.1.tgz_1490132398308_0.8796270019374788"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"2.10.2": {
+			"name": "redux-logger",
+			"version": "2.10.2",
+			"description": "Logger for Redux",
+			"main": "lib/index.js",
+			"scripts": {
+				"lint": "$(npm bin)/eslint src",
+				"test": "NODE_ENV=development npm run lint && npm run spec",
+				"test:production": "NODE_ENV=production npm run lint && npm run spec",
+				"spec": "NODE_PATH=src nyc --all --silent --require babel-core/register mocha --plugins transform-inline-environment-variables --recursive spec/*.spec.js",
+				"spec:watch": "NODE_ENV=development npm run spec -- --watch",
+				"coverage": "nyc report",
+				"coverage:html": "nyc report --reporter=html && (http-server -p 8077 ./coverage & open-url http://localhost:8077/)",
+				"coverage:production": "nyc report --reporter=text-lcov > coverage.lcov && codecov",
+				"clean": "$(npm bin)/rimraf dist lib",
+				"build:lib": "$(npm bin)/babel src --out-dir lib",
+				"build:umd": "LIBRARY_NAME=reduxLogger NODE_ENV=development $(npm bin)/webpack src/index.js dist/index.js --config webpack.build.js",
+				"build:umd:min": "LIBRARY_NAME=reduxLogger NODE_ENV=production $(npm bin)/webpack -p src/index.js dist/index.min.js --config webpack.build.js",
+				"build": "npm run build:lib && npm run build:umd && npm run build:umd:min",
+				"precommit": "npm run test"
+			},
+			"nyc": {
+				"exclude": [
+					"node_modules",
+					"spec",
+					"example",
+					"lib",
+					"dist",
+					"webpack.*.js"
+				]
+			},
+			"files": [
+				"dist",
+				"lib",
+				"src"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/theaqua/redux-logger.git"
+			},
+			"keywords": [
+				"redux",
+				"logger",
+				"redux-logger",
+				"middleware"
+			],
+			"author": {
+				"name": "Eugene Rodionov",
+				"url": "https://github.com/theaqua"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/theaqua/redux-logger/issues"
+			},
+			"homepage": "https://github.com/theaqua/redux-logger#readme",
+			"devDependencies": {
+				"@dtrussia/eslint-config-dtrussia": "2.2.1",
+				"babel-cli": "^6.24.0",
+				"babel-core": "^6.24.0",
+				"babel-eslint": "7.1.1",
+				"babel-loader": "^6.4.1",
+				"babel-plugin-add-module-exports": "0.2.1",
+				"babel-plugin-transform-es2015-modules-umd": "6.24.0",
+				"babel-plugin-transform-inline-environment-variables": "6.8.0",
+				"babel-preset-es2015": "^6.24.0",
+				"babel-preset-react": "^6.23.0",
+				"babel-preset-stage-0": "^6.22.0",
+				"chai": "3.5.0",
+				"codecov": "1.0.1",
+				"eslint": "3.10.2",
+				"eslint-plugin-react": "6.7.1",
+				"http-server": "0.9.0",
+				"husky": "^0.13.2",
+				"mocha": "3.1.2",
+				"nyc": "9.0.1",
+				"open-url": "2.0.2",
+				"redux": "^3.6.0",
+				"rimraf": "^2.6.1",
+				"sinon": "^1.17.7",
+				"webpack": "1.13.3"
+			},
+			"dependencies": {
+				"deep-diff": "0.3.4"
+			},
+			"gitHead": "dbd6d5d1bb21c92bd9c7930c03ad16a9aae436b9",
+			"_id": "redux-logger@2.10.2",
+			"_shasum": "3c5a5f0a6f32577c1deadf6655f257f82c6c3937",
+			"_from": ".",
+			"_npmVersion": "4.4.1",
+			"_nodeVersion": "7.2.0",
+			"_npmUser": {
+				"name": "evgenyrodionov",
+				"email": "npm@erodionov.ru"
+			},
+			"dist": {
+				"shasum": "3c5a5f0a6f32577c1deadf6655f257f82c6c3937",
+				"tarball": "https://registry.npmjs.org/redux-logger/-/redux-logger-2.10.2.tgz",
+				"integrity": "sha512-Pfl6EPSjM5IJ23Jl/FpGos+zCnMfIdepY4CUOeaNOymVucKKa2XIrPQfYeGfZwRmiTbcZ6XdqYZ0it4GE3kT8w==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIFJpMvrXXKQEp/JugQ0F9bnDJ0j4Gm8fv/vUNCNH9hpwAiEAoKTiQxV8tb+8TiVh/3QCRz/4Ex0T6Qd79r1MUoOLhQE="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "evgenyrodionov",
+					"email": "npm@erodionov.ru"
+				},
+				{
+					"name": "toxic",
+					"email": "toxickg@openmailbox.org"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/redux-logger-2.10.2.tgz_1490176746176_0.945808432996273"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"3.0.0": {
+			"name": "redux-logger",
+			"version": "3.0.0",
+			"description": "Logger for Redux",
+			"main": "lib/index.js",
+			"scripts": {
+				"lint": "$(npm bin)/eslint src",
+				"test": "NODE_ENV=development npm run lint && npm run spec",
+				"test:production": "NODE_ENV=production npm run lint && npm run spec",
+				"spec": "NODE_PATH=src nyc --all --silent --require babel-core/register mocha --plugins transform-inline-environment-variables --recursive spec/*.spec.js",
+				"spec:watch": "NODE_ENV=development npm run spec -- --watch",
+				"coverage": "nyc report",
+				"coverage:html": "nyc report --reporter=html && (http-server -p 8077 ./coverage & open-url http://localhost:8077/)",
+				"coverage:production": "nyc report --reporter=text-lcov > coverage.lcov && codecov",
+				"clean": "$(npm bin)/rimraf dist lib",
+				"build:lib": "$(npm bin)/babel src --out-dir lib",
+				"build:umd": "LIBRARY_NAME=reduxLogger NODE_ENV=development $(npm bin)/webpack src/index.js dist/index.js --config webpack.build.js",
+				"build:umd:min": "LIBRARY_NAME=reduxLogger NODE_ENV=production $(npm bin)/webpack -p src/index.js dist/index.min.js --config webpack.build.js",
+				"build": "npm run build:lib && npm run build:umd && npm run build:umd:min",
+				"precommit": "npm run test",
+				"prepublish": "npm run clean && npm run test:production && npm run build"
+			},
+			"nyc": {
+				"exclude": [
+					"node_modules",
+					"spec",
+					"example",
+					"lib",
+					"dist",
+					"webpack.*.js"
+				]
+			},
+			"files": [
+				"dist",
+				"lib",
+				"src"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/theaqua/redux-logger.git"
+			},
+			"keywords": [
+				"redux",
+				"logger",
+				"redux-logger",
+				"middleware"
+			],
+			"author": {
+				"name": "Eugene Rodionov",
+				"url": "https://github.com/theaqua"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/theaqua/redux-logger/issues"
+			},
+			"homepage": "https://github.com/theaqua/redux-logger#readme",
+			"devDependencies": {
+				"@dtrussia/eslint-config-dtrussia": "2.2.1",
+				"babel-cli": "^6.24.0",
+				"babel-core": "^6.24.0",
+				"babel-eslint": "7.1.1",
+				"babel-loader": "^6.4.1",
+				"babel-plugin-add-module-exports": "0.2.1",
+				"babel-plugin-transform-es2015-modules-umd": "6.24.0",
+				"babel-plugin-transform-inline-environment-variables": "6.8.0",
+				"babel-preset-es2015": "^6.24.0",
+				"babel-preset-react": "^6.23.0",
+				"babel-preset-stage-0": "^6.22.0",
+				"chai": "3.5.0",
+				"codecov": "1.0.1",
+				"eslint": "3.10.2",
+				"eslint-plugin-react": "6.7.1",
+				"http-server": "0.9.0",
+				"husky": "^0.13.2",
+				"mocha": "3.1.2",
+				"nyc": "9.0.1",
+				"open-url": "2.0.2",
+				"redux": "^3.6.0",
+				"rimraf": "^2.6.1",
+				"sinon": "^1.17.7",
+				"webpack": "1.13.3"
+			},
+			"dependencies": {
+				"deep-diff": "0.3.4"
+			},
+			"gitHead": "c329b94490a13f62761f7e2b373fcc3e2f2a7de1",
+			"_id": "redux-logger@3.0.0",
+			"_shasum": "f552052d8992d058cfcdb42b5c654fa5f7beb9cc",
+			"_from": ".",
+			"_npmVersion": "4.4.1",
+			"_nodeVersion": "7.2.0",
+			"_npmUser": {
+				"name": "evgenyrodionov",
+				"email": "npm@erodionov.ru"
+			},
+			"dist": {
+				"shasum": "f552052d8992d058cfcdb42b5c654fa5f7beb9cc",
+				"tarball": "https://registry.npmjs.org/redux-logger/-/redux-logger-3.0.0.tgz",
+				"integrity": "sha512-WuZZ3RDg0mr2FFJ94uEELxPZs9vs99ad/w6NpOh9BV5Czyf2Zx2NU7icPorrpJZDXnbh3DNQTfSKJLaInJ9MzA==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDPYhWReBYzWTOC3O4fq25/G/lL8jtW+5+5hd2bqzO+3QIgGHid1BsBkCGrFHr617WyIZfnJHwduo2wNOqjBRqldQg="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "evgenyrodionov",
+					"email": "npm@erodionov.ru"
+				},
+				{
+					"name": "toxic",
+					"email": "toxickg@openmailbox.org"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/redux-logger-3.0.0.tgz_1490275737795_0.40946724684908986"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"3.0.1": {
+			"name": "redux-logger",
+			"version": "3.0.1",
+			"description": "Logger for Redux",
+			"main": "lib/index.js",
+			"scripts": {
+				"lint": "$(npm bin)/eslint src",
+				"test": "NODE_ENV=development npm run lint && npm run spec",
+				"test:production": "NODE_ENV=production npm run lint && npm run spec",
+				"spec": "NODE_PATH=src nyc --all --silent --require babel-core/register mocha --plugins transform-inline-environment-variables --recursive spec/*.spec.js",
+				"spec:watch": "NODE_ENV=development npm run spec -- --watch",
+				"coverage": "nyc report",
+				"coverage:html": "nyc report --reporter=html && (http-server -p 8077 ./coverage & open-url http://localhost:8077/)",
+				"coverage:production": "nyc report --reporter=text-lcov > coverage.lcov && codecov",
+				"clean": "$(npm bin)/rimraf dist lib",
+				"build:lib": "$(npm bin)/babel src --out-dir lib",
+				"build:umd": "LIBRARY_NAME=reduxLogger NODE_ENV=development $(npm bin)/webpack src/index.js dist/index.js --config webpack.build.js",
+				"build:umd:min": "LIBRARY_NAME=reduxLogger NODE_ENV=production $(npm bin)/webpack -p src/index.js dist/index.min.js --config webpack.build.js",
+				"build": "npm run build:lib && npm run build:umd && npm run build:umd:min",
+				"precommit": "npm run test",
+				"prepublish": "npm run clean && npm run test:production && npm run build"
+			},
+			"nyc": {
+				"exclude": [
+					"node_modules",
+					"spec",
+					"example",
+					"lib",
+					"dist",
+					"webpack.*.js"
+				]
+			},
+			"files": [
+				"dist",
+				"lib",
+				"src"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/theaqua/redux-logger.git"
+			},
+			"keywords": [
+				"redux",
+				"logger",
+				"redux-logger",
+				"middleware"
+			],
+			"author": {
+				"name": "Eugene Rodionov",
+				"url": "https://github.com/theaqua"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/theaqua/redux-logger/issues"
+			},
+			"homepage": "https://github.com/theaqua/redux-logger#readme",
+			"devDependencies": {
+				"@dtrussia/eslint-config-dtrussia": "2.2.1",
+				"babel-cli": "^6.24.0",
+				"babel-core": "^6.24.0",
+				"babel-eslint": "7.1.1",
+				"babel-loader": "^6.4.1",
+				"babel-plugin-add-module-exports": "0.2.1",
+				"babel-plugin-transform-es2015-modules-umd": "6.24.0",
+				"babel-plugin-transform-inline-environment-variables": "6.8.0",
+				"babel-preset-es2015": "^6.24.0",
+				"babel-preset-react": "^6.23.0",
+				"babel-preset-stage-0": "^6.22.0",
+				"chai": "3.5.0",
+				"codecov": "1.0.1",
+				"eslint": "3.10.2",
+				"eslint-plugin-react": "6.7.1",
+				"http-server": "0.9.0",
+				"husky": "^0.13.2",
+				"mocha": "3.1.2",
+				"nyc": "9.0.1",
+				"open-url": "2.0.2",
+				"redux": "^3.6.0",
+				"rimraf": "^2.6.1",
+				"sinon": "^1.17.7",
+				"webpack": "1.13.3"
+			},
+			"dependencies": {
+				"deep-diff": "0.3.4"
+			},
+			"gitHead": "9ec10bb21ea2b1ba19f0c4aae44b228247c64bad",
+			"_id": "redux-logger@3.0.1",
+			"_shasum": "ae8ae4c3c55ed3dd7aa31509f0856c5d3751057a",
+			"_from": ".",
+			"_npmVersion": "4.4.1",
+			"_nodeVersion": "7.2.0",
+			"_npmUser": {
+				"name": "evgenyrodionov",
+				"email": "npm@erodionov.ru"
+			},
+			"dist": {
+				"shasum": "ae8ae4c3c55ed3dd7aa31509f0856c5d3751057a",
+				"tarball": "https://registry.npmjs.org/redux-logger/-/redux-logger-3.0.1.tgz",
+				"integrity": "sha512-66KBBM1N9MA+o9MWoMoED0d40PJX2yJY74vHGnN4Nu/BCY+q18+VdjPQqXSiFeUK5evQ4OIk/as+IcIorAxFBw==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIGl2N+/jk5x7NaJRoNzAC9vgJ8J0MmZUWKOQmYrr7dJvAiAX7QiyuGfU7Hm4REI+E3Uu1ufnSd2mCJQmpo3QqXnvGQ=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "evgenyrodionov",
+					"email": "npm@erodionov.ru"
+				},
+				{
+					"name": "toxic",
+					"email": "toxickg@openmailbox.org"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/redux-logger-3.0.1.tgz_1490895514522_0.8500946422573179"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"3.0.6": {
+			"name": "redux-logger",
+			"version": "3.0.6",
+			"description": "Logger for Redux",
+			"main": "dist/redux-logger.js",
+			"scripts": {
+				"lint": "eslint src",
+				"test": "npm run lint && npm run spec",
+				"spec": "nyc --all --silent --require babel-core/register mocha --plugins transform-inline-environment-variables --recursive spec/*.spec.js",
+				"spec:watch": "npm run spec -- --watch",
+				"coverage": "nyc report",
+				"coverage:html": "nyc report --reporter=html && http-server -p 8077 ./coverage -o",
+				"coverage:production": "nyc report --reporter=text-lcov > coverage.lcov && codecov",
+				"clean": "rimraf dist",
+				"build": "rollup -c",
+				"precommit": "npm test",
+				"prepublish": "npm run clean && npm test && npm run build"
+			},
+			"eslintConfig": {
+				"extends": "airbnb",
+				"rules": {
+					"no-console": "off"
+				},
+				"env": {
+					"browser": true,
+					"mocha": true
+				}
+			},
+			"nyc": {
+				"exclude": [
+					"node_modules",
+					"spec",
+					"example",
+					"lib",
+					"dist",
+					"coverage",
+					"rollup.config.js"
+				]
+			},
+			"files": [
+				"dist",
+				"src"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/theaqua/redux-logger.git"
+			},
+			"keywords": [
+				"redux",
+				"logger",
+				"redux-logger",
+				"middleware"
+			],
+			"author": {
+				"name": "Eugene Rodionov",
+				"url": "https://github.com/theaqua"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/theaqua/redux-logger/issues"
+			},
+			"homepage": "https://github.com/theaqua/redux-logger#readme",
+			"devDependencies": {
+				"babel-core": "^6.24.0",
+				"babel-plugin-external-helpers": "^6.22.0",
+				"babel-plugin-transform-inline-environment-variables": "6.8.0",
+				"babel-preset-es2015": "^6.24.0",
+				"chai": "3.5.0",
+				"codecov": "1.0.1",
+				"eslint": "^3.19.0",
+				"eslint-config-airbnb": "^14.1.0",
+				"eslint-plugin-import": "^2.2.0",
+				"eslint-plugin-jsx-a11y": "^4.0.0",
+				"eslint-plugin-react": "^6.10.3",
+				"http-server": "0.9.0",
+				"husky": "^0.13.2",
+				"mocha": "3.1.2",
+				"nyc": "9.0.1",
+				"redux": "^3.6.0",
+				"rimraf": "^2.6.1",
+				"rollup": "^0.41.6",
+				"rollup-plugin-babel": "^2.7.1",
+				"rollup-plugin-commonjs": "^8.0.2",
+				"rollup-plugin-node-resolve": "^3.0.0",
+				"rollup-plugin-uglify": "^1.0.2",
+				"sinon": "^1.17.7"
+			},
+			"dependencies": {
+				"deep-diff": "^0.3.5"
+			},
+			"gitHead": "ab1fe786a14af368ff65e9f8cd496ab1dd779b19",
+			"_id": "redux-logger@3.0.6",
+			"_shasum": "f7555966f3098f3c88604c449cf0baf5778274bf",
+			"_from": ".",
+			"_npmVersion": "4.5.0",
+			"_nodeVersion": "7.2.0",
+			"_npmUser": {
+				"name": "evgenyrodionov",
+				"email": "npm@erodionov.ru"
+			},
+			"dist": {
+				"shasum": "f7555966f3098f3c88604c449cf0baf5778274bf",
+				"tarball": "https://registry.npmjs.org/redux-logger/-/redux-logger-3.0.6.tgz",
+				"integrity": "sha512-JoCIok7bg/XpqA1JqCqXFypuqBbQzGQySrhFzewB7ThcnysTO30l4VCst86AuB9T9tuT03MAA56Jw2PNhRSNCg==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDwFz9JsPU8WucvtGCbEI9v0BeqXMJ9HRK5DK9zdhB1sgIhAOtHfSD+asK4fMMy8rbRVIO36cNiMqhBXj+ukfKgYXIr"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "evgenyrodionov",
+					"email": "npm@erodionov.ru"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/redux-logger-3.0.6.tgz_1495035015215_0.7671845508739352"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"4.0.0": {
+			"name": "redux-logger",
+			"version": "4.0.0",
+			"description": "Logger for Redux",
+			"main": "dist/redux-logger.js",
+			"module": "dist/redux-logger.es.js",
+			"jsnext:main": "dist/redux-logger.es.js",
+			"scripts": {
+				"lint": "eslint src",
+				"test": "npm run lint && npm run spec",
+				"spec": "nyc --all --silent --require babel-core/register mocha --plugins transform-inline-environment-variables --recursive spec/*.spec.js",
+				"spec:watch": "npm run spec -- --watch",
+				"coverage": "nyc report",
+				"coverage:html": "nyc report --reporter=html && http-server -p 8077 ./coverage -o",
+				"coverage:production": "nyc report --reporter=text-lcov > coverage.lcov && codecov",
+				"clean": "rimraf dist",
+				"uglify": "uglifyjs dist/redux-logger.js -cm -o dist/redux-logger.js",
+				"build": "rollup -c && npm run uglify",
+				"precommit": "npm test && npm run lint",
+				"prepublish": "npm run clean && npm test && npm run lint && npm run build"
+			},
+			"eslintConfig": {
+				"extends": "airbnb",
+				"rules": {
+					"no-console": "off"
+				},
+				"env": {
+					"browser": true,
+					"mocha": true
+				}
+			},
+			"nyc": {
+				"exclude": [
+					"node_modules",
+					"spec",
+					"example",
+					"lib",
+					"dist",
+					"coverage",
+					"rollup.config.js"
+				]
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/LogRocket/redux-logger.git"
+			},
+			"keywords": [
+				"redux",
+				"logger",
+				"redux-logger",
+				"middleware"
+			],
+			"author": {
+				"name": "Eugene Rodionov",
+				"url": "https://github.com/evgenyrodionov"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/LogRocket/redux-logger/issues"
+			},
+			"homepage": "https://github.com/LogRocket/redux-logger#readme",
+			"devDependencies": {
+				"babel-core": "^6.24.0",
+				"babel-plugin-external-helpers": "^6.22.0",
+				"babel-plugin-transform-inline-environment-variables": "6.8.0",
+				"babel-preset-es2015": "^6.24.0",
+				"chai": "3.5.0",
+				"codecov": "1.0.1",
+				"eslint": "^3.19.0",
+				"eslint-config-airbnb": "^14.1.0",
+				"eslint-plugin-import": "^2.2.0",
+				"eslint-plugin-jsx-a11y": "^4.0.0",
+				"eslint-plugin-react": "^6.10.3",
+				"http-server": "0.9.0",
+				"husky": "^0.13.2",
+				"mocha": "3.1.2",
+				"nyc": "9.0.1",
+				"redux": "^3.6.0",
+				"rimraf": "^2.6.1",
+				"rollup": "^0.41.6",
+				"rollup-plugin-babel": "^2.7.1",
+				"rollup-plugin-commonjs": "^8.0.2",
+				"rollup-plugin-node-resolve": "^3.0.0",
+				"sinon": "^1.17.7",
+				"uglify-js": "^3.0.8"
+			},
+			"dependencies": {
+				"deep-diff": "^0.3.5"
+			},
+			"readmeFilename": "README.md",
+			"gitHead": "5816a9fc8da9b417589380e381ed66f1114ebd9a",
+			"_id": "redux-logger@4.0.0",
+			"_npmVersion": "5.7.1",
+			"_nodeVersion": "8.3.0",
+			"_npmUser": {
+				"name": "eranimo",
+				"email": "me@kaelan.org"
+			},
+			"dist": {
+				"integrity": "sha512-dl+5mQjk70HIlrgOgPMAL0d0hOhBTPQcG5zPPlPZKa/Yf4lU6A37mv3Xqn3lFp0eUguSApIa2GD/YJVOIQQi5A==",
+				"shasum": "83e7f97008c8425c73f8a06269109ea6d67a5bc1",
+				"tarball": "https://registry.npmjs.org/redux-logger/-/redux-logger-4.0.0.tgz",
+				"fileCount": 10,
+				"unpackedSize": 59132,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcnnt5CRA9TVsSAnZWagAAhbUQAJR6+8swLkPvX+Nt+Uqe\nDwC/BlhtpE+9dFUefh5hL1MsWNh+14vWKpoG/XwsBAiwPFOtn7J50R1gQySB\nXs3Il9rJ0lfCs5lXhUsAizUaogFb+YIZ5x0PJwq6x/x+kertcH1TAi/ymadU\nsas7yX1Xv2qBrLL2ZHJ2WnFzA3meWkbWKGil4H1K6biBC5LFx5iqVUiaqnjb\nhIwVvrvIbRUf/xHPCdSQA04PnKTWC0Lua19iKoloEnYzXVcd5IP1nBMyzklJ\nWjjdQGxjyMdQa+hdzi/F3oPqtF1IhCYVnYHe5/IkJCh2P6xwinJGxYIWatkL\nW7UmNdwLxzYd/Ym7nr26BjuD1ClnpHDf/mKD2RLLssyQ736F/ZMkS+0+XCnP\nlddCbTB8+K5u3awr9z0XbIklRxIdmHiixmvHPdW7jWBYZuLr8Xm9BFI2vdwk\nyeuOUh5HJvSj59Zhexke53WCcnySSA9Tf8WDsc4SWdlQnOJn6l4cnDuGsjSg\nKRI1H7tecXJpWkGY+RmN4RJJOBQOdBfSkyNR+3vHLNpHs2RskI/qoGs2uDs5\nqWlzoZyLAE3JcIcSYsNqRfFZj2s2wmGDOLdBVHFUwdqBaw/f2IMgoSgXgVXk\naQZ2fJohm/224Syw+eyVnR+Dhsodm9BwaiuO7bBM7MKWBnRJBh6r8klsuvpW\nt8v1\r\n=VnKY\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDWRNZv6+GA/LfyGzq2HtSAhSI1zf1PFuYq3FkU5qg8LwIhANidfbZ7STftimNCjU3sPCLKRu95kCd8QDGmypi9Zz88"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"email": "arbesfeld@gmail.com",
+					"name": "arbesfeld"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/redux-logger_4.0.0_1553890168939_0.06276636039041916"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		}
+	},
+	"time": {
+		"modified": "2022-06-26T10:14:40.589Z",
+		"created": "2015-08-11T22:52:30.205Z",
+		"0.0.1": "2015-08-11T22:52:30.205Z",
+		"0.0.2": "2015-08-12T20:19:02.515Z",
+		"0.0.3": "2015-08-12T20:42:20.469Z",
+		"1.0.0": "2015-08-20T21:12:13.963Z",
+		"1.0.1": "2015-08-21T04:19:26.426Z",
+		"1.0.2": "2015-08-21T05:20:46.590Z",
+		"1.0.3": "2015-08-21T06:10:33.112Z",
+		"1.0.4": "2015-08-22T10:01:46.886Z",
+		"1.0.5": "2015-08-22T19:50:19.963Z",
+		"1.0.6": "2015-08-24T15:34:51.130Z",
+		"1.0.7": "2015-09-15T17:42:04.130Z",
+		"1.0.8": "2015-09-16T06:12:37.222Z",
+		"1.0.9": "2015-09-22T07:15:04.759Z",
+		"2.0.0": "2015-09-25T05:18:49.875Z",
+		"2.0.1": "2015-09-29T09:31:00.870Z",
+		"2.0.2": "2015-10-05T16:40:14.980Z",
+		"2.0.3": "2015-10-06T13:09:17.217Z",
+		"2.0.4": "2015-10-15T08:53:34.303Z",
+		"2.0.5": "2015-12-06T15:14:19.976Z",
+		"2.1.0": "2015-12-06T15:35:26.938Z",
+		"2.1.1": "2015-12-06T15:38:31.300Z",
+		"2.1.2": "2015-12-07T13:42:39.541Z",
+		"2.1.3": "2015-12-07T13:48:47.453Z",
+		"2.1.4": "2015-12-08T17:08:04.404Z",
+		"2.2.0": "2015-12-10T08:25:39.454Z",
+		"2.2.1": "2015-12-10T08:29:34.210Z",
+		"2.3.0": "2015-12-16T23:40:47.260Z",
+		"2.3.1": "2015-12-17T10:39:00.349Z",
+		"2.3.2": "2016-01-12T06:02:35.892Z",
+		"2.4.0": "2016-01-22T06:19:00.849Z",
+		"2.5.0": "2016-02-03T20:46:31.011Z",
+		"2.5.1": "2016-02-11T09:09:52.227Z",
+		"2.5.2": "2016-02-11T10:14:19.792Z",
+		"2.6.0": "2016-02-22T12:52:12.111Z",
+		"2.6.1": "2016-02-29T21:35:46.806Z",
+		"2.7.0": "2016-10-05T19:39:32.672Z",
+		"2.7.1": "2016-10-28T19:55:48.307Z",
+		"2.7.2": "2016-10-28T20:20:19.950Z",
+		"2.7.3": "2016-10-29T13:15:35.828Z",
+		"2.7.4": "2016-10-29T13:17:55.029Z",
+		"2.8.0": "2017-02-01T12:40:09.205Z",
+		"2.8.1": "2017-02-02T14:29:18.687Z",
+		"2.8.2": "2017-03-02T10:34:13.420Z",
+		"2.9.0": "2017-03-21T11:47:48.023Z",
+		"2.9.1": "2017-03-21T12:22:37.338Z",
+		"2.10.0": "2017-03-21T13:23:47.169Z",
+		"2.10.1": "2017-03-21T21:39:59.019Z",
+		"2.10.2": "2017-03-22T09:59:06.850Z",
+		"3.0.0": "2017-03-23T13:28:58.780Z",
+		"3.0.1": "2017-03-30T17:38:35.413Z",
+		"3.0.2": "2017-05-17T11:07:57.952Z",
+		"3.0.3": "2017-05-17T11:49:34.375Z",
+		"3.0.4": "2017-05-17T14:30:03.201Z",
+		"3.0.5": "2017-05-17T15:23:38.732Z",
+		"3.0.6": "2017-05-17T15:30:16.555Z",
+		"4.0.0": "2019-03-29T20:09:29.115Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "3.0.6",
+		"beta": "4.0.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"29c958ae742c2f9063a16f2aa689cf65\"",
+			"fetched": 1660840681585
+		}
+	},
+	"_distfiles": {
+		"redux-logger-0.0.1.tgz": {
+			"url": "https://registry.npmjs.org/redux-logger/-/redux-logger-0.0.1.tgz",
+			"sha": "f9684d0f12c028bf6d3a3d329c99f5dbdc14d19c",
+			"registry": "npmjs"
+		},
+		"redux-logger-0.0.2.tgz": {
+			"url": "https://registry.npmjs.org/redux-logger/-/redux-logger-0.0.2.tgz",
+			"sha": "63c956a651eb1c5de3545084dc2e0363ea28bb3d",
+			"registry": "npmjs"
+		},
+		"redux-logger-0.0.3.tgz": {
+			"url": "https://registry.npmjs.org/redux-logger/-/redux-logger-0.0.3.tgz",
+			"sha": "ee1d477cf6b508f023a53c843cec5ed7842fee58",
+			"registry": "npmjs"
+		},
+		"redux-logger-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/redux-logger/-/redux-logger-1.0.0.tgz",
+			"sha": "c3c0c85394d57f97aeaa8aad00aef36c3ebde082",
+			"registry": "npmjs"
+		},
+		"redux-logger-1.0.1.tgz": {
+			"url": "https://registry.npmjs.org/redux-logger/-/redux-logger-1.0.1.tgz",
+			"sha": "76030c805e343c723cd62a0b949ab50bd1c2bc48",
+			"registry": "npmjs"
+		},
+		"redux-logger-1.0.2.tgz": {
+			"url": "https://registry.npmjs.org/redux-logger/-/redux-logger-1.0.2.tgz",
+			"sha": "8fd868010a37feaa412bd449802de032a71aa428",
+			"registry": "npmjs"
+		},
+		"redux-logger-1.0.3.tgz": {
+			"url": "https://registry.npmjs.org/redux-logger/-/redux-logger-1.0.3.tgz",
+			"sha": "be5a0fe529a58c06aea2bda39b2a085866df330a",
+			"registry": "npmjs"
+		},
+		"redux-logger-1.0.4.tgz": {
+			"url": "https://registry.npmjs.org/redux-logger/-/redux-logger-1.0.4.tgz",
+			"sha": "ae225faec2250153021e549520541ae7fa7c68fe",
+			"registry": "npmjs"
+		},
+		"redux-logger-1.0.5.tgz": {
+			"url": "https://registry.npmjs.org/redux-logger/-/redux-logger-1.0.5.tgz",
+			"sha": "aefc46376fa7f4240586e400895d5359df7e487b",
+			"registry": "npmjs"
+		},
+		"redux-logger-1.0.6.tgz": {
+			"url": "https://registry.npmjs.org/redux-logger/-/redux-logger-1.0.6.tgz",
+			"sha": "ad60dc8c4112a419e3ba0d13617e32c4623b9e4e",
+			"registry": "npmjs"
+		},
+		"redux-logger-1.0.7.tgz": {
+			"url": "https://registry.npmjs.org/redux-logger/-/redux-logger-1.0.7.tgz",
+			"sha": "ecdbcbc31a51f873a59a92b7909dc6461a8cee1e",
+			"registry": "npmjs"
+		},
+		"redux-logger-1.0.8.tgz": {
+			"url": "https://registry.npmjs.org/redux-logger/-/redux-logger-1.0.8.tgz",
+			"sha": "e2553ef890d0862215696ac326686a9729735870",
+			"registry": "npmjs"
+		},
+		"redux-logger-1.0.9.tgz": {
+			"url": "https://registry.npmjs.org/redux-logger/-/redux-logger-1.0.9.tgz",
+			"sha": "144ff2c7c201a259ac71ca922b1ee215c9363478",
+			"registry": "npmjs"
+		},
+		"redux-logger-2.0.0.tgz": {
+			"url": "https://registry.npmjs.org/redux-logger/-/redux-logger-2.0.0.tgz",
+			"sha": "38e93dfd1b1d9b30e33e7966eca86295e89514f8",
+			"registry": "npmjs"
+		},
+		"redux-logger-2.0.1.tgz": {
+			"url": "https://registry.npmjs.org/redux-logger/-/redux-logger-2.0.1.tgz",
+			"sha": "6afe5f2c50dde20123bdaddda6552a451ff906a3",
+			"registry": "npmjs"
+		},
+		"redux-logger-2.0.2.tgz": {
+			"url": "https://registry.npmjs.org/redux-logger/-/redux-logger-2.0.2.tgz",
+			"sha": "57cc132c1984549a883b90eafc9b6ce504765f0b",
+			"registry": "npmjs"
+		},
+		"redux-logger-2.0.3.tgz": {
+			"url": "https://registry.npmjs.org/redux-logger/-/redux-logger-2.0.3.tgz",
+			"sha": "7fd082eab7b04c2153b4688f30e109bdfacae878",
+			"registry": "npmjs"
+		},
+		"redux-logger-2.0.4.tgz": {
+			"url": "https://registry.npmjs.org/redux-logger/-/redux-logger-2.0.4.tgz",
+			"sha": "e5f1a1963b47a5c5666967ae8323bba08fa915d3",
+			"registry": "npmjs"
+		},
+		"redux-logger-2.0.5.tgz": {
+			"url": "https://registry.npmjs.org/redux-logger/-/redux-logger-2.0.5.tgz",
+			"sha": "da24c8ae34f7c15a994e684d531fae3dc55cdd33",
+			"registry": "npmjs"
+		},
+		"redux-logger-2.1.0.tgz": {
+			"url": "https://registry.npmjs.org/redux-logger/-/redux-logger-2.1.0.tgz",
+			"sha": "6baa087492e7cda42a4364cfa5ccc5f2a88aa30d",
+			"registry": "npmjs"
+		},
+		"redux-logger-2.1.1.tgz": {
+			"url": "https://registry.npmjs.org/redux-logger/-/redux-logger-2.1.1.tgz",
+			"sha": "fec7737e7f1feeb58857cec6e3f9ccdff6e18975",
+			"registry": "npmjs"
+		},
+		"redux-logger-2.1.2.tgz": {
+			"url": "https://registry.npmjs.org/redux-logger/-/redux-logger-2.1.2.tgz",
+			"sha": "c4cae28c07fc6954ea6bf7d1635ec6e888abe56b",
+			"registry": "npmjs"
+		},
+		"redux-logger-2.1.3.tgz": {
+			"url": "https://registry.npmjs.org/redux-logger/-/redux-logger-2.1.3.tgz",
+			"sha": "30a269a953500591c9cbb6f9c1eb53be41f15c47",
+			"registry": "npmjs"
+		},
+		"redux-logger-2.1.4.tgz": {
+			"url": "https://registry.npmjs.org/redux-logger/-/redux-logger-2.1.4.tgz",
+			"sha": "41fbae19fe7f357d062e8ec134022dfbbb164066",
+			"registry": "npmjs"
+		},
+		"redux-logger-2.2.0.tgz": {
+			"url": "https://registry.npmjs.org/redux-logger/-/redux-logger-2.2.0.tgz",
+			"sha": "7ac5c82e4e888c45e0301b65563bd250ba1a4028",
+			"registry": "npmjs"
+		},
+		"redux-logger-2.2.1.tgz": {
+			"url": "https://registry.npmjs.org/redux-logger/-/redux-logger-2.2.1.tgz",
+			"sha": "f57dd1b3f48c0f48d4ad58ef8c026f753d6cb06c",
+			"registry": "npmjs"
+		},
+		"redux-logger-2.3.0.tgz": {
+			"url": "https://registry.npmjs.org/redux-logger/-/redux-logger-2.3.0.tgz",
+			"sha": "62f1c65d9ecc4b3822ed99d442779e9ce2e73c3c",
+			"registry": "npmjs"
+		},
+		"redux-logger-2.3.1.tgz": {
+			"url": "https://registry.npmjs.org/redux-logger/-/redux-logger-2.3.1.tgz",
+			"sha": "cdd3ba5ff8c621409532e065b31d11ecb32f7ddb",
+			"registry": "npmjs"
+		},
+		"redux-logger-2.3.2.tgz": {
+			"url": "https://registry.npmjs.org/redux-logger/-/redux-logger-2.3.2.tgz",
+			"sha": "75c492c75520af02cb441642e8852e8ee2c5239b",
+			"registry": "npmjs"
+		},
+		"redux-logger-2.4.0.tgz": {
+			"url": "https://registry.npmjs.org/redux-logger/-/redux-logger-2.4.0.tgz",
+			"sha": "2586fcfc85cd0376a1494f23576d9d7f7d4fb3bd",
+			"registry": "npmjs"
+		},
+		"redux-logger-2.5.0.tgz": {
+			"url": "https://registry.npmjs.org/redux-logger/-/redux-logger-2.5.0.tgz",
+			"sha": "cb7c0bb9b72d70edd95db7aae08989d3dbde70d9",
+			"registry": "npmjs"
+		},
+		"redux-logger-2.5.1.tgz": {
+			"url": "https://registry.npmjs.org/redux-logger/-/redux-logger-2.5.1.tgz",
+			"sha": "d5f50f14a5c4c3f0ff1982aa346dec94bc97d1bb",
+			"registry": "npmjs"
+		},
+		"redux-logger-2.5.2.tgz": {
+			"url": "https://registry.npmjs.org/redux-logger/-/redux-logger-2.5.2.tgz",
+			"sha": "7831a6dbad6fb8b9a523585aca03812f29285ab8",
+			"registry": "npmjs"
+		},
+		"redux-logger-2.6.0.tgz": {
+			"url": "https://registry.npmjs.org/redux-logger/-/redux-logger-2.6.0.tgz",
+			"sha": "8cae41dcec40f4089b0bf3dcb9f7d0081d4d1e1c",
+			"registry": "npmjs"
+		},
+		"redux-logger-2.6.1.tgz": {
+			"url": "https://registry.npmjs.org/redux-logger/-/redux-logger-2.6.1.tgz",
+			"sha": "f558a40e3abd03feaf4e69ace4d71fec09803c74",
+			"registry": "npmjs"
+		},
+		"redux-logger-2.7.0.tgz": {
+			"url": "https://registry.npmjs.org/redux-logger/-/redux-logger-2.7.0.tgz",
+			"sha": "77f0ee5c473b1440c7e1b3c3c7775e59741c5dbf",
+			"registry": "npmjs"
+		},
+		"redux-logger-2.7.1.tgz": {
+			"url": "https://registry.npmjs.org/redux-logger/-/redux-logger-2.7.1.tgz",
+			"sha": "97d8a45f9ff95959aea00b3efdd5cc7cd2af4cef",
+			"registry": "npmjs"
+		},
+		"redux-logger-2.7.2.tgz": {
+			"url": "https://registry.npmjs.org/redux-logger/-/redux-logger-2.7.2.tgz",
+			"sha": "14dff3d60bbda7a6361a5901cb073fe3a9980fe1",
+			"registry": "npmjs"
+		},
+		"redux-logger-2.7.3.tgz": {
+			"url": "https://registry.npmjs.org/redux-logger/-/redux-logger-2.7.3.tgz",
+			"sha": "412dee5a53079a323e110afc673ccf920219de00",
+			"registry": "npmjs"
+		},
+		"redux-logger-2.7.4.tgz": {
+			"url": "https://registry.npmjs.org/redux-logger/-/redux-logger-2.7.4.tgz",
+			"sha": "891e5d29e7f111d08b5781a237b9965b5858c7f8",
+			"registry": "npmjs"
+		},
+		"redux-logger-2.8.0.tgz": {
+			"url": "https://registry.npmjs.org/redux-logger/-/redux-logger-2.8.0.tgz",
+			"sha": "ca4cf8a1da991c7620675b9d877fb6dfe21dc2fd",
+			"registry": "npmjs"
+		},
+		"redux-logger-2.8.1.tgz": {
+			"url": "https://registry.npmjs.org/redux-logger/-/redux-logger-2.8.1.tgz",
+			"sha": "c00e689ba00342f44858701d76b1d73fbade72bd",
+			"registry": "npmjs"
+		},
+		"redux-logger-2.8.2.tgz": {
+			"url": "https://registry.npmjs.org/redux-logger/-/redux-logger-2.8.2.tgz",
+			"sha": "52140a89afa1c1d25312cc17649c116650bf7fca",
+			"registry": "npmjs"
+		},
+		"redux-logger-2.9.0.tgz": {
+			"url": "https://registry.npmjs.org/redux-logger/-/redux-logger-2.9.0.tgz",
+			"sha": "cb50bf97cc96c0594f8474e9690d2883afd70fd5",
+			"registry": "npmjs"
+		},
+		"redux-logger-2.9.1.tgz": {
+			"url": "https://registry.npmjs.org/redux-logger/-/redux-logger-2.9.1.tgz",
+			"sha": "cf58a2084e948e0061a76bab0eb60132cd8ea8d9",
+			"registry": "npmjs"
+		},
+		"redux-logger-2.10.0.tgz": {
+			"url": "https://registry.npmjs.org/redux-logger/-/redux-logger-2.10.0.tgz",
+			"sha": "445f76c207559bb5760cfba103c4439d127ac5dd",
+			"registry": "npmjs"
+		},
+		"redux-logger-2.10.1.tgz": {
+			"url": "https://registry.npmjs.org/redux-logger/-/redux-logger-2.10.1.tgz",
+			"sha": "c34931a0e3d91aa12ad95d54a7fe8aa143484110",
+			"registry": "npmjs"
+		},
+		"redux-logger-2.10.2.tgz": {
+			"url": "https://registry.npmjs.org/redux-logger/-/redux-logger-2.10.2.tgz",
+			"sha": "3c5a5f0a6f32577c1deadf6655f257f82c6c3937",
+			"registry": "npmjs"
+		},
+		"redux-logger-3.0.0.tgz": {
+			"url": "https://registry.npmjs.org/redux-logger/-/redux-logger-3.0.0.tgz",
+			"sha": "f552052d8992d058cfcdb42b5c654fa5f7beb9cc",
+			"registry": "npmjs"
+		},
+		"redux-logger-3.0.1.tgz": {
+			"url": "https://registry.npmjs.org/redux-logger/-/redux-logger-3.0.1.tgz",
+			"sha": "ae8ae4c3c55ed3dd7aa31509f0856c5d3751057a",
+			"registry": "npmjs"
+		},
+		"redux-logger-3.0.6.tgz": {
+			"url": "https://registry.npmjs.org/redux-logger/-/redux-logger-3.0.6.tgz",
+			"sha": "f7555966f3098f3c88604c449cf0baf5778274bf",
+			"registry": "npmjs"
+		},
+		"redux-logger-4.0.0.tgz": {
+			"url": "https://registry.npmjs.org/redux-logger/-/redux-logger-4.0.0.tgz",
+			"sha": "83e7f97008c8425c73f8a06269109ea6d67a5bc1",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_rev": "3-ab3b55c72c292378",
+	"_id": "redux-logger",
+	"readme": "# Logger for Redux\n[![npm](https://img.shields.io/npm/v/redux-logger.svg?maxAge=2592000?style=plastic)](https://www.npmjs.com/package/redux-logger)\n[![npm](https://img.shields.io/npm/dm/redux-logger.svg?maxAge=2592000?style=plastic)](https://www.npmjs.com/package/redux-logger)\n[![Build Status](https://circleci.com/gh/LogRocket/redux-logger/tree/master.svg?style=svg)](https://circleci.com/gh/LogRocket/redux-logger/tree/master)\n\n![redux-logger](http://i.imgur.com/CgAuHlE.png)\n\nNow maintained by [LogRocket](https://logrocket.com?cid=github_redux)!\n\n[![](https://i.imgur.com/Yp5mUx2.png)](https://logrocket.com?cid=github_redux)\n\n> LogRocket is a production Redux logging tool that lets you replay problems as if they happened in your own browser. Instead of guessing why errors happen, or asking users for screenshots and log dumps, LogRocket lets you replay Redux actions + state, network requests, console logs, and see a video of what the user saw.\n\nFor more informatiom about the future of redux-logger, check out the [discussion here](https://github.com/LogRocket/redux-logger/issues/314).\n\n## Table of contents\n* [Install](#install)\n* [Usage](#usage)\n* [Options](#options)\n* [Recipes](#recipes)\n  * [Log only in development](#log-only-in-development)\n  * [Log everything except actions with certain type](#log-everything-except-actions-with-certain-type)\n  * [Collapse actions with certain type](#collapse-actions-with-certain-type)\n  * [Transform Immutable (without `combineReducers`)](#transform-immutable-without-combinereducers)\n  * [Transform Immutable (with `combineReducers`)](#transform-immutable-with-combinereducers)\n  * [Log batched actions](#log-batched-actions)\n* [To Do](#to-do)\n* [Known issues](#known-issues) (with `react-native` only at this moment)\n* [License](#license)\n\n## Install\n`npm i --save redux-logger`\n\nTypescript types are also available, via [DefinitelyTyped](https://www.npmjs.com/package/@types/redux-logger):\n\n`npm i @types/redux-logger`\n\n## Usage\n```javascript\nimport { applyMiddleware, createStore } from 'redux';\n\n// Logger with default options\nimport logger from 'redux-logger'\nconst store = createStore(\n  reducer,\n  applyMiddleware(logger)\n)\n\n// Note passing middleware as the third argument requires redux@>=3.1.0\n```\n\nOr you can create your own logger with custom [options](https://github.com/LogRocket/redux-logger#options):\n```javascript\nimport { applyMiddleware, createStore } from 'redux';\nimport { createLogger } from 'redux-logger'\n\nconst logger = createLogger({\n  // ...options\n});\n\nconst store = createStore(\n  reducer,\n  applyMiddleware(logger)\n);\n```\n\nNote: logger **must be** the last middleware in chain, otherwise it will log thunk and promise, not actual actions ([#20](https://github.com/LogRocket/redux-logger/issues/20)).\n\n## Options\n```javascript\n{\n  predicate, // if specified this function will be called before each action is processed with this middleware.\n  collapsed, // takes a Boolean or optionally a Function that receives `getState` function for accessing current store state and `action` object as parameters. Returns `true` if the log group should be collapsed, `false` otherwise.\n  duration = false: Boolean, // print the duration of each action?\n  timestamp = true: Boolean, // print the timestamp with each action?\n\n  level = 'log': 'log' | 'console' | 'warn' | 'error' | 'info', // console's level\n  colors: ColorsObject, // colors for title, prev state, action and next state: https://github.com/LogRocket/redux-logger/blob/master/src/defaults.js#L12-L18\n  titleFormatter, // Format the title used when logging actions.\n\n  stateTransformer, // Transform state before print. Eg. convert Immutable object to plain JSON.\n  actionTransformer, // Transform action before print. Eg. convert Immutable object to plain JSON.\n  errorTransformer, // Transform error before print. Eg. convert Immutable object to plain JSON.\n\n  logger = console: LoggerObject, // implementation of the `console` API.\n  logErrors = true: Boolean, // should the logger catch, log, and re-throw errors?\n\n  diff = false: Boolean, // (alpha) show diff between states?\n  diffPredicate // (alpha) filter function for showing states diff, similar to `predicate`\n}\n```\n\n### Options description\n\n#### __level (String | Function | Object)__\nLevel of `console`. `warn`, `error`, `info` or [else](https://developer.mozilla.org/en/docs/Web/API/console).\n\nIt can be a function `(action: Object) => level: String`.\n\nIt can be an object with level string for: `prevState`, `action`, `nextState`, `error`\n\nIt can be an object with getter functions: `prevState`, `action`, `nextState`, `error`. Useful if you want to print\nmessage based on specific state or action. Set any of them to `false` if you want to hide it.\n\n* `prevState(prevState: Object) => level: String`\n* `action(action: Object) => level: String`\n* `nextState(nextState: Object) => level: String`\n* `error(error: Any, prevState: Object) => level: String`\n\n*Default: `log`*\n\n#### __duration (Boolean)__\nPrint duration of each action?\n\n*Default: `false`*\n\n#### __timestamp (Boolean)__\nPrint timestamp with each action?\n\n*Default: `true`*\n\n#### __colors (Object)__\nObject with color getter functions: `title`, `prevState`, `action`, `nextState`, `error`. Useful if you want to paint\nmessage based on specific state or action. Set any of them to `false` if you want to show plain message without colors.\n\n* `title(action: Object) => color: String`\n* `prevState(prevState: Object) => color: String`\n* `action(action: Object) => color: String`\n* `nextState(nextState: Object) => color: String`\n* `error(error: Any, prevState: Object) => color: String`\n\n#### __logger (Object)__\nImplementation of the `console` API. Useful if you are using a custom, wrapped version of `console`.\n\n*Default: `console`*\n\n#### __logErrors (Boolean)__\nShould the logger catch, log, and re-throw errors? This makes it clear which action triggered the error but makes \"break\non error\" in dev tools harder to use, as it breaks on re-throw rather than the original throw location.\n\n*Default: `true`*\n\n#### __collapsed = (getState: Function, action: Object, logEntry: Object) => Boolean__\nTakes a boolean or optionally a function that receives `getState` function for accessing current store state and `action` object as parameters. Returns `true` if the log group should be collapsed, `false` otherwise.\n\n*Default: `false`*\n\n#### __predicate = (getState: Function, action: Object) => Boolean__\nIf specified this function will be called before each action is processed with this middleware.\nReceives `getState` function for  accessing current store state and `action` object as parameters. Returns `true` if action should be logged, `false` otherwise.\n\n*Default: `null` (always log)*\n\n#### __stateTransformer = (state: Object) => state__\nTransform state before print. Eg. convert Immutable object to plain JSON.\n\n*Default: identity function*\n\n#### __actionTransformer = (action: Object) => action__\nTransform action before print. Eg. convert Immutable object to plain JSON.\n\n*Default: identity function*\n\n#### __errorTransformer = (error: Any) => error__\nTransform error before print.\n\n*Default: identity function*\n\n#### __titleFormatter = (action: Object, time: String?, took: Number?) => title__\nFormat the title used for each action.\n\n*Default: prints something like `action @ ${time} ${action.type} (in ${took.toFixed(2)} ms)`*\n\n#### __diff (Boolean)__\nShow states diff.\n\n*Default: `false`*\n\n#### __diffPredicate = (getState: Function, action: Object) => Boolean__\nFilter states diff for certain cases.\n\n*Default: `undefined`*\n\n## Recipes\n### Log only in development\n```javascript\nconst middlewares = [];\n\nif (process.env.NODE_ENV === `development`) {\n  const { logger } = require(`redux-logger`);\n\n  middlewares.push(logger);\n}\n\nconst store = compose(applyMiddleware(...middlewares))(createStore)(reducer);\n```\n\n### Log everything except actions with certain type\n```javascript\ncreateLogger({\n  predicate: (getState, action) => action.type !== AUTH_REMOVE_TOKEN\n});\n```\n\n### Collapse actions with certain type\n```javascript\ncreateLogger({\n  collapsed: (getState, action) => action.type === FORM_CHANGE\n});\n```\n\n### Collapse actions that don't have errors\n```javascript\ncreateLogger({\n  collapsed: (getState, action, logEntry) => !logEntry.error\n});\n```\n\n### Transform Immutable (without `combineReducers`)\n```javascript\nimport { Iterable } from 'immutable';\n\nconst stateTransformer = (state) => {\n  if (Iterable.isIterable(state)) return state.toJS();\n  else return state;\n};\n\nconst logger = createLogger({\n  stateTransformer,\n});\n```\n\n### Transform Immutable (with `combineReducers`)\n```javascript\nconst logger = createLogger({\n  stateTransformer: (state) => {\n    let newState = {};\n\n    for (var i of Object.keys(state)) {\n      if (Immutable.Iterable.isIterable(state[i])) {\n        newState[i] = state[i].toJS();\n      } else {\n        newState[i] = state[i];\n      }\n    };\n\n    return newState;\n  }\n});\n```\n\n### Log batched actions\nThanks to [@smashercosmo](https://github.com/smashercosmo)\n```javascript\nimport { createLogger } from 'redux-logger';\n\nconst actionTransformer = action => {\n  if (action.type === 'BATCHING_REDUCER.BATCH') {\n    action.payload.type = action.payload.map(next => next.type).join(' => ');\n    return action.payload;\n  }\n\n  return action;\n};\n\nconst level = 'info';\n\nconst logger = {};\n\nfor (const method in console) {\n  if (typeof console[method] === 'function') {\n    logger[method] = console[method].bind(console);\n  }\n}\n\nlogger[level] = function levelFn(...args) {\n  const lastArg = args.pop();\n\n  if (Array.isArray(lastArg)) {\n    return lastArg.forEach(item => {\n      console[level].apply(console, [...args, item]);\n    });\n  }\n\n  console[level].apply(console, arguments);\n};\n\nexport default createLogger({\n  level,\n  actionTransformer,\n  logger\n});\n```\n\n## To Do\n- [x] Update eslint config to [airbnb's](https://www.npmjs.com/package/eslint-config-airbnb)\n- [ ] Clean up code, because it's very messy, to be honest\n- [ ] Write tests\n- [ ] Node.js support\n- [ ] React-native support\n\nFeel free to create PR for any of those tasks!\n\n## Known issues\n* Performance issues in react-native ([#32](https://github.com/LogRocket/redux-logger/issues/32))\n\n## License\nMIT"
+}

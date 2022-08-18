@@ -1,0 +1,928 @@
+{
+	"name": "@adobe/css-tools",
+	"versions": {
+		"4.0.0-rc.2": {
+			"name": "@adobe/css-tools",
+			"version": "4.0.0-rc.2",
+			"description": "CSS parser / stringifier",
+			"main": "dist/umd/index.js",
+			"module": "dist/cjs/index.js",
+			"types": "dist/cjs/index.d.ts",
+			"devDependencies": {
+				"@types/benchmark": "^2.1.1",
+				"@types/bytes": "^3.1.1",
+				"@types/jest": "^28.1.1",
+				"@types/node": "^17.0.41",
+				"benchmark": "^2.1.4",
+				"bytes": "^3.1.0",
+				"gts": "^3.1.0",
+				"jest": "^28.1.1",
+				"rollup": "^2.75.6",
+				"ts-jest": "^28.0.4",
+				"ts-node": "^10.8.1",
+				"typescript": "^4.7.3"
+			},
+			"scripts": {
+				"benchmark": "ts-node benchmark/index.ts",
+				"test": "jest",
+				"lint": "gts lint",
+				"clean": "gts clean",
+				"build": "npm run build:cjs && npm run build:umd",
+				"build:cjs": "tsc --module commonjs --target es5 --outDir dist/cjs",
+				"build:umd": "npx rollup dist/cjs/index.js --format umd --name cssTools --sourcemap --file dist/umd/index.js",
+				"fix": "gts fix",
+				"prepare": "npm run build",
+				"pretest": "npm run build",
+				"posttest": "npm run lint"
+			},
+			"author": {
+				"name": "TJ Holowaychuk",
+				"email": "tj@vision-media.ca"
+			},
+			"contributors": [
+				{
+					"name": "Jean-Philippe Zolesio",
+					"email": "holblin@gmail.com"
+				}
+			],
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/adobe/css-tools.git"
+			},
+			"keywords": [
+				"css",
+				"parser",
+				"stringifier",
+				"stylesheet"
+			],
+			"gitHead": "b2a7251bfc2d961814204f79b3394e495b998fa9",
+			"bugs": {
+				"url": "https://github.com/adobe/css-tools/issues"
+			},
+			"homepage": "https://github.com/adobe/css-tools#readme",
+			"_id": "@adobe/css-tools@4.0.0-rc.2",
+			"_nodeVersion": "14.19.3",
+			"_npmVersion": "6.14.17",
+			"dist": {
+				"integrity": "sha512-rBJQncYNGzeb8KCI8hhzWLRXsWenC5hr/wkrivHsVBSTd0miIWFzV2FzcldJE67Fq57YHbSbN9ptI9P9E2wxJg==",
+				"shasum": "4eb7bbd6b0171fbd9454b4db7473849fcf27eee7",
+				"tarball": "https://registry.npmjs.org/@adobe/css-tools/-/css-tools-4.0.0-rc.2.tgz",
+				"fileCount": 27,
+				"unpackedSize": 73167,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDtXJWLrzNjoW7g/gIpmkHgM88n+O56RRefKdNraEeQ4AIgSM/hVyw8Nbh6L35fFGtG4hoVAez4rBSlKkLw41IRz0o="
+					}
+				],
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJiopIoACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2VmqQvw/+NOXvLwfJdpLfs3XFVj2iOeR9jXpEomo0uXL/bQcj1G657aWk\r\nUDva67zlc2usmniYSJO7AJxOIQmmR54NAXgWFkdpk35AEXfmieYAHBUBQDH1\r\n+sXPV2VYKdy7IYgWmC6K95xSykMvwSKyki0lKP6WR69bcOAleAqhg44KKKvr\r\nK63riLhmc1wtuYosWDmtEK1+QY2RaUKqVwrX8SH1096OFMWF/vapzN5NyKcx\r\n5mobJACXY/8NVOEzyuOsleQrruCH4yT17hcFr5nkEq4qxm+0PVhVj05klCNh\r\nvM9ymAWjkTq+BsdNxDp55vNb9GxbEeANWF2ACuAtk6eHkjEUjxi5dChIOIOh\r\nIfA5hjXpmLmNe/T430yT7hmyCKReHRDuY+QTj2s/Xxc1+v+nCd1pZvniVgER\r\n5kpMH+wwXZ23UF0fFs3pmtYaQsoysY8iME+NQkdFY/ip7Ff3ysJVJ8xg+8Q5\r\nf3Gg5pnazkFtwdV5rQ6kSWxiXxZPy0JJm8nELfODjPFiK6exBlfAG49R5jHo\r\nCixYJO73jIljijukAuh5X+0ysm1QmWvGNos6wIl6YC+bSgRSluSdKhZf2f0W\r\n9PKKe7s9miUGPxqa2XaFjdRek4p8jxr9p5zsf7mq0QejlOhIYCzYyEtTkewn\r\nmM6XRxCtiouy4648v2Bb12PpVMxW9LrdX3Y=\r\n=heuu\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "adobe-admin",
+				"email": "grp-opensourceoffice@adobe.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "adobehalls",
+					"email": "halls@adobe.com"
+				},
+				{
+					"name": "fullcolorcoder",
+					"email": "bradjohn@adobe.com"
+				},
+				{
+					"name": "marbec",
+					"email": "mabecker@adobe.com"
+				},
+				{
+					"name": "tripod",
+					"email": "tripod@bocanegra.ch"
+				},
+				{
+					"name": "garthdb",
+					"email": "garthdb@gmail.com"
+				},
+				{
+					"name": "lazd",
+					"email": "lazdnet@gmail.com"
+				},
+				{
+					"name": "adobe-admin",
+					"email": "grp-opensourceoffice@adobe.com"
+				},
+				{
+					"name": "patrickfulton",
+					"email": "patrickfulton@gmail.com"
+				},
+				{
+					"name": "trieloff",
+					"email": "lars@trieloff.net"
+				},
+				{
+					"name": "shazron",
+					"email": "shazron@gmail.com"
+				},
+				{
+					"name": "krisnye",
+					"email": "krisnye@gmail.com"
+				},
+				{
+					"name": "dcpfsdk",
+					"email": "dcpfsdk@adobe.com"
+				},
+				{
+					"name": "natebaldwin",
+					"email": "natebaldwindesign@gmail.com"
+				},
+				{
+					"name": "devongovett",
+					"email": "devongovett@gmail.com"
+				},
+				{
+					"name": "aspro83",
+					"email": "danniintheus@gmail.com"
+				},
+				{
+					"name": "symanovi",
+					"email": "symanovi@adobe.com"
+				},
+				{
+					"name": "dpfister",
+					"email": "dominique.pfister@gmail.com"
+				},
+				{
+					"name": "stefan-guggisberg",
+					"email": "sg@adobe.com"
+				},
+				{
+					"name": "korra",
+					"email": "npmjs.karo@cupdev.net"
+				},
+				{
+					"name": "rofe",
+					"email": "npm@rofe.com"
+				},
+				{
+					"name": "kptdobe",
+					"email": "kptdobe@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/css-tools_4.0.0-rc.2_1654821416596_0.46301880041750665"
+			},
+			"_hasShrinkwrap": false
+		},
+		"4.0.0-rc.3": {
+			"name": "@adobe/css-tools",
+			"version": "4.0.0-rc.3",
+			"description": "CSS parser / stringifier",
+			"main": "dist/umd/index.js",
+			"module": "dist/cjs/index.js",
+			"types": "dist/cjs/index.d.ts",
+			"devDependencies": {
+				"@types/benchmark": "^2.1.1",
+				"@types/bytes": "^3.1.1",
+				"@types/jest": "^28.1.1",
+				"@types/node": "^17.0.41",
+				"benchmark": "^2.1.4",
+				"bytes": "^3.1.0",
+				"gts": "^3.1.0",
+				"jest": "^28.1.1",
+				"rollup": "^2.75.6",
+				"ts-jest": "^28.0.4",
+				"ts-node": "^10.8.1",
+				"typescript": "^4.7.3"
+			},
+			"scripts": {
+				"benchmark": "ts-node benchmark/index.ts",
+				"test": "jest",
+				"lint": "gts lint",
+				"clean": "gts clean",
+				"build": "npm run build:cjs && npm run build:umd",
+				"build:cjs": "tsc --module commonjs --target es5 --outDir dist/cjs",
+				"build:umd": "npx rollup dist/cjs/index.js --format umd --name cssTools --sourcemap --file dist/umd/index.js",
+				"fix": "gts fix",
+				"prepare": "npm run build",
+				"pretest": "npm run build",
+				"posttest": "npm run lint"
+			},
+			"author": {
+				"name": "TJ Holowaychuk",
+				"email": "tj@vision-media.ca"
+			},
+			"contributors": [
+				{
+					"name": "Jean-Philippe Zolesio",
+					"email": "holblin@gmail.com"
+				}
+			],
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/adobe/css-tools.git"
+			},
+			"keywords": [
+				"css",
+				"parser",
+				"stringifier",
+				"stylesheet"
+			],
+			"gitHead": "4d7c0b2e55e7104dddf272030e5eb7be2b8b2a6f",
+			"bugs": {
+				"url": "https://github.com/adobe/css-tools/issues"
+			},
+			"homepage": "https://github.com/adobe/css-tools#readme",
+			"_id": "@adobe/css-tools@4.0.0-rc.3",
+			"_nodeVersion": "14.19.3",
+			"_npmVersion": "6.14.17",
+			"dist": {
+				"integrity": "sha512-x36xagCjvl6pc2MD+VLrLs46wiNQqR9D3q8t1ZNo1+3quMMai0zqsDwdtEVfg7CMkVPHbn5lR7CqiYqN5hMsKA==",
+				"shasum": "3281fa8710194fca8a7bcf1048b5c05b84dd2800",
+				"tarball": "https://registry.npmjs.org/@adobe/css-tools/-/css-tools-4.0.0-rc.3.tgz",
+				"fileCount": 27,
+				"unpackedSize": 77131,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCID4A1CndImICsYapLCsJrflhJGiyP8wFdWGqNnyXrwz8AiEAullbr0u5liONRZbpUSCAE+iOSabZyF/OTsNvhDO8BVU="
+					}
+				],
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJio39uACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2Vmp7EQ//Ymq8w4tjhTQVZY4cQArkwVc5XUelTn/a38zYCdj0RDN5tvUx\r\n0AoyLqvWeDc3EsO9Q6tpCig2iGDaQZASb/9nlDSukq22elRHmd7OWKyuW2nQ\r\n3h/Ot2W9ECsL3piN0dfLf+zpgWFmokbU9Ty7tzulEdhD+5y3S0xUxuO9UehE\r\nGolMFmE3bHMhOPAZP0W2LL+Zor7ocLQT5dU9kaO1AzOO3o636B/A+YJd3D58\r\nZ49Wwo0/XoEr7LpHF7ItDv67yrn8z6FWYCN0tJypF2p5L+wWsrsPaCgVbk4Y\r\nhCIYyQpkVJ+AKVYE7VM/ZGDfmu1h+EN8fUJu9h/KvGuJhoQNSzQYSuknIFH7\r\nkgxey4uiVHyGXoaUwTOIzWKK8mEY+PfjwOuf/DpiqUocrUUcaC+ac1JtKmmi\r\nCj7MTaj28/1Luok/43TX3/Zz7ycB1klEank2WVYoImZSlLuto4ZytlIBtCXN\r\nwry8TH1QgD4vhOJCkjgzng+f9+841xDsRxSb3EYXqMLP5XDFBw5gp9su8trV\r\nw/URlJ9B7jbd/Jxcq0+7TMYq3Z+Lcihwzl9VHSIwi40JUAqHO88vBFD3FDZc\r\nSpHhm8pqVuuv9SMVGUB09eb4pluRxYudd0jRfiuMs3gHjnFiWDyJ4c9R4/Di\r\nkgo6NuBtWnLfA9Xb1n8GBZuIEddJCe2UzAY=\r\n=X1ZO\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "adobe-admin",
+				"email": "grp-opensourceoffice@adobe.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "adobehalls",
+					"email": "halls@adobe.com"
+				},
+				{
+					"name": "fullcolorcoder",
+					"email": "bradjohn@adobe.com"
+				},
+				{
+					"name": "marbec",
+					"email": "mabecker@adobe.com"
+				},
+				{
+					"name": "tripod",
+					"email": "tripod@bocanegra.ch"
+				},
+				{
+					"name": "garthdb",
+					"email": "garthdb@gmail.com"
+				},
+				{
+					"name": "lazd",
+					"email": "lazdnet@gmail.com"
+				},
+				{
+					"name": "adobe-admin",
+					"email": "grp-opensourceoffice@adobe.com"
+				},
+				{
+					"name": "patrickfulton",
+					"email": "patrickfulton@gmail.com"
+				},
+				{
+					"name": "trieloff",
+					"email": "lars@trieloff.net"
+				},
+				{
+					"name": "shazron",
+					"email": "shazron@gmail.com"
+				},
+				{
+					"name": "krisnye",
+					"email": "krisnye@gmail.com"
+				},
+				{
+					"name": "dcpfsdk",
+					"email": "dcpfsdk@adobe.com"
+				},
+				{
+					"name": "natebaldwin",
+					"email": "natebaldwindesign@gmail.com"
+				},
+				{
+					"name": "devongovett",
+					"email": "devongovett@gmail.com"
+				},
+				{
+					"name": "aspro83",
+					"email": "danniintheus@gmail.com"
+				},
+				{
+					"name": "symanovi",
+					"email": "symanovi@adobe.com"
+				},
+				{
+					"name": "dpfister",
+					"email": "dominique.pfister@gmail.com"
+				},
+				{
+					"name": "stefan-guggisberg",
+					"email": "sg@adobe.com"
+				},
+				{
+					"name": "korra",
+					"email": "npmjs.karo@cupdev.net"
+				},
+				{
+					"name": "rofe",
+					"email": "npm@rofe.com"
+				},
+				{
+					"name": "kptdobe",
+					"email": "kptdobe@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/css-tools_4.0.0-rc.3_1654882158518_0.15490927332445925"
+			},
+			"_hasShrinkwrap": false
+		},
+		"4.0.0-rc.4": {
+			"name": "@adobe/css-tools",
+			"version": "4.0.0-rc.4",
+			"description": "CSS parser / stringifier",
+			"main": "dist/umd/cssTools.js",
+			"module": "dist/cjs/cssTools.js",
+			"types": "dist/cjs/index.d.ts",
+			"devDependencies": {
+				"@types/benchmark": "^2.1.1",
+				"@types/bytes": "^3.1.1",
+				"@types/jest": "^28.1.1",
+				"@types/node": "^17.0.41",
+				"benchmark": "^2.1.4",
+				"bytes": "^3.1.0",
+				"gts": "^3.1.0",
+				"jest": "^28.1.1",
+				"ts-jest": "^28.0.4",
+				"ts-loader": "^9.3.0",
+				"ts-node": "^10.8.1",
+				"typescript": "^4.7.3",
+				"webpack": "^5.73.0",
+				"webpack-cli": "^4.9.2"
+			},
+			"scripts": {
+				"benchmark": "ts-node benchmark/index.ts",
+				"test": "jest",
+				"lint": "gts lint",
+				"clean": "gts clean",
+				"build": "npm run compile",
+				"compile": "NODE_ENV=prod webpack --mode production",
+				"fix": "gts fix",
+				"prepare": "npm run build",
+				"pretest": "npm run build",
+				"posttest": "npm run lint"
+			},
+			"author": {
+				"name": "TJ Holowaychuk",
+				"email": "tj@vision-media.ca"
+			},
+			"contributors": [
+				{
+					"name": "Jean-Philippe Zolesio",
+					"email": "holblin@gmail.com"
+				}
+			],
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/adobe/css-tools.git"
+			},
+			"keywords": [
+				"css",
+				"parser",
+				"stringifier",
+				"stylesheet"
+			],
+			"gitHead": "e9f839bbf6f649e43d7fbbebc28397ecd645db70",
+			"bugs": {
+				"url": "https://github.com/adobe/css-tools/issues"
+			},
+			"homepage": "https://github.com/adobe/css-tools#readme",
+			"_id": "@adobe/css-tools@4.0.0-rc.4",
+			"_nodeVersion": "14.19.3",
+			"_npmVersion": "6.14.17",
+			"dist": {
+				"integrity": "sha512-/drs937+bEQbJzhTfqFMtuTAyGj5iMQnV6C0ArmKJqZU6thbM25oMQ55Dq4LuBrl17aaNOQZA7NyJbgIlai5JA==",
+				"shasum": "2b4cb1e02c600021c18aa5241bb79c2f8fcb7468",
+				"tarball": "https://registry.npmjs.org/@adobe/css-tools/-/css-tools-4.0.0-rc.4.tgz",
+				"fileCount": 15,
+				"unpackedSize": 129289,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIAFqeOLfr+WT/la6UcS5bsS01ucbYCHpiigGDnVwsjKzAiEA6W1bMW1U0M3pLtQeWPAjh918C6poYjioi/p7zXqdMLo="
+					}
+				],
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJio4lwACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2Vmq7tQ//S5wXip+oR64zl4BBcG5wEk1mxs1E3t9dXx3F6nIfQbJCI1+E\r\nQ2TfpV/uzpu3kHW/yKnJXllwdPj2vcIcjqQShDSoZXakFr0z7paSjbC49GhG\r\nxBp5mt1Z1UnQXud3MWP20Nb1lA6/ud3xTS0PFDw82bSQ05P0OoMWpYTKYoU2\r\n1QW+VL1kmwMeLSCPbPGO5EXrbA2J1jwkDaouSz0YADGofwhv6HD/kJj9x7q7\r\nAQXQj55tbGzPaSgbnJ+mLxdMTwuSsGPZIgjWMRBNVHJFvlI1lZHDAP3n/Y5e\r\nH3x159VZyT05cRNWSv4fvpGoD3sTwkTGJ4Z90PoFmqWfm9ArwgfEOU5/TuFC\r\nAewynJR8yN9ejSZNc2BHMXpyssB4ZuLlIF6F+IL73PNkKDEMIiw895PiXv/N\r\n4GAZThjdKo/SSb4bJ6+JV3+mTdaOG1h0zxvptvsPg2jRORN9fCvoBuiJkAq4\r\n3TQpOgUrpgopwafq7GXk2zfA76lSGjnFVqLR56+3Vaa5+wGrLHioa+vftwl2\r\nC8reO8CvB2sNMAg81iPtXK4TyepQYroNA22sA75WcKJumDQua+L+OJrtSUtm\r\nZzGwNHDAiFcrOtMoDFzIbQX304FLL88FscVEoAPt2zBrlLnnM7/70EYbi03I\r\nKo+/QeOPGuxuorZqC3nTfipq6/UTnRX0Dys=\r\n=CAEL\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "adobe-admin",
+				"email": "grp-opensourceoffice@adobe.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "adobehalls",
+					"email": "halls@adobe.com"
+				},
+				{
+					"name": "fullcolorcoder",
+					"email": "bradjohn@adobe.com"
+				},
+				{
+					"name": "marbec",
+					"email": "mabecker@adobe.com"
+				},
+				{
+					"name": "tripod",
+					"email": "tripod@bocanegra.ch"
+				},
+				{
+					"name": "garthdb",
+					"email": "garthdb@gmail.com"
+				},
+				{
+					"name": "lazd",
+					"email": "lazdnet@gmail.com"
+				},
+				{
+					"name": "adobe-admin",
+					"email": "grp-opensourceoffice@adobe.com"
+				},
+				{
+					"name": "patrickfulton",
+					"email": "patrickfulton@gmail.com"
+				},
+				{
+					"name": "trieloff",
+					"email": "lars@trieloff.net"
+				},
+				{
+					"name": "shazron",
+					"email": "shazron@gmail.com"
+				},
+				{
+					"name": "krisnye",
+					"email": "krisnye@gmail.com"
+				},
+				{
+					"name": "dcpfsdk",
+					"email": "dcpfsdk@adobe.com"
+				},
+				{
+					"name": "natebaldwin",
+					"email": "natebaldwindesign@gmail.com"
+				},
+				{
+					"name": "devongovett",
+					"email": "devongovett@gmail.com"
+				},
+				{
+					"name": "aspro83",
+					"email": "danniintheus@gmail.com"
+				},
+				{
+					"name": "symanovi",
+					"email": "symanovi@adobe.com"
+				},
+				{
+					"name": "dpfister",
+					"email": "dominique.pfister@gmail.com"
+				},
+				{
+					"name": "stefan-guggisberg",
+					"email": "sg@adobe.com"
+				},
+				{
+					"name": "korra",
+					"email": "npmjs.karo@cupdev.net"
+				},
+				{
+					"name": "rofe",
+					"email": "npm@rofe.com"
+				},
+				{
+					"name": "kptdobe",
+					"email": "kptdobe@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/css-tools_4.0.0-rc.4_1654884720230_0.2761102526754984"
+			},
+			"_hasShrinkwrap": false
+		},
+		"4.0.0": {
+			"name": "@adobe/css-tools",
+			"version": "4.0.0",
+			"description": "CSS parser / stringifier",
+			"main": "dist/umd/cssTools.js",
+			"module": "dist/cjs/cssTools.js",
+			"types": "dist/cjs/index.d.ts",
+			"devDependencies": {
+				"@types/benchmark": "^2.1.1",
+				"@types/bytes": "^3.1.1",
+				"@types/jest": "^28.1.1",
+				"@types/node": "^18.0.0",
+				"benchmark": "^2.1.4",
+				"bytes": "^3.1.0",
+				"gts": "^4.0.0",
+				"jest": "^28.1.1",
+				"ts-jest": "^28.0.4",
+				"ts-loader": "^9.3.0",
+				"ts-node": "^10.8.1",
+				"typescript": "^4.7.3",
+				"webpack": "^5.73.0",
+				"webpack-cli": "^4.9.2"
+			},
+			"scripts": {
+				"benchmark": "ts-node benchmark/index.ts",
+				"test": "jest",
+				"lint": "gts lint",
+				"clean": "gts clean",
+				"build": "npm run compile",
+				"compile": "NODE_ENV=prod webpack --mode production",
+				"fix": "gts fix",
+				"prepare": "npm run build",
+				"pretest": "npm run build",
+				"posttest": "npm run lint"
+			},
+			"author": {
+				"name": "TJ Holowaychuk",
+				"email": "tj@vision-media.ca"
+			},
+			"contributors": [
+				{
+					"name": "Jean-Philippe Zolesio",
+					"email": "holblin@gmail.com"
+				}
+			],
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/adobe/css-tools.git"
+			},
+			"keywords": [
+				"css",
+				"parser",
+				"stringifier",
+				"stylesheet"
+			],
+			"gitHead": "1aee80998956150bd4b689491e52f3cca388ed49",
+			"bugs": {
+				"url": "https://github.com/adobe/css-tools/issues"
+			},
+			"homepage": "https://github.com/adobe/css-tools#readme",
+			"_id": "@adobe/css-tools@4.0.0",
+			"_nodeVersion": "14.20.0",
+			"_npmVersion": "6.14.17",
+			"dist": {
+				"integrity": "sha512-SSlH9ZkrOT96OT7K2kvrgHL08IlfZw+BZt57Owsl4nU4xeGVVE8LXEkEKGFsdLKCUcr804Cv7oKIi6pzMdb1AA==",
+				"shasum": "9daf0efedc7072943f1e51103a4ca83812bbb993",
+				"tarball": "https://registry.npmjs.org/@adobe/css-tools/-/css-tools-4.0.0.tgz",
+				"fileCount": 15,
+				"unpackedSize": 129287,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIH06rPraVr4AZg5QNfxS3umLyOVCh2ukDNn85JsEvMyNAiADQfax0W/V1fyhHllF0RB8fZi5qR24QYU0+KIk0nw9BQ=="
+					}
+				],
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJi0EAyACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2Vmr+gA/9HJZXlQYl0jrEhH3rZboJxX0Yb+GUhIxPjqcfz0ovGqyOEXR+\r\nB+LtgU9zkMpOjvK83/h+IdaJq5+YYCiOn8rL5vmiruFsPlwLZC5Sx4W6Lkbl\r\ne1/2W8hQVr4VRb6FRLT5PSUsJLOOoKzIINdBDCqqAu+DlZbbCfg/U9UQG53y\r\nPTFHq/a6UvgBufRnmjKQdwl+5doNQxKx78YdGZ0pC0mBcsx60Og/ZM46aF49\r\ntmVX5z/Ehx1ZjxQQa+z6RIvf8TiMoReYvN8N85Hn7/81Tt6Pc2/QKMgmt76h\r\nug4KVjNgWhGC0J+ptYBYnfl5d/I0GfSorDnXI8Y0MZwlN2PIOdQmwR8e2hNe\r\nnn2xDyQ+RzIHmwMFF/GQug9kSO+jx4Ra5N6gE/snpKP5QqNbfLp9XVaFTi0o\r\nxT+uMYmXglflkHm0Ca9jbd5CD8/EgPIU43pOlz5WBpw6Mcdk3vgMGKdC75cw\r\nI0Nwf8qoPVGwarcqaoH1ce82uTb5sDGiHwGYFTf/duTHOdEt7W+rRYex7iCq\r\nvfLriyuAeO3dYtI9KZoRPNJ5E4Ueh6dDis7WHe4Zn35DAVQnI/AaExto+AWk\r\nm8smJ3ejlR6LaeRBEGpco/6gXBWrEm9E0hXq0lPN0snirF42Vn+Pmgr5xZ6w\r\nUMZAsrCzE7BtPcDXhaVVi2br4kiAG+dFN+M=\r\n=RQ6O\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "adobe-admin",
+				"email": "grp-opensourceoffice@adobe.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "adobehalls",
+					"email": "halls@adobe.com"
+				},
+				{
+					"name": "fullcolorcoder",
+					"email": "bradjohn@adobe.com"
+				},
+				{
+					"name": "marbec",
+					"email": "mabecker@adobe.com"
+				},
+				{
+					"name": "tripod",
+					"email": "tripod@bocanegra.ch"
+				},
+				{
+					"name": "garthdb",
+					"email": "garthdb@gmail.com"
+				},
+				{
+					"name": "lazd",
+					"email": "lazdnet@gmail.com"
+				},
+				{
+					"name": "adobe-admin",
+					"email": "grp-opensourceoffice@adobe.com"
+				},
+				{
+					"name": "patrickfulton",
+					"email": "patrickfulton@gmail.com"
+				},
+				{
+					"name": "trieloff",
+					"email": "lars@trieloff.net"
+				},
+				{
+					"name": "shazron",
+					"email": "shazron@gmail.com"
+				},
+				{
+					"name": "krisnye",
+					"email": "krisnye@gmail.com"
+				},
+				{
+					"name": "dcpfsdk",
+					"email": "dcpfsdk@adobe.com"
+				},
+				{
+					"name": "natebaldwin",
+					"email": "natebaldwindesign@gmail.com"
+				},
+				{
+					"name": "devongovett",
+					"email": "devongovett@gmail.com"
+				},
+				{
+					"name": "aspro83",
+					"email": "danniintheus@gmail.com"
+				},
+				{
+					"name": "symanovi",
+					"email": "symanovi@adobe.com"
+				},
+				{
+					"name": "dpfister",
+					"email": "dominique.pfister@gmail.com"
+				},
+				{
+					"name": "stefan-guggisberg",
+					"email": "sg@adobe.com"
+				},
+				{
+					"name": "korra",
+					"email": "npmjs.karo@cupdev.net"
+				},
+				{
+					"name": "rofe",
+					"email": "npm@rofe.com"
+				},
+				{
+					"name": "kptdobe",
+					"email": "kptdobe@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/css-tools_4.0.0_1657815089847_0.11909341547925534"
+			},
+			"_hasShrinkwrap": false
+		},
+		"4.0.1": {
+			"name": "@adobe/css-tools",
+			"version": "4.0.1",
+			"description": "CSS parser / stringifier",
+			"main": "dist/umd/cssTools.js",
+			"module": "dist/cjs/cssTools.js",
+			"types": "dist/cjs/index.d.ts",
+			"devDependencies": {
+				"@types/benchmark": "^2.1.1",
+				"@types/bytes": "^3.1.1",
+				"@types/jest": "^28.1.1",
+				"@types/node": "^18.0.0",
+				"benchmark": "^2.1.4",
+				"bytes": "^3.1.0",
+				"gts": "^4.0.0",
+				"jest": "^28.1.1",
+				"ts-jest": "^28.0.4",
+				"ts-loader": "^9.3.0",
+				"ts-node": "^10.8.1",
+				"typescript": "^4.7.3",
+				"webpack": "^5.73.0",
+				"webpack-cli": "^4.9.2"
+			},
+			"scripts": {
+				"benchmark": "ts-node benchmark/index.ts",
+				"test": "jest",
+				"lint": "gts lint",
+				"clean": "gts clean",
+				"build": "npm run compile",
+				"compile": "NODE_ENV=prod webpack --mode production",
+				"fix": "gts fix",
+				"prepare": "npm run build",
+				"pretest": "npm run build",
+				"posttest": "npm run lint"
+			},
+			"author": {
+				"name": "TJ Holowaychuk",
+				"email": "tj@vision-media.ca"
+			},
+			"contributors": [
+				{
+					"name": "Jean-Philippe Zolesio",
+					"email": "holblin@gmail.com"
+				}
+			],
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/adobe/css-tools.git"
+			},
+			"keywords": [
+				"css",
+				"parser",
+				"stringifier",
+				"stylesheet"
+			],
+			"gitHead": "80d553b05d2c0da8624bf6b160ee47b6a06394f4",
+			"bugs": {
+				"url": "https://github.com/adobe/css-tools/issues"
+			},
+			"homepage": "https://github.com/adobe/css-tools#readme",
+			"_id": "@adobe/css-tools@4.0.1",
+			"_nodeVersion": "14.20.0",
+			"_npmVersion": "6.14.17",
+			"dist": {
+				"integrity": "sha512-+u76oB43nOHrF4DDWRLWDCtci7f3QJoEBigemIdIeTi1ODqjx6Tad9NCVnPRwewWlKkVab5PlK8DCtPTyX7S8g==",
+				"shasum": "b38b444ad3aa5fedbb15f2f746dcd934226a12dd",
+				"tarball": "https://registry.npmjs.org/@adobe/css-tools/-/css-tools-4.0.1.tgz",
+				"fileCount": 15,
+				"unpackedSize": 130092,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIHHYlV10nah2UnWRFHGyv4Cqi22xI7toaOr66aL5LffZAiBG18IaGOzwAlu4k5nI9Eevqw64IVx4VSokNpE+r70Hww=="
+					}
+				],
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJi6zpOACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2VmpNHhAAll9ghMtLpkJqixmx3cdj/FAGdpuJhM/zWQIxLv3ddKFkHprv\r\n0CJ2L3XOoqPZNqIQf735mJaVzKasizVzLN80QhGguAy7gMgTWmKuNJwuu4Qw\r\n8zCCoe1x8XG4wksoa45RNG5+0eB84vgsnbpJUigOJ8nqHvihE1iALuYARJ3U\r\n3gLF4orNJHBf/1LaEW2tqwvGVpGHyqM24U33Lq96zrrpW5/KNHjnBpsjYANV\r\nR/D8vjSvmvHEAGEIJNgZAOFjx9fiD9aPxWekR08GLuJ16sWL9wcC+0QioRV+\r\nHG+D5ivkIUei0k0BvMDR/wuytmfcE9UIAmpoXhCHbPjLOeXlJ8SdD75wmj9Z\r\nlga/HTLXH0HKl9ZhHdM3BIs7kImfMHaW0q+VY1oAD+9IFXEzWQfaB+5ja/5R\r\nVe+f4AYOnI5yyUuPKfk0L/g9GJUZ//sm0MAYaSB5vS0clRPHzWXaGVQRWr59\r\nxR75Bybw/zDe/FQeBBqje5G4X8cT407JBcdpD865ez6yPNNFkc+cQzeGEh88\r\nIN0IkU6wf5L6pMpJYFr9lhWilDLdVpPf7VJsOU4CnqBuxb2YArqJXW1NOnz8\r\nriDBu2X9DLcTaYMWVUDte9jDPYNWTOB6SxP5Lrlp4/nIFao7NWBWCO/soYMT\r\nPHb8I1HdYXb4RCve1xdkqpFO9MBTW1WGkb0=\r\n=UmgG\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "adobe-admin",
+				"email": "grp-opensourceoffice@adobe.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "adobehalls",
+					"email": "halls@adobe.com"
+				},
+				{
+					"name": "fullcolorcoder",
+					"email": "bradjohn@adobe.com"
+				},
+				{
+					"name": "marbec",
+					"email": "mabecker@adobe.com"
+				},
+				{
+					"name": "tripod",
+					"email": "tripod@bocanegra.ch"
+				},
+				{
+					"name": "garthdb",
+					"email": "garthdb@gmail.com"
+				},
+				{
+					"name": "lazd",
+					"email": "lazdnet@gmail.com"
+				},
+				{
+					"name": "adobe-admin",
+					"email": "grp-opensourceoffice@adobe.com"
+				},
+				{
+					"name": "patrickfulton",
+					"email": "patrickfulton@gmail.com"
+				},
+				{
+					"name": "trieloff",
+					"email": "lars@trieloff.net"
+				},
+				{
+					"name": "shazron",
+					"email": "shazron@gmail.com"
+				},
+				{
+					"name": "krisnye",
+					"email": "krisnye@gmail.com"
+				},
+				{
+					"name": "dcpfsdk",
+					"email": "dcpfsdk@adobe.com"
+				},
+				{
+					"name": "natebaldwin",
+					"email": "natebaldwindesign@gmail.com"
+				},
+				{
+					"name": "devongovett",
+					"email": "devongovett@gmail.com"
+				},
+				{
+					"name": "aspro83",
+					"email": "danniintheus@gmail.com"
+				},
+				{
+					"name": "symanovi",
+					"email": "symanovi@adobe.com"
+				},
+				{
+					"name": "dpfister",
+					"email": "dominique.pfister@gmail.com"
+				},
+				{
+					"name": "stefan-guggisberg",
+					"email": "sg@adobe.com"
+				},
+				{
+					"name": "korra",
+					"email": "npmjs.karo@cupdev.net"
+				},
+				{
+					"name": "rofe",
+					"email": "npm@rofe.com"
+				},
+				{
+					"name": "kptdobe",
+					"email": "kptdobe@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/css-tools_4.0.1_1659583054649_0.9089351512243198"
+			},
+			"_hasShrinkwrap": false
+		}
+	},
+	"time": {
+		"created": "2022-06-10T00:36:56.548Z",
+		"4.0.0-rc.2": "2022-06-10T00:36:56.910Z",
+		"modified": "2022-08-04T03:17:35.127Z",
+		"4.0.0-rc.3": "2022-06-10T17:29:18.734Z",
+		"4.0.0-rc.4": "2022-06-10T18:12:00.484Z",
+		"4.0.0": "2022-07-14T16:11:30.129Z",
+		"4.0.1": "2022-08-04T03:17:34.900Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "4.0.1"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"8f81ebea463ee47840a583e673e692b1\"",
+			"fetched": 1660840723415
+		}
+	},
+	"_distfiles": {
+		"css-tools-4.0.0-rc.2.tgz": {
+			"url": "https://registry.npmjs.org/@adobe/css-tools/-/css-tools-4.0.0-rc.2.tgz",
+			"sha": "4eb7bbd6b0171fbd9454b4db7473849fcf27eee7",
+			"registry": "npmjs"
+		},
+		"css-tools-4.0.0-rc.3.tgz": {
+			"url": "https://registry.npmjs.org/@adobe/css-tools/-/css-tools-4.0.0-rc.3.tgz",
+			"sha": "3281fa8710194fca8a7bcf1048b5c05b84dd2800",
+			"registry": "npmjs"
+		},
+		"css-tools-4.0.0-rc.4.tgz": {
+			"url": "https://registry.npmjs.org/@adobe/css-tools/-/css-tools-4.0.0-rc.4.tgz",
+			"sha": "2b4cb1e02c600021c18aa5241bb79c2f8fcb7468",
+			"registry": "npmjs"
+		},
+		"css-tools-4.0.0.tgz": {
+			"url": "https://registry.npmjs.org/@adobe/css-tools/-/css-tools-4.0.0.tgz",
+			"sha": "9daf0efedc7072943f1e51103a4ca83812bbb993",
+			"registry": "npmjs"
+		},
+		"css-tools-4.0.1.tgz": {
+			"url": "https://registry.npmjs.org/@adobe/css-tools/-/css-tools-4.0.1.tgz",
+			"sha": "b38b444ad3aa5fedbb15f2f746dcd934226a12dd",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_rev": "3-75240e2f046faeb5",
+	"_id": "@adobe/css-tools",
+	"readme": "# @adobe/css-tools\n\n> This is a fork of the npm css package due to low maintenance\n\nCSS parser / stringifier.\n\n## Installation\n\n    $ npm install css\n\n## Usage\n\n```js\nvar css = require('css');\nvar obj = css.parse('body { font-size: 12px; }', options);\ncss.stringify(obj, options);\n```\n\n## API\n\n### css.parse(code, [options])\n\nAccepts a CSS string and returns an AST `object`.\n\n`options`:\n\n- silent: silently fail on parse errors.\n- source: the path to the file containing `css`. Makes errors and source\n  maps more helpful, by letting them know where code comes from.\n\n### css.stringify(object, [options])\n\nAccepts an AST `object` (as `css.parse` produces) and returns a CSS string.\n\n`options`:\n\n- indent: the string used to indent the output. Defaults to two spaces.\n- compress: omit comments and extraneous whitespace.\n\n### Example\n\n```js\nvar ast = css.parse('body { font-size: 12px; }', { source: 'source.css' });\n\nvar css = css.stringify(ast);\n```\n\n### Errors\n\nErrors thrown during parsing have the following properties:\n\n- message: `String`. The full error message with the source position.\n- reason: `String`. The error message without position.\n- filename: `String` or `undefined`. The value of `options.source` if\n  passed to `css.parse`. Otherwise `undefined`.\n- line: `Integer`.\n- column: `Integer`.\n- source: `String`. The portion of code that couldn't be parsed.\n\nWhen parsing with the `silent` option, errors are listed in the\n`parsingErrors` property of the [`stylesheet`](#stylesheet) node instead\nof being thrown.\n\nIf you create any errors in plugins such as in\n[rework](https://github.com/reworkcss/rework), you __must__ set the same\nproperties for consistency.\n\n## AST\n\nInteractively explore the AST with <http://iamdustan.com/reworkcss_ast_explorer/>.\n\n### Common properties\n\nAll nodes have the following properties.\n\n#### position\n\nInformation about the position in the source string that corresponds to\nthe node.\n\n`Object`:\n\n- start: `Object`:\n  - line: `Number`.\n  - column: `Number`.\n- end: `Object`:\n  - line: `Number`.\n  - column: `Number`.\n- source: `String` or `undefined`. The value of `options.source` if passed to\n  `css.parse`. Otherwise `undefined`.\n- content: `String`. The full source string passed to `css.parse`.\n\nThe line and column numbers are 1-based: The first line is 1 and the first\ncolumn of a line is 1 (not 0).\n\nThe `position` property lets you know from which source file the node comes\nfrom (if available), what that file contains, and what part of that file was\nparsed into the node.\n\n#### type\n\n`String`. The possible values are the ones listed in the Types section below.\n\n#### parent\n\nA reference to the parent node, or `null` if the node has no parent.\n\n### Types\n\nThe available values of `node.type` are listed below, as well as the available\nproperties of each node (other than the common properties listed above.)\n\n#### stylesheet\n\nThe root node returned by `css.parse`.\n\n- stylesheet: `Object`:\n  - rules: `Array` of nodes with the types `rule`, `comment` and any of the\n    at-rule types.\n  - parsingErrors: `Array` of `Error`s. Errors collected during parsing when\n    option `silent` is true.\n\n#### rule\n\n- selectors: `Array` of `String`s. The list of selectors of the rule, split\n  on commas. Each selector is trimmed from whitespace and comments.\n- declarations: `Array` of nodes with the types `declaration` and `comment`.\n\n#### declaration\n\n- property: `String`. The property name, trimmed from whitespace and\n  comments. May not be empty.\n- value: `String`. The value of the property, trimmed from whitespace and\n  comments. Empty values are allowed.\n\n#### comment\n\nA rule-level or declaration-level comment. Comments inside selectors,\nproperties and values etc. are lost.\n\n- comment: `String`. The part between the starting `/*` and the ending `*/`\n  of the comment, including whitespace.\n\n#### charset\n\nThe `@charset` at-rule.\n\n- charset: `String`. The part following `@charset `.\n\n#### custom-media\n\nThe `@custom-media` at-rule.\n\n- name: `String`. The `--`-prefixed name.\n- media: `String`. The part following the name.\n\n#### document\n\nThe `@document` at-rule.\n\n- document: `String`. The part following `@document `.\n- vendor: `String` or `undefined`. The vendor prefix in `@document`, or\n  `undefined` if there is none.\n- rules: `Array` of nodes with the types `rule`, `comment` and any of the\n  at-rule types.\n\n#### font-face\n\nThe `@font-face` at-rule.\n\n- declarations: `Array` of nodes with the types `declaration` and `comment`.\n\n#### host\n\nThe `@host` at-rule.\n\n- rules: `Array` of nodes with the types `rule`, `comment` and any of the\n  at-rule types.\n\n#### import\n\nThe `@import` at-rule.\n\n- import: `String`. The part following `@import `.\n\n#### keyframes\n\nThe `@keyframes` at-rule.\n\n- name: `String`. The name of the keyframes rule.\n- vendor: `String` or `undefined`. The vendor prefix in `@keyframes`, or\n  `undefined` if there is none.\n- keyframes: `Array` of nodes with the types `keyframe` and `comment`.\n\n#### keyframe\n\n- values: `Array` of `String`s. The list of “selectors” of the keyframe rule,\n  split on commas. Each “selector” is trimmed from whitespace.\n- declarations: `Array` of nodes with the types `declaration` and `comment`.\n\n#### media\n\nThe `@media` at-rule.\n\n- media: `String`. The part following `@media `.\n- rules: `Array` of nodes with the types `rule`, `comment` and any of the\n  at-rule types.\n\n#### namespace\n\nThe `@namespace` at-rule.\n\n- namespace: `String`. The part following `@namespace `.\n\n#### page\n\nThe `@page` at-rule.\n\n- selectors: `Array` of `String`s. The list of selectors of the rule, split\n  on commas. Each selector is trimmed from whitespace and comments.\n- declarations: `Array` of nodes with the types `declaration` and `comment`.\n\n#### supports\n\nThe `@supports` at-rule.\n\n- supports: `String`. The part following `@supports `.\n- rules: `Array` of nodes with the types `rule`, `comment` and any of the\n  at-rule types.\n\n### Example\n\nCSS:\n\n```css\nbody {\n  background: #eee;\n  color: #888;\n}\n```\n\nParse tree:\n\n```json\n{\n  \"type\": \"stylesheet\",\n  \"stylesheet\": {\n    \"rules\": [\n      {\n        \"type\": \"rule\",\n        \"selectors\": [\n          \"body\"\n        ],\n        \"declarations\": [\n          {\n            \"type\": \"declaration\",\n            \"property\": \"background\",\n            \"value\": \"#eee\",\n            \"position\": {\n              \"start\": {\n                \"line\": 2,\n                \"column\": 3\n              },\n              \"end\": {\n                \"line\": 2,\n                \"column\": 19\n              }\n            }\n          },\n          {\n            \"type\": \"declaration\",\n            \"property\": \"color\",\n            \"value\": \"#888\",\n            \"position\": {\n              \"start\": {\n                \"line\": 3,\n                \"column\": 3\n              },\n              \"end\": {\n                \"line\": 3,\n                \"column\": 14\n              }\n            }\n          }\n        ],\n        \"position\": {\n          \"start\": {\n            \"line\": 1,\n            \"column\": 1\n          },\n          \"end\": {\n            \"line\": 4,\n            \"column\": 2\n          }\n        }\n      }\n    ]\n  }\n}\n```\n\n## License\n\nMIT"
+}

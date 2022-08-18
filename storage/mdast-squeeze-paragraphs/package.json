@@ -1,0 +1,1619 @@
+{
+	"name": "mdast-squeeze-paragraphs",
+	"versions": {
+		"1.0.0": {
+			"name": "mdast-squeeze-paragraphs",
+			"version": "1.0.0",
+			"description": "Remove empty paragraphs left from other mdast transformations",
+			"author": {
+				"name": "Eugene Sharygin",
+				"email": "eush77@gmail.com"
+			},
+			"license": "MIT",
+			"scripts": {
+				"test": "tape test/*.js"
+			},
+			"files": [
+				"index.js"
+			],
+			"homepage": "https://github.com/eush77/mdast-squeeze-paragraphs",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/eush77/mdast-squeeze-paragraphs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/eush77/mdast-squeeze-paragraphs/issues"
+			},
+			"keywords": [
+				"mdast",
+				"plugin",
+				"markdown",
+				"squeeze",
+				"remove",
+				"empty",
+				"paragraph",
+				"whitespace",
+				"ast",
+				"transform",
+				"transformation",
+				"util",
+				"clean"
+			],
+			"dependencies": {},
+			"devDependencies": {
+				"mdast": "^0.26.2",
+				"tape": "^4.0.0"
+			},
+			"gitHead": "7fd22bbaaf972d59d2d15c7df271ad1c7f368b85",
+			"_id": "mdast-squeeze-paragraphs@1.0.0",
+			"_shasum": "52c6af775bd8d5d525de733b2785844d7546e4d5",
+			"_from": ".",
+			"_npmVersion": "2.10.1",
+			"_nodeVersion": "2.1.0",
+			"_npmUser": {
+				"name": "eush77",
+				"email": "eush77@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "eush77",
+					"email": "eush77@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "52c6af775bd8d5d525de733b2785844d7546e4d5",
+				"tarball": "https://registry.npmjs.org/mdast-squeeze-paragraphs/-/mdast-squeeze-paragraphs-1.0.0.tgz",
+				"integrity": "sha512-3Vq9WA9t992x0IVXv2c8szBUAOcYfR/r4EPmph5+iun/uir40JSF1hb1Pa0sJ/gu6ozdEjgY5WqoJ4nvmXdVrQ==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDqVsDgl6F+mepZBdgr4QnmH9boCSuxEHHreEQcgJpGFAIgLgBu5E+w50s393JlTN5NJaUA0pWe1Qs0CMS98n7As00="
+					}
+				]
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"2.0.0": {
+			"name": "mdast-squeeze-paragraphs",
+			"version": "2.0.0",
+			"description": "Remove empty paragraphs left from other mdast transformations",
+			"author": {
+				"name": "Eugene Sharygin",
+				"email": "eush77@gmail.com"
+			},
+			"license": "MIT",
+			"scripts": {
+				"test": "tape test/*.js"
+			},
+			"files": [
+				"index.js",
+				"plugin.js"
+			],
+			"homepage": "https://github.com/eush77/mdast-squeeze-paragraphs",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/eush77/mdast-squeeze-paragraphs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/eush77/mdast-squeeze-paragraphs/issues"
+			},
+			"keywords": [
+				"mdast",
+				"plugin",
+				"markdown",
+				"squeeze",
+				"remove",
+				"empty",
+				"paragraph",
+				"whitespace",
+				"ast",
+				"transform",
+				"transformation",
+				"util",
+				"clean"
+			],
+			"dependencies": {},
+			"devDependencies": {
+				"clone": "^1.0.2",
+				"mdast": "^0.26.2",
+				"tape": "^4.0.0"
+			},
+			"gitHead": "f918a0686e58c454930c4ddbab1789f9bb8db949",
+			"_id": "mdast-squeeze-paragraphs@2.0.0",
+			"_shasum": "5673dbfc4b5188760f8e8376346bb0010fada3bb",
+			"_from": ".",
+			"_npmVersion": "2.10.1",
+			"_nodeVersion": "2.1.0",
+			"_npmUser": {
+				"name": "eush77",
+				"email": "eush77@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "eush77",
+					"email": "eush77@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "5673dbfc4b5188760f8e8376346bb0010fada3bb",
+				"tarball": "https://registry.npmjs.org/mdast-squeeze-paragraphs/-/mdast-squeeze-paragraphs-2.0.0.tgz",
+				"integrity": "sha512-FsCYjLP6Shm7l3kBXgUkk0ZXV+9iS0xO1tu3kLOKMJuU02M8SD1rAduxG0aAARRlJwEfl2DNxVKOVnX/lBDkQA==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDfATeMDjaj68UoG0vwNQOTapfF/teMV1cg/7538jFQVgIhAKFvYG1IjO3/lbv+9ys0ymzRznNaq8X6f0RI+IlmOD97"
+					}
+				]
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"2.1.0": {
+			"name": "mdast-squeeze-paragraphs",
+			"version": "2.1.0",
+			"description": "Remove empty paragraphs and whitespace left from other mdast transformations",
+			"author": {
+				"name": "Eugene Sharygin",
+				"email": "eush77@gmail.com"
+			},
+			"license": "MIT",
+			"scripts": {
+				"test": "tape test/*.js"
+			},
+			"files": [
+				"index.js",
+				"plugin.js"
+			],
+			"homepage": "https://github.com/eush77/mdast-squeeze-paragraphs",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/eush77/mdast-squeeze-paragraphs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/eush77/mdast-squeeze-paragraphs/issues"
+			},
+			"keywords": [
+				"mdast",
+				"plugin",
+				"markdown",
+				"squeeze",
+				"remove",
+				"empty",
+				"paragraph",
+				"whitespace",
+				"ast",
+				"transform",
+				"transformation",
+				"util",
+				"clean"
+			],
+			"dependencies": {},
+			"devDependencies": {
+				"clone": "^1.0.2",
+				"mdast": "^0.26.2",
+				"tape": "^4.0.0"
+			},
+			"gitHead": "72e0eed28cdfdc01b72e20b726f3b59a2ed46c7f",
+			"_id": "mdast-squeeze-paragraphs@2.1.0",
+			"_shasum": "98723285d2d581066322ca6d21da275161a7fd94",
+			"_from": ".",
+			"_npmVersion": "2.10.1",
+			"_nodeVersion": "2.1.0",
+			"_npmUser": {
+				"name": "eush77",
+				"email": "eush77@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "eush77",
+					"email": "eush77@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "98723285d2d581066322ca6d21da275161a7fd94",
+				"tarball": "https://registry.npmjs.org/mdast-squeeze-paragraphs/-/mdast-squeeze-paragraphs-2.1.0.tgz",
+				"integrity": "sha512-8iEfWALsb1B7PtK/FNtslFrYX9yj1qVAydZnTtdfbMRU9UlvE/JC/WZY8ZmKAajdnF+yHfbOh39v7argSaoyRg==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCh/P3b0hmdd4Q7DBZWpFPXm7mnogoo4he04bdPKbj5/QIhAPXTYoqXZ02q7DyrvzZ7wKl7lS1uCTlM4N8J5psAmIM+"
+					}
+				]
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"2.1.1": {
+			"name": "mdast-squeeze-paragraphs",
+			"version": "2.1.1",
+			"description": "Remove empty paragraphs left from other mdast transformations",
+			"author": {
+				"name": "Eugene Sharygin",
+				"email": "eush77@gmail.com"
+			},
+			"license": "MIT",
+			"scripts": {
+				"test": "tape test/*.js"
+			},
+			"files": [
+				"index.js",
+				"plugin.js"
+			],
+			"homepage": "https://github.com/eush77/mdast-squeeze-paragraphs",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/eush77/mdast-squeeze-paragraphs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/eush77/mdast-squeeze-paragraphs/issues"
+			},
+			"keywords": [
+				"mdast",
+				"plugin",
+				"markdown",
+				"squeeze",
+				"remove",
+				"empty",
+				"paragraph",
+				"whitespace",
+				"ast",
+				"transform",
+				"transformation",
+				"util",
+				"clean"
+			],
+			"dependencies": {},
+			"devDependencies": {
+				"clone": "^1.0.2",
+				"mdast": "^0.26.2",
+				"tape": "^4.0.0"
+			},
+			"gitHead": "b0e7b50341d9931df32037a50252ed8ffe548a9a",
+			"_id": "mdast-squeeze-paragraphs@2.1.1",
+			"_shasum": "c4f63145a2189a5a1c2496426da5267c94e76129",
+			"_from": ".",
+			"_npmVersion": "2.10.1",
+			"_nodeVersion": "2.1.0",
+			"_npmUser": {
+				"name": "eush77",
+				"email": "eush77@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "eush77",
+					"email": "eush77@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "c4f63145a2189a5a1c2496426da5267c94e76129",
+				"tarball": "https://registry.npmjs.org/mdast-squeeze-paragraphs/-/mdast-squeeze-paragraphs-2.1.1.tgz",
+				"integrity": "sha512-NtxOh2xAk7sM/ms0fNgP/tiHiTxF3gWeeZPymJjBl6YqBvGwTIMu/gFE6lhY/icHu6JWbBvIEJ6KKmdsEDyM6w==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIGhljqV2jhOaJqTSkJ64eT6sQonHP6j32otIIVEceUj5AiEAh9m8jP6Bey2x7T0/gRsodd+n3zsrHfR7z3ZibJO3yZE="
+					}
+				]
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.1.0": {
+			"name": "mdast-squeeze-paragraphs",
+			"version": "1.1.0",
+			"description": "Remove empty paragraphs left from other mdast transformations",
+			"author": {
+				"name": "Eugene Sharygin",
+				"email": "eush77@gmail.com"
+			},
+			"license": "MIT",
+			"scripts": {
+				"test": "tape test/*.js"
+			},
+			"files": [
+				"index.js"
+			],
+			"homepage": "https://github.com/eush77/mdast-squeeze-paragraphs",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/eush77/mdast-squeeze-paragraphs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/eush77/mdast-squeeze-paragraphs/issues"
+			},
+			"keywords": [
+				"mdast",
+				"plugin",
+				"markdown",
+				"squeeze",
+				"remove",
+				"empty",
+				"paragraph",
+				"whitespace",
+				"ast",
+				"transform",
+				"transformation",
+				"util",
+				"clean"
+			],
+			"dependencies": {},
+			"devDependencies": {
+				"clone": "^1.0.2",
+				"mdast": "^0.26.2",
+				"tape": "^4.0.0"
+			},
+			"gitHead": "532073eabd643aded41b36289c7f5e10936d8462",
+			"_id": "mdast-squeeze-paragraphs@1.1.0",
+			"_shasum": "e587c25f60c2e55ca0d25d46e0a879991f6bbac7",
+			"_from": ".",
+			"_npmVersion": "3.2.0",
+			"_nodeVersion": "3.0.0",
+			"_npmUser": {
+				"name": "eush77",
+				"email": "eush77@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "eush77",
+					"email": "eush77@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "e587c25f60c2e55ca0d25d46e0a879991f6bbac7",
+				"tarball": "https://registry.npmjs.org/mdast-squeeze-paragraphs/-/mdast-squeeze-paragraphs-1.1.0.tgz",
+				"integrity": "sha512-QtIRJsWmATNt6CB93Ksg+l1azr8NMVQdxgNXH0HLrN6BZg8WWTlp91LedylUoZlEkp6E64PRsq3bVALNl76pGg==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIFZDQVrIpn+Aw8I1A1GuJNhcwy/60JR0gbf+it9LRVSUAiEApJukOFaDLlOn5bAmXSWb8Cp1lGSSitiGdMGv7yqgf1A="
+					}
+				]
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"3.0.0": {
+			"name": "mdast-squeeze-paragraphs",
+			"version": "3.0.0",
+			"description": "Remove empty paragraphs from mdast tree",
+			"author": {
+				"name": "Eugene Sharygin",
+				"email": "eush77@gmail.com"
+			},
+			"license": "MIT",
+			"scripts": {
+				"test": "tape test/*.js"
+			},
+			"files": [
+				"index.js"
+			],
+			"homepage": "https://github.com/eush77/mdast-squeeze-paragraphs",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/eush77/mdast-squeeze-paragraphs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/eush77/mdast-squeeze-paragraphs/issues"
+			},
+			"keywords": [
+				"mdast",
+				"squeeze",
+				"remove",
+				"empty",
+				"paragraph",
+				"whitespace",
+				"ast",
+				"transform",
+				"transformation",
+				"util",
+				"clean"
+			],
+			"dependencies": {},
+			"devDependencies": {
+				"tape": "^4.0.0"
+			},
+			"gitHead": "6bded6110212b08b41c43ca086bc4f9185bc2a68",
+			"_id": "mdast-squeeze-paragraphs@3.0.0",
+			"_shasum": "3b2a204dbe3bd864d7974ad60f90a65ae5244b87",
+			"_from": ".",
+			"_npmVersion": "3.3.9",
+			"_nodeVersion": "5.0.0",
+			"_npmUser": {
+				"name": "eush77",
+				"email": "eush77@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "eush77",
+					"email": "eush77@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "3b2a204dbe3bd864d7974ad60f90a65ae5244b87",
+				"tarball": "https://registry.npmjs.org/mdast-squeeze-paragraphs/-/mdast-squeeze-paragraphs-3.0.0.tgz",
+				"integrity": "sha512-Bu25XbQtY3q7D0/A4WGzpIuFoZCFYe/ket08+FWXx9a+ncozcHbuxZE6+emSc2vTXzhUydXTRMEa2/Hr/W3tQA==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIEQidL1C9o2rE7V8nrmdVIIKTftxkVRU+5AvJ0s1TP6kAiEA5V9hqYXjZeL1BgOgWDS4xVQH2uVumvIB5UrmCEFfXPA="
+					}
+				]
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"3.0.1": {
+			"name": "mdast-squeeze-paragraphs",
+			"version": "3.0.1",
+			"description": "Remove empty paragraphs from mdast tree",
+			"author": {
+				"name": "Eugene Sharygin",
+				"email": "eush77@gmail.com"
+			},
+			"license": "MIT",
+			"scripts": {
+				"test": "tape test/*.js"
+			},
+			"files": [
+				"index.js"
+			],
+			"homepage": "https://github.com/eush77/mdast-squeeze-paragraphs",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/eush77/mdast-squeeze-paragraphs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/eush77/mdast-squeeze-paragraphs/issues"
+			},
+			"keywords": [
+				"mdast",
+				"squeeze",
+				"remove",
+				"empty",
+				"paragraph",
+				"whitespace",
+				"ast",
+				"transform",
+				"transformation",
+				"util",
+				"clean"
+			],
+			"dependencies": {
+				"unist-util-remove": "^0.2.0"
+			},
+			"devDependencies": {
+				"tape": "^4.0.0",
+				"unist-builder": "^1.0.0"
+			},
+			"gitHead": "46612dad101af40a4b8a6917876292c0eb6aa919",
+			"_id": "mdast-squeeze-paragraphs@3.0.1",
+			"_shasum": "02e57c74a4ab8e12ab41170087c7e22647329cc0",
+			"_from": ".",
+			"_npmVersion": "3.3.9",
+			"_nodeVersion": "5.0.0",
+			"_npmUser": {
+				"name": "eush77",
+				"email": "eush77@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "eush77",
+					"email": "eush77@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "02e57c74a4ab8e12ab41170087c7e22647329cc0",
+				"tarball": "https://registry.npmjs.org/mdast-squeeze-paragraphs/-/mdast-squeeze-paragraphs-3.0.1.tgz",
+				"integrity": "sha512-grXz2za9kD1/rsUbucDBirB7pg7OiCUfW7vWck0kMmk409n4Pd1hykNhk/pOyUkFt4PDOZpX3F5RoEf1AHpklQ==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIEiAF8r4LlP5XKWn+CYG36iU7mg839v5m+5U7cl/VwwKAiAFv3yACEOs1NmkM8w8dV3FdW0YbpdEp/raz/uUHjdSyg=="
+					}
+				]
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"3.0.2": {
+			"name": "mdast-squeeze-paragraphs",
+			"version": "3.0.2",
+			"description": "Remove empty paragraphs from mdast tree",
+			"author": {
+				"name": "Eugene Sharygin",
+				"email": "eush77@gmail.com"
+			},
+			"license": "MIT",
+			"scripts": {
+				"test": "tape test/*.js"
+			},
+			"files": [
+				"index.js"
+			],
+			"homepage": "https://github.com/eush77/mdast-squeeze-paragraphs",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/eush77/mdast-squeeze-paragraphs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/eush77/mdast-squeeze-paragraphs/issues"
+			},
+			"keywords": [
+				"mdast",
+				"squeeze",
+				"remove",
+				"empty",
+				"paragraph",
+				"whitespace",
+				"ast",
+				"transform",
+				"transformation",
+				"util",
+				"clean"
+			],
+			"dependencies": {
+				"unist-util-remove": "^1.0.0"
+			},
+			"devDependencies": {
+				"tape": "^4.0.0",
+				"unist-builder": "^1.0.0"
+			},
+			"gitHead": "e81de613c4154cada30e2506c148e9111bb25e3e",
+			"_id": "mdast-squeeze-paragraphs@3.0.2",
+			"_npmVersion": "5.0.0",
+			"_nodeVersion": "8.0.0",
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-1oThnRGjImr9lmxofQLgpf9kxJ1lgJITy7WVU3wqNddhrvJOz4vo34hCmozy6wMaI3jbOTlkvJVpjJxE+EfQMg==",
+				"shasum": "b3505388be4b1ca791352ec66f9fc53c5f5e4b2e",
+				"tarball": "https://registry.npmjs.org/mdast-squeeze-paragraphs/-/mdast-squeeze-paragraphs-3.0.2.tgz",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIB2sin8X1+80QZ2TvMt9SjkiiCxsGtSXSO6A0CCkdZl2AiAt9v/m1rPjxIf2fKrN6kt0ycUVMDj9zLJlkojh10gzKQ=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "eush77",
+					"email": "eush77@gmail.com"
+				},
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/mdast-squeeze-paragraphs-3.0.2.tgz_1497375078288_0.9659821388777345"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"3.0.3": {
+			"name": "mdast-squeeze-paragraphs",
+			"version": "3.0.3",
+			"description": "Remove empty paragraphs from mdast tree",
+			"license": "MIT",
+			"keywords": [
+				"mdast",
+				"squeeze",
+				"remove",
+				"empty",
+				"paragraph",
+				"whitespace",
+				"ast",
+				"transform",
+				"transformation",
+				"util",
+				"clean"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/syntax-tree/mdast-squeeze-headings.git"
+			},
+			"bugs": {
+				"url": "https://github.com/syntax-tree/mdast-squeeze-headings/issues"
+			},
+			"author": {
+				"name": "Eugene Sharygin",
+				"email": "eush77@gmail.com"
+			},
+			"contributors": [
+				{
+					"name": "Eugene Sharygin",
+					"email": "eush77@gmail.com"
+				},
+				{
+					"name": "Titus Wormer",
+					"email": "tituswormer@gmail.com",
+					"url": "http://wooorm.com"
+				}
+			],
+			"files": [
+				"index.js"
+			],
+			"dependencies": {
+				"unist-util-remove": "^1.0.0"
+			},
+			"devDependencies": {
+				"nyc": "^12.0.2",
+				"prettier": "^1.14.2",
+				"remark-cli": "^5.0.0",
+				"remark-preset-wooorm": "^4.0.0",
+				"tape": "^4.0.0",
+				"unist-builder": "^1.0.0",
+				"xo": "^0.22.0"
+			},
+			"scripts": {
+				"format": "remark . -qfo && prettier --write \"**/*.js\" && xo --fix",
+				"test-api": "node test",
+				"test-coverage": "nyc --reporter lcov tape test.js",
+				"test": "npm run format && npm run test-coverage"
+			},
+			"nyc": {
+				"check-coverage": true,
+				"lines": 100,
+				"functions": 100,
+				"branches": 100
+			},
+			"prettier": {
+				"tabWidth": 2,
+				"useTabs": false,
+				"singleQuote": true,
+				"bracketSpacing": false,
+				"semi": false,
+				"trailingComma": "none"
+			},
+			"xo": {
+				"prettier": true,
+				"esnext": false
+			},
+			"remarkConfig": {
+				"plugins": [
+					"preset-wooorm"
+				]
+			},
+			"gitHead": "a034eb1f6636aa51e1275f31f4ed1aa34cb4ce06",
+			"homepage": "https://github.com/syntax-tree/mdast-squeeze-headings#readme",
+			"_id": "mdast-squeeze-paragraphs@3.0.3",
+			"_npmVersion": "6.4.0",
+			"_nodeVersion": "10.0.0",
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-NtUkasADphYiAT2eVmpf8lrvZlU3hbluZZhVrXMqvJqNZNZnJGlOG39JnlyBngo2dlJqNUBZa75gRT90+EY0kQ==",
+				"shasum": "eb40b48b0d63573afad651d2623806090397d5d0",
+				"tarball": "https://registry.npmjs.org/mdast-squeeze-paragraphs/-/mdast-squeeze-paragraphs-3.0.3.tgz",
+				"fileCount": 4,
+				"unpackedSize": 5117,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbepknCRA9TVsSAnZWagAArygP/iDQziGn0N6492eqvA8T\nD+T80cKVsbhihrBmlDfV8ri4TlrBVTBX0ouKzPcWO8RaqJhP4er3IqCgJanO\n2XdVSzMPfzPwqjbxJCFRsWWcPeZMNtwCfIB1bLCfx+Cwtu0baB6jlEzBU5Nf\ndXFKyGoidGsS8sAfFoUfQw1sXVQF8ki9s1VbQdgoRYpekv1wbvLRmjgi2hSu\nlkfM+sKi9V8YiV7kMnT9E8OnxI+zUcTFkW36QJ0U/q3FuG6pE9M1H7rsOkQQ\n6VWYUcJh8FQ2kxjrX/5SfJ7xvIde7MDZQVdkvGDBz55AxC18aner84FkSWlq\npH+Jxr9QceG3znjkOqIzJgbCiztjqCzn5vu3++EERr0c8xaAKJGN8MbO/a6I\n8CXSlg11Vd9mFuj95lhGcFPrvbx73H+7OhRnquHHLqijOhOMMP4uAud76YEL\nIRkHL+i2A59+lnaa8rqJ+3RjWz8ImDzdzEJ6fg/XGX1TgsRIV3jD8i49hLt0\n3skoQkkKTFaDfwYjQudYTxLUfmuN0VTpFkJ5tpa1CN5Hhm24VtQ1GiMXxDYR\nnLjKdJs2BzslrbbeFp/ZJZ3BJInoBmRh3R5fftrHUpD5uxkqmwvK53m2R7er\nvClWvuJWqwIISSJuHTx6Uh1iebRxP4lACnNySpQBIngTN721QdVj+VmRp45s\nOjTv\r\n=3GsZ\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIB1ZLGIo05HYbXuJx0mLDEpo6pSUFp9iqFsaXWbYEiOTAiEAv9/bfRfTpyIZ0pGhJXWnMC+DOaiElSo2P503X0hca3U="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "eush77",
+					"email": "eush77@gmail.com"
+				},
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/mdast-squeeze-paragraphs_3.0.3_1534761254992_0.7115607451826331"
+			},
+			"_hasShrinkwrap": false
+		},
+		"3.0.4": {
+			"name": "mdast-squeeze-paragraphs",
+			"version": "3.0.4",
+			"description": "Remove empty paragraphs from mdast tree",
+			"license": "MIT",
+			"keywords": [
+				"mdast",
+				"squeeze",
+				"remove",
+				"empty",
+				"paragraph",
+				"whitespace",
+				"ast",
+				"transform",
+				"transformation",
+				"util",
+				"clean"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/syntax-tree/mdast-squeeze-paragraphs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/syntax-tree/mdast-squeeze-paragraphs/issues"
+			},
+			"author": {
+				"name": "Eugene Sharygin",
+				"email": "eush77@gmail.com"
+			},
+			"contributors": [
+				{
+					"name": "Eugene Sharygin",
+					"email": "eush77@gmail.com"
+				},
+				{
+					"name": "Titus Wormer",
+					"email": "tituswormer@gmail.com",
+					"url": "https://wooorm.com"
+				}
+			],
+			"dependencies": {
+				"unist-util-remove": "^1.0.0"
+			},
+			"devDependencies": {
+				"nyc": "^13.0.0",
+				"prettier": "^1.14.2",
+				"remark-cli": "^6.0.0",
+				"remark-preset-wooorm": "^4.0.0",
+				"tape": "^4.0.0",
+				"unist-builder": "^1.0.0",
+				"xo": "^0.23.0"
+			},
+			"scripts": {
+				"format": "remark . -qfo && prettier --write \"**/*.js\" && xo --fix",
+				"test-api": "node test",
+				"test-coverage": "nyc --reporter lcov tape test.js",
+				"test": "npm run format && npm run test-coverage"
+			},
+			"nyc": {
+				"check-coverage": true,
+				"lines": 100,
+				"functions": 100,
+				"branches": 100
+			},
+			"prettier": {
+				"tabWidth": 2,
+				"useTabs": false,
+				"singleQuote": true,
+				"bracketSpacing": false,
+				"semi": false,
+				"trailingComma": "none"
+			},
+			"xo": {
+				"prettier": true,
+				"esnext": false
+			},
+			"remarkConfig": {
+				"plugins": [
+					"preset-wooorm"
+				]
+			},
+			"gitHead": "192225d74d8a60018f03d51af52089c735cb6555",
+			"homepage": "https://github.com/syntax-tree/mdast-squeeze-paragraphs#readme",
+			"_id": "mdast-squeeze-paragraphs@3.0.4",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "11.0.0",
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-sUu55X5JWisBqfiq2pwQv4SnLb11EBua0NWjvcl6WORfV18MdWoyODE2tS4pyqjwXbFTaq3y3Ca/4OMNvx8B0Q==",
+				"shasum": "e27affcc8cc854842ff504ebb8f380e3c8e131f8",
+				"tarball": "https://registry.npmjs.org/mdast-squeeze-paragraphs/-/mdast-squeeze-paragraphs-3.0.4.tgz",
+				"fileCount": 4,
+				"unpackedSize": 5465,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcB49rCRA9TVsSAnZWagAAhesP+wd+9Q6eLKplPYffbP20\ne6rtROyifT/R7l2tECyIFs3L1S4CSN0DkkUsheq6Qac8aZuYvib0ToWsMwDM\nY2kghvUX/Crr2ji5dYbYxaC66hfYpo8SXPHG4Q3bAnIxtU8cs81ptxEq8h57\nueQBtHBllddboQRKDlo329QL8v16ojGG4BAdTOecY/mOmVUXVFrzljxK3Odk\nluS7UFMO5qOWUyJAQDWHHRxlBi08Jx7DShfceGTXqpXVCyZbqnuGBLng3m80\ndn58oP2N3Re73IUzxf7ljUXfhcJJsF0/fbOWhChijBteW4McD4Q0RVO+ontS\nigaeV05TYPWrka6qDrgHgKP1Vuuy7LpT2YCTzFcQb+nbbmtmkfUCe741933O\nYTqueyIpEJQv9zJ/Ju1wHSYzQHz4jW0wb8mlYCgQHuhnw8EmVTank8ucltMS\n3oZNi0tgF1ci938Bm0BGS+j67zZAsoAVfpOhA1hK46vjt+WXLWJW+SQsngAs\n06X1wRGaHt1N6bjMZPlsG5StR8wG/VEBIdtJSa29m4CPlgC7VHcTOxSBy9v+\nzIU/dnUBtyv81066qmA6AZzgCWh9eyADsW2oE0Wt5jns0StMvy7UZFspFBNo\ntVduEDPhiQzzJTpF7Y/t6NmDPMjDX9p992T/gnfjVTp+nwWfxv50GQMGdNTg\nBHCX\r\n=IKG7\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIA6sD/6fmHaNerM8+hZafCENoOAE7vgfAS6PSZHTVb02AiBe3jsZ2f7rnXRjU/WUvw9ia5sXp/a+yU/xhVqYAGXl+g=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "eush77",
+					"email": "eush77@gmail.com"
+				},
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/mdast-squeeze-paragraphs_3.0.4_1543999338829_0.6645235901490756"
+			},
+			"_hasShrinkwrap": false
+		},
+		"3.0.5": {
+			"name": "mdast-squeeze-paragraphs",
+			"version": "3.0.5",
+			"description": "Remove empty paragraphs from mdast tree",
+			"license": "MIT",
+			"keywords": [
+				"mdast",
+				"squeeze",
+				"remove",
+				"empty",
+				"paragraph",
+				"whitespace",
+				"ast",
+				"transform",
+				"transformation",
+				"util",
+				"clean"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/syntax-tree/mdast-squeeze-paragraphs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/syntax-tree/mdast-squeeze-paragraphs/issues"
+			},
+			"author": {
+				"name": "Eugene Sharygin",
+				"email": "eush77@gmail.com"
+			},
+			"contributors": [
+				{
+					"name": "Eugene Sharygin",
+					"email": "eush77@gmail.com"
+				},
+				{
+					"name": "Titus Wormer",
+					"email": "tituswormer@gmail.com",
+					"url": "https://wooorm.com"
+				}
+			],
+			"dependencies": {
+				"unist-util-remove": "^1.0.0"
+			},
+			"devDependencies": {
+				"nyc": "^14.0.0",
+				"prettier": "^1.0.0",
+				"remark-cli": "^6.0.0",
+				"remark-preset-wooorm": "^5.0.0",
+				"tape": "^4.0.0",
+				"unist-builder": "^1.0.0",
+				"xo": "^0.24.0"
+			},
+			"scripts": {
+				"format": "remark . -qfo && prettier --write \"**/*.js\" && xo --fix",
+				"test-api": "node test",
+				"test-coverage": "nyc --reporter lcov tape test.js",
+				"test": "npm run format && npm run test-coverage"
+			},
+			"nyc": {
+				"check-coverage": true,
+				"lines": 100,
+				"functions": 100,
+				"branches": 100
+			},
+			"prettier": {
+				"tabWidth": 2,
+				"useTabs": false,
+				"singleQuote": true,
+				"bracketSpacing": false,
+				"semi": false,
+				"trailingComma": "none"
+			},
+			"xo": {
+				"prettier": true,
+				"esnext": false
+			},
+			"remarkConfig": {
+				"plugins": [
+					"preset-wooorm"
+				]
+			},
+			"gitHead": "b0b259b85ca2d36c6be022dca02f1d388f65baad",
+			"homepage": "https://github.com/syntax-tree/mdast-squeeze-paragraphs#readme",
+			"_id": "mdast-squeeze-paragraphs@3.0.5",
+			"_nodeVersion": "12.2.0",
+			"_npmVersion": "6.9.0",
+			"dist": {
+				"integrity": "sha512-xX6Vbe348Y/rukQlG4W3xH+7v4ZlzUbSY4HUIQCuYrF2DrkcHx584mCaFxkWoDZKNUfyLZItHC9VAqX3kIP7XA==",
+				"shasum": "f428b6b944f8faef454db9b58f170c4183cb2e61",
+				"tarball": "https://registry.npmjs.org/mdast-squeeze-paragraphs/-/mdast-squeeze-paragraphs-3.0.5.tgz",
+				"fileCount": 4,
+				"unpackedSize": 6105,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc58Q4CRA9TVsSAnZWagAAaYQQAIxuCY39XGqleH3EXVk6\npgTogBb/EO77GQDjoz6COvidNvH2N3YNJk8v5szuiM9V4PgOoKkHfO7fUQks\ndOHEmFg+IxULPvmXUtMg2ouae+bIqKCMv32RChI4IjoeayVW22HEWAoxPlEW\nB+ysMDFCE+5pTd35/qTtX+ErzcuEPh8xp72TL+KgblIkxKsW78z1nqJL2wul\nUZ1RbDUr8sFS+58bjoTVQIOsRq2uTRAI1seWSge2r/GJJ+qt6eHeQ6QU2fqw\nNVf2Ai6NCzCIc31vGtbRLFrnAv7VdiKRVvCqDioE+PRnB5/gXbjUEHsms5Oy\ncK0FCqrJG5cofrw3BDi/9Dfo7CAVMr3CxMkeIIWWH6ZMdKB+gOCTOsodFDql\nhmM6adi7Zz6WCNWpCZ5FL+kOVGbsPtb0wFlMznOpDbBNoJXXBvOEJi5P9PiT\nPe3htT0xD52P+fCVnPQYldXyDxh0h/oh5M+uqa77ck9sUX4zSeSDKztNUph8\n6+naw73QNa8u3hUSgZCzosYBovBQlO4qG0rnLLjq+brjPI4RlKMeWOuaeUTO\nWPAn7hfvj6RjKH5VzV7lneJ7QJVpqr9oordCiEdWIiOOB+SUahKCzxapz+cD\nDnuSMKz/0UVXbTwDjrI/dYHGuMJNrOwCxLOuSO9GGPyeEmIYsTleML4KFSq+\n6YRv\r\n=ijfh\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIA4uH8hg4XeL2CmzZfOWhuQY2ieba2v02hw2yOjpf5hHAiEA6MCD6R9NUw7QI8A0QCAY8bRn9xHsK+OklC1HqD71N/Y="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "eush77",
+					"email": "eush77@gmail.com"
+				},
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				}
+			],
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/mdast-squeeze-paragraphs_3.0.5_1558692920120_0.6694638225050862"
+			},
+			"_hasShrinkwrap": false
+		},
+		"4.0.0": {
+			"name": "mdast-squeeze-paragraphs",
+			"version": "4.0.0",
+			"description": "mdast utility to remove empty paragraphs from a tree",
+			"license": "MIT",
+			"keywords": [
+				"unist",
+				"mdast",
+				"mdast-util",
+				"util",
+				"utility",
+				"squeeze",
+				"remove",
+				"empty",
+				"paragraph",
+				"whitespace",
+				"tree",
+				"transform",
+				"transformation",
+				"clean"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/syntax-tree/mdast-squeeze-paragraphs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/syntax-tree/mdast-squeeze-paragraphs/issues"
+			},
+			"funding": {
+				"type": "opencollective",
+				"url": "https://opencollective.com/unified"
+			},
+			"author": {
+				"name": "Eugene Sharygin",
+				"email": "eush77@gmail.com"
+			},
+			"contributors": [
+				{
+					"name": "Eugene Sharygin",
+					"email": "eush77@gmail.com"
+				},
+				{
+					"name": "Titus Wormer",
+					"email": "tituswormer@gmail.com",
+					"url": "https://wooorm.com"
+				}
+			],
+			"dependencies": {
+				"unist-util-remove": "^2.0.0"
+			},
+			"devDependencies": {
+				"nyc": "^15.0.0",
+				"prettier": "^1.0.0",
+				"remark-cli": "^7.0.0",
+				"remark-preset-wooorm": "^6.0.0",
+				"tape": "^4.0.0",
+				"unist-builder": "^2.0.0",
+				"xo": "^0.26.0"
+			},
+			"scripts": {
+				"format": "remark . -qfo && prettier --write \"**/*.js\" && xo --fix",
+				"test-api": "node test",
+				"test-coverage": "nyc --reporter lcov tape test.js",
+				"test": "npm run format && npm run test-coverage"
+			},
+			"nyc": {
+				"check-coverage": true,
+				"lines": 100,
+				"functions": 100,
+				"branches": 100
+			},
+			"prettier": {
+				"tabWidth": 2,
+				"useTabs": false,
+				"singleQuote": true,
+				"bracketSpacing": false,
+				"semi": false,
+				"trailingComma": "none"
+			},
+			"xo": {
+				"prettier": true,
+				"esnext": false
+			},
+			"remarkConfig": {
+				"plugins": [
+					"preset-wooorm"
+				]
+			},
+			"gitHead": "1bd2c9782c8d0fe9594158a53dc5d5452277e5ca",
+			"homepage": "https://github.com/syntax-tree/mdast-squeeze-paragraphs#readme",
+			"_id": "mdast-squeeze-paragraphs@4.0.0",
+			"_nodeVersion": "13.9.0",
+			"_npmVersion": "6.13.7",
+			"dist": {
+				"integrity": "sha512-zxdPn69hkQ1rm4J+2Cs2j6wDEv7O17TfXTJ33tl/+JPIoEmtV9t2ZzBM5LPHE8QlHsmVD8t3vPKCyY3oH+H8MQ==",
+				"shasum": "7c4c114679c3bee27ef10b58e2e015be79f1ef97",
+				"tarball": "https://registry.npmjs.org/mdast-squeeze-paragraphs/-/mdast-squeeze-paragraphs-4.0.0.tgz",
+				"fileCount": 4,
+				"unpackedSize": 6514,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeUTSpCRA9TVsSAnZWagAAglIQAIh2bPIzGRzkh76fNI/n\n70tHvTrJLTO5Wh+vRxca8xGvuEvcXZldMLdDTqJKAtGBtWsU7Hw6Nf+Sknsn\nLGvWtwurJv1sC5QuoWvs9hmXOQTNJntbMkmQh661m/nf8FtP16OrfKrvdbJD\n+LLbkcv4EsreEH0OxCBONMxqixdsLVI57q1ryd0CpacGGX+pKuSvy/YAJY/B\nqsPjIpinnLS/q+0UD4cFGf7xkPxelT19b3F7OxPP53HD838WOaKtBTgcXBsr\nwyqYE0mns+wdOAsb/wseGsqgk/3MHa0ukfTeNN74OnGdVNcfnoK2vUge63Ht\n9pbf0az4IfD7trjLONefELamt6HX5GQaRvrwOQKqf3mqzfAcTpHxeGTLDldW\nD+7PLfuBLB41j3JeGMshZ1BF9kuTBHwGtPRRifGlkxAKPt1XiiYAyHaF2hC3\ns0YCsMMv33b+UuMzOWibSNJUyitm0npu/RRccRrZ4y54l7e6l7hotftyaaxX\nFjpSrqGdhbiQOvkoOnlZgx4uKSxEOU3mW8by2gvuLxFxs2tPY4NArdxymF6Y\nk8CMz/M0Vsjm8uXTEsmWW6mCiy6/ptI26gSqQc7zK/zmx/hLVU9Uwoo1jNwX\nrBDKYE4aftfdBqkwB6d+il9dVFpWPe5FXEdefOu/bIX37ka31sApGWO4gm9C\nh0pC\r\n=PvOc\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIArCiMO3nfJklzOC7sh0LxXkibM7MhyXV4UktJZLOCRBAiB5xeWlmRfadcdAg4WprQPr6xa7b8u9x3PXXnUCA3KLtw=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"email": "keith@mcknig.ht",
+					"name": "kmck"
+				},
+				{
+					"email": "tituswormer@gmail.com",
+					"name": "wooorm"
+				}
+			],
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/mdast-squeeze-paragraphs_4.0.0_1582380200980_0.18126210816990085"
+			},
+			"_hasShrinkwrap": false
+		},
+		"5.0.0": {
+			"name": "mdast-squeeze-paragraphs",
+			"version": "5.0.0",
+			"description": "mdast utility to remove empty paragraphs from a tree",
+			"license": "MIT",
+			"keywords": [
+				"unist",
+				"mdast",
+				"mdast-util",
+				"util",
+				"utility",
+				"squeeze",
+				"remove",
+				"empty",
+				"paragraph",
+				"whitespace",
+				"tree",
+				"transform",
+				"transformation",
+				"clean"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/syntax-tree/mdast-squeeze-paragraphs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/syntax-tree/mdast-squeeze-paragraphs/issues"
+			},
+			"funding": {
+				"type": "opencollective",
+				"url": "https://opencollective.com/unified"
+			},
+			"author": {
+				"name": "Eugene Sharygin",
+				"email": "eush77@gmail.com"
+			},
+			"contributors": [
+				{
+					"name": "Eugene Sharygin",
+					"email": "eush77@gmail.com"
+				},
+				{
+					"name": "Titus Wormer",
+					"email": "tituswormer@gmail.com",
+					"url": "https://wooorm.com"
+				}
+			],
+			"sideEffects": false,
+			"type": "module",
+			"main": "index.js",
+			"types": "index.d.ts",
+			"dependencies": {
+				"@types/unist": "^2.0.0",
+				"unist-util-remove": "^3.0.0"
+			},
+			"devDependencies": {
+				"@types/tape": "^4.0.0",
+				"c8": "^7.0.0",
+				"prettier": "^2.0.0",
+				"remark-cli": "^9.0.0",
+				"remark-preset-wooorm": "^8.0.0",
+				"rimraf": "^3.0.0",
+				"tape": "^5.0.0",
+				"type-coverage": "^2.0.0",
+				"typescript": "^4.0.0",
+				"unist-builder": "^3.0.0",
+				"xo": "^0.39.0"
+			},
+			"scripts": {
+				"prepack": "npm run build && npm run format",
+				"build": "rimraf \"*.d.ts\" && tsc && type-coverage",
+				"format": "remark . -qfo && prettier . -w --loglevel warn && xo --fix",
+				"test-api": "node test.js",
+				"test-coverage": "c8 --check-coverage --branches 100 --functions 100 --lines 100 --statements 100 --reporter lcov node test.js",
+				"test": "npm run build && npm run format && npm run test-coverage"
+			},
+			"prettier": {
+				"tabWidth": 2,
+				"useTabs": false,
+				"singleQuote": true,
+				"bracketSpacing": false,
+				"semi": false,
+				"trailingComma": "none"
+			},
+			"xo": {
+				"prettier": true,
+				"rules": {
+					"no-var": "off",
+					"prefer-arrow-callback": "off"
+				}
+			},
+			"remarkConfig": {
+				"plugins": [
+					"preset-wooorm"
+				]
+			},
+			"typeCoverage": {
+				"atLeast": 100,
+				"detail": true,
+				"strict": true
+			},
+			"gitHead": "9650d16b8b06525042f9915b3e64b75dc83f2df3",
+			"homepage": "https://github.com/syntax-tree/mdast-squeeze-paragraphs#readme",
+			"_id": "mdast-squeeze-paragraphs@5.0.0",
+			"_nodeVersion": "15.11.0",
+			"_npmVersion": "7.10.0",
+			"dist": {
+				"integrity": "sha512-NoYwk6jSmqzqwXMcK/GeCv+WI6lcFfKAcI8isk7VZV9LIgHG43iBTovp0sUg6ptStbItLVIKCtbBX/7WJD9gqw==",
+				"shasum": "50dd3ebe0a90f9bce4c7ec649464016f08800db4",
+				"tarball": "https://registry.npmjs.org/mdast-squeeze-paragraphs/-/mdast-squeeze-paragraphs-5.0.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 7927,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJggyJKCRA9TVsSAnZWagAASfgP/2VCoKEJqAm780hTjury\nguNl3m2hEttd/V7ONb5EBspb4coneC6jMzGKtHaToQPN8XGRFbNm/7DC0Sug\nGgTcE7CXPPlqyAQ220a4/f3qVqOgGCKy7J7ZuIIzqjUfR+HrhpI/+wbHc6Oc\nY853C5C3qaWpJehTgYUNNl71gfEOX8xZFekJXq2AG+HDjYq/DQdseCM9odtv\nLdrCf0kvHakWGU4XOlGRjegMJaf/2isVuDJ6Ri8T7Fg8ALB6/iZIgcQFV2fQ\nCAtAefpoZh8VApmPJWATNaW6BTGnxPGA3B7zicdqn77EOZcqz3dmwKlmvUqB\nfGxC+GF0HXP1nRDeH2wxs7W6WQPvqlfxBA0nlEIZoX0wDc1fuRwMJpUv8Tr4\n0aMZ5u7Q0sL9wmUB38OOzy+tNzrYt8Tpa6edet/g3rrQKHp1sM0pvFuO+wMM\nBUmdyPhQ2rTkJPGx81Z2q2n37dBybhzv0aAyRo/Laeo1rEQymPIzR+TgNk5+\ngRIRjWJnDzEc4nRq/jXAApEIFsbXIX4nkIhPqxeVzOmNm74DvjggNH3o8wPw\nC4yxVjL1gVHjMTE7/e4+qdG8WdBxuoGlWRx/hPEa+eyvKmBOuXIwBlmz9T40\nKH1i/ECf3CJU5HQ0r5k4cdDuc09yIxc/Q+xtuJ8UvzOxpDIFPJpPrXfM/GoH\nSWNG\r\n=v4A4\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIAuZmt4dDximv6k9Vh+obcpZINz5f5Iyq+XrmhCMbc1fAiEA7hm+NvcdW3auoDCyEEJNmP1pqwXebHDMAvAgwXtC/+c="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				},
+				{
+					"name": "kmck",
+					"email": "keith@mcknig.ht"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/mdast-squeeze-paragraphs_5.0.0_1619206729444_0.4107589492072643"
+			},
+			"_hasShrinkwrap": false
+		},
+		"5.1.0": {
+			"name": "mdast-squeeze-paragraphs",
+			"version": "5.1.0",
+			"description": "mdast utility to remove empty paragraphs from a tree",
+			"license": "MIT",
+			"keywords": [
+				"unist",
+				"mdast",
+				"mdast-util",
+				"util",
+				"utility",
+				"squeeze",
+				"remove",
+				"empty",
+				"paragraph",
+				"whitespace",
+				"tree",
+				"transform",
+				"transformation",
+				"clean"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/syntax-tree/mdast-squeeze-paragraphs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/syntax-tree/mdast-squeeze-paragraphs/issues"
+			},
+			"funding": {
+				"type": "opencollective",
+				"url": "https://opencollective.com/unified"
+			},
+			"author": {
+				"name": "Eugene Sharygin",
+				"email": "eush77@gmail.com"
+			},
+			"contributors": [
+				{
+					"name": "Eugene Sharygin",
+					"email": "eush77@gmail.com"
+				},
+				{
+					"name": "Titus Wormer",
+					"email": "tituswormer@gmail.com",
+					"url": "https://wooorm.com"
+				}
+			],
+			"sideEffects": false,
+			"type": "module",
+			"main": "index.js",
+			"types": "index.d.ts",
+			"dependencies": {
+				"@types/mdast": "^3.0.0",
+				"unist-util-remove": "^3.0.0"
+			},
+			"devDependencies": {
+				"@types/tape": "^4.0.0",
+				"c8": "^7.0.0",
+				"prettier": "^2.0.0",
+				"remark-cli": "^9.0.0",
+				"remark-preset-wooorm": "^8.0.0",
+				"rimraf": "^3.0.0",
+				"tape": "^5.0.0",
+				"type-coverage": "^2.0.0",
+				"typescript": "^4.0.0",
+				"unist-builder": "^3.0.0",
+				"xo": "^0.42.0"
+			},
+			"scripts": {
+				"prepack": "npm run build && npm run format",
+				"build": "rimraf \"*.d.ts\" && tsc && type-coverage",
+				"format": "remark . -qfo && prettier . -w --loglevel warn && xo --fix",
+				"test-api": "node test.js",
+				"test-coverage": "c8 --check-coverage --branches 100 --functions 100 --lines 100 --statements 100 --reporter lcov node test.js",
+				"test": "npm run build && npm run format && npm run test-coverage"
+			},
+			"prettier": {
+				"tabWidth": 2,
+				"useTabs": false,
+				"singleQuote": true,
+				"bracketSpacing": false,
+				"semi": false,
+				"trailingComma": "none"
+			},
+			"xo": {
+				"prettier": true
+			},
+			"remarkConfig": {
+				"plugins": [
+					"preset-wooorm"
+				]
+			},
+			"typeCoverage": {
+				"atLeast": 100,
+				"detail": true,
+				"strict": true
+			},
+			"gitHead": "e9a4570b2a7d9dd86fbca1d99f4eb643695d39dc",
+			"homepage": "https://github.com/syntax-tree/mdast-squeeze-paragraphs#readme",
+			"_id": "mdast-squeeze-paragraphs@5.1.0",
+			"_nodeVersion": "16.2.0",
+			"_npmVersion": "7.18.1",
+			"dist": {
+				"integrity": "sha512-wnMtjwfP886u3/K2HCDrjJtdWdtP1La/nv/vkpH1jqUDA/CpPtq8JCXR+2798/5ehp5xR01waom5ubS47WQruw==",
+				"shasum": "bcff5a891b9932438ef5663132d1592b60c9b622",
+				"tarball": "https://registry.npmjs.org/mdast-squeeze-paragraphs/-/mdast-squeeze-paragraphs-5.1.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 7546,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJhA731CRA9TVsSAnZWagAAqoUQAInh8Y3B2MDmICgqrC3X\nCF3vn/T/z9UUc04ccEKpYggIQscSaZXE4BoPq4izu56DYXjMonVA+foUYWU3\noRu0iHimDIKmlCB8rd6mQQhdpfktX+2zOeQInxk0614m7aT5A7Uua94ycBJC\nnsdTJRpoM1wZcQwUaMpNCrDwCqD1GCR5wvLITjqFcSWIJLdvDU20XLfAKNsy\nKuw6wfD7lkpj0ZgVs92vfLpVKdb1q117oOU9JIDwrp2/s4A6aL71JLI/loeP\nyZk+8BnI9tJzQemtQ1jJ0kXGcgz63YFBK288kd4ukzQmxVb3YnKsikY63Dre\n5Kcr06Cyx7IN/NF31mvG+NATsOQ3pKzKMmiX3fdH+w3IsV9rW01oGZS3wP1U\nYQTy5mSS/chNGIeVCYB6I26doRiTpj1GrBIcrmSho/6o1sFh8BOAAGyAVwbQ\nuM3rHUID8DiGN1+gXQ59PT6HYXW828F7VQEpKHWO3AXvlzq5XdbCY3uD/Ngg\na3P4Ej61gf2yNxSF0aPH7EyApiKX6jbbEPbZSLC3/BeLdohUfdErzJQbZPO2\nLMOPVr3vI+fvs+sRidc6MzrOOhrU3aemBZ0fKqD+OhCbZsFnu3Sgv10omgCl\ntBiXuBhZDkH2OYV6UgpeTf8UVSkVv/mYSGXvYP3/zTqoY7VPG1cg8GTZE+Eo\niXJ6\r\n=eN3H\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDVhqan9FGvKYrW2giFo/JIMs4jWlvbH/vNN0Mop7HmKwIgHZG6k2tU87E5aSj8IgCshVGVrZnZoKI8uJjp9S3y2iw="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				},
+				{
+					"name": "kmck",
+					"email": "keith@mcknig.ht"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/mdast-squeeze-paragraphs_5.1.0_1627635188869_0.4554979152089489"
+			},
+			"_hasShrinkwrap": false
+		},
+		"5.2.0": {
+			"name": "mdast-squeeze-paragraphs",
+			"version": "5.2.0",
+			"description": "mdast utility to remove empty paragraphs from a tree",
+			"license": "MIT",
+			"keywords": [
+				"unist",
+				"mdast",
+				"mdast-util",
+				"util",
+				"utility",
+				"squeeze",
+				"remove",
+				"empty",
+				"paragraph",
+				"whitespace",
+				"tree",
+				"transform",
+				"transformation",
+				"clean"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/syntax-tree/mdast-squeeze-paragraphs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/syntax-tree/mdast-squeeze-paragraphs/issues"
+			},
+			"funding": {
+				"type": "opencollective",
+				"url": "https://opencollective.com/unified"
+			},
+			"author": {
+				"name": "Eugene Sharygin",
+				"email": "eush77@gmail.com"
+			},
+			"contributors": [
+				{
+					"name": "Eugene Sharygin",
+					"email": "eush77@gmail.com"
+				},
+				{
+					"name": "Titus Wormer",
+					"email": "tituswormer@gmail.com",
+					"url": "https://wooorm.com"
+				}
+			],
+			"sideEffects": false,
+			"type": "module",
+			"main": "index.js",
+			"types": "index.d.ts",
+			"dependencies": {
+				"@types/mdast": "^3.0.0",
+				"unist-util-remove": "^3.0.0"
+			},
+			"devDependencies": {
+				"@types/tape": "^4.0.0",
+				"c8": "^7.0.0",
+				"prettier": "^2.0.0",
+				"remark-cli": "^10.0.0",
+				"remark-preset-wooorm": "^8.0.0",
+				"rimraf": "^3.0.0",
+				"tape": "^5.0.0",
+				"tsd": "^0.17.0",
+				"type-coverage": "^2.0.0",
+				"typescript": "^4.0.0",
+				"unist-builder": "^3.0.0",
+				"xo": "^0.42.0"
+			},
+			"scripts": {
+				"prepack": "npm run build && npm run format",
+				"build": "rimraf \"*.d.ts\" && tsc && tsd && type-coverage",
+				"format": "remark . -qfo && prettier . -w --loglevel warn && xo --fix",
+				"test-api": "node test.js",
+				"test-coverage": "c8 --check-coverage --branches 100 --functions 100 --lines 100 --statements 100 --reporter lcov node test.js",
+				"test": "npm run build && npm run format && npm run test-coverage"
+			},
+			"prettier": {
+				"tabWidth": 2,
+				"useTabs": false,
+				"singleQuote": true,
+				"bracketSpacing": false,
+				"semi": false,
+				"trailingComma": "none"
+			},
+			"xo": {
+				"prettier": true
+			},
+			"remarkConfig": {
+				"plugins": [
+					"preset-wooorm"
+				]
+			},
+			"typeCoverage": {
+				"atLeast": 100,
+				"detail": true,
+				"strict": true
+			},
+			"gitHead": "259636b625a0e48010bfff993f47b796d1d17b3d",
+			"homepage": "https://github.com/syntax-tree/mdast-squeeze-paragraphs#readme",
+			"_id": "mdast-squeeze-paragraphs@5.2.0",
+			"_nodeVersion": "16.6.0",
+			"_npmVersion": "7.19.1",
+			"dist": {
+				"integrity": "sha512-uqPZ2smyXe0gNjweQaDkm7eK/KgvcS0u9X9yu28Yj/UOmK6CN6JRs/puzAGQw72vZcxWxs05LxkUTwZIsQZvrw==",
+				"shasum": "23440cea3586a1cb70771f98971d4f8bf1dbb36b",
+				"tarball": "https://registry.npmjs.org/mdast-squeeze-paragraphs/-/mdast-squeeze-paragraphs-5.2.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 7936,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJhCTnECRA9TVsSAnZWagAAIe0QAIHBZhCfbamDemIdj/SQ\nBnROz9oQZe/GIDlnZS8b1Lub+23Yw847d1IQuxQDkp37w+XUBemYB75qz1E0\nOyjc+5RJSYv+hsHVrgfdOWBCHZd0xLz8ye/iXqOeIuI0clZq9Zx/J4+Zupr6\nTgk8zIbRC2ogrvnnt218IjHLZfD1CLO15zqh3wNWZI3sNAbjWU5+JPpaemef\n7clt78zDBNGF6MYXi/WckJS/2mfXHgBe0OocOIEh3YF0DH2PSxTtbQlSwqQV\ngmTog3S12644V6Z2sebUrCpiDfNRAnY1d0MmZDL8pYaNzIXTNMTg/gphuSlj\nYV/cXo/GaaIMFk6CF9JdiUaj6hh7TfPD9XTzLPN7nprIMHW0pWxyT1mkOb9y\n44P0sHXsEMVk4NQ2WVRtlT/CLqtYwYmyE1Lny7e/FtMyuTCdx/5DbskVgR/D\nK4/cJAXPkanCO7M0K7gxZn3Prwa2gy8iN8+Ccm6LLhHsDUE50w/D+ATR8CkX\nZIHptqqUk9x9AMirnTj5UPiijFClRIrG13k+u5CEgwROWP6pCe2kKp3KF++R\nwW0np1rOV+4GGGywEh9MAasMWlQDyQ2UOqHogJ4/RDnJQW3jKFXnx6n34u40\n1nvdQPvGKaxaVXEjPoMxqq3uqYABfsDA5AfINRa63RivDzO5o/Kru1YiDLxH\nPrL0\r\n=YXUx\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIG2AWYZ6Fs3K58B7xdb/Fc9kksCdXTyzqNQLTjUUk8llAiBn7cyr06vtpZ7113YznzO2JC17pN+xNPG2fyPu1GUAow=="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				},
+				{
+					"name": "kmck",
+					"email": "keith@mcknig.ht"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/mdast-squeeze-paragraphs_5.2.0_1627994564548_0.09177093251519675"
+			},
+			"_hasShrinkwrap": false
+		}
+	},
+	"time": {
+		"modified": "2022-06-19T17:16:42.591Z",
+		"created": "2015-07-14T10:19:41.686Z",
+		"1.0.0": "2015-07-14T10:19:41.686Z",
+		"2.0.0": "2015-07-15T08:55:38.170Z",
+		"2.1.0": "2015-07-22T07:15:33.045Z",
+		"2.1.1": "2015-07-22T07:55:10.500Z",
+		"1.1.0": "2015-08-12T06:24:00.647Z",
+		"3.0.0": "2016-01-04T20:55:10.848Z",
+		"3.0.1": "2016-01-23T16:59:20.215Z",
+		"3.0.2": "2017-06-13T17:31:19.264Z",
+		"3.0.3": "2018-08-20T10:34:15.075Z",
+		"3.0.4": "2018-12-05T08:42:18.899Z",
+		"3.0.5": "2019-05-24T10:15:20.281Z",
+		"4.0.0": "2020-02-22T14:03:21.109Z",
+		"5.0.0": "2021-04-23T19:38:49.777Z",
+		"5.1.0": "2021-07-30T08:53:09.010Z",
+		"5.2.0": "2021-08-03T12:42:44.704Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "5.2.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"da83dfb9fc384ac3ad0da2e3d707c0ba\"",
+			"fetched": 1660840764774
+		}
+	},
+	"_distfiles": {
+		"mdast-squeeze-paragraphs-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/mdast-squeeze-paragraphs/-/mdast-squeeze-paragraphs-1.0.0.tgz",
+			"sha": "52c6af775bd8d5d525de733b2785844d7546e4d5",
+			"registry": "npmjs"
+		},
+		"mdast-squeeze-paragraphs-2.0.0.tgz": {
+			"url": "https://registry.npmjs.org/mdast-squeeze-paragraphs/-/mdast-squeeze-paragraphs-2.0.0.tgz",
+			"sha": "5673dbfc4b5188760f8e8376346bb0010fada3bb",
+			"registry": "npmjs"
+		},
+		"mdast-squeeze-paragraphs-2.1.0.tgz": {
+			"url": "https://registry.npmjs.org/mdast-squeeze-paragraphs/-/mdast-squeeze-paragraphs-2.1.0.tgz",
+			"sha": "98723285d2d581066322ca6d21da275161a7fd94",
+			"registry": "npmjs"
+		},
+		"mdast-squeeze-paragraphs-2.1.1.tgz": {
+			"url": "https://registry.npmjs.org/mdast-squeeze-paragraphs/-/mdast-squeeze-paragraphs-2.1.1.tgz",
+			"sha": "c4f63145a2189a5a1c2496426da5267c94e76129",
+			"registry": "npmjs"
+		},
+		"mdast-squeeze-paragraphs-1.1.0.tgz": {
+			"url": "https://registry.npmjs.org/mdast-squeeze-paragraphs/-/mdast-squeeze-paragraphs-1.1.0.tgz",
+			"sha": "e587c25f60c2e55ca0d25d46e0a879991f6bbac7",
+			"registry": "npmjs"
+		},
+		"mdast-squeeze-paragraphs-3.0.0.tgz": {
+			"url": "https://registry.npmjs.org/mdast-squeeze-paragraphs/-/mdast-squeeze-paragraphs-3.0.0.tgz",
+			"sha": "3b2a204dbe3bd864d7974ad60f90a65ae5244b87",
+			"registry": "npmjs"
+		},
+		"mdast-squeeze-paragraphs-3.0.1.tgz": {
+			"url": "https://registry.npmjs.org/mdast-squeeze-paragraphs/-/mdast-squeeze-paragraphs-3.0.1.tgz",
+			"sha": "02e57c74a4ab8e12ab41170087c7e22647329cc0",
+			"registry": "npmjs"
+		},
+		"mdast-squeeze-paragraphs-3.0.2.tgz": {
+			"url": "https://registry.npmjs.org/mdast-squeeze-paragraphs/-/mdast-squeeze-paragraphs-3.0.2.tgz",
+			"sha": "b3505388be4b1ca791352ec66f9fc53c5f5e4b2e",
+			"registry": "npmjs"
+		},
+		"mdast-squeeze-paragraphs-3.0.3.tgz": {
+			"url": "https://registry.npmjs.org/mdast-squeeze-paragraphs/-/mdast-squeeze-paragraphs-3.0.3.tgz",
+			"sha": "eb40b48b0d63573afad651d2623806090397d5d0",
+			"registry": "npmjs"
+		},
+		"mdast-squeeze-paragraphs-3.0.4.tgz": {
+			"url": "https://registry.npmjs.org/mdast-squeeze-paragraphs/-/mdast-squeeze-paragraphs-3.0.4.tgz",
+			"sha": "e27affcc8cc854842ff504ebb8f380e3c8e131f8",
+			"registry": "npmjs"
+		},
+		"mdast-squeeze-paragraphs-3.0.5.tgz": {
+			"url": "https://registry.npmjs.org/mdast-squeeze-paragraphs/-/mdast-squeeze-paragraphs-3.0.5.tgz",
+			"sha": "f428b6b944f8faef454db9b58f170c4183cb2e61",
+			"registry": "npmjs"
+		},
+		"mdast-squeeze-paragraphs-4.0.0.tgz": {
+			"url": "https://registry.npmjs.org/mdast-squeeze-paragraphs/-/mdast-squeeze-paragraphs-4.0.0.tgz",
+			"sha": "7c4c114679c3bee27ef10b58e2e015be79f1ef97",
+			"registry": "npmjs"
+		},
+		"mdast-squeeze-paragraphs-5.0.0.tgz": {
+			"url": "https://registry.npmjs.org/mdast-squeeze-paragraphs/-/mdast-squeeze-paragraphs-5.0.0.tgz",
+			"sha": "50dd3ebe0a90f9bce4c7ec649464016f08800db4",
+			"registry": "npmjs"
+		},
+		"mdast-squeeze-paragraphs-5.1.0.tgz": {
+			"url": "https://registry.npmjs.org/mdast-squeeze-paragraphs/-/mdast-squeeze-paragraphs-5.1.0.tgz",
+			"sha": "bcff5a891b9932438ef5663132d1592b60c9b622",
+			"registry": "npmjs"
+		},
+		"mdast-squeeze-paragraphs-5.2.0.tgz": {
+			"url": "https://registry.npmjs.org/mdast-squeeze-paragraphs/-/mdast-squeeze-paragraphs-5.2.0.tgz",
+			"sha": "23440cea3586a1cb70771f98971d4f8bf1dbb36b",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_rev": "3-932346dd43887fc7",
+	"_id": "mdast-squeeze-paragraphs",
+	"readme": "# mdast-squeeze-paragraphs\n\n[![Build][build-badge]][build]\n[![Coverage][coverage-badge]][coverage]\n[![Downloads][downloads-badge]][downloads]\n[![Size][size-badge]][size]\n[![Sponsors][sponsors-badge]][collective]\n[![Backers][backers-badge]][collective]\n[![Chat][chat-badge]][chat]\n\n[**mdast**][mdast] utility to remove empty paragraphs from a tree.\n\nParagraphs are considered empty if they do not contain non-whitespace\ncharacters.\n\n## Install\n\nThis package is [ESM only](https://gist.github.com/sindresorhus/a39789f98801d908bbc7ff3ecc99d99c):\nNode 12+ is needed to use it and it must be `import`ed instead of `require`d.\n\n[npm][]:\n\n```sh\nnpm install mdast-squeeze-paragraphs\n```\n\n## Use\n\n```js\nimport {u} from 'unist-builder'\nimport {squeezeParagraphs} from 'mdast-squeeze-paragraphs'\n\nconst tree = u('root', [\n  u('paragraph', []),\n  u('paragraph', [u('text', 'Alpha')]),\n  u('paragraph', [u('text', ' ')])\n])\n\nsqueezeParagraphs(tree)\n\nconsole.dir(tree, {depth: null})\n```\n\nYields:\n\n```js\n{ type: 'root',\n  children:\n   [ { type: 'paragraph',\n       children: [ { type: 'text', value: 'Alpha' } ] } ] }\n```\n\n## API\n\nThis package exports the following identifiers: `squeezeParagraphs`.\nThere is no default export.\n\n### `squeezeParagraphs(tree)`\n\nModifies [tree][] in-place.\nReturns `tree`.\n\n## Security\n\nUse of `mdast-squeeze-paragraphs` does not involve [**hast**][hast] or user\ncontent so there are no openings for [cross-site scripting (XSS)][xss] attacks.\n\n## Related\n\n*   [`remark-squeeze-paragraphs`][squeeze-paragraphs]\n    — [**remark**][remark] plugin wrapper\n*   [`mdast-util-compact`](https://github.com/syntax-tree/mdast-util-compact)\n    — make a tree compact\n\n## Contribute\n\nSee [`contributing.md` in `syntax-tree/.github`][contributing] for ways to get\nstarted.\nSee [`support.md`][support] for ways to get help.\n\nThis project has a [code of conduct][coc].\nBy interacting with this repository, organization, or community you agree to\nabide by its terms.\n\n## License\n\n[MIT][license] © Eugene Sharygin\n\n<!-- Definitions -->\n\n[build-badge]: https://github.com/syntax-tree/mdast-squeeze-paragraphs/workflows/main/badge.svg\n\n[build]: https://github.com/syntax-tree/mdast-squeeze-paragraphs/actions\n\n[coverage-badge]: https://img.shields.io/codecov/c/github/syntax-tree/mdast-squeeze-paragraphs.svg\n\n[coverage]: https://codecov.io/github/syntax-tree/mdast-squeeze-paragraphs\n\n[downloads-badge]: https://img.shields.io/npm/dm/mdast-squeeze-paragraphs.svg\n\n[downloads]: https://www.npmjs.com/package/mdast-squeeze-paragraphs\n\n[size-badge]: https://img.shields.io/bundlephobia/minzip/mdast-squeeze-paragraphs.svg\n\n[size]: https://bundlephobia.com/result?p=mdast-squeeze-paragraphs\n\n[sponsors-badge]: https://opencollective.com/unified/sponsors/badge.svg\n\n[backers-badge]: https://opencollective.com/unified/backers/badge.svg\n\n[collective]: https://opencollective.com/unified\n\n[chat-badge]: https://img.shields.io/badge/chat-discussions-success.svg\n\n[chat]: https://github.com/syntax-tree/unist/discussions\n\n[npm]: https://docs.npmjs.com/cli/install\n\n[license]: license\n\n[contributing]: https://github.com/syntax-tree/.github/blob/HEAD/contributing.md\n\n[support]: https://github.com/syntax-tree/.github/blob/HEAD/support.md\n\n[coc]: https://github.com/syntax-tree/.github/blob/HEAD/code-of-conduct.md\n\n[tree]: https://github.com/syntax-tree/unist#tree\n\n[mdast]: https://github.com/syntax-tree/mdast\n\n[remark]: https://github.com/remarkjs/remark\n\n[squeeze-paragraphs]: https://github.com/remarkjs/remark-squeeze-paragraphs\n\n[xss]: https://en.wikipedia.org/wiki/Cross-site_scripting\n\n[hast]: https://github.com/syntax-tree/hast"
+}

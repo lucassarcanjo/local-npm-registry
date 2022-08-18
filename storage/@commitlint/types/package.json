@@ -1,0 +1,1792 @@
+{
+	"name": "@commitlint/types",
+	"versions": {
+		"9.0.0": {
+			"name": "@commitlint/types",
+			"version": "9.0.0",
+			"description": "Shared types for commitlint packages",
+			"main": "lib/index.js",
+			"types": "lib/index.d.ts",
+			"scripts": {
+				"pkg": "pkg-check"
+			},
+			"engines": {
+				"node": ">=8"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/conventional-changelog/commitlint.git"
+			},
+			"bugs": {
+				"url": "https://github.com/conventional-changelog/commitlint/issues"
+			},
+			"homepage": "https://github.com/conventional-changelog/commitlint#readme",
+			"author": {
+				"name": "Mario Nebl",
+				"email": "hello@herebecode.com"
+			},
+			"license": "MIT",
+			"devDependencies": {
+				"@commitlint/utils": "^9.0.0"
+			},
+			"gitHead": "71f0194f33943954a8dac1c458be47e5049717cd",
+			"_id": "@commitlint/types@9.0.0",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "10.15.3",
+			"_npmUser": {
+				"name": "escapedcat",
+				"email": "npm@htmlcss.de"
+			},
+			"dist": {
+				"integrity": "sha512-GOCo0uXLner/AZ061+gEKDRKgvBBL9Z9c6spBmWLRZ19oW8v+ilADwJNmyAkq4vqkhd+ZyUOeuFgZTL9IKpmmA==",
+				"shasum": "a5707ab4fa76ef17ac3d6d12cc92dcdbaf888ab9",
+				"tarball": "https://registry.npmjs.org/@commitlint/types/-/types-9.0.0.tgz",
+				"fileCount": 30,
+				"unpackedSize": 19579,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJexlTuCRA9TVsSAnZWagAAXXYQAKC/bqha0q6UAtNbabGF\n9Xj1gOylv6tR4Y7IDy/UyL6/LBG6IytowhyLVVYU3V1doBiRCaSJqikvZgUL\nEbxHZ59AWGfK3b77GR5YJo6VMzllPsLNxYeen38pWpOKnFAqyLLr6XjOH3gf\n8koa+DGYM1aTQ+HQCi5wpTjhhPfLeZnvcuexKNAGhLxPk59pF0r04a4CRolK\nZuXUK6emwQL3gps+z50OsHMXu9RIf1CeUbepzDym63aVpw+3Lhsg4yGaU90m\nR+dpl0BAWP+QQ0dKvaKH9GmL4GeAhXotfY0xrhJmSvWoNFVOMWMw/L7SNDdO\nbyHd/XCaBD/x3CFIKcKx1CqLuhAvSsrkC31cg1SEBTdzvZDzRdU9orRdwZvk\nUy8Sp9ic5DdFEm3+qNMLE6ptMQCSJ3Kx6dMgcN7VFZyobeNme9TwWjoTs0XC\nvEvjsEUtsTT15Eg7xdxJwhVQPCcnLF+YelRPQgnzudaeicDcrAYWCTf6seOx\nFbYNzoEfgCfk8H17+zgg/ljz3we7Sp5XRsBwMdRygtKkqdXp2kTNYBfIKyCJ\nAW1nHvB1uCV3dG16iS9L50UL4EvVO5VgISc05HS+lBPDk6Ipo84mQG6PVM7P\nWIKyPmn3DcAgZCJdJ59OiRFyRc9jA4pwfqgCC6SkvnpuAGkwItcB6xT8myO1\nR8fD\r\n=GL++\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIGu+1AJMAafX7TFwnNNT+Md6VjMOH9gIXQrJXRGnHG9rAiBReNTquczngLXXNcWxjCla2c8OeiKQ2nBB4UUK8EVZOQ=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "bycedric",
+					"email": "me@bycedric.com"
+				},
+				{
+					"name": "escapedcat",
+					"email": "npm@htmlcss.de"
+				},
+				{
+					"name": "martinhelmut",
+					"email": "info@martin-fieber.se"
+				},
+				{
+					"name": "marionebl",
+					"email": "hello@mario-nebl.de"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/types_9.0.0_1590056173941_0.7984750912638208"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"9.0.1": {
+			"name": "@commitlint/types",
+			"version": "9.0.1",
+			"description": "Shared types for commitlint packages",
+			"main": "lib/index.js",
+			"types": "lib/index.d.ts",
+			"scripts": {
+				"pkg": "pkg-check"
+			},
+			"engines": {
+				"node": ">=8"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/conventional-changelog/commitlint.git"
+			},
+			"bugs": {
+				"url": "https://github.com/conventional-changelog/commitlint/issues"
+			},
+			"homepage": "https://github.com/conventional-changelog/commitlint#readme",
+			"author": {
+				"name": "Mario Nebl",
+				"email": "hello@herebecode.com"
+			},
+			"license": "MIT",
+			"devDependencies": {
+				"@commitlint/utils": "^9.0.1"
+			},
+			"gitHead": "7ff3f2902bcaa8b93b653a0af25c811d12ae0dc1",
+			"_id": "@commitlint/types@9.0.1",
+			"_nodeVersion": "12.16.1",
+			"_npmVersion": "lerna/3.20.2/node@v12.16.1+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-wo2rHprtDzTHf4tiSxavktJ52ntiwmg7eHNGFLH38G1of8OfGVwOc1sVbpM4jN/HK/rCMhYOi6xzoPqsv0537A==",
+				"shasum": "df281f0f3d8f3adb10c95e4dd72b16acf41b5400",
+				"tarball": "https://registry.npmjs.org/@commitlint/types/-/types-9.0.1.tgz",
+				"fileCount": 31,
+				"unpackedSize": 20832,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJezJm1CRA9TVsSAnZWagAAqdwP/3jL3vLgpEumtlgp0xhl\naMMlDp8oMV6o0UiPOocunmbWacuCVK11GBuYDzvLg3eCa9EpcqzcCnlzFnSi\nTOTIOuf4hSvhucC//vbsWnkSJDP7JmneeYgUby+5GTjdXlp4W392/tsQTCz1\nXiDtKvkRquGgGw6j49M0PVKu1wqmK9MxFZ5k8hmuG5fGS6HAZoe95BfQT4i2\nMszFCky+g+E4C1Zy98ZWhpbhgppYz5COIKE9E0FXoD5HNvBUhwFAUeHqPblI\nFgT7UJ7d7TV7+NbW3z6VSKIj4kz4eVP5hCIUHK8M3HPuUxaeSnwL/QH0rr8O\nqvm+8GobDhjASu+9rhJo3KxR3KnlLKuJ0SIw4XfKxY0dZebKezmYp7q+3neu\ne6qwWP4CAsqI2E00pOYQaViW9Gpd1IDBiJOcu7ACtbUSYjDaQGHpzWHG18A7\nUizdRzbnEHvF9Bm/mWaTmL+aPfkdUDw7lsW9Lbkxg5DG/CcuojBLotAJCxhy\nU8WcaOB3sddtzN48q0HQuH4EqzmMTY4MECgxwEQE8e+BS5KjRPD2NGjeI001\njnqFl/z8LMCVa7cBi9oqGQOPOYifKX6AQoY4tHH5H7DtBKCgQAn/7n2Vcbbk\nS1nOrnhTc35IklphNfYplldaAqEkx39ZniFfnLlC28LIfQ8AB5xFG+1De3Rz\nI+8E\r\n=7So4\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDiRdaWl8BbNjzG3INRSq2bVkrkSpqq+XIpXJE/24EAHAIgJ+ktkdwJ1JWDcE4f82WUFJKjrB8H5MDZrUSBAq8ViGk="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "bycedric",
+					"email": "me@bycedric.com"
+				},
+				{
+					"name": "escapedcat",
+					"email": "npm@htmlcss.de"
+				},
+				{
+					"name": "marionebl",
+					"email": "hello@mario-nebl.de"
+				},
+				{
+					"name": "martinhelmut",
+					"email": "info@martin-fieber.se"
+				}
+			],
+			"_npmUser": {
+				"name": "escapedcat",
+				"email": "npm@htmlcss.de"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/types_9.0.1_1590466996620_0.7583851802458632"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"9.1.0": {
+			"name": "@commitlint/types",
+			"version": "9.1.0",
+			"description": "Shared types for commitlint packages",
+			"main": "lib/index.js",
+			"types": "lib/index.d.ts",
+			"scripts": {
+				"pkg": "pkg-check"
+			},
+			"engines": {
+				"node": ">=8"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/conventional-changelog/commitlint.git"
+			},
+			"bugs": {
+				"url": "https://github.com/conventional-changelog/commitlint/issues"
+			},
+			"homepage": "https://github.com/conventional-changelog/commitlint#readme",
+			"author": {
+				"name": "Mario Nebl",
+				"email": "hello@herebecode.com"
+			},
+			"license": "MIT",
+			"devDependencies": {
+				"@commitlint/utils": "^9.1.0"
+			},
+			"gitHead": "c9f5c5cb3f995362c760308f114b6319c0e55ce3",
+			"_id": "@commitlint/types@9.1.0",
+			"_nodeVersion": "12.18.0",
+			"_npmVersion": "lerna/3.22.1/node@v12.18.0+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-mTs99J/I/UuLOL9BNb9YZfl/cFZWHtGmpIX+yDcmO1ZcAYGvolWSyAit0e7gakX+dP4djuUJBiXQo1ZDLcPBoA==",
+				"shasum": "1229030b9ffb23a3b592838e8467662292ae2fc5",
+				"tarball": "https://registry.npmjs.org/@commitlint/types/-/types-9.1.0.tgz",
+				"fileCount": 31,
+				"unpackedSize": 21203,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJe7w4ICRA9TVsSAnZWagAAASsP/iYahaAf0udlMz5uvPgo\ng1MjWkM+2ft5px6D07Hk+577a7KX/nFDtBAGrxE++AWVnWnjDDR6+aQXZNDe\nMNcseGnI5wSyqx/LIGpUXyY6mYAVsxOmavYPEw1YGSIQr6r7CaZeTYzbdSqp\nopla2jgx6aDeQh6KZQAGpCnZUvsz3pDx3cmVcJ8usGSkU3ZX7XhVcu41JgvE\nGsGwuPFNMvWwQWl1K8Xs/vDMJknKvO+En/ZngjChL6Ld8IQcNIRGKVIz//nX\nsnVk1bGXi6+FX+A54Xed+HYF8qt5Q/EFx+XFPOqF4n6P/mFzqaZostubUSIH\nOyIGhAEBePPr1cFmcfq9kzFcIAMfqhIZ5jKCLR9yilySeC2Jcwbzv1FvPEB7\nz6yqCLMLg78njWytH9sPXFQONet1MtZLenPs1KnYqsPCrLptNamr9YrQbGCc\nd1nCWVHv5eKr/z6aNhbyfILkGMTq2xvEkFH2Rc0Sf4i02BdJGSBi9/tDluhx\nDGHZ4EZ4c7f8xYfdL9Ghko5oZIAoNc9ISWiPqCPaSZgyf6AUXkLYQM6GS729\nwmrxnNRleHFXKGDzfvX1nqubQIatNvxxSLYFNSxMLc7dZh0lOL05T4rJ6MGT\nguwfaE2Ymed36VfSCL/7Mi/nynS8W+o4Pq5DbMMnhmxXAw66Cl+wW+cVX4ND\nycJA\r\n=WQFx\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDgI42AtQBRdvgEYrc76hhHv0GQYIeKh+I7Jm7+cQWOOQIgUmBwEWcyIiqEnpIeuEiGF4RfctQerYMoBrqqUy/bVaM="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "bycedric",
+					"email": "me@bycedric.com"
+				},
+				{
+					"name": "escapedcat",
+					"email": "npm@htmlcss.de"
+				},
+				{
+					"name": "marionebl",
+					"email": "hello@mario-nebl.de"
+				},
+				{
+					"name": "martinhelmut",
+					"email": "info@martin-fieber.se"
+				}
+			],
+			"_npmUser": {
+				"name": "escapedcat",
+				"email": "npm@htmlcss.de"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/types_9.1.0_1592725000203_0.47315671953850447"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"9.1.1": {
+			"name": "@commitlint/types",
+			"version": "9.1.1",
+			"description": "Shared types for commitlint packages",
+			"main": "lib/index.js",
+			"types": "lib/index.d.ts",
+			"scripts": {
+				"pkg": "pkg-check"
+			},
+			"engines": {
+				"node": ">=8"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/conventional-changelog/commitlint.git"
+			},
+			"bugs": {
+				"url": "https://github.com/conventional-changelog/commitlint/issues"
+			},
+			"homepage": "https://github.com/conventional-changelog/commitlint#readme",
+			"author": {
+				"name": "Mario Nebl",
+				"email": "hello@herebecode.com"
+			},
+			"license": "MIT",
+			"devDependencies": {
+				"@commitlint/utils": "^9.1.1"
+			},
+			"gitHead": "cb565dfcca3128380b9b3dc274aedbcae34ce5ca",
+			"_id": "@commitlint/types@9.1.1",
+			"_nodeVersion": "12.18.0",
+			"_npmVersion": "lerna/3.22.1/node@v12.18.0+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-SXY8bCQ1qacJ8AUTUxjabY8G6OjSmMPLN9MBCzGaKOjpPNX6z8zbXTbk9oU3GHZLtcxweWLCi2n49IRS4iQlwg==",
+				"shasum": "d97ebc35d20eed6d8458361cbca5c7cb85d45184",
+				"tarball": "https://registry.npmjs.org/@commitlint/types/-/types-9.1.1.tgz",
+				"fileCount": 31,
+				"unpackedSize": 21369,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJe+ufyCRA9TVsSAnZWagAAAe8P/jWBdbaxaotbjoGhJGS1\njZAFInWouIXTyrQVukPjXetBLPE2HZ1WtgyAw3O6pkZEq73TvB0qFF1xNepn\nEKtjYB8Xqs5DxW0nI5J2IfjqAqRCXdTFWkNLGnGlXmc7BJqKAD2UHuj7+8r2\nZNRiEcLl3tXBTNXPX9xiK6ODJgwxttZKwFLIPnay2Rvo9A2QsewViY8QFEwa\nE0kMsetkHaxmoja+wfnE5amNbCDJmweJbORV44nfcy2MAd6fLBN+kRgbR6Wx\n5a8SrrZO4yDqSkAOw/IjxUYgWLp5kqoo+sLDAsNRs1POhQXQYc3qjLUNPVjR\nhEGoY1Sw2U6ZbG5gR3PqANUTo9yCNWso3DPkQSJ+lGCxblvLEHLblqFyQkFF\nvMmS3We8NhKkooZhdQ/m6LcqlpEHDrNq4sWZpXZM078oDEbtXMljH7V7OBJe\n7Qay6zyJOdfMAh28VF6PWWlEOcak4eg/5+wy/uh+3xywr9YyP1AaV6f3v2fN\nHQmOKDj2dMLYFSMrtp7wfeS0FubeO7LRVJJc9iOr/9aGM5xtEIfv0rV0e0qZ\nsXEegEOyz0mPackwsOr8c9gG1gqSeZXxwtqwJnB4MFYszMWv5IwBlD/7QptS\n5POXRsq9kFE3A9DL9u/28vH8laMOtXC6RsKw6zLsnPNsVFVAZAkkiTXYsDzF\noEBI\r\n=IB9z\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDyldEPb2A6GLL/RUD1pvOCSqT0x3qvbGh9Q1dqLQphSgIhAIbUFMS84ldoQjOfvWZTCw1i19UyJtBwUqcxPdsDw2PA"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "bycedric",
+					"email": "me@bycedric.com"
+				},
+				{
+					"name": "escapedcat",
+					"email": "npm@htmlcss.de"
+				},
+				{
+					"name": "marionebl",
+					"email": "hello@mario-nebl.de"
+				},
+				{
+					"name": "martinhelmut",
+					"email": "info@martin-fieber.se"
+				}
+			],
+			"_npmUser": {
+				"name": "escapedcat",
+				"email": "npm@htmlcss.de"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/types_9.1.1_1593501681687_0.7747897447938816"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"9.1.2": {
+			"name": "@commitlint/types",
+			"version": "9.1.2",
+			"description": "Shared types for commitlint packages",
+			"main": "lib/index.js",
+			"types": "lib/index.d.ts",
+			"scripts": {
+				"pkg": "pkg-check"
+			},
+			"engines": {
+				"node": ">=v8.17.0"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/conventional-changelog/commitlint.git"
+			},
+			"bugs": {
+				"url": "https://github.com/conventional-changelog/commitlint/issues"
+			},
+			"homepage": "https://github.com/conventional-changelog/commitlint#readme",
+			"author": {
+				"name": "Mario Nebl",
+				"email": "hello@herebecode.com"
+			},
+			"license": "MIT",
+			"devDependencies": {
+				"@commitlint/utils": "^9.1.2"
+			},
+			"gitHead": "41d4f5851508be1421bd23e0424cacf043bc6a88",
+			"_id": "@commitlint/types@9.1.2",
+			"_nodeVersion": "10.15.3",
+			"_npmVersion": "lerna/3.22.1/node@v10.15.3+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-r3fwVbVH+M8W0qYlBBZFsUwKe6NT5qvz+EmU7sr8VeN1cQ63z+3cfXyTo7WGGEMEgKiT0jboNAK3b1FZp8k9LQ==",
+				"shasum": "d05f66db03e3a3638a654e8badf2deb489eb220d",
+				"tarball": "https://registry.npmjs.org/@commitlint/types/-/types-9.1.2.tgz",
+				"fileCount": 35,
+				"unpackedSize": 24761,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfC9jrCRA9TVsSAnZWagAALLYP/3u1cHfQlQRRFpVrteSv\nxjmS+JLNqB4PPsa/thvfTQusvgHtFv929qaA17O/UywtssOefI0Jc4YijfeV\nScHVu5wlLYc0zE5AaXyOmcJgtMMlNd6K/r2sJKqrJU5e+vgtRzD0T2wyblun\nPpwXQhaQN2VdWUhwVPYlf4HPvSPBZMLmaWaQiRkODQFGlhb6p3JDkEAOcT69\n+TZ/3bUnRnDmkdn2doKVted84ONnldFD/1X8BMhPY94FiZexgHSqbLG/0jNU\ncRMQEGWKHJOrzYIRPb5MuqccL7uWt0Xuc28K0d5Sl6EyfY44ai0A35jO79xN\nEauCCBAmfYgEx4oP9fI1xVa/Ah2FhspNvvumFDJ7GprzaId1y22t9PSQnKTO\n/T1o/SSqfpWWzCcFDVg3LScHme/QuSTvPORvbDGnu9y3ZsyuM2fdzbqgimO8\nIjfG8Jn9dKKe3I5m5rvAMZIFnzKURclti6+KKmiU1jX229dDALNZB5X4Ghyi\nfTCBUz0Fj0I+2BxfBrHSfkAyqxlEaz+OVVvVlIhDt5cjcrvqOuNxvCfduxyc\ngAUu9m5iTIdztq3/2jvUWg1Wsx9OFHfV9b9+l4f/ycCmgtQeHDAtnxDu4TGR\n14ZCt/pTgI4DnPKPG/b4lQOBMD4s+86mVI35WuwXlzG9SZLW+3mTaFhu9yZw\n3J8E\r\n=xfQO\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIFdxEh/vumKziaJA7E6r+FJ0VV8DCmT5sVmPOWDdDGeSAiBSSoHbi5iYl4mG+jVVBkE2U0pU27JrhNxQ4gLd1IO9CQ=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "bycedric",
+					"email": "me@bycedric.com"
+				},
+				{
+					"name": "escapedcat",
+					"email": "npm@htmlcss.de"
+				},
+				{
+					"name": "marionebl",
+					"email": "hello@mario-nebl.de"
+				},
+				{
+					"name": "martinhelmut",
+					"email": "info@martin-fieber.se"
+				}
+			],
+			"_npmUser": {
+				"name": "escapedcat",
+				"email": "npm@htmlcss.de"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/types_9.1.2_1594611947468_0.036815509742463615"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"10.0.0": {
+			"name": "@commitlint/types",
+			"version": "10.0.0",
+			"description": "Shared types for commitlint packages",
+			"main": "lib/index.js",
+			"types": "lib/index.d.ts",
+			"scripts": {
+				"pkg": "pkg-check"
+			},
+			"engines": {
+				"node": ">=v10.22.0"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/conventional-changelog/commitlint.git"
+			},
+			"bugs": {
+				"url": "https://github.com/conventional-changelog/commitlint/issues"
+			},
+			"homepage": "https://github.com/conventional-changelog/commitlint#readme",
+			"author": {
+				"name": "Mario Nebl",
+				"email": "hello@herebecode.com"
+			},
+			"license": "MIT",
+			"devDependencies": {
+				"@commitlint/utils": "^10.0.0"
+			},
+			"gitHead": "3982e5a6bf0c28e4b1109e8516d7fdcfad411eac",
+			"_id": "@commitlint/types@10.0.0",
+			"_nodeVersion": "12.18.3",
+			"_npmVersion": "lerna/3.22.1/node@v12.18.3+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-b7uumSfDI1guYnNc11BpkTZjiY7gC1DPedeUa0r+csd/1DiFyRo4oNOaxXHve0cC4NzaHaOHa0aPktWMTYJlVQ==",
+				"shasum": "4c05f59562e66209a6f063ea60b931063bc17c09",
+				"tarball": "https://registry.npmjs.org/@commitlint/types/-/types-10.0.0.tgz",
+				"fileCount": 35,
+				"unpackedSize": 25958,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfONPbCRA9TVsSAnZWagAAX4sP/2HlBTAuND3mhJ2M0nQ/\nlL3kVT38E6fDPPq31Vlr1QsJGPH9ZxCSGk9O3BOMk3PCbN00DUEBu3NUhY1V\nd5+uy0Vb6F50ndtle1xY+CQNaEuUpcVtlfHim6V1/5w6nxyPQb2CYjJR3GYO\ncsMkpzPZwWc/At+14MqPIVg72/aAQKMLyE/ri3jaBKdNydrJ6r23+6TCYVcG\niAqJGRKTef2dvJ8Nx0DTnKkJFDagxZXbL3fGNUEpGd/oICi8jb2eF0HI3VHH\nyh4J9gav77NlPbBXBVqMtf2/KU9gGnI8BFuvlfFG/ZQaecAb4RTpQ84h0tjz\nfUvsq0a+0BQTFf9SjbAcrS8c7tmURt5s4CgSTsv0NFeyoPFMqWgsCg7+XB1G\nHlfUs2OITCIAqCUwBhmtuv+6rwUXppKOgScACO4c/O31U9aKaLPgLd69eCRp\ngCVhN2E4lq9yguj9hghUG+iV4E0nNVGwksBqf2vSuktIPuUBlNQx7tO20EZn\nY92bcHF7tZJ4lK7vZoOEGpfNlUXFS+ysQSFHXcMR8aYnQwEPl0HIOtmiIJ6U\n4+p4MkTSTcIR2kCKFqrb+h1UV3em4PFdSu8Xj/gynHxgt1ntb4DDFkeZcj8y\nEHz+nrSZFiQQkGz8n0VxNRJk3WoqfItjGwCv8rirKb1G+aOoAfNWCArTL/g5\nhoID\r\n=Ef8B\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIERESpY6EWqHUE3NywRaHJxNVxPcok5sSGqjgOkgTlNSAiEAxKovxbx0qEc4U9MmNvgGNaBW36uO/9OBYDn2Wu35+PI="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "bycedric",
+					"email": "me@bycedric.com"
+				},
+				{
+					"name": "escapedcat",
+					"email": "npm@htmlcss.de"
+				},
+				{
+					"name": "marionebl",
+					"email": "hello@mario-nebl.de"
+				},
+				{
+					"name": "martinhelmut",
+					"email": "info@martin-fieber.se"
+				}
+			],
+			"_npmUser": {
+				"name": "escapedcat",
+				"email": "npm@htmlcss.de"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/types_10.0.0_1597559770617_0.059063164170587434"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"11.0.0": {
+			"name": "@commitlint/types",
+			"version": "11.0.0",
+			"description": "Shared types for commitlint packages",
+			"main": "lib/index.js",
+			"types": "lib/index.d.ts",
+			"scripts": {
+				"pkg": "pkg-check"
+			},
+			"engines": {
+				"node": ">=v10.22.0"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/conventional-changelog/commitlint.git"
+			},
+			"bugs": {
+				"url": "https://github.com/conventional-changelog/commitlint/issues"
+			},
+			"homepage": "https://github.com/conventional-changelog/commitlint#readme",
+			"author": {
+				"name": "Mario Nebl",
+				"email": "hello@herebecode.com"
+			},
+			"license": "MIT",
+			"devDependencies": {
+				"@commitlint/utils": "^11.0.0"
+			},
+			"gitHead": "922317463f7c90c0fb319e075de533dd63343863",
+			"_id": "@commitlint/types@11.0.0",
+			"_nodeVersion": "12.18.3",
+			"_npmVersion": "lerna/3.22.1/node@v12.18.3+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-VoNqai1vR5anRF5Tuh/+SWDFk7xi7oMwHrHrbm1BprYXjB2RJsWLhUrStMssDxEl5lW/z3EUdg8RvH/IUBccSQ==",
+				"shasum": "719cf05fcc1abb6533610a2e0f5dd1e61eac14fe",
+				"tarball": "https://registry.npmjs.org/@commitlint/types/-/types-11.0.0.tgz",
+				"fileCount": 35,
+				"unpackedSize": 26149,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfUzKHCRA9TVsSAnZWagAAgCsP/1gAdv/i/HKems7wjy3z\nWckOanKzcqQJEOuTjZS2ysm2KB6JdGVOJpmkDRe/tzNv+ASsWTBWn8V01quV\nsDq7yWNUr8YyhPUFvPxgoE7LA4CwgLSrfd2dXP602SpEr9pPsy7r0JPhVy3k\nrbCPLC5G0UA9e7M0CSO2WBrFTAE6VX5ZUjWM0FW5banxd0sIKtnpoXaH177U\nUtcmQiiPUrZ/c5hQkYPB+tvYv32OkTTC5mEQhliJAoZSutRvPbkNk6YpcZrR\nE/qOZqWRj1zFEKq4lnGA7xssIk+Jg7oL6FnZUNdg4TQBR39FhH385pJReMFW\nc7YtAyEeQbC/jbvDW3IbIlzweJcWPaxQKUYA/iu+fVVYZAE/E4bv4Dzy9YBd\nhxiAWBdddPsx3pfGOcoRm8RCX8Ei2AQNzIjmzCr/KR+qYHvzq4cZ071z+slH\nVulS9dOKyFNscn9qyHsAv4xe5f9fkTOVH4+LcIbBYvJR150bsIKMAY720Aok\nveQlwb18rDL4Uoc/k6zh9EQaWRWI0DlVUHQInN9ZPmK/4n8DDJLy8eNHLsxt\nN/j3dGUdd3qy7Ud1lbTum586r55zD6fVB1nsCxzpa6fb2JXV9VCdHxHLXkLy\nbMWFYD7ZFvPIWyejYRwPIEJfWmzDQSbjIuBGmMpBpGmkN+pdJBjm6ct3jPW9\nN1Mq\r\n=clF4\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQCdwRTdFGqR0Ynvxn/9QYoJp6u5XIiL/xwMEwEU6j04TAIgEbaGO5odyXQWGDYchLa5ZKSrWQQMaM8gdVSyU7Tpq3k="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "bycedric",
+					"email": "me@bycedric.com"
+				},
+				{
+					"name": "escapedcat",
+					"email": "npm@htmlcss.de"
+				},
+				{
+					"name": "marionebl",
+					"email": "hello@mario-nebl.de"
+				},
+				{
+					"name": "martinhelmut",
+					"email": "info@martin-fieber.se"
+				}
+			],
+			"_npmUser": {
+				"name": "escapedcat",
+				"email": "npm@htmlcss.de"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/types_11.0.0_1599287943220_0.4678545428712009"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"12.0.0": {
+			"name": "@commitlint/types",
+			"version": "12.0.0",
+			"description": "Shared types for commitlint packages",
+			"main": "lib/index.js",
+			"types": "lib/index.d.ts",
+			"scripts": {
+				"pkg": "pkg-check"
+			},
+			"engines": {
+				"node": ">=v10"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/conventional-changelog/commitlint.git"
+			},
+			"bugs": {
+				"url": "https://github.com/conventional-changelog/commitlint/issues"
+			},
+			"homepage": "https://github.com/conventional-changelog/commitlint#readme",
+			"author": {
+				"name": "Mario Nebl",
+				"email": "hello@herebecode.com"
+			},
+			"license": "MIT",
+			"dependencies": {
+				"chalk": "^4.0.0"
+			},
+			"devDependencies": {
+				"@commitlint/utils": "^12.0.0"
+			},
+			"gitHead": "d829bf6260304ca8d6811f329fcdd1b6c50e9749",
+			"_id": "@commitlint/types@12.0.0",
+			"_nodeVersion": "14.15.0",
+			"_npmVersion": "lerna/3.22.1/node@v14.15.0+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-ADW/GEwDdgf7ppNq+S2T8J6XgATi2yndXddu+ZV8wlHFpL1DhjPbuPA9RYLnJcp44xQSe/cEV7a7Z43Ryy1S9Q==",
+				"shasum": "c7f27b87e3ceac08a9b8a6f200054709c2a64271",
+				"tarball": "https://registry.npmjs.org/@commitlint/types/-/types-12.0.0.tgz",
+				"fileCount": 35,
+				"unpackedSize": 27014,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgBOr2CRA9TVsSAnZWagAAvdMP/0uXMtlyHOHvFe4TS84I\nC1ZtmrxxrDKs87RaZlZcno+hr1BhO2quTIejA5aNt5is6i5pl3bDv2FIp5/g\nKyC6Dhh4zwB5Ip41CtbfB4n2TSGRV1RW1v7Pw/AYHSwW/i72tqeQVrq99okC\njhIqb5nJ0krx0yBKrq4R/uhCyRafMcT2339l2bg8tPUDY3Bv5TpQoafq84tJ\ntonWBNtBltw41Ony71izcGnir0kd1bZDg0PwhSSnHamW37mLBlmr+6wvt1XZ\nbdSHp78mRphvb5NEzjYAipYlJIKmsXt9VkgqcNLdRomm3lrlu/CTcKx7H/0D\nG6LunRoSRD71YollCKht5vbzfRpYvOmofOVOIVnVFYzoFUV+wLvSP6TTPfPP\nKnZml7CYxdmXOW/YbwvLYf7u6Pk0PViLlI93eo2cgS7MB4AhQVovcSL7fx5y\nFr8ap1+OUp/rYdb7E6k7Qo79RACPfR5V/JELvn0fl5cYUKVjED2XLOarfV+n\n2OcQVn3a+Z9y3JLAnY/OE9PTkVZnlpXulRv7gNCLP5mIeUgf56sul29UOBDo\nPi/sHX8Fghf2Ugf6twYkeDm/6Z1rc7+CrCm1cKFQobL14rzsU6EMtOchbrco\nuTofqllBMji2T2BwfRCVbsIbQmj7aIiIC+wGriYCt9m3HoYXFcrz7lPzNFTm\nW3xR\r\n=HEFI\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIGhXQx2b3DDNOTDpPhQ2HhcKCY3M4mRzhJu2XwdVihxDAiBIZDKdcXMstuQ/K7PMrnNXbUPVgBtYzIZXSOHN9iCqTA=="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "escapedcat",
+				"email": "npm@htmlcss.de"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "marionebl",
+					"email": "hello@mario-nebl.de"
+				},
+				{
+					"name": "martinhelmut",
+					"email": "info@martin-fieber.se"
+				},
+				{
+					"name": "escapedcat",
+					"email": "npm@htmlcss.de"
+				},
+				{
+					"name": "bycedric",
+					"email": "me@bycedric.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/types_12.0.0_1610935029957_0.2531275403418338"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"12.0.1": {
+			"name": "@commitlint/types",
+			"version": "12.0.1",
+			"description": "Shared types for commitlint packages",
+			"main": "lib/index.js",
+			"types": "lib/index.d.ts",
+			"scripts": {
+				"pkg": "pkg-check"
+			},
+			"engines": {
+				"node": ">=v10"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/conventional-changelog/commitlint.git"
+			},
+			"bugs": {
+				"url": "https://github.com/conventional-changelog/commitlint/issues"
+			},
+			"homepage": "https://github.com/conventional-changelog/commitlint#readme",
+			"author": {
+				"name": "Mario Nebl",
+				"email": "hello@herebecode.com"
+			},
+			"license": "MIT",
+			"dependencies": {
+				"chalk": "^4.0.0"
+			},
+			"devDependencies": {
+				"@commitlint/utils": "^12.0.1"
+			},
+			"gitHead": "610d2911bea066c87700155de3bf5bbecf266a8d",
+			"_id": "@commitlint/types@12.0.1",
+			"_nodeVersion": "14.15.5",
+			"_npmVersion": "lerna/3.22.1/node@v14.15.5+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-FsNDMV0W7D19/ZbR412klpqAilXASx75Neqh7jPtK278IEwdukOg3vth1r5kTm+BjDScM7wMUEOwIW3NNfAtwg==",
+				"shasum": "04a0cbb8aa56b7c004f8939c2d1ef8892ec68327",
+				"tarball": "https://registry.npmjs.org/@commitlint/types/-/types-12.0.1.tgz",
+				"fileCount": 35,
+				"unpackedSize": 27751,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgNGVLCRA9TVsSAnZWagAAqY4P+wdF6aD6GyEugNoWxRCD\nkVeUUGkjlOwHyoUUU+Ju8jwaFk4dbt3VdWKB8ZB5gx+2aCZYoLuxHq5qi+QM\nUjahInHxKZpSRj34A45k7GSEmMWims6di2akSzNFPVlpsVOmHZ4AK/YoWuJo\n2eoAqf0yw9kbcAQh9U6/sRn42a2JiK8eJjMXROvzuBM506U7fT225XFMm2dJ\n9rdPfgnsUenwrKgelZl1gdI/3TKDwYAcuCJaE5Pe66oa15P2ldJURd2va+gL\nDbIKmzLVCB268kQTLK1KZ0GShlaPJvwCwuOJIR4NCEejwrByRRrFh3rlkDQy\nQklo4ZGcerEYfRg5YObw8jstHND+jPiCgN2SiruY7Nr0LoN00lb0k8mYoFk0\npSfM7FEmB206n71aMbQOL67VRWqBlPryOvNtDmxC0X4cCo7Nu0dfYKTC8zAA\njymnTej6B1tmsZwJxu2kJOb/j0gN9qrO5LuPAeu2+1JCetRON3DngxtUWPay\nDZjBfAmEVxydY1gZ/zesk5MGLhPhNIiLgAAHg+HcC80pBkVTkFSjMZXzNRpq\nZUbuaTbp/qJlcFwrZRVWchh1RLohRZsrehHhK9XjpkN4yJoMg8cHw6osrgNH\nqaMmgfTv6a0lgPAV8boIJXRi2be7M+34Y8bGmK5+jvpnzrEMMXOIpUPXJrc+\noRtq\r\n=iGqB\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIBMv+ls/GIaHbJUCYtdNNm3hSaO+bL0dZ4tsv7TQkEi+AiEAg9MGCPAOg8+RU16FqJPRxX4wUqskzibNRn+2uHRQBkE="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "escapedcat",
+				"email": "npm@htmlcss.de"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "marionebl",
+					"email": "hello@mario-nebl.de"
+				},
+				{
+					"name": "martinhelmut",
+					"email": "info@martin-fieber.se"
+				},
+				{
+					"name": "escapedcat",
+					"email": "npm@htmlcss.de"
+				},
+				{
+					"name": "bycedric",
+					"email": "me@bycedric.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/types_12.0.1_1614046538733_0.8597461424675643"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"12.1.1": {
+			"name": "@commitlint/types",
+			"version": "12.1.1",
+			"description": "Shared types for commitlint packages",
+			"main": "lib/index.js",
+			"types": "lib/index.d.ts",
+			"scripts": {
+				"pkg": "pkg-check"
+			},
+			"engines": {
+				"node": ">=v10"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/conventional-changelog/commitlint.git"
+			},
+			"bugs": {
+				"url": "https://github.com/conventional-changelog/commitlint/issues"
+			},
+			"homepage": "https://github.com/conventional-changelog/commitlint#readme",
+			"author": {
+				"name": "Mario Nebl",
+				"email": "hello@herebecode.com"
+			},
+			"license": "MIT",
+			"dependencies": {
+				"chalk": "^4.0.0"
+			},
+			"devDependencies": {
+				"@commitlint/utils": "^12.1.1"
+			},
+			"gitHead": "32daec2277f3db2855996db57264bed36ed5db21",
+			"_id": "@commitlint/types@12.1.1",
+			"_nodeVersion": "14.16.0",
+			"_npmVersion": "lerna/4.0.0/node@v14.16.0+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-+qGH+s2Lo6qwacV2X3/ZypZwaAI84ift+1HBjXdXtI/q0F5NtmXucV3lcQOTviMTNiJhq4qWON2fjci2NItASw==",
+				"shasum": "8e651f6af0171cd4f8d464c6c37a7cf63ee071bd",
+				"tarball": "https://registry.npmjs.org/@commitlint/types/-/types-12.1.1.tgz",
+				"fileCount": 35,
+				"unpackedSize": 27920,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgZoB7CRA9TVsSAnZWagAAonEP/32cAlRJUoGDRnImlC6Q\neH6px+kHvsyGJUwfidpoSe+3GINWzUSA/s7WWcPz9SuzN4qB43XjzYx/nvT0\ndiLL2fFGLTrWW9+yFR4RTiukexwjvB1TNRkfaBB07KaPESpS6Xs5QsdtqbLz\nx+BJRchte3pc+cup7jzQ1DJnfo0IKH1kG14lcvAjyg1i+cYxTP99fhenmm7u\nnLLJpHhAfFNYbs+XTvPZG8nCb98TYGUvKKlYp5kmy8WY8wR51tqzhBaluuNu\nItgdsidbCvK9MmFu6BSGOQ4YRYhj4k7AOGCzVFY9caY88Xg0ntX3/RYhYpHG\nfvXQXmLSjAh1mHm9Q07HMG3bfpzDWf5UILVGy694EXPhho39Ux4UDQgNAyAy\nPr6EQ9UeyjKdYcyxYpoRIz5RE8v/h1ljEA0JcPUdgG1ZNYirPHcZHo94yPIH\nMhLWEphGBM4syDJWTyUfEWOjbeFxy/eDWofsI/fb7hd4Vzrdymmk4a+btSgY\n44EpA1RPPpC43j/6BOoiF/xc1aPt5ZtU2J4u9Ry+hZ9YLqO9zEQGvYF7Ix5o\nlc12P7dBLhCWwNV4NhN7QVu+LtLq6ovV8tZ3imVBvRc7z/wEWvyx8xj/+WX3\nCUyczq8Gbg8Wm57I0T6ET7yEwX4bamNvrzQaE0IfBj3a34AOLx6kff5jzYbn\nugkk\r\n=G6ii\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIAFntAZryawC86hkFCgZ6/LuZdmNTxiLCurwVwDVNz8xAiAhltvcvbCkddBw5vIEV0QzieDcO+rHyA2fmjxwC+AA8g=="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "escapedcat",
+				"email": "npm@htmlcss.de"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "marionebl",
+					"email": "hello@mario-nebl.de"
+				},
+				{
+					"name": "martinhelmut",
+					"email": "info@martin-fieber.se"
+				},
+				{
+					"name": "escapedcat",
+					"email": "npm@htmlcss.de"
+				},
+				{
+					"name": "bycedric",
+					"email": "me@bycedric.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/types_12.1.1_1617330298764_0.13923624682220548"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"12.1.2": {
+			"name": "@commitlint/types",
+			"version": "12.1.2",
+			"description": "Shared types for commitlint packages",
+			"main": "lib/index.js",
+			"types": "lib/index.d.ts",
+			"scripts": {
+				"pkg": "pkg-check"
+			},
+			"engines": {
+				"node": ">=v10"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/conventional-changelog/commitlint.git"
+			},
+			"bugs": {
+				"url": "https://github.com/conventional-changelog/commitlint/issues"
+			},
+			"homepage": "https://github.com/conventional-changelog/commitlint#readme",
+			"author": {
+				"name": "Mario Nebl",
+				"email": "hello@herebecode.com"
+			},
+			"license": "MIT",
+			"dependencies": {
+				"chalk": "^4.0.0"
+			},
+			"devDependencies": {
+				"@commitlint/utils": "^12.1.1"
+			},
+			"gitHead": "9c6c793f63bb9c812a27721f9f13dc68e6c482f8",
+			"_id": "@commitlint/types@12.1.2",
+			"_nodeVersion": "14.16.0",
+			"_npmVersion": "lerna/4.0.0/node@v14.16.0+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-0OIQYVJvaeaWn8/flwvAVVxqSYDKYfi0koPTE/BTtBP95XsL81Ue2AOeF/S9FHg6yFSSB5W+QpfHpHstA7ygbw==",
+				"shasum": "58f88c3d0ee625db8b8a2c5c464d7f1879255123",
+				"tarball": "https://registry.npmjs.org/@commitlint/types/-/types-12.1.2.tgz",
+				"fileCount": 39,
+				"unpackedSize": 31384,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgik6jCRA9TVsSAnZWagAAOagP+wVXg5PSBLq/V+oWlIW/\n5Y39abgcSwId1SPA6C9TWGUXcl5fAePa4xNsGwqWKEE2zoLe+D+CHhgG5Rn+\n2QG2Ba7P6NoD9H+UQ+go2y+J4m07Aa2VOhlcdSSosGgK/4XCXjRrCOAjENYf\nSb/dk03n+4zuS12kzj1xO2XvvRTwum8Ry4MLQm54J5l1m24VHd5+r1KIC0uE\nm95hQYb4nNl3hsvnW9lkwjUPCjPoMlUL73U1JFJvY61i6FoOcCSFN8L/R2uA\nLiGhPEPMRKWoGt+msXH/lbF/gCPCwU1+DhZI0+Uc7x7jxHw7ecV8ISlSeS69\n3OGjZbDwPoQs7eRhJNPUsOrtWVjDshOphgihkN1qrW5YL/E/dF6W5D0xz2LD\nkNa27cCr5j88j5wGYhK+9rTF3IbBTonRh8Hz0XgJXnrkOTxBTq0yLFUJKZZ4\nxXlSbEKy2a2PL8se9D1BqDHPpTWrsgxkpG5Qt0fPPeJ2pClM05PNGRmwQXX1\n+T8MwNK6TApqWToZnfPQCXJZIZEo1CEkX7rdBu5zIYDVedfxLqrPxaV5QqkI\nRdFo0qdgAZ/JDRrt/sw4TgxuBf3U9Djq+7yZUjZO1+RBf+197XwYxVsjZ2E1\n8HXtIgsMm+IweRTO625kbOgByx60L8qu35a9jOPWU6o10RKII+tuwpL8I7TE\nyTlp\r\n=mzT/\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDx9Irfx+lmsSVaQ2lRwys0iTOxl4mz4mqCTij1P5cxWwIgMl/2OV7vt/xjp5u28+dXidlWkJSPFB3n/J0dk2bGf/I="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "escapedcat",
+				"email": "npm@htmlcss.de"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "marionebl",
+					"email": "hello@mario-nebl.de"
+				},
+				{
+					"name": "martinhelmut",
+					"email": "info@martin-fieber.se"
+				},
+				{
+					"name": "escapedcat",
+					"email": "npm@htmlcss.de"
+				},
+				{
+					"name": "bycedric",
+					"email": "me@bycedric.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/types_12.1.2_1619676835336_0.4798349780278466"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"12.1.3": {
+			"name": "@commitlint/types",
+			"version": "12.1.3",
+			"description": "Shared types for commitlint packages",
+			"main": "lib/index.js",
+			"types": "lib/index.d.ts",
+			"scripts": {
+				"pkg": "pkg-check"
+			},
+			"engines": {
+				"node": ">=v10"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/conventional-changelog/commitlint.git"
+			},
+			"bugs": {
+				"url": "https://github.com/conventional-changelog/commitlint/issues"
+			},
+			"homepage": "https://github.com/conventional-changelog/commitlint#readme",
+			"author": {
+				"name": "Mario Nebl",
+				"email": "hello@herebecode.com"
+			},
+			"license": "MIT",
+			"dependencies": {
+				"chalk": "^4.0.0"
+			},
+			"devDependencies": {
+				"@commitlint/utils": "^12.1.3"
+			},
+			"gitHead": "81358f98b397b52250f118835cdcb5acebab2aba",
+			"_id": "@commitlint/types@12.1.3",
+			"_nodeVersion": "14.16.0",
+			"_npmVersion": "lerna/4.0.0/node@v14.16.0+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-CqzlBU8eC38O0uPafyunphiz91zTfpKFYV/E3ER51aF1pxacxt8m2Y1v5KCZniuTVnFsF7/+A72ssxUk2FcWbw==",
+				"shasum": "3925c903f9f95615d755a1bdabeeb9753c8adb5b",
+				"tarball": "https://registry.npmjs.org/@commitlint/types/-/types-12.1.3.tgz",
+				"fileCount": 39,
+				"unpackedSize": 31552,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgm4hnCRA9TVsSAnZWagAATeYQAIDGF2P5MgVX4AP5Hezy\n6Ba7mEFhFfJt8xl8ekLgcbMwmA6ydYMbehDPOf756eVriKFOb7Be9oNA8It5\n1eP5qwneF2sIU0IL7vwSxO1Gs4ev19pY152pu/g131+bEBIGq1JWqBi8OtO/\nBYw0LAyYUlmUl4ljF2KEBXBuCEDCMce/HmZb5ZwpcyuNlYjD6g8CUhZHnPOX\ncCcceVVE833sOgT2HzQxLzJE5KnYX2lF6L9qtZ1UGM6a0+FYF8QAOznSME4g\nsQywVaeZKR/B+iwTKqBZuC3vN3lj+UKv3q6kKJGBf773FJeXFpJnkayMLAXA\nEEAfvbG/yW+fuQFsr/Uxp9f/lUk0aSUs8JmMR2GKqPCnfHBhzH6UO7siWNDk\nQaokqvseAMsVJrNQSVVi3F3NSgjKArWe2HzyBk09fIr5zAtYpeFqS12cFWih\nkgeKbAHfREYP9FdQolvmxcELopoCfQXYYrRVw2M5K137mR56xpREqu9C8A7c\nIxJ+RuXI5JuD0bLXJA2Mywl4ZEVgOspTOBw0HD/JQsYqH+ffBLymrSoKaas2\n3EcpMcSgmvHwStf4JgsEQSC4+586861P5xyxxFRkc/GvqkpLnVoMbdnYIeAN\ngb+GD6LGGkOX156PuUmP5gRK5yl5IH+5FIuDrvaspKRSP8qHOiZvO9ccsn2W\njvdX\r\n=nxA+\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCJDeFv3WDvPyJT31hRyJKW6rFvMTlS/TrUm6iI/zCMigIhAO6vXJHIwPAkkpS2IBUGE3djlBr+LrzQFKShr3Recewl"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "escapedcat",
+				"email": "npm@htmlcss.de"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "marionebl",
+					"email": "hello@mario-nebl.de"
+				},
+				{
+					"name": "martinhelmut",
+					"email": "info@martin-fieber.se"
+				},
+				{
+					"name": "escapedcat",
+					"email": "npm@htmlcss.de"
+				},
+				{
+					"name": "bycedric",
+					"email": "me@bycedric.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/types_12.1.3_1620805734769_0.3923524335639148"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"12.1.4": {
+			"name": "@commitlint/types",
+			"version": "12.1.4",
+			"description": "Shared types for commitlint packages",
+			"main": "lib/index.js",
+			"types": "lib/index.d.ts",
+			"scripts": {
+				"pkg": "pkg-check"
+			},
+			"engines": {
+				"node": ">=v10"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/conventional-changelog/commitlint.git"
+			},
+			"bugs": {
+				"url": "https://github.com/conventional-changelog/commitlint/issues"
+			},
+			"homepage": "https://github.com/conventional-changelog/commitlint#readme",
+			"author": {
+				"name": "Mario Nebl",
+				"email": "hello@herebecode.com"
+			},
+			"license": "MIT",
+			"dependencies": {
+				"chalk": "^4.0.0"
+			},
+			"devDependencies": {
+				"@commitlint/utils": "^12.1.4"
+			},
+			"gitHead": "dd15ea6a27f29f232b183acafdb672e9b3586912",
+			"_id": "@commitlint/types@12.1.4",
+			"_nodeVersion": "14.16.0",
+			"_npmVersion": "lerna/4.0.0/node@v14.16.0+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-KRIjdnWNUx6ywz+SJvjmNCbQKcKP6KArhjZhY2l+CWKxak0d77SOjggkMwFTiSgLODOwmuLTbarR2ZfWPiPMlw==",
+				"shasum": "9618a5dc8991fb58e6de6ed89d7bf712fa74ba7e",
+				"tarball": "https://registry.npmjs.org/@commitlint/types/-/types-12.1.4.tgz",
+				"fileCount": 39,
+				"unpackedSize": 31552,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgnKowCRA9TVsSAnZWagAADUYQAKBrsifM7DL7xzNKNvHL\nxfaE8ceFROrWvdgccDnf1R/NZZl9UtH7QPT3Ka8dBXST4FnvlZtF6cQqEAtq\nO4tV1XBEA8IuPEA0UAss62hVGZw4yWZPVP3ZTdmv47B9shG1cETqt9aPYG2Y\nfoOnErjYrEPFOgKAX2sWPG73n3VNw6eI0YBlayeVgh3dfp4mFsVIGjH0eenV\nMDpOcRT4zAcG3adHxpPm/0kEM8vns6ouW+P9UnxVYON+AUvAfJQqpO4Qjz7D\n2BaPSUZGmqZYdG5US8AmHJtqUOpkagHa9MVdY6JlLXIbXvTrTWnPxVxd9SdF\nrarfh5OVt4XMrUdMa6/iVzjhafrw3qFeNQzFB+kVPFIP40ivkCw261L2Y41C\n6O2aYZMQRYGwTWMg+I/HfChJKjDXokYq7z3So0bL/UHYrHnhMZaW2lWQoc2j\n8plROLOUO0wFhyJvXkiBrWFY/hv779vED66oEliG8WmVR10XuJJNXXPgK81w\naGmhl0Tn4/TalU30//r+0f0hNvcIWMiSliC097iUrHYyDrlVV4hCtUNG/u6F\niGmn3SHIiE+BfiuNfjDOKOL2eVRFwXNi+ZqJBCPwe7Sr13TE4SwDMbwhRM5k\nhkjlkl7sTAixbgnVV8wc1/IzdlO3LvLIUMpUo33wV9DlSW3SNqVSfSrKyqWN\nvJsA\r\n=1Dwj\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIFpT92FIKL0niiYpz+64t+S3cDhPaJFiM3YbbVlzZkAcAiASa5WERJh5G21aJPa5XNnRdj0DP/RfT7McudGrKDM58w=="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "escapedcat",
+				"email": "npm@htmlcss.de"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "marionebl",
+					"email": "hello@mario-nebl.de"
+				},
+				{
+					"name": "martinhelmut",
+					"email": "info@martin-fieber.se"
+				},
+				{
+					"name": "escapedcat",
+					"email": "npm@htmlcss.de"
+				},
+				{
+					"name": "bycedric",
+					"email": "me@bycedric.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/types_12.1.4_1620879920166_0.12419187207176119"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"13.0.0": {
+			"name": "@commitlint/types",
+			"version": "13.0.0",
+			"description": "Shared types for commitlint packages",
+			"main": "lib/index.js",
+			"types": "lib/index.d.ts",
+			"scripts": {
+				"pkg": "pkg-check"
+			},
+			"engines": {
+				"node": ">=v12"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/conventional-changelog/commitlint.git"
+			},
+			"bugs": {
+				"url": "https://github.com/conventional-changelog/commitlint/issues"
+			},
+			"homepage": "https://github.com/conventional-changelog/commitlint#readme",
+			"author": {
+				"name": "Mario Nebl",
+				"email": "hello@herebecode.com"
+			},
+			"license": "MIT",
+			"dependencies": {
+				"chalk": "^4.0.0"
+			},
+			"devDependencies": {
+				"@commitlint/utils": "^13.0.0"
+			},
+			"gitHead": "ca0ddf736a495fe6868cb9b4c43ae65476a5a6bf",
+			"_id": "@commitlint/types@13.0.0",
+			"_nodeVersion": "12.18.3",
+			"_npmVersion": "lerna/4.0.0/node@v12.18.3+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-iH2La7IpX/oyFjdydQkI1YY1U4mnKA3l1Sx6mdwQXUgMqc39vrKBVu2j2POpV449vsXRbhSp8MhdNtoP26Lgng==",
+				"shasum": "469f7808767e752431d8fd55f74fa8aa9444911f",
+				"tarball": "https://registry.npmjs.org/@commitlint/types/-/types-13.0.0.tgz",
+				"fileCount": 39,
+				"unpackedSize": 32296,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgq1jpCRA9TVsSAnZWagAA1tYP/R6PEXkC58NiqzAVJyiB\nAI+FbqHikZBJVQzRm3S+bcfXuWlUnjGZZQjODycCQH5ScTv/XDVZNNuCCVyF\neQNVSUHeWYvRQM8xw3y4Dp7dMd3chKVZpCPNC8WU7n+Z0h1ZTDT6d1gI2It5\n8ViYYNEWlzp71O+q19elcT6sN90tSI+X91iN2TfeLYHPf3uK+VBr7EpGY/82\nzWBB5FxLSHUKDLRGvsWYoYEKINIoy3MfP0KWaw64fQxAO5kb+6WnyYyamvdj\nOYlye1Myce+1YdNUdj/05iTPurx1zzpMz19bSdYkgJxPHZ0+p5X7t1w+X7wt\ny1qtq+o6zuXBHY8YAfV07ri85r26pexli4WF2Cbd0boNqACWFhJCj+VTWBZv\nKcKGJ9HprgxKeNtHFairwHD0lcX7cFB9qgAfXZaY/cj3Ib6Bh+LJrStrECgX\nj7EHn8PTxIEi536X9M6Q81BSiGs+pQGp+Nj3jSBPUvlzuh94wOiEBF9mRt+u\nxhMiYHag4nyCMlgYII7CavhCKVJIpeatZorsHyZJWWkVjmD9Q1+xeAi7yS6Y\nAIZHy4dKPLKIhGSjBd30ySIdjp1LFt1/BhuLxuoSgTCDEqRPYfQSHLaR9uZY\nhAkZumKkkXboeushsdzr1bhvpMtcZsSV3F2ivxqSO2Fo7MYOCtKrkdihGoZh\ndw7F\r\n=+E5z\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDOE1RVFu9gWqzAEjBDa/Wa9QDZoeSDU3m6gJU/Ahp1uwIgSKhjCRIkyDz+5ZwZfjEl3c0Z8HEX/uBHt4S285SFFQc="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "escapedcat",
+				"email": "npm@htmlcss.de"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "marionebl",
+					"email": "hello@mario-nebl.de"
+				},
+				{
+					"name": "martinhelmut",
+					"email": "info@martin-fieber.se"
+				},
+				{
+					"name": "escapedcat",
+					"email": "npm@htmlcss.de"
+				},
+				{
+					"name": "bycedric",
+					"email": "me@bycedric.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/types_13.0.0_1621842152693_0.04450994427935506"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"13.1.0": {
+			"name": "@commitlint/types",
+			"version": "13.1.0",
+			"description": "Shared types for commitlint packages",
+			"main": "lib/index.js",
+			"types": "lib/index.d.ts",
+			"scripts": {
+				"pkg": "pkg-check"
+			},
+			"engines": {
+				"node": ">=v12"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/conventional-changelog/commitlint.git"
+			},
+			"bugs": {
+				"url": "https://github.com/conventional-changelog/commitlint/issues"
+			},
+			"homepage": "https://github.com/conventional-changelog/commitlint#readme",
+			"author": {
+				"name": "Mario Nebl",
+				"email": "hello@herebecode.com"
+			},
+			"license": "MIT",
+			"dependencies": {
+				"chalk": "^4.0.0"
+			},
+			"devDependencies": {
+				"@commitlint/utils": "^13.0.0"
+			},
+			"gitHead": "dfbb8c5e9481a5075458acad2e4666fd6b98f9a7",
+			"_id": "@commitlint/types@13.1.0",
+			"_nodeVersion": "14.15.0",
+			"_npmVersion": "lerna/4.0.0/node@v14.15.0+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-zcVjuT+OfKt8h91vhBxt05RMcTGEx6DM7Q9QZeuMbXFk6xgbsSEDMMapbJPA1bCZ81fa/1OQBijSYPrKvtt06g==",
+				"shasum": "12cfb6e932372b1816af8900e2d10694add28191",
+				"tarball": "https://registry.npmjs.org/@commitlint/types/-/types-13.1.0.tgz",
+				"fileCount": 39,
+				"unpackedSize": 32626,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJg+7lKCRA9TVsSAnZWagAA58QQAI0bAYMj7EccoSu2tjA/\n7F/qmQ7y43+jp+8VK0kjHsyHQojmk83ROClGxGM+TDZncNSZMxy0TRkVWSll\nMeKPSThmel4/L8HiN4a3dXAzhX6TBuazFTEA39sGuQydphbIZCTRQqJS+H43\nNCOSaMDmIf/BBw8lUvTMnZLlg6oW9bP/c4JzI8IDNtlMwk79Sf2ZUYamiOO4\n++MV23aETsi6hywTxxKCb7iSKbevRfne+uhmsjnT3I0z81F9X8Iqi/5Fb5DW\n+5uJHcbtSbA+J2njUHl84WiOZeupxIWXBRRXD1o6VrvwxMW9ibW+YrRdoAeo\nLArKCqUj/QdvUjl4rTW8aZXFqEgdLB7Z8Cbs7yKCuJsPRS0ZV9nYjsZC16qp\nv49VpIUhMUr4nl8PnW7n7FiwD62vmZKnhQgqk9mt51fT07G0naFWNfCLgxcX\nEpfF7Ltdxcl+RG+NGNi+dHFEtwxc/IONDSKDpOxoVbfpifIreZxAuKAyeIh0\np0g07JsSGu6W9vQM3hHSY57q9cEGYrooitwnlzFmibmGuUS0znRI42dFu6S/\nWHdAeegS4b5mb4vck0mZPBhj8Z6Qpcb+j9ht9JryUBlxjPuMtKlF7f1ey9eF\naBUaSao3O06lXwdQkaqEAHxOBcAosg3K0MjmNVVx9bAouQguqlXIFu/ObXIa\nkPZ5\r\n=702T\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIAwUeN9ZuEEJVIkrOI0KQV69doJ7Ymv8bemdTrTyXZEPAiEA9eERcB3aXeqxbLhPtgppKEQTdcyHsXOcv6RR00umAl8="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "escapedcat",
+				"email": "npm@htmlcss.de"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "marionebl",
+					"email": "hello@mario-nebl.de"
+				},
+				{
+					"name": "martinhelmut",
+					"email": "info@martin-fieber.se"
+				},
+				{
+					"name": "escapedcat",
+					"email": "npm@htmlcss.de"
+				},
+				{
+					"name": "bycedric",
+					"email": "me@bycedric.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/types_13.1.0_1627109706209_0.8719293665766341"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"13.2.0": {
+			"name": "@commitlint/types",
+			"version": "13.2.0",
+			"description": "Shared types for commitlint packages",
+			"main": "lib/index.js",
+			"types": "lib/index.d.ts",
+			"scripts": {
+				"pkg": "pkg-check"
+			},
+			"engines": {
+				"node": ">=v12"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/conventional-changelog/commitlint.git"
+			},
+			"bugs": {
+				"url": "https://github.com/conventional-changelog/commitlint/issues"
+			},
+			"homepage": "https://github.com/conventional-changelog/commitlint#readme",
+			"author": {
+				"name": "Mario Nebl",
+				"email": "hello@herebecode.com"
+			},
+			"license": "MIT",
+			"dependencies": {
+				"chalk": "^4.0.0"
+			},
+			"devDependencies": {
+				"@commitlint/utils": "^13.2.0"
+			},
+			"gitHead": "65e45339c79e46d01e35ec067edf14d225a3528a",
+			"_id": "@commitlint/types@13.2.0",
+			"_nodeVersion": "12.22.6",
+			"_npmVersion": "lerna/4.0.0/node@v12.22.6+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-RRVHEqmk1qn/dIaSQhvuca6k/6Z54G+r/KyimZ8gnAFielGiGUpsFRhIY3qhd5rXClVxDaa3nlcyTWckSccotQ==",
+				"shasum": "ed8128f9e41383f8f0ee1b0370c724826821e581",
+				"tarball": "https://registry.npmjs.org/@commitlint/types/-/types-13.2.0.tgz",
+				"fileCount": 39,
+				"unpackedSize": 33191,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIHTO9g0gX56SsUqWZSU78b4AIKyGAmFW9P1hq/e11ptqAiAqqDTGH/mbyY1mPrmIAWRMs0ghr6oIlaNPaoxi9E5Scg=="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "escapedcat",
+				"email": "npm@htmlcss.de"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "marionebl",
+					"email": "hello@mario-nebl.de"
+				},
+				{
+					"name": "martinhelmut",
+					"email": "info@martin-fieber.se"
+				},
+				{
+					"name": "escapedcat",
+					"email": "npm@htmlcss.de"
+				},
+				{
+					"name": "bycedric",
+					"email": "me@bycedric.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/types_13.2.0_1632795141893_0.8392942327539312"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"14.0.0": {
+			"name": "@commitlint/types",
+			"version": "14.0.0",
+			"description": "Shared types for commitlint packages",
+			"main": "lib/index.js",
+			"types": "lib/index.d.ts",
+			"scripts": {
+				"pkg": "pkg-check"
+			},
+			"engines": {
+				"node": ">=v12"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/conventional-changelog/commitlint.git",
+				"directory": "@commitlint/types"
+			},
+			"bugs": {
+				"url": "https://github.com/conventional-changelog/commitlint/issues"
+			},
+			"homepage": "https://commitlint.js.org/",
+			"author": {
+				"name": "Mario Nebl",
+				"email": "hello@herebecode.com"
+			},
+			"license": "MIT",
+			"dependencies": {
+				"chalk": "^4.0.0"
+			},
+			"devDependencies": {
+				"@commitlint/utils": "^14.0.0"
+			},
+			"gitHead": "0bb3487f8ca0cd8e67977c089f65037ea2c7788b",
+			"_id": "@commitlint/types@14.0.0",
+			"_nodeVersion": "12.22.7",
+			"_npmVersion": "lerna/4.0.0/node@v12.22.7+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-sIls1nP2uSbGL466edYlh8mn7O/WP4i3bcvP+2DMhkscRCSgaPhNRWDilhYVsHt2Vu1HTQ27uT0Bj5/Lt2+EcQ==",
+				"shasum": "17bf4d1ab1178c67990ce01b36017d6e6792b751",
+				"tarball": "https://registry.npmjs.org/@commitlint/types/-/types-14.0.0.tgz",
+				"fileCount": 39,
+				"unpackedSize": 33860,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDQzf6DXey3y7bGXtLTFH06cfIT5Va9Yx1JU1e7cnu4AwIhAMXrQdpZIdR3UkhmND3n9lsHOTQkWN1h6JMVloji82ab"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "escapedcat",
+				"email": "npm@htmlcss.de"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "marionebl",
+					"email": "hello@mario-nebl.de"
+				},
+				{
+					"name": "martinhelmut",
+					"email": "info@martin-fieber.se"
+				},
+				{
+					"name": "escapedcat",
+					"email": "npm@htmlcss.de"
+				},
+				{
+					"name": "bycedric",
+					"email": "me@bycedric.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/types_14.0.0_1635224157706_0.739236995745848"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"15.0.0": {
+			"name": "@commitlint/types",
+			"version": "15.0.0",
+			"description": "Shared types for commitlint packages",
+			"main": "lib/index.js",
+			"types": "lib/index.d.ts",
+			"scripts": {
+				"pkg": "pkg-check"
+			},
+			"engines": {
+				"node": ">=v12"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/conventional-changelog/commitlint.git",
+				"directory": "@commitlint/types"
+			},
+			"bugs": {
+				"url": "https://github.com/conventional-changelog/commitlint/issues"
+			},
+			"homepage": "https://commitlint.js.org/",
+			"author": {
+				"name": "Mario Nebl",
+				"email": "hello@herebecode.com"
+			},
+			"license": "MIT",
+			"dependencies": {
+				"chalk": "^4.0.0"
+			},
+			"devDependencies": {
+				"@commitlint/utils": "^15.0.0"
+			},
+			"gitHead": "399a0289356c670a87524387cc96d8fb0a33fdca",
+			"_id": "@commitlint/types@15.0.0",
+			"_nodeVersion": "12.22.7",
+			"_npmVersion": "lerna/4.0.0/node@v12.22.7+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-OMSLX+QJnyNoTwws54ULv9sOvuw9GdVezln76oyUd4YbMMJyaav62aSXDuCdWyL2sm9hTkSzyEi52PNaIj/vqw==",
+				"shasum": "46fa7bda3e6340caf3e3a2e415bcb78ff0195eed",
+				"tarball": "https://registry.npmjs.org/@commitlint/types/-/types-15.0.0.tgz",
+				"fileCount": 39,
+				"unpackedSize": 34740,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJhlKaRCRA9TVsSAnZWagAAZ0oP/jj4Eb5tshf/vtXnKdBu\nj27PVLmP9DKgJ1zKqAASjB+RWoLjN5nlGAV8GrRwrjJMe05buw1HoHLmuKB2\nnJrW/9JlNZ5WBURal7IjNRhspkkzM3mrO1lkXtW4l/9E5EfIfMEC+vqPA+wJ\n6euncZgq6DgH2u4Ik369ybO9Ub/O9FtAYDY+Obv5cfSpdz1gnkywZ1bQXU79\nhXheXSCLd0i7cf8/JjwPcAhe4crcuCeqvnrSfMRzbeZmtJNMKgR4R4vsgpiS\nb6j4wKBynFvNuAIsOdj4nem1YPtLi/JYlmWy/THwmf7Yg51miSFiJsZr2YkS\nOaHzWNndwoNpSMfbkuv3s13cf1ZRkbIiAPKqI8Xe9QygliQ2mR23G7aALVtz\nCb09PQV1ySsIxS1ZNw9DmS85uFIWydF/MB6x5pOW5Jw0e7GaD51Wy2f9fmBA\nrgnFnka31WrvaKNeb438QNq54n2UHKrEVU5Fb501pOJs8DfzXoEaUCw94SdX\nR8VcEBBTi/6ZVmPKrodkiF0jmZ+F0Xr/3iyLpXnubvoZNx9DB3vNh3YRYfnJ\nOBYBUVTB8KYB4PdR274mOukNQwbNIaHmpgKZr9RXuVW3mQA1w23k6TVigFG/\nSGa1TH7qcsfM/zOW+HfTMzJ3ttvTjomHE8CZVoneuDGIaNwwnseLwISpssUU\nMaQK\r\n=HjEv\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIE061ZP8O4suexykyCxysWbwDXvptCChCSq5s7EKz/rpAiEAys70jJK6wCyIzPHDJYafmC5fsIZwItIU4WIlzXmDZtg="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "escapedcat",
+				"email": "npm@htmlcss.de"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "marionebl",
+					"email": "hello@mario-nebl.de"
+				},
+				{
+					"name": "martinhelmut",
+					"email": "info@martin-fieber.se"
+				},
+				{
+					"name": "escapedcat",
+					"email": "npm@htmlcss.de"
+				},
+				{
+					"name": "bycedric",
+					"email": "me@bycedric.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/types_15.0.0_1637131921223_0.17118570031364322"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"16.0.0": {
+			"name": "@commitlint/types",
+			"version": "16.0.0",
+			"description": "Shared types for commitlint packages",
+			"main": "lib/index.js",
+			"types": "lib/index.d.ts",
+			"scripts": {
+				"pkg": "pkg-check"
+			},
+			"engines": {
+				"node": ">=v12"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/conventional-changelog/commitlint.git",
+				"directory": "@commitlint/types"
+			},
+			"bugs": {
+				"url": "https://github.com/conventional-changelog/commitlint/issues"
+			},
+			"homepage": "https://commitlint.js.org/",
+			"author": {
+				"name": "Mario Nebl",
+				"email": "hello@herebecode.com"
+			},
+			"license": "MIT",
+			"dependencies": {
+				"chalk": "^4.0.0"
+			},
+			"devDependencies": {
+				"@commitlint/utils": "^16.0.0"
+			},
+			"gitHead": "a6bacf60d7dccf969677cdef48fd22f8a92b5f08",
+			"_id": "@commitlint/types@16.0.0",
+			"_nodeVersion": "14.15.0",
+			"_npmVersion": "lerna/4.0.0/node@v14.15.0+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-+0FvYOAS39bJ4aKjnYn/7FD4DfWkmQ6G/06I4F0Gvu4KS5twirEg8mIcLhmeRDOOKn4Tp8PwpLwBiSA6npEMQA==",
+				"shasum": "3c133f106d36132756c464071a7f2290966727a3",
+				"tarball": "https://registry.npmjs.org/@commitlint/types/-/types-16.0.0.tgz",
+				"fileCount": 39,
+				"unpackedSize": 35142,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJhyBjpCRA9TVsSAnZWagAAjHcP/RRF1rOFQlALIo3tsfPg\nOjxLEHarhwl6Dc9f2dzaXfH/rUPDmk3lBgnUNbmyoxrrujwvwj8oVhM0ZZ9C\n4LPuN2yr6wrBElG/b1nXNjjLhRdelQts9/WIRB2XB+fPXXAEYgGGPaC2Rk1k\netRYyV3nes4l+h5CQOPume+wO+dB6pw8oJwYaE1sg/B6pNCq8x1Efk6SBQaq\np5PB2GHhkV2q9sswRC9X+lv22bWTOL+8oDcFVGolu0bF+diYEz2lP3GPo8f9\nlGg1uIHnTOQIMy2/wW/GB5pMcQGFgKu+FYWltxvAl029v1c3h41AmFLa0Hpy\nQaVXgyG920DIQIxaVkA+Q5OClxJ4kj+lUsSezMq9L9hW0DaKo85UNpu89iLf\nAci6VRwypALC7tj2ITFEAe7rm67jho5u0bVG6KqRX64H6j0eVpeipMuAPPVi\nMnTODBgHE17MHPN1peQhqqyDzneoYukCNF8Q5iXjdRfosldBUzyxFGAmcG+G\nWXOx5PK3btp+BAgTRPlKSWjegDO4xhfpTtH8OJbTQf9C4ihr0S9dbtfGGOHo\n/zai8q7OXbyUPs+vOFU9QxuVWhHd6+DsSbehvINpo1KoHTH1oQIGSpt/ePnB\n8ZiPu9nfqGInyL1HidCr0HUOcjaY7WX8wcNcyDvmLIwnbhnk9OdH1/JfUytN\nvlJE\r\n=0XdV\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQCYP9me+4dTfx5ljlcFHNjS9PgkfkttCeXRTqvGLzkiGQIgAKijNU7hcsaICd8Hjfc1YIAjc7S92YUAgt6g02vfVGc="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "escapedcat",
+				"email": "npm@htmlcss.de"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "marionebl",
+					"email": "hello@mario-nebl.de"
+				},
+				{
+					"name": "martinhelmut",
+					"email": "info@martin-fieber.se"
+				},
+				{
+					"name": "escapedcat",
+					"email": "npm@htmlcss.de"
+				},
+				{
+					"name": "bycedric",
+					"email": "me@bycedric.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/types_16.0.0_1640503529394_0.13672335492610221"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"16.2.1": {
+			"name": "@commitlint/types",
+			"version": "16.2.1",
+			"description": "Shared types for commitlint packages",
+			"main": "lib/index.js",
+			"types": "lib/index.d.ts",
+			"scripts": {
+				"pkg": "pkg-check"
+			},
+			"engines": {
+				"node": ">=v12"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/conventional-changelog/commitlint.git",
+				"directory": "@commitlint/types"
+			},
+			"bugs": {
+				"url": "https://github.com/conventional-changelog/commitlint/issues"
+			},
+			"homepage": "https://commitlint.js.org/",
+			"author": {
+				"name": "Mario Nebl",
+				"email": "hello@herebecode.com"
+			},
+			"license": "MIT",
+			"dependencies": {
+				"chalk": "^4.0.0"
+			},
+			"devDependencies": {
+				"@commitlint/utils": "^16.2.1"
+			},
+			"gitHead": "071cce297f207ebcaf9cfa00e23542b7e0a550e8",
+			"_id": "@commitlint/types@16.2.1",
+			"_nodeVersion": "14.17.6",
+			"_npmVersion": "lerna/4.0.0/node@v14.17.6+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-7/z7pA7BM0i8XvMSBynO7xsB3mVQPUZbVn6zMIlp/a091XJ3qAXRXc+HwLYhiIdzzS5fuxxNIHZMGHVD4HJxdA==",
+				"shasum": "f25d373b88b01e51fc3fa44488101361945a61bd",
+				"tarball": "https://registry.npmjs.org/@commitlint/types/-/types-16.2.1.tgz",
+				"fileCount": 39,
+				"unpackedSize": 35311,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJiCKkpCRA9TVsSAnZWagAAN+YQAJDajtWfBk7Xtv5SjR+n\nWEA9zcsdXxYoxYMTVSjdbNSIZCMoT5ZvC4xO/nxIcLmxDTS2WX6IwawXZj2O\nie16IrLGC6y3Z76RVyfiM7Jjxkt1YIrJf9BDWd+SSL2pqDR/JH/WQ0qKRE26\nmCkAq93XwdKkunuXZUzKjVIquF413e1SUHWF51B7IslsDYM4JbqxmVoBB7mW\nfYBfmmFB3MIViM2hjeZG6sR+krIphG5lCc0l+QWFjyO3XxvRuMWKGxvtEGoP\nDF2m2Xhd0x9gPsBuwQ3i6ysFaMRFaMtvCpU5Ot2HgAgCngT7qdxUnHv2eU2q\ndxQk+ladWDCnV8DMbn3wXKjyYDjjLu5KlFkPtUON7F5B0nLrabZg161qUxPv\nAJ6MadQQpG72U50n5H74vNqX2mTnmABH9aUHjt+xQKZwJ7UiZnq6l5FtTQHl\naWSq4ZEep4tAa8i97ZokSJz3VgUyAn3/8X1FuhccXud99fsCw2P6J2Y7V3Hj\nnef59PhMO8UEmf1nZmYJt60ULf7dGxhk8m7TVR/XYbiEd7VHinTlbzCUQf+A\n9eW37XP+j0ownlyyz0R+ECmxGBC5YQyGtie2SPw1phPQe+obHjTwwFgA5iju\nh7IPENsiqZazZa1Rb4jLFhdGZYWcVwnTD7aEls5SB/a/rXgIdGhh/pj/j+iU\nNNJu\r\n=bDsS\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDJUKgeesbReLlYjZIcdy0xgSaqTSrFU9oVxQhGVTX7hwIgWfBzQBxXtc9Aktn9WNIwucw0bCEDL7WKxJduk3IIybI="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "escapedcat",
+				"email": "npm@htmlcss.de"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "marionebl",
+					"email": "hello@mario-nebl.de"
+				},
+				{
+					"name": "martinhelmut",
+					"email": "info@martin-fieber.se"
+				},
+				{
+					"name": "escapedcat",
+					"email": "npm@htmlcss.de"
+				},
+				{
+					"name": "bycedric",
+					"email": "me@bycedric.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/types_16.2.1_1644734761705_0.5822830745977514"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"17.0.0": {
+			"name": "@commitlint/types",
+			"version": "17.0.0",
+			"description": "Shared types for commitlint packages",
+			"main": "lib/index.js",
+			"types": "lib/index.d.ts",
+			"scripts": {
+				"pkg": "pkg-check"
+			},
+			"engines": {
+				"node": ">=v14"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/conventional-changelog/commitlint.git",
+				"directory": "@commitlint/types"
+			},
+			"bugs": {
+				"url": "https://github.com/conventional-changelog/commitlint/issues"
+			},
+			"homepage": "https://commitlint.js.org/",
+			"author": {
+				"name": "Mario Nebl",
+				"email": "hello@herebecode.com"
+			},
+			"license": "MIT",
+			"dependencies": {
+				"chalk": "^4.1.0"
+			},
+			"devDependencies": {
+				"@commitlint/utils": "^17.0.0"
+			},
+			"gitHead": "ed437d29464ab1b239deecb84ce4d1f2a5e471c6",
+			"_id": "@commitlint/types@17.0.0",
+			"_nodeVersion": "14.17.6",
+			"_npmVersion": "lerna/4.0.0/node@v14.17.6+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-hBAw6U+SkAT5h47zDMeOu3HSiD0SODw4Aq7rRNh1ceUmL7GyLKYhPbUvlRWqZ65XjBLPHZhFyQlRaPNz8qvUyQ==",
+				"shasum": "3b4604c1a0f06c340ce976e6c6903d4f56e3e690",
+				"tarball": "https://registry.npmjs.org/@commitlint/types/-/types-17.0.0.tgz",
+				"fileCount": 39,
+				"unpackedSize": 35977,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCANqS3sb3U9JzlFVQ9GaL59aC2IRHlGUJUElaYraClzgIhAMZDFmQe721WctVxyLJlELql02yBb916ibi97yfzvl8A"
+					}
+				],
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJigihNACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2VmrzOxAAkloc8cx0vK0nNPsoygHNBRsUWXdMbnSLq/52I4GOI0kuZFml\r\n7b/BxbQUHjnLbFeJLTuMcUqgkB6wrZzaaWZYAQHPdWgeD7BsxPwKArOIBNBl\r\njX2s2A29BWRzGiL6YbKjt3rI7PnnVPWv+QqqtnCwBlw/mxotaYKk903+nHPA\r\nPpMAr5priM2UXc20a2bgjqy9fuDz/x4xexF+8zXB0IitIYF9vOYqDCWtfscy\r\nASCbz+NnK76jfTKqzL30p0eK+vdl2DSiElcmjH+ATmAITGETf63Cajl3WzTT\r\ntwDcHn8AE3zFEP7p3NTkAGxOo7k1k7yaep4De0v3pZlAD/J9tEXJb+sJxe7G\r\n9TcKSuHL1/wGJBle1xYc4rbAPDYloSSL9V6NiKYot0Q96miidYdWiKZZooDY\r\nDudEA6MZRloPdJVkSPES+UfKwot71DYhSuiKdmRriH7VxJExgNbAiHzeFIQT\r\nQiykoRv+F3wX9uD4GmaOz0/Gtw73AupmzXWmDLwFafYOX21AbIfHfCjvErUb\r\nGDrHFJTsTVTg2jIubfrl+dRDLSgRxHHTuA4nmjSzfZygmgcXKZl8756L8RDE\r\n12vY+iGIrvMlgaT24ZAFfoaA0wnzlf2yJNzghP7eCWP8t5dCgkKz6sEOIBUx\r\nCGekWoDOOU6RKkVYk3M48V6XQc+A294mqv8=\r\n=a0L6\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "escapedcat",
+				"email": "npm@htmlcss.de"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "marionebl",
+					"email": "hello@mario-nebl.de"
+				},
+				{
+					"name": "martinhelmut",
+					"email": "info@martin-fieber.se"
+				},
+				{
+					"name": "escapedcat",
+					"email": "npm@htmlcss.de"
+				},
+				{
+					"name": "bycedric",
+					"email": "me@bycedric.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/types_17.0.0_1652697165372_0.7644896511339501"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		}
+	},
+	"time": {
+		"created": "2020-05-21T10:16:13.762Z",
+		"9.0.0": "2020-05-21T10:16:14.162Z",
+		"modified": "2022-05-16T10:32:45.648Z",
+		"9.0.1": "2020-05-26T04:23:16.754Z",
+		"9.1.0": "2020-06-21T07:36:40.309Z",
+		"9.1.1": "2020-06-30T07:21:21.823Z",
+		"9.1.2": "2020-07-13T03:45:47.601Z",
+		"10.0.0": "2020-08-16T06:36:10.726Z",
+		"11.0.0": "2020-09-05T06:39:03.345Z",
+		"12.0.0": "2021-01-18T01:57:10.110Z",
+		"12.0.1": "2021-02-23T02:15:39.134Z",
+		"12.1.1": "2021-04-02T02:24:58.883Z",
+		"12.1.2": "2021-04-29T06:13:55.478Z",
+		"12.1.3": "2021-05-12T07:48:54.968Z",
+		"12.1.4": "2021-05-13T04:25:20.349Z",
+		"13.0.0": "2021-05-24T07:42:32.818Z",
+		"13.1.0": "2021-07-24T06:55:06.349Z",
+		"13.2.0": "2021-09-28T02:12:22.097Z",
+		"14.0.0": "2021-10-26T04:55:57.888Z",
+		"15.0.0": "2021-11-17T06:52:01.391Z",
+		"16.0.0": "2021-12-26T07:25:29.579Z",
+		"16.2.1": "2022-02-13T06:46:01.817Z",
+		"17.0.0": "2022-05-16T10:32:45.544Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "17.0.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"18f7b425faeb2f8647c9aff29c0c311c\"",
+			"fetched": 1660840794136
+		}
+	},
+	"_distfiles": {
+		"types-9.0.0.tgz": {
+			"url": "https://registry.npmjs.org/@commitlint/types/-/types-9.0.0.tgz",
+			"sha": "a5707ab4fa76ef17ac3d6d12cc92dcdbaf888ab9",
+			"registry": "npmjs"
+		},
+		"types-9.0.1.tgz": {
+			"url": "https://registry.npmjs.org/@commitlint/types/-/types-9.0.1.tgz",
+			"sha": "df281f0f3d8f3adb10c95e4dd72b16acf41b5400",
+			"registry": "npmjs"
+		},
+		"types-9.1.0.tgz": {
+			"url": "https://registry.npmjs.org/@commitlint/types/-/types-9.1.0.tgz",
+			"sha": "1229030b9ffb23a3b592838e8467662292ae2fc5",
+			"registry": "npmjs"
+		},
+		"types-9.1.1.tgz": {
+			"url": "https://registry.npmjs.org/@commitlint/types/-/types-9.1.1.tgz",
+			"sha": "d97ebc35d20eed6d8458361cbca5c7cb85d45184",
+			"registry": "npmjs"
+		},
+		"types-9.1.2.tgz": {
+			"url": "https://registry.npmjs.org/@commitlint/types/-/types-9.1.2.tgz",
+			"sha": "d05f66db03e3a3638a654e8badf2deb489eb220d",
+			"registry": "npmjs"
+		},
+		"types-10.0.0.tgz": {
+			"url": "https://registry.npmjs.org/@commitlint/types/-/types-10.0.0.tgz",
+			"sha": "4c05f59562e66209a6f063ea60b931063bc17c09",
+			"registry": "npmjs"
+		},
+		"types-11.0.0.tgz": {
+			"url": "https://registry.npmjs.org/@commitlint/types/-/types-11.0.0.tgz",
+			"sha": "719cf05fcc1abb6533610a2e0f5dd1e61eac14fe",
+			"registry": "npmjs"
+		},
+		"types-12.0.0.tgz": {
+			"url": "https://registry.npmjs.org/@commitlint/types/-/types-12.0.0.tgz",
+			"sha": "c7f27b87e3ceac08a9b8a6f200054709c2a64271",
+			"registry": "npmjs"
+		},
+		"types-12.0.1.tgz": {
+			"url": "https://registry.npmjs.org/@commitlint/types/-/types-12.0.1.tgz",
+			"sha": "04a0cbb8aa56b7c004f8939c2d1ef8892ec68327",
+			"registry": "npmjs"
+		},
+		"types-12.1.1.tgz": {
+			"url": "https://registry.npmjs.org/@commitlint/types/-/types-12.1.1.tgz",
+			"sha": "8e651f6af0171cd4f8d464c6c37a7cf63ee071bd",
+			"registry": "npmjs"
+		},
+		"types-12.1.2.tgz": {
+			"url": "https://registry.npmjs.org/@commitlint/types/-/types-12.1.2.tgz",
+			"sha": "58f88c3d0ee625db8b8a2c5c464d7f1879255123",
+			"registry": "npmjs"
+		},
+		"types-12.1.3.tgz": {
+			"url": "https://registry.npmjs.org/@commitlint/types/-/types-12.1.3.tgz",
+			"sha": "3925c903f9f95615d755a1bdabeeb9753c8adb5b",
+			"registry": "npmjs"
+		},
+		"types-12.1.4.tgz": {
+			"url": "https://registry.npmjs.org/@commitlint/types/-/types-12.1.4.tgz",
+			"sha": "9618a5dc8991fb58e6de6ed89d7bf712fa74ba7e",
+			"registry": "npmjs"
+		},
+		"types-13.0.0.tgz": {
+			"url": "https://registry.npmjs.org/@commitlint/types/-/types-13.0.0.tgz",
+			"sha": "469f7808767e752431d8fd55f74fa8aa9444911f",
+			"registry": "npmjs"
+		},
+		"types-13.1.0.tgz": {
+			"url": "https://registry.npmjs.org/@commitlint/types/-/types-13.1.0.tgz",
+			"sha": "12cfb6e932372b1816af8900e2d10694add28191",
+			"registry": "npmjs"
+		},
+		"types-13.2.0.tgz": {
+			"url": "https://registry.npmjs.org/@commitlint/types/-/types-13.2.0.tgz",
+			"sha": "ed8128f9e41383f8f0ee1b0370c724826821e581",
+			"registry": "npmjs"
+		},
+		"types-14.0.0.tgz": {
+			"url": "https://registry.npmjs.org/@commitlint/types/-/types-14.0.0.tgz",
+			"sha": "17bf4d1ab1178c67990ce01b36017d6e6792b751",
+			"registry": "npmjs"
+		},
+		"types-15.0.0.tgz": {
+			"url": "https://registry.npmjs.org/@commitlint/types/-/types-15.0.0.tgz",
+			"sha": "46fa7bda3e6340caf3e3a2e415bcb78ff0195eed",
+			"registry": "npmjs"
+		},
+		"types-16.0.0.tgz": {
+			"url": "https://registry.npmjs.org/@commitlint/types/-/types-16.0.0.tgz",
+			"sha": "3c133f106d36132756c464071a7f2290966727a3",
+			"registry": "npmjs"
+		},
+		"types-16.2.1.tgz": {
+			"url": "https://registry.npmjs.org/@commitlint/types/-/types-16.2.1.tgz",
+			"sha": "f25d373b88b01e51fc3fa44488101361945a61bd",
+			"registry": "npmjs"
+		},
+		"types-17.0.0.tgz": {
+			"url": "https://registry.npmjs.org/@commitlint/types/-/types-17.0.0.tgz",
+			"sha": "3b4604c1a0f06c340ce976e6c6903d4f56e3e690",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_rev": "3-619d3edb6d2f20cf",
+	"_id": "@commitlint/types",
+	"readme": "ERROR: No README data found!"
+}

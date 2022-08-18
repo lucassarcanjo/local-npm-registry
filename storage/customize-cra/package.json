@@ -1,0 +1,2869 @@
+{
+	"name": "customize-cra",
+	"versions": {
+		"0.0.1": {
+			"name": "customize-cra",
+			"version": "0.0.1",
+			"description": "",
+			"main": "index.js",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"author": "",
+			"license": "ISC",
+			"_id": "customize-cra@0.0.1",
+			"_npmVersion": "5.8.0",
+			"_nodeVersion": "8.4.0",
+			"_npmUser": {
+				"name": "arackaf",
+				"email": "adamrackis@hotmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-CcdLCXaBjwglaenj3iQ15HhxIo87C5evuqbbgmmSQwSLvM5SfWEjmRILSBcrZaLOquma8YazZDksNl6EnFABiQ==",
+				"shasum": "0292afdd6db1985f7ddbb825ba55ab5dc42656c1",
+				"tarball": "https://registry.npmjs.org/customize-cra/-/customize-cra-0.0.1.tgz",
+				"fileCount": 1,
+				"unpackedSize": 209,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbrj3GCRA9TVsSAnZWagAALvYP/RC4702P00Ir/GD2gTYn\nMHzcWeVHdLRS2C3UKwbHxi1VJy8K3mHu3YDIMM/ry/7klwbnFtN7b3og8Zbe\nZA2d6t3UJfVlTNpa5G6mcm/B+XFPM+RMz3c4z1t1hTI/KwlGcWCXTf8vAwIt\n1qdJI6WWOhj4cZc5iqZYisRVeKfgNkEDAj/uuJuJKgYnr58NcTla/y2hP+JK\n7BIEbf/B8Pl1xAXfiUY6hfrmQVRAFyMrFYelLNSiwh3igPA+ityw2Vr9rn+T\n2ntBt4goO/1wqVNPsYirDXuB17qam1YRkjCm7JtrkwH5HqF3fP94fYGj5mTS\ngt7gdBmyRP0cMTc8t5DpO6aBzFS36jxKqm5RbQs+qwlVM2mmorP7i9tMKq/H\nN823CRiAcy5BQiyXQmcvrCYHvSMreMMZZX+Ghbe4ygE3TKSHXfq6LUQaVewo\n5YW3qfPhXkQ+PIsNu8poX6ra/woOHpkGZiLFpKIkSFoAijF3sYezt9Cz7NY4\ntJZIMBf5QhwgHtymXwuRe6Dd4HylMO2kFfVZJDBO3cNT8YepPCbBHn7jyZnP\nMGf1EmaRpW9Odoo2FuQ5vybJ23XGivVN2HWUkWj5IXpTCc46+BCRRBPxVeTp\n6/tJSLhMbQiTKgTjaDruorY5iZfVjHqVHYwvSE8HK27pPK6X6UKpy4QeqG4n\n53Vy\r\n=mvU0\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDXS8ohtTaqDXjqeQyozrJI2+AaJwyG7ZFfy7HdNbsk7wIhAINN8dqRm4j+Zj1+Uj+P5EeSTPcA3HolJ/nRpcJnx2D2"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "arackaf",
+					"email": "adamrackis@hotmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/customize-cra_0.0.1_1538145733048_0.7405982337178529"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.0.2": {
+			"name": "customize-cra",
+			"version": "0.0.2",
+			"description": "This project piggybacks on `react-app-rewired` to customize create-react-app for version 2.0 and higher.",
+			"main": "index.js",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"author": "",
+			"license": "ISC",
+			"gitHead": "3fa7ad836d837d22b3f9cd0a8c85b57d3e77a9b9",
+			"_id": "customize-cra@0.0.2",
+			"_npmVersion": "5.8.0",
+			"_nodeVersion": "8.4.0",
+			"_npmUser": {
+				"name": "arackaf",
+				"email": "adamrackis@hotmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-VRxP7ye9WR30lYQ/tCfRwQZdqgCeCtMuuuWFSGkM27RFV1Vpw57t2K8JJ8of2zroQQSqPXJlaI5+UguoEiivTw==",
+				"shasum": "8003fdeac56b3ce218ca8bf8b51126e3124a4314",
+				"tarball": "https://registry.npmjs.org/customize-cra/-/customize-cra-0.0.2.tgz",
+				"fileCount": 3,
+				"unpackedSize": 2837,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbrqrVCRA9TVsSAnZWagAAy8sP/37NG0Pweim19uzS7fZe\nKqrKNczV9BtJ1yqf89ZzbxNHFzxXcxmr9MAbbUkjAxYD6Kc8HZRjqYgERaap\nXCPr9dXMT3MpYVpmrtn/53WQXgzh6AELKUyQ76tTmMkBmwvbmsonOIZnTT+d\nvdnqW3hVmjHjnhAj6OMyUbHFr9oTU0Uk2AI1aZTqJpf6PHtRyM8YgH99Eul5\nyAj6LM6QQl22UB27G3ohBZPxbp10Hy9xUZBvn0X3fDHrd9dNSod12Z/oJ0X0\n/GIFOAdxUy2wYS30V6wakQ54NLRYu/LM62YPcPYciD39IOB1YkLUmTj6g5Yp\nqoa0ACBELQCPRD8Aw3Mfa7MIqIaz1JLAAX3JjDS4kUev3jIu9SssLRJYvUTU\nIwL15xCYYo7UzTW9NdeDuc0SGkZqYwd+NITJoliImuI9yRUgX4r5jSvsEDG6\nxI/noSCemA1YcFnm/Qh8HtQdzJs3F8zB4sAqOvP5V6iYbYFa8MKjjEcB6Rqo\nRPBmeodRkE+IbWLOuAZMC6IRtgoYFTK9wMXAU2J46l3Hcu0OjLD03XsapUiZ\nYcRLDqv4jyTsWZyUU5QuSXFS9Kv09qg5wVoGFrW3U1NB4WxpxkPIeZq0kCR/\n5kCVVWCjxX9CUGdmBUjVRZ1ZNDZwUSz+YD7inlZ3ARVT3hWx4f3M0lL5zQt6\npCCb\r\n=11vp\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDo3qBsE+msvQKN9qnVeQk4XibkWZ3b/Get82Q0jxhWewIgBVsDJFotoGG55AusyOxvtHAbCJaZJI5buXoZXOapV1Y="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "arackaf",
+					"email": "adamrackis@hotmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/customize-cra_0.0.2_1538173652699_0.2741379471608667"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.0.3": {
+			"name": "customize-cra",
+			"version": "0.0.3",
+			"description": "This project piggybacks on `react-app-rewired` to customize create-react-app for version 2.0 and higher.",
+			"main": "index.js",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"author": "",
+			"license": "ISC",
+			"gitHead": "5589a08dd28324d964a87d16917deed90de09b8e",
+			"_id": "customize-cra@0.0.3",
+			"_npmVersion": "5.8.0",
+			"_nodeVersion": "8.4.0",
+			"_npmUser": {
+				"name": "arackaf",
+				"email": "adamrackis@hotmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-Bni6zPgJDIwI3+P62l83DjlsEJgGe6cCDSUbODhyQ40W1865ggqJZBJY6hf3QVvseRsEWGMoFRxxVhdElNV87w==",
+				"shasum": "0eb425fe84140f5319bfcecd32f45abb2abb1469",
+				"tarball": "https://registry.npmjs.org/customize-cra/-/customize-cra-0.0.3.tgz",
+				"fileCount": 3,
+				"unpackedSize": 2844,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbrqx2CRA9TVsSAnZWagAAsFYQAJTOuJRl3iHcIzHWyV7F\nmIzmKkpJqz0/DDISll46hjSqXRXw9iSgjKNtCkClFVLTafv/3jqq/gE4rJIj\nwkfTF7IGuadU/P9jeAvakXI82XLBUIdVW0GBaihLGPRPidl9fBt7THpo2EOF\nsPz0AzMQp6cjWJglatx+rScpMeX3RBxEf16XHxUo0IG8HOrXPmWebfWk8JBe\n2C/rvcT/9/MiRqyXS1wxWXdJJ7ssw5sL8gi9z3ks7nn092+ss2cdA7JmOm1Z\nSSC3k0K3JFHaJxwM8ZM+w6UrDxMGTAEiquNVfLcsFrnEMTczUyS4nxzfq6xG\nbdFl9FQS1C//50XRsuGFox5JzPxcRfn6Vi02nuvwmn6W+bftzq/py1cYiQ4w\nWxVKayTrPZQEytH9209j5BpJ28gj3aPmkVYM09KUphUicYpHf15hwrSeSRwo\n3l+onC5Kh8wZrcy7vg6mRlKbSVzS4ZeGQ91uaZzrDeXG42QaBuqZTYeauPL/\nTi/juqqWlF3iMFYeGRBxWjuG+qfkC/uTK2r4nRfUtTfplULcFHjWXxT8oDoL\n0/aAsjmDnf1gyybC5J7HTyQ9mXywGfvakNYY47zXfwoZLx0PzU9KxmIVyf6c\nBETkvRCjgV0gXaNz0aGlYUEEmnlnOKIFKi7tGq6eAxDH2OU2eA3ZVtxaATFz\nYGrf\r\n=VKZd\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIFHM1OTNV8GEIgxaod0uAHqn3bpeAR6bfb4ioKs3E7PrAiAW/Kp948iwIktDiZ14qpD73EV6vG5QYorB6N2hfzYFCg=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "arackaf",
+					"email": "adamrackis@hotmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/customize-cra_0.0.3_1538174069848_0.2158292286151422"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.0.4": {
+			"name": "customize-cra",
+			"version": "0.0.4",
+			"description": "This project piggybacks on `react-app-rewired` to customize create-react-app for version 2.0 and higher.",
+			"main": "index.js",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"author": "",
+			"license": "ISC",
+			"gitHead": "5589a08dd28324d964a87d16917deed90de09b8e",
+			"_id": "customize-cra@0.0.4",
+			"_npmVersion": "5.8.0",
+			"_nodeVersion": "8.4.0",
+			"_npmUser": {
+				"name": "arackaf",
+				"email": "adamrackis@hotmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-YwoKsX4BlL+j02A217X0XOM4bkBzCPQz4qYXg2d7+Al/vsQXiSncro88tlt4+2/9L2eXyNwxPp0xIQvRYVQXYg==",
+				"shasum": "53dea67a3b894326ce2599af9fe4282991b3bad8",
+				"tarball": "https://registry.npmjs.org/customize-cra/-/customize-cra-0.0.4.tgz",
+				"fileCount": 3,
+				"unpackedSize": 3482,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbsYajCRA9TVsSAnZWagAAZlAQAItIMzChv9vlMBlRyUy9\nEiMEGBNXLZXB3mSWsJqNrZCun5Mg3sFtj99SyLOSkk1Ycc/kGTs4tVFjvnUK\nWiL1p+tK/qusxFwgKiXpUfHBGDLPZQLYl0dzr/nYCrUo+cYWe+6GLsXv3vrY\n7bLZc+1ZRFvGXbeKQC2/tcC6dF8NXwBxlqIjGFVzIksLa9hK3AHekSSrSMBY\nc4o95hn6QfFvuO44684oClv5m5ynpwfVSrgnE/m6sMOekcNDRNcbRc9+7Iv8\nIb4YWd/s5H/QoX8+BISx2ydAB7HbvidHV0MPW7PtWHSP5X+oG9nOIz99aYyT\ntOd8v6jHPwMn3TpDfAWEIuEazS5iY11/Lp/cyc+ByVBs4fgiD9MJQpj6S0ci\nWndRwDLjKQ2OU8el8cR8woiUfqgfnibRsitoGIXUOCpjDBjKzgSHgCbeuNAf\ndfn3uiflthj6R3VTN/U5eQU4Jj/Ot5NpdawOv4U4AVYB57nNLNEe/L3j4R6J\n07fcDoSSiSoJA5Ojq9KTffnpHEBMRViwWVtbB2/v2gKRJ5omlsrtAFNfR2ix\nFTFSaaUKEJVM2bCZZtIPgZrtay6UMZfhQq//XfqkifisaXJZ89Fl7aaDdf+w\nBhgQO8BlWPWCT4e+TIBwPvrSLPrNVBRcByBxus6Ur1Hk8jxbSdSeES0zkw9+\n3dU4\r\n=njPB\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIEKW+3jndKW34Udc/Pwtyc25hOFs0k92okMyV96J01d9AiEA99eEd1vdIuFYYujsH2NltdRmur5bgy6ibrNKqGwzUnE="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "arackaf",
+					"email": "adamrackis@hotmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/customize-cra_0.0.4_1538360995086_0.8285626840325258"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.0.5": {
+			"name": "customize-cra",
+			"version": "0.0.5",
+			"description": "This project piggybacks on `react-app-rewired` to customize create-react-app for version 2.0 and higher.",
+			"main": "index.js",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"author": "",
+			"license": "ISC",
+			"gitHead": "5589a08dd28324d964a87d16917deed90de09b8e",
+			"_id": "customize-cra@0.0.5",
+			"_npmVersion": "5.8.0",
+			"_nodeVersion": "8.4.0",
+			"_npmUser": {
+				"name": "arackaf",
+				"email": "adamrackis@hotmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-aY/IwrKExgVix2TI10IBOL4cxE9Wn5/3KCSu4hLk13E7gWysrwDug8kUwObdR9SYd1UCF8FQNTimR9Q8wh/SXw==",
+				"shasum": "dc8499a8668cc9631817ebbf91737dd33031491e",
+				"tarball": "https://registry.npmjs.org/customize-cra/-/customize-cra-0.0.5.tgz",
+				"fileCount": 3,
+				"unpackedSize": 3481,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbsYeICRA9TVsSAnZWagAAv04P+gNHE+pB3L9Dv5KBFnIH\n7l9GVmQpQuuboZuebc4vNq/uIHy/3ghhEKkAnazCAhlXTH7hX1wFXVVOtpXo\nENDvrnm+Lf1ows0i0k8J8BKUbc39OVRTfDV37i4caaCU/n5NX5C4h1rKETFh\nEBt48S9yH4q+GEnd0Yv6X5zGPMjKIgzVhQ5MCiE0c3zr2gplunrzbR0C3Xme\n1HJBgvsrHCXTBGAcxumr+aeckfowisehJxRXVK3VwDPxdlsmvGMywBCnuXRG\nShsnYmjd+B0YLGyuJUJ/OXzC1LVp6t0d/LDrNmfQF3BHmmCpihxnXK/OaQpH\noGh2Z9+L2wO+q/MaMU0MKhwmdLBKJ42yRGPpejdwXs+jNY95p2DwyZZmRJ6F\nVTLWvnQggNnOukA8OQmIRg3xuLED1stpLz7DcXP6uKskzHhbihVN8jIJ0oCE\ny7xDdCTkvn+udAI/RS+0Pvfibm3uxsIotlGX2dd+EVpqpu4dksj1vtc3vjFn\nSIJTSvvny9pm3JECI/TPbVahxO5IRcyIgQCJlXJuvO8JWu1Rw8NUuVTc4YAk\nz1CMiBaEt9BKs/DWEhaAUm+Pq9PnzN9wuzZ12gQC/z1K1tWPIBxFgWWNd9Pj\n7oCNiuFYyEiyBvpaV+EzTxWqDz+GcXz/jVObR5qVukuGyDSow2rxWeq507eB\nK/GS\r\n=do7x\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIFyEHo4/O3AyfVE2znjWNYli0c+rHzfoCnzVX09OnOEjAiEAvrYSWFOVzoN5BopqlKaj/HGP206g8VEr62Sdjg7S6Zw="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "arackaf",
+					"email": "adamrackis@hotmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/customize-cra_0.0.5_1538361223369_0.9061803677301439"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.0.6": {
+			"name": "customize-cra",
+			"version": "0.0.6",
+			"description": "This project piggybacks on `react-app-rewired` to customize create-react-app for version 2.0 and higher.",
+			"main": "index.js",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"author": "",
+			"license": "ISC",
+			"gitHead": "8235d511ff745f165d3afbce515da9787c0f81d6",
+			"_id": "customize-cra@0.0.6",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "8.4.0",
+			"_npmUser": {
+				"name": "arackaf",
+				"email": "adamrackis@hotmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-vI24UCoFlZWZX8/NRyAFLKCHwO7dqLu2hebwpPC5m2F9JYaiMa0Y+1mjsWS1GgWS4s17TjK0B9QJtraP8s14Iw==",
+				"shasum": "62a457366e7c77e36ca862f8f41e0b967074ba78",
+				"tarball": "https://registry.npmjs.org/customize-cra/-/customize-cra-0.0.6.tgz",
+				"fileCount": 3,
+				"unpackedSize": 3571,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbs26VCRA9TVsSAnZWagAAY80QAIf2h9/bFd7k1+ez6YTJ\n0cHygyjvqP0xKUhgNzLJ4mC0tM2diVXkP1FoLI0aXbdjzd0MPjIg3P0/9BK2\nlG0SXB/Miz+V1z/4aVnNYMBA6Vtd6+yiayx5nhKQLQLDi8kst3SLg2ECmVaS\nYu2NUT0qUBCKM1DUn1qR1NgSdsNhBQvLJcI0M+9pNyym8/ciovacENPuLA9h\nRBfSjJFRCPAU53x5paD0ILhpvQ+EzApR4TFdG5rc+CF4TZ+4gLF9CrUVDN8p\npEvy4uOBMDt5gWjCwV+TuzqlLn+/NlviO6nLwvCwOXs3jqKyJ3+2/fBo1AYI\namU67jz8+BAd/CcSEQ/JSEpo8Ra1/Ca+nTH3GR9YYqdHC/Io3VUadRK7MiIQ\n6db/TV4Ndwx4NHH5tAsFtlGjzpIGUFu2eEuN6bNkREt2FbEUccnvFRDiQ0Ol\nlwB8gJxRhvCxNZtz6PzdQTzODZN5DC1o2LsmMTxmgfYHBmGZQknOae75aVcv\nG6XpjZ2NNZdG7vQCgZJ+ITUPpJG+UZX3hYIS4G6eOZCSS6lo4Ck2QpmbP4QL\n6ooA2GVbngTAteoDvkMpCYLFL9+jPFW1qIqLI64S69y/lVDJz/6IXjT4kwVA\nicXuN35LPJjkdjpmyb/JCPyTDCtbaKN5zZKgtBkjpjhOibjoe/630gU9MIEs\nivwV\r\n=rhdB\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCMiv5B4+JM9iixYdBPCGiaVPOPiPtbRf9VMFdmkZ0F9wIhAMb+fD/RE7EoIwn/W9x5X2Vvpr+LYpVug+LW1WUTbZTz"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "arackaf",
+					"email": "adamrackis@hotmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/customize-cra_0.0.6_1538485909085_0.0871481172882469"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.1.0-beta1": {
+			"name": "customize-cra",
+			"version": "0.1.0-beta1",
+			"description": "This project piggybacks on [`react-app-rewired`](https://github.com/timarney/react-app-rewired/) to customize create-react-app for version 2.0 and higher.",
+			"main": "index.js",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"author": {
+				"name": "Adam Rackis"
+			},
+			"license": "MIT",
+			"dependencies": {
+				"lodash.curry": "^4.1.1",
+				"lodash.flow": "^3.5.0"
+			},
+			"gitHead": "7810a62591355b479fa3e784a7c342e3b560b1ea",
+			"_id": "customize-cra@0.1.0-beta1",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "8.4.0",
+			"_npmUser": {
+				"name": "arackaf",
+				"email": "adamrackis@hotmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-WRDoiabamFpRNiV9U8B+zOjD8jjHsT6Ilz9MmwYNc2gPyhAMVugOZeD1es/XyQnuRo/g+FYbIiXSx+10bnz34Q==",
+				"shasum": "be43cede4b34d1661592bf552ed07d7b08602c17",
+				"tarball": "https://registry.npmjs.org/customize-cra/-/customize-cra-0.1.0-beta1.tgz",
+				"fileCount": 4,
+				"unpackedSize": 4348,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbtDtcCRA9TVsSAnZWagAALC8P/106WzBHtwMydFkJ7qN9\nMMYOqxKzQphXAM0PPag+IAqHwmcjmmcl5na20k6BbNMEsJHTwACIhnwQvUta\nHNU5Mbc28fTaUvLCij2qJ0cvplEkCpNLdQYrNvlUrK5DGEyT/m1n9n5/Yx2U\nHaOr2ckm0P44bfBRcV8JB21UecwH84u66Yt5J1QkpNuFDqLwNHifDh+DjA/O\n0h5AQEqoQ19jrA0OokjcccA95fFiYp+yXdXpvFRajjOJomtVhalBZiJK/YLB\nUjd+1I2Q1BifJBIQ5MNEjCeolI6Q3hiG0mnA6K9Hm/kvBp3W3u7hIEVks+Mx\n8HlH9iKd0rXKf1f93WLQB5R97TZynXzU6CWtuWTkrVW1mchBhWSc/7oblhlV\nN83ikTqFpcuj2YAXnstEV5P0cwpgLzQfOmlJyXmJBahTkVEPk/skvaFqUTCg\nZcpio0qWiIwhY1WphZ1szbt/KUHScoBggV3UMFdTRFfgtluCWGENk9zyQQ4m\n9sRlR4H3utKdDDv8YDq32Pz516DxKybavuHLvqRJqxXiYHpZibhZZI3tUlIt\nByD5tUhmHgBpnHBk864xGXBSnbU4dV0vSkG83nHkgfG8ECNq5nAcg+/hHZR1\nT3600tuVAGjbvGGg9mz3vOnUbzdkU7XZinQpdLuv63WPUPBNw9fNKK4tYLJM\nw5CU\r\n=OdjX\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQC/oJ66J7S5xPQ/Q8uxOcOobI1L2SuM0rOSmHdrkUSE7gIgb727WR2vswFwPjlu1uYXc4YD7koAcJH7LvGBs9mN6G0="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "arackaf",
+					"email": "adamrackis@hotmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/customize-cra_0.1.0-beta1_1538538331907_0.9755742845382545"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.1.0-beta2": {
+			"name": "customize-cra",
+			"version": "0.1.0-beta2",
+			"description": "This project piggybacks on [`react-app-rewired`](https://github.com/timarney/react-app-rewired/) to customize create-react-app for version 2.0 and higher.",
+			"main": "index.js",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"author": {
+				"name": "Adam Rackis"
+			},
+			"license": "MIT",
+			"dependencies": {
+				"lodash.curry": "^4.1.1",
+				"lodash.flow": "^3.5.0"
+			},
+			"gitHead": "7810a62591355b479fa3e784a7c342e3b560b1ea",
+			"_id": "customize-cra@0.1.0-beta2",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "8.4.0",
+			"_npmUser": {
+				"name": "arackaf",
+				"email": "adamrackis@hotmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-xrLEmXTKEXPt0XZl/WeMJ/GHwskFtG1SouAlvP9fAAgYZHb4sGY64YRLsB6o+jpXU1PuqR1GpgEmFITNlZS8xw==",
+				"shasum": "3df23ad47e0d28984bf1b51d19f658e26e950ca1",
+				"tarball": "https://registry.npmjs.org/customize-cra/-/customize-cra-0.1.0-beta2.tgz",
+				"fileCount": 4,
+				"unpackedSize": 4343,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbtDzvCRA9TVsSAnZWagAASdYP/if5lj4TAVi/kP62J7Ud\niDWko6qowZabfKWiGOMDKXz/Mix04Te3DLA5Nx0t5sN9ZQh3Ze6sW06mzSe0\nN+gata9dCJCrW7rmh/E9GpcAASIyaO6btRXT6rSyXHWXHgp4aDjnBJaphgah\nonV8XtMB9lbzFT5AL/nLLgAHNZKyOChHDVphx8eCJiaUYz/M9hKp2wEsQS03\nW4vpK30bwNyj5/h0cQ+nrfJBRD0PHncBFBUXoXo8Wpo1Ot+GF+J1v9enhChR\nejh83v5XWaZt86iXQp49/i/uklE6ViIgT6/vx47oFUk0xUyKKVVSnUd5rCRZ\n+MfXO30y3klzDGeK2xhxm3oYuZWru8WCxBKe4tWYHZzmHFnAuqAm4PKv19XQ\nlCmRy9XSYjmRPXmg0GGTIjV7GPraolfEpPInV+9UQiLrHpgf7OJiAaCv1kz0\nUsJU2SP7m6qIzgpSLNTWfnLTtknj5Kh4kuWW/cSS2lPagO1GV8NDULGwhnRh\nXrUjmQ5qjWoSkpBPq0SM+cgWiGm9ae6gtBg/kR8YmDzdldnk5d/4MmHaLAXs\nUlF6AFkGefkb3DABWlg5xQiOmO08LbZCrbtVLY8U7HAXwLUPILGUnTkSdS1d\nWI9cC/VfsiJglivCkHVtTaYqaNnITttXNT+8H9yt+C/McQFvgKcHJeEUeypu\nF5wF\r\n=PW1d\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDMjQiMbC1850Fmy7JixOgwnpFR9PqZWPLIq/+Ig9zQtAIhAIy1eO9nebX0z5y6uWjR3Kriz1U12YGNG5mU0v/BOMxR"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "arackaf",
+					"email": "adamrackis@hotmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/customize-cra_0.1.0-beta2_1538538735102_0.9584641520538957"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.1.0-beta3": {
+			"name": "customize-cra",
+			"version": "0.1.0-beta3",
+			"description": "This project piggybacks on [`react-app-rewired`](https://github.com/timarney/react-app-rewired/) to customize create-react-app for version 2.0 and higher.",
+			"main": "index.js",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"author": {
+				"name": "Adam Rackis"
+			},
+			"license": "MIT",
+			"dependencies": {
+				"lodash.curry": "^4.1.1",
+				"lodash.flow": "^3.5.0"
+			},
+			"gitHead": "7810a62591355b479fa3e784a7c342e3b560b1ea",
+			"_id": "customize-cra@0.1.0-beta3",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "8.4.0",
+			"_npmUser": {
+				"name": "arackaf",
+				"email": "adamrackis@hotmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-VwaXg6xzwkikOrKrECVUTWJl5rztKM5zTErJ4PbX5QZkHVVze99Nekzdg4UWAqhqhRQLdUyvFXkABhdICsgKag==",
+				"shasum": "7dc51e30991ca5635cc35ea3643e48bd7ab6b4bd",
+				"tarball": "https://registry.npmjs.org/customize-cra/-/customize-cra-0.1.0-beta3.tgz",
+				"fileCount": 4,
+				"unpackedSize": 4316,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbtD3fCRA9TVsSAnZWagAA10EQAJ6i2vXPG+czI0dcUbCH\nRp6OEWqjf8ZfUhco6LLrhcNkGAbJRQki6C1CPUN7bSMSBaV/5SfzprQDRKiR\nbgAGNGZqftOBg4P8L0pb7LNzUx/F/vo5aw1VtJOKtTbgv6eOtLBBstLxWROS\nclACdZBupW0GgGALnN55jYpx2bSqqIhgdMFHvCo4tS0N/Gq5Y+st7qee20OW\nGVUSlylSwyRZbXOnWBKbxv5UMjkgCaesE3Ds+yPHbZ7P5aJv1qR+9CzTdA3D\nnhVY9471OyDtyzTzoT6PLORP92uMhjzCwfl9knqcecZmXzJok42yNBtLYWPG\n5GF8bWsuKfR9rrHCC+rlOZPD4jKbyOndlG2KYD035B6pez0IdF9vK+haZC9D\npOI3TbXLflbFO3bRRPlP6ee1/VtnIey9Zo4im0ihEmW4O5RaZ8pwbH4N4+ON\n0UeR+aOGjOpxgRShlur8wHheY6nKtqK8d4D5SYjTe0FzjE5yOvrhYTamM5+n\n78ywzgIGJevGfqcA3DvChFsIYbxLhVE1ZRcssQcro491J9nNadqNVVREkAxO\nC/eqS7WI91TlnOEuYbK2hGlt23mH7p1A5WPzCJWPRic2CaHGseyeQsfQAPeG\nDwtkfcopvhSrSGjgEHEZ86uOQgU0+m3ddYs0Mgxja2DIDvRDlI5vRMOHZYW5\nRpge\r\n=UrBq\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIEDBh91kv5nwB4P2E8ueDVJiLKQDODLykAGwBRk+ATTgAiApgt0tlMfzGK016fT0yf+hZWlp6Kbl6gx88abNQsbVhQ=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "arackaf",
+					"email": "adamrackis@hotmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/customize-cra_0.1.0-beta3_1538538974313_0.36905803926117375"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.1.0-beta4": {
+			"name": "customize-cra",
+			"version": "0.1.0-beta4",
+			"description": "This project piggybacks on [`react-app-rewired`](https://github.com/timarney/react-app-rewired/) to customize create-react-app for version 2.0 and higher.",
+			"main": "index.js",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"author": {
+				"name": "Adam Rackis"
+			},
+			"license": "MIT",
+			"dependencies": {
+				"lodash.curry": "^4.1.1",
+				"lodash.flow": "^3.5.0"
+			},
+			"gitHead": "57bb094e141b547fcaf0e4f15a46f0b4565ae5be",
+			"_id": "customize-cra@0.1.0-beta4",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "8.4.0",
+			"_npmUser": {
+				"name": "arackaf",
+				"email": "adamrackis@hotmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-rFNCtMP3bQI2RyUyynajBTXXKorRvnp8aGUqJS8ue4eD5rGT9dQldLdqSE4CKNSBiRH8Z9I4Uol26fiOOQROPQ==",
+				"shasum": "f3a89de6e8c4cc54fdd6042cd74b49a1d3ea5411",
+				"tarball": "https://registry.npmjs.org/customize-cra/-/customize-cra-0.1.0-beta4.tgz",
+				"fileCount": 3,
+				"unpackedSize": 5026,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbtMrCCRA9TVsSAnZWagAADoUP/1Vlync7ZDWwEmNNr2Uw\n7oc9U29xgBPbIahQOTp7KCqoRRHJ6zAMINDlV5svGCtZQa/4VM1B3FhK/EJJ\n/XXW+oOT9z9DkHYUwG2Tn/1Wzc8soZAKEGv6ALBE65ScCnh+AK5NYXji2aLU\nbUdFXHtStf9ujTMpqI3DY4uDiQvbAonc3CoCxLzzsQIb8btvyw3D+CxPk+vb\nrxEL3uop6FarwKLWlEyX4xQ/cc3CujoGgIQc2kFNkyA6HNUP0+Xx9GYxqKnW\nxk5ZSSHS1YC/u8+jtizTi0rvz4hzzKjO6iWmzg96bSCVE7c8qXZLPuYsWkhj\nmjRbQMIbyFbvZkyA0NKlIU0MFuBqI/CVhTFh/3efHcV1QOkgbigt6Yg8Pk5v\na7ZDuz596EiivaKOhh4nOvfLmIJ54WynsEO5Q/9dLBGTM0QzcPYOOKrCNRO0\nTOL+kcO2iwasC9KS8Q3KoAZpRGHFFKW2BGOUNEFZq8Yrcrbrpy7BLO9R2xFm\nzZxJb03l30bcNlNas3MnUCA2BVNIMsChsQrlDOwpTemgCBd83B1RuPoj13Rx\nctXSBGcpun2AOJFRbNPgOqMvWGC0j2Y3b8qKkpqlrIY9qBWqfPh72WegPGYL\nstGWJAlxc8be36i6EAr7luH4Ga0U1dRLlEufEwXg+nXBAWHBBpUiiA8lM8al\nUIUC\r\n=BDGT\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQCYDeeH3vpVBmKxNoTY2ofaD0E8O6MbIJLd/jdVoK21agIgWe+sIc6fURVwj2apXNfP8wV//xmlP2Bj1cpdj5E7o8g="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "arackaf",
+					"email": "adamrackis@hotmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/customize-cra_0.1.0-beta4_1538575041263_0.9968186165366744"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.1.0-beta5": {
+			"name": "customize-cra",
+			"version": "0.1.0-beta5",
+			"description": "This project piggybacks on [`react-app-rewired`](https://github.com/timarney/react-app-rewired/) to customize create-react-app for version 2.0 and higher.",
+			"main": "index.js",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"author": {
+				"name": "Adam Rackis"
+			},
+			"license": "MIT",
+			"dependencies": {
+				"lodash.curry": "^4.1.1",
+				"lodash.flow": "^3.5.0"
+			},
+			"gitHead": "6fe83c71ab473ae26ab5e89c437091d39823f270",
+			"_id": "customize-cra@0.1.0-beta5",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "8.4.0",
+			"_npmUser": {
+				"name": "arackaf",
+				"email": "adamrackis@hotmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-Cs1shBJ/E1ZYmRJHPgZ7Tf2rOl3lvfyAhTFoT+p1XdfyDoG4cIptHeBNFiFhlF8+yo2JZbcrodERp1i4BTIZmg==",
+				"shasum": "379983db984f3191e07c5b2f704e5f478f1cbc6f",
+				"tarball": "https://registry.npmjs.org/customize-cra/-/customize-cra-0.1.0-beta5.tgz",
+				"fileCount": 3,
+				"unpackedSize": 5475,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIAhqFVHqVbJ4OdP5NkEwC5IzQpEvDohtxc2RyE07aYw+AiBmKRR6wU45xSjsiox5t9R4QBAM3cRu8bGLvIEaB33gyQ=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "arackaf",
+					"email": "adamrackis@hotmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/customize-cra_0.1.0-beta5_1538661260838_0.16418927431189134"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.1.0-beta6": {
+			"name": "customize-cra",
+			"version": "0.1.0-beta6",
+			"description": "This project piggybacks on [`react-app-rewired`](https://github.com/timarney/react-app-rewired/) to customize create-react-app for version 2.0 and higher.",
+			"main": "index.js",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"author": {
+				"name": "Adam Rackis"
+			},
+			"license": "MIT",
+			"dependencies": {
+				"lodash.curry": "^4.1.1",
+				"lodash.flow": "^3.5.0"
+			},
+			"gitHead": "0c572088404dbbf48b5089479227f2cd410a5277",
+			"_id": "customize-cra@0.1.0-beta6",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "8.4.0",
+			"_npmUser": {
+				"name": "arackaf",
+				"email": "adamrackis@hotmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-FJq+mIJYUj1bd3lQIj438MI44JmHqFgEs8zABoPvAE3hbPluaRALFlhmcH9EF9sYHETxuGp/1afJO/la/xfLyw==",
+				"shasum": "c34e954b321cb772e3b3a61ce3b0198ac5ffc22a",
+				"tarball": "https://registry.npmjs.org/customize-cra/-/customize-cra-0.1.0-beta6.tgz",
+				"fileCount": 3,
+				"unpackedSize": 5341,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbuQyeCRA9TVsSAnZWagAAMjsP/39ri7Lex1KnfIZscQOi\nioHXD8+Eq+pGkebZMFyO1ohYcNCcedDjRUA+8hbUg2QycBTqzXJEDHN8Ognq\nE5fRJXGLcohi89Iyl5v1RYB8+yCmYlgGxfGKaIhzbkkD8y8S+2K4Awe3A9KG\n2k1X8LHjfMAzR0H8S8kVY1ZBM0HrWp6jFrsuvcypAYc2Ysx0uCd27AtbaObp\nBN4KNIKhF5Wkwfk5D2QkfE/Vcf+KdwNzbCTrL+yKSbDGT5meZrDxRT3k2AAL\n66wKu8kmQuTusmUaYgmEHWYR3CY/thaKxZqRHsk+pjj27tmEpNajyYRKDnIN\nvvZsye3kOBInRKAY0ipfMW3eHO3LX6mAzcoujx5OA6TOJCDCN9AKUDX3HVwp\nTEvRvntFRcBrJ67NCHzQL82LDB5k/abUHHnAwosL9pHR9zG+xoTegdSV+Pyk\nR6YuTWTIJt1cQ+uIsQAzmPfSvL9WmLz2Y/vRS6BAhxilo26JCFyBEUFAIsib\nstulSIv0FR3ZAxhuBP7zMovCSfBzKM5ZZm1DKRosLogP5aJhlPR+D+/lZ9oR\nq9nHZMOde+yipO+JBtd0b3Ng1ywkCnrW5DgBai0PwMOG/ByACz8FeHyihJ+a\ne2E3JBdwr/xmOzOoOYqx1ZQGVezx9hh3kwvCv5pURQdu7iwUijY9rK0eSFMB\nZFrb\r\n=RySH\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCyZ4kboF4mNMhbvN4Tblku6J46xfXPM100cHTW9M9h4AIhAJ8BmxilzR9yhAkq1TkP/8fZqHqFyDl/1qlUd5YOb38R"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "arackaf",
+					"email": "adamrackis@hotmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/customize-cra_0.1.0-beta6_1538854046157_0.2743230096186313"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.1.0-beta7": {
+			"name": "customize-cra",
+			"version": "0.1.0-beta7",
+			"description": "This project piggybacks on [`react-app-rewired`](https://github.com/timarney/react-app-rewired/) to customize create-react-app for version 2.0 and higher.",
+			"main": "index.js",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"author": {
+				"name": "Adam Rackis"
+			},
+			"license": "MIT",
+			"dependencies": {
+				"lodash.curry": "^4.1.1",
+				"lodash.flow": "^3.5.0"
+			},
+			"gitHead": "0c572088404dbbf48b5089479227f2cd410a5277",
+			"_id": "customize-cra@0.1.0-beta7",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "8.4.0",
+			"_npmUser": {
+				"name": "arackaf",
+				"email": "adamrackis@hotmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-LC8UkEzioZxn/GjfTl1Ew7pu5aBQy76JqNGR3AXkW1r+pPufpgH5kLBOR29CmUb1VZFeCeSvdhW+Rq0ns6QXAQ==",
+				"shasum": "a1c32cc0980a759ae59978181af1c2a27842b599",
+				"tarball": "https://registry.npmjs.org/customize-cra/-/customize-cra-0.1.0-beta7.tgz",
+				"fileCount": 3,
+				"unpackedSize": 5599,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbvqwiCRA9TVsSAnZWagAA74kP/17Y+UXfHtLmt2Znyxdl\nPVDc0btyIm6Wd5ApEaAUGvfyUDt/YQhJCAIuSvbV0haEixaH55yYOX+SL/jW\nk5XRzeE12SM6IIwtSa6bGT51eRWMLO99tUSSd9xK16zT76Ty2y+YJ434MhPU\n2KR/7sD1S/TG61ustdQMu8PjU3gPBIe8irknf6mXK6tec42QoCEEtv8+BsWP\nr4muSvyOb3Mo01Kt6lwCOYwCzEYdUXs/S+FlnNPFiKIr49+IolCsjOxWXFwk\nxLOoAAjXR9t5gL0SDr45B9CoKBIWD1qkFSw48i1Q3oTgIM5nNFs88z+oWvxv\nkLn9rv884hzT/W846Rp/+9L244f6PhTQek7bxnHwFTzKhGRCF1ZvZFc+NehA\nBOUkMXpVPIwGKIiNNJ9kSBsx/Hl4CMe9RPgJ9xLgqVxaBHZsHfQAfVrZw70l\nAOe3DF4Jjl3Re/fgXXQvghIilBrlOfg8NWsxfVL1fPumrN8gp62+sZ/HlVQz\nwdGgUboCkEBd2FoFNDNDTAVagTWSFOs3zTLqCwoxCAA1K1Roi/R2LYsUxCXR\nun6YkwaU9uCJU+4fjU7xYcwooCB5ByUmQYI/8ajFJZx9+as/ArLVDICjtTT0\nMUPbOQY93Hid45jNoDZKUgVcBzbxihf4O3ybPOOwjkLg1CKZIIOvZaDftRO2\nh0CT\r\n=g8Yt\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCICA9vWVHUpTHtChH++piqOsVJLvuH5NXtp/9qR2SjaeqAiEA9tK4s+JEOyT5BA4GEsEpXEByXXYspHZYd+6Dak7hRqc="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "arackaf",
+					"email": "adamrackis@hotmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/customize-cra_0.1.0-beta7_1539222562217_0.06272918360250812"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.1.0": {
+			"name": "customize-cra",
+			"version": "0.1.0",
+			"description": "This project piggybacks on [`react-app-rewired`](https://github.com/timarney/react-app-rewired/) to customize create-react-app for version 2.0 and higher.",
+			"main": "index.js",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"author": {
+				"name": "Adam Rackis"
+			},
+			"license": "MIT",
+			"dependencies": {
+				"lodash.curry": "^4.1.1",
+				"lodash.flow": "^3.5.0"
+			},
+			"gitHead": "e45576a8d705163fefd4e344f6a65a4765b2fad4",
+			"_id": "customize-cra@0.1.0",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "8.4.0",
+			"_npmUser": {
+				"name": "arackaf",
+				"email": "adamrackis@hotmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-nzOrO0t7icwMkH5iq/qF3JF0nZ/dIokBwZoUIQL1RuslIFa7qZB3eOCTkU2ITRyZnHLtq068Cvh3vnb0nwxm4Q==",
+				"shasum": "76f93dfce181dc2408c9bdddb83802fb1a7410bb",
+				"tarball": "https://registry.npmjs.org/customize-cra/-/customize-cra-0.1.0.tgz",
+				"fileCount": 3,
+				"unpackedSize": 6178,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbvrMoCRA9TVsSAnZWagAAlEMP/iWqFm8mmVOcqaC2SwGY\nsl7AsnPpiSgiEbyg76/YI7EgQWNQfkoUQJgS9Pd2Qh7YsdNRK9jSeS5lRFUe\ngQIhnAPkyH4FfP3VZcVNUfjk5c/qHGKjcsD6gZj0gxd0DneACYTxIjCA7V7A\nVdnfYzOceuSNk6eydBMwKsqLbcHyblxU7RcnglKJg6qILrIrtB/m16ELhjn5\neiqVR7hj3jJNOtuaSSNQ4dCjPO24u6JQ5YHN/d+qmPhqM5OZCul/G75m+rJl\nZETJmax0pL2OuSOikmYODiA2JfF2lynerBuMzMfWH7VSWE+BlvUnCJowJ0BD\nUzC7EIZ+QtxH7rKxodip55hCwflVgNwvsuBTvjG/HK+bVDKKKq4yGRim+C23\nr9X1Qz7HijfWPan9A9z+f+0nXPLfXTbhUysA0ISbl1Nh6xOsrfMhMnyBNwDl\nz56Mxy58+dsCMJgiJo8I8cq/VZhDzFj3fYtG5r5PPpuAP85wKDBoYkY9WLpU\naTEelxkDnRRhTk8QS+aRyjtjAIGJ3+Kj5UZNaKP0bQv/RNp0mW1n1p2xdRGu\nFwsFhXzeujUTHVJmoXVu7fG+43oDhiV+0gOCZOymTt3l3eAfy8/OXGUZ9Akr\nlciyxvDVKBftmEAzVpYrxxG/bNye5RMTbj8InXlc1RtiCQTYxY2asfGkrSbx\n7z+H\r\n=Xxco\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCErY51n0SjbjiJt853x1DIiAEMQ4MimsdL563BemzkgAIhAMdWHZmqtRtEYiZarwXgjNVVPZJlUd4Q0cqtN94FV0MU"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "arackaf",
+					"email": "adamrackis@hotmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/customize-cra_0.1.0_1539224359647_0.3886444383618266"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.1.1": {
+			"name": "customize-cra",
+			"version": "0.1.1",
+			"description": "This project piggybacks on [`react-app-rewired`](https://github.com/timarney/react-app-rewired/) to customize create-react-app for version 2.0 and higher.",
+			"main": "index.js",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"author": {
+				"name": "Adam Rackis"
+			},
+			"license": "MIT",
+			"dependencies": {
+				"lodash.curry": "^4.1.1",
+				"lodash.flow": "^3.5.0"
+			},
+			"gitHead": "58c2350da09d3dec77ba904e71cb58b61ee50254",
+			"_id": "customize-cra@0.1.1",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "8.4.0",
+			"_npmUser": {
+				"name": "arackaf",
+				"email": "adamrackis@hotmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-Te22FctWJbpkxZDkGxonvjwAO5kvE0dyHik39IrJYk3tTL9wE+y3bo0uhYhh3MS03Soap76fZ5AEs8mkn85WOg==",
+				"shasum": "a32a7e0409984c1777337014c7100f4e5567b06d",
+				"tarball": "https://registry.npmjs.org/customize-cra/-/customize-cra-0.1.1.tgz",
+				"fileCount": 3,
+				"unpackedSize": 6127,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbwJ1yCRA9TVsSAnZWagAA06cQAJEbekBxJrQ9TCiKLhX5\nFIpzWjGdmY6mISbEHad+qEbzQJUZzomrU4uJfO1hU8Jt3fe0lkFcOHbbrwX8\nB9AlRP9rF4g8Sg+A53DYKIMyNZAcqfuiEMZJri3ODsj7uVReh6kdYIYfnp4M\nrT1w1D+0POZUwF83HnRAEm66aVEU++CHFFaTjACBvrTAp9H2OXNHgUGcujWw\nDJzjzPbJChXQeZK/flvTy2qd0ba31IpH01ziw2LZ53B617K/8/9DEzM0mJLK\nefaT7Lff8CQaWAKqXXhTsg52VxSDt2ZFnt9R1ObwlzpTXYiZbHmDtdHiEZcL\nATBtcBAXY9Z0xvFs6yt0SGnKqMonAIH7I2SbZcwAyW/l+os5YMTCKdObBlnG\nwT3vs7EqX2MGkL8wtvd1lKi1vpnrMAJEyBVyOmbSI9m35Hgz7qMhSuPbIJg7\nEoOmIZ6JgGQFsgVWi69XghQXq7smYRQg49Ov4RAKgpdI1jKWSGgUEK8RgPbt\njfCl5S5XCEAIANPbLPO85tvKSc5ETMdl+JHxAa0iAt2Eq6q4x+3rhILla7KS\nxXmUO+H6nTyugb7SjPbLm6/z9Sbpjy+o8V7aMXyDCeq9a3qn9QsiLk2UQ9DQ\nvn0CcAGjhYwEtHUd588SRO2S67MtivPx1/0XuOZWZ6gdWkOimXhidtIs3k3E\n+rUT\r\n=GPUz\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIHL5Zihf5YwVpPxuB9qHh1Bq7psHyNqu16fBaxMUhGvRAiAhFBCyWNAsUSE48U9xalaksp4HWVKtGACKfaPWLdkB5A=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "arackaf",
+					"email": "adamrackis@hotmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/customize-cra_0.1.1_1539349873850_0.5852969489572131"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.2.0": {
+			"name": "customize-cra",
+			"version": "0.2.0",
+			"description": "This project piggybacks on [`react-app-rewired`](https://github.com/timarney/react-app-rewired/) to customize create-react-app for version 2.0 and higher.",
+			"main": "index.js",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"author": {
+				"name": "Adam Rackis"
+			},
+			"license": "MIT",
+			"dependencies": {
+				"lodash.curry": "^4.1.1",
+				"lodash.flow": "^3.5.0"
+			},
+			"gitHead": "cc1509dc8f54415a5dc714261cd286845e50d6de",
+			"_id": "customize-cra@0.2.0",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "8.4.0",
+			"_npmUser": {
+				"name": "arackaf",
+				"email": "adamrackis@hotmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-WNt5jisc+JOaJAOOMYC3cSJgyB1QX+dGFXKJokru49GE6iNOabPGQSekRv2WwFLn0owWwKKTlLH9KJOVZUoo0w==",
+				"shasum": "d95e98a61fbdb6279aea13882ca43312c8a35e68",
+				"tarball": "https://registry.npmjs.org/customize-cra/-/customize-cra-0.2.0.tgz",
+				"fileCount": 3,
+				"unpackedSize": 7818,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJb19r0CRA9TVsSAnZWagAAJecP+wbkztIBI9zOf1rBYuLc\nJH8CE6qygf/BpBQdVwFAUV/VAVHpc0MTf4478kssZXtXtGjljNW729cb/wHX\n9qjbPMYva48u7LEDQpJ+75mtnKB1rjzlQf8ARtUOdNreAxmR/Wcw61trk3T+\nouqYj1F9JGa2bYZtlUTW4Q5xriyfU6vMmI/w4sePyIOoYtjYgOwln6o53wmE\nV8K+eDuxnvzSPUORiGGIHNa2GZzkCm8cljtUm4V4M8ZNbmZfogAqgAY3e0b7\nDjgW/0KA4gVGREBF0Lf6Hq/mNW3ofYGy6HySiDc3ffSelogA63asajnSuDrs\ne6gRDqEQlvtqAdvdlfzyPyPclD6157L+rzXS0a9fMal4i9NeCFs35zJw50Xk\nToDv1Hkw8n77NFGTtBn9uGBZTKg9+gvRRh8V0f3pdc//RBKi0f6C2og6L7z3\nUEK+Xa4kkm2sxsNS/BU6YRMuwdKY/kqd49iLO6n+Qua0L5VPt00BAnFWW2CV\nMsTGR1hE/y18ToVxvCjhHGuxZksoXw7A20YcNdq3AIB+UymSDT9suIJyEv3l\ngTEO5ZZEHOkfVSRztzy+7/DOPUFaJLiVKWbT6JBg3NMN8t6ns8n/7JdE8OHt\nNav8fE5tjKlglfSx7rx9ok7wzJHAFgfGUQVm61RRz/HKhtEm2MEw+LiYe8Q0\nIcOB\r\n=GfX1\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDVtgqvr+NRO30iHyq1/mmY1GumvOe+8zyAEyTKYqkTRwIgYYsh4rvjW30iN6C1CPFKjRw5NhlLyasExJHu1c/TCvI="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "arackaf",
+					"email": "adamrackis@hotmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/customize-cra_0.2.0_1540872947610_0.5710099506491797"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.2.1": {
+			"name": "customize-cra",
+			"version": "0.2.1",
+			"description": "This project piggybacks on [`react-app-rewired`](https://github.com/timarney/react-app-rewired/) to customize create-react-app for version 2.0 and higher.",
+			"main": "index.js",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"author": {
+				"name": "Adam Rackis"
+			},
+			"license": "MIT",
+			"dependencies": {
+				"lodash.curry": "^4.1.1",
+				"lodash.flow": "^3.5.0"
+			},
+			"gitHead": "9341853c8854d6d5169b190f7777808e32e8d9ee",
+			"_id": "customize-cra@0.2.1",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "8.4.0",
+			"_npmUser": {
+				"name": "arackaf",
+				"email": "adamrackis@hotmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-RSa8e8dn4oP9qskCCUvH3eSdFU16N/6VozsIoSgcGoCtDKiZkTIm09Rqv9h2ZPyS+f3LiW8hE/A9uOGUgHnOdQ==",
+				"shasum": "bc464f928278009687ebaa128ede6f02ffad7414",
+				"tarball": "https://registry.npmjs.org/customize-cra/-/customize-cra-0.2.1.tgz",
+				"fileCount": 3,
+				"unpackedSize": 7946,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJb2b+dCRA9TVsSAnZWagAAYDQQAJ+QgZsNU9xNWEMndFNm\nY98H2Lq1t0TfEVNQylpxZINIzjo5ESOeND8+upxPfWOJqbzOj97qR0OJed/1\nixtsWI7lFzzkcKM+cETv5BycZndjINb7OqhrqPG7gJCXIirNwtJGP4H/kFaT\nWBk9i2FsatDntPXmUqQWSb5jpM9dPeGrOk7ZTaalHDXZxUzb9SqAL2p9Gzd/\n0QaUsPJZ9nWVh9MEdAco2E4qPmHpHMXxe8ZoqnKeZezsWgb/lH4deIi2jbS6\nbQ/ug5drQtPmq3MnQoF7f0RDpuzEkb8wKgJ/RXxvT2/2XXAmHvJUvuicG4/3\nLrgQsJ93zFlPWlBILyH75yqWuUcrSPzI/afil8FQndVaT7W8Xw3g9T7XWszA\nMJV/vcBpX1hauzj9Jz8PvGMUvSpCdq2zG01DAfmXKiq1lkg5Umulbm62kUvT\nXmZhE3S9qFFUFalhneCmTqiKUWRwocA622Ye2g5+a1BswtCfpabX2CMHjAEw\nBWEs2fTo2jRplxr12oYHgmD9+U8e+utCf2gEMHQnp+JoKESjT9uxOKPgRPIf\nXnJoPYWmackUDXqbBdPl/ZZGmKF+EEOEKRah81fxicHCWRCQ8q+em/HZiYOs\n1mhPRNrcVmVliGkis3hkhM9AGli0pWxiR8aKQr1n6IwWaQSpZNxP+KMq5LzP\nbprx\r\n=CBf9\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIC0VYuEFSJuY3BInsn00UB4J7B6jip/jBgfAl3z2awr9AiEA12tFiCEfmQbLEf0OXt27VkflGhxe1f9feYQq7tjEWeo="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "arackaf",
+					"email": "adamrackis@hotmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/customize-cra_0.2.1_1540997019410_0.9861152008594278"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.2.2": {
+			"name": "customize-cra",
+			"version": "0.2.2",
+			"description": "This project provides a set of utilities to customize the Create React App v2\r configurations leveraging [`react-app-rewired`](https://github.com/timarney/react-app-rewired/) core functionalities.",
+			"main": "index.js",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"author": {
+				"name": "Adam Rackis"
+			},
+			"license": "MIT",
+			"dependencies": {
+				"lodash.curry": "^4.1.1",
+				"lodash.flow": "^3.5.0"
+			},
+			"gitHead": "db1f0acfb404a14186c0f143bef343b9290eca92",
+			"_id": "customize-cra@0.2.2",
+			"_shasum": "342fa78be6e1ce1818376af0e5f1912ea170660c",
+			"_from": ".",
+			"_npmVersion": "4.6.1",
+			"_nodeVersion": "8.4.0",
+			"_npmUser": {
+				"name": "arackaf",
+				"email": "adamrackis@hotmail.com"
+			},
+			"dist": {
+				"shasum": "342fa78be6e1ce1818376af0e5f1912ea170660c",
+				"tarball": "https://registry.npmjs.org/customize-cra/-/customize-cra-0.2.2.tgz",
+				"integrity": "sha512-uccva3GpTDRhK8qV4TlxVjfmCIVK2ALcnDUqM3XMhtp+dneX4/vCZxa1oFpn5a35PCgP+2i8r7EqurlCMcrmqA==",
+				"fileCount": 6,
+				"unpackedSize": 10525,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJb3H2mCRA9TVsSAnZWagAA7nAQAIQBbEtKPJPPL3cahrVL\nCtK43+mLQYZfCuF8W1Ucgyrg2N/MGNn71+8/Pw7w1hoh1S0bLy2OMOKYEsyD\nF6ev7lKh/9Fxhbu773+pUIA9EimXddNzDXSThXS40a4Nnrz1Apt3E8BFNx1q\nsKZAjQuuoP3SbfTQy54qc1At4/QFo/klBEK5m+yTZIBazY8qw+YjknXCVttF\nXnG0LbItvDReMA9ToKHEFD1EOgUGwcTIKGqDKorqYENnXhDR5h4obYpsFLHZ\nvwQ8S8sAwu4jomjx9+I+L8QydrR0T/fowdHvcaNRfoyAJRjhInPJI1WBZ8mb\n0NqCjCQrM/SkuM0KwCm59c1cnCgNlKahODlshSxZL/+55Sb1FKItn/Q8w6qc\nSusfJ4XkCCJHxgk3C+C/W1uLgWOwpGasqb6gCQP/eEJLvQbx1aLiW9ava6u8\nwdDjQmPAeH1jDqGa65EdxwNfgyU7ZY6uy9/R7b5g2IsbYn8n929OaevnD8lx\nvp2r8jmp/jj4Jz8lInGCsBh37cXI4lXqjTpUsksposC8FcxCVLxgqRBRVYit\nNmuhdov9Md6ZZABOYMU9sdHyIXKsefI/ycjnUs4GFLoNCvV0ipepNCxmzXzD\nUmla848P7SlSN4VOZDvk0dHMzsg0aDzHRl8EC140lYM6QtXGKn/MCQlEOVZc\nalN/\r\n=uckO\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIC8Hdgo6mzjvEurq2CzVH1T3qWC28xBHejFUlAaVzj8BAiB3Ra8ZTwppnvhsY3LmxPouF3Zu6c5q8U8JL0oF5O2Ysg=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "arackaf",
+					"email": "adamrackis@hotmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/customize-cra_0.2.2_1541176741897_0.9864136839554452"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.2.3": {
+			"name": "customize-cra",
+			"version": "0.2.3",
+			"description": "This project provides a set of utilities to customize the Create React App v2\r configurations leveraging [`react-app-rewired`](https://github.com/timarney/react-app-rewired/) core functionalities.",
+			"main": "index.js",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"author": {
+				"name": "Adam Rackis"
+			},
+			"license": "MIT",
+			"dependencies": {
+				"lodash.curry": "^4.1.1",
+				"lodash.flow": "^3.5.0"
+			},
+			"gitHead": "54459980012f9895de533b53b67f2697e5f568ee",
+			"_id": "customize-cra@0.2.3",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "8.4.0",
+			"_npmUser": {
+				"name": "arackaf",
+				"email": "adamrackis@hotmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-DrqXBFOewzl2zPQ1FdGI6u2F+BLyxA5WOSRpGnY9BIvsgKkXWq941Uhrji87v/z7ZGtk6vVH7kqJ6xHd4yB88w==",
+				"shasum": "2399fd91c2e2d94d47014dc568e51630634c4189",
+				"tarball": "https://registry.npmjs.org/customize-cra/-/customize-cra-0.2.3.tgz",
+				"fileCount": 4,
+				"unpackedSize": 10491,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJb30+rCRA9TVsSAnZWagAAgn0P/0TsUNeYgfsIh7NFaLbr\nT5Ezla1ww3tYZ3KvCyaD/RwaVhbUzSDVaVcqNayPfDw+S+Nmalv+felJo+n8\n5uKFQ/7KHkQeSvdPrwPDdXcTyQJFy58gBq/vNpwaLtq9e3RmpSF4viij59dW\ntpyFiYA5v3UR3W4XCGXzW3mmqR1KDSc3apCFcmzT+lIgWm9vqIlqMdvbBjib\nui4eWk7rAURLh9TY3EVq/aRXRfn4TqtN/73DbUDYNx+t9MEV6vSpnJPyknJk\nYYwl2TItjDm8wO4yDhWJPZ23RLkhEVC17OO6QJsZMhpQOchQkhphLL3Ze3lx\na6RtpBv+mNAEz2ccGpfRaerfYYBXfZPIAGBW0lzvzjVFraoykpi0clA7Z3He\niufRSwmGeu8OB3nqgJjRaM3i6z+MGeqvNJRvh7hCqMcFK04gQgoU2bTa2w1X\nH2aYmBLVtyoAW+mNqUYsOwbOZyM6onsuNaHbdC3uamLaCHJ4kKV+GfcGwQMO\ndl0x2fFXW5wYuA0l+BLGd2+KcmETgsc9gyIz1/XdKEXOQuMKP8oLvhZ7FOOX\nYiA5q0a0JDw3iixdaF9x8GnGCxwYrurp3vctoGHasjIyrxEeuuH9qjqfSADh\n6oKdyoz9j4gp6+8+CvWi8uVCWp4IPerq4b58jBlPmcRk371us48ZM9dL7R2Z\n80WT\r\n=VMF+\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCWopIr+jvF+gJFm4exN3PYdMh6e3Plm2iovkyRUhk7zAIhAPfoYUAIlCOJVOPe46MwymWTUTnCzpacjguDoe7P+fQw"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "arackaf",
+					"email": "adamrackis@hotmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/customize-cra_0.2.3_1541361578296_0.2227841940680384"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.2.4": {
+			"name": "customize-cra",
+			"version": "0.2.4",
+			"description": "This project provides a set of utilities to customize the Create React App v2\r configurations leveraging [`react-app-rewired`](https://github.com/timarney/react-app-rewired/) core functionalities.",
+			"main": "index.js",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"author": {
+				"name": "Adam Rackis"
+			},
+			"license": "MIT",
+			"dependencies": {
+				"lodash.curry": "^4.1.1",
+				"lodash.flow": "^3.5.0"
+			},
+			"gitHead": "f6062d3e9d5a735544cb384ae8c0bd40b2cca527",
+			"_id": "customize-cra@0.2.4",
+			"_shasum": "5f8cc5f17d7c92f97f569130dc627624f3f67dd5",
+			"_from": ".",
+			"_npmVersion": "4.6.1",
+			"_nodeVersion": "8.4.0",
+			"_npmUser": {
+				"name": "arackaf",
+				"email": "adamrackis@hotmail.com"
+			},
+			"dist": {
+				"shasum": "5f8cc5f17d7c92f97f569130dc627624f3f67dd5",
+				"tarball": "https://registry.npmjs.org/customize-cra/-/customize-cra-0.2.4.tgz",
+				"integrity": "sha512-PLEsnIPcXMxFbSwbvy2leLcdnPVeZGLScdeiTr6ZowQnYUddjnNNOQ08hVIIvbhYwj2a+elaBWloW0RqMV25cg==",
+				"fileCount": 6,
+				"unpackedSize": 11673,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJb6HnRCRA9TVsSAnZWagAAiAkP/35d5Kb50/gm5wPqgE/A\nnRKJBIOLlT35YLpZLzIAYVkYD5nLtfISdtYu9WsNisGLHFmQ5IEhkL2WS5fW\nrJvz0F8/MyQNDJINSo7B5NztGn30Z+bF7XDNt1pZQsAf4vvLMcExMqfHM7NB\nz29j4dRU6lQ2KxyZy9NAnOnstVEpchd1tEboLAdpi1kUAJ1618l9IHyXVDRz\nk7Wr3mOnmYF3Asl273fCw2u5ERsPe6iWj94bqxEa3nyWw1L+xIt0QtE2S3dy\noj2bs1lBRkUTW6R0FkDYkZM2vRklLr9fnBbkvbdo+38LXAmqPXFmFDfL02ig\n7LLut2DdTXpwDD08PY14ffEGg+tiRPVTzqk1v3weB447MJqGnzxs5KDnysDr\nAV30lpLyRIMRyT0vmUW1CW7yMpUhjFcFXvdAdVJklGVK+JkRT8RODDzQkrlf\nvFoUgZwVgE/rDtankjLRVmrk6VM2qT5ieaVn/HAuFZ/4wsNegP2F34qnpjMP\noO7kxl7P0+e/7iXbuajXOXVU11B88+EsY7a4UFg9PR+KjMnWo7AUn2eA3wRS\nERg9VH8cgU4Sh8J+coh/WzUFngAMLWzhmxRwp77uQS5VeocLBzDJJAuLNGYR\nRXtY0y3FMgVvQI9sxNaNfA8dSyk2wVM8PgDACvSJqMNHF89OCc395BuWCSOc\nq/Q+\r\n=87jU\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQD9IfGu/+eT665ptotL3uY/lw7nPXuWhGwgpGKQ0r38CwIgU1cD7eMW+YUoFGm2KV8+XQbMWh/SldCiTJNfW2ieyec="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "arackaf",
+					"email": "adamrackis@hotmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/customize-cra_0.2.4_1541962192907_0.5785149828160367"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.2.5": {
+			"name": "customize-cra",
+			"version": "0.2.5",
+			"description": "This project provides a set of utilities to customize the Create React App v2\r configurations leveraging [`react-app-rewired`](https://github.com/timarney/react-app-rewired/) core functionalities.",
+			"main": "index.js",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"author": {
+				"name": "Adam Rackis"
+			},
+			"license": "MIT",
+			"dependencies": {
+				"lodash.curry": "^4.1.1",
+				"lodash.flow": "^3.5.0"
+			},
+			"gitHead": "6156f3d0100479d3ba8c199b30e9cad2d4af907e",
+			"_id": "customize-cra@0.2.5",
+			"_shasum": "953b7194dd0ad278128745557bb587db56c24050",
+			"_from": ".",
+			"_npmVersion": "4.6.1",
+			"_nodeVersion": "8.4.0",
+			"_npmUser": {
+				"name": "arackaf",
+				"email": "adamrackis@hotmail.com"
+			},
+			"dist": {
+				"shasum": "953b7194dd0ad278128745557bb587db56c24050",
+				"tarball": "https://registry.npmjs.org/customize-cra/-/customize-cra-0.2.5.tgz",
+				"integrity": "sha512-AelkqHznIs6qfucHinMbY0ys1i/cKHLiqth0/gr6lkUuDz4VlP0XDoKhrT8fX2LyC191MMpV8MhI7pbOpX0yOQ==",
+				"fileCount": 6,
+				"unpackedSize": 15659,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJb7tw6CRA9TVsSAnZWagAARz0P/iZ6ZJUX7sTp/6qrZhyh\nD/4jSY4kAlUBCFjvSOE8oRGtdf958AFCFSmckUnyB4oR6GtY1l+iSW08VoWp\nw3CvwIFTkfuq4eEBoOpEyxw+QYHfmxwOI6iuE4cDd+t2XZy3yhA9aiUYIPg5\nH5eUZgGqaDYz2VvNU4IBK6zFWeEUtKM9qvXvRDxI8ngW0ityuidVf4kbgpa0\nk5fc9aPb4LRHC4jKmrkYG6TX6Wri1JZ/muTwPGhwez19bs8/arHQbXzrxgey\nRLsLgwTJqKM4Pghvr/RgdERMsJSWSNS9InUh9zjBzMbzvD626Js0Jhr585ua\nk4D64LAE45JSEPQZ0K4auoF0GMFjnVyDuGgH4cuH0lXJF2dNA0it9fGWhIv0\nds4PX/YUKVbl4EVZ0UaEUJAv5tCgGU1AJPPoI6xa9CB/iYwx4s1AksRpPb43\ngOE5TXXeWHW2AuNfpQ2inqX1ZoFCPXTGI4MXZHa35txsSXImvS/rRHEsovhM\nyrfWnlwFLx3SxPO2i3P091cN5vRT8336ptbnL6/rYUpTZWHl6JhBcphUNAEM\nmoNh9G/3vqfbhKQ9MNvh5EirUTTlDrHvT2xdcE8Gt4c6b3tiGdEdx23Trsfg\nvECHAny0q64ReSjkK5CxvThyQLvnXaw5n2Gnt64itQmIxhbjJCCrjCSBsndc\nOEou\r\n=hUA6\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCADacLyDIkGRqfkH2LBglzcPLSnhTEFINn1J7y663a3gIhAOK5LDsvDdOs5Nzzdl0N1GvcjXpTyULW8d+eGr9YBl5g"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "arackaf",
+					"email": "adamrackis@hotmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/customize-cra_0.2.5_1542380601703_0.8379869797024921"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.2.6": {
+			"name": "customize-cra",
+			"version": "0.2.6",
+			"description": "This project provides a set of utilities to customize the Create React App v2\r configurations leveraging [`react-app-rewired`](https://github.com/timarney/react-app-rewired/) core functionalities.",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/arackaf/customize-cra.git"
+			},
+			"main": "index.js",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"author": {
+				"name": "Adam Rackis"
+			},
+			"license": "MIT",
+			"dependencies": {
+				"lodash.curry": "^4.1.1",
+				"lodash.flow": "^3.5.0"
+			},
+			"gitHead": "f61b8524671756c17abb27c762e316572b40f06e",
+			"bugs": {
+				"url": "https://github.com/arackaf/customize-cra/issues"
+			},
+			"homepage": "https://github.com/arackaf/customize-cra#readme",
+			"_id": "customize-cra@0.2.6",
+			"_shasum": "fbbb7f56b766ec4a0ad5eee3141678e9d1d0ff17",
+			"_from": ".",
+			"_npmVersion": "4.6.1",
+			"_nodeVersion": "8.4.0",
+			"_npmUser": {
+				"name": "arackaf",
+				"email": "adamrackis@hotmail.com"
+			},
+			"dist": {
+				"shasum": "fbbb7f56b766ec4a0ad5eee3141678e9d1d0ff17",
+				"tarball": "https://registry.npmjs.org/customize-cra/-/customize-cra-0.2.6.tgz",
+				"integrity": "sha512-8a31KYVqTchUgm9zEm/neZos5IyczKsAcmhWcSD8T1dG+bj6vuKysH3Sz89vPGRllavVo/xxprKJF5xQQtLRkA==",
+				"fileCount": 6,
+				"unpackedSize": 15696,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJb9iihCRA9TVsSAnZWagAAhzQP+wY3bMo3H8UAtdUGa0tB\nEk1tqOXBagzMc/4x6dP4JbPaX/PKiguoY8tEyn83Ih1Yoo6h+uEqDNOZgVfb\nC8bQ+g0hd2/4lbY4t85hBdNpq8IGIkWCt+MAYVm2vGt0qNv3X3Iy5X97VU/b\nIwGmONCkBWmLz9rxcyS/JQXLON3p/3gxuAQRIAUlaTJY57O2naWsWs4XkxDj\nG3ywUGiwOq2U1O0iEYIkJGvCM4HW9wSeEjQTYcpaBs2sVlQ8SD5S6XUn7ldW\nfYvRAQgASGHa6JqwHzJpCzdoLoJhKRpRKSq7zRSDZvGAldnR/3NbqiyHIo7K\n/fccbDCXPctXQlC2UtChWqVEzL4zh97ws5LapBMCH3ggf86XI8Ro/5sAAv/E\nwuLYC9uCUDrQzrCd6I/joU8h+kq/nABmlDt1c4v9oWzM0e0X8ZXM/8QE3MQ0\n2Pqf3awlQ2y9iG41ByhCpkvdO96h9gKoosiLAq8ozyEuFcl1tihneFeoo7uG\nxB5UylbFnObgwUtxu2X3gnNgJImw52G0TXRfEvu4/YBj2TvsNz0cLQPa1hdS\n9twhRJrFsMSiefd6c5wVEtRfHEd4O6p9nv9FMGn9XyB2cIJrt41bOAGM1DZe\nYSNoCvz2x0zAFHvBiJMgp9mtGQ8athjliUf1bUax5qe1dqnv1swqWBcNrfwk\nz+gB\r\n=5d1E\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIEh4eZ2SgaUwoPyiegrlsXVbC/8r16PltcAQ61Sh+hCCAiBWD6ctyof0yL+ubz4vWtRGKPeoTWcjjhB9ZYRFlnJhMQ=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "arackaf",
+					"email": "adamrackis@hotmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/customize-cra_0.2.6_1542858913220_0.980455093813045"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.2.7": {
+			"name": "customize-cra",
+			"version": "0.2.7",
+			"description": "This project provides a set of utilities to customize the Create React App v2\r configurations leveraging [`react-app-rewired`](https://github.com/timarney/react-app-rewired/) core functionalities.",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/arackaf/customize-cra.git"
+			},
+			"main": "index.js",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"author": {
+				"name": "Adam Rackis"
+			},
+			"license": "MIT",
+			"dependencies": {
+				"lodash.flow": "^3.5.0"
+			},
+			"gitHead": "c247b462984b3b4cadc7b8ea92e8afd1ba85bced",
+			"bugs": {
+				"url": "https://github.com/arackaf/customize-cra/issues"
+			},
+			"homepage": "https://github.com/arackaf/customize-cra#readme",
+			"_id": "customize-cra@0.2.7",
+			"_shasum": "0e85f5d4a852f1f692f9748458f9029adfe991c2",
+			"_from": ".",
+			"_npmVersion": "4.6.1",
+			"_nodeVersion": "8.4.0",
+			"_npmUser": {
+				"name": "arackaf",
+				"email": "adamrackis@hotmail.com"
+			},
+			"dist": {
+				"shasum": "0e85f5d4a852f1f692f9748458f9029adfe991c2",
+				"tarball": "https://registry.npmjs.org/customize-cra/-/customize-cra-0.2.7.tgz",
+				"integrity": "sha512-eQA6kGkO1e2g/cm7RIae4F/RIhjbe3EVkotBz2NZu8zpkCwJ1KCQpCBZXtU47XiY12Fpoo4pz0CJZqcN5yH6NQ==",
+				"fileCount": 6,
+				"unpackedSize": 16314,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJb/28aCRA9TVsSAnZWagAAR2UP/2HdvrBtH1VLUvTPBcxo\njYoNSqGOY8xbydHgEVill6OYnS2s1lNld6KJEh8p7OtmqqclHtjSF/SqUHbG\nbfqWQR/fHrH4DnSZHsd5RmfLjm1Ndzksg4htggs6f+f+EyRqx8VkP3fES3IH\nLMhwAPxISOMH9nng0sZ0URDP45w8Ns7djckUuAWueMqD4iJg3+2FfSBSut5/\nUT6fKNYbnMH1WXSwmdlecruQPEDfWJ5xForIMuPRctqVPQV0Zvmr/FP8wctu\nyMCKaAldXpffANlsbmYZWw3xB08l95D6qI20sjkITXaqpntJ4FO+zZNrzkVo\nTECuNBqjqTfwA3H9IXjGNv5KEDN27ToNXksQXvi7x90Vv+upd07xylQni9nD\nZY5AWdLA2GGxUma2z28ngv3HJ7ILNsxOb6L/lBTHjGLN4WKwjxIVZMxxAVb0\nv+Aa1UoCkG8PPucCZ8ihUvrhl+i1ttoK59dXOolwDt+CF5PhTR8JlRF5JDjL\nCw4VHmvJMZE+VCDJaqrETlkeLgKeuGc6EbaUDlzgbaWa7BC/Vy3GzVZ7FFJq\nOGgppExb2vXCxVhoLVRBQdyk8drLdgW4mwrRBWk2ZnLB+Rpa5wvuFCDUkj0+\n5J12/rY0BqOBXPjV4TlAk3EqWlgq3u738oPMBXvr5YQlcgmUYjZM7EXz470P\ne/DR\r\n=oj05\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIBH+6qoCJMbPSjdYvjacQQL4FB6IoiA/ckgpdhs/fufLAiEAkW4mmAEVUux5HhwLKVCvIZrDznOEkF3ZuFj+xjcoG3Q="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "arackaf",
+					"email": "adamrackis@hotmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/customize-cra_0.2.7_1543466777607_0.6128790584190587"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.2.8": {
+			"name": "customize-cra",
+			"version": "0.2.8",
+			"description": "This project provides a set of utilities to customize the Create React App v2\r configurations leveraging [`react-app-rewired`](https://github.com/timarney/react-app-rewired/) core functionalities.",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/arackaf/customize-cra.git"
+			},
+			"main": "index.js",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"author": {
+				"name": "Adam Rackis"
+			},
+			"license": "MIT",
+			"dependencies": {
+				"lodash.flow": "^3.5.0"
+			},
+			"gitHead": "d0ba14dbe2ba4bce4a97d5b9b2887785cf4a7d22",
+			"bugs": {
+				"url": "https://github.com/arackaf/customize-cra/issues"
+			},
+			"homepage": "https://github.com/arackaf/customize-cra#readme",
+			"_id": "customize-cra@0.2.8",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "8.4.0",
+			"_npmUser": {
+				"name": "arackaf",
+				"email": "adamrackis@hotmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-zFH6IpWLEoR9ySb3q0B8zuBYqzw0atp2KsJ+ti1OcOBKK+uozGRGXmI8ttPSMTsM/LpFkMYZRIJ7HMtLHPBogg==",
+				"shasum": "d2f86111cf9c97034091e98f2a7b016dcdabd3ef",
+				"tarball": "https://registry.npmjs.org/customize-cra/-/customize-cra-0.2.8.tgz",
+				"fileCount": 4,
+				"unpackedSize": 16526,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcFbcqCRA9TVsSAnZWagAAOxoP/0DSQYFvB+wVyEae9aMG\nQu/WXMj3I9pz4xWbS+LI29A9bMhK3SQDroPu0q6EdAzAj/sIzoEDdzXPbhLe\nM0JH4sirucRTvzIXC81R+IiMcpBR7GAweUY/N9xTw8vXFmHi4aK0E2N5lgVc\nmVL6x+Q4FCozp7cwRqq24heS5w9px5wzpXTuUM8SRRc+NGgxD28KTS/ItTB/\ncxxbHDREihXp2zHWJf8Eoo8us3w1kLvMf3NPeKl/DqU83pU78CBCJ9ldoy6W\nP3bmpzRMbuUqvdJL2y8QdyFuYMny55Vy4w6sIcLr3BztYbbmgjF7o9b+BlJS\nT+xvoCUnnVRnpKWwOiSayqllvDZFO0WQS93So9HVKM+hSg/m66JJfRtd4ev4\n7vC+njm6Qh8WLsg/D1vWxMCgiZv3cxbJkttBifhvYa3wpSSd8/5lIvedBBRO\nf/8rumGRAHcVULxE/PbPuTDqbnkIDhupw+LU5utW0ebDgxMjrAUg81TQeoTA\n9DFT5Wdkaaa+fIKMzWnc0S/69BT8L0wloJRVTinzFABVE856DFW/77lAhASz\nYJgCVX5NxtByYWLYI/QFV7TRdBolh4WHtnOUMl7moBTw2eqDvhklFqaXLVps\nVxqiRuHcGzYRztjD+phRuCgyUNFlo8GMJ3ayTG57Rq2wcqShK0i0kJpxtirW\ne5O1\r\n=3qRi\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDu7nQG5DCV0A+ViHJ2H7nbqsnftVfVAANsU0BgubGnsAIgFTQRMXxYjHNuugz8T1jCzhRqg3JfHiJBhJiWgusdp6k="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "arackaf",
+					"email": "adamrackis@hotmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/customize-cra_0.2.8_1544927017577_0.38916441770628785"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.2.9": {
+			"name": "customize-cra",
+			"version": "0.2.9",
+			"description": "This project provides a set of utilities to customize the Create React App v2\r configurations leveraging [`react-app-rewired`](https://github.com/timarney/react-app-rewired/) core functionalities.",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/arackaf/customize-cra.git"
+			},
+			"main": "index.js",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"author": {
+				"name": "Adam Rackis"
+			},
+			"license": "MIT",
+			"dependencies": {
+				"lodash.flow": "^3.5.0"
+			},
+			"gitHead": "95ea50c8a181e0ad4ecc7201bea7c7aca02fa115",
+			"bugs": {
+				"url": "https://github.com/arackaf/customize-cra/issues"
+			},
+			"homepage": "https://github.com/arackaf/customize-cra#readme",
+			"_id": "customize-cra@0.2.9",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "8.4.0",
+			"_npmUser": {
+				"name": "arackaf",
+				"email": "adamrackis@hotmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-X6QLzxanBPavpozC9EwBadxMlx2n7z7Cto9AGRwdNY7fg7oMJX3z6GIQptzVNn9fM1ZZa+ohLWpLPrqAGid7vg==",
+				"shasum": "9a6694c1d8671b548369e273945d6831816e5a78",
+				"tarball": "https://registry.npmjs.org/customize-cra/-/customize-cra-0.2.9.tgz",
+				"fileCount": 4,
+				"unpackedSize": 17425,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcMYJYCRA9TVsSAnZWagAAdh8P/iVZgB6+5h9aYGRZRby0\nSEJEN4j/wGj85DbU/s1pWpZA8qTOylHE5vgELuX1kv3c5gQaNOwKwuy5P06I\n0+kpc1UCvFedoucCUR3GCGxYFBoRMtTP0vHpuinJxP7ZK1dhuiMxhfG/vG5D\nvu+lczyxgyoBQDSxHBEylY0v0s4tsBHeC8ejJjDQRcAC4XIXZqoFmd1BfKIR\nbFsl8xJAlGYfmxVNIY+O3Nrmba3q0E5avv3BBLoxYc5MTEaZ+0lnUbJkLpHq\nIg7ncS+Rwy+v1ZZTS46abTVirkGVz+audtQLYFLb4dVwGdrCmWB+6yCWFX28\nF3ugIpM57y88asvzoRuaDb0EICP/ib3zb57Q/mVc0Juh6RxDhksiGfcPQ5k8\nW5pcvABPZgJIPumtNCcUlmqFCPat1z5TddFIVbZNLC15K4If9QucC5Lq+yz8\nfjrwv7b6BYWmoLL4BYRRvC0zBqFXOtr66brPI2LMGAJtKWhWfZGXgrdzSv/6\nYByiKqxv+7SNs/TarpODd5kxNjnnMH7mo9qjG5+j/CcWtJ/EKmzGuNb+ReyW\nAziVqEF4cbKWHsZvwW9tY6rtzypJs8kCsQh8cw7ImlC9do9MtbIyplPUXA+q\nLrskodJiqBMoIDAlZDikM4v4vx3v+XJZt43etoEHLe9t33Xpxppjsa4KdOsd\nvhMP\r\n=pXbH\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIEHON8IeBPF7pA8wgatj1xaq4Mo2eel7m75ywoN8uIiDAiAA2UM8CvyBWSitPczaTHh4W19vxRGQbJgv6thuAnyBQg=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "arackaf",
+					"email": "adamrackis@hotmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/customize-cra_0.2.9_1546748503938_0.9841057719029069"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.2.10": {
+			"name": "customize-cra",
+			"version": "0.2.10",
+			"description": "This project provides a set of utilities to customize the Create React App v2\r configurations leveraging [`react-app-rewired`](https://github.com/timarney/react-app-rewired/) core functionalities.",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/arackaf/customize-cra.git"
+			},
+			"main": "index.js",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"author": {
+				"name": "Adam Rackis"
+			},
+			"license": "MIT",
+			"dependencies": {
+				"lodash.flow": "^3.5.0"
+			},
+			"gitHead": "9109fcc56632f02be7aa3ba1bc07cc7bfce5b8bc",
+			"bugs": {
+				"url": "https://github.com/arackaf/customize-cra/issues"
+			},
+			"homepage": "https://github.com/arackaf/customize-cra#readme",
+			"_id": "customize-cra@0.2.10",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "8.4.0",
+			"_npmUser": {
+				"name": "arackaf",
+				"email": "adamrackis@hotmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-zFjz4x82tG64DEwPu1bmXrGP+6fR8FoBu//TBAcqdq1506Gxov2npiaWbc8CFuOH+WxnzXoyP6hlg9pjuE5TYg==",
+				"shasum": "256ef5234e8446caccdefdf52a22abb702350fd8",
+				"tarball": "https://registry.npmjs.org/customize-cra/-/customize-cra-0.2.10.tgz",
+				"fileCount": 4,
+				"unpackedSize": 17445,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcR1fcCRA9TVsSAnZWagAAuVsP/RaluF3c7+5tdPWCqt4D\nxtCWXJkwc1bOWD214U/r8NTfs6rHHjjvHaUPM8ZHpdUPnoEvAn287iWjRTqu\nNJuqAdd+vgZ/+S9qs/yKnCriHRvwZ0eT1QyzU142JLeesosH9Tk5oGJsFpmS\ndaDFvrN72s9fEdP2OnR14dF4J/+yk2j+1PtN+S9+2VIkyLDJlThbqGulBQmK\nNxlnGwI14WJYQE9GLoFczApYGzsFNC3wGVZjqZM0/GTzObJTUN9eRkkAXVfp\n/VOeXMfTgXzWiSdnHWolICfIrNQ/rqU3xkPkvVL/5zIu1/oK386b/7HGqQ8W\nnKyEds0SM6Fi48KNlWfQaf/OxrO97f4z/4WDK8eQfKB2E9b20clAq5WgDAhq\n8F2KzofeOyC/F8aCn57ajjxvZqRlimjSVAFGXtSlxd9lYWiSv4S4nD16BlIn\n8wzMSJ8CN3UXo1mplKlPTKTv1FdBjf8NzdQHy3gmpoRYW7+025Rj7qcOTVrK\nzX8+uP+iQxX190yKWmuwyLgwrXj9j81NmtiGrwLNCDbj4fchHq4kcvcYykk1\n3/n7Kr9WA0IBKBMbOknw4b6786XoFui45VxEzRyfXFE96IijXHW6yG2chl8n\nWKgUPHY6WMIxursiJSr/H3gBEkFZfdb8gn/Mda0RMlzgNYZW5wfMML0Pybio\n5JCf\r\n=FApR\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIFnblpa68JZxoEaS8p2DhaOWwz4GqB/6CjnMjapKkO/ZAiEApftnvmvJI0N7sBMTCyAEMGABjv/RAvHq2f8VfAcHL68="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "arackaf",
+					"email": "adamrackis@hotmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/customize-cra_0.2.10_1548179420297_0.3077786517052232"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.2.11": {
+			"name": "customize-cra",
+			"version": "0.2.11",
+			"description": "This project provides a set of utilities to customize the Create React App v2 configurations leveraging [`react-app-rewired`](https://github.com/timarney/react-app-rewired/) core functionalities.",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/arackaf/customize-cra.git"
+			},
+			"main": "index.js",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"author": {
+				"name": "Adam Rackis"
+			},
+			"license": "MIT",
+			"dependencies": {
+				"lodash.flow": "^3.5.0"
+			},
+			"gitHead": "8b0873486ea70efa448f0fb64648a6d2dd4b38f0",
+			"bugs": {
+				"url": "https://github.com/arackaf/customize-cra/issues"
+			},
+			"homepage": "https://github.com/arackaf/customize-cra#readme",
+			"_id": "customize-cra@0.2.11",
+			"_shasum": "eda1cad4e16c958c577fa43c9776ea372e82671d",
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_nodeVersion": "6.11.5",
+			"_npmUser": {
+				"name": "arackaf",
+				"email": "adamrackis@hotmail.com"
+			},
+			"dist": {
+				"shasum": "eda1cad4e16c958c577fa43c9776ea372e82671d",
+				"tarball": "https://registry.npmjs.org/customize-cra/-/customize-cra-0.2.11.tgz",
+				"integrity": "sha512-Mcmvnzs8hD3PgPzyuBHivcmdRL+HIC5dA46ACZXiK7jBr0dygAVv8CDNBdJBupdWZ2rhSo0oSPYclyNeoF2euA==",
+				"fileCount": 6,
+				"unpackedSize": 17797,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcTmY+CRA9TVsSAnZWagAAX0cP/2MdwKqxftOtygNIwJWR\n8QQbGvGqoSUV/v0NzI1ryqDhApkCrwDhe5iPxXbFE1IGL77p41KjGeplarlG\n90aEYLSWITWdmt7+5/iPBCQ4Wfwf9rQTvzF2xy9A2YydsTGeHTRwHyUhNwk5\nst67AqTSE3E14BFBiwTAMQCe0egheE7A5DovKJ/9MPsRVhGzBUnupPmxIBEi\nw7YNjDxeFM9OOyEM4o5YOyUHKohMjwCcYZuw+TYyDunNgVjxdt+aqhacZLSn\nDoUPtcLXo/IF+gU/kxKWPaaQNBtPiwUK9drJPX87huClABaB7LJ1o7z07a7I\nwPetqeKA1sg68mvWw+quZvE0qZQgJ8WMYHDilZ8byIZz9GVpvkRJA/jIFM5F\nwuFE34rraIELZ9AatoPRsn9C8sQ5Cs83Hp4Zhm5qaRDUih8L05WIHToNh5QH\nsgwpddr7g+WNVBGe2+aXpyyEaGT0lxohj3ZUkyKMgVYOedAehr1rw4ll3/P7\n7vZnRlnipWUuMeM66rzWuyAShIfUaU2R/cm8U1q0H4Cw/y2pqdKKvh1fF9rw\nz11sxs8l7z9JDU6Q6Lz97e/wYXX1sR2cbWI3heIyj5LdsIXhvcI/dZFdaEga\nMfFFgXPxS/498TGAVjDLyYH3cPCL07xlSBTOAqLecJv9YZP8TIOBurtYmg09\nsRGQ\r\n=h4PJ\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDboznxa8QwwSDFqvRnKO8QbCRCEOHZ7ntqCOjB3mXvlQIgSoe4oJgQxeOZ4F9Y79RgJUrRskV0dmB03F8GsXf6cx8="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "arackaf",
+					"email": "adamrackis@hotmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/customize-cra_0.2.11_1548641853602_0.6152811252813544"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.2.12": {
+			"name": "customize-cra",
+			"version": "0.2.12",
+			"description": "This project provides a set of utilities to customize the Create React App v2 configurations leveraging [`react-app-rewired`](https://github.com/timarney/react-app-rewired/) core functionalities.",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/arackaf/customize-cra.git"
+			},
+			"main": "index.js",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"author": {
+				"name": "Adam Rackis"
+			},
+			"license": "MIT",
+			"dependencies": {
+				"lodash.flow": "^3.5.0"
+			},
+			"gitHead": "01057dfd475a6739122bb2e751b32409309737c6",
+			"bugs": {
+				"url": "https://github.com/arackaf/customize-cra/issues"
+			},
+			"homepage": "https://github.com/arackaf/customize-cra#readme",
+			"_id": "customize-cra@0.2.12",
+			"_shasum": "ffc9b6378cbdffbe29ad02c479ae5d7a502aca69",
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_nodeVersion": "6.11.5",
+			"_npmUser": {
+				"name": "arackaf",
+				"email": "adamrackis@hotmail.com"
+			},
+			"dist": {
+				"shasum": "ffc9b6378cbdffbe29ad02c479ae5d7a502aca69",
+				"tarball": "https://registry.npmjs.org/customize-cra/-/customize-cra-0.2.12.tgz",
+				"integrity": "sha512-kTNJtB35ZxHO8E3wbHNNkngQHH4u8uD8zAK4hQ29qSRRyLe1dln3k678GeyWd9TAERIqLq/5uJR37Y0P+lJLRA==",
+				"fileCount": 6,
+				"unpackedSize": 19417,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcdXKNCRA9TVsSAnZWagAA3NkP/0waVXC3IgQM/mrQN7wQ\n0jS6Vqbv0GfQEGE1/vlTjK6kJir5bQw0zXQy2W1+CvmR3swmMjj/SKOyLXgu\nyAc+/A9/C2eiuvVbJ3Ho42Rin/dOlNjDPyCAm9oxYpU/4ZCIzGUZV3i8ZMTi\negenURDu9MOE8J/jJqglOWAajNWt2xIQZ+ZlBDoP8aSlRC7LGMPncMRNp09C\nczoZ/WLrWeUFXMJxyM0Z2chHa00P2w5JDlB4/IpjGZoDEBmLDSfj0NCGZlOy\nU6kzPnRckMlCboXQXZGMDQWpIIk/NcBXUQqa+2K4KcptbI9MIvfA6fvA55Sy\nbUuC/0f3h3Y80aUgnuriLIr11f0V8rrhtVCVUm58XDMCltdp4iyM+KC5zWjT\njBM+8wvDihxcnlf2/IqdvqZ7Ag+ymTudjetAyc2AEMNGbFvMhWwO3f4Fyhsm\norXsuodieZSgeHgtJwhmmD0csQfjKh1GnvdIuNqry3pu1jefwsaDHqUp2Khp\n9+8FDg+DJqISKnj9QrMp+oAvFfq3dKLyPt+PPDkdsn/0mbc+ven3zL0tNQ8u\nF58bBnKAG7TQQ1tpqdqcoUz+plH4x3MFA1Wrf3kw4iI919ClsSuNb12whaMu\nJUGe7WYjA3nYel8KTByehvkSIFYUSP0n+DVGDm6aes/Jo6SJOX3mpRNWfzsA\nDanZ\r\n=djxF\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDTaHV+N3K2gvFGCBZsIjcdA5MA4bOh+b+pS/i4S8+0lgIgXpRnUMcX2lpk3KlogpCMfMGIPhM4XyM1u7F7/MXI+Y8="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "arackaf",
+					"email": "adamrackis@hotmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/customize-cra_0.2.12_1551200908792_0.802917367187862"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.2.13": {
+			"name": "customize-cra",
+			"version": "0.2.13",
+			"description": "This project provides a set of utilities to customize the Create React App v2 configurations leveraging [`react-app-rewired`](https://github.com/timarney/react-app-rewired/) core functionalities.",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/arackaf/customize-cra.git"
+			},
+			"main": "index.js",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"author": {
+				"name": "Adam Rackis"
+			},
+			"license": "MIT",
+			"dependencies": {
+				"lodash.flow": "^3.5.0"
+			},
+			"gitHead": "87ea209b576aebeef1300c8a3c9c690915acc43b",
+			"bugs": {
+				"url": "https://github.com/arackaf/customize-cra/issues"
+			},
+			"homepage": "https://github.com/arackaf/customize-cra#readme",
+			"_id": "customize-cra@0.2.13",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "10.15.0",
+			"_npmUser": {
+				"name": "arackaf",
+				"email": "adamrackis@hotmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-Ot1HAM0ee7IDQBP222vJ8fDslshDGTtYFF4IGeLSd6QTL+3A7ZRy9KRbbwLsL+/zPKzQZ0Femlykn5Qjb18jMw==",
+				"shasum": "d49e493ce7e9f4d8a2a1ae57e2f50f71e7815f60",
+				"tarball": "https://registry.npmjs.org/customize-cra/-/customize-cra-0.2.13.tgz",
+				"fileCount": 5,
+				"unpackedSize": 21273,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc8b2nCRA9TVsSAnZWagAAeDUP/RnXAMLdnhFbIvfC31LK\n8VhbEDxEiQgguDAqsDUlyPmgt7HQgWob04ncbj/IWmwQoHeZvZZ+30kzvA3E\nvoMYVWp0dVkjnbaa2odGAuYf99e6OHD4RwacE4nFV3Tkbflwrs/xgm/SIYxJ\nLjYOZgQTRlUX6j4KeG57E5oawMIsL6oOwehkr+rbKksQ1/JxgBj/UxzoZWIW\ncnaYWkSCfDFz8vWwsAiJG5LB21KaTU43RfwPxeqx000g8otbMxXM4CSdqXU3\nmbxjh7SyOEuWLv1n6RQ/7bswRYIGCMZ9o8Tp7+B30yw0DaP00P2bv1E6Z3Ff\n82xzMb6eKbC/aXtJWFoAxtfHxUUxQJpmjWnsbRrdF8t1fnVzKByN3L/kBJuh\nEfU0B05+GcPwKnMO5jkF4DT6FPBMiClTS5XSL+AUYrjpb34yi9vi2tMSgHqo\nIHwjLWmRyoU6+bp9/WV+0Dbl1UU255hIbCCxU1kqoG4VBKuI7B8/998EcGU9\nzz/jb+nTgc9towPMoozBx3AXwukn4kKsMLxeHiA3F66vlsgasHC6In/uV3/K\nCEFUIUyorct3m5j5HyrLOAo8kIY8y6iMx/kSuffWfJCQhQrgATbNf/7eHHV0\nRi6tL0LN1S+QLe5PTg1jkwU5nuRSvTn+PtQPFKuHtijPohZu0+yyrzg2x6HT\nBtD0\r\n=OnOi\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIDDCsOkAxypOCwP0CI9lDr4C4XnXvGEdVJdZdU42PKV9AiAOSS/morvkgt0KHwE7wurbguspuC52RYN9vak1np/2kQ=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "arackaf",
+					"email": "adamrackis@hotmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/customize-cra_0.2.13_1559346598548_0.17906970602574912"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.2.14": {
+			"name": "customize-cra",
+			"version": "0.2.14",
+			"description": "This project provides a set of utilities to customize the Create React App v2 configurations leveraging [`react-app-rewired`](https://github.com/timarney/react-app-rewired/) core functionalities.",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/arackaf/customize-cra.git"
+			},
+			"main": "index.js",
+			"scripts": {
+				"test": "jest"
+			},
+			"author": {
+				"name": "Adam Rackis"
+			},
+			"license": "MIT",
+			"dependencies": {
+				"lodash.flow": "^3.5.0"
+			},
+			"devDependencies": {
+				"jest": "^24.8.0"
+			},
+			"gitHead": "7546334596d19a545dca9892b293056d84c5ca5e",
+			"bugs": {
+				"url": "https://github.com/arackaf/customize-cra/issues"
+			},
+			"homepage": "https://github.com/arackaf/customize-cra#readme",
+			"_id": "customize-cra@0.2.14",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "10.15.0",
+			"_npmUser": {
+				"name": "arackaf",
+				"email": "adamrackis@hotmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-LtEMXNzkhnnqGPc1dP5fnPlF1ic1dj34hDbRVJIzfMQgOaGByHhx51fTR7fv7sTPEbCPrOBP777MkCo0GPV57g==",
+				"shasum": "41f9b2d96d9a318bec760c4c9b3dc9c26d5a7594",
+				"tarball": "https://registry.npmjs.org/customize-cra/-/customize-cra-0.2.14.tgz",
+				"fileCount": 6,
+				"unpackedSize": 27844,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdERo9CRA9TVsSAnZWagAAdN4QAILnIopXeGJaSr6Y2c4Y\n10AeqVtcc14Zi2Ttxzv32i7UiKKmBHKSz39VvFHdnslGlbjAmbHEZzgckBIy\nnZfmDTCJogQwa53lNWBX06/Nsljkxf96QytnI+u+fNuSg6xXaQGzThpsWOYi\nR3oC+HLOHYx0YUoG+++i0SsoYJbdH69nKN8Cl3tjhqob7M9sOYxGoS5CRrlF\nudKHxDLpx0MUQ3iiWWUS6aPjseWxmy1Yni8S5sgmfQisE+G18Y01d5jF4PS9\n4Jsh37jsB5va1k5WvKkL/klMI4OEMGrbewjvrcSpX5NCwsOUd2hvEjMwBMl0\nvgCeiJwuTYSFn7OHZlKskCToKaH1zX17KoUskSy3LsWfWcXdUDuGbQbepe3U\n+RCgq43YK4bkhAmuXjeudoerImsFlqy0l2KbUaVDNI5Fcgr8bZ1csScy07VU\n9/Cx8Dy9Jd3yQ1+XQ14pE9/79YfGk+pKRZXZ2cPQ6AcBobXWLLOMZI4CpjiB\nFtHNAkM9Z4fFKbSlmLuwoASlZUu1VipKIL54dzEA1LItZFIPvC1Z2YxWg6Ty\no6PavJDItpjtUx+nEeaiFDIziwdjIVV8AaUZUAMyQrcp5UO660Jz933Xn8in\nybmIFxKj4yQoOXOP/R1lpvo6ja39uyTN4i7dX5HYQ5q3P5HV/l0vYSEuLhJ6\nokc1\r\n=s6F1\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCDK49Q1HgjROt5aVrU5R5H9hnny0+lhdVyRXeoA29pJwIhAKW+cfhANoyxn/EzTfo+AZXJMCDZrMY6N8/zp+6cY9+O"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "arackaf",
+					"email": "adamrackis@hotmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/customize-cra_0.2.14_1561401916699_0.6337313881852626"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.3.0": {
+			"name": "customize-cra",
+			"version": "0.3.0",
+			"description": "This project provides a set of utilities to customize [`create-react-app`](https://github.com/facebook/create-react-app) versions 2 and 3 configurations leveraging [`react-app-rewired`](https://github.com/timarney/react-app-rewired/) core functionalities.",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/arackaf/customize-cra.git"
+			},
+			"main": "dist/index.cjs.js",
+			"module": "dist/index.esm.js",
+			"scripts": {
+				"build": "npm run clean && rollup -c",
+				"clean": "rimraf dist",
+				"test": "jest",
+				"prepack": "npm run build"
+			},
+			"author": {
+				"name": "Adam Rackis"
+			},
+			"license": "MIT",
+			"dependencies": {
+				"lodash.flow": "^3.5.0"
+			},
+			"devDependencies": {
+				"@babel/core": "^7.5.0",
+				"@babel/plugin-proposal-object-rest-spread": "^7.5.1",
+				"@babel/preset-env": "^7.5.0",
+				"@commitlint/cli": "^8.0.0",
+				"@commitlint/config-conventional": "^8.0.0",
+				"babel-jest": "^24.8.0",
+				"husky": "^3.0.0",
+				"jest": "^24.8.0",
+				"rimraf": "^2.6.3",
+				"rollup": "^1.16.6",
+				"rollup-plugin-babel": "^4.3.3",
+				"rollup-plugin-commonjs": "^10.0.1",
+				"rollup-plugin-node-resolve": "^5.2.0",
+				"rollup-plugin-sourcemaps": "^0.4.2",
+				"rollup-plugin-terser": "^5.1.1"
+			},
+			"gitHead": "d202586753b88f257bf38b7264df11abd35d41c9",
+			"bugs": {
+				"url": "https://github.com/arackaf/customize-cra/issues"
+			},
+			"homepage": "https://github.com/arackaf/customize-cra#readme",
+			"_id": "customize-cra@0.3.0",
+			"_nodeVersion": "10.16.0",
+			"_npmVersion": "6.10.0",
+			"dist": {
+				"integrity": "sha512-Jq3fwjBMRvHbVSsQtyPXMWPTlO1tI9u3LG55lAhxk2cyv8OPwPyD5hb0aNBrHt0QF9zlRAjsA5xIypqUD7yoqw==",
+				"shasum": "722a6bf254dee37e2acb87582a8900c6606de95c",
+				"tarball": "https://registry.npmjs.org/customize-cra/-/customize-cra-0.3.0.tgz",
+				"fileCount": 7,
+				"unpackedSize": 48198,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdLqt9CRA9TVsSAnZWagAAPdoQAIWV65rwBwDz9bYqbGXU\na707v7PKd3XtiuTJhkKjiqY+A15yxetUnElEF2zQoud4mipSQhxN+4uApt57\nLFPuylJrb0I1XChzcyENb0qs39QYlGoiAdxh/gCBV3a8LqhPHAL1nAo5pI41\nZuwRVhMU6QArf168bmvL3Z9DMK+pBM0ukv+43iYoRuZGqbiYcquWML74qJEB\nyaDh6dLNMPtMN7FB9zWpbFKIOjoEshLvPBSh2il3Wkua/BJG5DoZUzw6pfgH\nzBkTT8GyFcZ/6Kb4JWlKqDyUZaQXvlGJdw4u1v4Gk17Dj8Xh4pjoGKxPADLH\nNPva66/cfOIj4fxft/tkJ80mvN+px4mp0ConUwxgK4mdVOKxbCktsRDBH/oh\nrnH2aL4hA6r1Fl8nEd36KeQ5nhPgJXhF2Rga2ZnfPuFpozwKHELYpbtu6ODF\nr5/U1JdIkZ/RBHSxXeOk92TkELQ41PaY80R0BPLOlT7yQZj9B2YnMBj3jlbD\n/Sk3jrb1/JLh+DoAOP1xIBmzcHrbDARDnOA02CCtm9BfY83UxYQr46Zm9Xnu\n9JSu+px+620sSbc6L3QvMxnrMtkSefmudYrcEcs7M7bFGHO86di2x7POLqj7\nRDoJlrvY+L9CoTC/luCjNriSPkPzfbDIkgRoH3ulV2YXgo63uh1oA06zrDwE\nRNbs\r\n=hPxu\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDkzMrMI8d+qFPThxNx53v4K1cq0ixU6OPlYmWqT7uNuAIgXSfmDZc3ZECPqYh/6AuQWe+xRUOuDPNEm6WfJ+WbOAA="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "arackaf",
+					"email": "adamrackis@hotmail.com"
+				}
+			],
+			"_npmUser": {
+				"name": "with-heart",
+				"email": "mark@chanchan.io"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/customize-cra_0.3.0_1563339644668_0.5053146396767694"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.4.0": {
+			"name": "customize-cra",
+			"version": "0.4.0",
+			"description": "This project provides a set of utilities to customize [`create-react-app`](https://github.com/facebook/create-react-app) versions 2 and 3 configurations leveraging [`react-app-rewired`](https://github.com/timarney/react-app-rewired/) core functionalities.",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/arackaf/customize-cra.git"
+			},
+			"main": "dist/index.cjs.js",
+			"module": "dist/index.esm.js",
+			"scripts": {
+				"build": "npm run clean && rollup -c",
+				"clean": "rimraf dist",
+				"test": "jest",
+				"prepack": "npm run build"
+			},
+			"author": {
+				"name": "Adam Rackis"
+			},
+			"license": "MIT",
+			"dependencies": {
+				"lodash.flow": "^3.5.0"
+			},
+			"devDependencies": {
+				"@babel/core": "^7.5.0",
+				"@babel/plugin-proposal-object-rest-spread": "^7.5.1",
+				"@babel/preset-env": "^7.5.0",
+				"@commitlint/cli": "^8.0.0",
+				"@commitlint/config-conventional": "^8.0.0",
+				"babel-jest": "^24.8.0",
+				"husky": "^3.0.0",
+				"jest": "^24.8.0",
+				"rimraf": "^2.6.3",
+				"rollup": "^1.16.6",
+				"rollup-plugin-babel": "^4.3.3",
+				"rollup-plugin-commonjs": "^10.0.1",
+				"rollup-plugin-node-resolve": "^5.2.0",
+				"rollup-plugin-sourcemaps": "^0.4.2",
+				"rollup-plugin-terser": "^5.1.1"
+			},
+			"gitHead": "8531861eb43a08f9eb327463e7a4049929d1d689",
+			"bugs": {
+				"url": "https://github.com/arackaf/customize-cra/issues"
+			},
+			"homepage": "https://github.com/arackaf/customize-cra#readme",
+			"_id": "customize-cra@0.4.0",
+			"_nodeVersion": "10.16.0",
+			"_npmVersion": "6.10.0",
+			"dist": {
+				"integrity": "sha512-Zu5Vqzo1QAYiY2v9a+HN3hMry08Qnw1sSj/rYMWipAljXsFaTwQsePV7SU7vUY2RNxd8ifmqSuB8nD5kq9JO/A==",
+				"shasum": "8263bcaf9cfbc2d62baa8b3a27a14b6c23d4d8b8",
+				"tarball": "https://registry.npmjs.org/customize-cra/-/customize-cra-0.4.0.tgz",
+				"fileCount": 7,
+				"unpackedSize": 50034,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdLrRMCRA9TVsSAnZWagAAzuMQAI9+kAsjCXV3KD/YWnrc\nhZIIa5DJUoC7mpdEyAYuGoGu0AOBcohG4B6PmXpDh/BYvjH2vYTcgEFvFijj\nUbKQ/mjrmo+WKLXG15440kRNo7ikJgy2WUioo54IpWn/WF/ubNMF94K5DPpQ\n1+r4L9zd4LL/vm4VgnbzG+I86RzVzr3+rrb6i5EQ7m0F+Nd0neqKdpD5Gdi2\nXz8XfIwb2GM5a6Zp/lk/TDcpXK0c/6XWbNGOkl+tFoKAJrO7YhSrRJpYB8uN\nvn8phjA9ivtuoPZ8kuMsP9sthx0La9oZJD/KU/qMv2CtznAzxJj2eS8CWU8w\nON8iTE+Xz3gzY05NtYIxbQvGdW+dfY+Xf5pC1GSgh8CfcEi4HY3z1TCevSC2\n4WehErid9U89F9Lhy+jy2mvVlXY8wQWri6DsDgxs2MOnFnXAcEFvRKUn0Jbg\n7uX4usEg5FipU0CthYZGG/wFKlOgapDdT1ix9/9+El4ptYC8PFiZM0mZcL/Y\n+pDeg/0cjFg4dyrBi6x6Sf/wXx6W1fzLj38mYPgw61SqeocuonUW3dzMRWH2\nDc98Fd/9MBixZa9FUKfMM9zz35yKyf5vRpRFrrxphMp8huUDhALqRl2F4+4e\n6iK20QzKBQlkXLQHCweN70SPxtpl+asx+kBV5zFIqUWrBaLVlcbDzcSQEu3h\nFT04\r\n=Xmj4\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIHriI+c/fB9PYBWyBq9shlGxmyVB8mb5DWS76Nc9wh39AiASE+RR8v2BaIAQ9aCOR0BdXqd1HzeVHOngTf1J+xnn4A=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "arackaf",
+					"email": "adamrackis@hotmail.com"
+				}
+			],
+			"_npmUser": {
+				"name": "with-heart",
+				"email": "mark@chanchan.io"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/customize-cra_0.4.0_1563341900258_0.3549033806785853"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.4.1": {
+			"name": "customize-cra",
+			"version": "0.4.1",
+			"description": "This project provides a set of utilities to customize [`create-react-app`](https://github.com/facebook/create-react-app) versions 2 and 3 configurations leveraging [`react-app-rewired`](https://github.com/timarney/react-app-rewired/) core functionalities.",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/arackaf/customize-cra.git"
+			},
+			"main": "dist/index.cjs.js",
+			"module": "dist/index.esm.js",
+			"scripts": {
+				"build": "npm run clean && rollup -c",
+				"clean": "rimraf dist",
+				"test": "jest",
+				"prepack": "npm run build"
+			},
+			"author": {
+				"name": "Adam Rackis"
+			},
+			"license": "MIT",
+			"dependencies": {
+				"lodash.flow": "^3.5.0"
+			},
+			"devDependencies": {
+				"@babel/core": "^7.5.0",
+				"@babel/plugin-proposal-object-rest-spread": "^7.5.1",
+				"@babel/preset-env": "^7.5.0",
+				"@commitlint/cli": "^8.0.0",
+				"@commitlint/config-conventional": "^8.0.0",
+				"babel-jest": "^24.8.0",
+				"husky": "^3.0.0",
+				"jest": "^24.8.0",
+				"rimraf": "^2.6.3",
+				"rollup": "^1.16.6",
+				"rollup-plugin-babel": "^4.3.3",
+				"rollup-plugin-commonjs": "^10.0.1",
+				"rollup-plugin-node-resolve": "^5.2.0",
+				"rollup-plugin-sourcemaps": "^0.4.2",
+				"rollup-plugin-terser": "^5.1.1"
+			},
+			"gitHead": "d7b9a182611c8f94c88776ef8e791a4fe06a2bf5",
+			"bugs": {
+				"url": "https://github.com/arackaf/customize-cra/issues"
+			},
+			"homepage": "https://github.com/arackaf/customize-cra#readme",
+			"_id": "customize-cra@0.4.1",
+			"_nodeVersion": "10.16.0",
+			"_npmVersion": "6.10.0",
+			"dist": {
+				"integrity": "sha512-iEzCXbQMvCEijAIH5FoHsQgFAPIloWTKPEcsxKZJysHa6GrUu348ohEz6vwUevLM6ZvWBvxx5QclFUIeED92yQ==",
+				"shasum": "4424f5661abff5443baf9cd891683de48c922614",
+				"tarball": "https://registry.npmjs.org/customize-cra/-/customize-cra-0.4.1.tgz",
+				"fileCount": 7,
+				"unpackedSize": 50034,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdLrTRCRA9TVsSAnZWagAA+YEP/iz6AykJ0twabqjf93YM\nVkWKSo8pbX1hFrIycUGGeplAFFT7jA5z5nrG+6JSl9UPoVJuspBzqzBH9Sc/\njutbTN9k75t1NDCYVH38RakcFDO6YjJ4msbo6+Est6Rr330gIb9btofyBKnZ\nrYFyS4CY9t3ruaBDNPGkIr5ZKyR+vicWj5RNXJ5Vl3eb2X57C5cQ2jI5uXpe\nSmT40WrovvBkaJfQNMc/U+/L/dIwb7IW/pNB07hvnuPRatQR3qPBm/PwHbHV\nrHNMHBoqeGIrt9uuS2SLQw53vtY0tw3jjukURoyyA0FTN5gdbWT+EpyuqD/8\nCUPIi1IbAU9LKEIBA50VuIXdFS9OZhVsZOwFAAPTjoZiOMO3uhcKOJq6ipNV\nk1eJqxHdoSe4NMSqIfufrvEnlFgppjHMoKTyusq3Hy8FnuoaIyibLiL4m5X5\nHKkKUS9+qBpSLuo88rAYM+lf11l626crmFSP5+5Sdchdr4Pe5tJfx2htAJ+4\n7ANbaP0KAruArrtnjQAV2tMyt1OSjoyFXgi6lZJhcH8Rba88izFvbk6O9Gxw\njW18nDd6e/tjPohpxX6BRzmNQ7mrL1+h9PFoSse/LOETrOjj/U5uleG9e+jV\n6e1n5QD1+kubj0DTBsIVMIdk9OZwQ53t2HyLgKmyF11oNGf8EfD5UGXV70pF\nODA4\r\n=BmCv\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIF1WeHLAFh65qZsz+VRZqAJwqnuMcxVoRnqFF9dojc5ZAiEAx0ZHeDXyvGirc/PpVLLstFnv8Q6JSe0ZQASvklOaMpA="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "arackaf",
+					"email": "adamrackis@hotmail.com"
+				}
+			],
+			"_npmUser": {
+				"name": "with-heart",
+				"email": "mark@chanchan.io"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/customize-cra_0.4.1_1563342033407_0.7514381140964479"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.5.0": {
+			"name": "customize-cra",
+			"version": "0.5.0",
+			"description": "[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/arackaf/customize-cra.git"
+			},
+			"main": "dist/index.cjs.js",
+			"module": "dist/index.esm.js",
+			"scripts": {
+				"build": "npm run clean && rollup -c",
+				"clean": "rimraf dist",
+				"test": "jest",
+				"prepack": "npm run build",
+				"contributors:add": "all-contributors add",
+				"contributors:generate": "all-contributors generate"
+			},
+			"author": {
+				"name": "Adam Rackis"
+			},
+			"license": "MIT",
+			"dependencies": {
+				"lodash.flow": "^3.5.0"
+			},
+			"devDependencies": {
+				"@babel/core": "^7.5.0",
+				"@babel/plugin-proposal-object-rest-spread": "^7.5.1",
+				"@babel/preset-env": "^7.5.0",
+				"@commitlint/cli": "^8.0.0",
+				"@commitlint/config-conventional": "^8.0.0",
+				"all-contributors-cli": "^6.8.1",
+				"babel-jest": "^24.8.0",
+				"husky": "^3.0.0",
+				"jest": "^24.8.0",
+				"rimraf": "^2.6.3",
+				"rollup": "^1.16.6",
+				"rollup-plugin-babel": "^4.3.3",
+				"rollup-plugin-commonjs": "^10.0.1",
+				"rollup-plugin-node-resolve": "^5.2.0",
+				"rollup-plugin-sourcemaps": "^0.4.2",
+				"rollup-plugin-terser": "^5.1.1"
+			},
+			"gitHead": "b4634642901369b46232b580ff1cdac3a2e2327f",
+			"bugs": {
+				"url": "https://github.com/arackaf/customize-cra/issues"
+			},
+			"homepage": "https://github.com/arackaf/customize-cra#readme",
+			"_id": "customize-cra@0.5.0",
+			"_nodeVersion": "10.16.0",
+			"_npmVersion": "6.10.0",
+			"dist": {
+				"integrity": "sha512-heTp7P6prYIH3rQ1yqUEGj+TUc4Hnm50744HNLVC42CCGAWZnJMlstKiJvyxYMlUDoR6Xrq2TWm45Dp8A5n+TA==",
+				"shasum": "75819237dde2271a35c69b81284a28dc63a92315",
+				"tarball": "https://registry.npmjs.org/customize-cra/-/customize-cra-0.5.0.tgz",
+				"fileCount": 7,
+				"unpackedSize": 53614,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdTvQTCRA9TVsSAnZWagAASsMP/2XD/NzhfoL19QFMfHN6\n8vZnDLe1ksOVTX+b1YrvSwUPG1pTb9aHZ/647AIvsjJEUE1ppN8DKmOcFw9f\nSnjaYhj8vEWCNf5EDbMf2M2xRviLFwQ/PO2S4JxCPqZIwG6wiEhVQf8ZQOpI\nscuJes/MivIfnP2AQ2s5npfi5d2uSOc/MMgfVwe/jSJpP4S0iKGHXO48PJH/\nui+k9U37FAosQEYqbbiTCGpqNUrk5T+5S/QYXvs+S8lz5Xftdox8NEzCFwmJ\ntPmIXK15qitl8Nsse0Qx4PW85YreVF6QtZlfTaxmISlrEyhJnLKQWW0k652v\nwbU8KWKY9aBXmTzKbEWg9z9Ui6r3Kwmlwjm7D3XevJoZ4lVlzeoNxBd5kJ/o\npqHzCq5i4rp6aRkIWqeKWiSu7n8nG4NiedgdqibcNPKfnBuUvSu8838lIjPO\n+UkLen96B0f/rcxRHVqh7642V0p5iIYsqujCCqqmOVyFtOdXFZYxlmf5ubUG\nX8CZqp6chipSC+zsdUKPFmLlcpGGL1FU04E8bFH+MuZZL8QTrztSbEK8Jasm\nt7GHavQIlQiTBub0FLpUjEVJkqfRpJSgXCiW/lgT0ngcLS7YrGk3UDLuQrOc\nDST+3+4cHX/IYRaxo5V2lNI5z0MzrIioI/N/7KE8TLg20kNSD7la1Juda/sV\nOUqC\r\n=2qSJ\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCT5tB1gW0uZrrXiUvCan2c92bEJ1alHurjq55lnRMjkQIhALGpIZ68Uvy3N6aP9yD+S+oGMkXnuz0B+JBM9em/lvU4"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "arackaf",
+					"email": "adamrackis@hotmail.com"
+				}
+			],
+			"_npmUser": {
+				"name": "with-heart",
+				"email": "mark@chanchan.io"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/customize-cra_0.5.0_1565455378805_0.3127653194254867"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.6.0": {
+			"name": "customize-cra",
+			"version": "0.6.0",
+			"description": "[![All Contributors](https://img.shields.io/badge/all_contributors-6-orange.svg?style=flat-square)](#contributors-)",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/arackaf/customize-cra.git"
+			},
+			"main": "dist/index.cjs.js",
+			"module": "dist/index.esm.js",
+			"scripts": {
+				"build": "npm run clean && rollup -c",
+				"clean": "rimraf dist",
+				"test": "jest",
+				"prepack": "npm run build",
+				"contributors:add": "all-contributors add",
+				"contributors:generate": "all-contributors generate"
+			},
+			"author": {
+				"name": "Adam Rackis"
+			},
+			"license": "MIT",
+			"dependencies": {
+				"lodash.flow": "^3.5.0"
+			},
+			"devDependencies": {
+				"@babel/core": "^7.5.0",
+				"@babel/plugin-proposal-object-rest-spread": "^7.5.1",
+				"@babel/preset-env": "^7.5.0",
+				"@commitlint/cli": "^8.0.0",
+				"@commitlint/config-conventional": "^8.0.0",
+				"all-contributors-cli": "^6.8.1",
+				"babel-jest": "^24.8.0",
+				"husky": "^3.0.0",
+				"jest": "^24.8.0",
+				"rimraf": "^2.6.3",
+				"rollup": "^1.16.6",
+				"rollup-plugin-babel": "^4.3.3",
+				"rollup-plugin-commonjs": "^10.0.1",
+				"rollup-plugin-node-resolve": "^5.2.0",
+				"rollup-plugin-sourcemaps": "^0.4.2",
+				"rollup-plugin-terser": "^5.1.1"
+			},
+			"gitHead": "0b03147f616961e7adf64a9cfe396e4661e3de56",
+			"bugs": {
+				"url": "https://github.com/arackaf/customize-cra/issues"
+			},
+			"homepage": "https://github.com/arackaf/customize-cra#readme",
+			"_id": "customize-cra@0.6.0",
+			"_nodeVersion": "10.16.0",
+			"_npmVersion": "6.10.0",
+			"dist": {
+				"integrity": "sha512-RzrJ/3Cg1piCMW7M028tpxcKism2Wmna7eCro1t/YHUMR8SnpM80JwqB1Ln6QdSAw4dz3SS9jZIJvw73LQONSQ==",
+				"shasum": "5eca0fff1d357f0299286990cb9252d5ed69c024",
+				"tarball": "https://registry.npmjs.org/customize-cra/-/customize-cra-0.6.0.tgz",
+				"fileCount": 7,
+				"unpackedSize": 58119,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdb9xyCRA9TVsSAnZWagAAyx4P+wVwtAHBz7yygpn+aiVW\nnzVWbAwvZoxhFEN2Pc60595A8KjtVhsx4Sv+12y2k5qxnXETRoDL4CXd5ecC\nFQpDWbcjeXtcpso0e8hWbbJFKSLTmPJ6D2FlfEHbbSUZ5zhmtzrkxuQRiaUh\nAZAdkgmqN/y2O9xEJ+drNrEjBiUsw0HdJzZk1KI2b9+NKYwo87WAIedXvaG/\nAKkfWYOAaVGse9CXQ4iQ3m2Inqp2YzKcbL9np1kmwWauRFKhyNLLhttjM7ei\nJsal7OyYb7me+NEsKOoT/bJC5b+tKs+tkXL/gl43cX+prcfxAk9vTnCYdz+G\nDHghV8IY2d2Rdmnebho6bGlgujUq7bDvqL03eF9PoW100ZqysX/YbTmfqZnL\nHOu6SEKcuVU++8lPdvGYQtx9eGvbKTRcLclNU2siwfXCRSmSHVsqkc0YBn8V\ny9Ts2WCEIJI3w0rV0t3BXdWnByUc/VI97xp8Ye3+6L3ui/lVZwi9yGkbAM5B\nrtHFNnGqQJZvgABDM0sLpCN+LumuarMaL7ucx1xwuXWL98m9JmkXmK4tIUzL\nyISiAvEY0dA2Olh4rCDZk9o3ynQQ8omrPKEiVCQVx1WZ+xTsWOy7OKh7cH0H\nI5kEU/shvazJMYuWGoHF6wLy8+xKB7/adZP4xQAu0mU4LIkizyNlGrKAJ207\nbvUb\r\n=2knq\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDs6tUCJHmERLZcw/RfzNtKf2GwWetxicQqQSx8ppokyQIhAKGBg02o6wMBwljD6z+SnI32r7fv5iWRtxQ4qITA3LmU"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "arackaf",
+					"email": "adamrackis@hotmail.com"
+				}
+			],
+			"_npmUser": {
+				"name": "with-heart",
+				"email": "mark@chanchan.io"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/customize-cra_0.6.0_1567612018238_0.8807422339047637"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.6.1": {
+			"name": "customize-cra",
+			"version": "0.6.1",
+			"description": "[![All Contributors](https://img.shields.io/badge/all_contributors-8-orange.svg?style=flat-square)](#contributors-)",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/arackaf/customize-cra.git"
+			},
+			"main": "dist/index.cjs.js",
+			"module": "dist/index.esm.js",
+			"scripts": {
+				"build": "npm run clean && rollup -c",
+				"clean": "rimraf dist",
+				"test": "jest",
+				"prepack": "npm run build",
+				"contributors:add": "all-contributors add",
+				"contributors:generate": "all-contributors generate"
+			},
+			"author": {
+				"name": "Adam Rackis"
+			},
+			"license": "MIT",
+			"dependencies": {
+				"lodash.flow": "^3.5.0"
+			},
+			"devDependencies": {
+				"@babel/core": "^7.5.0",
+				"@babel/plugin-proposal-object-rest-spread": "^7.5.1",
+				"@babel/preset-env": "^7.5.0",
+				"@commitlint/cli": "^8.0.0",
+				"@commitlint/config-conventional": "^8.0.0",
+				"all-contributors-cli": "^6.8.1",
+				"babel-jest": "^24.8.0",
+				"husky": "^3.0.0",
+				"jest": "^24.8.0",
+				"rimraf": "^2.6.3",
+				"rollup": "^1.16.6",
+				"rollup-plugin-babel": "^4.3.3",
+				"rollup-plugin-commonjs": "^10.0.1",
+				"rollup-plugin-node-resolve": "^5.2.0",
+				"rollup-plugin-sourcemaps": "^0.4.2",
+				"rollup-plugin-terser": "^5.1.1"
+			},
+			"gitHead": "6c2e40b81acf91e838207b4e26822d6cac72426c",
+			"bugs": {
+				"url": "https://github.com/arackaf/customize-cra/issues"
+			},
+			"homepage": "https://github.com/arackaf/customize-cra#readme",
+			"_id": "customize-cra@0.6.1",
+			"_nodeVersion": "10.16.0",
+			"_npmVersion": "6.10.0",
+			"dist": {
+				"integrity": "sha512-UTS9VNPeg/CpFhk8vCtQSzW3KKgad8lsoUsaXMJjdypc/9I0JXFcWFCuir7jdBTsLAO3/cwi/ExCvLJzG/p06Q==",
+				"shasum": "3c055b72474b924af6df04917af1cafc4c99ff94",
+				"tarball": "https://registry.npmjs.org/customize-cra/-/customize-cra-0.6.1.tgz",
+				"fileCount": 7,
+				"unpackedSize": 59086,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdeSTgCRA9TVsSAnZWagAAM+kP/38kuFnHy6w0+pjh2qiL\nZNfIcj3tkklR6ZJqLJk7bxhxIVqzI/fGMTz5e7lxJWDAt041maLSAtPLuvLR\nAzkq/FsY9fw/qnDE1fOOwS2iyhwvADPg0vEjbEzw4xZtGDijB/o2MIff6HgD\nctPIqZr/c0MpZK4hVrqw1k0rZi6237Vjzn/K0ZACT15ZruNruTg9qGqPkj17\n0rpbin0PnrY1y5XLGZbgkPTA4kgWsqyp7qPI2SJqx7OExJQkdwN3kT8TJHPl\nqXSP4yW83H9QhkHCVVGAgLIu6VCBhnr9j02ylvFXhjzfvb8RF2f+Pna+85+H\nSAFsYWxa6PXUhmLoli1p4Bmr9Bof7VZ9K3phzzAd7v2i1psZqyiKS2jE67v6\n9eJcCPlDBgD5N7DwYG47DBd4+JrNJibTA1BEGPS0mvBEaf1SfZBZZ+oR9fI3\nfpV//bdN2bQhV6PgBaBD0XpaE4mm3xpEbFT/iQQs3/RyoUpnzETKXvRcgft9\nweaWBjUfKufI0224xhM/H2jPYGlBOjSHJceqHiCDM/K4AdwoQfcOdq/bkyfg\neoQZ8jHx6naPcx/gGowjVEtIHcelbSZ5iC00bjuEOoCdLvNYJ3e5KK6XjpET\n9aob0eD6Ehvy7W8fFaJzhSza4sHr90cCt1jdNhLj0Z1imlIZf810h/7OvNu1\nzIGj\r\n=LcpM\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDSg1OzyQui+JUBiV7NFIMo0MtZveF2rK/0OOr38M71EQIgZylYDfkNDAs8o5zec8p2ebffcZpdNPLa2f9+3nd/kbA="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "arackaf",
+					"email": "adamrackis@hotmail.com"
+				}
+			],
+			"_npmUser": {
+				"name": "with-heart",
+				"email": "mark@chanchan.io"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/customize-cra_0.6.1_1568220383823_0.952389177782502"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.7.0": {
+			"name": "customize-cra",
+			"version": "0.7.0",
+			"description": "[![All Contributors](https://img.shields.io/badge/all_contributors-10-orange.svg?style=flat-square)](#contributors-)",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/arackaf/customize-cra.git"
+			},
+			"main": "dist/index.cjs.js",
+			"module": "dist/index.esm.js",
+			"scripts": {
+				"build": "npm run clean && rollup -c",
+				"clean": "rimraf dist",
+				"test": "jest",
+				"prepack": "npm run build",
+				"contributors:add": "all-contributors add",
+				"contributors:generate": "all-contributors generate"
+			},
+			"author": {
+				"name": "Adam Rackis"
+			},
+			"license": "MIT",
+			"dependencies": {
+				"lodash.flow": "^3.5.0"
+			},
+			"devDependencies": {
+				"@babel/core": "^7.5.0",
+				"@babel/plugin-proposal-object-rest-spread": "^7.5.1",
+				"@babel/preset-env": "^7.5.0",
+				"@commitlint/cli": "^8.0.0",
+				"@commitlint/config-conventional": "^8.0.0",
+				"all-contributors-cli": "^6.8.1",
+				"babel-jest": "^24.8.0",
+				"husky": "^3.0.0",
+				"jest": "^24.8.0",
+				"rimraf": "^2.6.3",
+				"rollup": "^1.16.6",
+				"rollup-plugin-babel": "^4.3.3",
+				"rollup-plugin-commonjs": "^10.0.1",
+				"rollup-plugin-node-resolve": "^5.2.0",
+				"rollup-plugin-sourcemaps": "^0.4.2",
+				"rollup-plugin-terser": "^5.1.1"
+			},
+			"gitHead": "eb0e77229ff340d55bc108d5f3322f10030d8e7b",
+			"bugs": {
+				"url": "https://github.com/arackaf/customize-cra/issues"
+			},
+			"homepage": "https://github.com/arackaf/customize-cra#readme",
+			"_id": "customize-cra@0.7.0",
+			"_nodeVersion": "10.16.0",
+			"_npmVersion": "6.10.0",
+			"dist": {
+				"integrity": "sha512-ayLAG7E7Odr4ZtOlhXiJO+ufny8TAbHC1EewH2YmHjct1tKkVgwqVGoFO6Ua3z8W0Vfkw512M4XWxR4ENX3qJw==",
+				"shasum": "0116318557d365f560d5736304644da5d6124c0a",
+				"tarball": "https://registry.npmjs.org/customize-cra/-/customize-cra-0.7.0.tgz",
+				"fileCount": 7,
+				"unpackedSize": 61238,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdfnluCRA9TVsSAnZWagAAlq8QAI1aMiNmPVWGq+BVTaSO\nAAUv8tQJBwf7KwvTc9IA8SgRx/f2ILkemwz0YJXGLvWE0GSOox/smZX+OoO5\nKsqgyP9hCI42f+RwV8jLOo2cOz9L8C5zv9ibLD2ZQGYYOiftHNAykzG+taHv\n5w53g9B/9pdJNJQF1QiZ+EUoF7u7lE4Nvh4OK5IIJ+FKSEC2deVBRUmO4d6b\nQ/3WSONycv8wn2GRlDo/K1sWtVhc5YZaQkwmTP2iZD02+wUKQ45rmnT3EA7I\nUwwucDQ7g91AkJxl8y9/9qLzmmTDsZDjf7F5WoamEvLaGQI4dLFkXjstxPII\nB3Hm3vEgk/KlSAiBYGyJeLkzYLPbMQtDqtrrX86BEsanQeyA0y8Jvm5LDxnN\nVjK1wRcNERCZfh+BSRMx/45GRbzSKjy61SgkwreQ8mWWDsKmR+kGOd5Iwa0v\nTe3a+oIJ1+xNNfRTdAt3vaC2y+jNZUaHtHY1zn2EUOZJGzx4OiS1N6Nq2y5+\n5xmgReowJ8/jrDcTaRSYPyBaC4JU/7ae04aRqfBOKyoS3/w8rxx1Lu4jA6e0\nXAy5Jc94oc8UgkT3z4BclL35SZaUTzryh6HUFt2hBF3RaMs/eEp2OsIs0NNl\njCa53rckC+rKcL7riI7/Crpnn2XmkI0zj+xYXwiyBbdPbqjhq1v3zxPNZK3P\nPhb4\r\n=86CZ\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIDzeemlt2Y1sYagV3UXLuOV3lSUOSPY5DwKq9AITGXaWAiB8CEX7yqdbDhcjBBHP5cg1tPHODiBwE/RS6ZuOfrB+MQ=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "arackaf",
+					"email": "adamrackis@hotmail.com"
+				}
+			],
+			"_npmUser": {
+				"name": "with-heart",
+				"email": "mark@chanchan.io"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/customize-cra_0.7.0_1568569709331_0.5056535403801767"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.8.0": {
+			"name": "customize-cra",
+			"version": "0.8.0",
+			"description": "[![All Contributors](https://img.shields.io/badge/all_contributors-11-orange.svg?style=flat-square)](#contributors-)",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/arackaf/customize-cra.git"
+			},
+			"main": "dist/index.cjs.js",
+			"module": "dist/index.esm.js",
+			"scripts": {
+				"build": "npm run clean && rollup -c",
+				"clean": "rimraf dist",
+				"test": "jest",
+				"prepack": "npm run build",
+				"contributors:add": "all-contributors add",
+				"contributors:generate": "all-contributors generate"
+			},
+			"author": {
+				"name": "Adam Rackis"
+			},
+			"license": "MIT",
+			"dependencies": {
+				"lodash.flow": "^3.5.0"
+			},
+			"devDependencies": {
+				"@babel/core": "^7.5.0",
+				"@babel/plugin-proposal-object-rest-spread": "^7.5.1",
+				"@babel/preset-env": "^7.5.0",
+				"@commitlint/cli": "^8.0.0",
+				"@commitlint/config-conventional": "^8.0.0",
+				"all-contributors-cli": "^6.8.1",
+				"babel-jest": "^24.8.0",
+				"husky": "^3.0.0",
+				"jest": "^24.8.0",
+				"rimraf": "^2.6.3",
+				"rollup": "^1.16.6",
+				"rollup-plugin-babel": "^4.3.3",
+				"rollup-plugin-commonjs": "^10.0.1",
+				"rollup-plugin-node-resolve": "^5.2.0",
+				"rollup-plugin-sourcemaps": "^0.4.2",
+				"rollup-plugin-terser": "^5.1.1"
+			},
+			"gitHead": "9a46d6ff4830fc817182024f376578f9d722b39a",
+			"bugs": {
+				"url": "https://github.com/arackaf/customize-cra/issues"
+			},
+			"homepage": "https://github.com/arackaf/customize-cra#readme",
+			"_id": "customize-cra@0.8.0",
+			"_nodeVersion": "12.11.0",
+			"_npmVersion": "6.11.3",
+			"dist": {
+				"integrity": "sha512-fIiuM4sJfDmTc+0ctNV0BCnSTsfq76bpAOHvUCrCzWaG1dHpHw2Yfec+liH4EdicG5TuwhYLFt2yY2ocJ8HoxA==",
+				"shasum": "011e65fde9e443733668551740b76e3eefe95822",
+				"tarball": "https://registry.npmjs.org/customize-cra/-/customize-cra-0.8.0.tgz",
+				"fileCount": 7,
+				"unpackedSize": 61897,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdkRSsCRA9TVsSAnZWagAAGncP/1wn8bGHN75CSBgGWsrL\nTJpQkQHSVzIXOTUxSvKC06L9cBH5TcRWX2Pr4/Wga/iH3spewTySOsBMA0GQ\neeeYAyQ0KB+H2CdH5e76H8A3jFrJqtNLSVsD+ypYUhf8jrFBMmNxQYJxAab6\nSzx3Zjkho617BgE8wzNukUaj8kEvxkkmYRijCQXXdTI1BN8XSjlvjcSg0rNW\nHaTjhhx3OseKSjznPf4tRK0ax40EYWQQM+E6/7e2I1VIlvXONKIaPot73QbR\nLBGU0g0old7BLP7bLVWhLFhZlOFlpNakPK6tT2Fk+BCYCqPt9hcHikmLkjeq\nzIIJr6v+lLDaJC8/FBtbeqe+VljtuPHlpveFPfZEVTVr0Frq7O86vRopWDC7\nUdqetOgK8CskfRwi3Sma0YAkxFkkab9PIB6YGhU3dLt/SMLNcEA0tpV1sE1m\nA6SWFuWvscSjggniTjf0rMC1vG0oI1bSZmYo6iZtRA8EdmcY9pAJG02L1bH1\nWkp9uMNY4aEzox8b8Bfd1WRDF0CjMD4pSbvpScOBaZ0ijNgPqr2p/MqSvG6M\nl0ssiNUfydBozo9KIWgpXiyc10Elo+0GgU1ZLz9GUztsPEly6a5sP9Gj5QuV\nANkEW1dLBH17kod3g2G4usHQTSeOzxh+JcDwVvQsV0f0klOYRonZKKIsTNtP\ndUKe\r\n=LSq9\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQCyxkJg7YqXbbUcQeozcVHLD/eqsIJxH1TZWNo9vdlE7gIgNoTgEiJ3yUrmES5RHAp/vObSvFc14pN0fwYbLBsfn1c="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "arackaf",
+					"email": "adamrackis@hotmail.com"
+				}
+			],
+			"_npmUser": {
+				"name": "with-heart",
+				"email": "mark@chanchan.io"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/customize-cra_0.8.0_1569789099747_0.28879347593627713"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.9.0": {
+			"name": "customize-cra",
+			"version": "0.9.0",
+			"description": "[![All Contributors](https://img.shields.io/badge/all_contributors-15-orange.svg?style=flat-square)](#contributors-)",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/arackaf/customize-cra.git"
+			},
+			"main": "dist/index.cjs.js",
+			"module": "dist/index.esm.js",
+			"scripts": {
+				"build": "npm run clean && rollup -c",
+				"clean": "rimraf dist",
+				"test": "jest",
+				"prepack": "npm run build",
+				"contributors:add": "all-contributors add",
+				"contributors:generate": "all-contributors generate"
+			},
+			"author": {
+				"name": "Adam Rackis"
+			},
+			"license": "MIT",
+			"dependencies": {
+				"lodash.flow": "^3.5.0"
+			},
+			"devDependencies": {
+				"@babel/core": "^7.5.0",
+				"@babel/plugin-proposal-object-rest-spread": "^7.5.1",
+				"@babel/preset-env": "^7.5.0",
+				"@commitlint/cli": "^8.0.0",
+				"@commitlint/config-conventional": "^8.0.0",
+				"all-contributors-cli": "^6.8.1",
+				"babel-jest": "^24.8.0",
+				"husky": "^3.0.0",
+				"jest": "^24.8.0",
+				"rimraf": "^2.6.3",
+				"rollup": "^1.16.6",
+				"rollup-plugin-babel": "^4.3.3",
+				"rollup-plugin-commonjs": "^10.0.1",
+				"rollup-plugin-node-resolve": "^5.2.0",
+				"rollup-plugin-sourcemaps": "^0.4.2",
+				"rollup-plugin-terser": "^5.1.1"
+			},
+			"gitHead": "13321d223b7d5e3ef79efc5ed48e8190ae243ffc",
+			"bugs": {
+				"url": "https://github.com/arackaf/customize-cra/issues"
+			},
+			"homepage": "https://github.com/arackaf/customize-cra#readme",
+			"_id": "customize-cra@0.9.0",
+			"_nodeVersion": "10.16.3",
+			"_npmVersion": "6.9.0",
+			"dist": {
+				"integrity": "sha512-VbzE5xtIzftfQBMBrrWVfJMkq+UVGDhZ6wbYxUtsznHXQ6MewZ3XzHVEhFsJZQ/eVKwdcqvZb1JrmLnHPqE18Q==",
+				"shasum": "bc691f5cf75f39a73c4d85ee5010dfd50d5446c8",
+				"tarball": "https://registry.npmjs.org/customize-cra/-/customize-cra-0.9.0.tgz",
+				"fileCount": 7,
+				"unpackedSize": 69367,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdz5EpCRA9TVsSAnZWagAAFhIP/0a1xIFH88efBHH8eZje\nFnpN5nyl0+9NwY5YAvK//mZVhXmBj5OMEIts5JYh8V9fAdT4TJyWNvdIVCID\nZB5J2wU6bvsly39toQbFHsFw9dogqEbMp1NTyj+eIfETldDvVgZUwsfgFm98\nKSi1B4xkx+wLhVCnJ/dmkm/H3NNlzqs9B7ETK+yF/yI/jgeAFyOwn4lIFZVd\nMf3JuA5iQ8cdUUJR9DM62KtXNF87kJ2tq1gW7sV4vyxAnCjQ6o+Cz+WNOq2G\nnkkyItDgKuVFM1lKDT4NkXywiipqnX1VzGSYWNispiQkVUfcMoKKJxqW0I3D\nIIYGzqpKZKK099cqEugkH0p2YYd4HijG0N0lj+nwPxpZjmwJlgRNwrmLadCa\nm1+vvemSiS5sWLeJ3UnK1ixGs9KqDnkQTzXzSNsQ5mtGiGIj2Aj9+XQxN16I\nMHOCeuXRKpq16645BBGAIpq0TjKkzPKWM/+E7jTFIq6SyRlV09mbou+VOTAI\nBzsBFjUfbWGcq/Q0u3zKy9eAFx981aNIEYEpEgsxkYTYlJkrT3MEDmlMYzYj\nFPeFeum/kgxKQV2jrQ3VKxXCw2AKfKDRM22bXzLiXt/Q3PEnVlwr3N+KXjNM\nyfzMWx5aHHPVvFr/28tjuau9kLA7k8ecUPDkmrRPfkdekQZlCxryxqkHLI/d\nPtxe\r\n=Ke6l\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQCQ9Dlfy/cmQZXNKPj1skNMG9MUyvEHMmInMWq9cLxxeAIgbtUJ0wZKcm4QDFsdQagp19gVLNoeCS2z9HJRac2SauI="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "arackaf",
+					"email": "adamrackis@hotmail.com"
+				}
+			],
+			"_npmUser": {
+				"name": "with-heart",
+				"email": "mark@chanchan.io"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/customize-cra_0.9.0_1573884200470_0.23294381011175513"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.9.1": {
+			"name": "customize-cra",
+			"version": "0.9.1",
+			"description": "<<<<<<< HEAD [![All Contributors](https://img.shields.io/badge/all_contributors-16-orange.svg?style=flat-square)](#contributors-) ======= [![All Contributors](https://img.shields.io/badge/all_contributors-12-orange.svg?style=flat-square)](#contributors-) ",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/arackaf/customize-cra.git"
+			},
+			"main": "dist/index.cjs.js",
+			"module": "dist/index.esm.js",
+			"scripts": {
+				"build": "npm run clean && rollup -c",
+				"clean": "rimraf dist",
+				"test": "jest",
+				"prepack": "npm run build",
+				"contributors:add": "all-contributors add",
+				"contributors:generate": "all-contributors generate"
+			},
+			"author": {
+				"name": "Adam Rackis"
+			},
+			"license": "MIT",
+			"dependencies": {
+				"lodash.flow": "^3.5.0"
+			},
+			"devDependencies": {
+				"@babel/core": "^7.5.0",
+				"@babel/plugin-proposal-object-rest-spread": "^7.5.1",
+				"@babel/preset-env": "^7.5.0",
+				"@commitlint/cli": "^8.0.0",
+				"@commitlint/config-conventional": "^8.0.0",
+				"all-contributors-cli": "^6.8.1",
+				"babel-jest": "^24.8.0",
+				"husky": "^3.0.0",
+				"jest": "^24.8.0",
+				"rimraf": "^2.6.3",
+				"rollup": "^1.16.6",
+				"rollup-plugin-babel": "^4.3.3",
+				"rollup-plugin-commonjs": "^10.0.1",
+				"rollup-plugin-node-resolve": "^5.2.0",
+				"rollup-plugin-sourcemaps": "^0.4.2",
+				"rollup-plugin-terser": "^5.1.1"
+			},
+			"gitHead": "c678722a74f46433af36c3365fefc779e2608d8c",
+			"bugs": {
+				"url": "https://github.com/arackaf/customize-cra/issues"
+			},
+			"homepage": "https://github.com/arackaf/customize-cra#readme",
+			"_id": "customize-cra@0.9.1",
+			"_nodeVersion": "10.16.3",
+			"_npmVersion": "6.9.0",
+			"dist": {
+				"integrity": "sha512-LISruJ6ak6u+HVQ2vPI+HE4inpPugB73KB9YIpE2J1TW5L1Vrjzm3l2Yupyy+1alJGwAd5GAb5Hfc9qmSUuHow==",
+				"shasum": "76b42c4f537c16329eccc09cfefd804d04c81550",
+				"tarball": "https://registry.npmjs.org/customize-cra/-/customize-cra-0.9.1.tgz",
+				"fileCount": 7,
+				"unpackedSize": 70721,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdz5GhCRA9TVsSAnZWagAAni8P/1xfb+YQ7bZr8sP/xJJw\nwCyOQXWPOHOP2y9ui9ZQT8ZKBDDGsV/x6VvfYRLW7NjAYNm4WBATzUphDuB4\niPfqakvwH0gMb/fIDVEqoHPZACrKCmYIHA0BbpYU+fbs4iHhLHGjokuAUOrB\nXgVOpVH/XIbWmHYJ4vIxkwDVD3UZPnNBfDh63swy2KYS9v3YVawZ9Lr8rjXC\ng3Gk6jI73BkELAxCfiXcuaFxajI2E97CKUnJ1qNgnXkopOuctThqtLoAaVkt\ndoKrE3T5roWL/6n8dqC3fM4zaOgtZxF9LbWQS0KgIlOAOrkEUcDfsw8WZr4e\nIInIhOTznpZi+y0YDEVjsC47m+z+lxEaRcLCm6vGcHYNdkZishjmgw5txjfW\ntXER4hEhweH/dT9fuOWitrNCB5qVpDXZ6fXxmUYqW1AC02NpObEMUDShezXN\nIb1zPoJKQJl6/0aRSppOM8FeDhGt//gMaJbyYMbuGn/TyQCXv7yxBREAkgqf\ncFos02XQjdtxbK3QA78HcSX1LX6Fs5WFdnzYlJtV40FgXqHk2QjGZciObtUl\n/KaeLGoMN/QjveldQIn49mn6fMCLZzbyb6+PqNbl0sOhZEu7HgqbMDwqDFPy\ng+4iWdgAVRcgazYcYjaB3kKIYUPN7K6XPFlrh66cJAcyAUEsSGuH/HivIonC\nr88P\r\n=owoY\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIAxDelqXRlktljFpY/KYHtFL8lwVwMIgn0pAapLZKXJ6AiEAq4xTBYCSZF+PkonqW9cPI40H1ZyOg/Jev3Dr3SVkpIE="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "arackaf",
+					"email": "adamrackis@hotmail.com"
+				}
+			],
+			"_npmUser": {
+				"name": "with-heart",
+				"email": "mark@chanchan.io"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/customize-cra_0.9.1_1573884321150_0.03540094251433157"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.0.0-alpha.0": {
+			"name": "customize-cra",
+			"version": "1.0.0-alpha.0",
+			"description": "[![All Contributors](https://img.shields.io/badge/all_contributors-17-orange.svg?style=flat-square)](#contributors-)",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/arackaf/customize-cra.git"
+			},
+			"main": "dist/index.cjs.js",
+			"module": "dist/index.esm.js",
+			"scripts": {
+				"build": "npm run clean && rollup -c",
+				"clean": "rimraf dist",
+				"test": "jest",
+				"prepack": "npm run build",
+				"contributors:add": "all-contributors add",
+				"contributors:generate": "all-contributors generate"
+			},
+			"author": {
+				"name": "Adam Rackis"
+			},
+			"license": "MIT",
+			"dependencies": {
+				"lodash.flow": "^3.5.0"
+			},
+			"devDependencies": {
+				"@babel/core": "^7.5.0",
+				"@babel/plugin-proposal-object-rest-spread": "^7.5.1",
+				"@babel/preset-env": "^7.5.0",
+				"@commitlint/cli": "^8.0.0",
+				"@commitlint/config-conventional": "^8.0.0",
+				"all-contributors-cli": "^6.8.1",
+				"babel-jest": "^24.8.0",
+				"husky": "^3.0.0",
+				"jest": "^24.8.0",
+				"rimraf": "^2.6.3",
+				"rollup": "^1.16.6",
+				"rollup-plugin-babel": "^4.3.3",
+				"rollup-plugin-commonjs": "^10.0.1",
+				"rollup-plugin-node-resolve": "^5.2.0",
+				"rollup-plugin-sourcemaps": "^0.4.2",
+				"rollup-plugin-terser": "^5.1.1"
+			},
+			"readmeFilename": "readme.md",
+			"gitHead": "03701d76c43639309342b7d7cf7590bd93459acc",
+			"bugs": {
+				"url": "https://github.com/arackaf/customize-cra/issues"
+			},
+			"homepage": "https://github.com/arackaf/customize-cra#readme",
+			"_id": "customize-cra@1.0.0-alpha.0",
+			"_nodeVersion": "10.16.3",
+			"_npmVersion": "6.9.0",
+			"dist": {
+				"integrity": "sha512-Ve/D8ZWGLIfW/rKO0dXmEB4rpstxs0rNlnU3eoYU5ijwZljpJVpLheIoTuGJi+poqFhn1YNkNx7zFVpZNnK5ig==",
+				"shasum": "7a9523a93d0720cd2190dc24137691b981abf185",
+				"tarball": "https://registry.npmjs.org/customize-cra/-/customize-cra-1.0.0-alpha.0.tgz",
+				"fileCount": 7,
+				"unpackedSize": 74003,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJd2FUZCRA9TVsSAnZWagAA7OsP/2AZZa9P44V6MCBBgXc1\nQrqwX2nKcbCBmiJ/MH4inZrsGJpCoSTzR1v7tpz6sKO/I/zHvd8kl5JKFLNF\nO84tbvG9fWWNvgmoan18LWAta4GSmVsiBp26s82g5dmTODaP9DNQnUhID0z/\nmtFLSow0tABVsLhCkeO/SSHPvenIbUhfJ5DcIRbBdOd4nzi6s6/fWfFtPACo\n8A2DlIGikvionukfF/qtV5oMNy/0AqRemxXNXhY4u1Kkhx7mPv6yfj7Z09U0\n4BaLwGctuf1namrmwjLal2GgjvhvK8G3YjHjaNskq4jsiSwJaXz1kDM3d5hY\nwuT3zehO5cn+9pa7PkuJnV14VJNvKAblp73vgbH1dr4QY+ujqfPlJE9VLDES\ne8pTxJNX5k1iBOMByMfMpwnZx4aHfiJtU3Uvl6S7RoVZHmrGc5yysceLm2vn\n7qeULxOeOO1mSUTuOTfBylUnadhzw6oUDd+E2Am0HZzqi3RX88y5zJ/vOTJY\nvpzj7Up6/1PiJ+t25kgKg6vhfxost43BUOWKeyMobl+v/lkvIracoggvxVED\nfXa+wljWEswzsLug73r/x15wp98FnGkgojy8ppcqwRkkyZKqHZMb//e4Blp7\ngxI04nzgx+BbkOY1POjqsumu6r7thD0cPZ6VdD1urIbFfhu3l/aXjGW9HlTD\noUEK\r\n=060q\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCjHthBkHg7muY9VMdz7g563Zhj7TvXB3xexDOXV9P4awIhAIkWcQfBCinXZtqmUzNxdgKgAFGXDGs+EOlEb2DHdLDo"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "arackaf",
+					"email": "adamrackis@hotmail.com"
+				}
+			],
+			"_npmUser": {
+				"name": "with-heart",
+				"email": "mark@chanchan.io"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/customize-cra_1.0.0-alpha.0_1574458649441_0.6579306579420008"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.0.0": {
+			"name": "customize-cra",
+			"version": "1.0.0",
+			"description": "[![All Contributors](https://img.shields.io/badge/all_contributors-17-orange.svg?style=flat-square)](#contributors-)",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/arackaf/customize-cra.git"
+			},
+			"main": "dist/index.cjs.js",
+			"module": "dist/index.esm.js",
+			"scripts": {
+				"build": "npm run clean && rollup -c",
+				"clean": "rimraf dist",
+				"test": "jest",
+				"prepack": "npm run build",
+				"contributors:add": "all-contributors add",
+				"contributors:generate": "all-contributors generate"
+			},
+			"author": {
+				"name": "Adam Rackis"
+			},
+			"license": "MIT",
+			"dependencies": {
+				"lodash.flow": "^3.5.0"
+			},
+			"devDependencies": {
+				"@babel/core": "^7.5.0",
+				"@babel/plugin-proposal-object-rest-spread": "^7.5.1",
+				"@babel/preset-env": "^7.5.0",
+				"@commitlint/cli": "^8.0.0",
+				"@commitlint/config-conventional": "^8.0.0",
+				"all-contributors-cli": "^6.8.1",
+				"babel-jest": "^24.8.0",
+				"husky": "^3.0.0",
+				"jest": "^24.8.0",
+				"rimraf": "^2.6.3",
+				"rollup": "^1.16.6",
+				"rollup-plugin-babel": "^4.3.3",
+				"rollup-plugin-commonjs": "^10.0.1",
+				"rollup-plugin-node-resolve": "^5.2.0",
+				"rollup-plugin-sourcemaps": "^0.4.2",
+				"rollup-plugin-terser": "^5.1.1"
+			},
+			"gitHead": "7e97127e530cc6827af66061525e29925e347670",
+			"bugs": {
+				"url": "https://github.com/arackaf/customize-cra/issues"
+			},
+			"homepage": "https://github.com/arackaf/customize-cra#readme",
+			"_id": "customize-cra@1.0.0",
+			"_nodeVersion": "12.3.1",
+			"_npmVersion": "6.9.0",
+			"dist": {
+				"integrity": "sha512-DbtaLuy59224U+xCiukkxSq8clq++MOtJ1Et7LED1fLszWe88EoblEYFBJ895sB1mC6B4uu3xPT/IjClELhMbA==",
+				"shasum": "73286563631aa08127ad4d30a2e3c89cf4e93c8d",
+				"tarball": "https://registry.npmjs.org/customize-cra/-/customize-cra-1.0.0.tgz",
+				"fileCount": 7,
+				"unpackedSize": 75163,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJe0CgiCRA9TVsSAnZWagAA2+EP/0sH6dtTkBi4jtBTK/IW\n8WxAShDLmXyIKJ28NjChjG0QtZQshivZqfmnQjF0zpgASWuHNTMKLwnpiq4n\n41ccIgLxkOIbu7Jeuelc0QhXfIw9RQYd276FXhh9/PUq+z9sP+kcGqU0rJCD\nYSbIpOvYm699IF4Z6pEadLXnb/siK/GnxtLQTSg9UEDGi/spvjoISChAe+2A\nVh7oPFqw8Ded+RRbqCnZ1qUPKa+/yULcV75suN/an74Di+8tjEgKPhK4apPl\nWCFcjVJAe1b1IApHsspOdj7uX6D+CWcUQQ40NRLsiwDbczi7sL4yR5nk0t6n\nBZfDNYCJ+TJtPB2Xuip/mork1sSYhuV1xIcXHI3xQJ+w5iO1RRg8wfNHBn3x\nRvQVC7cGtDVmvXe5CFk8cBjqmAhV3VlK0Cxp7SgjZqFpjFu+KVFzBl325gAS\n0cWbPVkAAw0OqdPOOxb6KNfxLEVfAKf1R20ySrLO8/tSkirkOv6CuNTV/FWu\n5Y4CwWnIdomsxO9bYB/AXzudP/TslaV/J2zsaSvV8mROxKnXQkF4wmm/Pu25\nnR8LvVx9QApbB3tPP2W7fhjpoNH4VaSQCobhBMRD094JMc1Wl302i922g4yy\npMXFN3AGL9eI7oKFxxPQnHjDA/aEkON0JWhmHiT2Ed8o6DtBwUMCI5fKN1Ae\ngQ5l\r\n=2n+Z\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQCETyBBFFnrSf08Xhb6HL9zz4XNquks99qiVhTD6KZpvQIgZ9NluZlGgnQAapJNW9dbBYwY9BjaNKWNTpyXV58OZOg="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "arackaf",
+					"email": "adamrackis@hotmail.com"
+				}
+			],
+			"_npmUser": {
+				"name": "anish-agnihotri",
+				"email": "contact@anishagnihotri.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/customize-cra_1.0.0_1590700066516_0.9245393838144658"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		}
+	},
+	"time": {
+		"created": "2018-09-28T14:42:13.047Z",
+		"0.0.1": "2018-09-28T14:42:13.166Z",
+		"modified": "2022-04-28T01:43:39.533Z",
+		"0.0.2": "2018-09-28T22:27:32.869Z",
+		"0.0.3": "2018-09-28T22:34:30.029Z",
+		"0.0.4": "2018-10-01T02:29:55.300Z",
+		"0.0.5": "2018-10-01T02:33:43.490Z",
+		"0.0.6": "2018-10-02T13:11:49.214Z",
+		"0.1.0-beta1": "2018-10-03T03:45:32.028Z",
+		"0.1.0-beta2": "2018-10-03T03:52:15.267Z",
+		"0.1.0-beta3": "2018-10-03T03:56:14.443Z",
+		"0.1.0-beta4": "2018-10-03T13:57:21.413Z",
+		"0.1.0-beta5": "2018-10-04T13:54:21.014Z",
+		"0.1.0-beta6": "2018-10-06T19:27:26.291Z",
+		"0.1.0-beta7": "2018-10-11T01:49:22.336Z",
+		"0.1.0": "2018-10-11T02:19:19.843Z",
+		"0.1.1": "2018-10-12T13:11:14.039Z",
+		"0.2.0": "2018-10-30T04:15:47.767Z",
+		"0.2.1": "2018-10-31T14:43:40.388Z",
+		"0.2.2": "2018-11-02T16:39:02.013Z",
+		"0.2.3": "2018-11-04T19:59:38.441Z",
+		"0.2.4": "2018-11-11T18:49:53.088Z",
+		"0.2.5": "2018-11-16T15:03:22.087Z",
+		"0.2.6": "2018-11-22T03:55:13.339Z",
+		"0.2.7": "2018-11-29T04:46:17.778Z",
+		"0.2.8": "2018-12-16T02:23:37.696Z",
+		"0.2.9": "2019-01-06T04:21:44.173Z",
+		"0.2.10": "2019-01-22T17:50:20.406Z",
+		"0.2.11": "2019-01-28T02:17:33.771Z",
+		"0.2.12": "2019-02-26T17:08:28.903Z",
+		"0.2.13": "2019-05-31T23:49:58.663Z",
+		"0.2.14": "2019-06-24T18:45:16.830Z",
+		"0.3.0": "2019-07-17T05:00:44.840Z",
+		"0.4.0": "2019-07-17T05:38:20.384Z",
+		"0.4.1": "2019-07-17T05:40:33.553Z",
+		"0.5.0": "2019-08-10T16:42:59.001Z",
+		"0.6.0": "2019-09-04T15:46:58.417Z",
+		"0.6.1": "2019-09-11T16:46:24.011Z",
+		"0.7.0": "2019-09-15T17:48:29.496Z",
+		"0.8.0": "2019-09-29T20:31:39.870Z",
+		"0.9.0": "2019-11-16T06:03:20.657Z",
+		"0.9.1": "2019-11-16T06:05:21.301Z",
+		"1.0.0-alpha.0": "2019-11-22T21:37:29.586Z",
+		"1.0.0": "2020-05-28T21:07:46.643Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "1.0.0",
+		"next": "1.0.0-alpha.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"779cb8d95b28cb0550879e78758010ba\"",
+			"fetched": 1660840673051
+		}
+	},
+	"_distfiles": {
+		"customize-cra-0.0.1.tgz": {
+			"url": "https://registry.npmjs.org/customize-cra/-/customize-cra-0.0.1.tgz",
+			"sha": "0292afdd6db1985f7ddbb825ba55ab5dc42656c1",
+			"registry": "npmjs"
+		},
+		"customize-cra-0.0.2.tgz": {
+			"url": "https://registry.npmjs.org/customize-cra/-/customize-cra-0.0.2.tgz",
+			"sha": "8003fdeac56b3ce218ca8bf8b51126e3124a4314",
+			"registry": "npmjs"
+		},
+		"customize-cra-0.0.3.tgz": {
+			"url": "https://registry.npmjs.org/customize-cra/-/customize-cra-0.0.3.tgz",
+			"sha": "0eb425fe84140f5319bfcecd32f45abb2abb1469",
+			"registry": "npmjs"
+		},
+		"customize-cra-0.0.4.tgz": {
+			"url": "https://registry.npmjs.org/customize-cra/-/customize-cra-0.0.4.tgz",
+			"sha": "53dea67a3b894326ce2599af9fe4282991b3bad8",
+			"registry": "npmjs"
+		},
+		"customize-cra-0.0.5.tgz": {
+			"url": "https://registry.npmjs.org/customize-cra/-/customize-cra-0.0.5.tgz",
+			"sha": "dc8499a8668cc9631817ebbf91737dd33031491e",
+			"registry": "npmjs"
+		},
+		"customize-cra-0.0.6.tgz": {
+			"url": "https://registry.npmjs.org/customize-cra/-/customize-cra-0.0.6.tgz",
+			"sha": "62a457366e7c77e36ca862f8f41e0b967074ba78",
+			"registry": "npmjs"
+		},
+		"customize-cra-0.1.0-beta1.tgz": {
+			"url": "https://registry.npmjs.org/customize-cra/-/customize-cra-0.1.0-beta1.tgz",
+			"sha": "be43cede4b34d1661592bf552ed07d7b08602c17",
+			"registry": "npmjs"
+		},
+		"customize-cra-0.1.0-beta2.tgz": {
+			"url": "https://registry.npmjs.org/customize-cra/-/customize-cra-0.1.0-beta2.tgz",
+			"sha": "3df23ad47e0d28984bf1b51d19f658e26e950ca1",
+			"registry": "npmjs"
+		},
+		"customize-cra-0.1.0-beta3.tgz": {
+			"url": "https://registry.npmjs.org/customize-cra/-/customize-cra-0.1.0-beta3.tgz",
+			"sha": "7dc51e30991ca5635cc35ea3643e48bd7ab6b4bd",
+			"registry": "npmjs"
+		},
+		"customize-cra-0.1.0-beta4.tgz": {
+			"url": "https://registry.npmjs.org/customize-cra/-/customize-cra-0.1.0-beta4.tgz",
+			"sha": "f3a89de6e8c4cc54fdd6042cd74b49a1d3ea5411",
+			"registry": "npmjs"
+		},
+		"customize-cra-0.1.0-beta5.tgz": {
+			"url": "https://registry.npmjs.org/customize-cra/-/customize-cra-0.1.0-beta5.tgz",
+			"sha": "379983db984f3191e07c5b2f704e5f478f1cbc6f",
+			"registry": "npmjs"
+		},
+		"customize-cra-0.1.0-beta6.tgz": {
+			"url": "https://registry.npmjs.org/customize-cra/-/customize-cra-0.1.0-beta6.tgz",
+			"sha": "c34e954b321cb772e3b3a61ce3b0198ac5ffc22a",
+			"registry": "npmjs"
+		},
+		"customize-cra-0.1.0-beta7.tgz": {
+			"url": "https://registry.npmjs.org/customize-cra/-/customize-cra-0.1.0-beta7.tgz",
+			"sha": "a1c32cc0980a759ae59978181af1c2a27842b599",
+			"registry": "npmjs"
+		},
+		"customize-cra-0.1.0.tgz": {
+			"url": "https://registry.npmjs.org/customize-cra/-/customize-cra-0.1.0.tgz",
+			"sha": "76f93dfce181dc2408c9bdddb83802fb1a7410bb",
+			"registry": "npmjs"
+		},
+		"customize-cra-0.1.1.tgz": {
+			"url": "https://registry.npmjs.org/customize-cra/-/customize-cra-0.1.1.tgz",
+			"sha": "a32a7e0409984c1777337014c7100f4e5567b06d",
+			"registry": "npmjs"
+		},
+		"customize-cra-0.2.0.tgz": {
+			"url": "https://registry.npmjs.org/customize-cra/-/customize-cra-0.2.0.tgz",
+			"sha": "d95e98a61fbdb6279aea13882ca43312c8a35e68",
+			"registry": "npmjs"
+		},
+		"customize-cra-0.2.1.tgz": {
+			"url": "https://registry.npmjs.org/customize-cra/-/customize-cra-0.2.1.tgz",
+			"sha": "bc464f928278009687ebaa128ede6f02ffad7414",
+			"registry": "npmjs"
+		},
+		"customize-cra-0.2.2.tgz": {
+			"url": "https://registry.npmjs.org/customize-cra/-/customize-cra-0.2.2.tgz",
+			"sha": "342fa78be6e1ce1818376af0e5f1912ea170660c",
+			"registry": "npmjs"
+		},
+		"customize-cra-0.2.3.tgz": {
+			"url": "https://registry.npmjs.org/customize-cra/-/customize-cra-0.2.3.tgz",
+			"sha": "2399fd91c2e2d94d47014dc568e51630634c4189",
+			"registry": "npmjs"
+		},
+		"customize-cra-0.2.4.tgz": {
+			"url": "https://registry.npmjs.org/customize-cra/-/customize-cra-0.2.4.tgz",
+			"sha": "5f8cc5f17d7c92f97f569130dc627624f3f67dd5",
+			"registry": "npmjs"
+		},
+		"customize-cra-0.2.5.tgz": {
+			"url": "https://registry.npmjs.org/customize-cra/-/customize-cra-0.2.5.tgz",
+			"sha": "953b7194dd0ad278128745557bb587db56c24050",
+			"registry": "npmjs"
+		},
+		"customize-cra-0.2.6.tgz": {
+			"url": "https://registry.npmjs.org/customize-cra/-/customize-cra-0.2.6.tgz",
+			"sha": "fbbb7f56b766ec4a0ad5eee3141678e9d1d0ff17",
+			"registry": "npmjs"
+		},
+		"customize-cra-0.2.7.tgz": {
+			"url": "https://registry.npmjs.org/customize-cra/-/customize-cra-0.2.7.tgz",
+			"sha": "0e85f5d4a852f1f692f9748458f9029adfe991c2",
+			"registry": "npmjs"
+		},
+		"customize-cra-0.2.8.tgz": {
+			"url": "https://registry.npmjs.org/customize-cra/-/customize-cra-0.2.8.tgz",
+			"sha": "d2f86111cf9c97034091e98f2a7b016dcdabd3ef",
+			"registry": "npmjs"
+		},
+		"customize-cra-0.2.9.tgz": {
+			"url": "https://registry.npmjs.org/customize-cra/-/customize-cra-0.2.9.tgz",
+			"sha": "9a6694c1d8671b548369e273945d6831816e5a78",
+			"registry": "npmjs"
+		},
+		"customize-cra-0.2.10.tgz": {
+			"url": "https://registry.npmjs.org/customize-cra/-/customize-cra-0.2.10.tgz",
+			"sha": "256ef5234e8446caccdefdf52a22abb702350fd8",
+			"registry": "npmjs"
+		},
+		"customize-cra-0.2.11.tgz": {
+			"url": "https://registry.npmjs.org/customize-cra/-/customize-cra-0.2.11.tgz",
+			"sha": "eda1cad4e16c958c577fa43c9776ea372e82671d",
+			"registry": "npmjs"
+		},
+		"customize-cra-0.2.12.tgz": {
+			"url": "https://registry.npmjs.org/customize-cra/-/customize-cra-0.2.12.tgz",
+			"sha": "ffc9b6378cbdffbe29ad02c479ae5d7a502aca69",
+			"registry": "npmjs"
+		},
+		"customize-cra-0.2.13.tgz": {
+			"url": "https://registry.npmjs.org/customize-cra/-/customize-cra-0.2.13.tgz",
+			"sha": "d49e493ce7e9f4d8a2a1ae57e2f50f71e7815f60",
+			"registry": "npmjs"
+		},
+		"customize-cra-0.2.14.tgz": {
+			"url": "https://registry.npmjs.org/customize-cra/-/customize-cra-0.2.14.tgz",
+			"sha": "41f9b2d96d9a318bec760c4c9b3dc9c26d5a7594",
+			"registry": "npmjs"
+		},
+		"customize-cra-0.3.0.tgz": {
+			"url": "https://registry.npmjs.org/customize-cra/-/customize-cra-0.3.0.tgz",
+			"sha": "722a6bf254dee37e2acb87582a8900c6606de95c",
+			"registry": "npmjs"
+		},
+		"customize-cra-0.4.0.tgz": {
+			"url": "https://registry.npmjs.org/customize-cra/-/customize-cra-0.4.0.tgz",
+			"sha": "8263bcaf9cfbc2d62baa8b3a27a14b6c23d4d8b8",
+			"registry": "npmjs"
+		},
+		"customize-cra-0.4.1.tgz": {
+			"url": "https://registry.npmjs.org/customize-cra/-/customize-cra-0.4.1.tgz",
+			"sha": "4424f5661abff5443baf9cd891683de48c922614",
+			"registry": "npmjs"
+		},
+		"customize-cra-0.5.0.tgz": {
+			"url": "https://registry.npmjs.org/customize-cra/-/customize-cra-0.5.0.tgz",
+			"sha": "75819237dde2271a35c69b81284a28dc63a92315",
+			"registry": "npmjs"
+		},
+		"customize-cra-0.6.0.tgz": {
+			"url": "https://registry.npmjs.org/customize-cra/-/customize-cra-0.6.0.tgz",
+			"sha": "5eca0fff1d357f0299286990cb9252d5ed69c024",
+			"registry": "npmjs"
+		},
+		"customize-cra-0.6.1.tgz": {
+			"url": "https://registry.npmjs.org/customize-cra/-/customize-cra-0.6.1.tgz",
+			"sha": "3c055b72474b924af6df04917af1cafc4c99ff94",
+			"registry": "npmjs"
+		},
+		"customize-cra-0.7.0.tgz": {
+			"url": "https://registry.npmjs.org/customize-cra/-/customize-cra-0.7.0.tgz",
+			"sha": "0116318557d365f560d5736304644da5d6124c0a",
+			"registry": "npmjs"
+		},
+		"customize-cra-0.8.0.tgz": {
+			"url": "https://registry.npmjs.org/customize-cra/-/customize-cra-0.8.0.tgz",
+			"sha": "011e65fde9e443733668551740b76e3eefe95822",
+			"registry": "npmjs"
+		},
+		"customize-cra-0.9.0.tgz": {
+			"url": "https://registry.npmjs.org/customize-cra/-/customize-cra-0.9.0.tgz",
+			"sha": "bc691f5cf75f39a73c4d85ee5010dfd50d5446c8",
+			"registry": "npmjs"
+		},
+		"customize-cra-0.9.1.tgz": {
+			"url": "https://registry.npmjs.org/customize-cra/-/customize-cra-0.9.1.tgz",
+			"sha": "76b42c4f537c16329eccc09cfefd804d04c81550",
+			"registry": "npmjs"
+		},
+		"customize-cra-1.0.0-alpha.0.tgz": {
+			"url": "https://registry.npmjs.org/customize-cra/-/customize-cra-1.0.0-alpha.0.tgz",
+			"sha": "7a9523a93d0720cd2190dc24137691b981abf185",
+			"registry": "npmjs"
+		},
+		"customize-cra-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/customize-cra/-/customize-cra-1.0.0.tgz",
+			"sha": "73286563631aa08127ad4d30a2e3c89cf4e93c8d",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_rev": "3-cc33ab645709f8a9",
+	"_id": "customize-cra",
+	"readme": "# `customize-cra`\n\n[![All Contributors](https://img.shields.io/badge/all_contributors-17-orange.svg?style=flat-square)](#contributors-)\n\n📌📌 **Breaking change:** With the `1.0` release of customize-cra breaking changes have been made to the `addLessLoader` customizer to support the changes to `create-react-app` in [#7876](https://github.com/facebook/create-react-app/pull/7876). Please follow the migration guide in [#253](https://github.com/arackaf/customize-cra/issues/253).\n\nThis project provides a set of utilities to customize [`create-react-app`](https://github.com/facebook/create-react-app) versions 2 and 3 configurations leveraging [`react-app-rewired`](https://github.com/timarney/react-app-rewired/) core functionalities.\n\n- [How to install](#how-to-install)\n- [Warning](#warning)\n- [Overview](#overview)\n- [Usage](#usage)\n  - [With `webpack`](#with-webpack)\n  - [With `webpack-dev-server`](#with-webpack-dev-server)\n  - [With `MobX`](#with-mobx)\n- [Documentation](#documentation)\n- [Contributing](#contributing)\n- [Contributors](#contributors)\n\n## How to install\n\nThis project relies on [`react-app-rewired`](https://github.com/timarney/react-app-rewired/). You'll need to install that in order for `customize-cra` to work.\n\n```bash\nyarn add customize-cra react-app-rewired --dev\n```\n\n## ❗ Warning\n\n> \"Stuff can break\"\n> \\- Dan Abramov\n\nUsing this library will override the default behavior and configuration of `create-react-app`, therefore invalidating the guarantees that come with it. Use with discretion!\n\n## Overview\n\n`customize-cra` takes advantage of `react-app-rewired`'s `config-overrides.js` file. By importing `customize-cra` functions and exporting a few function calls wrapped in our `override` function, you can easily modify the underlying config objects (`webpack`, `webpack-dev-server`, `babel`, etc.) that make up `create-react-app`.\n\n## Usage\n\n**Note:** all code should be added to `config-overrides.js` at the same level as `package.json`.\n\nSee the [api docs](api.md) for documentation for each function.\n\n### With `webpack`\n\nTo use these plugins, import the `override` function, and call it with whatever plugins you need. Each of these plugin invocations will return a new function, that `override` will call with the newly modified config object. Falsy values will be ignored though, so if you need to conditionally apply any of these plugins, you can do so like below.\n\nFor example:\n\n```js\nconst {\n  override,\n  addDecoratorsLegacy,\n  disableEsLint,\n  addBundleVisualizer,\n  addWebpackAlias,\n  adjustWorkbox\n} = require(\"customize-cra\");\nconst path = require(\"path\");\n\nmodule.exports = override(\n  // enable legacy decorators babel plugin\n  addDecoratorsLegacy(),\n\n  // disable eslint in webpack\n  disableEsLint(),\n\n  // add webpack bundle visualizer if BUNDLE_VISUALIZE flag is enabled\n  process.env.BUNDLE_VISUALIZE == 1 && addBundleVisualizer(),\n\n  // add an alias for \"ag-grid-react\" imports\n  addWebpackAlias({\n    [\"ag-grid-react$\"]: path.resolve(__dirname, \"src/shared/agGridWrapper.js\")\n  }),\n\n  // adjust the underlying workbox\n  adjustWorkbox(wb =>\n    Object.assign(wb, {\n      skipWaiting: true,\n      exclude: (wb.exclude || []).concat(\"index.html\")\n    })\n  )\n);\n```\n\n### With `webpack-dev-server`\n\nYou can use the `overrideDevServer` function to override the `webpack-dev-server` config. It works the same way as `override`:\n\n```js\nconst {\n  override,\n  disableEsLint,\n  overrideDevServer,\n  watchAll\n} = require(\"customize-cra\");\n\nmodule.exports = {\n  webpack: override(\n    // usual webpack plugin\n    disableEsLint()\n  ),\n  devServer: overrideDevServer(\n    // dev server plugin\n    watchAll()\n  )\n};\n```\n\n### With `MobX`\n\nIf you want CRA 2 to work with MobX, use the `addDecoratorsLegacy` and `disableEsLint`.\n\n## Documentation\n\n[See `api.md`](api.md) for documentation on the functions provided by `customize-cra`.\n\n## Contributing\n\nFor more information about contributing to this project, like a directory map or a how-to for reporting an issue about the project, please [`see contributing.md`](contributing.md).\n\n## Contributors ✨\n\nThanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):\n\n<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->\n<!-- prettier-ignore-start -->\n<!-- markdownlint-disable -->\n<table>\n  <tr>\n    <td align=\"center\"><a href=\"https://github.com/dqu\"><img src=\"https://avatars2.githubusercontent.com/u/4287468?v=4\" width=\"100px;\" alt=\"dqu\"/><br /><sub><b>dqu</b></sub></a><br /><a href=\"#question-dqu\" title=\"Answering Questions\">💬</a></td>\n    <td align=\"center\"><a href=\"https://blog.breezelin.cn\"><img src=\"https://avatars2.githubusercontent.com/u/5266711?v=4\" width=\"100px;\" alt=\"Breeze\"/><br /><sub><b>Breeze</b></sub></a><br /><a href=\"https://github.com/arackaf/customize-cra/commits?author=breeze2\" title=\"Code\">💻</a></td>\n    <td align=\"center\"><a href=\"https://github.com/Terryand\"><img src=\"https://avatars2.githubusercontent.com/u/22273687?v=4\" width=\"100px;\" alt=\"Terryand\"/><br /><sub><b>Terryand</b></sub></a><br /><a href=\"https://github.com/arackaf/customize-cra/commits?author=Terryand\" title=\"Code\">💻</a></td>\n    <td align=\"center\"><a href=\"https://github.com/m-weeks\"><img src=\"https://avatars0.githubusercontent.com/u/37918120?v=4\" width=\"100px;\" alt=\"m-weeks\"/><br /><sub><b>m-weeks</b></sub></a><br /><a href=\"https://github.com/arackaf/customize-cra/issues?q=author%3Am-weeks\" title=\"Bug reports\">🐛</a></td>\n    <td align=\"center\"><a href=\"https://github.com/wuchaoya\"><img src=\"https://avatars2.githubusercontent.com/u/20284675?v=4\" width=\"100px;\" alt=\"吴超\"/><br /><sub><b>吴超</b></sub></a><br /><a href=\"#example-wuchaoya\" title=\"Examples\">💡</a></td>\n    <td align=\"center\"><a href=\"http://jamesthistlewood.co.uk\"><img src=\"https://avatars3.githubusercontent.com/u/8274049?v=4\" width=\"100px;\" alt=\"James Thistlewood\"/><br /><sub><b>James Thistlewood</b></sub></a><br /><a href=\"https://github.com/arackaf/customize-cra/commits?author=jthistle\" title=\"Code\">💻</a></td>\n    <td align=\"center\"><a href=\"https://github.com/taddj\"><img src=\"https://avatars1.githubusercontent.com/u/48697700?v=4\" width=\"100px;\" alt=\"taddj\"/><br /><sub><b>taddj</b></sub></a><br /><a href=\"#question-taddj\" title=\"Answering Questions\">💬</a></td>\n  </tr>\n  <tr>\n    <td align=\"center\"><a href=\"https://github.com/postgetme\"><img src=\"https://avatars3.githubusercontent.com/u/5118867?v=4\" width=\"100px;\" alt=\"MeiLin\"/><br /><sub><b>MeiLin</b></sub></a><br /><a href=\"https://github.com/arackaf/customize-cra/commits?author=postgetme\" title=\"Code\">💻</a></td>\n    <td align=\"center\"><a href=\"https://github.com/badgerwithagun\"><img src=\"https://avatars0.githubusercontent.com/u/6483013?v=4\" width=\"100px;\" alt=\"Graham Crockford\"/><br /><sub><b>Graham Crockford</b></sub></a><br /><a href=\"#ideas-badgerwithagun\" title=\"Ideas, Planning, & Feedback\">🤔</a></td>\n    <td align=\"center\"><a href=\"https://github.com/gfafei\"><img src=\"https://avatars3.githubusercontent.com/u/12234890?v=4\" width=\"100px;\" alt=\"afei\"/><br /><sub><b>afei</b></sub></a><br /><a href=\"https://github.com/arackaf/customize-cra/commits?author=gfafei\" title=\"Code\">💻</a></td>\n    <td align=\"center\"><a href=\"https://github.com/fireairforce\"><img src=\"https://avatars3.githubusercontent.com/u/32598811?v=4\" width=\"100px;\" alt=\"zoomdong\"/><br /><sub><b>zoomdong</b></sub></a><br /><a href=\"https://github.com/arackaf/customize-cra/commits?author=fireairforce\" title=\"Code\">💻</a></td>\n    <td align=\"center\"><a href=\"https://github.com/danilofuchs\"><img src=\"https://avatars0.githubusercontent.com/u/17657014?v=4\" width=\"100px;\" alt=\"Danilo Campana Fuchs\"/><br /><sub><b>Danilo Campana Fuchs</b></sub></a><br /><a href=\"https://github.com/arackaf/customize-cra/commits?author=danilofuchs\" title=\"Code\">💻</a></td>\n    <td align=\"center\"><a href=\"https://github.com/ronarvaez\"><img src=\"https://avatars0.githubusercontent.com/u/14306638?v=4\" width=\"100px;\" alt=\"Rodrigo Narvaez\"/><br /><sub><b>Rodrigo Narvaez</b></sub></a><br /><a href=\"https://github.com/arackaf/customize-cra/commits?author=ronarvaez\" title=\"Code\">💻</a></td>\n    <td align=\"center\"><a href=\"https://blackmatch.github.io\"><img src=\"https://avatars3.githubusercontent.com/u/12443954?v=4\" width=\"100px;\" alt=\"blackmatch\"/><br /><sub><b>blackmatch</b></sub></a><br /><a href=\"https://github.com/arackaf/customize-cra/commits?author=blackmatch\" title=\"Code\">💻</a></td>\n  </tr>\n  <tr>\n    <td align=\"center\"><a href=\"https://github.com/billypon\"><img src=\"https://avatars2.githubusercontent.com/u/1763302?v=4\" width=\"100px;\" alt=\"billypon\"/><br /><sub><b>billypon</b></sub></a><br /><a href=\"https://github.com/arackaf/customize-cra/commits?author=billypon\" title=\"Code\">💻</a></td>\n    <td align=\"center\"><a href=\"https://github.com/1123612483\"><img src=\"https://avatars1.githubusercontent.com/u/20741541?v=4\" width=\"100px;\" alt=\"Juetta\"/><br /><sub><b>Juetta</b></sub></a><br /><a href=\"https://github.com/arackaf/customize-cra/commits?author=1123612483\" title=\"Code\">💻</a></td>\n    <td align=\"center\"><a href=\"https://www.onlyling.com\"><img src=\"https://avatars3.githubusercontent.com/u/9999765?v=4\" width=\"100px;\" alt=\"LING_ZI_QING\"/><br /><sub><b>LING_ZI_QING</b></sub></a><br /><a href=\"https://github.com/arackaf/customize-cra/commits?author=onlyling\" title=\"Code\">💻</a> <a href=\"https://github.com/arackaf/customize-cra/commits?author=onlyling\" title=\"Documentation\">📖</a></td>\n  </tr>\n</table>\n\n<!-- markdownlint-enable -->\n<!-- prettier-ignore-end -->\n<!-- ALL-CONTRIBUTORS-LIST:END -->\n\nThis project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!"
+}

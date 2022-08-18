@@ -1,0 +1,663 @@
+{
+	"name": "symbol.prototype.description",
+	"versions": {
+		"1.0.0": {
+			"name": "symbol.prototype.description",
+			"version": "1.0.0",
+			"description": "Spec-compliant shim for Symbol.prototype.description proposal.",
+			"main": "index.js",
+			"scripts": {
+				"lint": "eslint .",
+				"postlint": "es-shim-api --bound --skip-shim-returns-polyfill",
+				"security": "nsp check",
+				"tests-only": "node test && node test/shimmed",
+				"pretest": "npm run lint",
+				"test": "npm run tests-only",
+				"posttest": "npm run security"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/es-shims/Symbol.prototype.description.git"
+			},
+			"keywords": [
+				"polyfill",
+				"shim",
+				"es",
+				"shim",
+				"ecmascript",
+				"symbol",
+				"description"
+			],
+			"author": {
+				"name": "Jordan Harband",
+				"email": "ljharb@gmail.com"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/es-shims/Symbol.prototype.description/issues"
+			},
+			"homepage": "https://github.com/es-shims/Symbol.prototype.description#readme",
+			"dependencies": {
+				"has-symbols": "^1.0.0"
+			},
+			"devDependencies": {
+				"@es-shims/api": "^2.1.2",
+				"@ljharb/eslint-config": "^12.2.1",
+				"eslint": "^4.16.0",
+				"nsp": "^3.1.0",
+				"tape": "^4.8.0"
+			},
+			"engines": {
+				"node": ">= 0.12"
+			},
+			"gitHead": "71f0b86f87ca9be9d17e746167e8a00b6f67cb9c",
+			"_id": "symbol.prototype.description@1.0.0",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "9.4.0",
+			"_npmUser": {
+				"name": "ljharb",
+				"email": "ljharb@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-I9mrbZ5M96s7QeJDv95toF1svkUjeBybe8ydhY7foPaBmr0SPJMFupArmMkDrOKTTj0sJVr+nvQNxWLziQ7nDQ==",
+				"shasum": "6e355660eb1e44ca8ad53a68fdb72ef131ca4b12",
+				"tarball": "https://registry.npmjs.org/symbol.prototype.description/-/symbol.prototype.description-1.0.0.tgz",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQCf47HiT8DzWAlR3ysi4iVjLyezCiqKcApXLUQUsGgWxQIgS/ItTUpgzB1ZWzxyZMAbuAA9txa8X/x0APAnMhVKr5A="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "ljharb",
+					"email": "ljharb@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/symbol.prototype.description-1.0.0.tgz_1516751316833_0.06466031167656183"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.0.1": {
+			"name": "symbol.prototype.description",
+			"version": "1.0.1",
+			"description": "Spec-compliant shim for Symbol.prototype.description proposal.",
+			"main": "index.js",
+			"scripts": {
+				"version": "auto-changelog && git add CHANGELOG.md",
+				"postversion": "auto-changelog && git add CHANGELOG.md && git commit --no-edit --amend && git tag -f \"v$(node -e \"console.log(require('./package.json').version)\")\"",
+				"prepublish": "safe-publish-latest",
+				"lint": "eslint .",
+				"postlint": "es-shim-api --bound --skip-shim-returns-polyfill",
+				"tests-only": "node test && node test/shimmed",
+				"pretest": "npm run lint",
+				"test": "npm run tests-only",
+				"posttest": "npx aud"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/es-shims/Symbol.prototype.description.git"
+			},
+			"keywords": [
+				"polyfill",
+				"shim",
+				"es",
+				"shim",
+				"ecmascript",
+				"symbol",
+				"description"
+			],
+			"author": {
+				"name": "Jordan Harband",
+				"email": "ljharb@gmail.com"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/es-shims/Symbol.prototype.description/issues"
+			},
+			"homepage": "https://github.com/es-shims/Symbol.prototype.description#readme",
+			"dependencies": {
+				"es-abstract": "^1.16.0",
+				"has-symbols": "^1.0.0"
+			},
+			"devDependencies": {
+				"@es-shims/api": "^2.1.2",
+				"@ljharb/eslint-config": "^14.1.0",
+				"auto-changelog": "^1.16.1",
+				"eslint": "^6.5.1",
+				"safe-publish-latest": "^1.1.3",
+				"tape": "^4.11.0"
+			},
+			"engines": {
+				"node": ">= 0.12"
+			},
+			"auto-changelog": {
+				"output": "CHANGELOG.md",
+				"unreleased": false,
+				"commitLimit": false,
+				"backfillLimit": false
+			},
+			"gitHead": "44ef90edd2073d6c6fcbb4a745104a92412dbef0",
+			"_id": "symbol.prototype.description@1.0.1",
+			"_nodeVersion": "12.12.0",
+			"_npmVersion": "6.11.3",
+			"dist": {
+				"integrity": "sha512-smeS1BCkN6lcz1XveFK+cfvfBmNJ6dcPi6lgOnLUU8Po8SmV+rtmYGObbNOisW9RHWMyUfsgMA+eTQg+b3v9Vg==",
+				"shasum": "e44e5db04d977932d1a261570bf65312773406d0",
+				"tarball": "https://registry.npmjs.org/symbol.prototype.description/-/symbol.prototype.description-1.0.1.tgz",
+				"fileCount": 16,
+				"unpackedSize": 26458,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdqqJaCRA9TVsSAnZWagAAvt8P/Rl07QFcFctznAZbam35\nQJrIvOLKskmtr6u2z7Q47jx8k2MxNwt+Cuj3b9wwwZq0e8lQhhPNsBRDkyQG\nPlKUQx9N1vavc4arhCB45rAjO5kfUPZcxV1m1M1zqp0iOn0MeYswAWjU5MXH\nIsx+Fwm0Cw3RVsLDrsa21f6IDMgJADhvt4mdGjDw9XmjfK5aNjQd7s+SWJO2\nhe8kRcNff2pQNCgPAu+cHw/8p39iupqXX37b0odejLuYClvoL5kE7dRu39WZ\n9KS8luZQtfjT/KZdEzyy/cDc5AbvZcOoBKUcyiw7BwY0HgDMfOK2RLmh/uGC\neHGasfBwqbgKzct6XaWcyaiN1/h0n3yt2kOOYo2MF86zMIwMplvP/vljIogw\ndas5eicnMXHmZWUFDFVeG5t0sOxu+iCQCqVVtA/MhqgLcPdF++yfvJ7cqUYR\nqU8YF/hfBUES+VK1lPr14bZcCaCWwCXg74pwF2pSoB3lMEoZbROa6XzuZYQH\nyYeQ6zQkyeteN4ahxkEh7SKGWkn/diup41FdR3fz7SipplGCpbtB09q7RzzA\nTZmghs7Q0iQmt5x4VB1ln6+FX11SBacYm9U3BJJW8/pnEhuFVtUPVuSrMrGU\nKkTfjmurx+FVFZsXBp7jxADbKw+Ry0HHbGin45nCo2cxivopLbqvsXCSpPEE\naqji\r\n=aCOF\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIFHn4wQTmAccZyo8OM4ZvXZiQ6GNmcoarEkecejB4uXtAiEAiboYVexQls3snXnjMGFM6qIh/CuiiAELMlf0TWzIk+c="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"email": "ljharb+esshims@gmail.com",
+					"name": "es-shims-owner"
+				},
+				{
+					"email": "ljharb@gmail.com",
+					"name": "ljharb"
+				}
+			],
+			"_npmUser": {
+				"name": "ljharb",
+				"email": "ljharb@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/symbol.prototype.description_1.0.1_1571463769712_0.7114072386815513"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.0.2": {
+			"name": "symbol.prototype.description",
+			"version": "1.0.2",
+			"description": "Spec-compliant shim for Symbol.prototype.description proposal.",
+			"main": "index.js",
+			"scripts": {
+				"version": "auto-changelog && git add CHANGELOG.md",
+				"postversion": "auto-changelog && git add CHANGELOG.md && git commit --no-edit --amend && git tag -f \"v$(node -e \"console.log(require('./package.json').version)\")\"",
+				"prepublish": "safe-publish-latest",
+				"lint": "eslint .",
+				"postlint": "es-shim-api --bound --skip-shim-returns-polyfill",
+				"tests-only": "node test && node test/shimmed",
+				"pretest": "npm run lint",
+				"test": "npm run tests-only",
+				"posttest": "npx aud"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/es-shims/Symbol.prototype.description.git"
+			},
+			"keywords": [
+				"polyfill",
+				"shim",
+				"es",
+				"shim",
+				"ecmascript",
+				"symbol",
+				"description"
+			],
+			"author": {
+				"name": "Jordan Harband",
+				"email": "ljharb@gmail.com"
+			},
+			"funding": {
+				"url": "https://github.com/sponsors/ljharb"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/es-shims/Symbol.prototype.description/issues"
+			},
+			"homepage": "https://github.com/es-shims/Symbol.prototype.description#readme",
+			"dependencies": {
+				"es-abstract": "^1.17.0-next.1",
+				"has-symbols": "^1.0.1"
+			},
+			"devDependencies": {
+				"@es-shims/api": "^2.1.2",
+				"@ljharb/eslint-config": "^15.0.2",
+				"auto-changelog": "^1.16.2",
+				"eslint": "^6.7.2",
+				"safe-publish-latest": "^1.1.4",
+				"tape": "^4.11.0"
+			},
+			"engines": {
+				"node": ">= 0.12"
+			},
+			"auto-changelog": {
+				"output": "CHANGELOG.md",
+				"unreleased": false,
+				"commitLimit": false,
+				"backfillLimit": false
+			},
+			"gitHead": "014e4b9ca75556a3fe86d67a82fd4213bcddb9cd",
+			"_id": "symbol.prototype.description@1.0.2",
+			"_nodeVersion": "13.3.0",
+			"_npmVersion": "6.13.1",
+			"dist": {
+				"integrity": "sha512-2CW5SU4/Ki1cYOOHcL2cXK4rxSg5hCU1TwZ7X4euKhV9VnfqKslh7T6/UyKkubA8cq2tOmsOv7m3ZUmQslBRuw==",
+				"shasum": "f325e1e6ad534b3b29c9c3ca73c136c9ce03c5e2",
+				"tarball": "https://registry.npmjs.org/symbol.prototype.description/-/symbol.prototype.description-1.0.2.tgz",
+				"fileCount": 16,
+				"unpackedSize": 18215,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJd9DBiCRA9TVsSAnZWagAAcb4P+wRzF637tsN3c4O0qOtS\nE9nSa15F4og3w/0hoxXwfpemLSsF8hfpBbQMVKaC1JULsliN456tBJyY0Rdq\ngmthTbswfcm+xU7UMI8CHUoS5CtmFSw/efTuy6VTQx/YTiPIH9D4Px1hc0jj\nrWgFddpKja8mVPOmN7y5joXEYvqzZJW4GcmLa5PTCkeLr4VxB0wuuBfKkV0e\nHUbe9lwDQnOfvwGgDz0KcmXfpcw0GpLUZiyEontHQG1mJRdlOvdlsADEN9GD\nWhlVLnVZ9sbOt4Jg/qgP8TD/619I1m+ly6h3Ym6+DBx25pcxBesGyGLRkv7D\nW1aBvMcYbwPzpcROq1PhpI6IUwTmk5mkR0+Op/rGnjimfgpTzy1WgZjROFvI\nlGU352BZkNIagToCMA5PA411F2MHXEu4HuytPL0N+jNp2aUNOmJ+uicpTpE0\nvQWlEAIvH1zcNHAbaG0IO5H+aLibJtXmvJSAtnVy7kB/Ou5OeZdzTsdJtANp\nLyC06WakCY0vtX7MHsGiW0cP4WQhkeSWPdkW6PwxKrJRRw3qWwtJ2vJ53qd3\nVutobvACnnI5MfH99vUJIRpQIT5/dbofzeeIAfB2pmEcWpo99crRCDW0+92q\nrELbajBJbKC19iQ19JLTnlhZHUaVUFY4JpWLwCJ6CXCw3xFhJAvp54J92Ovp\n0IQw\r\n=PPr2\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIFMPaSe8V5kp6fg2nsyXBEk6Uyvq6mGHtMDmfvWhjRtVAiEAhuM4I62Qtnr6Vu8aLBExHJ+1girI/zITZdgA/LpTs+M="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"email": "ljharb+esshims@gmail.com",
+					"name": "es-shims-owner"
+				},
+				{
+					"email": "ljharb@gmail.com",
+					"name": "ljharb"
+				}
+			],
+			"_npmUser": {
+				"name": "ljharb",
+				"email": "ljharb@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/symbol.prototype.description_1.0.2_1576284258366_0.08399736490304588"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.0.3": {
+			"name": "symbol.prototype.description",
+			"version": "1.0.3",
+			"description": "Spec-compliant shim for Symbol.prototype.description proposal.",
+			"main": "index.js",
+			"scripts": {
+				"version": "auto-changelog && git add CHANGELOG.md",
+				"postversion": "auto-changelog && git add CHANGELOG.md && git commit --no-edit --amend && git tag -f \"v$(node -e \"console.log(require('./package.json').version)\")\"",
+				"prepublish": "safe-publish-latest",
+				"lint": "eslint .",
+				"postlint": "es-shim-api --bound --skip-shim-returns-polyfill",
+				"tests-only": "nyc tape 'test/**/*.js'",
+				"pretest": "npm run lint",
+				"test": "npm run tests-only",
+				"posttest": "npx aud --production"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/es-shims/Symbol.prototype.description.git"
+			},
+			"keywords": [
+				"polyfill",
+				"shim",
+				"es",
+				"shim",
+				"ecmascript",
+				"symbol",
+				"description"
+			],
+			"author": {
+				"name": "Jordan Harband",
+				"email": "ljharb@gmail.com"
+			},
+			"funding": {
+				"url": "https://github.com/sponsors/ljharb"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/es-shims/Symbol.prototype.description/issues"
+			},
+			"homepage": "https://github.com/es-shims/Symbol.prototype.description#readme",
+			"dependencies": {
+				"call-bind": "^1.0.0",
+				"es-abstract": "^1.18.0-next.1",
+				"has-symbols": "^1.0.1",
+				"object.getownpropertydescriptors": "^2.1.0"
+			},
+			"devDependencies": {
+				"@es-shims/api": "^2.1.2",
+				"@ljharb/eslint-config": "^17.2.0",
+				"aud": "^1.1.3",
+				"auto-changelog": "^2.2.1",
+				"eslint": "^7.14.0",
+				"has-strict-mode": "^1.0.0",
+				"nyc": "^10.3.2",
+				"reflect.ownkeys": "^1.0.1",
+				"safe-publish-latest": "^1.1.4",
+				"tape": "^5.0.1"
+			},
+			"engines": {
+				"node": ">= 0.11.15"
+			},
+			"auto-changelog": {
+				"output": "CHANGELOG.md",
+				"template": "keepachangelog",
+				"unreleased": false,
+				"commitLimit": false,
+				"backfillLimit": false,
+				"hideCredit": true
+			},
+			"gitHead": "df33548c3f376574e64110dc5c0669b430582a5d",
+			"_id": "symbol.prototype.description@1.0.3",
+			"_nodeVersion": "14.15.0",
+			"_npmVersion": "6.14.8",
+			"dist": {
+				"integrity": "sha512-NvwWb5AdyTtmFNa1x0ksJakFUV/WJ+z7iRrYGU1xZew77Qd+kMrZKsk3uatCckk6yPNpbHhRcOO+JBU+ohcMBw==",
+				"shasum": "5b0eb61595bca6945da95ec7696a25e55aa1eca6",
+				"tarball": "https://registry.npmjs.org/symbol.prototype.description/-/symbol.prototype.description-1.0.3.tgz",
+				"fileCount": 24,
+				"unpackedSize": 28592,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfu219CRA9TVsSAnZWagAA82AP/RJGrxdk0tFN3nd/cxTM\nkFnG7PdWBsTKj880teaAsLYHS6Ceof/7Kn9/3W0fzXBuB5JEkMhY3X24xOI0\ntvSaRPxnB1Ig0hGi+6rvRZlCYj/J/7WfTeLY+9k+vEcwL5naSsrVp3O5SsYA\nr4RcUU/OuhyGuqjn69uoiKixksEzCPOrRqMTyIcJaHzXzhC10IoJx+40yz31\nbKD1Z7GaZushyLmXjV2S3J9xurHkc/SHjTGDvgsKslspWtcDssUtclIDIp1T\nV61FgbYQGmny27dU2gvrQY1KbaSmVm7uvzorPkojqvOWJ5e3yOmf5Rbfvuf/\njmzWlAy7g2QowzMYBUEhFaRcUSn0cv5Mm6HB4stuXOuRxEZtLCQsAikUVcGC\nrBjdqICbYDNldhJqh228Xh2Wc7AnNmn9XImERf1NqD4eeh2UDTbVBs+uJB2D\nbWU7Arzx2eYrXouhZrCxig9jnPVNrBDyvOGgVYUm//ZmDooJjncHuVXBsmMY\ng7CKWEbzZ/fkjjzD2Kng21SSLqMviW51trBwiFcWNsnja0ORDU8wa/JJCVXs\n/3iriAhQypgt3LLI3eN3LVGk9yV0Ka26UwKliTj4qx+CMHW7evPHANcG+894\n3RC61DhbBrfCk6SOMNba+D0zVscld2rXJr7T54BamNxZEYycOdJIGtYy5HHc\nF+zk\r\n=CwEd\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDMN1wRw7K95ElUD+apvkjiTgJu1o/Qxc5oQHfQP9QO+QIhAKAJ+RaYlC/XsEmhdpaOpSOPKmFITAgAspi5yYFnm/tJ"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "ljharb",
+				"email": "ljharb@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "ljharb",
+					"email": "ljharb@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/symbol.prototype.description_1.0.3_1606118781305_0.2729478645609724"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.0.4": {
+			"name": "symbol.prototype.description",
+			"version": "1.0.4",
+			"description": "Spec-compliant shim for Symbol.prototype.description proposal.",
+			"main": "index.js",
+			"scripts": {
+				"version": "auto-changelog && git add CHANGELOG.md",
+				"postversion": "auto-changelog && git add CHANGELOG.md && git commit --no-edit --amend && git tag -f \"v$(node -e \"console.log(require('./package.json').version)\")\"",
+				"prepublish": "safe-publish-latest",
+				"lint": "eslint .",
+				"postlint": "es-shim-api --bound --skip-shim-returns-polyfill",
+				"tests-only": "nyc tape 'test/**/*.js'",
+				"pretest": "npm run lint",
+				"test": "npm run tests-only",
+				"posttest": "npx aud --production"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/es-shims/Symbol.prototype.description.git"
+			},
+			"keywords": [
+				"polyfill",
+				"shim",
+				"es",
+				"shim",
+				"ecmascript",
+				"symbol",
+				"description"
+			],
+			"author": {
+				"name": "Jordan Harband",
+				"email": "ljharb@gmail.com"
+			},
+			"funding": {
+				"url": "https://github.com/sponsors/ljharb"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/es-shims/Symbol.prototype.description/issues"
+			},
+			"homepage": "https://github.com/es-shims/Symbol.prototype.description#readme",
+			"dependencies": {
+				"call-bind": "^1.0.2",
+				"es-abstract": "^1.18.0-next.2",
+				"has-symbols": "^1.0.1",
+				"object.getownpropertydescriptors": "^2.1.2"
+			},
+			"devDependencies": {
+				"@es-shims/api": "^2.1.2",
+				"@ljharb/eslint-config": "^17.5.1",
+				"aud": "^1.1.4",
+				"auto-changelog": "^2.2.1",
+				"eslint": "^7.20.0",
+				"has-strict-mode": "^1.0.1",
+				"nyc": "^10.3.2",
+				"reflect.ownkeys": "^1.0.2",
+				"safe-publish-latest": "^1.1.4",
+				"tape": "^5.2.0"
+			},
+			"engines": {
+				"node": ">= 0.11.15"
+			},
+			"auto-changelog": {
+				"output": "CHANGELOG.md",
+				"template": "keepachangelog",
+				"unreleased": false,
+				"commitLimit": false,
+				"backfillLimit": false,
+				"hideCredit": true
+			},
+			"gitHead": "aea73696a8350aa049f99fcded866b64f7624f95",
+			"_id": "symbol.prototype.description@1.0.4",
+			"_nodeVersion": "14.15.5",
+			"_npmVersion": "6.14.11",
+			"dist": {
+				"integrity": "sha512-fZkHwJ8ZNRVRzF/+/2OtygyyH06CjC0YZAQRHu9jKKw8RXlJpbizEHvGRUu22Qkg182wJk1ugb5Aovcv3UPrww==",
+				"shasum": "c30edd3fe8c040d941cf7dc15842be15adf66855",
+				"tarball": "https://registry.npmjs.org/symbol.prototype.description/-/symbol.prototype.description-1.0.4.tgz",
+				"fileCount": 18,
+				"unpackedSize": 24070,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgMnNICRA9TVsSAnZWagAAAmEP/R1smfShCqdzBJM4r1dL\nXPjaAWTECPdkBudTeYj8ZwBi+Z+6U+RYEkEwQk+Jtkc17vorFZESjDuzwFEA\nQUgASPOnPxKEjs/+3+sYwdkP3wLxpwIBmp2xDNg2ygRJ+wMj7cQWKXSLosIr\nHYLXg3ggV89M4h6xQhGr5C6fnXQhnDYLRWvc0l4xZdPUT5JKuXeuA6voX0KV\nzKksYOzKqE/GCwSJUrcyYaurnT5Ws/LIXfF2S5RhR/ofnS5f3otkL8UPm/tq\nI5DbLA/nsPDflejWLWlITe3NZgZR50wct2whIkSkNTx+P+8nsvAkc4wOqINN\nb0fZvMFAO6EDFV5chtZ911m8Vm105hEWqXtKCdq9+ppFD6SXwe3X+6ZmbuaO\nBC2S9tk9Lehs32RjBo+3SbhdnpB5t1L09Y0Ju3C2HV+KjocXMJQiPLKH7zoh\nDdaHgY63WE6sYnl6H4q1ZOiiMW6n/uOTIiCDBkgmWfB8xQD2J9FeRyMLFHGs\nrhWHlX+wfECyrdoQAaLjxc7pdstzBG/INof8awOaU92d0uGFOlckg14p/WP3\nNwjSOAdNroGIKYTQAjmCFeOOwBgi4hbPbjiAz7E0PlbYeT2V7Y9mDBDfbPI8\nAI5JL883bQ0bPP00jJ3JYrAqoGBBPjuzOTHFnCw8MocjH6FWDdUSmeF7+enb\nxk6n\r\n=gsmc\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQCHShims/u0qlOEW1EnqVP+Rivti66MC39NrZLc71W4ngIgIWRu8zoMavjNQg9jHNhXKMemRBOhWpm/foY6cLvBHDM="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "ljharb",
+				"email": "ljharb@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "ljharb",
+					"email": "ljharb@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/symbol.prototype.description_1.0.4_1613919047717_0.038559584046810924"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.0.5": {
+			"name": "symbol.prototype.description",
+			"version": "1.0.5",
+			"description": "Spec-compliant shim for Symbol.prototype.description proposal.",
+			"main": "index.js",
+			"sideEffects": false,
+			"scripts": {
+				"version": "auto-changelog && git add CHANGELOG.md",
+				"postversion": "auto-changelog && git add CHANGELOG.md && git commit --no-edit --amend && git tag -f \"v$(node -e \"console.log(require('./package.json').version)\")\"",
+				"prepublish": "not-in-publish || npm run prepublishOnly",
+				"prepublishOnly": "safe-publish-latest",
+				"lint": "eslint .",
+				"postlint": "es-shim-api --bound --skip-shim-returns-polyfill",
+				"tests-only": "nyc tape 'test/**/*.js'",
+				"pretest": "npm run lint",
+				"test": "npm run tests-only",
+				"posttest": "npx aud --production"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/es-shims/Symbol.prototype.description.git"
+			},
+			"keywords": [
+				"polyfill",
+				"shim",
+				"es",
+				"shim",
+				"ecmascript",
+				"symbol",
+				"description"
+			],
+			"author": {
+				"name": "Jordan Harband",
+				"email": "ljharb@gmail.com"
+			},
+			"funding": {
+				"url": "https://github.com/sponsors/ljharb"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/es-shims/Symbol.prototype.description/issues"
+			},
+			"homepage": "https://github.com/es-shims/Symbol.prototype.description#readme",
+			"dependencies": {
+				"call-bind": "^1.0.2",
+				"get-symbol-description": "^1.0.0",
+				"has-symbols": "^1.0.2",
+				"object.getownpropertydescriptors": "^2.1.2"
+			},
+			"devDependencies": {
+				"@es-shims/api": "^2.1.2",
+				"@ljharb/eslint-config": "^17.6.0",
+				"aud": "^1.1.5",
+				"auto-changelog": "^2.3.0",
+				"eslint": "^7.32.0",
+				"has-strict-mode": "^1.0.1",
+				"nyc": "^10.3.2",
+				"reflect.ownkeys": "^1.0.2",
+				"safe-publish-latest": "^1.1.4",
+				"tape": "^5.3.1"
+			},
+			"engines": {
+				"node": ">= 0.11.15"
+			},
+			"auto-changelog": {
+				"output": "CHANGELOG.md",
+				"template": "keepachangelog",
+				"unreleased": false,
+				"commitLimit": false,
+				"backfillLimit": false,
+				"hideCredit": true
+			},
+			"gitHead": "a0e65e6addb7fc1b84d560541cccec3bd5a6a8c5",
+			"_id": "symbol.prototype.description@1.0.5",
+			"_nodeVersion": "16.6.2",
+			"_npmVersion": "7.20.3",
+			"dist": {
+				"integrity": "sha512-x738iXRYsrAt9WBhRCVG5BtIC3B7CUkFwbHW2zOvGtwM33s7JjrCDyq8V0zgMYVb5ymsL8+qkzzpANH63CPQaQ==",
+				"shasum": "d30e01263b6020fbbd2d2884a6276ce4d49ab568",
+				"tarball": "https://registry.npmjs.org/symbol.prototype.description/-/symbol.prototype.description-1.0.5.tgz",
+				"fileCount": 18,
+				"unpackedSize": 25619,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJhHDvxCRA9TVsSAnZWagAAk+AP/jiiQmGsHhuuli3v5E97\nBBcTc/M/4Qz/DAF3p8s31C5izKfgwLBYAh7r6jX7UsT4Tc7eLIW5XZLM+tS3\ntSwlo4twfq0D/2dBMb3dW2ul6LnWnRsFTdxxvrCzUt8a2F4t9kWlpsJICMmR\nxcwzD9TLCCQasYNTECDWGY5/MoIe0cZ/1TaJgEmcr3Ii+GZ08IZYKGuirrgr\nv757TQJdMEnsLWVk/b4E1GNa4K3V5vknjcMDNfsJbr+rXGMIimypJLZW09Bk\nNZ6wMMfV6hVxPOmQX+WrpmowOX2oIpPB1lejpzVdMqqWZ9ScTVYwjHP1UZya\n8CqJjfvdNuwplBguCT3zPJUWTBeAvJDS+Wqi2XzxNkPegu6mXTSs0u6U3m/i\niTiLzwy4/WnXlRi6RKwJhR1CXW0xMEUoe0lKd/9g+gBy8XAoN9xCdwTucaht\nWbV1QKKejhHzbG7rpLiMscghp1KR5ButJkgccYIG2WqvkJfC5GoaBQdxf8Wd\nc3gtKSZiycfOWaKs1n9l83tr0MOWaYC3oit1F6w2rzv0v+cKR3nVEwZnMrv8\njbZzUwqR1nE8O5yemQ2uH/j86yzH3gRV6p0L6MmXg+kdwLZsqCi7h2YmqIy1\nP7ATBbSXlP4CLBXabJCtPo8bIlaINeMW05qYgyxnJ16qtfF5kSpbikPBq9L7\ns+xf\r\n=hRK8\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQCmeQJ/NWDgiGEl+R1spZ28riWGJh5s8LDVjoVjXt4nTQIgVHWisgcPb9ltLE6jcs5j/Gw+c6347zgOPKPvJBcv09Q="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "ljharb",
+				"email": "ljharb@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "ljharb",
+					"email": "ljharb@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/symbol.prototype.description_1.0.5_1629240304995_0.6462127571041418"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		}
+	},
+	"time": {
+		"modified": "2022-05-19T05:57:45.835Z",
+		"created": "2018-01-23T23:48:37.753Z",
+		"1.0.0": "2018-01-23T23:48:37.753Z",
+		"1.0.1": "2019-10-19T05:42:49.887Z",
+		"1.0.2": "2019-12-14T00:44:18.487Z",
+		"1.0.3": "2020-11-23T08:06:21.528Z",
+		"1.0.4": "2021-02-21T14:50:47.992Z",
+		"1.0.5": "2021-08-17T22:45:05.155Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "1.0.5"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"a7f235517df6aff50a04693cde76daca\"",
+			"fetched": 1660840773625
+		}
+	},
+	"_distfiles": {
+		"symbol.prototype.description-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/symbol.prototype.description/-/symbol.prototype.description-1.0.0.tgz",
+			"sha": "6e355660eb1e44ca8ad53a68fdb72ef131ca4b12",
+			"registry": "npmjs"
+		},
+		"symbol.prototype.description-1.0.1.tgz": {
+			"url": "https://registry.npmjs.org/symbol.prototype.description/-/symbol.prototype.description-1.0.1.tgz",
+			"sha": "e44e5db04d977932d1a261570bf65312773406d0",
+			"registry": "npmjs"
+		},
+		"symbol.prototype.description-1.0.2.tgz": {
+			"url": "https://registry.npmjs.org/symbol.prototype.description/-/symbol.prototype.description-1.0.2.tgz",
+			"sha": "f325e1e6ad534b3b29c9c3ca73c136c9ce03c5e2",
+			"registry": "npmjs"
+		},
+		"symbol.prototype.description-1.0.3.tgz": {
+			"url": "https://registry.npmjs.org/symbol.prototype.description/-/symbol.prototype.description-1.0.3.tgz",
+			"sha": "5b0eb61595bca6945da95ec7696a25e55aa1eca6",
+			"registry": "npmjs"
+		},
+		"symbol.prototype.description-1.0.4.tgz": {
+			"url": "https://registry.npmjs.org/symbol.prototype.description/-/symbol.prototype.description-1.0.4.tgz",
+			"sha": "c30edd3fe8c040d941cf7dc15842be15adf66855",
+			"registry": "npmjs"
+		},
+		"symbol.prototype.description-1.0.5.tgz": {
+			"url": "https://registry.npmjs.org/symbol.prototype.description/-/symbol.prototype.description-1.0.5.tgz",
+			"sha": "d30e01263b6020fbbd2d2884a6276ce4d49ab568",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_rev": "3-edc45cd83d950d4a",
+	"_id": "symbol.prototype.description",
+	"readme": "# Symbol.prototype.description <sup>[![Version Badge][npm-version-svg]][package-url]</sup>\n\n[![dependency status][deps-svg]][deps-url]\n[![dev dependency status][dev-deps-svg]][dev-deps-url]\n[![License][license-image]][license-url]\n[![Downloads][downloads-image]][downloads-url]\n\n[![npm badge][npm-badge-png]][package-url]\n\nAn ECMAScript spec-compliant `Symbol.prototype.description` shim. Invoke its \"shim\" method to shim Symbol.prototype.description if it is unavailable.\n*Note*: `Symbol#description` requires a true ES6 environment, specifically one with native Symbols.\n\nThis package implements the [es-shim API](https://github.com/es-shims/api) interface. It works in an ES6-supported environment and complies with the [spec](https://github.com/michaelficarra/Symbol-description-proposal/).\n\nMost common usage:\n```js\nvar description = require('symbol.prototype.description');\n\nassert(description(Symbol('foo')) === 'foo');\nassert(description(Symbol()) === undefined);\nassert(description(Symbol(undefined)) === undefined);\nassert(description(Symbol(null)) === 'null');\n\n// note: this should be the empty string, but in many engines,\n// it is impossible to distinguish Symbol() and Symbol('')\n// without globally replacing `Symbol`\nassert(description(Symbol('')) === undefined);\n\nif (!Symbol.prototype.description) {\n\tdescription.shim();\n}\n\nassert(description(Symbol('foo')) === Symbol('foo').description);\nassert(description(Symbol()) === Symbol().description);\nassert(description(Symbol(undefined)) === Symbol(undefined).description);\nassert(description(Symbol(null)) === Symbol(null).description);\n\nassert(Symbol('').description === ''); // this works fine!\n```\n\n## Tests\nSimply clone the repo, `npm install`, and run `npm test`\n\n[package-url]: https://npmjs.com/package/symbol.prototype.description\n[npm-version-svg]: https://versionbadg.es/es-shims/Symbol.prototype.description.svg\n[deps-svg]: https://david-dm.org/es-shims/Symbol.prototype.description.svg\n[deps-url]: https://david-dm.org/es-shims/Symbol.prototype.description\n[dev-deps-svg]: https://david-dm.org/es-shims/Symbol.prototype.description/dev-status.svg\n[dev-deps-url]: https://david-dm.org/es-shims/Symbol.prototype.description#info=devDependencies\n[npm-badge-png]: https://nodei.co/npm/symbol.prototype.description.png?downloads=true&stars=true\n[license-image]: https://img.shields.io/npm/l/symbol.prototype.description.svg\n[license-url]: LICENSE\n[downloads-image]: https://img.shields.io/npm/dm/symbol.prototype.description.svg\n[downloads-url]: https://npm-stat.com/charts.html?package=symbol.prototype.description"
+}

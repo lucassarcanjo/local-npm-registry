@@ -1,0 +1,1768 @@
+{
+	"name": "glob-promise",
+	"versions": {
+		"1.0.0": {
+			"version": "1.0.0",
+			"name": "glob-promise",
+			"description": "Promise version of glob",
+			"author": {
+				"name": "Ahmad Nassri",
+				"email": "ahmad@ahmadnassri.com",
+				"url": "https://www.ahmadnassri.com/"
+			},
+			"homepage": "https://ahmadnassri/glob-promise",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ahmadnassri/glob-promise.git"
+			},
+			"license": "ISC",
+			"main": "lib/index",
+			"keywords": [
+				"glob",
+				"promise"
+			],
+			"engines": {
+				"node": ">=0.10"
+			},
+			"files": [
+				"lib"
+			],
+			"bugs": {
+				"url": "https://github.com/ahmadnassri/glob-promise/issues"
+			},
+			"scripts": {
+				"pretest": "standard && echint",
+				"test": "mocha",
+				"posttest": "npm run coverage",
+				"coverage": "istanbul cover --dir coverage _mocha -- -R dot",
+				"codeclimate": "codeclimate < coverage/lcov.info"
+			},
+			"echint": {
+				"ignore": [
+					"coverage/**"
+				]
+			},
+			"devDependencies": {
+				"codeclimate-test-reporter": "0.0.4",
+				"echint": "^1.2.0",
+				"istanbul": "^0.3.15",
+				"mocha": "^2.2.5",
+				"should": "^7.0.1",
+				"standard": "^4.3.1"
+			},
+			"dependencies": {
+				"glob": "^5.0.10",
+				"wrap-promise": "^1.0.1"
+			},
+			"gitHead": "dfef2963c14c7c1fba8f8aa36455c8abf7582a15",
+			"_id": "glob-promise@1.0.0",
+			"_shasum": "d537c2fcd0e0979969645b82c286ea0b482188a9",
+			"_from": ".",
+			"_npmVersion": "2.11.2",
+			"_nodeVersion": "0.12.2",
+			"_npmUser": {
+				"name": "ahmadnassri",
+				"email": "ahmad@ahmadnassri.com"
+			},
+			"maintainers": [
+				{
+					"name": "ahmadnassri",
+					"email": "ahmad@ahmadnassri.com"
+				}
+			],
+			"dist": {
+				"shasum": "d537c2fcd0e0979969645b82c286ea0b482188a9",
+				"tarball": "https://registry.npmjs.org/glob-promise/-/glob-promise-1.0.0.tgz",
+				"integrity": "sha512-F/smOd9UbJJDYEOAa6quh53xh+pL/hF+zG6C3BulpxGiVc/TVewj8VtDYrIPA1bC4ivsgMT/jst19Kn+WNngsA==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCjDW8dS+BtlMX+HBDdx/R9jXIWOyOtt2s8Id4HSV/wxwIhANayWdRNpAF5U42Hz4yNigxFIGcmgu1SQrUS3bhQDLsw"
+					}
+				]
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.0.1": {
+			"version": "1.0.1",
+			"name": "glob-promise",
+			"description": "Promise version of glob",
+			"author": {
+				"name": "Ahmad Nassri",
+				"email": "ahmad@ahmadnassri.com",
+				"url": "https://www.ahmadnassri.com/"
+			},
+			"homepage": "https://github.com/ahmadnassri/glob-promise",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ahmadnassri/glob-promise.git"
+			},
+			"license": "ISC",
+			"main": "lib/index",
+			"keywords": [
+				"glob",
+				"promise"
+			],
+			"engines": {
+				"node": ">=0.10"
+			},
+			"files": [
+				"lib"
+			],
+			"bugs": {
+				"url": "https://github.com/ahmadnassri/glob-promise/issues"
+			},
+			"scripts": {
+				"pretest": "standard && echint",
+				"test": "mocha",
+				"posttest": "npm run coverage",
+				"coverage": "istanbul cover --dir coverage _mocha -- -R dot",
+				"codeclimate": "codeclimate < coverage/lcov.info"
+			},
+			"echint": {
+				"ignore": [
+					"coverage/**"
+				]
+			},
+			"devDependencies": {
+				"codeclimate-test-reporter": "0.0.4",
+				"echint": "^1.2.0",
+				"istanbul": "^0.3.15",
+				"mocha": "^2.2.5",
+				"should": "^7.0.1",
+				"standard": "^4.3.1"
+			},
+			"dependencies": {
+				"glob": "^5.0.10"
+			},
+			"gitHead": "3261a494a8eded81d15f51835cfe554174f84a52",
+			"_id": "glob-promise@1.0.1",
+			"_shasum": "28aee6bccd12701e6863afbd93d8265b3d980db5",
+			"_from": ".",
+			"_npmVersion": "2.11.2",
+			"_nodeVersion": "0.12.2",
+			"_npmUser": {
+				"name": "ahmadnassri",
+				"email": "ahmad@ahmadnassri.com"
+			},
+			"maintainers": [
+				{
+					"name": "ahmadnassri",
+					"email": "ahmad@ahmadnassri.com"
+				}
+			],
+			"dist": {
+				"shasum": "28aee6bccd12701e6863afbd93d8265b3d980db5",
+				"tarball": "https://registry.npmjs.org/glob-promise/-/glob-promise-1.0.1.tgz",
+				"integrity": "sha512-aIjwWlWcOXsO8tdqkeOV00QdExaO/lG07M78CPQE3LFUEzrR3G6CuOc8dinSfC6rY/jgC6zN7Q5ys2VU9nPj2Q==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIBEbIREQGxGe/5coDwXuWs/+igcspNYIlV2ttGguMKhqAiEA4fz3rVjn1Hgc93JY4m17J9Om7jpSzeWrjAHXa4lKFBA="
+					}
+				]
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.0.2": {
+			"version": "1.0.2",
+			"name": "glob-promise",
+			"description": "Promise version of glob",
+			"author": {
+				"name": "Ahmad Nassri",
+				"email": "ahmad@ahmadnassri.com",
+				"url": "https://www.ahmadnassri.com/"
+			},
+			"homepage": "https://github.com/ahmadnassri/glob-promise",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ahmadnassri/glob-promise.git"
+			},
+			"license": "ISC",
+			"main": "lib/index",
+			"keywords": [
+				"glob",
+				"promise"
+			],
+			"engines": {
+				"node": ">=0.10"
+			},
+			"files": [
+				"lib"
+			],
+			"bugs": {
+				"url": "https://github.com/ahmadnassri/glob-promise/issues"
+			},
+			"scripts": {
+				"pretest": "standard && echint",
+				"test": "mocha",
+				"posttest": "npm run coverage",
+				"coverage": "istanbul cover --dir coverage _mocha -- -R dot",
+				"codeclimate": "codeclimate < coverage/lcov.info"
+			},
+			"echint": {
+				"ignore": [
+					"coverage/**"
+				]
+			},
+			"devDependencies": {
+				"codeclimate-test-reporter": "0.0.4",
+				"echint": "^1.2.0",
+				"istanbul": "^0.3.15",
+				"mocha": "^2.2.5",
+				"should": "^7.0.1",
+				"standard": "^4.3.1"
+			},
+			"dependencies": {
+				"glob": "^5.0.10"
+			},
+			"gitHead": "4ff25c6ccd1403d13c782f86020c77f531471bc3",
+			"_id": "glob-promise@1.0.2",
+			"_shasum": "1ebc6ad81d214995cbf97dc712127be78a83d08d",
+			"_from": ".",
+			"_npmVersion": "2.11.2",
+			"_nodeVersion": "0.12.2",
+			"_npmUser": {
+				"name": "ahmadnassri",
+				"email": "ahmad@ahmadnassri.com"
+			},
+			"maintainers": [
+				{
+					"name": "ahmadnassri",
+					"email": "ahmad@ahmadnassri.com"
+				}
+			],
+			"dist": {
+				"shasum": "1ebc6ad81d214995cbf97dc712127be78a83d08d",
+				"tarball": "https://registry.npmjs.org/glob-promise/-/glob-promise-1.0.2.tgz",
+				"integrity": "sha512-oAQNw9nfrmf0zufqQlgYhoEoWyjJZNZAwDOJtfN2DeXXerDmpiOBlpgPPTuVaIVseb+MJem4lxt/iBZb19W27g==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQC8888EBLn/3b0HWNWIwKn2V55IZMKh8pamfLOfP348OAIgduYhYof5w3Ws5AHs2c9VaBPO8T6rqT9wZGTf70JL5eI="
+					}
+				]
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.0.3": {
+			"version": "1.0.3",
+			"name": "glob-promise",
+			"description": "Promise version of glob",
+			"author": {
+				"name": "Ahmad Nassri",
+				"email": "ahmad@ahmadnassri.com",
+				"url": "https://www.ahmadnassri.com/"
+			},
+			"homepage": "https://github.com/ahmadnassri/glob-promise",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ahmadnassri/glob-promise.git"
+			},
+			"license": "ISC",
+			"main": "lib/index",
+			"keywords": [
+				"glob",
+				"promise"
+			],
+			"engines": {
+				"node": ">=0.12"
+			},
+			"files": [
+				"lib"
+			],
+			"bugs": {
+				"url": "https://github.com/ahmadnassri/glob-promise/issues"
+			},
+			"scripts": {
+				"pretest": "standard && echint",
+				"test": "mocha",
+				"posttest": "npm run coverage",
+				"coverage": "istanbul cover --dir coverage _mocha -- -R dot",
+				"codeclimate": "codeclimate < coverage/lcov.info"
+			},
+			"echint": {
+				"ignore": [
+					"coverage/**"
+				]
+			},
+			"devDependencies": {
+				"codeclimate-test-reporter": "0.0.4",
+				"echint": "^1.2.0",
+				"istanbul": "^0.3.15",
+				"mocha": "^2.2.5",
+				"should": "^7.0.1",
+				"standard": "^4.3.1"
+			},
+			"dependencies": {
+				"glob": "^5.0.10"
+			},
+			"gitHead": "dc789a05906a809688a820163869792653ee946e",
+			"_id": "glob-promise@1.0.3",
+			"_shasum": "b9471ba9e0b452585ac03f6803a1696808109981",
+			"_from": ".",
+			"_npmVersion": "2.11.2",
+			"_nodeVersion": "0.12.2",
+			"_npmUser": {
+				"name": "ahmadnassri",
+				"email": "ahmad@ahmadnassri.com"
+			},
+			"maintainers": [
+				{
+					"name": "ahmadnassri",
+					"email": "ahmad@ahmadnassri.com"
+				}
+			],
+			"dist": {
+				"shasum": "b9471ba9e0b452585ac03f6803a1696808109981",
+				"tarball": "https://registry.npmjs.org/glob-promise/-/glob-promise-1.0.3.tgz",
+				"integrity": "sha512-h9zmysIdvISzpu2EWgTSvMTrsZ+ulrsrMJ7WwhuIsFGa2Xqu+1Pikd6utTweezZf8pGDSbSpq5SVwG06V71nzw==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIBSbHFfRTbuzO0bk4Ld2NYMm2dUnd3PMX8EbOYY9ofLeAiEAsFXmdeGUnI12F8GVLetNvZGWjPTtIQO+jnaa7eZ005I="
+					}
+				]
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.0.4": {
+			"version": "1.0.4",
+			"name": "glob-promise",
+			"description": "Promise version of glob",
+			"author": {
+				"name": "Ahmad Nassri",
+				"email": "ahmad@ahmadnassri.com",
+				"url": "https://www.ahmadnassri.com/"
+			},
+			"homepage": "https://github.com/ahmadnassri/glob-promise",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ahmadnassri/glob-promise.git"
+			},
+			"license": "ISC",
+			"main": "lib/index",
+			"keywords": [
+				"glob",
+				"promise"
+			],
+			"engines": {
+				"node": ">=0.12"
+			},
+			"files": [
+				"lib"
+			],
+			"bugs": {
+				"url": "https://github.com/ahmadnassri/glob-promise/issues"
+			},
+			"scripts": {
+				"pretest": "standard && echint",
+				"test": "mocha",
+				"posttest": "npm run coverage",
+				"coverage": "istanbul cover --dir coverage _mocha -- -R dot",
+				"codeclimate": "codeclimate-test-reporter < coverage/lcov.info"
+			},
+			"echint": {
+				"ignore": [
+					"coverage/**"
+				]
+			},
+			"devDependencies": {
+				"codeclimate-test-reporter": "0.1.1",
+				"echint": "^1.5.0",
+				"istanbul": "^0.3.20",
+				"mocha": "^2.3.2",
+				"should": "^7.1.0",
+				"standard": "^5.2.2"
+			},
+			"dependencies": {
+				"glob": "*"
+			},
+			"gitHead": "3f7b4caabb1ef3cd710730b287b191fed087f36c",
+			"_id": "glob-promise@1.0.4",
+			"_shasum": "64696fd6ac8968ad22a0e0ac5abf4a127cebed55",
+			"_from": ".",
+			"_npmVersion": "3.3.0",
+			"_nodeVersion": "0.12.7",
+			"_npmUser": {
+				"name": "ahmadnassri",
+				"email": "ahmad@ahmadnassri.com"
+			},
+			"maintainers": [
+				{
+					"name": "ahmadnassri",
+					"email": "ahmad@ahmadnassri.com"
+				}
+			],
+			"dist": {
+				"shasum": "64696fd6ac8968ad22a0e0ac5abf4a127cebed55",
+				"tarball": "https://registry.npmjs.org/glob-promise/-/glob-promise-1.0.4.tgz",
+				"integrity": "sha512-v6y562Hs/2CIyQzJ6hGIUi1AUWLKImb1KmzfgiS5234ZRe/yQ/+AbkX/pe17zGetw55Ni09h8kPk2YjGpulFSg==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIAYy3o1xPOfac6ScrO5yNDuIxnOwBNuO4mLh22vQIpC0AiA0nBwH2H9ywH67aFxGahL93Nun0JaML599URVZS+RZOA=="
+					}
+				]
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.0.5": {
+			"version": "1.0.5",
+			"name": "glob-promise",
+			"description": "Promise version of glob",
+			"author": {
+				"name": "Ahmad Nassri",
+				"email": "ahmad@ahmadnassri.com",
+				"url": "https://www.ahmadnassri.com/"
+			},
+			"homepage": "https://github.com/ahmadnassri/glob-promise",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ahmadnassri/glob-promise.git"
+			},
+			"license": "ISC",
+			"main": "lib/index",
+			"keywords": [
+				"glob",
+				"promise"
+			],
+			"engines": {
+				"node": ">=0.12"
+			},
+			"files": [
+				"lib"
+			],
+			"bugs": {
+				"url": "https://github.com/ahmadnassri/glob-promise/issues"
+			},
+			"scripts": {
+				"pretest": "standard && echint",
+				"test": "mocha",
+				"posttest": "npm run coverage",
+				"coverage": "istanbul cover --dir coverage _mocha -- -R dot",
+				"codeclimate": "codeclimate-test-reporter < coverage/lcov.info"
+			},
+			"echint": {
+				"ignore": [
+					"coverage/**"
+				]
+			},
+			"devDependencies": {
+				"codeclimate-test-reporter": "^0.2.0",
+				"echint": "^1.5.0",
+				"istanbul": "^0.4.0",
+				"mocha": "^2.3.3",
+				"standard": "^5.3.1"
+			},
+			"dependencies": {
+				"glob": "*",
+				"should": "^8.1.1"
+			},
+			"gitHead": "87b50b527cbb58d92894902578e2f2f43416ec98",
+			"_id": "glob-promise@1.0.5",
+			"_shasum": "7a60e3626643d3dcdc74a017cac68d00b2642482",
+			"_from": ".",
+			"_npmVersion": "3.3.12",
+			"_nodeVersion": "5.4.0",
+			"_npmUser": {
+				"name": "ahmadnassri",
+				"email": "ahmad@ahmadnassri.com"
+			},
+			"maintainers": [
+				{
+					"name": "ahmadnassri",
+					"email": "ahmad@ahmadnassri.com"
+				}
+			],
+			"dist": {
+				"shasum": "7a60e3626643d3dcdc74a017cac68d00b2642482",
+				"tarball": "https://registry.npmjs.org/glob-promise/-/glob-promise-1.0.5.tgz",
+				"integrity": "sha512-ZIj/6c+rmv7Ox9pjgSqK8Z86wHV57eUM9KJwOf7J1GZkfSpWsGs/AVkinx71EKsNY+gt0uZPN5JyKktgEj24ew==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIBhCZVOzHJOu998rVNh8WiUNM++7+ghhDsS9oQ6eJGu/AiA+v+mxXnY4wl0ItIJ8MxJzj1Wkjl0YIzOZZoEgyXeejQ=="
+					}
+				]
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.0.6": {
+			"version": "1.0.6",
+			"name": "glob-promise",
+			"description": "Promise version of glob",
+			"author": {
+				"name": "Ahmad Nassri",
+				"email": "ahmad@ahmadnassri.com",
+				"url": "https://www.ahmadnassri.com/"
+			},
+			"homepage": "https://github.com/ahmadnassri/glob-promise",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ahmadnassri/glob-promise.git"
+			},
+			"license": "ISC",
+			"main": "lib/index",
+			"keywords": [
+				"glob",
+				"promise"
+			],
+			"engines": {
+				"node": ">=0.12"
+			},
+			"files": [
+				"lib"
+			],
+			"bugs": {
+				"url": "https://github.com/ahmadnassri/glob-promise/issues"
+			},
+			"scripts": {
+				"pretest": "standard && echint",
+				"test": "mocha",
+				"posttest": "npm run coverage",
+				"coverage": "istanbul cover --dir coverage _mocha -- -R dot",
+				"codeclimate": "codeclimate-test-reporter < coverage/lcov.info"
+			},
+			"echint": {
+				"ignore": [
+					"coverage/**"
+				]
+			},
+			"devDependencies": {
+				"codeclimate-test-reporter": "^0.2.0",
+				"echint": "^1.5.0",
+				"istanbul": "^0.4.0",
+				"mocha": "^2.3.3",
+				"standard": "^5.3.1"
+			},
+			"dependencies": {
+				"glob": "*"
+			},
+			"gitHead": "ea09759f4190fef3b99516d55f2fe6764e0f783f",
+			"_id": "glob-promise@1.0.6",
+			"_shasum": "480591d5109e4805e277ee4948444d36532028f3",
+			"_from": ".",
+			"_npmVersion": "3.3.12",
+			"_nodeVersion": "5.4.0",
+			"_npmUser": {
+				"name": "ahmadnassri",
+				"email": "ahmad@ahmadnassri.com"
+			},
+			"maintainers": [
+				{
+					"name": "ahmadnassri",
+					"email": "ahmad@ahmadnassri.com"
+				}
+			],
+			"dist": {
+				"shasum": "480591d5109e4805e277ee4948444d36532028f3",
+				"tarball": "https://registry.npmjs.org/glob-promise/-/glob-promise-1.0.6.tgz",
+				"integrity": "sha512-7Yk7SsodU1bikTDz2zvtpfhuqYm9G2JezJbAWprvFS+ceiu73pYV43ODtX1WzCdBCviQCQBVaXRSJ2QLwzIhcw==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCowVitFPne6O7GCkJbnVeQIAUqpELzqOgO+fSq+Whn2AIhALFekCBXScQThxT6K4GENJbRICNoKQEHYCnsSjNRJqw0"
+					}
+				]
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"2.0.0": {
+			"version": "2.0.0",
+			"name": "glob-promise",
+			"description": "Promise version of glob",
+			"author": {
+				"name": "Ahmad Nassri",
+				"email": "ahmad@ahmadnassri.com",
+				"url": "https://www.ahmadnassri.com/"
+			},
+			"homepage": "https://github.com/ahmadnassri/glob-promise",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ahmadnassri/glob-promise.git"
+			},
+			"license": "ISC",
+			"main": "lib/index.js",
+			"keywords": [
+				"glob",
+				"promise"
+			],
+			"engines": {
+				"node": ">=4"
+			},
+			"files": [
+				"lib",
+				"src"
+			],
+			"bugs": {
+				"url": "https://github.com/ahmadnassri/glob-promise/issues"
+			},
+			"scripts": {
+				"compile": "babel -q src",
+				"test": "BABEL_ENV=test tap test/*.js --node-arg=--require --node-arg=babel-register | tap-mocha-reporter spec",
+				"pretest": "snazzy && echint",
+				"coverage": "BABEL_ENV=test tap test/*.js --coverage --nyc-arg=--require --nyc-arg=babel-register",
+				"codeclimate": "nyc report --reporter=text-lcov | codeclimate-test-reporter",
+				"semantic-release": "semantic-release pre && npm publish && semantic-release post"
+			},
+			"standard": {
+				"ignore": [
+					"lib/**"
+				]
+			},
+			"echint": {
+				"ignore": [
+					"lib/**"
+				]
+			},
+			"config": {
+				"commitizen": {
+					"path": "./node_modules/cz-conventional-changelog"
+				}
+			},
+			"peerDependencies": {
+				"glob": "*"
+			},
+			"devDependencies": {
+				"babel-cli": "^6.18.0",
+				"babel-plugin-add-module-exports": "^0.2.1",
+				"babel-preset-env": "0.0.8",
+				"babel-register": "^6.18.0",
+				"codeclimate-test-reporter": "^0.4.0",
+				"cz-conventional-changelog": "^1.2.0",
+				"echint": "^1.5.3",
+				"semantic-release": "^6.3.2",
+				"snazzy": "^5.0.0",
+				"tap": "^8.0.1",
+				"tap-mocha-reporter": "^3.0.0"
+			},
+			"gitHead": "4c8a31d24bd6cc14d193a50341daaa5a69af81e4",
+			"_id": "glob-promise@2.0.0",
+			"_shasum": "7a0f42660f42d0964f62ffec37fd41ecb64f5eb5",
+			"_from": ".",
+			"_npmVersion": "2.15.11",
+			"_nodeVersion": "4.6.2",
+			"_npmUser": {
+				"name": "ahmadnassri",
+				"email": "ahmad@ahmadnassri.com"
+			},
+			"dist": {
+				"shasum": "7a0f42660f42d0964f62ffec37fd41ecb64f5eb5",
+				"tarball": "https://registry.npmjs.org/glob-promise/-/glob-promise-2.0.0.tgz",
+				"integrity": "sha512-Ops3UtGEVfCCtaBkPsl39qlFG8FG+MStDuaGzDV32YKw3cYAaY+/dHmzWjd9LoghLOpsQ3907ffKL/5gUIo41Q==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIFYTRIraa3vnt7MtlDIkz0y49RPCTuvPhZLen7l7/OEvAiBaszlEmfPx7+YC7eK9AbYXuvdDJaYndWBRT6DWT13oXQ=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "ahmadnassri",
+					"email": "ahmad@ahmadnassri.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/glob-promise-2.0.0.tgz_1479581717542_0.6833746272604913"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"3.0.0": {
+			"version": "3.0.0",
+			"name": "glob-promise",
+			"description": "Promise version of glob",
+			"author": {
+				"name": "Ahmad Nassri",
+				"email": "ahmad@ahmadnassri.com",
+				"url": "https://www.ahmadnassri.com/"
+			},
+			"homepage": "https://github.com/ahmadnassri/glob-promise",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ahmadnassri/glob-promise.git"
+			},
+			"license": "ISC",
+			"main": "lib/index.js",
+			"keywords": [
+				"glob",
+				"promise"
+			],
+			"engines": {
+				"node": ">=4"
+			},
+			"files": [
+				"lib"
+			],
+			"bugs": {
+				"url": "https://github.com/ahmadnassri/glob-promise/issues"
+			},
+			"scripts": {
+				"lint": "snazzy && echint",
+				"pretest": "npm run lint",
+				"test": "tap test",
+				"coverage": "tap test --reporter silent --coverage"
+			},
+			"devDependencies": {
+				"echint": "^2.1.0",
+				"snazzy": "^5.0.0",
+				"tap": "^8.0.1"
+			},
+			"peerDependencies": {
+				"glob": "*"
+			},
+			"gitHead": "b5c912a2c4357974896004aeade4426c182f2639",
+			"_id": "glob-promise@3.0.0",
+			"_shasum": "d08337912c1eda5e648853379f43211348514e1a",
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_nodeVersion": "7.2.1",
+			"_npmUser": {
+				"name": "ahmadnassri",
+				"email": "ahmad@ahmadnassri.com"
+			},
+			"dist": {
+				"shasum": "d08337912c1eda5e648853379f43211348514e1a",
+				"tarball": "https://registry.npmjs.org/glob-promise/-/glob-promise-3.0.0.tgz",
+				"integrity": "sha512-b94IvuMbGyoVcUzTCgQe5Hkcb7yfqncG0FrbG2nRE7Hw1edG3p8aEo+Otk9tWck2vy8BZPmBxZriyCyFSgk8rw==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQCJ9mnhByyEOLGVlZ0sXub6JCo20nsxAL7DidBZVYcwXQIgQ6ML3pvmTTi0196Ri6lGMdt0Qu/K67hESw5xA6TMNgs="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "ahmadnassri",
+					"email": "ahmad@ahmadnassri.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/glob-promise-3.0.0.tgz_1481874156021_0.8623940248508006"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"3.1.0": {
+			"version": "3.1.0",
+			"name": "glob-promise",
+			"description": "Promise version of glob",
+			"author": {
+				"name": "Ahmad Nassri",
+				"email": "ahmad@ahmadnassri.com",
+				"url": "https://www.ahmadnassri.com/"
+			},
+			"homepage": "https://github.com/ahmadnassri/glob-promise",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ahmadnassri/glob-promise.git"
+			},
+			"license": "ISC",
+			"main": "lib/index.js",
+			"keywords": [
+				"glob",
+				"promise"
+			],
+			"engines": {
+				"node": ">=4"
+			},
+			"files": [
+				"lib"
+			],
+			"bugs": {
+				"url": "https://github.com/ahmadnassri/glob-promise/issues"
+			},
+			"scripts": {
+				"lint": "snazzy && echint",
+				"pretest": "npm run lint",
+				"test": "tap test",
+				"coverage": "tap test --reporter silent --coverage"
+			},
+			"devDependencies": {
+				"echint": "^2.1.0",
+				"snazzy": "^5.0.0",
+				"tap": "^8.0.1"
+			},
+			"peerDependencies": {
+				"glob": "*"
+			},
+			"gitHead": "4f20338a8203f2cb43910288ba1b12b5a08aaad4",
+			"_id": "glob-promise@3.1.0",
+			"_shasum": "198882a3817be7dc2c55f92623aa9e7b3f82d1eb",
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_nodeVersion": "7.2.1",
+			"_npmUser": {
+				"name": "ahmadnassri",
+				"email": "ahmad@ahmadnassri.com"
+			},
+			"dist": {
+				"shasum": "198882a3817be7dc2c55f92623aa9e7b3f82d1eb",
+				"tarball": "https://registry.npmjs.org/glob-promise/-/glob-promise-3.1.0.tgz",
+				"integrity": "sha512-DekUCuVgO6CYkxMg9jj9f9ygu5oMEdHbCa+Y+yrfMuXy6vhBPJROs/5PrWqJim1M5D4pEIetNXqvhcJqyHGG6A==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIGlyZc/F9nDbHWntKwXThaPvieWEad0Ri1kYhYhjFxH3AiAJwXdKnfhC3j2yfCHyNMGAHj+3pQMmhJz8GajQKvUMAQ=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "ahmadnassri",
+					"email": "ahmad@ahmadnassri.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/glob-promise-3.1.0.tgz_1481928776335_0.6155864044558257"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"3.2.0": {
+			"version": "3.2.0",
+			"name": "glob-promise",
+			"description": "Promise version of glob",
+			"author": {
+				"name": "Ahmad Nassri",
+				"email": "ahmad@ahmadnassri.com",
+				"url": "https://www.ahmadnassri.com/"
+			},
+			"homepage": "https://github.com/ahmadnassri/glob-promise",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ahmadnassri/glob-promise.git"
+			},
+			"license": "ISC",
+			"main": "lib/index.js",
+			"keywords": [
+				"glob",
+				"promise"
+			],
+			"engines": {
+				"node": ">=4"
+			},
+			"files": [
+				"lib"
+			],
+			"bugs": {
+				"url": "https://github.com/ahmadnassri/glob-promise/issues"
+			},
+			"scripts": {
+				"lint": "standard && echint",
+				"pretest": "npm run lint",
+				"test": "tap test",
+				"coverage": "tap test --reporter silent --coverage"
+			},
+			"devDependencies": {
+				"echint": "^4.0.1",
+				"standard": "^10.0.3",
+				"tap": "^10.7.2"
+			},
+			"peerDependencies": {
+				"glob": "*"
+			},
+			"dependencies": {
+				"codeclimate-test-reporter": "^0.5.0",
+				"semantic-release": "^8.0.3"
+			},
+			"gitHead": "1f52cbc349aaa228f4b00aac8e901c68aa7b3216",
+			"_id": "glob-promise@3.2.0",
+			"_npmVersion": "5.3.0",
+			"_nodeVersion": "8.5.0",
+			"_npmUser": {
+				"name": "ahmadnassri",
+				"email": "ahmad@ahmadnassri.com"
+			},
+			"dist": {
+				"integrity": "sha512-bvaaR6Od6CIGxZKVe0Z2aPvy3DPMMP5KhF2TF9Yv/I2Tj59ya59HHRAlFt0iIuPL1z7pWXnSzpAk8b80sd9uPg==",
+				"shasum": "fa53179ef42b7c5a6450e77374ab54c9708b7fe9",
+				"tarball": "https://registry.npmjs.org/glob-promise/-/glob-promise-3.2.0.tgz",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQCYKjTz5f3i+qmN4D5cZyV33JWo3+ogKRus1zM3eVVmcwIgO6mxi/bFprSHJQFPNDTlG8rUgvkfVbgaWmSilRODG8E="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "ahmadnassri",
+					"email": "ahmad@ahmadnassri.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/glob-promise-3.2.0.tgz_1506092629069_0.509225586662069"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"3.3.0": {
+			"version": "3.3.0",
+			"name": "glob-promise",
+			"description": "Promise version of glob",
+			"author": {
+				"name": "Ahmad Nassri",
+				"email": "ahmad@ahmadnassri.com",
+				"url": "https://www.ahmadnassri.com/"
+			},
+			"homepage": "https://github.com/ahmadnassri/glob-promise",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ahmadnassri/glob-promise.git"
+			},
+			"license": "ISC",
+			"main": "lib/index.js",
+			"keywords": [
+				"glob",
+				"promise"
+			],
+			"engines": {
+				"node": ">=4"
+			},
+			"files": [
+				"lib"
+			],
+			"bugs": {
+				"url": "https://github.com/ahmadnassri/glob-promise/issues"
+			},
+			"scripts": {
+				"lint": "standard && echint",
+				"pretest": "npm run lint",
+				"test": "tap test",
+				"coverage": "tap test --reporter silent --coverage"
+			},
+			"devDependencies": {
+				"echint": "^4.0.1",
+				"standard": "^10.0.3",
+				"tap": "^10.7.2"
+			},
+			"peerDependencies": {
+				"glob": "*"
+			},
+			"gitHead": "93a7d4568de54dbcfc74f313dad7ab99ce0e6949",
+			"_id": "glob-promise@3.3.0",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "8.9.0",
+			"_npmUser": {
+				"name": "ahmadnassri",
+				"email": "ahmad@ahmadnassri.com"
+			},
+			"dist": {
+				"integrity": "sha512-X5VIEO/yy5NH3p9ORhlNodakQo/cK4I0lCtARNeAkWueJiToew5Xs9DiukVKsW5dgpjnnQgou9Rbj3HUkM6OUw==",
+				"shasum": "d1eb3625c4e6dcbb9b96eeae4425d5a3b135fed2",
+				"tarball": "https://registry.npmjs.org/glob-promise/-/glob-promise-3.3.0.tgz",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDxQUKcd6WL4keOkKrarB4UEaEP9408Xld3xYZDr+SbbAIhAOo2QxSgUL1vJTSpuYc2/+g2dpYh4i5KI67ZHfnah7NG"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "ahmadnassri",
+					"email": "ahmad@ahmadnassri.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/glob-promise-3.3.0.tgz_1509493440134_0.6489159716293216"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"3.4.0": {
+			"version": "3.4.0",
+			"name": "glob-promise",
+			"description": "Promise version of glob",
+			"author": {
+				"name": "Ahmad Nassri",
+				"email": "ahmad@ahmadnassri.com",
+				"url": "https://www.ahmadnassri.com/"
+			},
+			"homepage": "https://github.com/ahmadnassri/glob-promise",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ahmadnassri/glob-promise.git"
+			},
+			"license": "ISC",
+			"main": "lib/index.js",
+			"types": "lib/index.d.ts",
+			"keywords": [
+				"glob",
+				"promise"
+			],
+			"engines": {
+				"node": ">=4"
+			},
+			"files": [
+				"lib"
+			],
+			"bugs": {
+				"url": "https://github.com/ahmadnassri/glob-promise/issues"
+			},
+			"scripts": {
+				"pretest": "npm run test:codeclimate",
+				"test": "npm run test:tap",
+				"test:codeclimate": ".scripts/codeclimate analyze",
+				"test:tap": "tap test --100 --coverage-report=lcov --no-browser",
+				"coverage": "opener coverage/lcov-report/index.html"
+			},
+			"devDependencies": {
+				"tap": "^11.1.2"
+			},
+			"peerDependencies": {
+				"glob": "*"
+			},
+			"dependencies": {
+				"@types/glob": "*"
+			},
+			"gitHead": "3b44f0ed6245cd07854ca1b2beecbda245fe54cf",
+			"_id": "glob-promise@3.4.0",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "9.6.1",
+			"_npmUser": {
+				"name": "ahmadnassri",
+				"email": "ahmad@ahmadnassri.com"
+			},
+			"dist": {
+				"integrity": "sha512-q08RJ6O+eJn+dVanerAndJwIcumgbDdYiUT7zFQl3Wm1xD6fBKtah7H8ZJChj4wP+8C+QfeVy8xautR7rdmKEw==",
+				"shasum": "b6b8f084504216f702dc2ce8c9bc9ac8866fdb20",
+				"tarball": "https://registry.npmjs.org/glob-promise/-/glob-promise-3.4.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 5796,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIHihZlLESZfb4iVAOTOqvy4uYGi0pNxDcYXNj2L6WnLnAiBpDh0+y/Fk6n0WjcCZbCKfo812VHAIWquFKkVqyQVHtQ=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "ahmadnassri",
+					"email": "ahmad@ahmadnassri.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/glob-promise_3.4.0_1520857438339_0.11090050843485955"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"4.0.0": {
+			"version": "4.0.0",
+			"name": "glob-promise",
+			"description": "Promise version of glob",
+			"author": {
+				"name": "Ahmad Nassri",
+				"email": "ahmad@ahmadnassri.com",
+				"url": "https://www.ahmadnassri.com/"
+			},
+			"homepage": "https://github.com/ahmadnassri/glob-promise",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ahmadnassri/glob-promise.git"
+			},
+			"license": "ISC",
+			"main": "lib/index.js",
+			"types": "lib/index.d.ts",
+			"keywords": [
+				"glob",
+				"promise"
+			],
+			"engines": {
+				"node": ">=12"
+			},
+			"bugs": {
+				"url": "https://github.com/ahmadnassri/glob-promise/issues"
+			},
+			"scripts": {
+				"test": "tap test --no-coverage",
+				"test:watch": "tap test --watch",
+				"test:ci": "tap test --100 --color --coverage-report=lcov --no-browser"
+			},
+			"devDependencies": {
+				"tap": "^14.11.0"
+			},
+			"peerDependencies": {
+				"glob": "^7.1.6"
+			},
+			"dependencies": {
+				"@types/glob": "^7.1.3"
+			},
+			"gitHead": "c5a11089f78625e9d6015e58d0b42e680d374304",
+			"_id": "glob-promise@4.0.0",
+			"_nodeVersion": "14.15.0",
+			"_npmVersion": "6.14.8",
+			"dist": {
+				"integrity": "sha512-KHQ5FStE7uDFiVppCH1EZK8EYskEW6BaMsdbWfM4CHdkebNFE5GReSiDXSABsK7kYGLNVLLuYGqRvi60QNyGmg==",
+				"shasum": "199980884d48bb14056cf5e42c91463c3d9f4ee3",
+				"tarball": "https://registry.npmjs.org/glob-promise/-/glob-promise-4.0.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 5674,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgGakjCRA9TVsSAnZWagAAx8oP/jgMR7oNpZumv+ztSJ9r\nz52kWmTXUpU5+geehQlsaR/QpyfbKVg4voAttnzmKn9KAB/Ncwq2Shd8NfX3\nDdpIs37ftkiEm/WIGAa+NYInlZQyDBuisSxSUNBDLz9d/FKayn1bLT/1BFL6\nUIRuYX9u+zqsoDYNxoX5F99Mhzoo4w0VYUVl5anGBe/oAxYhEYwu9tf4Y0Wc\nujbOf/5AdrbQN6Ljs1MYmUqVAjWnhJOorP0/P9sY711n09GmtzwhTxmOQbKQ\n9rnsQ0IhCwRnGcOILhwzCchyQtLdiXkSAm7w6qHd3PClPlODegDkXZYkrFKX\n1k9QLmVySqRgTdCVswm3a++Sl3lXag2XjnDaP/JkMHpGQS9wqzAJfJBLBSrl\n8nCRsYvEmfyV1pRE+qqoylbYUtS/HmkUl7QY8NtfHMxtMczh47c2vhTUgOA5\npGzlA6d2GCo2/ki8+I0nGwCi9fkQnG/F00ywW7oNEbpdoPu9IZKIIl1Ng2IW\nZpe7TCCimEmyr+kuxgFVPOvZyY4OInNm3BglUq5U+8pnQ5Iea5NW7zR9c9si\nn3jKhsRugKlkdT+gfqu/zdR6vx6srbWvBQC4mvP0w+gFHHmL1iOEGi2GW5TO\nYoVD9DF4xJkGuwlyuoveqni6Hmu9rMTPyC9rAZ3lX/22lzIc2MsOwI+kPRQO\n0EOv\r\n=ilHL\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCICOzfue2vJeNqEXnbrZ/C+jwdmJ0mMm/ruO8q5GBoMUWAiBFBjujO2QKpqAVTKuZspMS3mPJgk/4qKmbrhQdyqUPwg=="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "ahmadnassri",
+				"email": "ahmad@ahmadnassri.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "ahmadnassri",
+					"email": "ahmad@ahmadnassri.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/glob-promise_4.0.0_1612294434652_0.8521376036334174"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"4.0.1": {
+			"version": "4.0.1",
+			"name": "glob-promise",
+			"description": "Promise version of glob",
+			"author": {
+				"name": "Ahmad Nassri",
+				"email": "ahmad@ahmadnassri.com",
+				"url": "https://www.ahmadnassri.com/"
+			},
+			"homepage": "https://github.com/ahmadnassri/node-glob-promise",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ahmadnassri/node-glob-promise.git"
+			},
+			"license": "ISC",
+			"main": "lib/index.js",
+			"types": "lib/index.d.ts",
+			"keywords": [
+				"glob",
+				"promise"
+			],
+			"engines": {
+				"node": ">=12"
+			},
+			"bugs": {
+				"url": "https://github.com/ahmadnassri/node-glob-promise/issues"
+			},
+			"scripts": {
+				"test": "tap test --no-coverage",
+				"test:watch": "tap test --watch",
+				"test:ci": "tap test --100 --color --coverage-report=lcov --no-browser"
+			},
+			"devDependencies": {
+				"tap": "^14.11.0"
+			},
+			"peerDependencies": {
+				"glob": "^7.1.6"
+			},
+			"dependencies": {
+				"@types/glob": "^7.1.3"
+			},
+			"gitHead": "a565065a66dff736104f0b69723bafc184d24dee",
+			"_id": "glob-promise@4.0.1",
+			"_nodeVersion": "14.15.0",
+			"_npmVersion": "6.14.8",
+			"dist": {
+				"integrity": "sha512-QwMkHW0vn0hXHFQg3JWsj2HW8pJQhHeAvsaIcpn4EDP5bU757GtJP/ClLX4iKIFtzgodRiKtb+aOG/k6i2B5mw==",
+				"shasum": "47b0b721f7f52f46c66210eba46d4de840a8b2a2",
+				"tarball": "https://registry.npmjs.org/glob-promise/-/glob-promise-4.0.1.tgz",
+				"fileCount": 5,
+				"unpackedSize": 5689,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgGa4ECRA9TVsSAnZWagAAPukP/3OyxQa8jh1Rmw4L5oyO\nEjYGiJvEqIz4bheuW99rwVK9ITh5oGBXXirzROJx6qXybEgFiYY+YTg6ieU+\nnReNK28Qjlg0uoOt1rLXGad8u63UUONAwL33fkL/X1W32a5jPBLnMPHGsKwO\nzltT8kkhtvxTWPK5kUBCkYkhKatdp6DCmV1LzRTPiNwYnFiKPs0h0G4njPrz\nCtFKwasgE2v6CiSnYprs0EYan0OXw4Asgogh0Cghh0q8+l5zBGKcESrVEOlm\n8ju3pd41EXqT7CrPTTqH/vXCN4nHKKZufukRpQ6KSmP8mPRd5YBxGkBOuR0R\nlwoj7fO8QJjRNsfeoE80oRcB0YhOu1/PtfnyqLuHzRaDC6nteCGb49BwMiwR\n+5d1FGbOxAx3JlFY1/FLHM/tafFlMZohv2iMYrQNiEdmhQqXpsdqM/voH2ak\nDzihZNhFKi7tUgfrLYLObjr2zsRaDYC5rVa/nnkJoYjy9wEC7gklC7i/O6LI\nIThpCGR6QwzGjma54/O08rHet/axGQsFYWgRGDp1yv/5NkTv+bTzA0TaQLDY\nZ2lNrhcLg18gbSmGysLd+Db1lXtQ3bcRzWxTZDjs+lmUlzugr3/ag709VOgb\nJVrptU8sE67R2P18Pb/OMAdBvg9Y3136n3JPc+k2jFMg/lRgVY9QcJI4z9ZC\n9l5S\r\n=aGzV\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCNyseBY0Y7h9a1ltVaB3Ez6hemQYnItq03s5V01HL/3QIhALjwgYtslyL+e/S7G9bbJhinl+ttpcDIv7HebcviZhxQ"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "ahmadnassri",
+				"email": "ahmad@ahmadnassri.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "ahmadnassri",
+					"email": "ahmad@ahmadnassri.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/glob-promise_4.0.1_1612295684492_0.9528258031228598"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"4.1.0": {
+			"version": "4.1.0",
+			"name": "glob-promise",
+			"description": "Promise version of glob",
+			"author": {
+				"name": "Ahmad Nassri",
+				"email": "ahmad@ahmadnassri.com",
+				"url": "https://www.ahmadnassri.com/"
+			},
+			"homepage": "https://github.com/ahmadnassri/node-glob-promise",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ahmadnassri/node-glob-promise.git"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"types": "lib/index.d.ts",
+			"keywords": [
+				"glob",
+				"promise"
+			],
+			"engines": {
+				"node": ">=12"
+			},
+			"bugs": {
+				"url": "https://github.com/ahmadnassri/node-glob-promise/issues"
+			},
+			"scripts": {
+				"test": "tap test --no-coverage",
+				"test:watch": "tap test --watch",
+				"test:ci": "tap test --100 --color --coverage-report=lcov --no-browser"
+			},
+			"devDependencies": {
+				"tap": "^14.11.0"
+			},
+			"peerDependencies": {
+				"glob": "^7.1.6"
+			},
+			"dependencies": {
+				"@types/glob": "^7.1.3"
+			},
+			"gitHead": "131a8b2739de4a38e63f65b497e3b0db2078412b",
+			"_id": "glob-promise@4.1.0",
+			"_nodeVersion": "14.15.0",
+			"_npmVersion": "6.14.8",
+			"dist": {
+				"integrity": "sha512-wOdaX1+QJi3ldbjq4fXX/BbGSjhsG6eGXqMnBjQj9ubDiDLvrXbbXRj02rA0CXbMMM7J58dajiQ72va63D7pNw==",
+				"shasum": "cde1692fd7442ce24b50e123dfe8b5f8428f35a3",
+				"tarball": "https://registry.npmjs.org/glob-promise/-/glob-promise-4.1.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 6144,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgO+v6CRA9TVsSAnZWagAA89sP/ifV3eeVj7jRAmUgs8Gt\nhYepAJ4MJcMc3EZV/AMgH1DJGBsFuOYQvE8rCTsvrVVpPlzVloh5hSMFolVG\nt6aDjTou7TEMUyCMmpXXaiVWmcpBdbbVaASu8QuFBMuUwAF1kKr6zKSiGYA9\nZp3PAQwv+bKyki4yoC0v554/fG2x5BZW/KkHGTUILT1LwTfQBD7OUZbBAnkT\n0O7IQRsTUdM7NWXtAEl5vJMfWAyQcfpAUC+cZb3nDZkNyinYgVnd55vFSaXu\nVEah5aOOnDhe3trGc663jlGa/KtKm5UcvjjX+Lx0SwGlIUwrCeurW8sxwYe4\naroG3R84swcZHkF1I1iHYTW2cO5I178m7u8xInMRNeQc691n3rCO8YbvJQHa\nv8hli0MyAYDENhNcKUlo7YVJHnGDrBvph6u4E6Gf/fExt0Lxn5U3oz4dY4BD\n+bexGYF0tKkUqLPXGwUrZmn+Q/RLqjAz06Uyt3u+Tp06D2gTs3CEzaOnGbrj\noRFC7EdNc5il+4SrxdZCz+WqfCdGOHhRA4RL/DBOH/vuqrk2MI4mUfxB0NEb\njkFrbVw6yvV1qJZUW5ZB0j5NjlmPpr5RtOCFOuHkXEbhn5uSDODyEwOHd7RZ\nELSN4VjHCi1oPCj8M83TTZsRL6EmrLS39qSlLF4kA57+dO+RZ8rJ2nVdXQF3\nj0fA\r\n=14Mv\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIHkBLFjoLFvP9owZvmp44evCkmMp/P/8loheXaQUP46YAiBDkJWgTqWAHp/cXcUHYORL2wROf5UM5e2e4SZycKtLlg=="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "ahmadnassri",
+				"email": "ahmad@ahmadnassri.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "ahmadnassri",
+					"email": "ahmad@ahmadnassri.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/glob-promise_4.1.0_1614539770206_0.7595816691274639"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"4.2.0": {
+			"version": "4.2.0",
+			"name": "glob-promise",
+			"description": "Promise version of glob",
+			"author": {
+				"name": "Ahmad Nassri",
+				"email": "ahmad@ahmadnassri.com",
+				"url": "https://www.ahmadnassri.com/"
+			},
+			"homepage": "https://github.com/ahmadnassri/node-glob-promise",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ahmadnassri/node-glob-promise.git"
+			},
+			"funding": {
+				"type": "individual",
+				"url": "https://github.com/sponsors/ahmadnassri"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"types": "lib/index.d.ts",
+			"keywords": [
+				"glob",
+				"promise"
+			],
+			"engines": {
+				"node": ">=12"
+			},
+			"bugs": {
+				"url": "https://github.com/ahmadnassri/node-glob-promise/issues"
+			},
+			"scripts": {
+				"test": "tap test --no-coverage",
+				"test:watch": "tap test --watch",
+				"test:ci": "tap test --100 --color --coverage-report=lcov --no-browser"
+			},
+			"devDependencies": {
+				"tap": "^14.11.0"
+			},
+			"peerDependencies": {
+				"glob": "^7.1.6"
+			},
+			"dependencies": {
+				"@types/glob": "^7.1.3"
+			},
+			"gitHead": "9c03d66f3a22e31adcac1d395bd96824fbea8eec",
+			"_id": "glob-promise@4.2.0",
+			"_nodeVersion": "14.15.0",
+			"_npmVersion": "6.14.8",
+			"dist": {
+				"integrity": "sha512-XQlQamNoMi++Sd5c8Y3l/FE2aqia+Lo1ghXEJZiqXdOvWOosA/zVetMahrdfRwwPjCXcFjg3fUogryAMa7IRQQ==",
+				"shasum": "d9f441482e70c71513066745783ed2054b87d6e0",
+				"tarball": "https://registry.npmjs.org/glob-promise/-/glob-promise-4.2.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 6243,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgr9O7CRA9TVsSAnZWagAA3coP/28W8ZRetdc2kFgtL+Ia\nIs2peICMywGt550jgOUx16Ca0u2QCo6T7eoJC4xIOrrVVtiBOSMVYtZqRZjJ\nZuN1zb+ut9Ac/buR1BZaA5QgxjeLPl9Ueiu1GvPsSkhY2cuzym9+Xeq5MQBW\nI/qkSg2jIBQMLy07NSpTK1w4zVeiYn1aILOVNY2SJoE4fVIytGx8m9xqQea7\nz06ufEeE0tLufP2B24DwSjVTQonVnVVecWNS46KZkMYBogQAMjqn7IeUBMOz\ncdLLCC2cj4upq8F9x2EGFaLgL1oZYrurbVAYOms4qE4Zl+Fat53ehIK3oxvY\nB9XRQxFZGMeQ0RUGh/NbOaXl8h9mJxZS2Il7r90p+ff+25hDOddKE33vcMvp\nBvz9Il/0Guyp2n1I44QI8Pg1trKinjkFFNqXCxdWH9VUkhmoj+Dw9fG+pP+N\n8BhtDGGDXhGmNMJrGZDL0j0XC3OS2/1tpODHSdYLtHnLmJDaNcGIyL2N0N24\nvOSq/OSF2sfaWIXyHKKToy5/4xQkFrK6sieFjV6x8n9TQJ6af1gRwI9dlmC8\ncFb6TAk5wwO+8EgmKoDdEiGf1hOdlx/gIfIxsK3Lo9iGthQdVzCmhQaW7/27\n9YH2gfQontoY9/SsLl/fl3k/CZucD7mNrumRWh1T+V67jYKL1OMqoCM8VHzu\n9IRU\r\n=FDHg\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDwZLNMZYE6vw2VqlYQtTtTZluwe5SQvdUc5egC68tZ9gIhAJOATF8UJMZVPVgF3ffXATa4FF0Xf5W/DilMUVWE93yW"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "ahmadnassri",
+				"email": "ahmad@ahmadnassri.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "ahmadnassri",
+					"email": "ahmad@ahmadnassri.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/glob-promise_4.2.0_1622135739441_0.8162104184331076"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"4.2.1": {
+			"version": "4.2.1",
+			"name": "glob-promise",
+			"description": "Promise version of glob",
+			"author": {
+				"name": "Ahmad Nassri",
+				"email": "ahmad@ahmadnassri.com",
+				"url": "https://www.ahmadnassri.com/"
+			},
+			"homepage": "https://github.com/ahmadnassri/node-glob-promise",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ahmadnassri/node-glob-promise.git"
+			},
+			"funding": {
+				"type": "individual",
+				"url": "https://github.com/sponsors/ahmadnassri"
+			},
+			"license": "MIT",
+			"main": "lib/index.js",
+			"types": "lib/index.d.ts",
+			"keywords": [
+				"glob",
+				"promise"
+			],
+			"engines": {
+				"node": ">=12"
+			},
+			"bugs": {
+				"url": "https://github.com/ahmadnassri/node-glob-promise/issues"
+			},
+			"scripts": {
+				"test": "tap test --no-coverage",
+				"test:watch": "tap test --watch",
+				"test:ci": "tap test --100 --color --coverage-report=lcov --no-browser"
+			},
+			"devDependencies": {
+				"tap": "^14.11.0"
+			},
+			"peerDependencies": {
+				"glob": "^7.1.6"
+			},
+			"dependencies": {
+				"@types/glob": "^7.1.3"
+			},
+			"gitHead": "d9f2181b8501fd9c9c8d27d80f6a94254c679449",
+			"_id": "glob-promise@4.2.1",
+			"_nodeVersion": "14.15.0",
+			"_npmVersion": "6.14.8",
+			"dist": {
+				"integrity": "sha512-KdazFt1ybE3nfcwCQdpJJW6ImFI6pen2YXSIeui2d8nMv5eolWBq2WFQRYFMjvgUjuB9cYR8Ez8zrphLC9hnXA==",
+				"shasum": "4bfbdea36399f06ee15510e8b675b3ec5a033a1c",
+				"tarball": "https://registry.npmjs.org/glob-promise/-/glob-promise-4.2.1.tgz",
+				"fileCount": 5,
+				"unpackedSize": 6243,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIFwRXLAlpBmjnLqpMpvdmhoyXImI3AORf5TMCcfSpd80AiEAqcg8i95gh+qvbn+7GDI7FVE1wWzkR/83uEqfccO3XTE="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "ahmadnassri",
+				"email": "ahmad@ahmadnassri.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "ahmadnassri",
+					"email": "ahmad@ahmadnassri.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/glob-promise_4.2.1_1634004565985_0.8603326044028488"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"4.2.2": {
+			"version": "4.2.2",
+			"name": "glob-promise",
+			"description": "Promise version of glob",
+			"author": {
+				"name": "Ahmad Nassri",
+				"email": "ahmad@ahmadnassri.com",
+				"url": "https://www.ahmadnassri.com/"
+			},
+			"homepage": "https://github.com/ahmadnassri/node-glob-promise",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ahmadnassri/node-glob-promise.git"
+			},
+			"bugs": {
+				"url": "https://github.com/ahmadnassri/node-glob-promise/issues"
+			},
+			"funding": {
+				"type": "individual",
+				"url": "https://github.com/sponsors/ahmadnassri"
+			},
+			"license": "MIT",
+			"keywords": [
+				"glob",
+				"promise"
+			],
+			"engines": {
+				"node": ">=12"
+			},
+			"main": "lib/index.js",
+			"types": "lib/index.d.ts",
+			"scripts": {
+				"test": "tap test --no-coverage",
+				"test:watch": "tap test --watch",
+				"test:ci": "tap test --100",
+				"test:report": "opener coverage/lcov-report/index.html"
+			},
+			"devDependencies": {
+				"tap": "^15.0.10"
+			},
+			"peerDependencies": {
+				"glob": "^7.1.6"
+			},
+			"dependencies": {
+				"@types/glob": "^7.1.3"
+			},
+			"gitHead": "9507d9aa7454f9d5b1f5cd8f3fbbdad7fd8dddc4",
+			"_id": "glob-promise@4.2.2",
+			"_nodeVersion": "14.15.0",
+			"_npmVersion": "6.14.8",
+			"dist": {
+				"integrity": "sha512-xcUzJ8NWN5bktoTIX7eOclO1Npxd/dyVqUJxlLIDasT4C7KZyqlPIwkdJ0Ypiy3p2ZKahTjK4M9uC3sNSfNMzw==",
+				"shasum": "15f44bcba0e14219cd93af36da6bb905ff007877",
+				"tarball": "https://registry.npmjs.org/glob-promise/-/glob-promise-4.2.2.tgz",
+				"fileCount": 5,
+				"unpackedSize": 6260,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJh2sZrCRA9TVsSAnZWagAAkowP/A4bJ9+o9/SetxuK1Gj9\nw3ou0iTj0ML02lVa/BOhMLK6oQWT7YnVw8ZylYekeMZevGXijH+Y7A/4Cmzc\noOKL2ggF2HGbvdQl61WCW4gyYv61tG25fxMFgdNCoUxlxh+or4cr5aqjlZpd\nUan3X7CgpOPsjS4qrWmyCVKsTcBGLc7d1+vhtnR/6t55nHIb2tLjS1rLoeCr\ns8dwYjdGIxkrthGxPd277azZp//+OqvuDtpGGRVFjzuLGRIp07O6DM8ZewMv\ngHlI5HMdJXVXHkqOZ8mNVFP6qo65DToX0AsJXfNi3Y3EWP/jwHnCOE+R3gxo\n1cQV1aysH4d6M0hcRtDjTTEBWiwSOCGPGqVQsiACgPo+5xeKwQUmbLiuYj1o\nojDjatYqAeOt9j0VcWvuRW8zPqfhBeMbn6lxAV3aOV0Km9ft2PEfG18I1AIN\nthpDDcMTSdb6Z1fHMFI7YfwbQBcHwGQFicMeua/IfXy9FX9qSZCchaDouzlb\nN6iN9Xy16UAEMSZsaIizVfhTRIrLHb/02XFDkVGv7wO9kEp8Suj6yV+uOAtf\n5tIHBsnhFjRc/LOgL0pPnnDTSV2mQOhayZgPQ+ueeR+jpHlW2Hdr/RK4EWSm\nEkg0civsJNbyee8ViJfr7nuGcf8nHq8v5aXh4q13jP5hqubqSPEvtYaSDSco\n5Cdi\r\n=XUtY\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQD/8NkmNvFFV9h2JSEFEoklih5gXjR2xVW2hEnc0XHj6AIgajgQiMIg/oxwkp1hLlCdBsq7FMvC5E1hudFBYk1wR7I="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "ahmadnassri",
+				"email": "ahmad@ahmadnassri.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "ahmadnassri",
+					"email": "ahmad@ahmadnassri.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/glob-promise_4.2.2_1634864689553_0.8312014444052029"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"5.0.0": {
+			"version": "5.0.0",
+			"name": "glob-promise",
+			"description": "Promise version of glob",
+			"author": {
+				"name": "Ahmad Nassri",
+				"email": "ahmad@ahmadnassri.com",
+				"url": "https://www.ahmadnassri.com/"
+			},
+			"homepage": "https://github.com/ahmadnassri/node-glob-promise",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ahmadnassri/node-glob-promise.git"
+			},
+			"bugs": {
+				"url": "https://github.com/ahmadnassri/node-glob-promise/issues"
+			},
+			"funding": {
+				"type": "individual",
+				"url": "https://github.com/sponsors/ahmadnassri"
+			},
+			"license": "MIT",
+			"keywords": [
+				"glob",
+				"promise"
+			],
+			"engines": {
+				"node": ">=12"
+			},
+			"main": "lib/index.js",
+			"types": "lib/index.d.ts",
+			"scripts": {
+				"test": "tap test --no-coverage",
+				"test:watch": "tap test --watch",
+				"test:ci": "tap test --100",
+				"test:report": "opener coverage/lcov-report/index.html"
+			},
+			"devDependencies": {
+				"install-group": "^3.0.0",
+				"tap": "^16.3.0"
+			},
+			"peerDependencies": {
+				"glob": "^8.0.3"
+			},
+			"dependencies": {
+				"@types/glob": "^7.2.0"
+			},
+			"gitHead": "e2343cef147b63dfdd4eac0bf8e822199a86a1b9",
+			"_id": "glob-promise@5.0.0",
+			"_nodeVersion": "16.15.0",
+			"_npmVersion": "8.5.5",
+			"dist": {
+				"integrity": "sha512-YQ7+beqmmQ3yUzybHoxnj7XMImztIdusIFate36/aB1gEWugR1qZI9a2u1A5mt6gYRqYldipZ7NB9s1UEq3vzw==",
+				"shasum": "aee3317ee1c211866d0425e1ac2e9089ded09c28",
+				"tarball": "https://registry.npmjs.org/glob-promise/-/glob-promise-5.0.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 6290,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCtiFJs2plb1SNIhV+PNmbg4M1Wb+Ms4MNMo/CXqQc04AIhAKYqIjnF32veS9ATcGXwNaNLUPsuPqDy4TUB1WYo+F+9"
+					}
+				],
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJi4iumACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2Vmqs3hAAjRjeNl7ME0xlSujVO9zsD4zhFx2LAWRFoNhZGRf4xLb0kk6S\r\nkAPcSuc/lT+sbdJk6gB/OIkIltaTC+g0rUa77qtZn6ku7wY73zMDuqx3xaEC\r\nz6jj+bzjbZ5/4KYgKyW6CT860mvHXU0QZNDv9em+BSQlZI1pFjQo/E1br4tq\r\nVo0xk2MLOH9G/SVhmhH3i83C9d74/j57KsT3s6mB1dVmbnjSrQenF6jGAVpx\r\nFxS6F6Eleu0rx/+4Y8GygNSZAAw51jt0XkgUJIwivZm+JBuQRJTup5RhrJPk\r\nkKgjA6VjjS+A8dKSHLCuQPkHMMofNDkF/0dXBrU/PTbE/iV0YnzVsWbnSegO\r\nA1bzo9sus9TQ77nnQOSnK6Yz1tYjgTWPJCbWmtk1baYILlQBhDwEgjsTx2Nn\r\nzSOqZQLx/AgwFlTBJpZ+TnKcuR+xDtItbMB7ddhzzTq6ryNhWJNyB+S0lNuz\r\noDcjJImkxnYTHXBoFPcrITcklCGu8vq6ZbBt5EamxZJoUzXOR2gPyCecXDVb\r\n/HcpQPNtuB+YED1IqwFXacy0x1ahvWnBI60+4d/vmalAJ150k4a96BRrsYlk\r\nW/EOaVLtcgcgden5znmZ1KtOA2FXDlGXcpd/0Uia5OgceUQ1DijBXgZ7c8dj\r\nJuvcnLeUqGkGeMagEPmhKuhosFntMJIpx7M=\r\n=Eu+T\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "ahmadnassri",
+				"email": "ahmad@ahmadnassri.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "ahmadnassri",
+					"email": "ahmad@ahmadnassri.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/glob-promise_5.0.0_1658989478011_0.39998206281311854"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		}
+	},
+	"time": {
+		"modified": "2022-07-28T06:24:38.270Z",
+		"created": "2015-06-19T22:44:11.936Z",
+		"1.0.0": "2015-06-19T22:44:11.936Z",
+		"1.0.1": "2015-06-21T17:31:21.009Z",
+		"1.0.2": "2015-06-21T18:01:51.286Z",
+		"1.0.3": "2015-06-21T18:05:41.565Z",
+		"1.0.4": "2015-09-14T17:16:44.493Z",
+		"1.0.5": "2016-01-15T21:16:45.509Z",
+		"1.0.6": "2016-01-15T21:19:05.600Z",
+		"2.0.0": "2016-11-19T18:55:19.503Z",
+		"3.0.0": "2016-12-16T07:42:37.790Z",
+		"3.1.0": "2016-12-16T22:52:56.989Z",
+		"3.2.0": "2017-09-22T15:03:50.065Z",
+		"3.3.0": "2017-10-31T23:44:01.059Z",
+		"3.4.0": "2018-03-12T12:23:58.386Z",
+		"4.0.0": "2021-02-02T19:33:54.776Z",
+		"4.0.1": "2021-02-02T19:54:44.617Z",
+		"4.1.0": "2021-02-28T19:16:10.323Z",
+		"4.2.0": "2021-05-27T17:15:39.571Z",
+		"4.2.1": "2021-10-12T02:09:26.143Z",
+		"4.2.2": "2021-10-22T01:04:49.712Z",
+		"5.0.0": "2022-07-28T06:24:38.195Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "5.0.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"40b581bb700a79dc2ed4e3f63522f794\"",
+			"fetched": 1660840775673
+		}
+	},
+	"_distfiles": {
+		"glob-promise-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/glob-promise/-/glob-promise-1.0.0.tgz",
+			"sha": "d537c2fcd0e0979969645b82c286ea0b482188a9",
+			"registry": "npmjs"
+		},
+		"glob-promise-1.0.1.tgz": {
+			"url": "https://registry.npmjs.org/glob-promise/-/glob-promise-1.0.1.tgz",
+			"sha": "28aee6bccd12701e6863afbd93d8265b3d980db5",
+			"registry": "npmjs"
+		},
+		"glob-promise-1.0.2.tgz": {
+			"url": "https://registry.npmjs.org/glob-promise/-/glob-promise-1.0.2.tgz",
+			"sha": "1ebc6ad81d214995cbf97dc712127be78a83d08d",
+			"registry": "npmjs"
+		},
+		"glob-promise-1.0.3.tgz": {
+			"url": "https://registry.npmjs.org/glob-promise/-/glob-promise-1.0.3.tgz",
+			"sha": "b9471ba9e0b452585ac03f6803a1696808109981",
+			"registry": "npmjs"
+		},
+		"glob-promise-1.0.4.tgz": {
+			"url": "https://registry.npmjs.org/glob-promise/-/glob-promise-1.0.4.tgz",
+			"sha": "64696fd6ac8968ad22a0e0ac5abf4a127cebed55",
+			"registry": "npmjs"
+		},
+		"glob-promise-1.0.5.tgz": {
+			"url": "https://registry.npmjs.org/glob-promise/-/glob-promise-1.0.5.tgz",
+			"sha": "7a60e3626643d3dcdc74a017cac68d00b2642482",
+			"registry": "npmjs"
+		},
+		"glob-promise-1.0.6.tgz": {
+			"url": "https://registry.npmjs.org/glob-promise/-/glob-promise-1.0.6.tgz",
+			"sha": "480591d5109e4805e277ee4948444d36532028f3",
+			"registry": "npmjs"
+		},
+		"glob-promise-2.0.0.tgz": {
+			"url": "https://registry.npmjs.org/glob-promise/-/glob-promise-2.0.0.tgz",
+			"sha": "7a0f42660f42d0964f62ffec37fd41ecb64f5eb5",
+			"registry": "npmjs"
+		},
+		"glob-promise-3.0.0.tgz": {
+			"url": "https://registry.npmjs.org/glob-promise/-/glob-promise-3.0.0.tgz",
+			"sha": "d08337912c1eda5e648853379f43211348514e1a",
+			"registry": "npmjs"
+		},
+		"glob-promise-3.1.0.tgz": {
+			"url": "https://registry.npmjs.org/glob-promise/-/glob-promise-3.1.0.tgz",
+			"sha": "198882a3817be7dc2c55f92623aa9e7b3f82d1eb",
+			"registry": "npmjs"
+		},
+		"glob-promise-3.2.0.tgz": {
+			"url": "https://registry.npmjs.org/glob-promise/-/glob-promise-3.2.0.tgz",
+			"sha": "fa53179ef42b7c5a6450e77374ab54c9708b7fe9",
+			"registry": "npmjs"
+		},
+		"glob-promise-3.3.0.tgz": {
+			"url": "https://registry.npmjs.org/glob-promise/-/glob-promise-3.3.0.tgz",
+			"sha": "d1eb3625c4e6dcbb9b96eeae4425d5a3b135fed2",
+			"registry": "npmjs"
+		},
+		"glob-promise-3.4.0.tgz": {
+			"url": "https://registry.npmjs.org/glob-promise/-/glob-promise-3.4.0.tgz",
+			"sha": "b6b8f084504216f702dc2ce8c9bc9ac8866fdb20",
+			"registry": "npmjs"
+		},
+		"glob-promise-4.0.0.tgz": {
+			"url": "https://registry.npmjs.org/glob-promise/-/glob-promise-4.0.0.tgz",
+			"sha": "199980884d48bb14056cf5e42c91463c3d9f4ee3",
+			"registry": "npmjs"
+		},
+		"glob-promise-4.0.1.tgz": {
+			"url": "https://registry.npmjs.org/glob-promise/-/glob-promise-4.0.1.tgz",
+			"sha": "47b0b721f7f52f46c66210eba46d4de840a8b2a2",
+			"registry": "npmjs"
+		},
+		"glob-promise-4.1.0.tgz": {
+			"url": "https://registry.npmjs.org/glob-promise/-/glob-promise-4.1.0.tgz",
+			"sha": "cde1692fd7442ce24b50e123dfe8b5f8428f35a3",
+			"registry": "npmjs"
+		},
+		"glob-promise-4.2.0.tgz": {
+			"url": "https://registry.npmjs.org/glob-promise/-/glob-promise-4.2.0.tgz",
+			"sha": "d9f441482e70c71513066745783ed2054b87d6e0",
+			"registry": "npmjs"
+		},
+		"glob-promise-4.2.1.tgz": {
+			"url": "https://registry.npmjs.org/glob-promise/-/glob-promise-4.2.1.tgz",
+			"sha": "4bfbdea36399f06ee15510e8b675b3ec5a033a1c",
+			"registry": "npmjs"
+		},
+		"glob-promise-4.2.2.tgz": {
+			"url": "https://registry.npmjs.org/glob-promise/-/glob-promise-4.2.2.tgz",
+			"sha": "15f44bcba0e14219cd93af36da6bb905ff007877",
+			"registry": "npmjs"
+		},
+		"glob-promise-5.0.0.tgz": {
+			"url": "https://registry.npmjs.org/glob-promise/-/glob-promise-5.0.0.tgz",
+			"sha": "aee3317ee1c211866d0425e1ac2e9089ded09c28",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_rev": "3-5344870bcdd4385a",
+	"_id": "glob-promise",
+	"readme": "# Promise version of glob\n\nMatch files using the patterns the shell uses, like stars and stuff.\n\n[![license][license-img]][license-url]\n[![release][release-img]][release-url]\n[![super linter][super-linter-img]][super-linter-url]\n[![test][test-img]][test-url]\n[![semantic][semantic-img]][semantic-url]\n\n> ***Note**: This is just a [`Promise`][] wrapped version of [`glob`][]*\n\n## Install\n\n``` bash\n$ npm install glob-promise glob\n```\n\n###### NOTE:\n\n[`glob`][] is set as a `peerDependency` in [`package.json`][]\n\n-   `npm` &lt;= `2` will automatically install `peerDependencies` if they are not explicitly depended upon higher in the dependency tree.\n-   `npm` &gt;= 3 will no longer automatically install `peerDependencies`.\n\nYou will need to manually add `glob` as a dependency to your project for `glob-promise` to work.\n\n## API\n\n### `glob(pattern [, options])`\n\nAlias for `glob.promise`\n\n### `glob.promise(pattern [, options])`\n\n*pattern*: `String` (glob pattern)\n*options*: `Object` or `String`\nReturn: `Object` ([Promise][`Promise`])\n\nWhen it finishes, it will be [*fulfilled*][] with an `Array` of filenames as its first argument.\n\nWhen it fails to read the files, it will be [*rejected*][] with an error as its first argument.\n\n``` js\nglob('**/*')\n  .then(function(contents) {\n    contents; //=> ['lorem', 'ipsum', 'dolor']\n  });\n\nglob('{foo,bar.baz}.txt', { nobrace: true })\n  .then(function(contents) {\n    contents; //=> []\n  });\n```\n\n### `glob.glob(pattern [, options], cb)`\n\n> see [`glob`][1]\n\n### `glob.sync(pattern [, options])`\n\n> see [`glob.sync()`][]\n\n### `glob.hasMagic(pattern, [options])`\n\n> see [`glob.hasMagic()`][]\n\n### `Class: glob.Glob`\n\n> see [`Glob`][2]\n\n#### options\n\nThe option object will be directly passed to [glob][].\n\n  [`Promise`]: http://promisesaplus.com/\n  [`glob`]: https://github.com/isaacs/node-glob\n  [`package.json`]: package.json\n  [*fulfilled*]: http://promisesaplus.com/#point-26\n  [*rejected*]: http://promisesaplus.com/#point-30\n  [1]: https://github.com/isaacs/node-glob#globpattern-options-cb\n  [`glob.sync()`]: https://github.com/isaacs/node-glob#globsyncpattern-options\n  [`glob.hasMagic()`]: https://github.com/isaacs/node-glob#globhasmagicpattern-options\n  [2]: https://github.com/isaacs/node-glob#class-globglob\n  [glob]: https://github.com/isaacs/node-glob#options\n\n----\n> Author: [Ahmad Nassri](https://www.ahmadnassri.com/) &bull;\n> Twitter: [@AhmadNassri](https://twitter.com/AhmadNassri)\n\n[license-url]: LICENSE\n[license-img]: https://badgen.net/github/license/ahmadnassri/node-glob-promise\n\n[release-url]: https://github.com/ahmadnassri/node-glob-promise/releases\n[release-img]: https://badgen.net/github/release/ahmadnassri/node-glob-promise\n\n[super-linter-url]: https://github.com/ahmadnassri/node-glob-promise/actions?query=workflow%3Asuper-linter\n[super-linter-img]: https://github.com/ahmadnassri/node-glob-promise/workflows/super-linter/badge.svg\n\n[test-url]: https://github.com/ahmadnassri/node-glob-promise/actions?query=workflow%3Atest\n[test-img]: https://github.com/ahmadnassri/node-glob-promise/workflows/test/badge.svg\n\n[semantic-url]: https://github.com/ahmadnassri/node-glob-promise/actions?query=workflow%3Arelease\n[semantic-img]: https://badgen.net/badge/📦/semantically%20released/blue"
+}

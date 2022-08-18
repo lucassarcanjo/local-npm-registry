@@ -1,0 +1,3140 @@
+{
+	"name": "babel-plugin-react-docgen",
+	"versions": {
+		"1.2.0": {
+			"version": "1.2.0",
+			"name": "babel-plugin-react-docgen",
+			"description": "Add propType doc to react classes",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/kadirahq/babel-plugin-react-docgen.git"
+			},
+			"author": {
+				"name": "Madushan Nishantha",
+				"email": "j.l.madushan@gmail.com"
+			},
+			"main": "lib/index.js",
+			"devDependencies": {
+				"babel-cli": "6.x.x",
+				"babel-preset-es2015": "6.x.x",
+				"babel-preset-stage-0": "6.x.x",
+				"mocha": "2.x.x"
+			},
+			"scripts": {
+				"clean": "rm -rf lib",
+				"build": "babel src -d lib",
+				"test": "mocha --compilers js:babel-register",
+				"test:watch": "npm run test -- --watch",
+				"prepublish": "npm run clean && npm run build"
+			},
+			"keywords": [
+				"react",
+				"docs",
+				"docgen",
+				"babel-plugin"
+			],
+			"dependencies": {
+				"babel-preset-react": "6.x.x",
+				"babel-types": "^6.16.0",
+				"lodash": "4.x.x",
+				"react-docgen": "2.x.x"
+			},
+			"license": "MIT",
+			"gitHead": "80b8958854d12cb5625d2bb3deb52a424759822c",
+			"bugs": {
+				"url": "https://github.com/kadirahq/babel-plugin-react-docgen/issues"
+			},
+			"homepage": "https://github.com/kadirahq/babel-plugin-react-docgen#readme",
+			"_id": "babel-plugin-react-docgen@1.2.0",
+			"_shasum": "e6145a865945c7abba0f522c762658526080ff63",
+			"_from": ".",
+			"_npmVersion": "3.10.7",
+			"_nodeVersion": "6.7.0",
+			"_npmUser": {
+				"name": "madushan1000",
+				"email": "madushan@kadira.io"
+			},
+			"dist": {
+				"shasum": "e6145a865945c7abba0f522c762658526080ff63",
+				"tarball": "https://registry.npmjs.org/babel-plugin-react-docgen/-/babel-plugin-react-docgen-1.2.0.tgz",
+				"integrity": "sha512-jckMSEt5dJ36y6xUjxb2WRsQbYz5I7ucjYzVBI9oBdIHbJqfqvPULskomjQE7IZxpmVDF4xa9tVgpwrLIYqnDw==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIEmjQuorheUp16oeBbhcco/tkreE5ios2SlxI7V/3QE+AiEA6Uiz0O3Vfq0Thr9o6GPwvOdm82BmQAIyYcfboNQ5bh4="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "madushan1000",
+					"email": "madushan@kadira.io"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/babel-plugin-react-docgen-1.2.0.tgz_1476945628896_0.13168834196403623"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.3.0": {
+			"version": "1.3.0",
+			"name": "babel-plugin-react-docgen",
+			"description": "Add propType doc to react classes",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/kadirahq/babel-plugin-react-docgen.git"
+			},
+			"author": {
+				"name": "Madushan Nishantha",
+				"email": "j.l.madushan@gmail.com"
+			},
+			"main": "lib/index.js",
+			"devDependencies": {
+				"babel-cli": "6.x.x",
+				"babel-preset-es2015": "6.x.x",
+				"babel-preset-stage-0": "6.x.x",
+				"mocha": "2.x.x"
+			},
+			"scripts": {
+				"clean": "rm -rf lib",
+				"build": "babel src -d lib",
+				"test": "mocha --compilers js:babel-register",
+				"test:watch": "npm run test -- --watch",
+				"prepublish": "npm run clean && npm run build"
+			},
+			"keywords": [
+				"react",
+				"docs",
+				"docgen",
+				"babel-plugin"
+			],
+			"dependencies": {
+				"babel-preset-react": "6.x.x",
+				"babel-types": "^6.16.0",
+				"lodash": "4.x.x",
+				"react-docgen": "2.11.0"
+			},
+			"license": "MIT",
+			"gitHead": "faa6b89905ce1681bae59f141f94dd120f2fc4aa",
+			"bugs": {
+				"url": "https://github.com/kadirahq/babel-plugin-react-docgen/issues"
+			},
+			"homepage": "https://github.com/kadirahq/babel-plugin-react-docgen#readme",
+			"_id": "babel-plugin-react-docgen@1.3.0",
+			"_shasum": "b003225b3816af784f1cad2d1cefdb66c6c9dc42",
+			"_from": ".",
+			"_npmVersion": "3.10.3",
+			"_nodeVersion": "6.6.0",
+			"_npmUser": {
+				"name": "arunoda",
+				"email": "arunoda.susiripala@gmail.com"
+			},
+			"dist": {
+				"shasum": "b003225b3816af784f1cad2d1cefdb66c6c9dc42",
+				"tarball": "https://registry.npmjs.org/babel-plugin-react-docgen/-/babel-plugin-react-docgen-1.3.0.tgz",
+				"integrity": "sha512-ToG9IOIKmUOGIu3ZoMKP2rOpZowC5dHlJQ7uLB4KU5re4QCKP54AKdkox9oH3X4blQK5TSF5Uepe671wgqSlQA==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCID2x8IT7xKsVD0Zg4PoenoifZnf4G1tr+EcfaoqKJMAiAiAbSgFVExTWh6Ssh629BsRCQCsZWGVixIxiloDNcPtkNg=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "arunoda",
+					"email": "arunoda.susiripala@gmail.com"
+				},
+				{
+					"name": "madushan1000",
+					"email": "madushan@kadira.io"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/babel-plugin-react-docgen-1.3.0.tgz_1477036812893_0.6949471787083894"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.3.1": {
+			"version": "1.3.1",
+			"name": "babel-plugin-react-docgen",
+			"description": "Babel plugin to add react-docgen info into your code",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/kadirahq/babel-plugin-react-docgen.git"
+			},
+			"author": {
+				"name": "Madushan Nishantha",
+				"email": "j.l.madushan@gmail.com"
+			},
+			"main": "lib/index.js",
+			"devDependencies": {
+				"babel-cli": "6.x.x",
+				"babel-preset-es2015": "6.x.x",
+				"babel-preset-stage-0": "6.x.x",
+				"mocha": "2.x.x"
+			},
+			"scripts": {
+				"clean": "rm -rf lib",
+				"build": "babel src -d lib",
+				"test": "mocha --compilers js:babel-register",
+				"test:watch": "npm run test -- --watch",
+				"prepublish": "npm run clean && npm run build"
+			},
+			"keywords": [
+				"react",
+				"docs",
+				"docgen",
+				"babel-plugin"
+			],
+			"dependencies": {
+				"babel-preset-react": "6.x.x",
+				"babel-types": "^6.16.0",
+				"lodash": "4.x.x",
+				"react-docgen": "^2.12.1"
+			},
+			"license": "MIT",
+			"gitHead": "2b6c68db6b437408d0431cfbcbe71e55c30172c8",
+			"bugs": {
+				"url": "https://github.com/kadirahq/babel-plugin-react-docgen/issues"
+			},
+			"homepage": "https://github.com/kadirahq/babel-plugin-react-docgen#readme",
+			"_id": "babel-plugin-react-docgen@1.3.1",
+			"_shasum": "84254f873c277b3f2eba534d73520085392cd3d8",
+			"_from": ".",
+			"_npmVersion": "3.10.3",
+			"_nodeVersion": "6.6.0",
+			"_npmUser": {
+				"name": "arunoda",
+				"email": "arunoda.susiripala@gmail.com"
+			},
+			"dist": {
+				"shasum": "84254f873c277b3f2eba534d73520085392cd3d8",
+				"tarball": "https://registry.npmjs.org/babel-plugin-react-docgen/-/babel-plugin-react-docgen-1.3.1.tgz",
+				"integrity": "sha512-cfD/h8IiWd5SwXx44ALbrvfedyAdsWq6/jUq29mmbh61uk/Y8dHhdMU140HPcchfAeNQU6r+V8n/Ne73MKsJtA==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDOblt7MB8joNWKmeJFDe9Cr8phSu1mHzouBFxqh2Zy7wIhAPDrXuEqQdoGVzxh2ZteP/Qd/PXhL3SCbh8ZZ4G9/LP6"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "arunoda",
+					"email": "arunoda.susiripala@gmail.com"
+				},
+				{
+					"name": "madushan1000",
+					"email": "madushan@kadira.io"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/babel-plugin-react-docgen-1.3.1.tgz_1477094683815_0.16485591838136315"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.3.2": {
+			"version": "1.3.2",
+			"name": "babel-plugin-react-docgen",
+			"description": "Babel plugin to add react-docgen info into your code",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/kadirahq/babel-plugin-react-docgen.git"
+			},
+			"author": {
+				"name": "Madushan Nishantha",
+				"email": "j.l.madushan@gmail.com"
+			},
+			"main": "lib/index.js",
+			"devDependencies": {
+				"babel-cli": "6.x.x",
+				"babel-preset-es2015": "6.x.x",
+				"babel-preset-stage-0": "6.x.x",
+				"mocha": "2.x.x"
+			},
+			"scripts": {
+				"clean": "rm -rf lib",
+				"build": "babel src -d lib",
+				"test": "mocha --compilers js:babel-register",
+				"test:watch": "npm run test -- --watch",
+				"prepublish": "npm run clean && npm run build"
+			},
+			"keywords": [
+				"react",
+				"docs",
+				"docgen",
+				"babel-plugin"
+			],
+			"dependencies": {
+				"babel-preset-react": "6.x.x",
+				"babel-types": "^6.16.0",
+				"lodash": "4.x.x",
+				"react-docgen": "^2.12.1"
+			},
+			"license": "MIT",
+			"gitHead": "899b0a26309096e857db8a6c77876759ba1be309",
+			"bugs": {
+				"url": "https://github.com/kadirahq/babel-plugin-react-docgen/issues"
+			},
+			"homepage": "https://github.com/kadirahq/babel-plugin-react-docgen#readme",
+			"_id": "babel-plugin-react-docgen@1.3.2",
+			"_shasum": "13fcf7baa5da06fd2a7ff67d4e2af497b811875e",
+			"_from": ".",
+			"_npmVersion": "3.10.3",
+			"_nodeVersion": "6.6.0",
+			"_npmUser": {
+				"name": "arunoda",
+				"email": "arunoda.susiripala@gmail.com"
+			},
+			"dist": {
+				"shasum": "13fcf7baa5da06fd2a7ff67d4e2af497b811875e",
+				"tarball": "https://registry.npmjs.org/babel-plugin-react-docgen/-/babel-plugin-react-docgen-1.3.2.tgz",
+				"integrity": "sha512-b6HscXti+LYNyinXiW4DqHQtmbzfSeqIFFRiovgfmrXEjBD+1UU2IU+Lgmq7v3tMLINA1gEtbkinerORxyxDQQ==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDm5keovF27AliEWD+RvU1HG//floy+y/cmgRHDqBI4hQIhAPVsS3dXZDKP8A+C6A+OuQl/mnfuBwLY3+tSSQKOilmJ"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "arunoda",
+					"email": "arunoda.susiripala@gmail.com"
+				},
+				{
+					"name": "madushan1000",
+					"email": "madushan@kadira.io"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/babel-plugin-react-docgen-1.3.2.tgz_1477196724137_0.32220574584789574"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.4.0": {
+			"version": "1.4.0",
+			"name": "babel-plugin-react-docgen",
+			"description": "Babel plugin to add react-docgen info into your code",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/kadirahq/babel-plugin-react-docgen.git"
+			},
+			"author": {
+				"name": "Madushan Nishantha",
+				"email": "j.l.madushan@gmail.com"
+			},
+			"main": "lib/index.js",
+			"devDependencies": {
+				"babel-cli": "6.x.x",
+				"babel-preset-es2015": "6.18.0",
+				"babel-preset-stage-0": "6.16.0",
+				"babel-preset-react": "6.16.0",
+				"mocha": "2.x.x"
+			},
+			"scripts": {
+				"clean": "rm -rf lib",
+				"build": "babel src -d lib",
+				"test": "mocha --compilers js:babel-register",
+				"test:watch": "npm run test -- --watch",
+				"prepublish": "npm run clean && npm run build"
+			},
+			"keywords": [
+				"react",
+				"docs",
+				"docgen",
+				"babel-plugin"
+			],
+			"dependencies": {
+				"babel-types": "^6.16.0",
+				"lodash": "4.x.x",
+				"react-docgen": "^2.12.1"
+			},
+			"license": "MIT",
+			"gitHead": "93447abcecca2dde94ed5fbd83615c7c08846a61",
+			"bugs": {
+				"url": "https://github.com/kadirahq/babel-plugin-react-docgen/issues"
+			},
+			"homepage": "https://github.com/kadirahq/babel-plugin-react-docgen#readme",
+			"_id": "babel-plugin-react-docgen@1.4.0",
+			"_shasum": "99df828cee8fec3c7f87ec5ab15d0ada670f7e3e",
+			"_from": ".",
+			"_npmVersion": "4.0.0",
+			"_nodeVersion": "6.6.0",
+			"_npmUser": {
+				"name": "arunoda",
+				"email": "arunoda.susiripala@gmail.com"
+			},
+			"dist": {
+				"shasum": "99df828cee8fec3c7f87ec5ab15d0ada670f7e3e",
+				"tarball": "https://registry.npmjs.org/babel-plugin-react-docgen/-/babel-plugin-react-docgen-1.4.0.tgz",
+				"integrity": "sha512-16lwE8ZWlYLsEIFTJ/c7MSR+bMWosvsywBYurwBedXep8CkiFdifC3Nvv61DlJJsUUVvLLMPojAl8CGVOx8Kog==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIAfXz9bDZffPIxSpKc+EH+bCgbUSDowQHVbKoXNmS1+jAiAzdufVsaxSo3tAxIcBYYHANKe/zm+gnKe5wYjH4VgHuw=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "arunoda",
+					"email": "arunoda.susiripala@gmail.com"
+				},
+				{
+					"name": "madushan1000",
+					"email": "madushan@kadira.io"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/babel-plugin-react-docgen-1.4.0.tgz_1477989778086_0.2653553762938827"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.4.1": {
+			"version": "1.4.1",
+			"name": "babel-plugin-react-docgen",
+			"description": "Babel plugin to add react-docgen info into your code",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/kadirahq/babel-plugin-react-docgen.git"
+			},
+			"author": {
+				"name": "Madushan Nishantha",
+				"email": "j.l.madushan@gmail.com"
+			},
+			"main": "lib/index.js",
+			"devDependencies": {
+				"babel-cli": "6.x.x",
+				"babel-preset-es2015": "6.18.0",
+				"babel-preset-stage-0": "6.16.0",
+				"babel-preset-react": "6.16.0",
+				"mocha": "2.x.x"
+			},
+			"scripts": {
+				"clean": "rm -rf lib",
+				"build": "babel src -d lib",
+				"test": "mocha --compilers js:babel-register",
+				"test:watch": "npm run test -- --watch",
+				"prepublish": "npm run clean && npm run build"
+			},
+			"keywords": [
+				"react",
+				"docs",
+				"docgen",
+				"babel-plugin"
+			],
+			"dependencies": {
+				"babel-types": "^6.16.0",
+				"lodash": "4.x.x",
+				"react-docgen": "^2.12.1"
+			},
+			"license": "MIT",
+			"gitHead": "f73963bb03b9b233fafbbf9744f76588b2059d4a",
+			"bugs": {
+				"url": "https://github.com/kadirahq/babel-plugin-react-docgen/issues"
+			},
+			"homepage": "https://github.com/kadirahq/babel-plugin-react-docgen#readme",
+			"_id": "babel-plugin-react-docgen@1.4.1",
+			"_shasum": "dc0d1e3e453ea592bd3b78f378638b30380328c9",
+			"_from": ".",
+			"_npmVersion": "4.0.0",
+			"_nodeVersion": "6.6.0",
+			"_npmUser": {
+				"name": "arunoda",
+				"email": "arunoda.susiripala@gmail.com"
+			},
+			"dist": {
+				"shasum": "dc0d1e3e453ea592bd3b78f378638b30380328c9",
+				"tarball": "https://registry.npmjs.org/babel-plugin-react-docgen/-/babel-plugin-react-docgen-1.4.1.tgz",
+				"integrity": "sha512-hxfSc5WoHO/hIVj9ya+GR2TccjSMwItCkDu1wr1yzRpxqrUX1Z8oauvxe8ZB3+nHua5bBFA8kbyQvG8GpzgLOw==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDWlqSsxaPgyHB49uzqRSJojjQ9+vX0DLQKWmXnCWufvQIhAOYfrqjbDBoCrZCiicq3BdkzmQrSNfDyLUXJZesUZtOj"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "arunoda",
+					"email": "arunoda.susiripala@gmail.com"
+				},
+				{
+					"name": "madushan1000",
+					"email": "madushan@kadira.io"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/babel-plugin-react-docgen-1.4.1.tgz_1478156016025_0.8147128608543426"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.4.2": {
+			"version": "1.4.2",
+			"name": "babel-plugin-react-docgen",
+			"description": "Babel plugin to add react-docgen info into your code",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/kadirahq/babel-plugin-react-docgen.git"
+			},
+			"author": {
+				"name": "Madushan Nishantha",
+				"email": "j.l.madushan@gmail.com"
+			},
+			"main": "lib/index.js",
+			"devDependencies": {
+				"babel-cli": "6.x.x",
+				"babel-preset-es2015": "6.18.0",
+				"babel-preset-stage-0": "6.16.0",
+				"babel-preset-react": "6.16.0",
+				"mocha": "2.x.x"
+			},
+			"scripts": {
+				"clean": "rm -rf lib",
+				"build": "babel src -d lib",
+				"test": "mocha --compilers js:babel-register",
+				"test:watch": "npm run test -- --watch",
+				"prepublish": "npm run clean && npm run build"
+			},
+			"keywords": [
+				"react",
+				"docs",
+				"docgen",
+				"babel-plugin"
+			],
+			"dependencies": {
+				"babel-types": "^6.16.0",
+				"lodash": "4.x.x",
+				"react-docgen": "^2.12.1"
+			},
+			"license": "MIT",
+			"gitHead": "5454d3d638e7d6623c529672270f24094a7bde2c",
+			"bugs": {
+				"url": "https://github.com/kadirahq/babel-plugin-react-docgen/issues"
+			},
+			"homepage": "https://github.com/kadirahq/babel-plugin-react-docgen#readme",
+			"_id": "babel-plugin-react-docgen@1.4.2",
+			"_shasum": "04c02133b84b6cc182d35de2162f15764da03e7c",
+			"_from": ".",
+			"_npmVersion": "3.10.9",
+			"_nodeVersion": "6.9.2",
+			"_npmUser": {
+				"name": "arunoda",
+				"email": "arunoda.susiripala@gmail.com"
+			},
+			"dist": {
+				"shasum": "04c02133b84b6cc182d35de2162f15764da03e7c",
+				"tarball": "https://registry.npmjs.org/babel-plugin-react-docgen/-/babel-plugin-react-docgen-1.4.2.tgz",
+				"integrity": "sha512-Ai36c8mdhN8rbeWcitVFgptUEPT2Xyo0oLidBWSngpLRJrBIAIDuZXNVBD6MdpGpKTf3bu3Zs3izIHnvIl4Stw==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIAYriTY5nfE0Wd5nfkF623gcOmFzQJLl67yB+CXFQsGpAiEA4cyJyfYmDjpoVz2ZO6cal26g3mltWUTy/MLba6WhSUQ="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "arunoda",
+					"email": "arunoda.susiripala@gmail.com"
+				},
+				{
+					"name": "madushan1000",
+					"email": "madushan@kadira.io"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/babel-plugin-react-docgen-1.4.2.tgz_1483412616435_0.10558607801795006"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.5.0": {
+			"version": "1.5.0",
+			"name": "babel-plugin-react-docgen",
+			"description": "Babel plugin to add react-docgen info into your code",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/kadirahq/babel-plugin-react-docgen.git"
+			},
+			"author": {
+				"name": "Madushan Nishantha",
+				"email": "j.l.madushan@gmail.com"
+			},
+			"main": "lib/index.js",
+			"devDependencies": {
+				"babel-cli": "6.x.x",
+				"babel-preset-es2015": "6.18.0",
+				"babel-preset-stage-0": "6.16.0",
+				"babel-preset-react": "6.16.0",
+				"mocha": "2.x.x"
+			},
+			"scripts": {
+				"clean": "rm -rf lib",
+				"build": "babel src -d lib",
+				"test": "mocha --compilers js:babel-register",
+				"test:watch": "npm run test -- --watch",
+				"prepublish": "npm run clean && npm run build"
+			},
+			"keywords": [
+				"react",
+				"docs",
+				"docgen",
+				"babel-plugin"
+			],
+			"dependencies": {
+				"babel-types": "^6.24.1",
+				"lodash": "4.x.x",
+				"react-docgen": "^2.15.0"
+			},
+			"license": "MIT",
+			"gitHead": "da55ff4678f00695bf47a8ec51e73a5d1076bb65",
+			"bugs": {
+				"url": "https://github.com/kadirahq/babel-plugin-react-docgen/issues"
+			},
+			"homepage": "https://github.com/kadirahq/babel-plugin-react-docgen#readme",
+			"_id": "babel-plugin-react-docgen@1.5.0",
+			"_shasum": "0339717ad51f4a5ce4349330b8266ea5a56f53b4",
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_nodeVersion": "7.10.0",
+			"_npmUser": {
+				"name": "danielduan",
+				"email": "dduan@yahoo.com"
+			},
+			"dist": {
+				"shasum": "0339717ad51f4a5ce4349330b8266ea5a56f53b4",
+				"tarball": "https://registry.npmjs.org/babel-plugin-react-docgen/-/babel-plugin-react-docgen-1.5.0.tgz",
+				"integrity": "sha512-4111eF5eprZb9GElb0IFW7jOibjX5Un7nwFCxlGVSXgM2JcO0gAMi0WkQvycUTMt8UP1W0PdehOVJTVxDKJKHQ==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCtr9BjoeIKtHmni9fvjdR8XH31gmliHer3q+dHobbHvgIhALxnALlnjxmMXlolo3gyTJCzklSKDyfB9ub/hMbw+M5C"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"email": "dduan@yahoo.com",
+					"name": "danielduan"
+				},
+				{
+					"email": "ndelangen@me.com",
+					"name": "ndelangen"
+				},
+				{
+					"email": "arunoda.susiripala@gmail.com",
+					"name": "arunoda"
+				},
+				{
+					"email": "madushan@kadira.io",
+					"name": "madushan1000"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/babel-plugin-react-docgen-1.5.0.tgz_1496779938969_0.3302934446837753"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.6.0": {
+			"version": "1.6.0",
+			"name": "babel-plugin-react-docgen",
+			"description": "Babel plugin to add react-docgen info into your code",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/kadirahq/babel-plugin-react-docgen.git"
+			},
+			"author": {
+				"name": "Madushan Nishantha",
+				"email": "j.l.madushan@gmail.com"
+			},
+			"main": "lib/index.js",
+			"devDependencies": {
+				"babel-cli": "6.x.x",
+				"babel-preset-es2015": "6.18.0",
+				"babel-preset-stage-0": "6.16.0",
+				"babel-preset-react": "6.16.0",
+				"mocha": "2.x.x"
+			},
+			"scripts": {
+				"clean": "rm -rf lib",
+				"build": "babel src -d lib",
+				"test": "mocha --compilers js:babel-register",
+				"test:watch": "npm run test -- --watch",
+				"prepublish": "npm run clean && npm run build"
+			},
+			"keywords": [
+				"react",
+				"docs",
+				"docgen",
+				"babel-plugin"
+			],
+			"dependencies": {
+				"babel-types": "^6.24.1",
+				"lodash": "4.x.x",
+				"react-docgen": "^2.15.0"
+			},
+			"license": "MIT",
+			"gitHead": "adf363e64fe895239aae1edebd89e712ae69e77c",
+			"bugs": {
+				"url": "https://github.com/kadirahq/babel-plugin-react-docgen/issues"
+			},
+			"homepage": "https://github.com/kadirahq/babel-plugin-react-docgen#readme",
+			"_id": "babel-plugin-react-docgen@1.6.0",
+			"_shasum": "9be36121b094da7a1a3ba7911a9e8ea4b0f44da0",
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_nodeVersion": "8.1.1",
+			"_npmUser": {
+				"name": "danielduan",
+				"email": "dduan@yahoo.com"
+			},
+			"dist": {
+				"shasum": "9be36121b094da7a1a3ba7911a9e8ea4b0f44da0",
+				"tarball": "https://registry.npmjs.org/babel-plugin-react-docgen/-/babel-plugin-react-docgen-1.6.0.tgz",
+				"integrity": "sha512-lfMTce+6LZgB4dQ7IcGt9bbGC3uLS/h8nETZwa7eirNLY8P2OvezMAYWy3Q/5lONvoyNX2BhZAXyJTHtICKRoA==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIFqPGUGxVZ5MdhkF3Mkyz4DOGUG8tsqhs7TyM4b1jttnAiAkI2e6L0VCTh5A/fN3kWnNi98TlnzvWEXhk5oQw+0Y2Q=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"email": "dduan@yahoo.com",
+					"name": "danielduan"
+				},
+				{
+					"email": "ndelangen@me.com",
+					"name": "ndelangen"
+				},
+				{
+					"email": "arunoda.susiripala@gmail.com",
+					"name": "arunoda"
+				},
+				{
+					"email": "madushan@kadira.io",
+					"name": "madushan1000"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/babel-plugin-react-docgen-1.6.0.tgz_1501082667204_0.5527529385872185"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.7.0": {
+			"version": "1.7.0",
+			"name": "babel-plugin-react-docgen",
+			"description": "Babel plugin to add react-docgen info into your code",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/storybooks/babel-plugin-react-docgen.git"
+			},
+			"author": {
+				"name": "Madushan Nishantha",
+				"email": "j.l.madushan@gmail.com"
+			},
+			"main": "lib/index.js",
+			"devDependencies": {
+				"babel-cli": "6.x.x",
+				"babel-preset-es2015": "6.18.0",
+				"babel-preset-stage-0": "6.16.0",
+				"babel-preset-react": "6.16.0",
+				"mocha": "2.x.x"
+			},
+			"scripts": {
+				"clean": "rm -rf lib",
+				"build": "babel src -d lib",
+				"test": "mocha --compilers js:babel-register",
+				"test:watch": "npm run test -- --watch",
+				"prepare": "npm run clean && npm run build"
+			},
+			"keywords": [
+				"react",
+				"docs",
+				"docgen",
+				"babel-plugin"
+			],
+			"dependencies": {
+				"babel-types": "^6.24.1",
+				"lodash": "4.x.x",
+				"react-docgen": "^2.15.0"
+			},
+			"license": "MIT",
+			"gitHead": "50f4fbcb3d39e39bdc28abbfc1defdf9e6ad5bd1",
+			"bugs": {
+				"url": "https://github.com/storybooks/babel-plugin-react-docgen/issues"
+			},
+			"homepage": "https://github.com/storybooks/babel-plugin-react-docgen#readme",
+			"_id": "babel-plugin-react-docgen@1.7.0",
+			"_npmVersion": "5.3.0",
+			"_nodeVersion": "8.2.1",
+			"_npmUser": {
+				"name": "danielduan",
+				"email": "dduan@yahoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-0Pw0sdu3W+NfVS048dqMetujQH6gXxCgd2tQGmUmgP/iNNlSbd7aDFj0e8xDmuZQRMy6UNC29zhMpnJJ0xc5BQ==",
+				"shasum": "87e72d3d54b182a30706b740bb4d116f59aadc80",
+				"tarball": "https://registry.npmjs.org/babel-plugin-react-docgen/-/babel-plugin-react-docgen-1.7.0.tgz",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDR6pnwBK7rp/bJe6kQ574mGEJSwKi+yL7VHmTC0hOSvAIgeinLZj+N5kgTWzRnZx1n12CeTEgpChfYn6nyxDih6Yg="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"email": "dduan@yahoo.com",
+					"name": "danielduan"
+				},
+				{
+					"email": "ndelangen@me.com",
+					"name": "ndelangen"
+				},
+				{
+					"email": "arunoda.susiripala@gmail.com",
+					"name": "arunoda"
+				},
+				{
+					"email": "madushan@kadira.io",
+					"name": "madushan1000"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/babel-plugin-react-docgen-1.7.0.tgz_1502455286993_0.8159457214642316"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.8.0": {
+			"version": "1.8.0",
+			"name": "babel-plugin-react-docgen",
+			"description": "Babel plugin to add react-docgen info into your code",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/storybooks/babel-plugin-react-docgen.git"
+			},
+			"author": {
+				"name": "Madushan Nishantha",
+				"email": "j.l.madushan@gmail.com"
+			},
+			"main": "lib/index.js",
+			"devDependencies": {
+				"babel-cli": "6.x.x",
+				"babel-preset-es2015": "6.18.0",
+				"babel-preset-stage-0": "6.16.0",
+				"babel-preset-react": "6.16.0",
+				"mocha": "2.x.x"
+			},
+			"scripts": {
+				"clean": "rm -rf lib",
+				"build": "babel src -d lib",
+				"test": "mocha --compilers js:babel-register",
+				"test:watch": "npm run test -- --watch",
+				"prepare": "npm run clean && npm run build"
+			},
+			"keywords": [
+				"react",
+				"docs",
+				"docgen",
+				"babel-plugin"
+			],
+			"dependencies": {
+				"babel-types": "^6.24.1",
+				"lodash": "4.x.x",
+				"react-docgen": "^2.15.0"
+			},
+			"license": "MIT",
+			"gitHead": "735a80bca397df11295952e13bdd36171a043f56",
+			"bugs": {
+				"url": "https://github.com/storybooks/babel-plugin-react-docgen/issues"
+			},
+			"homepage": "https://github.com/storybooks/babel-plugin-react-docgen#readme",
+			"_id": "babel-plugin-react-docgen@1.8.0",
+			"_npmVersion": "5.4.2",
+			"_nodeVersion": "8.2.1",
+			"_npmUser": {
+				"name": "danielduan",
+				"email": "dduan@yahoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-rYAV4AthS8WgfEY/LaHeNvrtChXbG8w8pKX42ghPNeEB7ZCdk0Qy/ZzYSdR5ITQxh4ZEDu+pMAqfxu3t9mrK4w==",
+				"shasum": "e6c2ca718ac225fce4a10cff1765a920f76b9870",
+				"tarball": "https://registry.npmjs.org/babel-plugin-react-docgen/-/babel-plugin-react-docgen-1.8.0.tgz",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDz42fK4vCIcuGkVhklY7c9YT8NXwnRJ2krJN77KyUSCAIgCNpE07z0ylXCdEM6V+oWJopupwjZzqeO9XLZQKeOSd0="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"email": "dduan@yahoo.com",
+					"name": "danielduan"
+				},
+				{
+					"email": "ndelangen@me.com",
+					"name": "ndelangen"
+				},
+				{
+					"email": "arunoda.susiripala@gmail.com",
+					"name": "arunoda"
+				},
+				{
+					"email": "madushan@kadira.io",
+					"name": "madushan1000"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/babel-plugin-react-docgen-1.8.0.tgz_1506284492216_0.3743421449325979"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.8.1": {
+			"version": "1.8.1",
+			"name": "babel-plugin-react-docgen",
+			"description": "Babel plugin to add react-docgen info into your code",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/storybooks/babel-plugin-react-docgen.git"
+			},
+			"author": {
+				"name": "Madushan Nishantha",
+				"email": "j.l.madushan@gmail.com"
+			},
+			"main": "lib/index.js",
+			"devDependencies": {
+				"babel-cli": "6.x.x",
+				"babel-preset-es2015": "6.18.0",
+				"babel-preset-stage-0": "6.16.0",
+				"babel-preset-react": "6.16.0",
+				"mocha": "2.x.x"
+			},
+			"scripts": {
+				"clean": "rm -rf lib",
+				"build": "babel src -d lib",
+				"test": "mocha --compilers js:babel-register",
+				"test:watch": "npm run test -- --watch",
+				"prepare": "npm run test && npm run clean && npm run build"
+			},
+			"keywords": [
+				"react",
+				"docs",
+				"docgen",
+				"babel-plugin"
+			],
+			"dependencies": {
+				"babel-types": "^6.24.1",
+				"lodash": "4.x.x",
+				"react-docgen": "^2.15.0"
+			},
+			"license": "MIT",
+			"gitHead": "ae94141ca2e8d647cd1c3fbd74ed5ff9225f1f99",
+			"bugs": {
+				"url": "https://github.com/storybooks/babel-plugin-react-docgen/issues"
+			},
+			"homepage": "https://github.com/storybooks/babel-plugin-react-docgen#readme",
+			"_id": "babel-plugin-react-docgen@1.8.1",
+			"_npmVersion": "5.4.2",
+			"_nodeVersion": "8.2.1",
+			"_npmUser": {
+				"name": "danielduan",
+				"email": "dduan@yahoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-11Yxwk8/iEULr+n5DG0BxXD6j/9htpiiR0/hLfi/gtEAK/d6NCNkyKFrC8loQcyMvF3hehPo30SKXG/itSX+hw==",
+				"shasum": "6e08e057f5dcd46b434e7553e971baa604dae377",
+				"tarball": "https://registry.npmjs.org/babel-plugin-react-docgen/-/babel-plugin-react-docgen-1.8.1.tgz",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCIKzO8B24Z9Vf3qceOwbVUliARMfl4k726U68URK/7mQIhAPJlmnHuDTnyXaahbZrOeAYXOSIPLj7gbqEG74kBCG8B"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"email": "dduan@yahoo.com",
+					"name": "danielduan"
+				},
+				{
+					"email": "ndelangen@me.com",
+					"name": "ndelangen"
+				},
+				{
+					"email": "arunoda.susiripala@gmail.com",
+					"name": "arunoda"
+				},
+				{
+					"email": "madushan@kadira.io",
+					"name": "madushan1000"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/babel-plugin-react-docgen-1.8.1.tgz_1506606567296_0.16199333663098514"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.8.2": {
+			"version": "1.8.2",
+			"name": "babel-plugin-react-docgen",
+			"description": "Babel plugin to add react-docgen info into your code",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/storybooks/babel-plugin-react-docgen.git"
+			},
+			"author": {
+				"name": "Madushan Nishantha",
+				"email": "j.l.madushan@gmail.com"
+			},
+			"main": "lib/index.js",
+			"devDependencies": {
+				"babel-cli": "^6.0.0",
+				"babel-preset-es2015": "^6.18.0",
+				"babel-preset-stage-0": "^6.16.0",
+				"babel-preset-react": "^6.16.0",
+				"mocha": "^2.0.0"
+			},
+			"scripts": {
+				"clean": "rm -rf lib",
+				"build": "babel src -d lib",
+				"test": "mocha --compilers js:babel-register",
+				"test:watch": "npm run test -- --watch",
+				"prepare": "npm run test && npm run clean && npm run build"
+			},
+			"keywords": [
+				"react",
+				"docs",
+				"docgen",
+				"babel-plugin"
+			],
+			"dependencies": {
+				"babel-types": "^6.24.1",
+				"lodash": "^4.17.0",
+				"react-docgen": "^2.20.0"
+			},
+			"license": "MIT",
+			"gitHead": "646f84fd87e18766df036597a765d2fb52bf85d8",
+			"bugs": {
+				"url": "https://github.com/storybooks/babel-plugin-react-docgen/issues"
+			},
+			"homepage": "https://github.com/storybooks/babel-plugin-react-docgen#readme",
+			"_id": "babel-plugin-react-docgen@1.8.2",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "8.8.1",
+			"_npmUser": {
+				"name": "danielduan",
+				"email": "dduan@yahoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-201wzLbDeeZri6p+KREqspsFA8rNV6SiVx65jiPC6lhM7TUTNcbEoacFHbB6ou8ONsQT3phTqLpd5Nl02mZaqw==",
+				"shasum": "4615da43588c8cf5bdcae028f217954c70e6770b",
+				"tarball": "https://registry.npmjs.org/babel-plugin-react-docgen/-/babel-plugin-react-docgen-1.8.2.tgz",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCdJp8VPeYwENkiNAPsg4vZirPf58UGi3nOylBiMV9qlwIhALxwZyT6hSO3elyOj9cjX1gZDiwbOrmzLRgFAyz8PC7T"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"email": "dduan@yahoo.com",
+					"name": "danielduan"
+				},
+				{
+					"email": "ndelangen@me.com",
+					"name": "ndelangen"
+				},
+				{
+					"email": "arunoda.susiripala@gmail.com",
+					"name": "arunoda"
+				},
+				{
+					"email": "madushan@kadira.io",
+					"name": "madushan1000"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/babel-plugin-react-docgen-1.8.2.tgz_1515956243193_0.6832587758544832"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.8.3": {
+			"version": "1.8.3",
+			"name": "babel-plugin-react-docgen",
+			"description": "Babel plugin to add react-docgen info into your code",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/storybooks/babel-plugin-react-docgen.git"
+			},
+			"author": {
+				"name": "Madushan Nishantha",
+				"email": "j.l.madushan@gmail.com"
+			},
+			"main": "lib/index.js",
+			"devDependencies": {
+				"babel-cli": "^6.0.0",
+				"babel-preset-es2015": "^6.18.0",
+				"babel-preset-stage-0": "^6.16.0",
+				"babel-preset-react": "^6.16.0",
+				"mocha": "^2.0.0"
+			},
+			"scripts": {
+				"clean": "rm -rf lib",
+				"build": "babel src -d lib",
+				"test": "mocha --compilers js:babel-register",
+				"test:watch": "npm run test -- --watch",
+				"prepare": "npm run test && npm run clean && npm run build"
+			},
+			"keywords": [
+				"react",
+				"docs",
+				"docgen",
+				"babel-plugin"
+			],
+			"dependencies": {
+				"babel-types": "^6.24.1",
+				"lodash": "^4.17.0",
+				"react-docgen": "^2.20.0"
+			},
+			"license": "MIT",
+			"gitHead": "4cff444b7ab6a47c26dbb00c32ceca648c7cab03",
+			"bugs": {
+				"url": "https://github.com/storybooks/babel-plugin-react-docgen/issues"
+			},
+			"homepage": "https://github.com/storybooks/babel-plugin-react-docgen#readme",
+			"_id": "babel-plugin-react-docgen@1.8.3",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "8.9.1",
+			"_npmUser": {
+				"name": "danielduan",
+				"email": "dduan@yahoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-yJVPObZu8HLQmOsiJATqBE/+6xZiF/b5SnWTxgV0nfELHjz5lWzIHgBzuAe5ael613+Hgf6VnRa98OVILZI07w==",
+				"shasum": "bdb0fe41f72eaa9444fe7872866d2f372afd72bb",
+				"tarball": "https://registry.npmjs.org/babel-plugin-react-docgen/-/babel-plugin-react-docgen-1.8.3.tgz",
+				"fileCount": 45,
+				"unpackedSize": 149453,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDuCxw7ExUTFemElVWDdQ2Bm+Fb6/u9UQjtYg++SMGnMgIhANJSa+5RUmRmQ3PVTFFyWh06bVRZDKyIH8vR6VYoVvrs"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"email": "arunoda.susiripala@gmail.com",
+					"name": "arunoda"
+				},
+				{
+					"email": "dduan@yahoo.com",
+					"name": "danielduan"
+				},
+				{
+					"email": "madushan@kadira.io",
+					"name": "madushan1000"
+				},
+				{
+					"email": "ndelangen@me.com",
+					"name": "ndelangen"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/babel-plugin-react-docgen_1.8.3_1519860601656_0.588264056231514"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.9.0": {
+			"version": "1.9.0",
+			"name": "babel-plugin-react-docgen",
+			"description": "Babel plugin to add react-docgen info into your code",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/storybooks/babel-plugin-react-docgen.git"
+			},
+			"author": {
+				"name": "Madushan Nishantha",
+				"email": "j.l.madushan@gmail.com"
+			},
+			"main": "lib/index.js",
+			"devDependencies": {
+				"babel-cli": "^6.0.0",
+				"babel-preset-stage-0": "^6.16.0",
+				"babel-preset-env": "^1.6.1",
+				"babel-preset-flow": "^6.23.0",
+				"babel-preset-react": "^6.16.0",
+				"mocha": "^2.0.0"
+			},
+			"scripts": {
+				"clean": "rm -rf lib",
+				"build": "babel src -d lib",
+				"test": "mocha --compilers js:babel-register",
+				"test:watch": "npm run test -- --watch",
+				"prepare": "npm run test && npm run clean && npm run build"
+			},
+			"keywords": [
+				"react",
+				"docs",
+				"docgen",
+				"babel-plugin"
+			],
+			"dependencies": {
+				"babel-types": "^6.24.1",
+				"lodash": "^4.17.0",
+				"react-docgen": "^3.0.0-beta11"
+			},
+			"license": "MIT",
+			"gitHead": "4b10e9ba43f560ef6c753f0df496e3e5db8d93a5",
+			"bugs": {
+				"url": "https://github.com/storybooks/babel-plugin-react-docgen/issues"
+			},
+			"homepage": "https://github.com/storybooks/babel-plugin-react-docgen#readme",
+			"_id": "babel-plugin-react-docgen@1.9.0",
+			"_npmVersion": "5.7.1",
+			"_nodeVersion": "8.9.1",
+			"_npmUser": {
+				"name": "danielduan",
+				"email": "dduan@yahoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-8lQ73p4BL+xcgba03NTiHrddl2X8J6PDMQHPpz73sesrRBf6JtAscQPLIjFWQR/abLokdv81HdshpjYGppOXgA==",
+				"shasum": "2e79aeed2f93b53a172398f93324fdcf9f02e01f",
+				"tarball": "https://registry.npmjs.org/babel-plugin-react-docgen/-/babel-plugin-react-docgen-1.9.0.tgz",
+				"fileCount": 46,
+				"unpackedSize": 78624,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQD/wbITblnuzOChHgN3dNmR5zKvCxoLcKeHt8eVYnQilAIgId/VvPyDXAl4evBK/sqS42s/NXnmS9Kug4eMhi8UR50="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"email": "arunoda.susiripala@gmail.com",
+					"name": "arunoda"
+				},
+				{
+					"email": "dduan@yahoo.com",
+					"name": "danielduan"
+				},
+				{
+					"email": "madushan@kadira.io",
+					"name": "madushan1000"
+				},
+				{
+					"email": "ndelangen@me.com",
+					"name": "ndelangen"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/babel-plugin-react-docgen_1.9.0_1522699181423_0.43223597884111165"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"2.0.0-rc.0": {
+			"version": "2.0.0-rc.0",
+			"name": "babel-plugin-react-docgen",
+			"description": "Babel plugin to add react-docgen info into your code",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/storybooks/babel-plugin-react-docgen.git"
+			},
+			"author": {
+				"name": "Madushan Nishantha",
+				"email": "j.l.madushan@gmail.com"
+			},
+			"main": "lib/index.js",
+			"devDependencies": {
+				"babel-cli": "^6.0.0",
+				"babel-preset-stage-0": "^6.16.0",
+				"babel-preset-env": "^1.6.1",
+				"babel-preset-flow": "^6.23.0",
+				"babel-preset-react": "^6.16.0",
+				"mocha": "^2.0.0"
+			},
+			"scripts": {
+				"clean": "rm -rf lib",
+				"build": "babel src -d lib",
+				"test": "mocha --compilers js:babel-register",
+				"test:watch": "npm run test -- --watch",
+				"prepare": "npm run test && npm run clean && npm run build"
+			},
+			"keywords": [
+				"react",
+				"docs",
+				"docgen",
+				"babel-plugin"
+			],
+			"dependencies": {
+				"babel-types": "^6.24.1",
+				"lodash": "^4.17.0",
+				"react-docgen": "^3.0.0-beta11"
+			},
+			"license": "MIT",
+			"readmeFilename": "README.md",
+			"gitHead": "ab60d6f63b00fc13a6906b843e4eeb57bc6cacc5",
+			"bugs": {
+				"url": "https://github.com/storybooks/babel-plugin-react-docgen/issues"
+			},
+			"homepage": "https://github.com/storybooks/babel-plugin-react-docgen#readme",
+			"_id": "babel-plugin-react-docgen@2.0.0-rc.0",
+			"_npmVersion": "5.7.1",
+			"_nodeVersion": "8.9.1",
+			"_npmUser": {
+				"name": "danielduan",
+				"email": "dduan@yahoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-c3wrjpJcNmBBkro/2+ng/VqRhm9j6TpBMb7KJtFpneTadpiUBhHGuHQKVcBAdWGgWZUpvHaEw0JoSexCTEdsuw==",
+				"shasum": "e3561de1f1a16037306ec5131456fe625b7736f8",
+				"tarball": "https://registry.npmjs.org/babel-plugin-react-docgen/-/babel-plugin-react-docgen-2.0.0-rc.0.tgz",
+				"fileCount": 48,
+				"unpackedSize": 88977,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIDpcW7TPXd7ntWeo9r/tCBW5s2InpebFRiUFa5NWLmL4AiEAsfj6qfKbXwN0xYSu57GYFnrfH9xMTybmSf8zTi1lMLA="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"email": "arunoda.susiripala@gmail.com",
+					"name": "arunoda"
+				},
+				{
+					"email": "dduan@yahoo.com",
+					"name": "danielduan"
+				},
+				{
+					"email": "madushan@kadira.io",
+					"name": "madushan1000"
+				},
+				{
+					"email": "ndelangen@me.com",
+					"name": "ndelangen"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/babel-plugin-react-docgen_2.0.0-rc.0_1523475403159_0.6069725900678105"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"2.0.0-rc.1": {
+			"version": "2.0.0-rc.1",
+			"name": "babel-plugin-react-docgen",
+			"description": "Babel plugin to add react-docgen info into your code",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/storybooks/babel-plugin-react-docgen.git"
+			},
+			"author": {
+				"name": "Madushan Nishantha",
+				"email": "j.l.madushan@gmail.com"
+			},
+			"contributors": [
+				{
+					"name": "Charles Lehnert"
+				}
+			],
+			"main": "lib/index.js",
+			"devDependencies": {
+				"babel-cli": "^6.26.0",
+				"babel-preset-env": "^1.7.0",
+				"babel-preset-flow": "^6.23.0",
+				"babel-preset-react": "^6.24.1",
+				"babel-preset-stage-0": "^6.24.1",
+				"mocha": "^4.1.0",
+				"recast": "^0.14.7"
+			},
+			"scripts": {
+				"clean": "rm -rf lib",
+				"build": "babel src -d lib",
+				"test": "mocha --require babel-register",
+				"test:watch": "npm run test -- --watch",
+				"prepare": "npm run test && npm run clean && npm run build"
+			},
+			"keywords": [
+				"react",
+				"docs",
+				"docgen",
+				"babel-plugin"
+			],
+			"dependencies": {
+				"babel-types": "^6.26.0",
+				"lodash": "^4.17.10",
+				"react-docgen": "^3.0.0-beta12"
+			},
+			"license": "MIT",
+			"gitHead": "90b2af0f571c165c4cd645008a9d6688ac435a8d",
+			"bugs": {
+				"url": "https://github.com/storybooks/babel-plugin-react-docgen/issues"
+			},
+			"homepage": "https://github.com/storybooks/babel-plugin-react-docgen#readme",
+			"_id": "babel-plugin-react-docgen@2.0.0-rc.1",
+			"_npmVersion": "6.1.0",
+			"_nodeVersion": "8.8.1",
+			"_npmUser": {
+				"name": "danielduan",
+				"email": "dduan@yahoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-0iFIm3ja30AG28IhvNagfp8sbXv8VrtEG9DAedDe3ElNTFjG6S3NWbt6Z/UJmsMUsTKfx/xU0XOtaHEpJF2FMg==",
+				"shasum": "2538ecff4102c9e4e4087dbb90bcc76a8db3658f",
+				"tarball": "https://registry.npmjs.org/babel-plugin-react-docgen/-/babel-plugin-react-docgen-2.0.0-rc.1.tgz",
+				"fileCount": 57,
+				"unpackedSize": 106300,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbJov0CRA9TVsSAnZWagAAW2sP/3HrPYcQszuqoqU91JBX\nqG6bhfhuOYDh391we+mq7PK0dbQjIiuzVBHGzlTLkN9d4/YZ2Qfxn0HHNimA\nO0M6A+JHBUC6rlpu0zpYrMqbbU+6gDyikWCiu6RKhtlX423I/QODKjTLvigG\n50NjaKk44ZUkw3eBP4C1zva8lOf8HfJCdsV+oV8fG/P7YsWDDcfdgmVCk8AQ\nFL/sbQ+qv/DZhcHkBhnK0/rIfJpYop9ar7v1+g8iJNpB6Y8GUzEao8mAl8oO\nBwDkKRQCazFu1OnTJkhqpjHvBzJNw5M63+jTrglX0rDv3ghQpuBU4sDzUPOp\nH7jHBG1CNo0BW30vgGrNRmUiUArscQNkgLoNBGqE5E8KxB/SWMvKCzF1dZOB\nb0eEO61pGIXhJ6yv2AxIEvWRt0HgvAe5N81OUrrahq9EzWLWvlr0AKSNjTfn\nHGkuJhqW68FodqqkoVq6ZwONPvMgLeZHH1BJO4dKxwJ3knNNcrSiAVth9tjh\n73I1IJnnumvZsIW43d7arkLKmTHEapmx5+hdwTBecDiNP/QjluD698gId32y\nenCZh73dPyRZJvNu+qPqdXwh9DnnPhGl2dng+XZMnVMsE42rzEaeFSHJlP0j\nRAnnSEsyK/6UrNlJldKiEbj/RQ9ww4E1i4EWGjPfOI2ASAxYTyYZU5EMrhuL\nU2Jh\r\n=V5mf\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCICxFXRdzhswFLBb5WnctqElkDW4Jqg5NYt3KGNl3RP/qAiBpF1gSnxY7rtJipmdSLsU8qYRu9x1f90Nm/C/vF/shdQ=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"email": "arunoda.susiripala@gmail.com",
+					"name": "arunoda"
+				},
+				{
+					"email": "dduan@yahoo.com",
+					"name": "danielduan"
+				},
+				{
+					"email": "madushan@kadira.io",
+					"name": "madushan1000"
+				},
+				{
+					"email": "ndelangen@me.com",
+					"name": "ndelangen"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/babel-plugin-react-docgen_2.0.0-rc.1_1529252851567_0.33198031882617185"
+			},
+			"_hasShrinkwrap": false
+		},
+		"2.0.0-rc.2": {
+			"version": "2.0.0-rc.2",
+			"name": "babel-plugin-react-docgen",
+			"description": "Babel plugin to add react-docgen info into your code",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/storybooks/babel-plugin-react-docgen.git"
+			},
+			"author": {
+				"name": "Madushan Nishantha",
+				"email": "j.l.madushan@gmail.com"
+			},
+			"contributors": [
+				{
+					"name": "Charles Lehnert"
+				}
+			],
+			"main": "lib/index.js",
+			"devDependencies": {
+				"babel-cli": "^6.26.0",
+				"babel-preset-env": "^1.7.0",
+				"babel-preset-flow": "^6.23.0",
+				"babel-preset-react": "^6.24.1",
+				"babel-preset-stage-0": "^6.24.1",
+				"mocha": "^4.1.0",
+				"recast": "^0.14.7"
+			},
+			"scripts": {
+				"clean": "rm -rf lib",
+				"build": "babel src -d lib",
+				"test": "mocha --require babel-register",
+				"test:watch": "npm run test -- --watch",
+				"prepare": "npm run test && npm run clean && npm run build"
+			},
+			"keywords": [
+				"react",
+				"docs",
+				"docgen",
+				"babel-plugin"
+			],
+			"dependencies": {
+				"babel-types": "^6.26.0",
+				"lodash": "^4.17.10",
+				"react-docgen": "^3.0.0-beta12"
+			},
+			"license": "MIT",
+			"gitHead": "e79ce2ef2c78363c760a0e1e299378590f183a23",
+			"bugs": {
+				"url": "https://github.com/storybooks/babel-plugin-react-docgen/issues"
+			},
+			"homepage": "https://github.com/storybooks/babel-plugin-react-docgen#readme",
+			"_id": "babel-plugin-react-docgen@2.0.0-rc.2",
+			"_npmVersion": "6.2.0",
+			"_nodeVersion": "8.9.1",
+			"_npmUser": {
+				"name": "danielduan",
+				"email": "dduan@yahoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-7fjFjA8Z0pJZTbr2A9xZb88gttdxBT3ciw3mum/ASWPShp8++ptQO1Yirjp7Oect1yBQgQ0QpZU8NIbgzZnhAg==",
+				"shasum": "6d91c1914cb8a3975037a39f1cbd06e252705886",
+				"tarball": "https://registry.npmjs.org/babel-plugin-react-docgen/-/babel-plugin-react-docgen-2.0.0-rc.2.tgz",
+				"fileCount": 59,
+				"unpackedSize": 107016,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbcyERCRA9TVsSAnZWagAAa5kP/RT69/1raTe1ZdHBu0Qy\nsdGju4NCAdEYtfMUdbK1m3pygEmdcOLwYhL8misPWX5KIIfIi9CVvM9ZIOjJ\nN/BStvc3d4wyxr6KUXwXiqHypqPj65TiL4Di1UiVh0rnx9yETlgdFkQQfEbr\ncLV7G70msQyEXGd4JYqLyOFbCuzX5IeKEE+uqdw8HOmvzAy/qzr0FJyXYZwO\nAZFYBUdZa6o2ibMvOt9hHslXhIgir/zT23RnotxAhpMD2bm0/6ed5PApw9gK\nuoRX3yd66Kz9IOlFuzq8BQb5WTN6vbnPF38z/ziex51aDpe+tKjE1iJ1GpXw\naZjGDiUwCO4PPpMNJQZFUJ17s2RNPjfWg3n1h3Z8xXVDAN3NHE0Bxhlcea+N\nJVhMCxOIyKEIkRrw9/pIEkrbq5TRjFJQUHXDfP3nGW8qVTecdpn4AnCjgzAB\nLcjuCMA+CSBL1b0UtQ8mUkw5/YKo+gZI1kaCcLD85mCCzdwTlgotxoHwt+cX\nYluitIbQHppSZzYq9PGspH+6cwjWHDX1dQXmTicK92Al8MpYv4UxFNTStWae\nYxoDUpcBk1deHww+agA/oAYo6WnZgmhUU/TNs/DLHasMjLVxMx/Zl1GF4j73\ntTbesdXfg7NuoKC14mRHOLVD8NSfdXl1Da5oLLefCQbxGBGqxC5IlJiVKZyz\nAW2P\r\n=KLm6\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIDlbjhwau63suHdnbHjPj6wdE1va/QPp6If9Y64/ce9dAiEAzsU0Ek5beehWsBPQ7u48AQuNLOhmYUk74b5lL+jesY4="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"email": "arunoda.susiripala@gmail.com",
+					"name": "arunoda"
+				},
+				{
+					"email": "dduan@yahoo.com",
+					"name": "danielduan"
+				},
+				{
+					"email": "madushan@kadira.io",
+					"name": "madushan1000"
+				},
+				{
+					"email": "ndelangen@me.com",
+					"name": "ndelangen"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/babel-plugin-react-docgen_2.0.0-rc.2_1534271760858_0.04509774178498693"
+			},
+			"_hasShrinkwrap": false
+		},
+		"2.0.0-babel7.0": {
+			"version": "2.0.0-babel7.0",
+			"name": "babel-plugin-react-docgen",
+			"description": "Babel plugin to add react-docgen info into your code",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/storybooks/babel-plugin-react-docgen.git"
+			},
+			"author": {
+				"name": "Madushan Nishantha",
+				"email": "j.l.madushan@gmail.com"
+			},
+			"contributors": [
+				{
+					"name": "Charles Lehnert"
+				}
+			],
+			"main": "lib/index.js",
+			"devDependencies": {
+				"@babel/cli": "^7.0.0-rc.1",
+				"@babel/core": "^7.0.0-rc.1",
+				"@babel/plugin-proposal-class-properties": "^7.0.0-rc.1",
+				"@babel/preset-env": "^7.0.0-rc.1",
+				"@babel/preset-flow": "^7.0.0-rc.1",
+				"@babel/preset-react": "^7.0.0-rc.1",
+				"@babel/register": "^7.0.0-rc.1",
+				"mocha": "^5.2.0",
+				"recast": "^0.14.7"
+			},
+			"scripts": {
+				"clean": "rm -rf lib",
+				"build": "babel src --out-dir lib",
+				"test": "mocha --compilers js:@babel/register",
+				"test:watch": "npm run test -- --watch",
+				"prepare": "npm run test && npm run clean && npm run build"
+			},
+			"keywords": [
+				"react",
+				"docs",
+				"docgen",
+				"babel-plugin"
+			],
+			"dependencies": {
+				"lodash": "^4.17.10",
+				"react-docgen": "^3.0.0-rc.0"
+			},
+			"license": "MIT",
+			"gitHead": "58308b31c22bcdaaf1e992a1398dd8d72de2b685",
+			"bugs": {
+				"url": "https://github.com/storybooks/babel-plugin-react-docgen/issues"
+			},
+			"homepage": "https://github.com/storybooks/babel-plugin-react-docgen#readme",
+			"_id": "babel-plugin-react-docgen@2.0.0-babel7.0",
+			"_npmVersion": "6.2.0",
+			"_nodeVersion": "8.9.1",
+			"_npmUser": {
+				"name": "danielduan",
+				"email": "dduan@yahoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-X8nck/5cpzYKieh8KjJtXg07n2/yEctTxMjiZOylJpVaU4DAxtij81wA25TB2Js7CvAj1pNTFw5Uw5divk5cjg==",
+				"shasum": "ea63443c11426edf81023679181403336b745850",
+				"tarball": "https://registry.npmjs.org/babel-plugin-react-docgen/-/babel-plugin-react-docgen-2.0.0-babel7.0.tgz",
+				"fileCount": 57,
+				"unpackedSize": 117882,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbc0m6CRA9TVsSAnZWagAApKgQAJSQa5CYg2xohPb00QeE\nYdgOSiQ3tvlyoQmI/RrLR413tFb6htZnUD4XenRbDzf+J/yShyZe2El7/VD6\nKWLO7GQQpCugUlZgK1CgAG9QFDLf7IIxfFyN8SoqiYuBCvkjN8IXy1ji2AKk\nEt4/V2vmtvvagJ9FVRMRlT1inEW9TXPpepsbJ4bN8gfdKQX4Y0Mz/kCsbZAv\n9woI/aVqMTIM+jkk39+DyrbnDHlm+dZyY5xS6xHGKK4nFjl8na7EWdPfPbpq\nkaV1oDGWcMpWm4jkLO+6SnBtOE05//xQgE95e7Fl4asv6Ai7xc3zX5NkcvNd\n2Tczznw0jzlZQv/iOpItio1lFKNgBRSP7mEUWvRWcESdd2LfwoONZhqZBczp\niiWsJn91OZAtlcdVR2eozjxHYozcVM2ch6XvJHjSjl7x9b1s+j48+bfqPYt+\n/tQnGSReO73U+rKl8P7VM+QXilLiJkW+6Imdr3BJ8p53CNfKLV4I0A9oQWow\nPCMiidCZfd7TrFGzOGw/2/XMQkKSVVqk+rpZirU+yfqb6iGRG2ppwHTdzS4P\nIv77QGhE3Bo1EKCCmxmJd9I+coocThCmFB+4ATZ6mD986U9F45A5lV2GPkvQ\ndYZIYGafGQ4tXIV/5C76eONn1k7G9YiKnWFYX06gBGH1rvnh3fRtudDesBCE\nwvdH\r\n=ToZf\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIF4mjUb+UzXKqKJT6oj1qmB6HnF5lAP0UIZihOaeBa0WAiAXD4MfzTgShlQdUR4uOBIogqF3qVSUxj5s887pE0z4pw=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"email": "arunoda.susiripala@gmail.com",
+					"name": "arunoda"
+				},
+				{
+					"email": "dduan@yahoo.com",
+					"name": "danielduan"
+				},
+				{
+					"email": "madushan@kadira.io",
+					"name": "madushan1000"
+				},
+				{
+					"email": "ndelangen@me.com",
+					"name": "ndelangen"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/babel-plugin-react-docgen_2.0.0-babel7.0_1534282169891_0.008457191072813508"
+			},
+			"_hasShrinkwrap": false
+		},
+		"2.0.0": {
+			"version": "2.0.0",
+			"name": "babel-plugin-react-docgen",
+			"description": "Babel plugin to add react-docgen info into your code",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/storybooks/babel-plugin-react-docgen.git"
+			},
+			"author": {
+				"name": "Madushan Nishantha",
+				"email": "j.l.madushan@gmail.com"
+			},
+			"contributors": [
+				{
+					"name": "Charles Lehnert"
+				}
+			],
+			"main": "lib/index.js",
+			"devDependencies": {
+				"@babel/cli": "^7.0.0",
+				"@babel/core": "^7.0.0",
+				"@babel/plugin-proposal-class-properties": "^7.0.0",
+				"@babel/preset-env": "^7.0.0",
+				"@babel/preset-flow": "^7.0.0",
+				"@babel/preset-react": "^7.0.0",
+				"@babel/register": "^7.0.0",
+				"mocha": "^5.2.0",
+				"recast": "^0.14.7"
+			},
+			"scripts": {
+				"clean": "rm -rf lib",
+				"build": "babel src --out-dir lib",
+				"test": "mocha --compilers js:@babel/register",
+				"test:watch": "npm run test -- --watch",
+				"prepare": "npm run test && npm run clean && npm run build"
+			},
+			"keywords": [
+				"react",
+				"docs",
+				"docgen",
+				"babel-plugin"
+			],
+			"dependencies": {
+				"lodash": "^4.17.10",
+				"react-docgen": "^3.0.0-rc.1"
+			},
+			"license": "MIT",
+			"gitHead": "8fb1a6fc6a3d5466d99628a2d573fe1ce50ede92",
+			"bugs": {
+				"url": "https://github.com/storybooks/babel-plugin-react-docgen/issues"
+			},
+			"homepage": "https://github.com/storybooks/babel-plugin-react-docgen#readme",
+			"_id": "babel-plugin-react-docgen@2.0.0",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "8.9.1",
+			"_npmUser": {
+				"name": "danielduan",
+				"email": "dduan@yahoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-AaA6IPxCF1EkzpFG41GkVh/VGdoBejPF6oIub2K8E6AD3kwnTZ0DIKG7f20a7zmqBEeO8GkFWdM7tYd9Owkc+Q==",
+				"shasum": "039d90f5a1a37131c8cc3015017eecafa8d78882",
+				"tarball": "https://registry.npmjs.org/babel-plugin-react-docgen/-/babel-plugin-react-docgen-2.0.0.tgz",
+				"fileCount": 57,
+				"unpackedSize": 117951,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbkY1WCRA9TVsSAnZWagAA3ZMP/jPdP7hKDqOW7r5H6/UA\nKHhlGaLlgxxEnknl16EPPy8UL+OC7E78pBgldSxuKYOpo10tQ7wjmEnjzjmC\ne/36/eMQxRcHulDFhQMJv9W+UvpUhQzmuegpa5DuA7OVbhunKGDPsMvWHj1q\nLi9uUKpIBNkA0VPJDHB7TROOSPSxZD1an+tdvPUvGdiAhrdamC865e6BmKlY\nzVdmdHyi0gVGRVeZnBxetW0FK5jBUp/PeJ0dOrDDVW7APIZpRBH+jQkVj8qv\nlnmJ8Ng0eDcPO2G00CavcfiNKpJDXhK1q80ZJ3TSIpA+t2hQYsrFSwYm2ADj\n/zQiYYwCsQOUiW3yM6ghQwOg7jDzKFY7N3lUHnHmZ87bkWDGAVjZIjzSf18k\nsahURaKtSWWd6GyY0HLtcXpRAAZPsWsUy2NRH36IgOvRUtuH2vZ1Vyyr80SP\nARqkAgIkHdGT2PkNoz71dHRjpmcaYAknAJTuKPgpgH6+h80uR/wsBXuzqeBc\nirxENh/o5XIGhRI37O7go+cwTvK1vNSBknJMhFZLmqWXGi0JluEHjL3hwhpE\nxbf7mGvReYFUXyRX6HZWpPEzVZsZjCJS8hUlc10aW0XU3ALWRf253gbLdtxi\nv1O1G4vYngQfPTB+fjrMhN56t9l/KSu3c7iTPjz5bJFNNnbw9T+hnIwxQuH/\nub5S\r\n=oHyr\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIHN3sakXxToXmDG3iiif1J8BxuQxzC4Vs9t67EY3Y9AsAiEA6eG7Ndo8euq478jAPAFoi2zUIGuws2eGcWAifBSijxI="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"email": "arunoda.susiripala@gmail.com",
+					"name": "arunoda"
+				},
+				{
+					"email": "dduan@yahoo.com",
+					"name": "danielduan"
+				},
+				{
+					"email": "madushan@kadira.io",
+					"name": "madushan1000"
+				},
+				{
+					"email": "ndelangen@me.com",
+					"name": "ndelangen"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/babel-plugin-react-docgen_2.0.0_1536265557540_0.7478519714391831"
+			},
+			"_hasShrinkwrap": false
+		},
+		"2.0.1": {
+			"version": "2.0.1",
+			"name": "babel-plugin-react-docgen",
+			"description": "Babel plugin to add react-docgen info into your code",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/storybooks/babel-plugin-react-docgen.git"
+			},
+			"author": {
+				"name": "Madushan Nishantha",
+				"email": "j.l.madushan@gmail.com"
+			},
+			"contributors": [
+				{
+					"name": "Charles Lehnert"
+				}
+			],
+			"main": "lib/index.js",
+			"devDependencies": {
+				"@babel/cli": "^7.0.0",
+				"@babel/core": "^7.0.0",
+				"@babel/plugin-proposal-class-properties": "^7.0.0",
+				"@babel/preset-env": "^7.0.0",
+				"@babel/preset-flow": "^7.0.0",
+				"@babel/preset-react": "^7.0.0",
+				"@babel/register": "^7.0.0",
+				"mocha": "^5.2.0",
+				"recast": "^0.14.7"
+			},
+			"scripts": {
+				"clean": "rm -rf lib",
+				"build": "babel src --out-dir lib",
+				"test": "mocha --compilers js:@babel/register",
+				"test:watch": "npm run test -- --watch",
+				"prepare": "npm run test && npm run clean && npm run build"
+			},
+			"keywords": [
+				"react",
+				"docs",
+				"docgen",
+				"babel-plugin"
+			],
+			"dependencies": {
+				"lodash": "^4.17.10",
+				"react-docgen": "^3.0.0"
+			},
+			"license": "MIT",
+			"gitHead": "9ad9aba254fbd578521bdd449bacd12d29c1a8b3",
+			"bugs": {
+				"url": "https://github.com/storybooks/babel-plugin-react-docgen/issues"
+			},
+			"homepage": "https://github.com/storybooks/babel-plugin-react-docgen#readme",
+			"_id": "babel-plugin-react-docgen@2.0.1",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "8.12.0",
+			"_npmUser": {
+				"name": "danielduan",
+				"email": "dduan@yahoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-v/7VIhahMeuffuCh0SP9RI2sGPciqHGzEKOcQe/dStcWWHD29dylC9tG1xKJeNUJGEgXYEAkiyX6Qf9HiLnl1Q==",
+				"shasum": "ef5415bc1afe4f7b6a2fbe9c6e574f5f3b62756a",
+				"tarball": "https://registry.npmjs.org/babel-plugin-react-docgen/-/babel-plugin-react-docgen-2.0.1.tgz",
+				"fileCount": 57,
+				"unpackedSize": 118163,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcUIhLCRA9TVsSAnZWagAAHB0P/iaSn7GTLVy8RrppJts1\nWhy8pKUiOHe4GysSOeJMlhMAASbTZEHvqq04LKhG1ml/epqFvxmSVF2Ynw5l\nvEr60uB/DDSlwdVTNYzVYQO45bNtHiofDCGXojrt7wM+Z05LX1hgvSSsPOWE\nyHED0WBc/OsdhwLDVYPEamJCPM+L2IUgqHdSle57NwePNMQs0llSNMd9TgBg\nvhoWS5csTrY5piWz3ujVhJ2pptSTL3DnwDP0LV9j59cjAa0Wz2Vo0EUIXf+I\nCwnMGtRAv6bp9A4m2BXEiyyD9StR48OCY9tipaGMEKaouhCX875WUGn+4Xca\n6+KGOI9dbY9FoHIuZDhPY+p7EN3H6MmJLwDiuid5UWoMp6CrMpwOLxArmZjU\nvjbb6F2c7JMiNgtEQJ/gIlq4zUwldL5TH6qN/DGQbydP5PeCO+/LnsvfytYQ\n/e9AHBiLgEc6jaWZ5mPyWvriPgrLDefI9sEy4s6QI+Pe2kC8HVgkZcSWu1Um\nNk4oSJxLM8bGnU2EDMLk63EM1oJk+KTqoyPfmqxe6z3LMZG3zRGm+S2uvI5Z\nE4KzKwHA0n7JqPczPzIGsMogwfrPsePii54WxpsvF8AWrJD/k2ibqBt7/3G5\neIQpurpNGK6l9ou2ue/DqBuGVMmdu2iQLm7Y21kKIkc1MhqK4vJKCGPlaW7Y\njq3A\r\n=04Qm\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIEy+qTTN9lwLfaJ9OgLrCVYIwangq4sKOPgWgJy4OcjWAiBZqOvAYwaHtc46hXdmeVyYpSXJZdLk8aFSlHk8WFYCZg=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"email": "arunoda.susiripala@gmail.com",
+					"name": "arunoda"
+				},
+				{
+					"email": "dduan@yahoo.com",
+					"name": "danielduan"
+				},
+				{
+					"email": "madushan@kadira.io",
+					"name": "madushan1000"
+				},
+				{
+					"email": "ndelangen@me.com",
+					"name": "ndelangen"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/babel-plugin-react-docgen_2.0.1_1548781643150_0.9544630469451021"
+			},
+			"_hasShrinkwrap": false
+		},
+		"2.0.2": {
+			"version": "2.0.2",
+			"name": "babel-plugin-react-docgen",
+			"description": "Babel plugin to add react-docgen info into your code",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/storybooks/babel-plugin-react-docgen.git"
+			},
+			"author": {
+				"name": "Madushan Nishantha",
+				"email": "j.l.madushan@gmail.com"
+			},
+			"contributors": [
+				{
+					"name": "Charles Lehnert"
+				}
+			],
+			"main": "lib/index.js",
+			"devDependencies": {
+				"@babel/cli": "^7.0.0",
+				"@babel/core": "^7.0.0",
+				"@babel/plugin-proposal-class-properties": "^7.0.0",
+				"@babel/preset-env": "^7.0.0",
+				"@babel/preset-flow": "^7.0.0",
+				"@babel/preset-react": "^7.0.0",
+				"@babel/register": "^7.0.0",
+				"mocha": "^5.2.0"
+			},
+			"scripts": {
+				"clean": "rm -rf lib",
+				"build": "babel src --out-dir lib",
+				"test": "mocha --compilers js:@babel/register",
+				"test:watch": "npm run test -- --watch",
+				"prepare": "npm run test && npm run clean && npm run build"
+			},
+			"keywords": [
+				"react",
+				"docs",
+				"docgen",
+				"babel-plugin"
+			],
+			"dependencies": {
+				"lodash": "^4.17.10",
+				"react-docgen": "^3.0.0",
+				"recast": "^0.14.7"
+			},
+			"license": "MIT",
+			"gitHead": "5b555505c49a93f9c253a55b752ae6e55cdd68c9",
+			"bugs": {
+				"url": "https://github.com/storybooks/babel-plugin-react-docgen/issues"
+			},
+			"homepage": "https://github.com/storybooks/babel-plugin-react-docgen#readme",
+			"_id": "babel-plugin-react-docgen@2.0.2",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "8.12.0",
+			"_npmUser": {
+				"name": "danielduan",
+				"email": "dduan@yahoo.com"
+			},
+			"dist": {
+				"integrity": "sha512-fFendfUUU2KqqE1ki2NyQoZm4uHPoEWPUgBZiPBiowcPZos+4q+chdQh0nlwY5hxs08AMHSH4Pp98RQL0VFS/g==",
+				"shasum": "3307e27414c370365710576b7fadbcaf8984d862",
+				"tarball": "https://registry.npmjs.org/babel-plugin-react-docgen/-/babel-plugin-react-docgen-2.0.2.tgz",
+				"fileCount": 57,
+				"unpackedSize": 118163,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcUIqFCRA9TVsSAnZWagAAOZsP/19+uT3j73gyu7dyU05F\nzf53arNI39pyw5AdbmAQ3n1z26tqUpf/tn3B8PBTIVVk8LQuwLtalUJ9t9w4\nK4tr98AJ5HV5oxyZehN2xECC/ZJAiPedBzBm+c88L32RceQS4cTGQo8LOX7+\nNwreXHrDlwVIEmLHNdRUETKvdVh8QZ75O3xarfLOuu3RACjFYHYKUaiZ0o8Y\nLCgUi7NyuhkU0e0jF+9FCoY86uTlzm1pJ6iJMqo6X/T0xHTcib7LUXXjMGxC\n1tyNL3Ael0WKJ8vjI/e4MUIOlBeFB2FanUVAuQynUy6Dc6zqc7m/R3Q9JmWe\n7M+0hQTnoTNoml+FD4FJMvOXF04iY2cTKJ18v6Lf2tQ1EXr+nI643WQ+kk5O\nq1QsPllhzynssw9DOa6Mc4EoL1E8g8e8+PQ+7IvZvOk2dWc9jkKMcsR+NRXr\nGRgjzHZkWnmfK/inztjLkv2c+5mR6TajgR4HRZTtd4/Wx4EUs2C0gSZ1vu3U\nGugk02eHronV8tX7EEe66gjR47uwQgcBfeXIs6XoGSB0esRiJ/8nVpOjfKS+\nxL+QExE73uE+VAe2b8j9JIJQu/2XimzM5Qhd1+h90uYP+VVYgg7DI7x5i5Vx\nbtl/iNB+1BPLGYzIA8E5yhWO2+yOQSG/CroTRJ2/04hKqWjVflxcymbTOyiT\noqdu\r\n=SDkD\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIDn/H1XdwSpR8vAV+nH+Y5ZasLe5dvm1vrzTKbYF8e9tAiA4Il3FppI3Ofxix9EXys16w1lRY9t3Xb3/WVNozT7Kaw=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"email": "arunoda.susiripala@gmail.com",
+					"name": "arunoda"
+				},
+				{
+					"email": "dduan@yahoo.com",
+					"name": "danielduan"
+				},
+				{
+					"email": "madushan@kadira.io",
+					"name": "madushan1000"
+				},
+				{
+					"email": "ndelangen@me.com",
+					"name": "ndelangen"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/babel-plugin-react-docgen_2.0.2_1548782212885_0.30178387270184426"
+			},
+			"_hasShrinkwrap": false
+		},
+		"3.0.0": {
+			"version": "3.0.0",
+			"name": "babel-plugin-react-docgen",
+			"description": "Babel plugin to add react-docgen info into your code",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/storybooks/babel-plugin-react-docgen.git"
+			},
+			"author": {
+				"name": "Madushan Nishantha",
+				"email": "j.l.madushan@gmail.com"
+			},
+			"contributors": [
+				{
+					"name": "Charles Lehnert"
+				}
+			],
+			"main": "lib/index.js",
+			"devDependencies": {
+				"@babel/cli": "^7.0.0",
+				"@babel/core": "^7.4.0",
+				"@babel/plugin-proposal-class-properties": "^7.0.0",
+				"@babel/preset-env": "^7.4.2",
+				"@babel/preset-flow": "^7.0.0",
+				"@babel/preset-react": "^7.0.0",
+				"@babel/register": "^7.0.0",
+				"mocha": "^5.2.0"
+			},
+			"scripts": {
+				"clean": "rm -rf lib",
+				"build": "babel src --out-dir lib",
+				"test": "mocha --compilers js:@babel/register",
+				"test:watch": "npm run test -- --watch",
+				"prepare": "npm run test && npm run clean && npm run build"
+			},
+			"keywords": [
+				"react",
+				"docs",
+				"docgen",
+				"babel-plugin"
+			],
+			"dependencies": {
+				"lodash": "^4.17.11",
+				"react-docgen": "^4.1.0",
+				"recast": "^0.14.7"
+			},
+			"license": "MIT",
+			"gitHead": "041e7f08fe7d4f3b829a08d2721453bdc68667d2",
+			"bugs": {
+				"url": "https://github.com/storybooks/babel-plugin-react-docgen/issues"
+			},
+			"homepage": "https://github.com/storybooks/babel-plugin-react-docgen#readme",
+			"_id": "babel-plugin-react-docgen@3.0.0",
+			"_nodeVersion": "10.15.2",
+			"_npmVersion": "6.9.0",
+			"dist": {
+				"integrity": "sha512-5dXIAYTQrPQDb7O+HX2ISGvfoDbxYKIksfrdm4h9RJRTYsKGEep3B9tZPFJJFDkjPbuNoOsPb2sN+jhJGr2SsA==",
+				"shasum": "f060ef73da5be8e9af6aeae96d3aa21b184ec654",
+				"tarball": "https://registry.npmjs.org/babel-plugin-react-docgen/-/babel-plugin-react-docgen-3.0.0.tgz",
+				"fileCount": 59,
+				"unpackedSize": 120901,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcm5t2CRA9TVsSAnZWagAApF8P/33OFV5chZjBePVYSMkB\nhodOst2NSkDcf0MXKm0dUNXzzVuzt78JWj1bfJQubg4S0Q+vTGT94q+1y/gR\nImhJstifsSJ1XIcjnnsGxSJsp0EUb8rMzYpHo3qSavt6pYWIRGgsMXVw+Af3\ntb0onF3is/D0wtKEOBsUkyu5G4hqEo3IE7Ba308GH6afgNEqar68eWZvHUaW\nXfecbxISpMla0YIIZDRxKFvjVOQ8Vdp86IOxrt9S+qnMixEVgG9CMaI4xZoh\nva1s3WiFeAOWQqtAn5hZCA3H1SEdLBt9VKOIHaNb5JE45GC69eHr74DOGucj\nSUYvUTC0iSuWTByuih1yW3VlrYFOTunXY8UB1PM6DWGb0wKDoyefivFtGDPZ\nIKvnJTZ1qlLiwj0DRM9o67Xyl5TgqZkW1SCTs/5pXBM5GMtrAshfRBJ4SXDa\nbYXcQXHVsugZFrXPo6s3k5SBkP59vy7HUDFmRsI8m/m98um1d48hbi2Ri+o/\naClQ385bqD6QoniQtHlriUwVPd0LnX8zJsbJDApPZ6cFH1ifL6Qg8z3K9JOS\nal1nHhOGbERSXI7Tok0O74IOCkMxTwJ6unneEGzZ2V4v6VBr18ISj0+rHWLc\n0oEI6X2tcElsCxSrFo9f+Pb6OAlE8FTcnf4M3b5bzAUgriKSYt+I2n6Gb+YZ\nu+gC\r\n=o6Qh\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIAy21tb+/xTkDQpUsl4hQILA1OFcMXdEpataXPX4dL3zAiBpvp4oKNlLzhIWryQNzt907678AYHkCm59Kd0krafi2A=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"email": "arunoda.susiripala@gmail.com",
+					"name": "arunoda"
+				},
+				{
+					"email": "dduan@yahoo.com",
+					"name": "danielduan"
+				},
+				{
+					"email": "madushan@kadira.io",
+					"name": "madushan1000"
+				},
+				{
+					"email": "ndelangen@me.com",
+					"name": "ndelangen"
+				}
+			],
+			"_npmUser": {
+				"name": "danielduan",
+				"email": "dduan@yahoo.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/babel-plugin-react-docgen_3.0.0_1553701749596_0.748450996009508"
+			},
+			"_hasShrinkwrap": false
+		},
+		"3.1.0": {
+			"version": "3.1.0",
+			"name": "babel-plugin-react-docgen",
+			"description": "Babel plugin to add react-docgen info into your code",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/storybooks/babel-plugin-react-docgen.git"
+			},
+			"author": {
+				"name": "Madushan Nishantha",
+				"email": "j.l.madushan@gmail.com"
+			},
+			"contributors": [
+				{
+					"name": "Charles Lehnert"
+				}
+			],
+			"main": "lib/index.js",
+			"devDependencies": {
+				"@babel/cli": "^7.0.0",
+				"@babel/core": "^7.4.0",
+				"@babel/plugin-proposal-class-properties": "^7.0.0",
+				"@babel/preset-env": "^7.4.2",
+				"@babel/preset-flow": "^7.0.0",
+				"@babel/preset-react": "^7.0.0",
+				"@babel/register": "^7.0.0",
+				"mocha": "^5.2.0",
+				"react-docgen-deprecation-handler": "1.1.1"
+			},
+			"scripts": {
+				"clean": "rm -rf lib",
+				"build": "babel src --out-dir lib",
+				"test": "mocha --compilers js:@babel/register",
+				"test:watch": "npm run test -- --watch",
+				"prepare": "npm run test && npm run clean && npm run build"
+			},
+			"keywords": [
+				"react",
+				"docs",
+				"docgen",
+				"babel-plugin"
+			],
+			"dependencies": {
+				"lodash": "^4.17.11",
+				"react-docgen": "^4.1.0",
+				"recast": "^0.14.7"
+			},
+			"license": "MIT",
+			"gitHead": "c57d0b0f2bfb7b24a6f91878d6999467b2a73267",
+			"bugs": {
+				"url": "https://github.com/storybooks/babel-plugin-react-docgen/issues"
+			},
+			"homepage": "https://github.com/storybooks/babel-plugin-react-docgen#readme",
+			"_id": "babel-plugin-react-docgen@3.1.0",
+			"_nodeVersion": "10.15.2",
+			"_npmVersion": "6.9.0",
+			"dist": {
+				"integrity": "sha512-W6xqZnZIWjZuE9IjP7XolxxgFGB5Y9GZk4cLPSWKa10MrT86q7bX4ke9jbrNhFVIRhbmzL8wE1Sn++mIWoJLbw==",
+				"shasum": "14b02b363a38cc9e08c871df16960d27ef92030f",
+				"tarball": "https://registry.npmjs.org/babel-plugin-react-docgen/-/babel-plugin-react-docgen-3.1.0.tgz",
+				"fileCount": 61,
+				"unpackedSize": 126046,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJctk1+CRA9TVsSAnZWagAAaUQQAJct20WBZeTGP7welTVl\noB4eRa8Lews0tDu4ltAAiFSviSeC6ZaHGjMsLWw/nr3J4NxHk12go99KbZU8\nw390OOd/kqX/yk3qpaNhG7PMb0NUPTHbo+R7rza5Rr5yM2hFvyIAGuPxzjS3\nIaFeSusOD8f2c3rIeuvvZUNaFhg2zPw51JPP49diCoHT34xGSIthl8o0YtBW\nP83wcqImYFuMunOKHkgRev4bxoMF1Qzw5MOKn/N+8Gt1TjImoLsXzbvOVR1J\nq0OuuyFXNaZN098HA4+Kf3kxl9iwO3I+T4ddTqDKkQJwIfiQMY6CE3nC5sA7\nW0I5FHpeTIsguCyRtOqo2BTg9dG1lIZLApPjzr/34nunu7oIhzK15XSsrf7z\ndnJo3rXfGXscuMFqQyS291fHyiEsa719yCg/Ls5MVGdit72ljiWRO3DtWzqD\nctJLEbXd8ZyZTcQzRRlGEO+fGyI6r7YSIE5Nm3nQEoZ6Ztjm3Y8wVuLEfzU2\nBnaiYNzfyuMw8Pld4xqtUOvC1o9u6lYY30p6zwJuixfI7fPLaaCJn5d8k0y9\nL6Hh4oVjZmyCFN4UMG28is4k6sHJLZOYSt/e194I2NN3l1dUSWFF39ySV+Y6\n5TU0eSOY9jewGSRmUqR4iS48u8p6XJYjjX4reY++Y+Z3P+M0ttA7NMhhOnVv\nnLDK\r\n=TSKR\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIH6+sRS3V4V+6+mGur9KrqoYebH+C0wSN/795dJfqEkuAiBQMu1JivTmCJy8tPOJzrLBj7y+TrL67J8/aqguv0G6OA=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"email": "arunoda.susiripala@gmail.com",
+					"name": "arunoda"
+				},
+				{
+					"email": "dduan@yahoo.com",
+					"name": "danielduan"
+				},
+				{
+					"email": "madushan@kadira.io",
+					"name": "madushan1000"
+				},
+				{
+					"email": "ndelangen@me.com",
+					"name": "ndelangen"
+				}
+			],
+			"_npmUser": {
+				"name": "danielduan",
+				"email": "dduan@yahoo.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/babel-plugin-react-docgen_3.1.0_1555451261322_0.7969490657961924"
+			},
+			"_hasShrinkwrap": false
+		},
+		"3.2.0": {
+			"version": "3.2.0",
+			"name": "babel-plugin-react-docgen",
+			"description": "Babel plugin to add react-docgen info into your code",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/storybooks/babel-plugin-react-docgen.git"
+			},
+			"author": {
+				"name": "Madushan Nishantha",
+				"email": "j.l.madushan@gmail.com"
+			},
+			"contributors": [
+				{
+					"name": "Charles Lehnert"
+				}
+			],
+			"main": "lib/index.js",
+			"devDependencies": {
+				"@babel/cli": "^7.6.4",
+				"@babel/core": "^7.6.4",
+				"@babel/plugin-proposal-class-properties": "^7.5.5",
+				"@babel/preset-env": "^7.6.3",
+				"@babel/preset-flow": "^7.0.0",
+				"@babel/preset-react": "^7.6.3",
+				"@babel/register": "^7.6.2",
+				"mocha": "^5.2.0",
+				"react-docgen-deprecation-handler": "1.1.1"
+			},
+			"scripts": {
+				"clean": "rm -rf lib",
+				"build": "babel src --out-dir lib",
+				"test": "mocha --compilers js:@babel/register",
+				"test:watch": "npm run test -- --watch",
+				"prepare": "npm run test && npm run clean && npm run build"
+			},
+			"keywords": [
+				"react",
+				"docs",
+				"docgen",
+				"babel-plugin"
+			],
+			"dependencies": {
+				"lodash": "^4.17.15",
+				"react-docgen": "^4.1.1",
+				"recast": "^0.14.7"
+			},
+			"license": "MIT",
+			"gitHead": "7bdb5d37e711b34e9246af2745e7700160be8ca6",
+			"bugs": {
+				"url": "https://github.com/storybooks/babel-plugin-react-docgen/issues"
+			},
+			"homepage": "https://github.com/storybooks/babel-plugin-react-docgen#readme",
+			"_id": "babel-plugin-react-docgen@3.2.0",
+			"_nodeVersion": "10.14.1",
+			"_npmVersion": "6.12.0",
+			"dist": {
+				"integrity": "sha512-MZ3fhnJ+/tUDhWFGgWsajuLct/dD1xoprmStqrBgtt9flFLPrKIOKOfqwjXjsn6/THs5QrG5rkcDFE3TMMZDjQ==",
+				"shasum": "c072364d61d1f6bb19a6ca81734fc270870e8b96",
+				"tarball": "https://registry.npmjs.org/babel-plugin-react-docgen/-/babel-plugin-react-docgen-3.2.0.tgz",
+				"fileCount": 61,
+				"unpackedSize": 132227,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdseWwCRA9TVsSAnZWagAAACQQAJe4064IvFMN5ISjGLWZ\nfSfLb3yH1WVgZjNZiF2kfPAt4/4qhMhYbM0P0AD/iW3uwENutsFKRSl7Kacx\nhQSVqVMcfOgX6hA///oV+bNbXu396fEXMt3XSSi/9k74gtL0fZ/NegFDMrXi\nAed+cWAs/A/LAZ57ND69Cm3PqoIPsqBS3atW0JE31nUbC5tHl94wEB4G64UO\nt5kXePB9EP/3IrEXC1TIm5vyGgA7stKwQLIJqAGR/yc2P/3v9v3ihbwcR9bv\n4lGDgRLoeKwYjd/qVMbRsImcHX/BhH/NtDdHpWBCCrWGbWuepZ9QQZcl3jWI\n4VNpqiDgb/gnYJ9eR115JvV6EErVFGhNLOAAU4VQK81d+KiJYhaOCw+6hA/L\nnnlE2iU6MQKKarbpB/D0b3JGNtheNZQzxJQkC/Fx9YFMACctumiuwib2dp2J\npRPDtmH9aVTC7lCf3jD60fP1TuPrwybg+vSd4PC2/5zlskQLu+hNfn3dT9L+\nlE6sRkSOF0HO27s73ZalSkzrv8kt2WQYgEE7TNQ/EVX/oEZyLGBM8Lbd4hG+\njdYXqgVGfiJin0cITa4CaJJoj6ggtFgkuSMe5d/Zp/XSj3jQsYFcr7KfM7oX\ndoTESS3GTRiu/VAb4Yvid5mzRqfYzphZQG6FhccPRNO+daA8zR2v0hYgFW6t\nzZaX\r\n=JkO4\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDPlYmE3D9uMRPuoaY6MfMJ+yukSpgNtDQjodC+y1XsegIhAPzV3U+BhxvOyReCAwPFdJmD3fHBazGAygK+xGLc8tpx"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"email": "arunoda.susiripala@gmail.com",
+					"name": "arunoda"
+				},
+				{
+					"email": "dduan@yahoo.com",
+					"name": "danielduan"
+				},
+				{
+					"email": "madushan@kadira.io",
+					"name": "madushan1000"
+				},
+				{
+					"email": "ndelangen@me.com",
+					"name": "ndelangen"
+				}
+			],
+			"_npmUser": {
+				"name": "danielduan",
+				"email": "dduan@yahoo.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/babel-plugin-react-docgen_3.2.0_1571939760385_0.13401741606202555"
+			},
+			"_hasShrinkwrap": false
+		},
+		"4.0.0-beta.1": {
+			"version": "4.0.0-beta.1",
+			"name": "babel-plugin-react-docgen",
+			"description": "Babel plugin to add react-docgen info into your code",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/storybooks/babel-plugin-react-docgen.git"
+			},
+			"author": {
+				"name": "Madushan Nishantha",
+				"email": "j.l.madushan@gmail.com"
+			},
+			"contributors": [
+				{
+					"name": "Charles Lehnert"
+				}
+			],
+			"main": "lib/index.js",
+			"devDependencies": {
+				"@babel/cli": "^7.6.4",
+				"@babel/core": "^7.6.4",
+				"@babel/plugin-proposal-class-properties": "^7.5.5",
+				"@babel/preset-env": "^7.6.3",
+				"@babel/preset-flow": "^7.0.0",
+				"@babel/preset-react": "^7.6.3",
+				"@babel/register": "^7.6.2",
+				"mocha": "^5.2.0",
+				"react-docgen-deprecation-handler": "1.1.1"
+			},
+			"scripts": {
+				"clean": "rm -rf lib",
+				"build": "babel src --out-dir lib",
+				"test": "mocha --compilers js:@babel/register",
+				"test:watch": "npm run test -- --watch",
+				"prepare": "npm run test && npm run clean && npm run build"
+			},
+			"keywords": [
+				"react",
+				"docs",
+				"docgen",
+				"babel-plugin"
+			],
+			"dependencies": {
+				"lodash": "^4.17.15",
+				"react-docgen": "^5.0.0-beta.1",
+				"recast": "^0.14.7"
+			},
+			"license": "MIT",
+			"readmeFilename": "README.md",
+			"gitHead": "9cfc055c85df55982308ffd853403706db9eb164",
+			"bugs": {
+				"url": "https://github.com/storybooks/babel-plugin-react-docgen/issues"
+			},
+			"homepage": "https://github.com/storybooks/babel-plugin-react-docgen#readme",
+			"_id": "babel-plugin-react-docgen@4.0.0-beta.1",
+			"_nodeVersion": "10.14.1",
+			"_npmVersion": "6.12.0",
+			"dist": {
+				"integrity": "sha512-sBSGAgz5O/RneuRoUS7QCDJq+K3m5r7qPFOGa8++GxacY9LzhP10tV6iY1UPWWj2SYoU19pj4Q3/rNUo/GHp9A==",
+				"shasum": "ff09340e060064ec653564e10ac5b5c8dd53dfba",
+				"tarball": "https://registry.npmjs.org/babel-plugin-react-docgen/-/babel-plugin-react-docgen-4.0.0-beta.1.tgz",
+				"fileCount": 61,
+				"unpackedSize": 132160,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdsee6CRA9TVsSAnZWagAAr2EP/2rVr2e3v9iCv/jI+3L0\nDO62OwpvTjzveS6HHeBN53a8ZMYU78LJ0WaYHiEuYi9COC5Tsfi0df2c5iqS\nigukP/b8/talqcwMXuOmTgKr4+LQogPGsjXSPpBdx/B9zTrAIJvwo1WqoSwS\n9ZXhnNtzKWKCQ4pdmczS3B1d0C86OKT/yd5s+fa89iwgSqFNoCLKAmeabQAD\njC4Wwa9xqCEA8ngA5bN/BgMWe2wPld0DUwJd/lCMIvKPIwTwVn6FmiVxB/xa\noamzHFD/dXWSkp1C37sWv4idx1yeB9FsRJ9ua2g4FonGuQOBJgl/azYdgcNX\nS1e7PQQfEhhCc0KeHc/O297j4jHwC6uy0zq9F+oNNoCFqR44g1ktV96TUNUn\nOcRmbTs1fbroPz3c3UMr8i25svWePJCMoQcNvGP+lo4Qk2CksM/sNV2JdXi4\nIhF0slXvfQbfJ7RKUGDZfV3t8JHJLWvXBdiSgJgeh9NqOughIbrkQQpRAdRh\nWdYoc9QSfTzvHRPJZOa0qflg9WWsQLgpBSyOvoXBeBjJC6vPKgVnUVkfLiyM\n8nq/3CPTCQBxsyDH8rM+vONYJVDOkC87bX4xxHG9cgL1+kvOqn38fCOYLLXH\nt2wusNeuIWyXxGP2eY6mPfd/Qzbds/187/dKuOPwAWnvyQV6vuU6xCVnHnSb\nIYP0\r\n=uMWu\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIG9fxD6xJQHtinVL/eqlqHrZp8Y9OvnvWYi/zdrWmDx7AiAAp1ynO0nss941OctwvyxY8hb+iDdBa4m/wG8TXpWFhA=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"email": "arunoda.susiripala@gmail.com",
+					"name": "arunoda"
+				},
+				{
+					"email": "dduan@yahoo.com",
+					"name": "danielduan"
+				},
+				{
+					"email": "madushan@kadira.io",
+					"name": "madushan1000"
+				},
+				{
+					"email": "ndelangen@me.com",
+					"name": "ndelangen"
+				}
+			],
+			"_npmUser": {
+				"name": "danielduan",
+				"email": "dduan@yahoo.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/babel-plugin-react-docgen_4.0.0-beta.1_1571940282422_0.2929481694969063"
+			},
+			"_hasShrinkwrap": false
+		},
+		"4.0.0-beta.2": {
+			"version": "4.0.0-beta.2",
+			"name": "babel-plugin-react-docgen",
+			"description": "Babel plugin to add react-docgen info into your code",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/storybooks/babel-plugin-react-docgen.git"
+			},
+			"author": {
+				"name": "Madushan Nishantha",
+				"email": "j.l.madushan@gmail.com"
+			},
+			"contributors": [
+				{
+					"name": "Charles Lehnert"
+				}
+			],
+			"main": "lib/index.js",
+			"devDependencies": {
+				"@babel/cli": "^7.6.4",
+				"@babel/core": "^7.6.4",
+				"@babel/plugin-proposal-class-properties": "^7.5.5",
+				"@babel/preset-env": "^7.6.3",
+				"@babel/preset-flow": "^7.0.0",
+				"@babel/preset-react": "^7.6.3",
+				"@babel/register": "^7.6.2",
+				"mocha": "^5.2.0",
+				"jest": "^24.9.0",
+				"jest-specific-snapshot": "^2.0.0",
+				"react-docgen-deprecation-handler": "1.1.1"
+			},
+			"scripts": {
+				"clean": "rm -rf lib",
+				"build": "babel src --out-dir lib",
+				"test": "jest",
+				"prepare": "npm run test && npm run clean && npm run build"
+			},
+			"keywords": [
+				"react",
+				"docs",
+				"docgen",
+				"babel-plugin"
+			],
+			"dependencies": {
+				"lodash": "^4.17.15",
+				"react-docgen": "^5.0.0",
+				"recast": "^0.14.7"
+			},
+			"license": "MIT",
+			"readmeFilename": "README.md",
+			"gitHead": "a6eff36b898cbec4ce3858dace422ccab349606c",
+			"bugs": {
+				"url": "https://github.com/storybooks/babel-plugin-react-docgen/issues"
+			},
+			"homepage": "https://github.com/storybooks/babel-plugin-react-docgen#readme",
+			"_id": "babel-plugin-react-docgen@4.0.0-beta.2",
+			"_nodeVersion": "10.16.3",
+			"_npmVersion": "6.9.0",
+			"dist": {
+				"integrity": "sha512-I7tipE2uxFw2vq6XgY9PG0aA6kEvHdH0iaqDY/mB/przyQah9bQaImPRTOgE9HZqbhX//L0VseqJI9Bm6WPadQ==",
+				"shasum": "67fdb1543402d1ff064e8d3d06b4afc5564792f9",
+				"tarball": "https://registry.npmjs.org/babel-plugin-react-docgen/-/babel-plugin-react-docgen-4.0.0-beta.2.tgz",
+				"fileCount": 96,
+				"unpackedSize": 357733,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeDXFnCRA9TVsSAnZWagAA6IsP/3o6Tzs+HcsBGWApCZD4\ngHwpgPKMmwR0XeGTBLNiKq+rGMbb9s2M3/iw4WlvIH9XbeDTH0QEoPi+C3MD\nCk3Ga5iOM4p7IvB8Nuxq55RhKyw+jEDpLe1diISt4e5vuZUur6/xUh0pTV6J\nWCiSi6qiMKpZ9FmfjDHk5OuYhuChz+UD+C/y4d5O/t5tTRtCZ+hrzLh6Anol\nGjdi71rgUWxoj5XlpCRJXSP81JmRzE3m6Ct07L4gaJE2SH2EuzmAD647Ukdl\nptcLsXcySgRexogZfQPYGFFyQX5pOXrAK8fY1cxy+MAoW5uUaMGZXT3KaZSs\n5vsQpnWQ0XPTDHsFixtPYNnULkVVYbQCzdQ/J58h+NOTUiwciip+QXkrsMhH\nxhXXRWHco30vXR6V47d707Yf/fizdZQTvnlsynbTmdH3DlNAD7/xfS1NtSEg\nyYF5ChZMj/FARa4mJ+5VhaR/9oS2132herU2aMlBvYccbT1wSzmgyhixleD0\nh9ZhpbVp/hVc0lSuKnW0ra5awzGbPcCMK++vnqbQ4hKbTfYt/ssN0XmgLFiq\nm9LIV7GCja90X7pJ0zx3JmzK+HQwxiMrzsg0da2FsNMVeqjs0+SdhKnallnq\nAsUfV3V2h+fTP1o2zJnPUrSpw7mYz9+HqozYSgOCk1GL8G6ygBbdKJNU8UBk\nL+Q8\r\n=BMG5\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQCDwSGf9V8goMyMEIaCLXqBTfRCKDMOYJSDLdzkpqCINQIgAbHWCcMaTiOBntzF7MLtIq9/KxF+tiN1J3Po05VXKTU="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"email": "dduan@yahoo.com",
+					"name": "danielduan"
+				},
+				{
+					"email": "ndelangen@me.com",
+					"name": "ndelangen"
+				},
+				{
+					"email": "michael@lab80.co",
+					"name": "shilman"
+				}
+			],
+			"_npmUser": {
+				"name": "shilman",
+				"email": "michael@lab80.co"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/babel-plugin-react-docgen_4.0.0-beta.2_1577939303075_0.9597528039712344"
+			},
+			"_hasShrinkwrap": false
+		},
+		"4.0.0-beta.3": {
+			"version": "4.0.0-beta.3",
+			"name": "babel-plugin-react-docgen",
+			"description": "Babel plugin to add react-docgen info into your code",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/storybooks/babel-plugin-react-docgen.git"
+			},
+			"author": {
+				"name": "Madushan Nishantha",
+				"email": "j.l.madushan@gmail.com"
+			},
+			"contributors": [
+				{
+					"name": "Charles Lehnert"
+				}
+			],
+			"main": "lib/index.js",
+			"devDependencies": {
+				"@babel/cli": "^7.6.4",
+				"@babel/core": "^7.6.4",
+				"@babel/plugin-proposal-class-properties": "^7.5.5",
+				"@babel/preset-env": "^7.6.3",
+				"@babel/preset-flow": "^7.0.0",
+				"@babel/preset-react": "^7.6.3",
+				"@babel/register": "^7.6.2",
+				"mocha": "^5.2.0",
+				"jest": "^24.9.0",
+				"jest-specific-snapshot": "^2.0.0",
+				"react-docgen-deprecation-handler": "1.1.1"
+			},
+			"scripts": {
+				"clean": "rm -rf lib",
+				"build": "babel src --out-dir lib",
+				"test": "jest",
+				"prepare": "npm run test && npm run clean && npm run build"
+			},
+			"keywords": [
+				"react",
+				"docs",
+				"docgen",
+				"babel-plugin"
+			],
+			"dependencies": {
+				"lodash": "^4.17.15",
+				"react-docgen": "^5.0.0",
+				"recast": "^0.14.7"
+			},
+			"license": "MIT",
+			"readmeFilename": "README.md",
+			"gitHead": "a6eff36b898cbec4ce3858dace422ccab349606c",
+			"bugs": {
+				"url": "https://github.com/storybooks/babel-plugin-react-docgen/issues"
+			},
+			"homepage": "https://github.com/storybooks/babel-plugin-react-docgen#readme",
+			"_id": "babel-plugin-react-docgen@4.0.0-beta.3",
+			"_nodeVersion": "10.16.3",
+			"_npmVersion": "6.9.0",
+			"dist": {
+				"integrity": "sha512-9VAS+ihkWDrnaXZ/+W55yRX6bKr8GtJvOxDh8xEvI5onC7V6MwwqwZLr8KP0BVzON/WicMIN5c2QxvOnL6grMg==",
+				"shasum": "59cd1491fd0d60a91ee9863331bfd4618adf5530",
+				"tarball": "https://registry.npmjs.org/babel-plugin-react-docgen/-/babel-plugin-react-docgen-4.0.0-beta.3.tgz",
+				"fileCount": 7,
+				"unpackedSize": 21982,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeDXJcCRA9TVsSAnZWagAAgVMP/il5bwXa4/8W+vPokGYB\nF5ujRe3O0qilOlZcylqLDQhLysMRff1HD+ujHQRozzfL6GOzQaJFU34LRsUB\ncD1tRNuUKH8aju/iJZ1jPgVT4QQieKwHvd3BO2krN5/VN1j3CHfwRltJTTES\nKhpAhG5zUxrwD6YAhKQGE/QzsiCvjRUKBrdqMxjSNnkuLjuLzN3U0qu1q+D0\n8mu5GtURtpbU6tFu34VZJBdvohec/hLZ7R/dNlSjqrctI+ZrC4QscThwtCdL\njwJKEX5wF87P36zHazme6k8QEz0TMOsz6TO7c5z54LxqlaxOULgP4ueML3DX\ndOy2mEG2LUcOEk17wj95r/iz2HOQViy9dFIVxVQ2ZcuVcd2YQFwVMo5us4q9\nujIxYZeGN120Y+/RkisGPPTtd0ZiDDgqc6YZTFaY53Y4wgCCAwpGwMu8Kmzv\nDEa8731ikJVw57cOp2FJf9SM0m6jQhXUT3JQPn9+EAkt2d/w0rWsWBOL18eV\nHfyZq6z0gfgAB+dKr/u7lrik7nYZJwdio2mgd6If/bZ26SvcDbQV1ltHhm+n\nQJsc8f+6TEIYnIxSAG1G37C4zWaQ2rsjHBbNMcqd6UvfIWFdHpRaQfwdeC33\nd4yL+d4YFHHPcncOyp1u1N5eeDDa1HPnPVrQEnw0igPpcFvk6ykWZwPU4g0X\n7e6z\r\n=6P3u\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDYEmqHmgxZvFk4lsrddOfWkBEaMKXE3zt2txjAIy91SgIhAJtg+PU+nPc+puo/fz3otVinfx/F2HwHJOLLRtKsSezx"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"email": "dduan@yahoo.com",
+					"name": "danielduan"
+				},
+				{
+					"email": "ndelangen@me.com",
+					"name": "ndelangen"
+				},
+				{
+					"email": "michael@lab80.co",
+					"name": "shilman"
+				}
+			],
+			"_npmUser": {
+				"name": "shilman",
+				"email": "michael@lab80.co"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/babel-plugin-react-docgen_4.0.0-beta.3_1577939548396_0.32601639648683944"
+			},
+			"_hasShrinkwrap": false
+		},
+		"4.0.0": {
+			"version": "4.0.0",
+			"name": "babel-plugin-react-docgen",
+			"description": "Babel plugin to add react-docgen info into your code",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/storybooks/babel-plugin-react-docgen.git"
+			},
+			"author": {
+				"name": "Madushan Nishantha",
+				"email": "j.l.madushan@gmail.com"
+			},
+			"contributors": [
+				{
+					"name": "Charles Lehnert"
+				}
+			],
+			"main": "lib/index.js",
+			"devDependencies": {
+				"@babel/cli": "^7.6.4",
+				"@babel/core": "^7.6.4",
+				"@babel/plugin-proposal-class-properties": "^7.5.5",
+				"@babel/preset-env": "^7.6.3",
+				"@babel/preset-flow": "^7.0.0",
+				"@babel/preset-react": "^7.6.3",
+				"@babel/register": "^7.6.2",
+				"jest": "^24.9.0",
+				"jest-specific-snapshot": "^2.0.0",
+				"react-docgen-deprecation-handler": "1.1.1"
+			},
+			"scripts": {
+				"clean": "rm -rf lib",
+				"build": "babel src --out-dir lib",
+				"test": "jest",
+				"prepare": "npm run test && npm run clean && npm run build"
+			},
+			"keywords": [
+				"react",
+				"docs",
+				"docgen",
+				"babel-plugin"
+			],
+			"dependencies": {
+				"lodash": "^4.17.15",
+				"react-docgen": "^5.0.0",
+				"recast": "^0.14.7"
+			},
+			"license": "MIT",
+			"gitHead": "be192312625af551e3ce587a3aefb13b5b10f3ca",
+			"bugs": {
+				"url": "https://github.com/storybooks/babel-plugin-react-docgen/issues"
+			},
+			"homepage": "https://github.com/storybooks/babel-plugin-react-docgen#readme",
+			"_id": "babel-plugin-react-docgen@4.0.0",
+			"_nodeVersion": "10.16.3",
+			"_npmVersion": "6.9.0",
+			"dist": {
+				"integrity": "sha512-6vdky/CRaq0zE64ZRR1fOjUfFS3kX7USMuC6mAH/ASYt/EGY9Ms1F5uLwHhmBhaOGKiJJHvhKz16wX9IBWBLKg==",
+				"shasum": "1be997bc135b2a0eec54364202d01ed0f15f0098",
+				"tarball": "https://registry.npmjs.org/babel-plugin-react-docgen/-/babel-plugin-react-docgen-4.0.0.tgz",
+				"fileCount": 7,
+				"unpackedSize": 22082,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeDkARCRA9TVsSAnZWagAAHsQQAJFv9ZR37nBvBSkLEqX4\nqiqpwH9ckCkOKzftb4lvULl3BsgFMD7zV+tl65ZIM8wD3kyobGbY/K/7pPjJ\nCVwKqQdx34dYmWBVtYNHweYiuVWeAKEDa25Q+PT/ENPkiYDnrGNW4IvLVcOe\ni1vrR8f/fydHZ+NljBT9b8m0bECeCMMPAfiSHpTef6SD0w+mXpMZVh7svx1A\nrQF3LyX4T8pUXccEIjv9qcjR/GyHFShZgQErs2GGS+k7HleRpLBb8Ev5wpCq\nenz5Df1YvsK0p7dHCpU6ggI9Zxk4BYvupSCpGt4F1V2J6Fup/MeNRy/zqbIv\ns2AXyzQKn4HSo/N5DT4V6UIzyWN30j3JZiXLTqIAyUujCUVbyqG6zHdjEWxd\nZzgvbeDcbFd5c1F4Tgjrw5aPZdNPeS+TU9aXzjzJe0IZHwjChtGoFHJX1Piw\ntd54yK/hCNi3gkG5nJJDhh4SSPCx79r2+ihSjo7hIxgJ8C+KIUSun0KCs1lb\ncN/SSwKpChKCY2/gWJAyV1WZu+MIGY54W/IH9WmcxudErJS/9oG8hgUZDOfn\nFDhea4ztHjak5S1nXZMlwK0MolWxeylAs+0LIEcOIvRoVrRpZ9mNChQ4ZEbm\nf+K6N5sSzC7cH/7Xu7WOUZ56gAnEiHckQJCeMO4W/jwsPEJRSZ0i/40ynMmR\nlpsa\r\n=M4e8\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIDW7+8x0wet6gldZzDD8qemix6+BOdOHYcr3T9CTVcAiAiBqjJzvEscuLt/ZuE6SBoih1v6m6YrZ2M7euGeBiJFBMg=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"email": "dduan@yahoo.com",
+					"name": "danielduan"
+				},
+				{
+					"email": "ndelangen@me.com",
+					"name": "ndelangen"
+				},
+				{
+					"email": "michael@lab80.co",
+					"name": "shilman"
+				}
+			],
+			"_npmUser": {
+				"name": "shilman",
+				"email": "michael@lab80.co"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/babel-plugin-react-docgen_4.0.0_1577992209134_0.3476106193336119"
+			},
+			"_hasShrinkwrap": false
+		},
+		"4.1.0": {
+			"version": "4.1.0",
+			"name": "babel-plugin-react-docgen",
+			"description": "Babel plugin to add react-docgen info into your code",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/storybooks/babel-plugin-react-docgen.git"
+			},
+			"author": {
+				"name": "Madushan Nishantha",
+				"email": "j.l.madushan@gmail.com"
+			},
+			"contributors": [
+				{
+					"name": "Charles Lehnert"
+				}
+			],
+			"main": "lib/index.js",
+			"devDependencies": {
+				"@babel/cli": "^7.6.4",
+				"@babel/core": "^7.6.4",
+				"@babel/plugin-proposal-class-properties": "^7.5.5",
+				"@babel/preset-env": "^7.6.3",
+				"@babel/preset-flow": "^7.0.0",
+				"@babel/preset-react": "^7.6.3",
+				"@babel/register": "^7.6.2",
+				"jest": "^24.9.0",
+				"jest-specific-snapshot": "^2.0.0",
+				"react-docgen-deprecation-handler": "1.1.1"
+			},
+			"scripts": {
+				"clean": "rm -rf lib",
+				"build": "babel src --out-dir lib",
+				"test": "jest",
+				"prepare": "npm run test && npm run clean && npm run build"
+			},
+			"keywords": [
+				"react",
+				"docs",
+				"docgen",
+				"babel-plugin"
+			],
+			"dependencies": {
+				"lodash": "^4.17.15",
+				"react-docgen": "^5.0.0",
+				"recast": "^0.14.7"
+			},
+			"license": "MIT",
+			"gitHead": "fb4a47539a682c1da1e56f9d757dc060d59610a3",
+			"bugs": {
+				"url": "https://github.com/storybooks/babel-plugin-react-docgen/issues"
+			},
+			"homepage": "https://github.com/storybooks/babel-plugin-react-docgen#readme",
+			"_id": "babel-plugin-react-docgen@4.1.0",
+			"_nodeVersion": "12.1.0",
+			"_npmVersion": "6.13.6",
+			"dist": {
+				"integrity": "sha512-vzpnBlfGv8XOhJM2zbPyyqw2OLEbelgZZsaaRRTpVwNKuYuc+pUg4+dy7i9gCRms0uOQn4osX571HRcCJMJCmA==",
+				"shasum": "1dfa447dac9ca32d625a123df5733a9e47287c26",
+				"tarball": "https://registry.npmjs.org/babel-plugin-react-docgen/-/babel-plugin-react-docgen-4.1.0.tgz",
+				"fileCount": 7,
+				"unpackedSize": 22264,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeHnmJCRA9TVsSAnZWagAArVUQAI5fpzecfyE9D2Ahmc3P\nMMKWPNB4cLLjtYLHbTmDAy0V6eAT7ObAeWEpWoviejlxRtoEChlnIx6sj/Ot\nHrqThXVr0EZm2YRIf/tctWa2iToenohT/JJVwuEXli/AD/EhvEKoCunaEAfE\nqcAobQhfSiiXAn22SRF1SHmBULQ+wKYx7re9p6eoUlg6W5IwU6vCUe+c/QR/\nXCs95sqCkM0/ZEK4gUhyiSI2V1KoeaQDOW3KGHLk47YrcE1wlJv0Rxs5opXk\nKOwSUlz5GR2xI53xrfuEroQp63nUGPIE7gsEyAobBNGp8askf9XCjlH8fhj/\n4B0BxNAr+ddUfyNsWO76ufd8uClruObOGaxk0A7geGDdxxGGWpRY8yZjrGs0\n5GazJLyWSdWremDQsSeVkwxwwC42J/0XH4tQgP0e9hrjxveyWraNpTQtgop0\n7tzOa11ODsKTAQWwMPJm97WBVWLg76qjhnnt8pqGpHCtuH/ZQ8Qh2e6CdkbP\nKciH1xlWqRiLaQtJHfyqmnBX3kPd/rblJrsF4s4+9i54DYVSa2FrUIGv89/K\n0C0MWQls1ZCffE791vtPSdfxBV0UyqUCLImkHnNZur9PuD9Zl2wJgrTNQFlT\nu9JeXxJA+U8S5/yrlmT17CeB9yonEKFVwmnWNbTLHu2vUqjR+1+MKUojWHJ/\nzMhn\r\n=Y2xw\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIBh+JdgyyHUesTRdUF097qKiPWA58rfooJiAHlCOA6JQAiEAglXYdUGzAhENSGq6+W7kdIT2MsIeQpTNetZc6qpJZwQ="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"email": "dduan@yahoo.com",
+					"name": "danielduan"
+				},
+				{
+					"email": "ndelangen@me.com",
+					"name": "ndelangen"
+				},
+				{
+					"email": "michael@lab80.co",
+					"name": "shilman"
+				}
+			],
+			"_npmUser": {
+				"name": "danielduan",
+				"email": "dduan@yahoo.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/babel-plugin-react-docgen_4.1.0_1579055496741_0.2257009924829283"
+			},
+			"_hasShrinkwrap": false
+		},
+		"4.2.0": {
+			"version": "4.2.0",
+			"name": "babel-plugin-react-docgen",
+			"description": "Babel plugin to add react-docgen info into your code",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/storybooks/babel-plugin-react-docgen.git"
+			},
+			"author": {
+				"name": "Madushan Nishantha",
+				"email": "j.l.madushan@gmail.com"
+			},
+			"contributors": [
+				{
+					"name": "Charles Lehnert"
+				}
+			],
+			"main": "lib/index.js",
+			"devDependencies": {
+				"@babel/cli": "^7.6.4",
+				"@babel/core": "^7.6.4",
+				"@babel/plugin-proposal-class-properties": "^7.5.5",
+				"@babel/preset-env": "^7.6.3",
+				"@babel/preset-flow": "^7.0.0",
+				"@babel/preset-react": "^7.6.3",
+				"@babel/register": "^7.6.2",
+				"jest": "^24.9.0",
+				"jest-specific-snapshot": "^2.0.0",
+				"react-docgen-deprecation-handler": "1.1.1"
+			},
+			"scripts": {
+				"clean": "rm -rf lib",
+				"build": "babel src --out-dir lib",
+				"test": "jest",
+				"prepare": "npm run test && npm run clean && npm run build"
+			},
+			"keywords": [
+				"react",
+				"docs",
+				"docgen",
+				"babel-plugin"
+			],
+			"dependencies": {
+				"lodash": "^4.17.15",
+				"react-docgen": "^5.0.0",
+				"recast": "^0.14.7"
+			},
+			"license": "MIT",
+			"gitHead": "c02946ed5309f0bcc2df67ac2fdabfbcbc323803",
+			"bugs": {
+				"url": "https://github.com/storybooks/babel-plugin-react-docgen/issues"
+			},
+			"homepage": "https://github.com/storybooks/babel-plugin-react-docgen#readme",
+			"_id": "babel-plugin-react-docgen@4.2.0",
+			"_nodeVersion": "12.16.2",
+			"_npmVersion": "6.14.4",
+			"dist": {
+				"integrity": "sha512-B3tjZwKskcia9TsqkND+9OTjl/F5A5OBvRJ6Ktg34CONoxm+kB3CJ52wk5TjbszX9gqCPcAuc0GgkhT0CLuT/Q==",
+				"shasum": "4f425692f0ca06c73a1462274d370a3ac0637b46",
+				"tarball": "https://registry.npmjs.org/babel-plugin-react-docgen/-/babel-plugin-react-docgen-4.2.0.tgz",
+				"fileCount": 7,
+				"unpackedSize": 25592,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfa4qPCRA9TVsSAnZWagAA2ZcQAJS3yBjZHeNgQ7Ify64C\nqHS7Vi9R9tK00J3dwY6FCVYtok1KAkKuQguZhL2F38oho7TsBbkbk1B1zrlh\n+pYHKQ+fm8Eawto2wa2mI0k3Zvn1gXK2D1GvxFSqMpMnMgoPe8J4ipuoeP2t\nyr8SD7i4cAOtroEXDjsUPWxQUf7fYy6gQ0uZneubbo5Qk14XcDdTBPBooHEN\nHdjNEnUg7w6WFENqb1c9QrpZehhzCgyvJnd84VXPR+Ek45gLQxLgtLe2tJi4\nwllxy+P12PxlEFDvSCO+C2Oxi2tDZJ98hGbX6dQsKmxrDtVSfNDNU8Lq34Nd\n1jboBnInTNh3XGoCZi3mtuMRC4+YoRLFdHNnOTLMXYUofj7fEklH5c68EDRg\ndeMN0A9nuYzCBVTElNtPl9hf7YkwgP9ppXHJGMz9pwjbel/hl833dRHnmMYm\nMUHMwNkG18B23XYaMmVUkdqnWuNqu4Czm7aRUO1Ud28tWs/Qf/tiYvsbAsh+\nXRSWXzwiPEEiVXAdsla4jlL5bc9gzG7bD2mB0Q6SGbwSm0yrDDKOaowVVW1t\njUBezgQqa6+5B4yA+kBiFmqvg+X5y5xTp7/VSqrVxlV53FJg0BvgxxxyNagi\n+KhwmrLuKXjVjqIU8vnT2Eij0h/8bLtgibvYo1lyfauTM+KKWGtzsfY8ByTl\nvZU/\r\n=kbkD\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIGJMF7OTF4MzBPhNxXqV/F2mgwHvWdMmXq3jrEPMiGVQAiAaVe9Hafs9OMWJRS+LG1lbIlWsPGbqEmwstD6tYXKVFA=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "ndelangen",
+					"email": "ndelangen@me.com"
+				},
+				{
+					"name": "danielduan",
+					"email": "dduan@yahoo.com"
+				},
+				{
+					"name": "shilman",
+					"email": "michael@lab80.co"
+				}
+			],
+			"_npmUser": {
+				"name": "shilman",
+				"email": "michael@lab80.co"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/babel-plugin-react-docgen_4.2.0_1600883342581_0.822365672974188"
+			},
+			"_hasShrinkwrap": false
+		},
+		"4.2.1": {
+			"version": "4.2.1",
+			"name": "babel-plugin-react-docgen",
+			"description": "Babel plugin to add react-docgen info into your code",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/storybooks/babel-plugin-react-docgen.git"
+			},
+			"author": {
+				"name": "Madushan Nishantha",
+				"email": "j.l.madushan@gmail.com"
+			},
+			"contributors": [
+				{
+					"name": "Charles Lehnert"
+				}
+			],
+			"main": "lib/index.js",
+			"devDependencies": {
+				"@babel/cli": "^7.6.4",
+				"@babel/core": "^7.6.4",
+				"@babel/plugin-proposal-class-properties": "^7.5.5",
+				"@babel/plugin-proposal-optional-chaining": "^7.11.0",
+				"@babel/preset-env": "^7.6.3",
+				"@babel/preset-flow": "^7.0.0",
+				"@babel/preset-react": "^7.6.3",
+				"@babel/register": "^7.6.2",
+				"jest": "^24.9.0",
+				"jest-specific-snapshot": "^2.0.0",
+				"react-docgen-deprecation-handler": "1.1.1"
+			},
+			"scripts": {
+				"clean": "rm -rf lib",
+				"build": "babel src --out-dir lib",
+				"test": "jest",
+				"prepare": "npm run test && npm run clean && npm run build"
+			},
+			"keywords": [
+				"react",
+				"docs",
+				"docgen",
+				"babel-plugin"
+			],
+			"dependencies": {
+				"ast-types": "^0.14.2",
+				"lodash": "^4.17.15",
+				"react-docgen": "^5.0.0"
+			},
+			"license": "MIT",
+			"gitHead": "8c1bac3fc3867fbdf2d566bd5bcae714832fa328",
+			"bugs": {
+				"url": "https://github.com/storybooks/babel-plugin-react-docgen/issues"
+			},
+			"homepage": "https://github.com/storybooks/babel-plugin-react-docgen#readme",
+			"_id": "babel-plugin-react-docgen@4.2.1",
+			"_nodeVersion": "12.19.0",
+			"_npmVersion": "6.14.8",
+			"dist": {
+				"integrity": "sha512-UQ0NmGHj/HAqi5Bew8WvNfCk8wSsmdgNd8ZdMjBCICtyCJCq9LiqgqvjCYe570/Wg7AQArSq1VQ60Dd/CHN7mQ==",
+				"shasum": "7cc8e2f94e8dc057a06e953162f0810e4e72257b",
+				"tarball": "https://registry.npmjs.org/babel-plugin-react-docgen/-/babel-plugin-react-docgen-4.2.1.tgz",
+				"fileCount": 7,
+				"unpackedSize": 25731,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfhJsICRA9TVsSAnZWagAAEa4P/1fSMp8bfALxXrJ21teH\nSzkmkFbsu0Hrbp2yjLREqd8quPgUgCOi2FpcfwsZYUTGT7/Rzaj7l83cDNlP\nn8M0qnfbk/mAH27qvUSd/mHy0DR1Yal6pCudnGigKsK6J7uuZJz/MgtlHnj7\nxPW30Bsp+W7O+fy9pnXlopm1/qr7ijg8FA0OeqvgB2nUwmOHi0hWFR5f5U3S\nJTPknc/UY7BL1PGVKqhgO4PC/uL/wlAEGE6pg/7yccJB3YS6ZovdQm02XZuF\nifjvylPTKc/jO5CPDnXIQq8jMmgj+xz46eVc4Q3RSUH/Ixq47Rw9aCBxCTaU\nLodX5HfCuIZ4n6EJ4wc65hblf1x6aGObRKRntck+rzEnhM+GtDexVJ5ZTuPE\n31yUOvvgQ+zQjWmijewPRIwy71Wj4cVWmWElM1kHNKCHtp/C/z+g7/6GRYnm\n8GISYivv4hcjq6iJUxxfhuB46aUUMDqQ1aQTzV9FSSBZmFPSwZpkRdf85DUs\nf9fLVCrimIgXJp0Hi3qHInZIEIjjukLx/UoGXLljV78uxJxqAIhY9Rq0choR\nV9LPw4T0YP3CES49rdu7LchxDD3a4PpD2/tjOXpgnHYI7w7JOULFgdfQVezn\nXcm7OK8jnPnEjxXx3p9aAclheniMuBFujieQp4ue3Ycg03Qf80R8jauYmNYE\n3HB+\r\n=KTCk\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIEhnMU9vVJc2ASvVqLdOCo9FxV/71z0pTekGGq8OvraQAiAVRMjjdmN7XSStBdC8KDcxYWAB8hkWea0Db04LuBjchg=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "ndelangen",
+					"email": "ndelangen@me.com"
+				},
+				{
+					"name": "danielduan",
+					"email": "dduan@yahoo.com"
+				},
+				{
+					"name": "shilman",
+					"email": "michael@lab80.co"
+				}
+			],
+			"_npmUser": {
+				"name": "shilman",
+				"email": "michael@lab80.co"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/babel-plugin-react-docgen_4.2.1_1602525960063_0.248147521388127"
+			},
+			"_hasShrinkwrap": false
+		}
+	},
+	"time": {
+		"modified": "2022-06-13T04:02:48.616Z",
+		"created": "2016-10-07T05:50:00.047Z",
+		"1.0.0": "2016-10-07T05:50:00.047Z",
+		"1.0.1": "2016-10-07T05:54:54.748Z",
+		"1.2.0": "2016-10-20T06:40:29.178Z",
+		"1.3.0": "2016-10-21T08:00:14.896Z",
+		"1.3.1": "2016-10-22T00:04:45.959Z",
+		"1.3.2": "2016-10-23T04:25:25.886Z",
+		"1.4.0": "2016-11-01T08:42:58.314Z",
+		"1.4.1": "2016-11-03T06:53:37.894Z",
+		"1.4.2": "2017-01-03T03:03:36.664Z",
+		"1.5.0": "2017-06-06T20:12:20.031Z",
+		"1.6.0": "2017-07-26T15:24:28.303Z",
+		"1.7.0": "2017-08-11T12:41:27.913Z",
+		"1.8.0": "2017-09-24T20:21:33.102Z",
+		"1.8.1": "2017-09-28T13:49:28.286Z",
+		"1.8.2": "2018-01-14T18:57:23.285Z",
+		"1.8.3": "2018-02-28T23:30:01.733Z",
+		"1.9.0": "2018-04-02T19:59:41.514Z",
+		"2.0.0-rc.0": "2018-04-11T19:36:43.240Z",
+		"2.0.0-rc.1": "2018-06-17T16:27:31.669Z",
+		"2.0.0-rc.2": "2018-08-14T18:36:00.922Z",
+		"2.0.0-babel7.0": "2018-08-14T21:29:29.955Z",
+		"2.0.0": "2018-09-06T20:25:57.682Z",
+		"2.0.1": "2019-01-29T17:07:23.247Z",
+		"2.0.2": "2019-01-29T17:16:53.004Z",
+		"3.0.0": "2019-03-27T15:49:09.827Z",
+		"3.1.0": "2019-04-16T21:47:41.465Z",
+		"3.2.0": "2019-10-24T17:56:00.541Z",
+		"4.0.0-beta.1": "2019-10-24T18:04:42.570Z",
+		"4.0.0-beta.2": "2020-01-02T04:28:23.254Z",
+		"4.0.0-beta.3": "2020-01-02T04:32:28.521Z",
+		"4.0.0": "2020-01-02T19:10:09.284Z",
+		"4.1.0": "2020-01-15T02:31:36.934Z",
+		"4.2.0": "2020-09-23T17:49:02.736Z",
+		"4.2.1": "2020-10-12T18:06:00.157Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "4.2.1",
+		"rc": "2.0.0-rc.0",
+		"prerelease": "4.0.0-beta.3"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"9851a45192ddd7a48972c85a5ffdeab5\"",
+			"fetched": 1660840718881
+		}
+	},
+	"_distfiles": {
+		"babel-plugin-react-docgen-1.2.0.tgz": {
+			"url": "https://registry.npmjs.org/babel-plugin-react-docgen/-/babel-plugin-react-docgen-1.2.0.tgz",
+			"sha": "e6145a865945c7abba0f522c762658526080ff63",
+			"registry": "npmjs"
+		},
+		"babel-plugin-react-docgen-1.3.0.tgz": {
+			"url": "https://registry.npmjs.org/babel-plugin-react-docgen/-/babel-plugin-react-docgen-1.3.0.tgz",
+			"sha": "b003225b3816af784f1cad2d1cefdb66c6c9dc42",
+			"registry": "npmjs"
+		},
+		"babel-plugin-react-docgen-1.3.1.tgz": {
+			"url": "https://registry.npmjs.org/babel-plugin-react-docgen/-/babel-plugin-react-docgen-1.3.1.tgz",
+			"sha": "84254f873c277b3f2eba534d73520085392cd3d8",
+			"registry": "npmjs"
+		},
+		"babel-plugin-react-docgen-1.3.2.tgz": {
+			"url": "https://registry.npmjs.org/babel-plugin-react-docgen/-/babel-plugin-react-docgen-1.3.2.tgz",
+			"sha": "13fcf7baa5da06fd2a7ff67d4e2af497b811875e",
+			"registry": "npmjs"
+		},
+		"babel-plugin-react-docgen-1.4.0.tgz": {
+			"url": "https://registry.npmjs.org/babel-plugin-react-docgen/-/babel-plugin-react-docgen-1.4.0.tgz",
+			"sha": "99df828cee8fec3c7f87ec5ab15d0ada670f7e3e",
+			"registry": "npmjs"
+		},
+		"babel-plugin-react-docgen-1.4.1.tgz": {
+			"url": "https://registry.npmjs.org/babel-plugin-react-docgen/-/babel-plugin-react-docgen-1.4.1.tgz",
+			"sha": "dc0d1e3e453ea592bd3b78f378638b30380328c9",
+			"registry": "npmjs"
+		},
+		"babel-plugin-react-docgen-1.4.2.tgz": {
+			"url": "https://registry.npmjs.org/babel-plugin-react-docgen/-/babel-plugin-react-docgen-1.4.2.tgz",
+			"sha": "04c02133b84b6cc182d35de2162f15764da03e7c",
+			"registry": "npmjs"
+		},
+		"babel-plugin-react-docgen-1.5.0.tgz": {
+			"url": "https://registry.npmjs.org/babel-plugin-react-docgen/-/babel-plugin-react-docgen-1.5.0.tgz",
+			"sha": "0339717ad51f4a5ce4349330b8266ea5a56f53b4",
+			"registry": "npmjs"
+		},
+		"babel-plugin-react-docgen-1.6.0.tgz": {
+			"url": "https://registry.npmjs.org/babel-plugin-react-docgen/-/babel-plugin-react-docgen-1.6.0.tgz",
+			"sha": "9be36121b094da7a1a3ba7911a9e8ea4b0f44da0",
+			"registry": "npmjs"
+		},
+		"babel-plugin-react-docgen-1.7.0.tgz": {
+			"url": "https://registry.npmjs.org/babel-plugin-react-docgen/-/babel-plugin-react-docgen-1.7.0.tgz",
+			"sha": "87e72d3d54b182a30706b740bb4d116f59aadc80",
+			"registry": "npmjs"
+		},
+		"babel-plugin-react-docgen-1.8.0.tgz": {
+			"url": "https://registry.npmjs.org/babel-plugin-react-docgen/-/babel-plugin-react-docgen-1.8.0.tgz",
+			"sha": "e6c2ca718ac225fce4a10cff1765a920f76b9870",
+			"registry": "npmjs"
+		},
+		"babel-plugin-react-docgen-1.8.1.tgz": {
+			"url": "https://registry.npmjs.org/babel-plugin-react-docgen/-/babel-plugin-react-docgen-1.8.1.tgz",
+			"sha": "6e08e057f5dcd46b434e7553e971baa604dae377",
+			"registry": "npmjs"
+		},
+		"babel-plugin-react-docgen-1.8.2.tgz": {
+			"url": "https://registry.npmjs.org/babel-plugin-react-docgen/-/babel-plugin-react-docgen-1.8.2.tgz",
+			"sha": "4615da43588c8cf5bdcae028f217954c70e6770b",
+			"registry": "npmjs"
+		},
+		"babel-plugin-react-docgen-1.8.3.tgz": {
+			"url": "https://registry.npmjs.org/babel-plugin-react-docgen/-/babel-plugin-react-docgen-1.8.3.tgz",
+			"sha": "bdb0fe41f72eaa9444fe7872866d2f372afd72bb",
+			"registry": "npmjs"
+		},
+		"babel-plugin-react-docgen-1.9.0.tgz": {
+			"url": "https://registry.npmjs.org/babel-plugin-react-docgen/-/babel-plugin-react-docgen-1.9.0.tgz",
+			"sha": "2e79aeed2f93b53a172398f93324fdcf9f02e01f",
+			"registry": "npmjs"
+		},
+		"babel-plugin-react-docgen-2.0.0-rc.0.tgz": {
+			"url": "https://registry.npmjs.org/babel-plugin-react-docgen/-/babel-plugin-react-docgen-2.0.0-rc.0.tgz",
+			"sha": "e3561de1f1a16037306ec5131456fe625b7736f8",
+			"registry": "npmjs"
+		},
+		"babel-plugin-react-docgen-2.0.0-rc.1.tgz": {
+			"url": "https://registry.npmjs.org/babel-plugin-react-docgen/-/babel-plugin-react-docgen-2.0.0-rc.1.tgz",
+			"sha": "2538ecff4102c9e4e4087dbb90bcc76a8db3658f",
+			"registry": "npmjs"
+		},
+		"babel-plugin-react-docgen-2.0.0-rc.2.tgz": {
+			"url": "https://registry.npmjs.org/babel-plugin-react-docgen/-/babel-plugin-react-docgen-2.0.0-rc.2.tgz",
+			"sha": "6d91c1914cb8a3975037a39f1cbd06e252705886",
+			"registry": "npmjs"
+		},
+		"babel-plugin-react-docgen-2.0.0-babel7.0.tgz": {
+			"url": "https://registry.npmjs.org/babel-plugin-react-docgen/-/babel-plugin-react-docgen-2.0.0-babel7.0.tgz",
+			"sha": "ea63443c11426edf81023679181403336b745850",
+			"registry": "npmjs"
+		},
+		"babel-plugin-react-docgen-2.0.0.tgz": {
+			"url": "https://registry.npmjs.org/babel-plugin-react-docgen/-/babel-plugin-react-docgen-2.0.0.tgz",
+			"sha": "039d90f5a1a37131c8cc3015017eecafa8d78882",
+			"registry": "npmjs"
+		},
+		"babel-plugin-react-docgen-2.0.1.tgz": {
+			"url": "https://registry.npmjs.org/babel-plugin-react-docgen/-/babel-plugin-react-docgen-2.0.1.tgz",
+			"sha": "ef5415bc1afe4f7b6a2fbe9c6e574f5f3b62756a",
+			"registry": "npmjs"
+		},
+		"babel-plugin-react-docgen-2.0.2.tgz": {
+			"url": "https://registry.npmjs.org/babel-plugin-react-docgen/-/babel-plugin-react-docgen-2.0.2.tgz",
+			"sha": "3307e27414c370365710576b7fadbcaf8984d862",
+			"registry": "npmjs"
+		},
+		"babel-plugin-react-docgen-3.0.0.tgz": {
+			"url": "https://registry.npmjs.org/babel-plugin-react-docgen/-/babel-plugin-react-docgen-3.0.0.tgz",
+			"sha": "f060ef73da5be8e9af6aeae96d3aa21b184ec654",
+			"registry": "npmjs"
+		},
+		"babel-plugin-react-docgen-3.1.0.tgz": {
+			"url": "https://registry.npmjs.org/babel-plugin-react-docgen/-/babel-plugin-react-docgen-3.1.0.tgz",
+			"sha": "14b02b363a38cc9e08c871df16960d27ef92030f",
+			"registry": "npmjs"
+		},
+		"babel-plugin-react-docgen-3.2.0.tgz": {
+			"url": "https://registry.npmjs.org/babel-plugin-react-docgen/-/babel-plugin-react-docgen-3.2.0.tgz",
+			"sha": "c072364d61d1f6bb19a6ca81734fc270870e8b96",
+			"registry": "npmjs"
+		},
+		"babel-plugin-react-docgen-4.0.0-beta.1.tgz": {
+			"url": "https://registry.npmjs.org/babel-plugin-react-docgen/-/babel-plugin-react-docgen-4.0.0-beta.1.tgz",
+			"sha": "ff09340e060064ec653564e10ac5b5c8dd53dfba",
+			"registry": "npmjs"
+		},
+		"babel-plugin-react-docgen-4.0.0-beta.2.tgz": {
+			"url": "https://registry.npmjs.org/babel-plugin-react-docgen/-/babel-plugin-react-docgen-4.0.0-beta.2.tgz",
+			"sha": "67fdb1543402d1ff064e8d3d06b4afc5564792f9",
+			"registry": "npmjs"
+		},
+		"babel-plugin-react-docgen-4.0.0-beta.3.tgz": {
+			"url": "https://registry.npmjs.org/babel-plugin-react-docgen/-/babel-plugin-react-docgen-4.0.0-beta.3.tgz",
+			"sha": "59cd1491fd0d60a91ee9863331bfd4618adf5530",
+			"registry": "npmjs"
+		},
+		"babel-plugin-react-docgen-4.0.0.tgz": {
+			"url": "https://registry.npmjs.org/babel-plugin-react-docgen/-/babel-plugin-react-docgen-4.0.0.tgz",
+			"sha": "1be997bc135b2a0eec54364202d01ed0f15f0098",
+			"registry": "npmjs"
+		},
+		"babel-plugin-react-docgen-4.1.0.tgz": {
+			"url": "https://registry.npmjs.org/babel-plugin-react-docgen/-/babel-plugin-react-docgen-4.1.0.tgz",
+			"sha": "1dfa447dac9ca32d625a123df5733a9e47287c26",
+			"registry": "npmjs"
+		},
+		"babel-plugin-react-docgen-4.2.0.tgz": {
+			"url": "https://registry.npmjs.org/babel-plugin-react-docgen/-/babel-plugin-react-docgen-4.2.0.tgz",
+			"sha": "4f425692f0ca06c73a1462274d370a3ac0637b46",
+			"registry": "npmjs"
+		},
+		"babel-plugin-react-docgen-4.2.1.tgz": {
+			"url": "https://registry.npmjs.org/babel-plugin-react-docgen/-/babel-plugin-react-docgen-4.2.1.tgz",
+			"sha": "7cc8e2f94e8dc057a06e953162f0810e4e72257b",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_rev": "3-426ef1e66b954e81",
+	"_id": "babel-plugin-react-docgen",
+	"readme": "# babel-plugin-react-docgen\n\n[react-docgen](https://github.com/reactjs/react-docgen) allows you to write propType descriptions, class descriptions and access propType metadata programatically.\n\nThis babel plugin allow you to access those information right inside your React class.\n\nFor an example, let's say you've a React class like this:\n\n```js\n/**\n  This is an awesome looking button for React.\n*/\nimport React from 'react';\n\nexport default class Button extends React.Component {\n  render() {\n    const { label, onClick } = this.props;\n    return (\n      <button onClick={onClick}>{ label }</button>\n    );\n  }\n}\n\nButton.propTypes = {\n  /**\n    Label for the button.\n  */\n  label: React.PropTypes.string,\n\n  /**\n    Triggered when clicked on the button.\n  */\n  onClick: React.PropTypes.func,\n};\n```\n\nWith this babel plugin, you can access all these information right inside your app with:\n\n```js\nconsole.log(Button.__docgenInfo);\n```\n<details>\n  <summary>Click to see the output</summary>\n\n  ```js\n  {\n    description: 'This is an awesome looking button for React.',\n    props: {\n      label: {\n        type: {\n          name: 'string'\n        },\n        required: false,\n        description: 'Label for the button.'\n      },\n      onClick: {\n        type: {\n          name: 'func'\n        },\n        required: false,\n        description: 'Triggered when clicked on the button.'\n      }\n    }\n  }\n  ```\n</details>\n\nThis will be pretty useful for documentations and some other React devtools like [Storybook](https://github.com/kadirahq/react-storybook).\n\n## Usage\n\nInstall the plugin:\n\n```sh\nnpm install -D babel-plugin-react-docgen\n```\n\nUse it inside your `.babelrc`\n\n```json\n{\n  \"plugins\": [\"react-docgen\"]\n}\n```\n\n## .babelrc Options\n\n|  option  |  description   |  default   |\n| --- | --- | --- |\n| resolver                | You may use the 3 built-in [react-docgen resolvers](https://github.com/reactjs/react-docgen#resolver-1) by specifying its name as a `string`, or you may specify a custom resolver by specifying the function explicitly.  | ```\"findAllExportedComponentDefinition\"``` |\n| handlers                | All [react-docgen handlers](https://github.com/reactjs/react-docgen#handlers-1) are automatically applied. However, custom handlers can be added by specifying them here. Any `string` value will be loaded by `require`, and a `function` will be used directly. |  |\n| removeMethods           | Used to remove docgen information about methods. |   ```false```  |\n| DOC_GEN_COLLECTION_NAME | The name of a global variable where all docgen information can be stored. See [below](#collect-all-docgen-info) for more information. | |\n| ...options              | Remaining options will be passed directly as [react-docgen options](https://github.com/reactjs/react-docgen#options). Any options they allowed will be passed through, but the `filename` will be overwritten by the filename provided by babel. | |\n\n## Collect All Docgen Info\n\nSometimes, it's a pretty good idea to collect all of the docgen info into a collection. Then you could use that to render style guide or similar.\n\nSo, we allow you to collect all the docgen info into a global collection. To do that, add following config to when loading this babel plugin:\n\n```js\n{\n  \"plugins\":[\n    [\n      \"babel-plugin-react-docgen\",\n      {\n        \"DOC_GEN_COLLECTION_NAME\": \"MY_REACT_DOCS\",\n        \"resolver\": \"findAllComponentDefinitions\", // optional (default: findAllExportedComponentDefinitions)\n        \"removeMethods\": true, // optional (default: false)\n        \"handlers\": [\"react-docgen-deprecation-handler\"] // optional array of custom handlers\n      }\n    ]\n  ]\n}\n```\n\nThen you need to create a global variable(an object) in your app called `MY_REACT_DOCS` before any code get's executed.\nThen we'll save them into that object. We do it by adding a code block like this to the transpiled file:\n\n```js\nif (typeof MY_REACT_DOCS !== 'undefined') {\n  MY_REACT_DOCS['test/fixtures/case4/actual.js'] = {\n    name: 'Button',\n    docgenInfo: Button.__docgenInfo,\n    path: 'path/to/my/button.js'\n  };\n}\n```\n\n## Compile Performance\n\nWe parse your code with `react-docgen` to get this info, but we only do it for files which contain a React component.\n\nThere will be some overhead to your project, but you can leverage [babel's cache directory](http://stackoverflow.com/a/30384710) to avoid this a huge performance hit.\n\n## Output Size\n\nYes this increase the output size of your transpiled files. The size increase varies depending on various factors like:\n\n* How many react classes you've\n* Amount of docs you've written\n* Amount of propTypes you've\n\nMost of the time, you need this plugin when you are developing your app or with another tool like [Storybook](https://github.com/kadirahq/react-storybook). So, you may not need to use this on the production version of your app."
+}

@@ -1,0 +1,460 @@
+{
+	"name": "detect-package-manager",
+	"versions": {
+		"1.0.0": {
+			"name": "detect-package-manager",
+			"version": "1.0.0",
+			"description": "Detect which package you&#39;re using (yarn or npm)",
+			"repository": {
+				"url": "git+https://github.com/egoist/detect-package-manager.git",
+				"type": "git"
+			},
+			"main": "index.js",
+			"files": [
+				"index.js"
+			],
+			"scripts": {
+				"test": "npm run lint && ava",
+				"lint": "xo"
+			},
+			"author": {
+				"name": "egoist",
+				"email": "0x142857@gmail.com"
+			},
+			"license": "MIT",
+			"dependencies": {
+				"execa": "^0.8.0",
+				"path-exists": "^3.0.0"
+			},
+			"devDependencies": {
+				"ava": "^0.21.0",
+				"eslint-config-rem": "^3.0.0",
+				"xo": "^0.18.0"
+			},
+			"xo": {
+				"extends": "rem"
+			},
+			"gitHead": "406d6d4ca2828d8fb31259ba099f4c5fe734ce63",
+			"bugs": {
+				"url": "https://github.com/egoist/detect-package-manager/issues"
+			},
+			"homepage": "https://github.com/egoist/detect-package-manager#readme",
+			"_id": "detect-package-manager@1.0.0",
+			"_npmVersion": "5.3.0",
+			"_nodeVersion": "7.6.0",
+			"_npmUser": {
+				"name": "rem",
+				"email": "0x142857@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-2ENHOZdGjLMA1ql8bYH1hZ3S62MBwzFlD4gKJv3VJxEvR4hmo1TUFjlOW1zW5/R/vIj/k0QaUCuVAVJ5EpYwxg==",
+				"shasum": "e355c2916c65289e594e0b63e7887c484483af35",
+				"tarball": "https://registry.npmjs.org/detect-package-manager/-/detect-package-manager-1.0.0.tgz",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIGPVFH3puubnR732M3su1dnNMyaaTJ+3pWkekYbJKx+WAiEAzY1OBqrZygATYZY01pr2SDcA+YWTGZnqcLODWLwKXmQ="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "rem",
+					"email": "0x142857@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/detect-package-manager-1.0.0.tgz_1502463552020_0.49772406555712223"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.0.1": {
+			"name": "detect-package-manager",
+			"version": "1.0.1",
+			"description": "Detect which package manager you're using (yarn or npm)",
+			"repository": {
+				"url": "git+https://github.com/egoist/detect-package-manager.git",
+				"type": "git"
+			},
+			"main": "index.js",
+			"files": [
+				"index.js"
+			],
+			"keywords": [
+				"npm",
+				"yarn",
+				"package-manager",
+				"detect",
+				"check"
+			],
+			"scripts": {
+				"test": "npm run lint && ava",
+				"lint": "xo"
+			},
+			"author": {
+				"name": "egoist",
+				"email": "0x142857@gmail.com"
+			},
+			"license": "MIT",
+			"dependencies": {
+				"execa": "^0.8.0",
+				"path-exists": "^3.0.0"
+			},
+			"devDependencies": {
+				"ava": "^0.21.0",
+				"eslint-config-rem": "^3.0.0",
+				"xo": "^0.18.0"
+			},
+			"xo": {
+				"extends": "rem"
+			},
+			"gitHead": "5b9be2ee08fafdbc7ebe255efffa42d83fb9850b",
+			"bugs": {
+				"url": "https://github.com/egoist/detect-package-manager/issues"
+			},
+			"homepage": "https://github.com/egoist/detect-package-manager#readme",
+			"_id": "detect-package-manager@1.0.1",
+			"_npmVersion": "5.3.0",
+			"_nodeVersion": "7.6.0",
+			"_npmUser": {
+				"name": "rem",
+				"email": "0x142857@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-VSEhG/8Ri5crVXWZDew0uj1R0ToCrBaEZiTEZqvhsLY0FtnCZgskW9QGIlce5C/1XR0gAGxsCIRWB5uPXMlMcQ==",
+				"shasum": "e2bd3c6f95f1cd2131335a4906d50bcbef4172cb",
+				"tarball": "https://registry.npmjs.org/detect-package-manager/-/detect-package-manager-1.0.1.tgz",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQD9w/DLZB+zRNGOGcZkmpBTR3pjGSK4B52Q3dlxKL1jXwIhAOUrZqjgIHbVqKMDzKaRBGrB2mjK5C0rE+920xBgP65y"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "rem",
+					"email": "0x142857@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/detect-package-manager-1.0.1.tgz_1502463626513_0.9175829140003771"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.1.0": {
+			"name": "detect-package-manager",
+			"version": "1.1.0",
+			"description": "Detect which package manager you're using (yarn or npm)",
+			"repository": {
+				"url": "git+https://github.com/egoist/detect-package-manager.git",
+				"type": "git"
+			},
+			"main": "index.js",
+			"files": [
+				"index.js"
+			],
+			"keywords": [
+				"npm",
+				"yarn",
+				"package-manager",
+				"detect",
+				"check"
+			],
+			"scripts": {
+				"test": "npm run lint && ava",
+				"lint": "xo"
+			},
+			"author": {
+				"name": "egoist",
+				"email": "0x142857@gmail.com"
+			},
+			"license": "MIT",
+			"dependencies": {
+				"execa": "^0.8.0",
+				"path-exists": "^3.0.0"
+			},
+			"devDependencies": {
+				"ava": "^0.21.0",
+				"eslint-config-rem": "^3.0.0",
+				"xo": "^0.18.0"
+			},
+			"xo": {
+				"extends": "rem"
+			},
+			"gitHead": "5016a08c23c6f74bb808fc935762fc0ffc094c7d",
+			"bugs": {
+				"url": "https://github.com/egoist/detect-package-manager/issues"
+			},
+			"homepage": "https://github.com/egoist/detect-package-manager#readme",
+			"_id": "detect-package-manager@1.1.0",
+			"_npmVersion": "5.3.0",
+			"_nodeVersion": "7.6.0",
+			"_npmUser": {
+				"name": "rem",
+				"email": "0x142857@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-/Zxr1vXrlTDs/07xCNTYwN4UYAS8C5LZoQNMEpwstC3tvbAmlk/JW6dsdl7bZMkPsBWMWiLznIjoF2pah4nrUQ==",
+				"shasum": "af05738105d30cf99eb8578f90747652a94cbae1",
+				"tarball": "https://registry.npmjs.org/detect-package-manager/-/detect-package-manager-1.1.0.tgz",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCp3nExFaNMZSCFOkudLvNSpQ9Wx82T/pnNCB7l7lhzYgIhAKh64lp45caFZfwOjCU0tUjn7lax6+ZJ3yC+0z79ngyy"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "rem",
+					"email": "0x142857@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/detect-package-manager-1.1.0.tgz_1502464655745_0.1538690954912454"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"2.0.0": {
+			"name": "detect-package-manager",
+			"version": "2.0.0",
+			"description": "Detect which package manager you're using (yarn or npm)",
+			"repository": {
+				"url": "git+https://github.com/egoist/detect-package-manager.git",
+				"type": "git"
+			},
+			"main": "dist/index.js",
+			"module": "dist/index.mjs",
+			"exports": {
+				".": {
+					"require": "./dist/index.js",
+					"default": "./dist/index.mjs"
+				}
+			},
+			"keywords": [
+				"npm",
+				"yarn",
+				"package-manager",
+				"detect",
+				"check",
+				"pnpm"
+			],
+			"scripts": {
+				"build": "tsup src/index.ts --format esm,cjs --dts",
+				"test": "node -r sucrase/register test.ts",
+				"prepublishOnly": "npm run build"
+			},
+			"author": {
+				"name": "egoist",
+				"email": "0x142857@gmail.com"
+			},
+			"license": "MIT",
+			"dependencies": {
+				"execa": "^5.1.1"
+			},
+			"devDependencies": {
+				"@types/node": "^16.11.4",
+				"ava": "^3.15.0",
+				"sucrase": "^3.20.3",
+				"tsup": "^5.4.4",
+				"typescript": "^4.4.4",
+				"uvu": "^0.5.2"
+			},
+			"engines": {
+				"node": ">=12"
+			},
+			"gitHead": "506d75d15ee5ee2de3fe006b3c2398d05889c98c",
+			"bugs": {
+				"url": "https://github.com/egoist/detect-package-manager/issues"
+			},
+			"homepage": "https://github.com/egoist/detect-package-manager#readme",
+			"_id": "detect-package-manager@2.0.0",
+			"_nodeVersion": "14.18.1",
+			"_npmVersion": "6.14.15",
+			"dist": {
+				"integrity": "sha512-u4PEUlOM9SkJhafBbCA51q1omkdu2qPoRBd7SEs95RGz2xJFpgc2CPJ1DITbcQ22R0UkDN3IsEsUP0F27/60mA==",
+				"shasum": "86d1f496a0728009969eaed4b2066482ec2de4f7",
+				"tarball": "https://registry.npmjs.org/detect-package-manager/-/detect-package-manager-2.0.0.tgz",
+				"fileCount": 6,
+				"unpackedSize": 9710,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDNQtkfCPBRctNHSlzSv/l+2K+4RoEld9n3dggk4JF4MgIhAOxnQw6dYn3URaT3w6nIVEnxW9nTxT5M8EuX9z0TFNRg"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "egoist",
+				"email": "0x142857@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "egoist",
+					"email": "0x142857@gmail.com"
+				},
+				{
+					"name": "rem",
+					"email": "shinjisays@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/detect-package-manager_2.0.0_1635046249344_0.6814829584408899"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"2.0.1": {
+			"name": "detect-package-manager",
+			"version": "2.0.1",
+			"description": "Detect which package manager you're using (yarn or npm)",
+			"repository": {
+				"url": "git+https://github.com/egoist/detect-package-manager.git",
+				"type": "git"
+			},
+			"main": "dist/index.js",
+			"module": "dist/index.mjs",
+			"exports": {
+				".": {
+					"require": "./dist/index.js",
+					"default": "./dist/index.mjs"
+				}
+			},
+			"types": "./dist/index.d.ts",
+			"keywords": [
+				"npm",
+				"yarn",
+				"package-manager",
+				"detect",
+				"check",
+				"pnpm"
+			],
+			"scripts": {
+				"build": "tsup src/index.ts --format esm,cjs --dts",
+				"test": "node -r sucrase/register test.ts",
+				"prepublishOnly": "npm run build"
+			},
+			"author": {
+				"name": "egoist",
+				"email": "0x142857@gmail.com"
+			},
+			"license": "MIT",
+			"dependencies": {
+				"execa": "^5.1.1"
+			},
+			"devDependencies": {
+				"@types/node": "^16.11.4",
+				"ava": "^3.15.0",
+				"sucrase": "^3.20.3",
+				"tsup": "^5.4.4",
+				"typescript": "^4.4.4",
+				"uvu": "^0.5.2"
+			},
+			"engines": {
+				"node": ">=12"
+			},
+			"gitHead": "07fb95c4de3e1cf72eadaf1c0fbf9ce0b93111a3",
+			"bugs": {
+				"url": "https://github.com/egoist/detect-package-manager/issues"
+			},
+			"homepage": "https://github.com/egoist/detect-package-manager#readme",
+			"_id": "detect-package-manager@2.0.1",
+			"_nodeVersion": "14.18.1",
+			"_npmVersion": "6.14.15",
+			"dist": {
+				"integrity": "sha512-j/lJHyoLlWi6G1LDdLgvUtz60Zo5GEj+sVYtTVXnYLDPuzgC3llMxonXym9zIwhhUII8vjdw0LXxavpLqTbl1A==",
+				"shasum": "6b182e3ae5e1826752bfef1de9a7b828cffa50d8",
+				"tarball": "https://registry.npmjs.org/detect-package-manager/-/detect-package-manager-2.0.1.tgz",
+				"fileCount": 6,
+				"unpackedSize": 9742,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJh2oGtCRA9TVsSAnZWagAAH1oP/21VX88o52n7zM997zDl\nbF+I906xsM7CRFabZ0TeImLIwHX1IvFq6UQd+N8yqt+eV8dgVQfctj5rt7ds\nQx538LwkyTtjwCkKBHKDHTZvsrAUGieDskVHHaKeKsK2rnQPyxIzHZ3chNGz\nIP4IkJ6UqrlSjn1o+ybsrYdTek7b+3exlRaf95BPEX6ebgUGOYIToYkzNye3\n4f+fBbmwv7wnjK9sOWij8niL4OEs1zJOPakjs+tSFHntNKh2TZwFAlO0Su60\nXlpJfslmzjf65cxU+/cLhqIh6Nq3JcR80M6rlogFbTGCxYcRMuon4fTtqBTx\nffZIO/pW3+q87FJJUghVIPgFO+qwOIIvA2g6FL0vic+msK0aKAkMmkO2Llaa\nm4Q9tYsoOcA/Ok4qsd5wlpgx8zvlXA6Q6b3N3U0lUWifi/VmGPTop3eo8LPe\nCdh87h7NqfEheK/fpv2mg/JQEP4nxtbVVWxY+EeDGMmGpDADi9cKvo6KJv1A\nMi8s7IB966fqhIPRULeUfQYgySLv51rFceYyLiuj6r2x9bZR+WSEVL5SrgTn\nXr5TdxpaVKkL6+HW9jQRjuUIZJrFJO5aW3JhfIyVl8GzIn9i3tX8hEpoCT3r\nGMZCv4ZE1pvLnJZ5+ZsNj9kalLtcgGwunu3IRAv1DBzm6qk9xGRklcMq7zYW\n47Hh\r\n=yAnY\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIHeLCHaTre62wbRShvxtxS41vRkOXIBYwGL1cas7BCKhAiEA1q0AWUn/wspmwD6Q98XS27R/izjJXADIAttr62gnu6Q="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "egoist",
+				"email": "0x142857@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "egoist",
+					"email": "0x142857@gmail.com"
+				},
+				{
+					"name": "rem",
+					"email": "shinjisays@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/detect-package-manager_2.0.1_1635046508960_0.422380421924742"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		}
+	},
+	"time": {
+		"modified": "2022-04-28T10:58:47.880Z",
+		"created": "2017-08-11T14:59:12.111Z",
+		"1.0.0": "2017-08-11T14:59:12.111Z",
+		"1.0.1": "2017-08-11T15:00:26.615Z",
+		"1.1.0": "2017-08-11T15:17:36.002Z",
+		"2.0.0": "2021-10-24T03:30:49.517Z",
+		"2.0.1": "2021-10-24T03:35:09.094Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "2.0.1"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"939e87991380cc17560256e508416c0a\"",
+			"fetched": 1660840775755
+		}
+	},
+	"_distfiles": {
+		"detect-package-manager-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/detect-package-manager/-/detect-package-manager-1.0.0.tgz",
+			"sha": "e355c2916c65289e594e0b63e7887c484483af35",
+			"registry": "npmjs"
+		},
+		"detect-package-manager-1.0.1.tgz": {
+			"url": "https://registry.npmjs.org/detect-package-manager/-/detect-package-manager-1.0.1.tgz",
+			"sha": "e2bd3c6f95f1cd2131335a4906d50bcbef4172cb",
+			"registry": "npmjs"
+		},
+		"detect-package-manager-1.1.0.tgz": {
+			"url": "https://registry.npmjs.org/detect-package-manager/-/detect-package-manager-1.1.0.tgz",
+			"sha": "af05738105d30cf99eb8578f90747652a94cbae1",
+			"registry": "npmjs"
+		},
+		"detect-package-manager-2.0.0.tgz": {
+			"url": "https://registry.npmjs.org/detect-package-manager/-/detect-package-manager-2.0.0.tgz",
+			"sha": "86d1f496a0728009969eaed4b2066482ec2de4f7",
+			"registry": "npmjs"
+		},
+		"detect-package-manager-2.0.1.tgz": {
+			"url": "https://registry.npmjs.org/detect-package-manager/-/detect-package-manager-2.0.1.tgz",
+			"sha": "6b182e3ae5e1826752bfef1de9a7b828cffa50d8",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_rev": "3-d408d69137c02fbd",
+	"_id": "detect-package-manager",
+	"readme": "# detect-package-manager\n\n[![NPM version](https://img.shields.io/npm/v/detect-package-manager.svg?style=flat)](https://npmjs.com/package/detect-package-manager) [![NPM downloads](https://img.shields.io/npm/dm/detect-package-manager.svg?style=flat)](https://npmjs.com/package/detect-package-manager) [![CircleCI](https://circleci.com/gh/egoist/detect-package-manager/tree/master.svg?style=shield)](https://circleci.com/gh/egoist/detect-package-manager/tree/master)  [![donate](https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&style=flat)](https://github.com/egoist/donate)\n\n## How does this work?\n\n1. When there's `yarn.lock`, `package-lock.json`, or `pnpm-lock.yaml` in current working directory, it will skip other operations and directly resolve `yarn`, `npm`, or `pnpm`.\n2. When there's no lockfile found, it checks if `yarn` and `pnpm` command exists. If so, it resolves `yarn` or `pnpm` otherwise `npm`.\n3. Results are cached.\n\n## Install\n\n```bash\nyarn add detect-package-manager\n```\n\n## Usage\n\n```js\nconst { detect } = require('detect-package-manager')\n\ndetect()\n  .then(pm => {\n    console.log(pm)\n    //=> 'yarn', 'npm', or 'pnpm'\n  })\n```\n\n## API\n\n### detect([opts])\n\n- Arguments:\n  - `opts.cwd`: `string` Optional, defaults to `.`, the directory to look up `yarn.lock`, `package-lock.json`, or `pnpm-lock.yaml`.\n- Returns: `Promise<PM>`\n\nIt returns a Promise resolving the name of package manager, could be `npm`, `yarn`, or `pnpm`.\n\n### getNpmVersion([pm])\n\n- Arguments:\n  - `pm`: `string` Optional, defaults to `npm`, could be `npm`, `yarn`, or `pnpm`\n- Returns: `Promise<string>`\n\nIt returns a Promise resolving the version of npm or the package manager you specified.\n\n### clearCache()\n\n- Returns: `void`\n\nClear cache.\n\n## Contributing\n\n1. Fork it!\n2. Create your feature branch: `git checkout -b my-new-feature`\n3. Commit your changes: `git commit -am 'Add some feature'`\n4. Push to the branch: `git push origin my-new-feature`\n5. Submit a pull request :D\n\n\n## Author\n\n**detect-package-manager** © [EGOIST](https://github.com/egoist), Released under the [MIT](./LICENSE) License.<br>\nAuthored and maintained by EGOIST with help from contributors ([list](https://github.com/egoist/detect-package-manager/contributors)).\n\n> [github.com/egoist](https://github.com/egoist) · GitHub [@EGOIST](https://github.com/egoist) · Twitter [@_egoistlily](https://twitter.com/_egoistlily)"
+}

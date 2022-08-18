@@ -1,0 +1,384 @@
+{
+	"name": "@types/npmlog",
+	"versions": {
+		"4.1.0": {
+			"name": "@types/npmlog",
+			"version": "4.1.0",
+			"description": "TypeScript definitions for npmlog",
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "Daniel Schmidt",
+					"url": "https://github.com/DanielMSchmidt",
+					"githubUsername": "DanielMSchmidt"
+				}
+			],
+			"main": "",
+			"repository": {
+				"type": "git",
+				"url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+			},
+			"scripts": {},
+			"dependencies": {},
+			"typesPublisherContentHash": "0c150e3240915a1492c99955188d704ce70bf440bfcec374748371dc289735e4",
+			"typeScriptVersion": "2.4",
+			"_id": "@types/npmlog@4.1.0",
+			"dist": {
+				"integrity": "sha512-oZfpIsiRyeZ7G1HdVhEU0hUfOahUUoWg8dbNQpT48N8I4+KX10RrAxAhJNWhZWjOo5MSfeHNJ28trCKNLdA2VQ==",
+				"shasum": "9484fe94fa59246aedc056ec457ff10850b13051",
+				"tarball": "https://registry.npmjs.org/@types/npmlog/-/npmlog-4.1.0.tgz",
+				"fileCount": 4,
+				"unpackedSize": 4226,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJa4NLeCRA9TVsSAnZWagAA1i0P/3AUQvNz/rJ/q4NiTwVE\nUmawbaWXjTvYcJQ861SbU8G6f51SGo7o2lbKfqx+LJJZ3YBB9jEyPtc7c7Qo\nuZ/5BHVpx8PJGetXrRjam96y3Vfeb6ZG5KWs9Fs0XAgBCDNjuLGTdz9haplZ\nQWQyPl5fCarW5eMmi8rz5MNcGfqR4znikfLHmBuwZwVQs1E49oJxVSlxvncd\nOvqDRlJDTFLUmy/5f6mueMRBeknmdXaIDkkHTNNzC3tBz5gm4ydVSuJdpVto\neIVmWYcFHnHABys3zAuG3NplHvNRXyVunlzmJEDbgUyKn+AqClsRBp0hAsMQ\naNJYtYDO+q0tpnJwHuSU+DsmLvbdOa/3olRWvp1DpLnLdF3AzXbffSPXD9aX\nOruh8UDeVoKQR3cwI6X18sDPjWss+Cg2MWlES3CeUnEbf9Wsn7VDi/4KlpfU\nDkKu4xoCcnNoC5c7r/C8Tln9il5Z1z86UO6TnG7MAlVJjhJIUc+6/VN8YSd9\n1bWi7V4EnQoIgJaI6Os4jkx5+2p5DidfELDQKwCB1lJe2HLBATb/dc9VB7ll\nJEwqU5mJAlnwsPcBN5bV9ZpbGEYUMagkabMTG1M4RbYPDCHE2iMdS/g6rgPy\n8XLj6zJ4qAUy441jDW0/Uc12M13En+GnLXDAMg7/PF/c0MRK6bkxfwBFbNWC\nTiDf\r\n=io6W\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIBEwfEvHidCfbB/58j8BF/F9FsRg5Su1LmS6UG//c5ZYAiEA+qtlqn7XzERMe9GvcUMfmu90GrzZorvu9ZwGMj5H2O4="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/npmlog_4.1.0_1524683484639_0.24193568489629746"
+			},
+			"_hasShrinkwrap": false
+		},
+		"4.1.1": {
+			"name": "@types/npmlog",
+			"version": "4.1.1",
+			"description": "TypeScript definitions for npmlog",
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "Daniel Schmidt",
+					"url": "https://github.com/DanielMSchmidt",
+					"githubUsername": "DanielMSchmidt"
+				},
+				{
+					"name": "Zhu Zijia",
+					"url": "https://github.com/littlepiggy03",
+					"githubUsername": "littlepiggy03"
+				}
+			],
+			"main": "",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+			},
+			"scripts": {},
+			"dependencies": {},
+			"typesPublisherContentHash": "471c65a00902a09c8d4320bb34bfc135240d81809b19deeda0397f591337cac7",
+			"typeScriptVersion": "2.4",
+			"_id": "@types/npmlog@4.1.1",
+			"dist": {
+				"integrity": "sha512-uCZpakN0HrNsX+rZeXwCPByanpTN+dB3iApOrV4uggG955GZOw1YVziEpH6YDE60/+H95Jztg48UQ0NGZ6TPag==",
+				"shasum": "b51cf39a6324a4ede17ef72dfa58a64fbefb39c7",
+				"tarball": "https://registry.npmjs.org/@types/npmlog/-/npmlog-4.1.1.tgz",
+				"fileCount": 4,
+				"unpackedSize": 4558,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbUpXBCRA9TVsSAnZWagAAv94P/AmWskTZdqNOLEcwlr8Q\nVSWqEbSAp5mGxidsJz6WeHN9zflOwk+1cSupADSvbSykIufVDPAX1+zUI+eC\nW5H7D6CQfPcaPqOQ/ArEzmOoedepEoHnjO5ajMIpVJyYILPJigwpGo/y9S0i\n7BV9cx2J7ZNV84VOY+mwN3NvYVOfek3s8CPkoabQUc82ctOVxGRLg9f7YOgn\nAvgH/Q7ufaGUCPrH7A3yGcZuFVlzGGW/Q/x80B/BdJ0q//mGrdLLeXjxwut+\n5ctns1sRiDJlh5oeq8d93F3QuSLGyeFmP/P+8/fsG7x+C7VRa6ySspkYI37I\nVVZ47SXnprcjSFAD9qHszq9OkQIKbUAaju7Zyc5XaLJBlz0sjsCy0lOQdXIL\nkqJFZsrq36Sos3bgZg9cXAFk+rj92WGdYu1Kzw5GVpE5LBMEdiv04ohcHDaO\nI6VpYgUdtHrojezryMym+w4WW6+zTx2V1zJQSeO2651cISkkPod6eDd9plWX\nJKlxLw7Mw+7cTeBTdOimji1zLvnCMYAJ1cHEeIwlpQUnLMlMEisg45Y7yYz/\nHktP8KPaMRYp3aVGJLKaTJeRwwLxNIF5YZXyA8uv6nun4UT4D2FTmh8EqLQH\naqhZ0gWdEY/xvUZgAxCmF1vTCeuMpv+dRsJN3ukBZb94Odq6A7LFBrFpjNaB\neQNi\r\n=MW8a\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIH2f8WDomp3mseyq5+sgS2sx7v6Tqj9RcLvvUqNATmjdAiASIE3vxbgu8Rtekl27SgUTmuRLgd2bbiBrDsdCM6uYFQ=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/npmlog_4.1.1_1532138945117_0.8832195912362748"
+			},
+			"_hasShrinkwrap": false
+		},
+		"4.1.2": {
+			"name": "@types/npmlog",
+			"version": "4.1.2",
+			"description": "TypeScript definitions for npmlog",
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "Daniel Schmidt",
+					"url": "https://github.com/DanielMSchmidt",
+					"githubUsername": "DanielMSchmidt"
+				},
+				{
+					"name": "Zhu Zijia",
+					"url": "https://github.com/littlepiggy03",
+					"githubUsername": "littlepiggy03"
+				},
+				{
+					"name": "Joseph Wynn",
+					"url": "https://github.com/wildlyinaccurate",
+					"githubUsername": "wildlyinaccurate"
+				}
+			],
+			"main": "",
+			"types": "index",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+				"directory": "types/npmlog"
+			},
+			"scripts": {},
+			"dependencies": {},
+			"typesPublisherContentHash": "32c32e70d582f671aaee7db32b16ad823ad6ca09b3a347c35d63e4b3987a5dd2",
+			"typeScriptVersion": "2.4",
+			"_id": "@types/npmlog@4.1.2",
+			"dist": {
+				"integrity": "sha512-4QQmOF5KlwfxJ5IGXFIudkeLCdMABz03RcUXu+LCb24zmln8QW6aDjuGl4d4XPVLf2j+FnjelHTP7dvceAFbhA==",
+				"shasum": "d070fe6a6b78755d1092a3dc492d34c3d8f871c4",
+				"tarball": "https://registry.npmjs.org/@types/npmlog/-/npmlog-4.1.2.tgz",
+				"fileCount": 4,
+				"unpackedSize": 5380,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdE6eaCRA9TVsSAnZWagAAnmoP/18gnKVoerVdpUGWCDdN\n4Ot+ilVBr34uN0zCjSiIm41GUR0+fPeuhjLqh0h0cT5yPlo2zOFDn1LlvEhY\n60E3+UT73VpJVlBe+duzCQaMtXtMmiWQcnM88dHo+b1RXDw006EwcPBAggOg\nXVNmoqkAosD4DQy9BC/aSA1XYrVBBVaaDexbmtAaQlt+hVbqnLI6QzwZAVOt\n4ugeLXnEouS/wM2rGcPKLPeH4ATz6g+RzbyUEy9glgQiB8GvuUq1lVF3Apzu\nseKV5aPw6SQWGXNiT1GBKllzjueWMhTx/bnI8NHzPVb0ZrN7lDuFNin/wUB/\ngP2L9LgFBoCPO3wbJHjS5Gmp1IyGh959wxE7X8qmnD63bactgsHGw4H8W+6n\nMPkBq9SAfA1Yd4ug6ENQPWB6FmN34juWpE27vVlnOaaaQXvfwTINEK0AimIx\npZwmevZYKktvnTM7k/8bt2dg38Kwa+yTPCLUK9j18S3DzWoMvSL32bk6XYKB\ncjdebmGc260qGNtnD6N62P+2F/taq9RXBxx4OHxeZ577fDNg+xdA+wi+kmV3\ngZUWl/R1HPQfhCrIgxNnAGmtq6pPemmqjiUQLBosKJp7NQsIy18BtHvWT7MR\nni0tD0kP+3fEFOPUftX025G+ERMXMF9tHfd1pHuXDLEf6GJmXfDRo/lLVU7f\nKWvf\r\n=7Iy1\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIEZPS+Q49DBU/W/pPnZ/Ex0zoOi74kheegrnqGTnxN1TAiBc5JOkxod3idOABNERSaPqx5zFbORA4P/KCIXoYyIi9g=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/npmlog_4.1.2_1561569177262_0.5528646206398369"
+			},
+			"_hasShrinkwrap": false
+		},
+		"4.1.3": {
+			"name": "@types/npmlog",
+			"version": "4.1.3",
+			"description": "TypeScript definitions for npmlog",
+			"homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/npmlog",
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "Daniel Schmidt",
+					"url": "https://github.com/DanielMSchmidt",
+					"githubUsername": "DanielMSchmidt"
+				},
+				{
+					"name": "Zhu Zijia",
+					"url": "https://github.com/littlepiggy03",
+					"githubUsername": "littlepiggy03"
+				},
+				{
+					"name": "Joseph Wynn",
+					"url": "https://github.com/wildlyinaccurate",
+					"githubUsername": "wildlyinaccurate"
+				}
+			],
+			"main": "",
+			"types": "index.d.ts",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+				"directory": "types/npmlog"
+			},
+			"scripts": {},
+			"dependencies": {},
+			"typesPublisherContentHash": "c7e55c45c5fcb70e228590ad0a9c8efb665af03565b4258a7e95bd26243572a0",
+			"typeScriptVersion": "3.6",
+			"_id": "@types/npmlog@4.1.3",
+			"dist": {
+				"integrity": "sha512-1TcL7YDYCtnHmLhTWbum+IIwLlvpaHoEKS2KNIngEwLzwgDeHaebaEHHbQp8IqzNQ9IYiboLKUjAf7MZqG63+w==",
+				"shasum": "9c24b49a97e25cf15a890ff404764080d7942132",
+				"tarball": "https://registry.npmjs.org/@types/npmlog/-/npmlog-4.1.3.tgz",
+				"fileCount": 4,
+				"unpackedSize": 5518,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJg5df9CRA9TVsSAnZWagAA+H4P/RzR/yQqt0NOHgj8qGod\nOcwmmvCuO44+PGZ6s/nw0Sfx/EKcyt1xHzeUmcjUDIk7No2XTldUSuM7Xl3b\nZAxFWDe+iWHvDKnilhMK3pGXDELsYTUqxyR2yeol0v4wcY3vYEOvVeB61BZr\nqm2LP3M+Uve/WXB3xtPow4gGqeSrQOr3TddOAnDbqdq1dPkups0gxX93Aclc\n/+G5XjUD0sNm9gxETmPqqpbDSB5iB8VWbmEYrS9Z7WNBVquowavYeFOk9whI\nEBy8aO4x3WIVUAm7Wi0yNVWQZQTzLNGNRFDgoMDSNyHA7vbg6LIH55v0ag+i\nYwaYcu4VnOUslmWR5qPfR1Lj1f0S3WrimV1cjiM9mvqBUnxX7DNrdyun5D/6\nALn8Arzzr1/sVn08+vRR8hR6YThx0S7UCdp1PYYYTfKxUSErL7g0JxBM0y/f\n3rUsdZAhSb4ogF9ZxIDsWyRk26yUwMMI3XBPSNPI0VfMU4QmQykOPGBAbIMv\nDI9x8RjCrqBnVehCPYJUi5J6lrpymjQ0SiJEPJrVCvFPJJJnnY8UZzNz/x58\n5Jr+OjbH/euRzeAW9SQBgt1ZG25pPz5aQmWtRjMNt2egcdx6J7AwKKaoIlua\nR2qnr3h9SLlFh+6FKPkowBAahLLbcnTthy4zOg/x9QMXezhVH2jH16BPq7BR\nFoii\r\n=5+nO\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDIvylVXs0XDn7pnsI6dj/+Zi2g67TFXcezWoaRFX/HIQIgdAyVmzgEhBUazCnvHSIMKP2eB6nNZrchicFZ/VYrfS0="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/npmlog_4.1.3_1625675772474_0.5537351585600252"
+			},
+			"_hasShrinkwrap": false
+		},
+		"4.1.4": {
+			"name": "@types/npmlog",
+			"version": "4.1.4",
+			"description": "TypeScript definitions for npmlog",
+			"homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/npmlog",
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "Daniel Schmidt",
+					"url": "https://github.com/DanielMSchmidt",
+					"githubUsername": "DanielMSchmidt"
+				},
+				{
+					"name": "Joseph Wynn",
+					"url": "https://github.com/wildlyinaccurate",
+					"githubUsername": "wildlyinaccurate"
+				}
+			],
+			"main": "",
+			"types": "index.d.ts",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+				"directory": "types/npmlog"
+			},
+			"scripts": {},
+			"dependencies": {},
+			"typesPublisherContentHash": "b7852c065823aa32a77dda5daadab41cfc515a405882879ebafc5cebad315052",
+			"typeScriptVersion": "3.8",
+			"_id": "@types/npmlog@4.1.4",
+			"dist": {
+				"integrity": "sha512-WKG4gTr8przEZBiJ5r3s8ZIAoMXNbOgQ+j/d5O4X3x6kZJRLNvyUJuUK/KoG3+8BaOHPhp2m7WC6JKKeovDSzQ==",
+				"shasum": "30eb872153c7ead3e8688c476054ddca004115f6",
+				"tarball": "https://registry.npmjs.org/@types/npmlog/-/npmlog-4.1.4.tgz",
+				"fileCount": 4,
+				"unpackedSize": 5252,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJhxRC3CRA9TVsSAnZWagAA624QAJOPT035uZyX31OXC+ai\nwNhl24eNtuTVl72EtUGses2JK4BX6tj54ajXygzS1+r3DfzEpe+7rFt7laZb\nTyfN/2sXOmgTiyD0VCupWwe5WnWQqUMnlICPZHb+4NGrsekmmPDFAKPB/Wd8\nrE/7C1ZHE2GQfBmIy7UjPaYMFjv+GuIBMSk85K+LsAAr0mAD4eCzsUgkxyHX\npWQXX6+6DzZ7ryKZBPRT7OBk3lPTrTnDwBIg/q/COjSzkOT0uQdasUwvG4y7\nnIXaKAOGltVKDDuTgZsKPODM9lcekpCcqsxTotXL0idlMu/ZTjJbOgjlP2fD\nUrWDWY0tc1yq757bqwrau9RzCfrgD0bTNMvMzleaFriJMxXJ9/wwwcIEnMR+\npPRtJoB1wjNonH9iAwjZyETzrscPrgjKLJAFj0X7fONYpXaX7UXNgIITx3t/\ncZ/R4HHnt+xecAMGz+D7pMYy4+oO1HP0pDfe7VrhejmJ8e68h56qXpnaymu4\nwdu1jwiFN0wIc2SXnwGybbMzUK9Ny5qFXgA8dnm/ZOwt7ewKCq0+UsXtBPWF\nBn7nH+XtxXCLfbtUE+ms79bQbL/huqJiBycGWjIOK76YuDp65xLC5OBg29gn\n91ZGZYULeDw+JZBq6EZjbJ9RNfMUZU+kWvcdgtoAhjjv+2OszHQ1u4h5v3mm\nx4PF\r\n=BdK8\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIAQwXaM7XBK4P9HuYGWYc8gCmMs3UeSu7p3lIlG8dJQAAiEAiE4Cre3s6yMaRP3kvkiBptbzi3NTJfyVtBjxTXWdx4s="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/npmlog_4.1.4_1640304822967_0.09473984825057191"
+			},
+			"_hasShrinkwrap": false
+		}
+	},
+	"time": {
+		"created": "2018-04-25T19:11:24.544Z",
+		"4.1.0": "2018-04-25T19:11:24.732Z",
+		"modified": "2022-08-15T08:30:43.777Z",
+		"4.1.1": "2018-07-21T02:09:05.222Z",
+		"4.1.2": "2019-06-26T17:12:57.345Z",
+		"4.1.3": "2021-07-07T16:36:12.733Z",
+		"4.1.4": "2021-12-24T00:13:43.112Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "4.1.4",
+		"ts2.4": "4.1.2",
+		"ts2.5": "4.1.2",
+		"ts2.6": "4.1.2",
+		"ts2.7": "4.1.2",
+		"ts2.8": "4.1.2",
+		"ts2.9": "4.1.2",
+		"ts3.0": "4.1.2",
+		"ts3.1": "4.1.2",
+		"ts3.2": "4.1.2",
+		"ts3.3": "4.1.2",
+		"ts3.4": "4.1.2",
+		"ts3.5": "4.1.2",
+		"ts3.6": "4.1.3",
+		"ts3.7": "4.1.3",
+		"ts3.8": "4.1.4",
+		"ts3.9": "4.1.4",
+		"ts4.0": "4.1.4",
+		"ts4.1": "4.1.4",
+		"ts4.2": "4.1.4",
+		"ts4.3": "4.1.4",
+		"ts4.4": "4.1.4",
+		"ts4.5": "4.1.4",
+		"ts4.6": "4.1.4",
+		"ts4.7": "4.1.4",
+		"ts4.8": "4.1.4",
+		"ts4.9": "4.1.4"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"e51cd477e3fe5ea51ef9a725d376d9c3\"",
+			"fetched": 1660840719123
+		}
+	},
+	"_distfiles": {
+		"npmlog-4.1.0.tgz": {
+			"url": "https://registry.npmjs.org/@types/npmlog/-/npmlog-4.1.0.tgz",
+			"sha": "9484fe94fa59246aedc056ec457ff10850b13051",
+			"registry": "npmjs"
+		},
+		"npmlog-4.1.1.tgz": {
+			"url": "https://registry.npmjs.org/@types/npmlog/-/npmlog-4.1.1.tgz",
+			"sha": "b51cf39a6324a4ede17ef72dfa58a64fbefb39c7",
+			"registry": "npmjs"
+		},
+		"npmlog-4.1.2.tgz": {
+			"url": "https://registry.npmjs.org/@types/npmlog/-/npmlog-4.1.2.tgz",
+			"sha": "d070fe6a6b78755d1092a3dc492d34c3d8f871c4",
+			"registry": "npmjs"
+		},
+		"npmlog-4.1.3.tgz": {
+			"url": "https://registry.npmjs.org/@types/npmlog/-/npmlog-4.1.3.tgz",
+			"sha": "9c24b49a97e25cf15a890ff404764080d7942132",
+			"registry": "npmjs"
+		},
+		"npmlog-4.1.4.tgz": {
+			"url": "https://registry.npmjs.org/@types/npmlog/-/npmlog-4.1.4.tgz",
+			"sha": "30eb872153c7ead3e8688c476054ddca004115f6",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_rev": "3-0c3f1cb6394780e8",
+	"_id": "@types/npmlog",
+	"readme": "# Installation\r\n> `npm install --save @types/npmlog`\r\n\r\n# Summary\r\nThis package contains type definitions for npmlog (https://github.com/npm/npmlog#readme).\r\n\r\n# Details\r\nFiles were exported from https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/npmlog.\r\n\r\n### Additional Details\r\n * Last updated: Thu, 23 Dec 2021 23:35:13 GMT\r\n * Dependencies: none\r\n * Global values: none\r\n\r\n# Credits\r\nThese definitions were written by [Daniel Schmidt](https://github.com/DanielMSchmidt), and [Joseph Wynn](https://github.com/wildlyinaccurate)."
+}

@@ -1,0 +1,522 @@
+{
+	"name": "p-all",
+	"versions": {
+		"1.0.0": {
+			"name": "p-all",
+			"version": "1.0.0",
+			"description": "Run promise-returning & async functions concurrently with optional limited concurrency",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sindresorhus/p-all.git"
+			},
+			"author": {
+				"name": "Sindre Sorhus",
+				"email": "sindresorhus@gmail.com",
+				"url": "sindresorhus.com"
+			},
+			"engines": {
+				"node": ">=4"
+			},
+			"scripts": {
+				"test": "xo && ava"
+			},
+			"files": [
+				"index.js"
+			],
+			"keywords": [
+				"promise",
+				"all",
+				"function",
+				"func",
+				"fn",
+				"limited",
+				"limit",
+				"control",
+				"rate",
+				"collection",
+				"iterable",
+				"iterator",
+				"fulfilled",
+				"async",
+				"await",
+				"promises",
+				"concurrent",
+				"concurrently",
+				"concurrency",
+				"parallel",
+				"bluebird"
+			],
+			"dependencies": {
+				"p-map": "^1.0.0"
+			},
+			"devDependencies": {
+				"ava": "*",
+				"delay": "^1.3.1",
+				"xo": "*"
+			},
+			"xo": {
+				"esnext": true
+			},
+			"gitHead": "07c14a2c175536d4e20ded04966c8b08503cd391",
+			"bugs": {
+				"url": "https://github.com/sindresorhus/p-all/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/p-all#readme",
+			"_id": "p-all@1.0.0",
+			"_shasum": "93bdf53a55a23821fdfa98b4174a99bf7f31df8d",
+			"_from": ".",
+			"_npmVersion": "2.15.9",
+			"_nodeVersion": "4.6.0",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"dist": {
+				"shasum": "93bdf53a55a23821fdfa98b4174a99bf7f31df8d",
+				"tarball": "https://registry.npmjs.org/p-all/-/p-all-1.0.0.tgz",
+				"integrity": "sha512-OtbznqfGjQT+i89LK9C9YPh1G8d6n8xgsJ8yRVXrx6PRXrlOthNJhP+dHxrPopty8fugYb1DodpwrzP7z0Mtvw==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIBWW+nijJ2/ZU2DMKdhPjWCPyTeYfEaIyUiFLwuKZqcqAiBb5gYywbbFc2PdPKnm8TrxrcMwTcAr/+cUjBgrrmlrnA=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/p-all-1.0.0.tgz_1477022431094_0.6343138518277556"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"2.0.0": {
+			"name": "p-all",
+			"version": "2.0.0",
+			"description": "Run promise-returning & async functions concurrently with optional limited concurrency",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sindresorhus/p-all.git"
+			},
+			"author": {
+				"name": "Sindre Sorhus",
+				"email": "sindresorhus@gmail.com",
+				"url": "sindresorhus.com"
+			},
+			"engines": {
+				"node": ">=6"
+			},
+			"scripts": {
+				"test": "xo && ava && tsd-check"
+			},
+			"keywords": [
+				"promise",
+				"all",
+				"function",
+				"func",
+				"fn",
+				"limited",
+				"limit",
+				"control",
+				"rate",
+				"collection",
+				"iterable",
+				"iterator",
+				"fulfilled",
+				"async",
+				"await",
+				"promises",
+				"concurrent",
+				"concurrently",
+				"concurrency",
+				"parallel",
+				"bluebird"
+			],
+			"dependencies": {
+				"p-map": "^2.0.0"
+			},
+			"devDependencies": {
+				"ava": "^1.2.1",
+				"delay": "^4.1.0",
+				"tsd-check": "^0.3.0",
+				"xo": "^0.24.0"
+			},
+			"gitHead": "df07dc509a62e8a83c178c95c79488de553716f7",
+			"bugs": {
+				"url": "https://github.com/sindresorhus/p-all/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/p-all#readme",
+			"_id": "p-all@2.0.0",
+			"_nodeVersion": "10.15.1",
+			"_npmVersion": "6.8.0",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-LJxRBJjRsMpvAAATYZDgW1y8mt/26hD9by0JpzdhzGVTt9Uf6I5EDlWxaOF2XcKvH2SaLYambtNNlzoD+Sn1/A==",
+				"shasum": "e2e834d2dc1f2b9896c57611f727afac742a6e0a",
+				"tarball": "https://registry.npmjs.org/p-all/-/p-all-2.0.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 8223,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcesXfCRA9TVsSAnZWagAAQBQP/A3e2H/7XNDk0tfMQ3HU\nX/yCKbcBJd3UltZfdpQrIa5gRS99T6uvhM55IpYryJnijPosS+WvSkK3vFJL\n99ZTHK2aU9PGhIIXGFmox8Gh2wsEUicRUqy6aJrFcCe7dzODYD8gsIW2sXLl\nAuvvob3v4UvUULkdxEhdRj7XpYV9q4pbKV9eCOm3AGg3zBGmYOk44h2OSrm5\njca9D88iz+RPxbNAoH5mKHUyjmyM4uA1xyjuiQJ7dVwet7Hu0EcFmP6dxOPw\nyrT3FNh++vOYsalpr8lstX34g9p/eAofG3YsCAC+DsdDbpd97k4pBysaHOho\n6kiid1pkcHDfsy7ZV53kW1n0HltUHCASpTibXoeaPsXQ+GND1fnytGbRJqT6\n1vvuUWuCovagwTgiFWJdjxu875vl8v859q8BRXXHd+vWoTKdtUwzjI+ZSt3V\nDTmB9EEUqTn0A0MPTIecHUCXHAO90IlNwFKL/Fr5dqNJlVV+j7DUMQNf4JLd\nDB8/aMRuOVIHc91Bw5jXWzF9ZZUBC7cvvC4B8EzYBLOOnDJUTk53s/vlk6cr\nV94LYo1M+pEr+I97Bnpf8vabs0Ej44LDTj9O/cYBWYHJu3jyqSuhF809zsO3\n2JPR/LLZtMgouAyrpqdZQ0St14wdFTzO5hu8V4EzAHuxvnvfFTtG+oXVv2WB\nDCIV\r\n=k963\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDjDKuWW7c49i0lQnhRLnW6DlC7zGOrdDsoratnHYFx9wIhAJjsGaEYiZRPeuUwWXt5cYzPxVCEAcaYLbVhSuT3YwF7"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/p-all_2.0.0_1551549918574_0.7222103916313662"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"2.1.0": {
+			"name": "p-all",
+			"version": "2.1.0",
+			"description": "Run promise-returning & async functions concurrently with optional limited concurrency",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sindresorhus/p-all.git"
+			},
+			"author": {
+				"name": "Sindre Sorhus",
+				"email": "sindresorhus@gmail.com",
+				"url": "sindresorhus.com"
+			},
+			"engines": {
+				"node": ">=6"
+			},
+			"scripts": {
+				"test": "xo && ava && tsd"
+			},
+			"keywords": [
+				"promise",
+				"all",
+				"function",
+				"func",
+				"fn",
+				"limited",
+				"limit",
+				"control",
+				"rate",
+				"collection",
+				"iterable",
+				"iterator",
+				"fulfilled",
+				"async",
+				"await",
+				"promises",
+				"concurrent",
+				"concurrently",
+				"concurrency",
+				"parallel",
+				"bluebird"
+			],
+			"dependencies": {
+				"p-map": "^2.0.0"
+			},
+			"devDependencies": {
+				"ava": "^1.4.1",
+				"delay": "^4.1.0",
+				"tsd": "^0.7.2",
+				"xo": "^0.24.0"
+			},
+			"gitHead": "8ff0daf4ae663841fa5f09fa856bbb3d8750c7bc",
+			"bugs": {
+				"url": "https://github.com/sindresorhus/p-all/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/p-all#readme",
+			"_id": "p-all@2.1.0",
+			"_nodeVersion": "8.15.0",
+			"_npmVersion": "6.9.0",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-HbZxz5FONzz/z2gJfk6bFca0BCiSRF8jU3yCsWOen/vR6lZjfPOu/e7L3uFzTW1i0H8TlC3vqQstEJPQL4/uLA==",
+				"shasum": "91419be56b7dee8fe4c5db875d55e0da084244a0",
+				"tarball": "https://registry.npmjs.org/p-all/-/p-all-2.1.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 8963,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcqFBcCRA9TVsSAnZWagAAzw4P/idrct92CPVmpMzGLgS9\nCqXDkMTbrQ6WwQopoS68rqRpiLNHPrWxp20TmI4GaMSvRMi5t1tv/NSeYzXZ\ne2E1rE9UDcgHvbuwhEuGZdpJHTl7o7sm4GGcr3zbbxW9qWf0c3KddTAkXSwa\nVUtWrygqjUtWNCvjWs0JsJ/2v5Q+oLpC1VJ7TR+LLu7XVonBNAipA8dFvchk\nRcYl2qqH97LgPfgR2r5FM1s6KkXChvd7djKfOLPk5aidcYayTcsST0mdkGzB\nzUO7t2eRYeG8zgBiuovy5rjoNh3jqzVXH7xDxImdLp9VpGU0yljyKL0fqmi0\nkU8kXmY7Q48B3S+uM42xqkNY3ItZorY5CVi64EbK4xxsVfqgizmGGZGBvKTt\nID8brAsxl2v48b+Wb0tfmBprzSYs3Hn0jQvoWAeWj1ecD+NKZmfu+xv8yVF/\n2OG9MEejTNmM70nWUfcDcNknE3uNZfkbScwHPNFclcRYH5I7VMeI+mo5OyKD\nQxkvrWZDniQhdRPvlJO+U/Etnq0u60Uz++Vt23rfhLkaCKzZTX5vk6yCGT4g\ngJG5CkavSMEOoslIu/rHD2h9uUAosYQFTRW4cbkn+wHGDAfyMUnQdMrGhedP\nc0Lr7QUPVc4wFZtgGvz4nQSVDeI8rZRIaUaSwOoZUIGPY3e0gwmndu5p2yQm\nyiP1\r\n=WU42\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIAbx7x1MFS6/fQrVjD7DaPJEFeIynneQntmxijQel5miAiAIQb0Uf8sVJAJTy5k0rXuLPRHuce/DCaiD6xGLTPhOlQ=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/p-all_2.1.0_1554534491775_0.5350484940644584"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.0.0": {
+			"name": "p-all",
+			"version": "3.0.0",
+			"description": "Run promise-returning & async functions concurrently with optional limited concurrency",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sindresorhus/p-all.git"
+			},
+			"funding": "https://github.com/sponsors/sindresorhus",
+			"author": {
+				"name": "Sindre Sorhus",
+				"email": "sindresorhus@gmail.com",
+				"url": "https://sindresorhus.com"
+			},
+			"engines": {
+				"node": ">=10"
+			},
+			"scripts": {
+				"test": "xo && ava && tsd"
+			},
+			"keywords": [
+				"promise",
+				"all",
+				"function",
+				"func",
+				"fn",
+				"limited",
+				"limit",
+				"control",
+				"rate",
+				"collection",
+				"iterable",
+				"iterator",
+				"fulfilled",
+				"async",
+				"await",
+				"promises",
+				"concurrent",
+				"concurrently",
+				"concurrency",
+				"parallel",
+				"bluebird"
+			],
+			"dependencies": {
+				"p-map": "^4.0.0"
+			},
+			"devDependencies": {
+				"ava": "^1.4.1",
+				"delay": "^4.1.0",
+				"tsd": "^0.11.0",
+				"xo": "^0.28.0"
+			},
+			"gitHead": "8d8f123a6cc56d01576edf479476fa9a2e149947",
+			"bugs": {
+				"url": "https://github.com/sindresorhus/p-all/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/p-all#readme",
+			"_id": "p-all@3.0.0",
+			"_nodeVersion": "10.18.1",
+			"_npmVersion": "6.14.2",
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-qUZbvbBFVXm6uJ7U/WDiO0fv6waBMbjlCm4E66oZdRR+egswICarIdHyVSZZHudH8T5SF8x/JG0q0duFzPnlBw==",
+				"shasum": "077c023c37e75e760193badab2bad3ccd5782bfb",
+				"tarball": "https://registry.npmjs.org/p-all/-/p-all-3.0.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 9005,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJedxXdCRA9TVsSAnZWagAAdroQAJS0qxrYtgSkWC7FxiNQ\nvbo5B8hwbJjXsqbg8rHZqwNB9XoQezZ66eBanzhn1Y3a7ayPQ0ImyEWlQG4+\nirfsPOnK/YZ01QboA0YWSv61ItXzfH2YeDjZk8K+slvIVaNZLXe6q0lz6CvD\nWhlChTMxEB+qiBQobchKGE/jd5dzhz6bUIKzjh/+QjGRDbpkmxYKrlSkHD3O\ntJ+D+w5fBRTvfUwgUc+Em1OfqgzeiaG0+myYmlJg5d06I3MeWEtuEXMFOM4C\nZQ7232nHS+kSYDBTOlhDZvQ71tfnCo/Z58oDYdIdYqGPz2nOSIEpvr49qOu4\n+CJ7js+FAXPa851z8c2MUn4dFSjNHLladWg72leCS9/ZWlHKpupE62E/Xs5C\nIdy4Daiqb16IJuGr6uZZHo5KCqwh+pPViC+KJ8Bhjv1qmIeB/naIsW/BN+DL\n+Vq/5RsMghOZC5bEr8WGlxug5tkriNUsjw/PeamPtvEayjYgMYNadv0XeQKv\nVObwqRHRZJJFCl1ZbK8DBOVGC8qw+jIl3P6l9CS2NH39zpAhsi5uIZLLsy3V\nD4HM7VRkQHuv203wJK970BKhuMgDJrW5VzD7+4+I+d/7RujctQYD8MUuyDFA\n9rouQ/W5uSiUJO3bWylb/bslguIz9lYez646hURSs0RB5/9RAqaoZ8nDfJzl\ndcAm\r\n=zuOh\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCYHKD1StMyElk0VLJtTgeNKAEOWjrqynsxxzhGbkWAAgIhAJjsnFK0soWbgRkydjT7edLdy6Gr8HU7W2FJ/Oaejujq"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/p-all_3.0.0_1584862685133_0.6238690834209515"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"4.0.0": {
+			"name": "p-all",
+			"version": "4.0.0",
+			"description": "Run promise-returning & async functions concurrently with optional limited concurrency",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sindresorhus/p-all.git"
+			},
+			"funding": "https://github.com/sponsors/sindresorhus",
+			"author": {
+				"name": "Sindre Sorhus",
+				"email": "sindresorhus@gmail.com",
+				"url": "https://sindresorhus.com"
+			},
+			"type": "module",
+			"exports": "./index.js",
+			"engines": {
+				"node": ">=12.20"
+			},
+			"scripts": {
+				"test": "xo && ava && tsd"
+			},
+			"keywords": [
+				"promise",
+				"all",
+				"function",
+				"func",
+				"fn",
+				"limited",
+				"limit",
+				"control",
+				"rate",
+				"collection",
+				"iterable",
+				"iterator",
+				"fulfilled",
+				"async",
+				"await",
+				"promises",
+				"concurrent",
+				"concurrently",
+				"concurrency",
+				"parallel",
+				"bluebird"
+			],
+			"dependencies": {
+				"p-map": "^5.0.0"
+			},
+			"devDependencies": {
+				"ava": "^3.15.0",
+				"delay": "^5.0.0",
+				"tsd": "^0.16.0",
+				"xo": "^0.40.1"
+			},
+			"gitHead": "df11988fd1de75e5318eb1786eae30f214a8d776",
+			"bugs": {
+				"url": "https://github.com/sindresorhus/p-all/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/p-all#readme",
+			"_id": "p-all@4.0.0",
+			"_nodeVersion": "12.22.1",
+			"_npmVersion": "7.10.0",
+			"dist": {
+				"integrity": "sha512-QXqMc8PpYu0gmNM6VcKP0uYqeI+dtvSNeaDb8ktnNjposr+nftHHCSYbj/S/oUceF6R868jw1XOxkJKUSiHgEQ==",
+				"shasum": "fd0d57391727646da85cfe9595b9215617982c19",
+				"tarball": "https://registry.npmjs.org/p-all/-/p-all-4.0.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 5567,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgtI/nCRA9TVsSAnZWagAAkNIP/RaB9gBQuHhROniO7iQX\ngLE8a6DYhXSbnAL3qMNnEP4yBIfJZ7yp/0dxyC6Y5mlvMvLO+O9bf1xSAmPL\nFuIc7xFjsv8tnZYZKCNDakDSBVzqsQ9IwBOkxRbkNke2o7yjbTEFsw4fAf7F\nHgtje5N18IvyBzZn/QFWmHxEcXpRlyu0/pCfwMcjsOkYogb9VYJVlw1t0H4C\nUbZn6WyJcwUfDHFKcuF4JrajNsDTQCiujajbgv+QAgQFxud0veXkjO8YrNPe\nE1Yx33Q1KVMkEEGAk88sTHLu2FPaWj+57B5/mUEsGrM8AFWqqds6fuNRxlur\nW/JIR5a2KyT9vTxJIgkYdMSxCoRd7pSKrGZckMtnU/N0B41sYXCC/fXBk7Er\nkFIpiXfM/VPSD7LjHRDoRpz5y8QXKHldF1JAaTdz/OJwRqhPlNTRW5MAPT3+\n/Z9J9XO1nrVAbpXWzysPupyjDYU9eECEn8S70fMZ/c+3g2GVtHBkaO4baF3B\n6Wb28IyAo5i0YeUzK8PAMy7sw742s1IGFpvx4Tzew812V30STv8modZ9qP9u\ngozxclgV2vU5B0SxDLBc3E1Jamr9JFS+FS5wSx6MueUcRoj3fz7wXvZ/VIAD\nrYmfrPCi8xB7uU21c6q0MGbsG1fWPFGvYOOp0tJimirLHT8rowBbSUkM13S5\nDvGo\r\n=QSRN\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIAYdwEnw/stnM0jij0jGVMrs9C0IyqOgczWpWrm84dCiAiEA2F/XP6N3lJOF6DYMrXDPK4YU71XqIDbW3h+G2UNECtQ="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/p-all_4.0.0_1622446055083_0.09560125965042987"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		}
+	},
+	"time": {
+		"modified": "2022-06-23T05:41:48.442Z",
+		"created": "2016-10-21T04:00:33.246Z",
+		"1.0.0": "2016-10-21T04:00:33.246Z",
+		"2.0.0": "2019-03-02T18:05:18.746Z",
+		"2.1.0": "2019-04-06T07:08:11.913Z",
+		"3.0.0": "2020-03-22T07:38:05.234Z",
+		"4.0.0": "2021-05-31T07:27:35.245Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "4.0.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"f28b19ac00ffaf21d9d097bf1d8633ce\"",
+			"fetched": 1660840776665
+		}
+	},
+	"_distfiles": {
+		"p-all-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/p-all/-/p-all-1.0.0.tgz",
+			"sha": "93bdf53a55a23821fdfa98b4174a99bf7f31df8d",
+			"registry": "npmjs"
+		},
+		"p-all-2.0.0.tgz": {
+			"url": "https://registry.npmjs.org/p-all/-/p-all-2.0.0.tgz",
+			"sha": "e2e834d2dc1f2b9896c57611f727afac742a6e0a",
+			"registry": "npmjs"
+		},
+		"p-all-2.1.0.tgz": {
+			"url": "https://registry.npmjs.org/p-all/-/p-all-2.1.0.tgz",
+			"sha": "91419be56b7dee8fe4c5db875d55e0da084244a0",
+			"registry": "npmjs"
+		},
+		"p-all-3.0.0.tgz": {
+			"url": "https://registry.npmjs.org/p-all/-/p-all-3.0.0.tgz",
+			"sha": "077c023c37e75e760193badab2bad3ccd5782bfb",
+			"registry": "npmjs"
+		},
+		"p-all-4.0.0.tgz": {
+			"url": "https://registry.npmjs.org/p-all/-/p-all-4.0.0.tgz",
+			"sha": "fd0d57391727646da85cfe9595b9215617982c19",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_rev": "3-72e2e87f9647a77e",
+	"_id": "p-all",
+	"readme": "# p-all\n\n> Run promise-returning & async functions concurrently with optional limited concurrency\n\nSimilar to `Promise.all()`, but accepts functions instead of promises directly so you can limit the concurrency.\n\nIf you're doing the same work in each function, use [`p-map`](https://github.com/sindresorhus/p-map) instead.\n\nSee [`p-series`](https://github.com/sindresorhus/p-series) for a serial counterpart.\n\n## Install\n\n```\n$ npm install p-all\n```\n\n## Usage\n\n```js\nimport pAll from 'p-all';\nimport got from 'got';\n\nconst actions = [\n\t() => got('https://sindresorhus.com'),\n\t() => got('https://avajs.dev'),\n\t() => checkSomething(),\n\t() => doSomethingElse()\n];\n\nconsole.log(await pAll(actions, {concurrency: 2}));\n```\n\n## API\n\n### pAll(tasks, options?)\n\nReturns a `Promise` that is fulfilled when all promises returned from calling the functions in `tasks` are fulfilled, or rejects if any of the promises reject. The fulfilled value is an `Array` of the fulfilled values in `tasks` order.\n\n#### tasks\n\nType: `Iterable<Function>`\n\nIterable with promise-returning/async functions.\n\n#### options\n\nType: `object`\n\n##### concurrency\n\nType: `number`\\\nDefault: `Infinity`\\\nMinimum: `1`\n\nNumber of concurrent pending promises.\n\n##### stopOnError\n\nType: `boolean`\\\nDefault: `true`\n\nWhen set to `false`, instead of stopping when a promise rejects, it will wait for all the promises to settle and then reject with an [aggregated error](https://github.com/sindresorhus/aggregate-error) containing all the errors from the rejected promises.\n\n## Related\n\n- [p-map](https://github.com/sindresorhus/p-map) - Map over promises concurrently\n- [p-series](https://github.com/sindresorhus/p-series) - Run promise-returning & async functions in series\n- [p-props](https://github.com/sindresorhus/p-props) - Like `Promise.all()` but for `Map` and `Object`\n- [p-queue](https://github.com/sindresorhus/p-queue) - Promise queue with concurrency control\n- [p-limit](https://github.com/sindresorhus/p-limit) - Run multiple promise-returning & async functions with limited concurrency\n- [More…](https://github.com/sindresorhus/promise-fun)"
+}

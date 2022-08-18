@@ -1,0 +1,590 @@
+{
+	"name": "webpack-filter-warnings-plugin",
+	"versions": {
+		"1.0.0": {
+			"name": "webpack-filter-warnings-plugin",
+			"version": "1.0.0",
+			"description": "Allows you to hide certain warnings from webpack compilations",
+			"main": "dist/cjs.js",
+			"scripts": {
+				"test": "jest",
+				"start": "npm run build -- -w",
+				"build": "cross-env NODE_ENV=production babel src -d dist --ignore 'src/**/*.test.js'",
+				"clean": "del-cli dist",
+				"lint": "eslint --cache src test",
+				"lint-staged": "lint-staged",
+				"prebuild": "npm run clean",
+				"prepublish": "npm run build",
+				"release": "standard-version",
+				"security": "nsp check",
+				"test:watch": "jest --watch",
+				"test:coverage": "jest --collectCoverageFrom='src/**/*.js' --coverage",
+				"travis:lint": "npm run lint && npm run security",
+				"travis:test": "npm run test -- --runInBand",
+				"travis:coverage": "npm run test:coverage -- --runInBand"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/mattlewis92/webpack-filter-warnings-plugin.git"
+			},
+			"keywords": [
+				"webpack plugin"
+			],
+			"author": {
+				"name": "Matt Lewis"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mattlewis92/webpack-filter-warnings-plugin/issues"
+			},
+			"homepage": "https://github.com/mattlewis92/webpack-filter-warnings-plugin#readme",
+			"files": [
+				"dist"
+			],
+			"engines": {
+				"node": ">= 4.3 < 5.0.0 || >= 5.10"
+			},
+			"peerDependencies": {
+				"webpack": "^2.0.0 || ^3.0.0"
+			},
+			"pre-commit": "lint-staged",
+			"lint-staged": {
+				"*.js": [
+					"eslint --fix",
+					"git add"
+				]
+			},
+			"devDependencies": {
+				"babel-cli": "^6.24.1",
+				"babel-jest": "^20.0.3",
+				"babel-plugin-transform-object-rest-spread": "^6.23.0",
+				"babel-polyfill": "^6.23.0",
+				"babel-preset-env": "^1.6.0",
+				"cross-env": "^5.0.1",
+				"del-cli": "^1.1.0",
+				"eslint": "^4.3.0",
+				"eslint-config-webpack": "^1.2.5",
+				"eslint-plugin-import": "^2.7.0",
+				"jest": "^20.0.4",
+				"lint-staged": "^4.0.2",
+				"memory-fs": "^0.4.1",
+				"nsp": "^2.7.0",
+				"pre-commit": "^1.2.2",
+				"standard-version": "^4.2.0",
+				"webpack": "^3.4.1"
+			},
+			"gitHead": "aa64f57674e5e787ab0baafe8a156fd028efeab2",
+			"_id": "webpack-filter-warnings-plugin@1.0.0",
+			"_npmVersion": "5.3.0",
+			"_nodeVersion": "8.2.1",
+			"_npmUser": {
+				"name": "mattlewis92",
+				"email": "matthew.lewis@socialsignin.co.uk"
+			},
+			"dist": {
+				"integrity": "sha512-Zj/6QuRDOHsFlgHzUwGpE1HL5gMvHhEp7LUFOtx6w36vI4d75EgpOlbUTsvL/v6zAVm2eH6MJCY10f2efh483A==",
+				"shasum": "4f308e904834b21d1247ce546787daccf51fddc8",
+				"tarball": "https://registry.npmjs.org/webpack-filter-warnings-plugin/-/webpack-filter-warnings-plugin-1.0.0.tgz",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDMykbGFkxVMmT9cyR0wVbo1OMDbzWJ1dBRzaWVV9wt7AIgbd13DwoRACVapFNmG8wjwfim6cqkUxtAzX32iBXKlu4="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "mattlewis92",
+					"email": "matthew.lewis@socialsignin.co.uk"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/webpack-filter-warnings-plugin-1.0.0.tgz_1501522389729_0.2928685194347054"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.1.0": {
+			"name": "webpack-filter-warnings-plugin",
+			"version": "1.1.0",
+			"description": "Allows you to hide certain warnings from webpack compilations",
+			"main": "dist/cjs.js",
+			"scripts": {
+				"test": "jest",
+				"start": "npm run build -- -w",
+				"build": "cross-env NODE_ENV=production babel src -d dist --ignore 'src/**/*.test.js'",
+				"clean": "del-cli dist",
+				"lint": "eslint --cache src test",
+				"lint-staged": "lint-staged",
+				"prebuild": "npm run clean",
+				"prepublish": "npm run build",
+				"release": "standard-version",
+				"security": "nsp check",
+				"test:watch": "jest --watch",
+				"test:coverage": "jest --collectCoverageFrom='src/**/*.js' --coverage",
+				"travis:lint": "npm run lint && npm run security",
+				"travis:test": "npm run test -- --runInBand",
+				"travis:coverage": "npm run test:coverage -- --runInBand"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/mattlewis92/webpack-filter-warnings-plugin.git"
+			},
+			"keywords": [
+				"webpack plugin"
+			],
+			"author": {
+				"name": "Matt Lewis"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mattlewis92/webpack-filter-warnings-plugin/issues"
+			},
+			"homepage": "https://github.com/mattlewis92/webpack-filter-warnings-plugin#readme",
+			"files": [
+				"dist"
+			],
+			"engines": {
+				"node": ">= 4.3 < 5.0.0 || >= 5.10"
+			},
+			"peerDependencies": {
+				"webpack": "^2.0.0 || ^3.0.0"
+			},
+			"pre-commit": "lint-staged",
+			"lint-staged": {
+				"*.js": [
+					"eslint --fix",
+					"git add"
+				]
+			},
+			"devDependencies": {
+				"babel-cli": "^6.24.1",
+				"babel-jest": "^20.0.3",
+				"babel-plugin-transform-object-rest-spread": "^6.23.0",
+				"babel-polyfill": "^6.23.0",
+				"babel-preset-env": "^1.6.0",
+				"cross-env": "^5.0.1",
+				"del-cli": "^1.1.0",
+				"eslint": "^4.3.0",
+				"eslint-config-webpack": "^1.2.5",
+				"eslint-plugin-import": "^2.7.0",
+				"jest": "^20.0.4",
+				"lint-staged": "^4.0.2",
+				"memory-fs": "^0.4.1",
+				"nsp": "^2.7.0",
+				"pre-commit": "^1.2.2",
+				"standard-version": "^4.2.0",
+				"webpack": "^3.4.1"
+			},
+			"gitHead": "7cb0d4e89148b7b7ae0cada63618a4ea16fd3c7b",
+			"_id": "webpack-filter-warnings-plugin@1.1.0",
+			"_npmVersion": "5.3.0",
+			"_nodeVersion": "8.2.1",
+			"_npmUser": {
+				"name": "mattlewis92",
+				"email": "matthew.lewis@socialsignin.co.uk"
+			},
+			"dist": {
+				"integrity": "sha512-3hrwrkkQoUIbWzSeiIeTmTB3ZxFTrynmqdEQs3Jk0CYgJeKD2WVb8FKznoIFr9nV+V+Gx+AMVt052uZ2q+9QLw==",
+				"shasum": "bafbe25827ad91213bc352b945409e8c509881b5",
+				"tarball": "https://registry.npmjs.org/webpack-filter-warnings-plugin/-/webpack-filter-warnings-plugin-1.1.0.tgz",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIHcLAhJJW/G3DqKHVjTsa1m7qHgfI82P1bXD2+IWJfJBAiAirJZKCdFzt/rIYkKjEGWjNGLyDo8gNM2sY7M483jACg=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "mattlewis92",
+					"email": "matthew.lewis@socialsignin.co.uk"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/webpack-filter-warnings-plugin-1.1.0.tgz_1501524237113_0.8903578368481249"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.2.0": {
+			"name": "webpack-filter-warnings-plugin",
+			"version": "1.2.0",
+			"description": "Allows you to hide certain warnings from webpack compilations",
+			"main": "dist/cjs.js",
+			"scripts": {
+				"test": "jest",
+				"start": "npm run build -- -w",
+				"build": "cross-env NODE_ENV=production babel src -d dist --ignore 'src/**/*.test.js'",
+				"clean": "del-cli dist",
+				"lint": "eslint --cache src test",
+				"lint-staged": "lint-staged",
+				"prebuild": "npm run clean",
+				"prepublish": "npm run build",
+				"release": "standard-version",
+				"security": "nsp check",
+				"test:watch": "jest --watch",
+				"test:coverage": "jest --collectCoverageFrom='src/**/*.js' --coverage",
+				"travis:lint": "npm run lint && npm run security",
+				"travis:test": "npm run test -- --runInBand",
+				"travis:coverage": "npm run test:coverage -- --runInBand"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/mattlewis92/webpack-filter-warnings-plugin.git"
+			},
+			"keywords": [
+				"webpack plugin"
+			],
+			"author": {
+				"name": "Matt Lewis"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mattlewis92/webpack-filter-warnings-plugin/issues"
+			},
+			"homepage": "https://github.com/mattlewis92/webpack-filter-warnings-plugin#readme",
+			"files": [
+				"dist"
+			],
+			"engines": {
+				"node": ">= 4.3 < 5.0.0 || >= 5.10"
+			},
+			"peerDependencies": {
+				"webpack": "^2.0.0 || ^3.0.0 || ^4.0.0"
+			},
+			"pre-commit": "lint-staged",
+			"lint-staged": {
+				"*.js": [
+					"eslint --fix",
+					"git add"
+				]
+			},
+			"devDependencies": {
+				"babel-cli": "^6.24.1",
+				"babel-jest": "^22.4.1",
+				"babel-plugin-transform-object-rest-spread": "^6.23.0",
+				"babel-polyfill": "^6.23.0",
+				"babel-preset-env": "^1.6.0",
+				"cross-env": "^5.0.1",
+				"del-cli": "^1.1.0",
+				"eslint": "^4.3.0",
+				"eslint-config-webpack": "^1.2.5",
+				"eslint-plugin-import": "^2.7.0",
+				"jest": "^22.4.2",
+				"lint-staged": "^7.0.0",
+				"memory-fs": "^0.4.1",
+				"nsp": "^3.2.1",
+				"pre-commit": "^1.2.2",
+				"standard-version": "^4.2.0",
+				"webpack": "^4.1.0"
+			},
+			"gitHead": "55d26a1677d1ba6debc56b344e5cc89a842327d4",
+			"_id": "webpack-filter-warnings-plugin@1.2.0",
+			"_npmVersion": "5.7.1",
+			"_nodeVersion": "9.4.0",
+			"_npmUser": {
+				"name": "mattlewis92",
+				"email": "matthew.lewis@socialsignin.co.uk"
+			},
+			"dist": {
+				"integrity": "sha512-gmSWFcnxr60v/euYp4HHFjVjQ5HzsaCb/AYUeFTvWd0EIqamIEojOR4aUpV3nqMoGZKjM+OboSrLWo1LxQ+sgg==",
+				"shasum": "ffddc536be126c3cbd7abf7ab6acc7a7004e7262",
+				"tarball": "https://registry.npmjs.org/webpack-filter-warnings-plugin/-/webpack-filter-warnings-plugin-1.2.0.tgz",
+				"fileCount": 6,
+				"unpackedSize": 7604,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCICIqlsQUl6HtTzsi1Cb5Q0Qzbr/shEpWlW18DJz0O0sNAiBwljuSXd7/6NquPypLgtlzxfUgQNmr/RiTOXm7JPLhMQ=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "mattlewis92",
+					"email": "matthew.lewis@socialsignin.co.uk"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/webpack-filter-warnings-plugin_1.2.0_1520333628045_0.26607659356041724"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.2.1": {
+			"name": "webpack-filter-warnings-plugin",
+			"version": "1.2.1",
+			"description": "Allows you to hide certain warnings from webpack compilations",
+			"main": "dist/cjs.js",
+			"scripts": {
+				"test": "jest",
+				"start": "npm run build -- -w",
+				"build": "cross-env NODE_ENV=production babel src -d dist --ignore 'src/**/*.test.js'",
+				"clean": "del-cli dist",
+				"lint": "eslint --cache src test",
+				"lint-staged": "lint-staged",
+				"prebuild": "npm run clean",
+				"prepublish": "npm run build",
+				"release": "standard-version",
+				"security": "nsp check",
+				"test:watch": "jest --watch",
+				"test:coverage": "jest --collectCoverageFrom='src/**/*.js' --coverage",
+				"travis:lint": "npm run lint && npm run security",
+				"travis:test": "npm run test -- --runInBand",
+				"travis:coverage": "npm run test:coverage -- --runInBand"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/mattlewis92/webpack-filter-warnings-plugin.git"
+			},
+			"keywords": [
+				"webpack plugin"
+			],
+			"author": {
+				"name": "Matt Lewis"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mattlewis92/webpack-filter-warnings-plugin/issues"
+			},
+			"homepage": "https://github.com/mattlewis92/webpack-filter-warnings-plugin#readme",
+			"engines": {
+				"node": ">= 4.3 < 5.0.0 || >= 5.10"
+			},
+			"peerDependencies": {
+				"webpack": "^2.0.0 || ^3.0.0 || ^4.0.0"
+			},
+			"pre-commit": "lint-staged",
+			"lint-staged": {
+				"*.js": [
+					"eslint --fix",
+					"git add"
+				]
+			},
+			"devDependencies": {
+				"babel-cli": "^6.26.0",
+				"babel-jest": "^23.6.0",
+				"babel-plugin-transform-object-rest-spread": "^6.26.0",
+				"babel-polyfill": "^6.26.0",
+				"babel-preset-env": "^1.7.0",
+				"cross-env": "^5.2.0",
+				"del-cli": "^1.1.0",
+				"eslint": "^5.9.0",
+				"eslint-config-webpack": "^1.2.5",
+				"eslint-plugin-import": "^2.14.0",
+				"jest": "^23.6.0",
+				"lint-staged": "^8.1.0",
+				"memory-fs": "^0.4.1",
+				"nsp": "^3.2.1",
+				"pre-commit": "^1.2.2",
+				"standard-version": "^4.4.0",
+				"webpack": "^4.26.0"
+			},
+			"gitHead": "81dac11a87b147af7f48a7c1da079c477ed0b5ce",
+			"_id": "webpack-filter-warnings-plugin@1.2.1",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "10.12.0",
+			"_npmUser": {
+				"name": "mattlewis92",
+				"email": "npm@mattlewis.me"
+			},
+			"dist": {
+				"integrity": "sha512-Ez6ytc9IseDMLPo0qCuNNYzgtUl8NovOqjIq4uAU8LTD4uoa1w1KpZyyzFtLTEMZpkkOkLfL9eN+KGYdk1Qtwg==",
+				"shasum": "dc61521cf4f9b4a336fbc89108a75ae1da951cdb",
+				"tarball": "https://registry.npmjs.org/webpack-filter-warnings-plugin/-/webpack-filter-warnings-plugin-1.2.1.tgz",
+				"fileCount": 6,
+				"unpackedSize": 7920,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJb+lLuCRA9TVsSAnZWagAAeTgP/21c1jqhrKzmZRWwDm7S\nsDpeNhRrHBtLDh9fopTbc87Dkh7WcNzrnVNnis7QAIhC/hfznEBKkZhXt/M2\n1kG0fMrChw+yMBsMUwF6sSakMPhEnsLORGbf3snu+tfdxHLyWsLSW+qcTpIX\nfZBmaNtBFeW75qJLOk5QmiFEAAQUpAN+hD+YnAyFv0Ssgv35VQWM48u06oDa\nGB8gz84Kg5+eOQCeWxp3RBSLU96mxADsWdRVsmCWROKDkhRmu0bcQuBF8YbX\noyJWrhSa5QWkKZrj40HMFi4qP3TPjG7MmwlEKYBb8mISbxtgUvu6tP3AwOmk\nWmXjXRE/ROYtWkUgGySKhXTols6VsYgVgczx+wlI1tmig3KLBPwdEwWbBAH5\n4/h1dOD63bDx8w1kTZO3sxb9RHcoDWC8gJzPcSbv9Qc9kFcGUDIS1Fwwmim6\nfV04t9XZzUpwQ4K5M2AXax7WVJF8BbLJQVs/y4fjrN2WTp3x+ZyX9Pt7iQZC\ndXS/w4Iv5NQm0cbanKUPBaR40IenRWRSI03yPtkUmhn8qxpLqpH9MdZBRbiT\nZcpG6Jo/zjcZumFAC2QL7mHE+oVsohyVzyUsKcI6F9wSmzh/0dLijw8yfZKS\nsS+NGoD0NzJGtBljpjovLB5lIZ1NXKU8fKugORPrUuBMvJIuRlXT47oaDbT0\n5YNj\r\n=XSLQ\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQCXxco0ntHvixXGj+Tl8llQdCoEmbCL6AzwQNJPsX3QJQIgHR+v8BJYTp/ZDuUXhN8+hkw2t6i0D9zOrG7Qk2+L+Fo="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "mattlewis92",
+					"email": "matthew.lewis@socialsignin.co.uk"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/webpack-filter-warnings-plugin_1.2.1_1543131885208_0.7240699085440852"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"2.0.0-beta.0": {
+			"name": "webpack-filter-warnings-plugin",
+			"version": "2.0.0-beta.0",
+			"description": "Allows you to hide certain warnings from webpack compilations",
+			"main": "dist/index.js",
+			"types": "dist/index.d.ts",
+			"scripts": {
+				"prebuild": "npm run clean",
+				"build": "npm run build:typescript && npm run build:babel",
+				"build:babel": "babel ts-out --out-dir dist --copy-files",
+				"build:dev": "npm run build -- -- --source-maps inline",
+				"build:typescript": "tsc",
+				"clean": "del-cli dist ts-out",
+				"lint": "tslint 'src/**/*.ts' 'test/**/*.ts' --project tsconfig.json",
+				"lint-staged": "lint-staged",
+				"lint:fix": "npm run lint -- --fix",
+				"prepublish": "npm run build",
+				"release": "standard-version",
+				"security": "npm audit --audit-level high",
+				"test": "jest --config jest.config.js",
+				"test:coverage": "npm test -- --coverage",
+				"test:watch": "npm test -- --watch",
+				"travis:coverage": "npm run test:coverage",
+				"travis:lint": "npm run lint && npm run security",
+				"travis:test": "npm test",
+				"type-check": "tsc --noEmit",
+				"type-check:watch": "npm run type-check -- --watch"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/mattlewis92/webpack-filter-warnings-plugin.git"
+			},
+			"keywords": [
+				"webpack plugin"
+			],
+			"author": {
+				"name": "Matt Lewis"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mattlewis92/webpack-filter-warnings-plugin/issues"
+			},
+			"homepage": "https://github.com/mattlewis92/webpack-filter-warnings-plugin#readme",
+			"engines": {
+				"node": ">= 8.0"
+			},
+			"peerDependencies": {
+				"webpack": ">= 4.0.0"
+			},
+			"pre-commit": "lint-staged",
+			"lint-staged": {
+				"*.ts": [
+					"npm run lint:fix",
+					"git add"
+				]
+			},
+			"devDependencies": {
+				"@babel/cli": "^7.2.3",
+				"@babel/core": "^7.3.4",
+				"@babel/preset-env": "^7.3.4",
+				"@types/glob": "^7.1.1",
+				"@types/jest": "^23.3.14",
+				"@types/memory-fs": "^0.3.2",
+				"@types/webpack": "^4.4.25",
+				"del-cli": "^1.1.0",
+				"jest": "^24.5.0",
+				"lint-staged": "^8.1.5",
+				"memory-fs": "^0.4.1",
+				"pre-commit": "^1.2.2",
+				"standard-version": "^5.0.1",
+				"ts-jest": "^24.0.0",
+				"ts-node": "^8.0.3",
+				"tslint": "^5.14.0",
+				"tslint-config-prettier": "^1.18.0",
+				"typescript": "^3.3.3333",
+				"webpack": "^4.29.6"
+			},
+			"readmeFilename": "README.md",
+			"gitHead": "da9d58038e4d18e7d19f76a64e6f5d8951e355bb",
+			"_id": "webpack-filter-warnings-plugin@2.0.0-beta.0",
+			"_nodeVersion": "11.8.0",
+			"_npmVersion": "6.9.0",
+			"dist": {
+				"integrity": "sha512-3of8EDVhg6EeNxeuxqGtU3oHez49tP3FXgY7TXf8KWXSF/hpZuQC/WgQFjAy9eArHRa67rdpb3fBoc3DmWiPCQ==",
+				"shasum": "aa7f4ce0b93e09a0f4c31b5d0f33a1bd96c7d7e4",
+				"tarball": "https://registry.npmjs.org/webpack-filter-warnings-plugin/-/webpack-filter-warnings-plugin-2.0.0-beta.0.tgz",
+				"fileCount": 8,
+				"unpackedSize": 10586,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcjafUCRA9TVsSAnZWagAA0rUP/0K/UwG3OF9ZDBuI1+on\nmujcv5iiXVv14HrcC22eQRvQXIWZP1fSKQMONMZ1Kz+q06Xh+PQziFh1wItn\nWdY+kIid6AQj7ifMrZtGUReowHGr29YIKN7df0Ak500fTW8cWlWhxShRrhYq\n7Kd81vGZ5X5BmJ7BEA3sMukGxt4+9RsVPLj1twu/Im0cYbZoYjKonGwTeP8l\neQGD4YrtmL5XxjguCgXRpj0z/sP/LvYzMDcw4HfzSVgsQRB8H3D+HrPIab0L\nwEpYrgZlrN0ZDS7yLrF50DyBcG6J89qU2tkE1iUKkC04v6gslt63DcYQk5RQ\ngJhkPirkMddZQl7xZCVIEbji3oqIDKKggabM+fKFuD5pJxITGH6loT92B6xG\n2ijn3qhpxFsXgLZDBfHllDopH1c3NiL9uh2dDi9xq7acqvejRcfSdVr1rpLk\n13dFpzVObLt9DXfUmZ0pcRAtFV3LYAFdsXbm2/r75kv2isNGOzrMWh7sdMUy\nbcqKI/+ft5sA4Wl4Ef6t/kBXp+rgGTyLb/8xqR8Rv6Q1s58t11gthU2ufAIA\nCXaCheTfdxwB58nXh74tj3JMBcszLdYy6LABvuxjppBiZw6a0RnT8PiClc5p\nTl3J93nfUkTfBaMXDGsbaMmg5o/0H+eJyhWtzZNX3bvbRMtEmqfSC5VkYyO4\nIyyk\r\n=FAMe\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIDRQ7YBNMPR9D9N/1Cam1uz/vWifJmh/mDjuI2mLY5qzAiAShgqcyGEk8rpwY2z7dphEp4PcKbd6WQsNqkc2B6pd4w=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "mattlewis92",
+					"email": "matthew.lewis@socialsignin.co.uk"
+				}
+			],
+			"_npmUser": {
+				"name": "mattlewis92",
+				"email": "npm@mattlewis.me"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/webpack-filter-warnings-plugin_2.0.0-beta.0_1552787411650_0.9505702151082955"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		}
+	},
+	"time": {
+		"modified": "2022-05-24T06:55:01.703Z",
+		"created": "2017-07-31T17:33:10.681Z",
+		"1.0.0": "2017-07-31T17:33:10.681Z",
+		"1.1.0": "2017-07-31T18:03:58.326Z",
+		"1.2.0": "2018-03-06T10:53:48.088Z",
+		"1.2.1": "2018-11-25T07:44:45.386Z",
+		"2.0.0-beta.0": "2019-03-17T01:50:11.867Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "1.2.1",
+		"next": "2.0.0-beta.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"c6833959a0384311dd6f128a537911d2\"",
+			"fetched": 1660842049655
+		}
+	},
+	"_distfiles": {
+		"webpack-filter-warnings-plugin-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/webpack-filter-warnings-plugin/-/webpack-filter-warnings-plugin-1.0.0.tgz",
+			"sha": "4f308e904834b21d1247ce546787daccf51fddc8",
+			"registry": "npmjs"
+		},
+		"webpack-filter-warnings-plugin-1.1.0.tgz": {
+			"url": "https://registry.npmjs.org/webpack-filter-warnings-plugin/-/webpack-filter-warnings-plugin-1.1.0.tgz",
+			"sha": "bafbe25827ad91213bc352b945409e8c509881b5",
+			"registry": "npmjs"
+		},
+		"webpack-filter-warnings-plugin-1.2.0.tgz": {
+			"url": "https://registry.npmjs.org/webpack-filter-warnings-plugin/-/webpack-filter-warnings-plugin-1.2.0.tgz",
+			"sha": "ffddc536be126c3cbd7abf7ab6acc7a7004e7262",
+			"registry": "npmjs"
+		},
+		"webpack-filter-warnings-plugin-1.2.1.tgz": {
+			"url": "https://registry.npmjs.org/webpack-filter-warnings-plugin/-/webpack-filter-warnings-plugin-1.2.1.tgz",
+			"sha": "dc61521cf4f9b4a336fbc89108a75ae1da951cdb",
+			"registry": "npmjs"
+		},
+		"webpack-filter-warnings-plugin-2.0.0-beta.0.tgz": {
+			"url": "https://registry.npmjs.org/webpack-filter-warnings-plugin/-/webpack-filter-warnings-plugin-2.0.0-beta.0.tgz",
+			"sha": "aa7f4ce0b93e09a0f4c31b5d0f33a1bd96c7d7e4",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_rev": "5-aaff206e89065ad9",
+	"_id": "webpack-filter-warnings-plugin",
+	"readme": "# webpack-filter-warnings-plugin\n[![npm][npm]][npm-url]\n[![node][node]][node-url]\n[![deps][deps]][deps-url]\n[![tests][tests]][tests-url]\n[![coverage][cover]][cover-url]\n\n> Allows you to hide certain warnings from webpack compilations\n\n## Install\n```bash\nnpm i -D webpack-filter-warnings-plugin\n```\n\n## Usage\n\n```js\n// webpack.config.js\nconst { FilterWarningsPlugin } = require('webpack-filter-warnings-plugin');\n\nmodule.exports = {\n  // ... rest of webpack config\n  plugins: [\n    new FilterWarningsPlugin({ \n      exclude: /any-warnings-matching-this-will-be-hidden/ \n    })\n  ]\n}\n```\n\n### Using with Typescript\n\nWebpack Filter Warnings Plugin is completely written in Typescript. As such, it exposes Typescript bindings. \n\nBefore using it, install webpack typings:\n\n```bash\nnpm i --save-dev @types/webpack\n```\n\nor\n\n```bash\nyarn add --dev @types/webpack\n```\n\nUse ES imports:\n\n```typescript\n// webpack.config.ts\nimport { FilterWarningsPlugin } from 'webpack-filter-warnings-plugin';\n\n```\n\n## Options\n\nLibrary exposes only one option: `exclude`. It may be one of `RegExp`, `String` or `Function`.\n\n### String as `exclude` filter\n\nWhen passing string as exclude parameter, phrase is converted to wildcard and matches any phrase that contains it.\n\n```js\n// webpack.config.js\nmodule.exports = {\n  // ... rest of webpack config\n  plugins: [\n    new FilterWarningsPlugin({ \n      exclude: 'hide me'\n    })\n  ]\n}\n\n```\n\nThis config will match any of `Should hide me`, `Hide me, please`, `HiDe Me` (filter is case insensitive) etc.\n\n### Function as `exclude` filter\n\n```js\n// webpack.config.js\nmodule.exports = {\n  // ... rest of webpack config\n  plugins: [\n    new FilterWarningsPlugin({ \n      exclude: (input) => /.*hide.*/.test(input),\n    })\n  ]\n}\n```\n\n## Why not use the built in stats.warningsFilter option?\nCurrently karma-webpack does not respect the stats.warningsFilter option. Also when excluding all warnings, webpack still says `Compiled with warnings.` when all warnings are filtered. Hopefully this plugin will no longer need to exist one day.\n\n## Licence\nMIT\n\n[npm]: https://img.shields.io/npm/v/webpack-filter-warnings-plugin.svg\n[npm-url]: https://npmjs.com/package/webpack-filter-warnings-plugin\n\n[node]: https://img.shields.io/node/v/webpack-filter-warnings-plugin.svg\n[node-url]: https://nodejs.org\n\n[deps]: https://david-dm.org/mattlewis92/webpack-filter-warnings-plugin.svg\n[deps-url]: https://david-dm.org/mattlewis92/webpack-filter-warnings-plugin\n\n[tests]: http://img.shields.io/travis/mattlewis92/webpack-filter-warnings-plugin.svg\n[tests-url]: https://travis-ci.org/mattlewis92/webpack-filter-warnings-plugin\n\n[cover]: https://codecov.io/gh/mattlewis92/webpack-filter-warnings-plugin/branch/master/graph/badge.svg\n[cover-url]: https://codecov.io/gh/mattlewis92/webpack-filter-warnings-plugin"
+}

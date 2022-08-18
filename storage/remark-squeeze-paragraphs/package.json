@@ -1,0 +1,981 @@
+{
+	"name": "remark-squeeze-paragraphs",
+	"versions": {
+		"3.0.0": {
+			"name": "remark-squeeze-paragraphs",
+			"version": "3.0.0",
+			"description": "Remark plugin for removing empty paragraphs",
+			"author": {
+				"name": "Eugene Sharygin",
+				"email": "eush77@gmail.com"
+			},
+			"license": "MIT",
+			"scripts": {
+				"test": "tape test/*.js"
+			},
+			"files": [
+				"index.js"
+			],
+			"homepage": "https://github.com/eush77/remark-squeeze-paragraphs",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/eush77/remark-squeeze-paragraphs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/eush77/remark-squeeze-paragraphs/issues"
+			},
+			"keywords": [
+				"clean",
+				"empty",
+				"markdown",
+				"paragraph",
+				"plugin",
+				"remark",
+				"remove",
+				"squeeze",
+				"whitespace"
+			],
+			"dependencies": {
+				"mdast-squeeze-paragraphs": "^3.0.0"
+			},
+			"devDependencies": {
+				"remark": "^3.1.3",
+				"tape": "^4.0.0"
+			},
+			"gitHead": "db5de1d813bc104c53cf43d1224faee541c4b6a5",
+			"_id": "remark-squeeze-paragraphs@3.0.0",
+			"_shasum": "9cba385ebae06b19508b071916553a45368df7da",
+			"_from": ".",
+			"_npmVersion": "3.3.9",
+			"_nodeVersion": "5.0.0",
+			"_npmUser": {
+				"name": "eush77",
+				"email": "eush77@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "eush77",
+					"email": "eush77@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "9cba385ebae06b19508b071916553a45368df7da",
+				"tarball": "https://registry.npmjs.org/remark-squeeze-paragraphs/-/remark-squeeze-paragraphs-3.0.0.tgz",
+				"integrity": "sha512-mmT8n4f+WzZZ9KdWX/D22EnTIVR9sGLEKIKVop/NjhpZIhwB3kvwdfUBftOM4HVEAbUj9+C4gB+3svkIMLApDw==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQD9fMTUvNh4aGTODM0MAqKkKt/xEkOCGDZY0mfSGNfZ6QIgcvnSTWJDt1bp8FNPHQTlvA2kS3R6jxdqyTZ7xaU8Aqw="
+					}
+				]
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"3.0.1": {
+			"name": "remark-squeeze-paragraphs",
+			"version": "3.0.1",
+			"description": "Remark plugin for removing empty paragraphs",
+			"author": {
+				"name": "Eugene Sharygin",
+				"email": "eush77@gmail.com"
+			},
+			"license": "MIT",
+			"scripts": {
+				"test": "tape test/*.js"
+			},
+			"files": [
+				"index.js"
+			],
+			"homepage": "https://github.com/eush77/remark-squeeze-paragraphs",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/eush77/remark-squeeze-paragraphs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/eush77/remark-squeeze-paragraphs/issues"
+			},
+			"keywords": [
+				"clean",
+				"empty",
+				"markdown",
+				"paragraph",
+				"plugin",
+				"remark",
+				"remove",
+				"squeeze",
+				"whitespace"
+			],
+			"dependencies": {
+				"mdast-squeeze-paragraphs": "^3.0.0"
+			},
+			"devDependencies": {
+				"remark": "^7.0.0",
+				"tape": "^4.0.0"
+			},
+			"gitHead": "ac71132029da947360f31ed97bdae1019a959ec9",
+			"_id": "remark-squeeze-paragraphs@3.0.1",
+			"_npmVersion": "5.0.0",
+			"_nodeVersion": "8.0.0",
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-lUHSdhbJSLsTu+GJh1FTEdtuIlPlNiqBcjQ2PTXoD6xG3bu2XYM+5EXomNfKR4qhF/tLRQOlZX0BmSCf9Jy7kA==",
+				"shasum": "0aae4d14bd943ebf7d0125136f0c419b34f9c92e",
+				"tarball": "https://registry.npmjs.org/remark-squeeze-paragraphs/-/remark-squeeze-paragraphs-3.0.1.tgz",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDPiP6U4P1ijuRibTB0yy4pYYifB1rdf+K/lMbLmqpTAQIhAPCeQRKBemAayx5XDxYy4ePpXOA4XsznJOwS1fL4p9aI"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "eush77",
+					"email": "eush77@gmail.com"
+				},
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/remark-squeeze-paragraphs-3.0.1.tgz_1497375441850_0.8368584159761667"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"3.0.2": {
+			"name": "remark-squeeze-paragraphs",
+			"version": "3.0.2",
+			"description": "Remark plugin for removing empty paragraphs",
+			"license": "MIT",
+			"keywords": [
+				"clean",
+				"empty",
+				"markdown",
+				"paragraph",
+				"plugin",
+				"remark",
+				"remove",
+				"squeeze",
+				"whitespace"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/eush77/remark-squeeze-paragraphs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/eush77/remark-squeeze-paragraphs/issues"
+			},
+			"author": {
+				"name": "Eugene Sharygin",
+				"email": "eush77@gmail.com"
+			},
+			"contributors": [
+				{
+					"name": "Eugene Sharygin",
+					"email": "eush77@gmail.com"
+				},
+				{
+					"name": "Titus Wormer",
+					"email": "tituswormer@gmail.com",
+					"url": "http://wooorm.com"
+				}
+			],
+			"files": [
+				"index.js"
+			],
+			"dependencies": {
+				"mdast-squeeze-paragraphs": "^3.0.0"
+			},
+			"devDependencies": {
+				"prettier": "^1.14.2",
+				"remark": "^9.0.0",
+				"remark-cli": "^5.0.0",
+				"remark-preset-wooorm": "^4.0.0",
+				"tape": "^4.0.0",
+				"unist-builder": "^1.0.2",
+				"xo": "^0.22.0"
+			},
+			"scripts": {
+				"format": "remark . -qfo && prettier --write \"**/*.js\" && xo --fix",
+				"test-api": "node test",
+				"test": "npm run format && npm run test-api"
+			},
+			"prettier": {
+				"tabWidth": 2,
+				"useTabs": false,
+				"singleQuote": true,
+				"bracketSpacing": false,
+				"semi": false,
+				"trailingComma": "none"
+			},
+			"xo": {
+				"prettier": true,
+				"esnext": false
+			},
+			"remarkConfig": {
+				"plugins": [
+					"preset-wooorm"
+				]
+			},
+			"gitHead": "01e4b4f885461979dab8ea2c491d69c596443601",
+			"homepage": "https://github.com/eush77/remark-squeeze-paragraphs#readme",
+			"_id": "remark-squeeze-paragraphs@3.0.2",
+			"_npmVersion": "6.3.0",
+			"_nodeVersion": "10.0.0",
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-XFks+7F6FKmGkJcGyAvJ1GmqtPID9piDtJhrgglIGqg1VRTjpfft6UtGVGCuYnliZt8J72KPG8bwiJkwY6NDOw==",
+				"shasum": "c3d1459cb17c250180fdc8f9814224b44d952b90",
+				"tarball": "https://registry.npmjs.org/remark-squeeze-paragraphs/-/remark-squeeze-paragraphs-3.0.2.tgz",
+				"fileCount": 4,
+				"unpackedSize": 4475,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbbGLTCRA9TVsSAnZWagAANZIP/1jdJjwrvVxXJlV0Zs0Z\nhyHblCDNzF00fpP8UZc93FtfnlDd54Zh3Nrf4HSxjnEFM95jnnR7X95p6Og3\nJVPbU4+ldNBEpGctRbrkoouzDsNCZzfsnsCobuicRX5Vpnv/J95zK3TKaFPp\n2HSiMEzv5WSFJD+OyQtRLRtIIh/4zCtzlkwJNxfM4S/TClzyTIfAjy20a6Tx\n5zAkz3DdxKh1hkcQvZsrNkfd0+GVmgheRN1GMQBlYR7ldodxYUg+8x7C6CEW\nXlIiWh5iha3wxT3BnKvPeduZQK69BEvuduiPBrVY0CIqMRS3aQWdaKwQnmZZ\nS/VIQLMZPsjTABChF0DoHthigQGBkW+uukVujwQTVgUqTRTKRQG4Z1UuCUhj\nBz/LG22wqNu972th67BwHZ60VgwubekfFiMvnY5mCJPHJqSbG38kI2KAfRSM\nuopBkSZ28p1SNoaM+SNh/6xehh9XAzOx2JMab//TOaS0sAGxTlsVsbY9a7+J\nhNmN0u2cg3Vj/bZfoHIgF6UJHtExfo8/z2toMq9mp3aJjb2FeAuX738RghB+\nn+389En6cQCUufXzjSRiELfX+Jyc2UwrxwY7495qnDnHsd8Rn07Xo7K9H0YQ\ne+SfAIyQUh7YSiW34bRmB3JCgFm+gna/EBMQfz8PuaSOhBWQf52rzQ4vgIRg\na5+S\r\n=qnQc\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCD4QUD/nqoJ9oe3QwDgtCSXsVTikm8Ibd6uS3XM5GBzgIhAMP8zpHw/kHuxGZMozTqTbdmKN78rUqNebrvO+oB2NUq"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "eush77",
+					"email": "eush77@gmail.com"
+				},
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/remark-squeeze-paragraphs_3.0.2_1533829843140_0.2741907733317208"
+			},
+			"_hasShrinkwrap": false
+		},
+		"3.0.3": {
+			"name": "remark-squeeze-paragraphs",
+			"version": "3.0.3",
+			"description": "Remark plugin for removing empty paragraphs",
+			"license": "MIT",
+			"keywords": [
+				"clean",
+				"empty",
+				"markdown",
+				"paragraph",
+				"plugin",
+				"remark",
+				"remove",
+				"squeeze",
+				"whitespace"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/eush77/remark-squeeze-paragraphs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/eush77/remark-squeeze-paragraphs/issues"
+			},
+			"author": {
+				"name": "Eugene Sharygin",
+				"email": "eush77@gmail.com"
+			},
+			"contributors": [
+				{
+					"name": "Eugene Sharygin",
+					"email": "eush77@gmail.com"
+				},
+				{
+					"name": "Titus Wormer",
+					"email": "tituswormer@gmail.com",
+					"url": "https://wooorm.com"
+				}
+			],
+			"dependencies": {
+				"mdast-squeeze-paragraphs": "^3.0.0"
+			},
+			"devDependencies": {
+				"prettier": "^1.14.2",
+				"remark": "^10.0.0",
+				"remark-cli": "^6.0.0",
+				"remark-preset-wooorm": "^4.0.0",
+				"tape": "^4.0.0",
+				"unist-builder": "^1.0.2",
+				"xo": "^0.23.0"
+			},
+			"scripts": {
+				"format": "remark . -qfo && prettier --write \"**/*.js\" && xo --fix",
+				"test-api": "node test",
+				"test": "npm run format && npm run test-api"
+			},
+			"prettier": {
+				"tabWidth": 2,
+				"useTabs": false,
+				"singleQuote": true,
+				"bracketSpacing": false,
+				"semi": false,
+				"trailingComma": "none"
+			},
+			"xo": {
+				"prettier": true,
+				"esnext": false
+			},
+			"remarkConfig": {
+				"plugins": [
+					"preset-wooorm"
+				]
+			},
+			"gitHead": "fc92cdbef740501579b1fbcd91673ea93546c514",
+			"homepage": "https://github.com/eush77/remark-squeeze-paragraphs#readme",
+			"_id": "remark-squeeze-paragraphs@3.0.3",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "11.0.0",
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-eDvjtwFa9eClqb7XgdF/1H9Pfs2LPnf/P3eRs9ucYAWUuv4WO8ZOVAUeT/1h66rQvghnfctz9au+HEmoKcdoqA==",
+				"shasum": "299d8db7d44008c9ae240dbf6d1f55b8b0f924ce",
+				"tarball": "https://registry.npmjs.org/remark-squeeze-paragraphs/-/remark-squeeze-paragraphs-3.0.3.tgz",
+				"fileCount": 4,
+				"unpackedSize": 5167,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJb9Gw6CRA9TVsSAnZWagAAb5wP+QEmn7cCKkz5bOmU3Dzu\nNzedBYfxjDuEKnS/vkPk10ezFPvWitrZYm5Oz8MnrG1jVLC/k3aUXayia7yc\nY2HysiwtiyiGhoQVKh06dAG6ZnvNW4nmhIM45DXoaaO0xEWegP0VbBZK410s\nZEPOypQ/rpR8kcM2jgGmJUdrHTgcTEuslnGiydk/FwO7dX4l6U/CkYiWcN9B\nQCBvtn+JHFWdl3hkwdLfpVhByfq5w93MOsD8PiNAN4n3uiJhfhPZ4vBwpnov\nXG4bDWLK5/xmYEtu51A2J5yNhoISJwEconbTtnWCqGOtk5+jPalgUSCA3Uq+\nek2QDE6Tl7CFFBTX4CV4WxRtxYShjXzWXJ6duZW9l3bbtRBWoAKJ667T3Uth\n3UwaTWynIL7DgU7kzpl6u3D4gCbEPK+5ilhvJ1gFS1ztafCe+PmpLHRsNab0\ncXmRFsmomczJTCnUET7vNRimapPZkOErguqhQolKZ+yEFkfXxGDCoEKNL+IF\nocU4jFpa0j2csYEYBZY0s+ZJujrjE4YPLIBF33qaWzbphLSrulMVm9cHKhQX\nYpVA7k2KbvNsiRIBPf1q+wu5lwy3gnnVx7aWinteDJa0GoiGAMTF0sYlHZDA\n/TIVpngtWw7ndmHCpho1EwyU597l8ndi2xkp5wlVqE5EBb95kieANOL8SCsd\nr76f\r\n=D+lc\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIC2HgZXGOdxdyAvxgCmO0MLOa2Rde6NU6cHmp+rg4zrXAiBKy8hOoi03iAeHjtdH53488xTyzfMeyYj5LevRxVvLQQ=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "eush77",
+					"email": "eush77@gmail.com"
+				},
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/remark-squeeze-paragraphs_3.0.3_1542745145515_0.9234156951479284"
+			},
+			"_hasShrinkwrap": false
+		},
+		"3.0.4": {
+			"name": "remark-squeeze-paragraphs",
+			"version": "3.0.4",
+			"description": "remark plugin to remove empty paragraphs",
+			"license": "MIT",
+			"keywords": [
+				"unified",
+				"remark",
+				"plugin",
+				"mdast",
+				"markdown",
+				"clean",
+				"empty",
+				"paragraph",
+				"remove",
+				"squeeze",
+				"whitespace"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/remarkjs/remark-squeeze-paragraphs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/remarkjs/remark-squeeze-paragraphs/issues"
+			},
+			"author": {
+				"name": "Eugene Sharygin",
+				"email": "eush77@gmail.com"
+			},
+			"contributors": [
+				{
+					"name": "Eugene Sharygin",
+					"email": "eush77@gmail.com"
+				},
+				{
+					"name": "Titus Wormer",
+					"email": "tituswormer@gmail.com",
+					"url": "https://wooorm.com"
+				}
+			],
+			"dependencies": {
+				"mdast-squeeze-paragraphs": "^3.0.0"
+			},
+			"devDependencies": {
+				"browserify": "^16.0.0",
+				"nyc": "^14.0.0",
+				"prettier": "^1.0.0",
+				"remark": "^10.0.0",
+				"remark-cli": "^6.0.0",
+				"remark-preset-wooorm": "^5.0.0",
+				"tape": "^4.0.0",
+				"tinyify": "^2.0.0",
+				"unist-builder": "^1.0.0",
+				"xo": "^0.24.0"
+			},
+			"scripts": {
+				"format": "remark . -qfo && prettier --write \"**/*.js\" && xo --fix",
+				"build-bundle": "browserify . -s remarkSqueezeParagraph -o remark-squeeze-paragraphs.js",
+				"build-mangle": "browserify . -s remarkSqueezeParagraph -p tinyify -o remark-squeeze-paragraphs.min.js",
+				"build": "npm run build-bundle && npm run build-mangle",
+				"test-api": "node test",
+				"test-coverage": "nyc --reporter lcov tape test.js",
+				"test": "npm run format && npm run build && npm run test-coverage"
+			},
+			"nyc": {
+				"check-coverage": true,
+				"lines": 100,
+				"functions": 100,
+				"branches": 100
+			},
+			"prettier": {
+				"tabWidth": 2,
+				"useTabs": false,
+				"singleQuote": true,
+				"bracketSpacing": false,
+				"semi": false,
+				"trailingComma": "none"
+			},
+			"xo": {
+				"prettier": true,
+				"esnext": false
+			},
+			"remarkConfig": {
+				"plugins": [
+					"preset-wooorm"
+				]
+			},
+			"gitHead": "647d8e0c13fc2b92df2e6ca8621719927de3443c",
+			"homepage": "https://github.com/remarkjs/remark-squeeze-paragraphs#readme",
+			"_id": "remark-squeeze-paragraphs@3.0.4",
+			"_nodeVersion": "12.2.0",
+			"_npmVersion": "6.9.0",
+			"dist": {
+				"integrity": "sha512-Wmz5Yj9q+W1oryo8BV17JrOXZgUKVcpJ2ApE2pwnoHwhFKSk4Wp2PmFNbmJMgYSqAdFwfkoe+TSYop5Fy8wMgA==",
+				"shasum": "9fe50c3bf3b572dd88754cd426ada007c0b8dc5f",
+				"tarball": "https://registry.npmjs.org/remark-squeeze-paragraphs/-/remark-squeeze-paragraphs-3.0.4.tgz",
+				"fileCount": 4,
+				"unpackedSize": 6070,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdBLfGCRA9TVsSAnZWagAAhE0P/0+cMqyU6ikTHb+JvBVE\nzLS4p3l/WI1gMSVHQTTG3IJOFPQCYlqEP4MBNy9qoycl7Zug0awQt6Govjxy\nXSVaw8PpUdi7JcdsDc2maWeCY10fz02NAiBTWGfL69xM29sCbqsIm6RR4VHi\nW1sVz17vjj0yQnoCsRsSQT3+DfsUhYxM8E+nlFWYa0WOt/PKITEaySOxC56A\nDapOr2RgF8ZommctaZaoNFDTCx7svv0kfFbTzEq0vSnMyJC+sqdeSkEMamBl\nVipmbyNKtUaJekdjf1/ybUHX3zOkBCSRTFnGLdODysvTrctKetTTknSuyZfa\n3m1MYLHdeYig5ma0eUP6mGEeT3ZXo5IFTt300EzX+NhDLOfVm0a3Nor3AQEA\nb/krv0VRvY0Uc0mmoo8ZiMh5/69CRPUhZDNN+1F1ZLADms8IeNhz8rgn00+G\ndFGtFPiBZiRBLLspVqrQq7ya5TcPuYdP9Arf/HRXxoovpcPSsgh+GstA++Pn\nQi+24DuD1An5Qr+enkOosrL6/zB05QahVeaQxPitqP8rjs+FJvKkygs0RrVI\nsmpKWUESiJRF/rcMSr4K87IW5siwJw8Bdh7RKIp3Qfmw1pPRpFnSArTDw05g\nJKpZ3pflovkNXSGKU3oiKkYG9QyoRW0+ekka8PCb+l2AztO+zwwlfZyevzFH\nGvzz\r\n=M350\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIBpEkjDPZLwAWX+lYbFPbrZiJcI68hrOo9K726WenEilAiBP6W+iBLmCtb8GnxDw1B2iL4Rdn9b+W/LyGlBr2ypCVw=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "eush77",
+					"email": "eush77@gmail.com"
+				},
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				}
+			],
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/remark-squeeze-paragraphs_3.0.4_1560590277768_0.24441634370770937"
+			},
+			"_hasShrinkwrap": false
+		},
+		"4.0.0": {
+			"name": "remark-squeeze-paragraphs",
+			"version": "4.0.0",
+			"description": "remark plugin to remove empty paragraphs",
+			"license": "MIT",
+			"keywords": [
+				"unified",
+				"remark",
+				"remark-plugin",
+				"plugin",
+				"mdast",
+				"markdown",
+				"clean",
+				"empty",
+				"paragraph",
+				"remove",
+				"squeeze",
+				"whitespace"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/remarkjs/remark-squeeze-paragraphs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/remarkjs/remark-squeeze-paragraphs/issues"
+			},
+			"funding": {
+				"type": "opencollective",
+				"url": "https://opencollective.com/unified"
+			},
+			"author": {
+				"name": "Eugene Sharygin",
+				"email": "eush77@gmail.com"
+			},
+			"contributors": [
+				{
+					"name": "Eugene Sharygin",
+					"email": "eush77@gmail.com"
+				},
+				{
+					"name": "Titus Wormer",
+					"email": "tituswormer@gmail.com",
+					"url": "https://wooorm.com"
+				}
+			],
+			"dependencies": {
+				"mdast-squeeze-paragraphs": "^4.0.0"
+			},
+			"devDependencies": {
+				"browserify": "^16.0.0",
+				"nyc": "^14.0.0",
+				"prettier": "^2.0.0",
+				"remark": "^11.0.0",
+				"remark-cli": "^7.0.0",
+				"remark-preset-wooorm": "^6.0.0",
+				"tape": "^4.0.0",
+				"tinyify": "^2.0.0",
+				"unist-builder": "^2.0.0",
+				"xo": "^0.28.0"
+			},
+			"scripts": {
+				"format": "remark . -qfo && prettier --write \"**/*.js\" && xo --fix",
+				"build-bundle": "browserify . -s remarkSqueezeParagraph -o remark-squeeze-paragraphs.js",
+				"build-mangle": "browserify . -s remarkSqueezeParagraph -p tinyify -o remark-squeeze-paragraphs.min.js",
+				"build": "npm run build-bundle && npm run build-mangle",
+				"test-api": "node test",
+				"test-coverage": "nyc --reporter lcov tape test.js",
+				"test": "npm run format && npm run build && npm run test-coverage"
+			},
+			"nyc": {
+				"check-coverage": true,
+				"lines": 100,
+				"functions": 100,
+				"branches": 100
+			},
+			"prettier": {
+				"tabWidth": 2,
+				"useTabs": false,
+				"singleQuote": true,
+				"bracketSpacing": false,
+				"semi": false,
+				"trailingComma": "none"
+			},
+			"xo": {
+				"prettier": true,
+				"esnext": false
+			},
+			"remarkConfig": {
+				"plugins": [
+					"preset-wooorm"
+				]
+			},
+			"gitHead": "64f5447a606931348f6d95b8fd4512c67fdc52e7",
+			"homepage": "https://github.com/remarkjs/remark-squeeze-paragraphs#readme",
+			"_id": "remark-squeeze-paragraphs@4.0.0",
+			"_nodeVersion": "13.10.1",
+			"_npmVersion": "6.14.3",
+			"dist": {
+				"integrity": "sha512-8qRqmL9F4nuLPIgl92XUuxI3pFxize+F1H0e/W3llTk0UsjJaj01+RrirkMw7P21RKe4X6goQhYRSvNWX+70Rw==",
+				"shasum": "76eb0e085295131c84748c8e43810159c5653ead",
+				"tarball": "https://registry.npmjs.org/remark-squeeze-paragraphs/-/remark-squeeze-paragraphs-4.0.0.tgz",
+				"fileCount": 4,
+				"unpackedSize": 6515,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJedz8eCRA9TVsSAnZWagAAaEkP/1ONvTUnjhp3HDuNHUNM\nMzoV8MDdjP2upifesFvyKyg2tKdQfcGdd0W47VJn9vt7sxC8HCfUn24o3aZ8\nFlcXL9jwe3aPVDp5/U8TVawF7yJx1qzTFpzyZ3ZrOzYNej4nVIxaJJhOXVr9\nnWXJJOTDcJAdv9YG/K42zJME8rCSVDYMUssP2uupWMe0+tOmtYv0Dlcotpvi\nVZ3tvkzYW8fkQA0A4Jwun1mZHXgH0ORsdqxc6zqSPZOnX0m5kMKZmdGMGZRb\nkE7E4VmLVgUTICWoGSOt+TS4JHuAGZSTVgp9yN1NE/Y3Ezk4Pu0/Oi0YHA5z\npNqVjE1BX9iTcYnS0cZB3tIcG3k+U3E4S8sag/0XSDh3FzaO/Yil4MBX3n4T\nr4NbeDWkRzQkyZWW7DgnuL0UIe7AVko7vwdtlZClZYOw/u0TBG4Mp+Yw8+xi\nRam+q6AL24nP0nJcBoJMPEpUUpRBJEFgXpAtQc/EBoh7DpGSm9TXCzN8uiOT\nkJgaqv6jeGgSPYMEJyE3w/T+oJOLpb37iKmStnIJrndoF4ERLEQ/BuACyWjF\nJ4meKn3Wni2SllhW+f7RX+ng8BpfZomXqOJCmixznbHqPt3sD++F1ff3PXJC\nzlHM3TeJWfsw1kXSiEb5hZCxUqej9HY17ZBcExCFnLQxLpndIFkYI9SXjfBz\ny27z\r\n=tJff\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDoqXpD6Rqnw1kW3OkzFw9ir/HAQkixtCmtO0Q7uagK0wIgAQ83XtjLYOU+6q47sX9/LphzAQPJSOLB4id03ZW6mW0="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"email": "johnotander@gmail.com",
+					"name": "johno"
+				},
+				{
+					"email": "tituswormer@gmail.com",
+					"name": "wooorm"
+				}
+			],
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/remark-squeeze-paragraphs_4.0.0_1584873246211_0.742729337134038"
+			},
+			"_hasShrinkwrap": false
+		},
+		"5.0.0": {
+			"name": "remark-squeeze-paragraphs",
+			"version": "5.0.0",
+			"description": "remark plugin to remove empty paragraphs",
+			"license": "MIT",
+			"keywords": [
+				"unified",
+				"remark",
+				"remark-plugin",
+				"plugin",
+				"mdast",
+				"markdown",
+				"clean",
+				"empty",
+				"paragraph",
+				"remove",
+				"squeeze",
+				"whitespace"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/remarkjs/remark-squeeze-paragraphs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/remarkjs/remark-squeeze-paragraphs/issues"
+			},
+			"funding": {
+				"type": "opencollective",
+				"url": "https://opencollective.com/unified"
+			},
+			"author": {
+				"name": "Eugene Sharygin",
+				"email": "eush77@gmail.com"
+			},
+			"contributors": [
+				{
+					"name": "Eugene Sharygin",
+					"email": "eush77@gmail.com"
+				},
+				{
+					"name": "Titus Wormer",
+					"email": "tituswormer@gmail.com",
+					"url": "https://wooorm.com"
+				}
+			],
+			"sideEffects": false,
+			"type": "module",
+			"main": "index.js",
+			"types": "index.d.ts",
+			"dependencies": {
+				"@types/mdast": "^3.0.0",
+				"mdast-squeeze-paragraphs": "^5.0.0",
+				"unified": "^10.0.0"
+			},
+			"devDependencies": {
+				"@types/tape": "^4.0.0",
+				"c8": "^7.0.0",
+				"prettier": "^2.0.0",
+				"remark": "^14.0.0",
+				"remark-cli": "^10.0.0",
+				"remark-preset-wooorm": "^8.0.0",
+				"rimraf": "^3.0.0",
+				"tape": "^5.0.0",
+				"type-coverage": "^2.0.0",
+				"typescript": "^4.0.0",
+				"unist-builder": "^3.0.0",
+				"xo": "^0.42.0"
+			},
+			"scripts": {
+				"build": "rimraf \"*.d.ts\" && tsc && type-coverage",
+				"format": "remark . -qfo && prettier . -w --loglevel warn && xo --fix",
+				"test-api": "node --conditions development test.js",
+				"test-coverage": "c8 --check-coverage --branches 100 --functions 100 --lines 100 --statements 100 --reporter lcov npm run test-api",
+				"test": "npm run build && npm run format && npm run test-coverage"
+			},
+			"prettier": {
+				"tabWidth": 2,
+				"useTabs": false,
+				"singleQuote": true,
+				"bracketSpacing": false,
+				"semi": false,
+				"trailingComma": "none"
+			},
+			"xo": {
+				"prettier": true
+			},
+			"remarkConfig": {
+				"plugins": [
+					"preset-wooorm"
+				]
+			},
+			"typeCoverage": {
+				"atLeast": 100,
+				"detail": true,
+				"strict": true,
+				"ignoreCatch": true
+			},
+			"gitHead": "64060b4346600f995d002abf8b17fa875fe441fa",
+			"homepage": "https://github.com/remarkjs/remark-squeeze-paragraphs#readme",
+			"_id": "remark-squeeze-paragraphs@5.0.0",
+			"_nodeVersion": "16.6.0",
+			"_npmVersion": "7.19.1",
+			"dist": {
+				"integrity": "sha512-w/AS3oqGIMxtwCDg94yFMYyaaKXg5jIw/akf8Uc5S/S2c8vYoENVs3EYBOprRYfO005J/zngOWJGq1cbK2fEmw==",
+				"shasum": "8bc34569213f360894c394e7d6f36bcb8d668545",
+				"tarball": "https://registry.npmjs.org/remark-squeeze-paragraphs/-/remark-squeeze-paragraphs-5.0.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 7433,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJhCUMPCRA9TVsSAnZWagAA+0AP/Az8kBPU46wy8S5JA7Zs\nM0bF9BeEFfhxE9KUw/D/Fj8YfUm1u+acZ2vl/+1ygjpTzfdti9SJAwwqRb5H\nwh2UhHK9Mtp1J0Y92pg6h5RicLFrQou6a0QxxY10J88W0+olRMF5jLysr1nx\nrUH21yWg9TqnWFw43iIHTo7HZ08m6Yd85XHy17IRh0AU6X1blymjurMfe8YL\nd/ERJu2YRN6tcMrSMHb2oY9l1jQMWI2qZ0m50IOmdQBB2GAMYnViowbFm6Fl\nfRO+a043F8GuPDXDoBThIoHSOhFFRnYhHG32qfASGTATZhAliqo3RrtHtE6E\n53h2L9U+9/tL6OL0jSKfRtaf/s8N43LLuT/656E3dIWEA8U6upPVHy7oUXc+\nj11FQzXSKtqz2fgOFWhNjDPRvwAEFo+LUV6R/wbBSKeEPKdEVwbIiw0Kc7f6\nbpAt5g7A4D8ybFPZbqssE5P/iqLhtuVZUhPo7rdUsp4ZRN3JOrSvkcQQtfF5\nEC/PasJyDmVUuhk+W7fUjFrCqiXsQbxE+2mc66VUULT0o7IxJCvqzeO0KBYE\ndIx7LC88fmA+1k4v9Z+DmH3geiW4mK9MUbaBn57T67YX5XBJO3vYbaEgmmq/\nzKcfgJPxntPjzZWHaITwnDl0+PrfFDZYb/3ysjp5bB933rVn43NU3lHmKowJ\nnxyp\r\n=u5vx\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIG4mqyLscH/4hWClQwZwCRrMnpxVyPXSnnmJqc2ZD8zCAiEAnw+WTd1i9tDxdzGagkbBCoOPQXB222KrfPErzCVe3Ng="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "johno",
+					"email": "johnotander@gmail.com"
+				},
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/remark-squeeze-paragraphs_5.0.0_1627996943012_0.4220633029395018"
+			},
+			"_hasShrinkwrap": false
+		},
+		"5.0.1": {
+			"name": "remark-squeeze-paragraphs",
+			"version": "5.0.1",
+			"description": "remark plugin to remove empty paragraphs",
+			"license": "MIT",
+			"keywords": [
+				"unified",
+				"remark",
+				"remark-plugin",
+				"plugin",
+				"mdast",
+				"markdown",
+				"clean",
+				"empty",
+				"paragraph",
+				"remove",
+				"squeeze",
+				"whitespace"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/remarkjs/remark-squeeze-paragraphs.git"
+			},
+			"bugs": {
+				"url": "https://github.com/remarkjs/remark-squeeze-paragraphs/issues"
+			},
+			"funding": {
+				"type": "opencollective",
+				"url": "https://opencollective.com/unified"
+			},
+			"author": {
+				"name": "Eugene Sharygin",
+				"email": "eush77@gmail.com"
+			},
+			"contributors": [
+				{
+					"name": "Eugene Sharygin",
+					"email": "eush77@gmail.com"
+				},
+				{
+					"name": "Titus Wormer",
+					"email": "tituswormer@gmail.com",
+					"url": "https://wooorm.com"
+				}
+			],
+			"sideEffects": false,
+			"type": "module",
+			"main": "index.js",
+			"types": "index.d.ts",
+			"dependencies": {
+				"@types/mdast": "^3.0.0",
+				"mdast-squeeze-paragraphs": "^5.0.0",
+				"unified": "^10.0.0"
+			},
+			"devDependencies": {
+				"@types/tape": "^4.0.0",
+				"c8": "^7.0.0",
+				"prettier": "^2.0.0",
+				"remark": "^14.0.0",
+				"remark-cli": "^10.0.0",
+				"remark-preset-wooorm": "^9.0.0",
+				"rimraf": "^3.0.0",
+				"tape": "^5.0.0",
+				"type-coverage": "^2.0.0",
+				"typescript": "^4.0.0",
+				"unist-builder": "^3.0.0",
+				"xo": "^0.46.0"
+			},
+			"scripts": {
+				"build": "rimraf \"*.d.ts\" && tsc && type-coverage",
+				"format": "remark . -qfo && prettier . -w --loglevel warn && xo --fix",
+				"test-api": "node --conditions development test.js",
+				"test-coverage": "c8 --check-coverage --branches 100 --functions 100 --lines 100 --statements 100 --reporter lcov npm run test-api",
+				"test": "npm run build && npm run format && npm run test-coverage"
+			},
+			"prettier": {
+				"tabWidth": 2,
+				"useTabs": false,
+				"singleQuote": true,
+				"bracketSpacing": false,
+				"semi": false,
+				"trailingComma": "none"
+			},
+			"xo": {
+				"prettier": true
+			},
+			"remarkConfig": {
+				"plugins": [
+					"preset-wooorm"
+				]
+			},
+			"typeCoverage": {
+				"atLeast": 100,
+				"detail": true,
+				"strict": true,
+				"ignoreCatch": true
+			},
+			"gitHead": "746b111b86ba16ff8bdfda24d34848c763d7589e",
+			"homepage": "https://github.com/remarkjs/remark-squeeze-paragraphs#readme",
+			"_id": "remark-squeeze-paragraphs@5.0.1",
+			"_nodeVersion": "17.0.1",
+			"_npmVersion": "8.1.0",
+			"dist": {
+				"integrity": "sha512-VWPAoa1bAAtU/aQfSLRZ7vOrwH9I02RhZTSo+e0LT3fVO9RKNCq/bwobIEBhxvNCt00JoQ7GwR3sYGhmD2/y6Q==",
+				"shasum": "c15aae559c43cc6e1fe85e24d6ec3cca7ecc4fa9",
+				"tarball": "https://registry.npmjs.org/remark-squeeze-paragraphs/-/remark-squeeze-paragraphs-5.0.1.tgz",
+				"fileCount": 5,
+				"unpackedSize": 9215,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJh25pMCRA9TVsSAnZWagAAEkQP/343BPLAtHylUyYMqRe7\nXD1ZdTV5eAtzsT0qY/L3Q+jvSa1n5u0tktCq6CgezIDebr+TfYj6G/KZNV+k\nzTHajGHkBUzCy+twlNyQxOt2xDrRmf6VFH/Zeni4nnLXbRirIJI/XYUEgo6y\nWSpBkAdPwIcPq77Juy8mJes0HS4IoQxr0g3TDH1+cUQIxkhbo3WTL3LqA2rw\ne4NImruTaGFx/bV/P6gnxuAylje8TsRVAP9ajzHpr1hlna1uJ4zNZ42+XbCe\nj3BAnMDfLRVuvGqY8oKboYtiOeYDk5IagpWZoRnNdCnZsirYDdG8SIX2nQa+\n1pZt7XD5NAVkfx/Ou9PUUBNmw7tFi7x2gALvnkg4m8YUnqS/7rCs8jBo5FQD\nyFagAeDasZdyDVEvuyuI14fGSDYO/cLv/B6NQgToX61Ieticksy0PlnHaetn\n2s5wFSNNelNLb0KkELbqPegobdiv0BNEaS+zoXPFMAJW/c3u7gJsPzF3mvfa\n0cc/aNfG2ns3LR6Gf6bl1KKe0w+mb4IPRMAmePB1YvT9rnxIX9IqOigiiRSq\n0XzwE1wQF+kUdhMppjHrOr3Sw3VxtVT5YbBSvHQ/HHJT4XuHDy1ugZU0wJzy\nk2FcceV1Nw2eZER23UPhPJqiRNi5HWDTUJv34kxiRf6tRII0gCzrMaolRaGn\nF2a/\r\n=D8bw\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDwLx85U8wLB20iPB8ZRe1BqMJIlo/NMrSBNjEVPjUFfgIhALBp2tMs+aXzj6lSHCtwZ6HoAX0KcSrk0NE+ig9F1fBL"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "johno",
+					"email": "johnotander@gmail.com"
+				},
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/remark-squeeze-paragraphs_5.0.1_1635582201632_0.8166417387476732"
+			},
+			"_hasShrinkwrap": false
+		}
+	},
+	"time": {
+		"modified": "2022-06-26T11:03:46.001Z",
+		"created": "2016-01-04T21:05:34.946Z",
+		"3.0.0": "2016-01-04T21:05:34.946Z",
+		"3.0.1": "2017-06-13T17:37:22.866Z",
+		"3.0.2": "2018-08-09T15:50:43.214Z",
+		"3.0.3": "2018-11-20T20:19:05.612Z",
+		"3.0.4": "2019-06-15T09:17:57.904Z",
+		"4.0.0": "2020-03-22T10:34:06.404Z",
+		"5.0.0": "2021-08-03T13:22:23.148Z",
+		"5.0.1": "2021-10-30T08:23:21.764Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "5.0.1"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"15f49ff390322198f4351cdc90700504\"",
+			"fetched": 1660840763661
+		}
+	},
+	"_distfiles": {
+		"remark-squeeze-paragraphs-3.0.0.tgz": {
+			"url": "https://registry.npmjs.org/remark-squeeze-paragraphs/-/remark-squeeze-paragraphs-3.0.0.tgz",
+			"sha": "9cba385ebae06b19508b071916553a45368df7da",
+			"registry": "npmjs"
+		},
+		"remark-squeeze-paragraphs-3.0.1.tgz": {
+			"url": "https://registry.npmjs.org/remark-squeeze-paragraphs/-/remark-squeeze-paragraphs-3.0.1.tgz",
+			"sha": "0aae4d14bd943ebf7d0125136f0c419b34f9c92e",
+			"registry": "npmjs"
+		},
+		"remark-squeeze-paragraphs-3.0.2.tgz": {
+			"url": "https://registry.npmjs.org/remark-squeeze-paragraphs/-/remark-squeeze-paragraphs-3.0.2.tgz",
+			"sha": "c3d1459cb17c250180fdc8f9814224b44d952b90",
+			"registry": "npmjs"
+		},
+		"remark-squeeze-paragraphs-3.0.3.tgz": {
+			"url": "https://registry.npmjs.org/remark-squeeze-paragraphs/-/remark-squeeze-paragraphs-3.0.3.tgz",
+			"sha": "299d8db7d44008c9ae240dbf6d1f55b8b0f924ce",
+			"registry": "npmjs"
+		},
+		"remark-squeeze-paragraphs-3.0.4.tgz": {
+			"url": "https://registry.npmjs.org/remark-squeeze-paragraphs/-/remark-squeeze-paragraphs-3.0.4.tgz",
+			"sha": "9fe50c3bf3b572dd88754cd426ada007c0b8dc5f",
+			"registry": "npmjs"
+		},
+		"remark-squeeze-paragraphs-4.0.0.tgz": {
+			"url": "https://registry.npmjs.org/remark-squeeze-paragraphs/-/remark-squeeze-paragraphs-4.0.0.tgz",
+			"sha": "76eb0e085295131c84748c8e43810159c5653ead",
+			"registry": "npmjs"
+		},
+		"remark-squeeze-paragraphs-5.0.0.tgz": {
+			"url": "https://registry.npmjs.org/remark-squeeze-paragraphs/-/remark-squeeze-paragraphs-5.0.0.tgz",
+			"sha": "8bc34569213f360894c394e7d6f36bcb8d668545",
+			"registry": "npmjs"
+		},
+		"remark-squeeze-paragraphs-5.0.1.tgz": {
+			"url": "https://registry.npmjs.org/remark-squeeze-paragraphs/-/remark-squeeze-paragraphs-5.0.1.tgz",
+			"sha": "c15aae559c43cc6e1fe85e24d6ec3cca7ecc4fa9",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_rev": "3-bab2a92ce2d649b3",
+	"_id": "remark-squeeze-paragraphs",
+	"readme": "# remark-squeeze-paragraphs\n\n[![Build][build-badge]][build]\n[![Coverage][coverage-badge]][coverage]\n[![Downloads][downloads-badge]][downloads]\n[![Size][size-badge]][size]\n[![Sponsors][sponsors-badge]][collective]\n[![Backers][backers-badge]][collective]\n[![Chat][chat-badge]][chat]\n\n[**remark**][remark] plugin to remove empty (or white space only) paragraphs.\n\n## Contents\n\n*   [What is this?](#what-is-this)\n*   [When should I use this?](#when-should-i-use-this)\n*   [Install](#install)\n*   [Use](#use)\n*   [API](#api)\n    *   [`unified().use(remarkSqueezeParagraphs)`](#unifieduseremarksqueezeparagraphs)\n*   [Types](#types)\n*   [Compatibility](#compatibility)\n*   [Security](#security)\n*   [Related](#related)\n*   [Contribute](#contribute)\n*   [License](#license)\n\n## What is this?\n\nThis package is a [unified][] ([remark][]) plugin to remove empty paragraphs.\n\n**unified** is a project that transforms content with abstract syntax trees\n(ASTs).\n**remark** adds support for markdown to unified.\n**mdast** is the markdown AST that remark uses.\nThis is a remark plugin that transforms mdast.\n\n## When should I use this?\n\nThis project is mostly useful when you’re using other plugins that remove things\nfrom the AST (such as [`remark-strip-badges`][remark-strip-badges]).\nYou can then use this plugin afterwards to clean stray empty paragraphs.\n\n## Install\n\nThis package is [ESM only](https://gist.github.com/sindresorhus/a39789f98801d908bbc7ff3ecc99d99c).\nIn Node.js (version 12.20+, 14.14+, or 16.0+), install with [npm][]:\n\n```sh\nnpm install remark-squeeze-paragraphs\n```\n\nIn Deno with [Skypack][]:\n\n```js\nimport remarkSqueezeParagraphs from 'https://cdn.skypack.dev/remark-squeeze-paragraphs@5?dts'\n```\n\nIn browsers with [Skypack][]:\n\n```html\n<script type=\"module\">\n  import remarkSqueezeParagraphs from 'https://cdn.skypack.dev/remark-squeeze-paragraphs@5?min'\n</script>\n```\n\n## Use\n\n```js\nimport {remark} from 'remark'\nimport remarkStripBadges from 'remark-strip-badges'\nimport remarkSqueezeParagraphs from 'remark-squeeze-paragraphs'\n\nmain()\n\nasync function main() {\n  console.log(\n    (\n      await remark()\n        .use(remarkStripBadges)\n        .process('![](https://img.shields.io/)\\n\\ntext')\n    ).toString()\n  )\n  // => '\\n\\ntext\\n'\n\n  console.log(\n    (\n      await remark()\n        .use(remarkStripBadges)\n        .use(remarkSqueezeParagraphs)\n        .process('![](https://img.shields.io/)\\n\\ntext')\n    ).toString()\n  )\n  // => 'text\\n'\n}\n```\n\n## API\n\nThis package exports no identifiers.\nThe default export is `remarkSqueezeParagraphs`.\n\n### `unified().use(remarkSqueezeParagraphs)`\n\nRemove empty (or white space only) paragraphs.\nThere are no options.\n\n## Types\n\nThis package is fully typed with [TypeScript][].\nThere are no extra exported types.\n\n## Compatibility\n\nProjects maintained by the unified collective are compatible with all maintained\nversions of Node.js.\nAs of now, that is Node.js 12.20+, 14.14+, and 16.0+.\nOur projects sometimes work with older versions, but this is not guaranteed.\n\nThis plugin works with `unified` version 3+ and `remark` version 4+.\n\n## Security\n\nUse of `remark-squeeze-paragraphs` does not involve [**rehype**][rehype]\n([**hast**][hast]) or user content so there are no openings for\n[cross-site scripting (XSS)][xss] attacks.\n\n## Related\n\n*   [`mdast-squeeze-paragraphs`][mdast-squeeze-paragraphs]\n    — mdast utility with similar functionality\n\n## Contribute\n\nSee [`contributing.md`][contributing] in [`remarkjs/.github`][health] for ways\nto get started.\nSee [`support.md`][support] for ways to get help.\n\nThis project has a [code of conduct][coc].\nBy interacting with this repository, organization, or community you agree to\nabide by its terms.\n\n## License\n\n[MIT][license] © Eugene Sharygin\n\n[build-badge]: https://github.com/remarkjs/remark-squeeze-paragraphs/workflows/main/badge.svg\n\n[build]: https://github.com/remarkjs/remark-squeeze-paragraphs/actions\n\n[coverage-badge]: https://img.shields.io/codecov/c/github/remarkjs/remark-squeeze-paragraphs.svg\n\n[coverage]: https://codecov.io/github/remarkjs/remark-squeeze-paragraphs\n\n[downloads-badge]: https://img.shields.io/npm/dm/remark-squeeze-paragraphs.svg\n\n[downloads]: https://www.npmjs.com/package/remark-squeeze-paragraphs\n\n[size-badge]: https://img.shields.io/bundlephobia/minzip/remark-squeeze-paragraphs.svg\n\n[size]: https://bundlephobia.com/result?p=remark-squeeze-paragraphs\n\n[sponsors-badge]: https://opencollective.com/unified/sponsors/badge.svg\n\n[backers-badge]: https://opencollective.com/unified/backers/badge.svg\n\n[collective]: https://opencollective.com/unified\n\n[chat-badge]: https://img.shields.io/badge/chat-discussions-success.svg\n\n[chat]: https://github.com/remarkjs/remark/discussions\n\n[npm]: https://docs.npmjs.com/cli/install\n\n[skypack]: https://www.skypack.dev\n\n[health]: https://github.com/remarkjs/.github\n\n[contributing]: https://github.com/remarkjs/.github/blob/HEAD/contributing.md\n\n[support]: https://github.com/remarkjs/.github/blob/HEAD/support.md\n\n[coc]: https://github.com/remarkjs/.github/blob/HEAD/code-of-conduct.md\n\n[license]: license\n\n[remark]: https://github.com/remarkjs/remark\n\n[unified]: https://github.com/unifiedjs/unified\n\n[mdast-squeeze-paragraphs]: https://github.com/syntax-tree/mdast-squeeze-paragraphs\n\n[xss]: https://en.wikipedia.org/wiki/Cross-site_scripting\n\n[typescript]: https://www.typescriptlang.org\n\n[rehype]: https://github.com/rehypejs/rehype\n\n[hast]: https://github.com/syntax-tree/hast\n\n[remark-strip-badges]: https://github.com/remarkjs/remark-strip-badges"
+}

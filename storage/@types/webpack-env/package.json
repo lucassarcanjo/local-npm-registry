@@ -1,0 +1,1631 @@
+{
+	"name": "@types/webpack-env",
+	"versions": {
+		"1.12.1": {
+			"name": "@types/webpack-env",
+			"version": "1.12.1",
+			"description": "TypeScript definitions for webpack 1.12.2 (module API)",
+			"license": "MIT",
+			"author": "use-strict <https://github.com/use-strict>",
+			"main": "",
+			"repository": {
+				"type": "git",
+				"url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+			},
+			"scripts": {},
+			"dependencies": {},
+			"peerDependencies": {},
+			"typings": "index.d.ts",
+			"typesPublisherContentHash": "30d1d88a636192dae03bbed382626204a37bbd56423252d27b3b33ee3a0706f9",
+			"_id": "@types/webpack-env@1.12.1",
+			"dist": {
+				"shasum": "3cc5373201a70e8381026a09eabf0f4a3301b3c4",
+				"tarball": "https://registry.npmjs.org/@types/webpack-env/-/webpack-env-1.12.1.tgz",
+				"integrity": "sha512-bY3MpXvdvhWnzN4xLCgY8vunxh7nnMqNqKAKw5IK7LEh5wWslxBDyfa+hjYJ8x4Y/ISiTfG3lSMPqj/8VkTbkA==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQCEjGyeL+FOAPUZX8lAdRGI5qA2bRaRcmke0VGu/2uVUwIgBm6/XPUcsCdRmaKoxxbdgHWpx1thy7fVfWjhm4iO3vs="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/webpack-env-1.12.1.tgz_1475701467032_0.5493687784764916"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.12.2": {
+			"name": "@types/webpack-env",
+			"version": "1.12.2",
+			"description": "TypeScript definitions for webpack (module API)",
+			"license": "MIT",
+			"author": "use-strict <https://github.com/use-strict>",
+			"main": "",
+			"repository": {
+				"type": "git",
+				"url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+			},
+			"scripts": {},
+			"dependencies": {},
+			"peerDependencies": {},
+			"typesPublisherContentHash": "a94782e2758c6c320604585ec3763db8ba5a391434a41384199810e7459bd9b1",
+			"typeScriptVersion": "2.0",
+			"_id": "@types/webpack-env@1.12.2",
+			"dist": {
+				"shasum": "32b029275826d9d9ca3b25c57cbfa8127eda29f8",
+				"tarball": "https://registry.npmjs.org/@types/webpack-env/-/webpack-env-1.12.2.tgz",
+				"integrity": "sha512-+M5s3dx7hHZgQ5c6uIBj2jcMAUnsc1GMVZqWbo5dBDmUsQTQLq/ADB223seqBAfIsAAzqYGzn1kFa0cq4obiEA==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQD3l7jreVjO/6GA3KCKS0v20o6GPKNqKCh2YpjnyBwtDwIgDeEkJpxvrUd6eXqYjT2Iqg+6WYCgjZ0Ct72fbcRViTA="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/webpack-env-1.12.2.tgz_1483056141185_0.8091416868846864"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.13.0": {
+			"name": "@types/webpack-env",
+			"version": "1.13.0",
+			"description": "TypeScript definitions for webpack (module API)",
+			"license": "MIT",
+			"author": "use-strict <https://github.com/use-strict>",
+			"main": "",
+			"repository": {
+				"type": "git",
+				"url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+			},
+			"scripts": {},
+			"dependencies": {},
+			"peerDependencies": {},
+			"typesPublisherContentHash": "3651eab2217a973a8958de2a9b300746383f4e3e0dd920179c1bca64da483667",
+			"typeScriptVersion": "2.0",
+			"_id": "@types/webpack-env@1.13.0",
+			"dist": {
+				"shasum": "3044381647e11ee973c5af2e925323930f691d80",
+				"tarball": "https://registry.npmjs.org/@types/webpack-env/-/webpack-env-1.13.0.tgz",
+				"integrity": "sha512-0BANcVFVqkAD1i7/fWy9Vu6KjB9whuAmkfFX0GFwNzubu2i0qXDsLvGZSbU1QimJHWH4rqjJDQ/PX9v5OVepEA==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIFAe/syBUw2InHUQRD5TJa77PYKW8P4pVnVp1pvRf6lDAiBz2aUzOJ98Bgxwnal2TNMVCdGIYsU1kerAemk6IkIkiA=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/webpack-env-1.13.0.tgz_1483597541278_0.6232291427440941"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.13.1": {
+			"name": "@types/webpack-env",
+			"version": "1.13.1",
+			"description": "TypeScript definitions for webpack (module API)",
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "use-strict",
+					"url": "https://github.com/use-strict",
+					"githubUsername": "use-strict"
+				},
+				{
+					"name": "rhonsby",
+					"url": "https://github.com/rhonsby",
+					"githubUsername": "rhonsby"
+				}
+			],
+			"main": "",
+			"repository": {
+				"type": "git",
+				"url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+			},
+			"scripts": {},
+			"dependencies": {},
+			"typesPublisherContentHash": "7808d097cab10336fd869728546feeca7dbdb9f458da3aa79c843cd2a9131a5c",
+			"typeScriptVersion": "2.0",
+			"_id": "@types/webpack-env@1.13.1",
+			"dist": {
+				"integrity": "sha512-oHyg0NssP2RCpCvE35hhbSqMJRsc5lSW+GFe+Vc65JL+kHII1VMYM+0KeV/z4utFuUqPoQRmq8KMMp7ba0dj6Q==",
+				"shasum": "b45c222e24301bd006e3edfc762cc6b51bda236a",
+				"tarball": "https://registry.npmjs.org/@types/webpack-env/-/webpack-env-1.13.1.tgz",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDE1GcqQ5la25pQpfjEzvQsbwyTFaOfzwvna6xATQEEpAIhAOqXcn+duLcjGYmEXzLDYw2D67HsXeob9Q0dG9KLUH5F"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/webpack-env-1.13.1.tgz_1504822242407_0.2977517677936703"
+			},
+			"directories": {}
+		},
+		"1.13.2": {
+			"name": "@types/webpack-env",
+			"version": "1.13.2",
+			"description": "TypeScript definitions for webpack (module API)",
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "use-strict",
+					"url": "https://github.com/use-strict",
+					"githubUsername": "use-strict"
+				},
+				{
+					"name": "rhonsby",
+					"url": "https://github.com/rhonsby",
+					"githubUsername": "rhonsby"
+				}
+			],
+			"main": "",
+			"repository": {
+				"type": "git",
+				"url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+			},
+			"scripts": {},
+			"dependencies": {},
+			"typesPublisherContentHash": "491cd4cf27b120fb9a667753be949084a075abdcbeaf07fc555b8c92b840e3b0",
+			"typeScriptVersion": "2.0",
+			"_id": "@types/webpack-env@1.13.2",
+			"dist": {
+				"integrity": "sha512-pjbzi3A1Y4iLpNdNZNG4loIZKtYOnpCQY82bnsHi9lQXl4f3ul0TDsd1fUd10jbgCXR5bwaP4Ffy1BDLuEZpaQ==",
+				"shasum": "c290b99dbef74df21b06671aea36e355bf3b27e1",
+				"tarball": "https://registry.npmjs.org/@types/webpack-env/-/webpack-env-1.13.2.tgz",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQCuzCB/0miVuIQd8VIwR+3xDpnnVKrdy5VRYObeN+qddAIgDqcF8I3EHoJvtnI463zcfcFlWiVvbdFUsNmlz0jL7I4="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/webpack-env-1.13.2.tgz_1507961609010_0.7053591636940837"
+			},
+			"directories": {}
+		},
+		"1.13.3": {
+			"name": "@types/webpack-env",
+			"version": "1.13.3",
+			"description": "TypeScript definitions for webpack (module API)",
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "use-strict",
+					"url": "https://github.com/use-strict",
+					"githubUsername": "use-strict"
+				},
+				{
+					"name": "rhonsby",
+					"url": "https://github.com/rhonsby",
+					"githubUsername": "rhonsby"
+				}
+			],
+			"main": "",
+			"repository": {
+				"type": "git",
+				"url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+			},
+			"scripts": {},
+			"dependencies": {},
+			"typesPublisherContentHash": "67e43ec0d823e74ba72257218510d8a40f568c387091c1455f46ad470253c0c7",
+			"typeScriptVersion": "2.0",
+			"_id": "@types/webpack-env@1.13.3",
+			"dist": {
+				"integrity": "sha512-lLa+/oIfCzfmjyMWmQpJWlxuw2pWRqCZojg1JVtonAiMNISOGaEtowl+mffuFg7AghO2dwYulZBGV1Od2PZQ9A==",
+				"shasum": "0ecbe70f87341767793774d3683b51aa3246434c",
+				"tarball": "https://registry.npmjs.org/@types/webpack-env/-/webpack-env-1.13.3.tgz",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIGwmtBv+0RPPSsh0TloRI1XWvvF6esvHqLYFjcUVG5o4AiEA6/s6ZgNE4SyKDrHsAWa4o7Zm4bkqBWCVW+UIdbqMlhE="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/webpack-env-1.13.3.tgz_1512591065190_0.9877469809725881"
+			},
+			"directories": {}
+		},
+		"1.13.4": {
+			"name": "@types/webpack-env",
+			"version": "1.13.4",
+			"description": "TypeScript definitions for webpack (module API)",
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "use-strict",
+					"url": "https://github.com/use-strict",
+					"githubUsername": "use-strict"
+				},
+				{
+					"name": "rhonsby",
+					"url": "https://github.com/rhonsby",
+					"githubUsername": "rhonsby"
+				}
+			],
+			"main": "",
+			"repository": {
+				"type": "git",
+				"url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+			},
+			"scripts": {},
+			"dependencies": {},
+			"typesPublisherContentHash": "5b947122b2927788b2521ee0e02f84d74f3ba26bd07a9090721ffd2a955ee562",
+			"typeScriptVersion": "2.0",
+			"_id": "@types/webpack-env@1.13.4",
+			"dist": {
+				"integrity": "sha512-nPwZDLIb4I9OeTMrVmLlZ2bVSev36teBzsG0WWzcU4+qWVCKm3QRILA+HLzkJXfR6MWYYSbaHZpDI4wXulDbrQ==",
+				"shasum": "ca3578299323f4fbec770bb32ed581198f0a8ed9",
+				"tarball": "https://registry.npmjs.org/@types/webpack-env/-/webpack-env-1.13.4.tgz",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIG8YsRR2+XySmSIvavVz0HbeRbHUxstWKA2PdOGDWt1dAiAn5ys23OofHHoy6mrNhgqrVnqOBqoW6HQYiY6kYSCUzw=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/webpack-env-1.13.4.tgz_1517260850737_0.6327576134353876"
+			},
+			"directories": {}
+		},
+		"1.13.5": {
+			"name": "@types/webpack-env",
+			"version": "1.13.5",
+			"description": "TypeScript definitions for webpack (module API)",
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "use-strict",
+					"url": "https://github.com/use-strict",
+					"githubUsername": "use-strict"
+				},
+				{
+					"name": "rhonsby",
+					"url": "https://github.com/rhonsby",
+					"githubUsername": "rhonsby"
+				}
+			],
+			"main": "",
+			"repository": {
+				"type": "git",
+				"url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+			},
+			"scripts": {},
+			"dependencies": {},
+			"typesPublisherContentHash": "d8ead55c0cf1de6937241beeb8b69834a94ab40f75c63887c5ea1841541ebaf5",
+			"typeScriptVersion": "2.0",
+			"_id": "@types/webpack-env@1.13.5",
+			"dist": {
+				"integrity": "sha512-YJf5OCQXQ7eciY5js9WgDniScllmeQUcY1acsdBoRVqVFbqarGksLv1Iaba1u4x3sW9DFsw7PhxWgo2FaIUhUA==",
+				"shasum": "ca854e9fbdbcdf45d7376882875f28e2c60593f8",
+				"tarball": "https://registry.npmjs.org/@types/webpack-env/-/webpack-env-1.13.5.tgz",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQCsppOSCV/qDLaXxzxhdSBdLNbojCohdJQ2y4ijTzUI/gIgIOSSHA31j8XNb09xe/Tjy+J9Na1nBiH9yphkKM+LkE4="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/webpack-env-1.13.5.tgz_1517342524205_0.19196868990547955"
+			},
+			"directories": {}
+		},
+		"1.13.6": {
+			"name": "@types/webpack-env",
+			"version": "1.13.6",
+			"description": "TypeScript definitions for webpack (module API)",
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "use-strict",
+					"url": "https://github.com/use-strict",
+					"githubUsername": "use-strict"
+				},
+				{
+					"name": "rhonsby",
+					"url": "https://github.com/rhonsby",
+					"githubUsername": "rhonsby"
+				}
+			],
+			"main": "",
+			"repository": {
+				"type": "git",
+				"url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+			},
+			"scripts": {},
+			"dependencies": {},
+			"typesPublisherContentHash": "f77e28557675178373a7e238dd2756dd10f08b07ab4b9e1f53b50101b8e1eb22",
+			"typeScriptVersion": "2.0",
+			"_id": "@types/webpack-env@1.13.6",
+			"dist": {
+				"integrity": "sha512-5Th3OsZ4gTRdr9Mho83BQ23cex4sRhOR4XTG+m+cJc0FhtUBK9Vn62hBJ+pnQYnSxoPOsKoAPOx6FcphxBC8ng==",
+				"shasum": "128d1685a7c34d31ed17010fc87d6a12c1de6976",
+				"tarball": "https://registry.npmjs.org/@types/webpack-env/-/webpack-env-1.13.6.tgz",
+				"fileCount": 4,
+				"unpackedSize": 13581,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDtx8bh70MVzxCTMAlAEu+12fUbHn2/2sGxpAAZF+CE2QIgPb0vjrVN5DBR+qby4K+rO6/iQoDzhJyRJanqyN7Us5U="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/webpack-env_1.13.6_1523565165809_0.31018031724691886"
+			},
+			"_hasShrinkwrap": false
+		},
+		"1.13.7": {
+			"name": "@types/webpack-env",
+			"version": "1.13.7",
+			"description": "TypeScript definitions for webpack (module API)",
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "use-strict",
+					"url": "https://github.com/use-strict",
+					"githubUsername": "use-strict"
+				},
+				{
+					"name": "rhonsby",
+					"url": "https://github.com/rhonsby",
+					"githubUsername": "rhonsby"
+				}
+			],
+			"main": "",
+			"types": "index",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+			},
+			"scripts": {},
+			"dependencies": {},
+			"typesPublisherContentHash": "82f7c0e2d223e8975090d789f5f763ef7d24f01ec6f9adfc22a71368816842d9",
+			"typeScriptVersion": "2.0",
+			"_id": "@types/webpack-env@1.13.7",
+			"dist": {
+				"integrity": "sha512-rzi6fw7hhxPcCoNVsgysHFlKnhYYvVj7AJwdAO0HQNP5vg9sY0DoRRC1pfuCQm94cOa1sab82HGUtdFlWHIhBg==",
+				"shasum": "137a4e57aa31ab57b1baf66f5dc3b6bf085e9944",
+				"tarball": "https://registry.npmjs.org/@types/webpack-env/-/webpack-env-1.13.7.tgz",
+				"fileCount": 4,
+				"unpackedSize": 13392,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcUhTtCRA9TVsSAnZWagAA3+kP/3OyGQcWN3n72vkuxvzy\nv1ZnZBaZYo5ObecnsRVnNlHXP/s+tCuBoC53eeN3f44d3Og7O3RownbHrYZU\nJzR9Tu8r5Jys0Kg/Mr6UWcHsbxim5HVtZv8MnQqsthYLeHgwtees0Ksnq+0/\nREvNigIjuySAVhaB+PH5zRHJM2zr13kwKWY0yAcLOrd6Fi8xGE8AIphq9pZJ\nmuaa0znuKbi6yBLeEz4zqoaRHRE5Fe96BjWU9Dq8hz8OJrgmEzBKyxxH6nZR\nTA8gVIP1r/xprKvUdMlP01tbCq0N+J4nlTw/QeFkjk/JK+sfBO8Q+5Z5aTEA\nB680DQf4kgpuZx1H4O77oMwVWyGa4mR8T3Naon6zp5cZ8VdhqNmbx7CzloVG\nlnKtiPcJ9y0poF0nZ7h3pwWrsJqrZ89YoVoS0R3gvoDsBF9adk/wAnv8owSb\nx4H6i8u0IepbVcGw7pyIZ3Rq8gNNV/tnFGLiIFL68XbV1bFwM3D8xvVhX/8n\nvpZJNNzznIp6jdlBFy3plV5VPPjWKqvUJCKgOtq8IwlG6z64wVHMyNltVKnc\nkzJEalKQjyw40o9NZUWch+7ZihrkyTZ7YL9yzVp0h73YYZgYN57Uo/rWtOMa\n66CzSdf2UTfIXSuxPkCUe1Kzmw4dWBI65mMmNYrdo4h02Bu3AnFxvtRZuP1/\n8maQ\r\n=boXV\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIHauVObJPOgbTBn54xawTGHohHJIX80yiD8MBpaqON+IAiEA83qzTVmy9L0by0EYTY5M8GHSYfn7kDH9dtjqH2kbCAU="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/webpack-env_1.13.7_1548883181298_0.05720803515244466"
+			},
+			"_hasShrinkwrap": false
+		},
+		"1.13.8": {
+			"name": "@types/webpack-env",
+			"version": "1.13.8",
+			"description": "TypeScript definitions for webpack (module API)",
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "use-strict",
+					"url": "https://github.com/use-strict",
+					"githubUsername": "use-strict"
+				},
+				{
+					"name": "rhonsby",
+					"url": "https://github.com/rhonsby",
+					"githubUsername": "rhonsby"
+				}
+			],
+			"main": "",
+			"types": "index",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+				"directory": "types/webpack-env"
+			},
+			"scripts": {},
+			"dependencies": {},
+			"typesPublisherContentHash": "f22ab633d48b9017ba5fe192d98a01246b21d26d2a349ce19e47e83090c20279",
+			"typeScriptVersion": "2.1",
+			"_id": "@types/webpack-env@1.13.8",
+			"dist": {
+				"integrity": "sha512-PWkdsHTGMQHbiZwCJrFRhookFnOBw5gboW7cLcx+QyTMpwCVEr3SxzVO3L52krDnuoq50S02IiMLGIt6AmhFug==",
+				"shasum": "859e35ab1811eccd35e6b8d692a622b0fa7b31ec",
+				"tarball": "https://registry.npmjs.org/@types/webpack-env/-/webpack-env-1.13.8.tgz",
+				"fileCount": 4,
+				"unpackedSize": 15681,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJceXpLCRA9TVsSAnZWagAAydsP/i0svKKR4e4G870Wy/Gq\nAWo5yqhv1PMdsgx1FMmqRc0AbnIsDd3F7qxDGOR760LK3uIrYQAUFNYniI4B\n+GoWQuJ5YvXNV9etkSXCKnxokRMaFdbBLFsp8wv2zFmBSObDTRUw9g99hUFo\nSzX12ik3n9PfpNR4r2y/W7YhW3q8w55p2axv+IWENpchvmBTT2Ogy2l47P2Z\n3rlGVzfJtTAecOdLpZlxjMSDAsEYD8vgIcD8a6I3kD5O/g/mXH4RkGuW2kP9\nMr66x7OKPTMBk+Tp2Vpo3nPC9pI/FDtcwAUgEJ4lOTC1bmQmRSl/YUojSEXY\nPuedz0Tczd9uuExyfmUMyXcW7JSGQljHLwSs2EhrpLD8xCPRFlQzA56ATBgp\nT7hmqNpNOEFSkjKRVuasU+AbfrLCq0YIAwLabUkjVFMmDu2oWHp6kNaU8h81\noIv2EllZWRNo/5coq4uqNUfMHswYcqmiOcrT8VOPOTGuWC5+xpbVdTTHs6HR\nHCollYX/cXZervOFz5EGpxrmnKSi/l5Dq4cg9BxyAIRwq7pwpY8q7sMwS3KY\nT8cJjFVvjl3dPTjjc5Sxu1SFN7YBNgqOg16X+x2SF34qd/Tx6dVibrWEPMNk\nfYd/Ntsz5xyz/2A+TsQG75Osmhuzoi4mngekm6FPfHbxqpUjBtDtcG26pXz3\nfc18\r\n=Sttj\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIBvM9A5pTzn1px308pfknTM3MkJv0E1HLdXYbUP7kW29AiA340yAR/FqNfzS77qG0G5o6821rndW3XBlYdPeav6f9Q=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/webpack-env_1.13.8_1551465034770_0.6806501670167944"
+			},
+			"_hasShrinkwrap": false
+		},
+		"1.13.9": {
+			"name": "@types/webpack-env",
+			"version": "1.13.9",
+			"description": "TypeScript definitions for webpack (module API)",
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "use-strict",
+					"url": "https://github.com/use-strict",
+					"githubUsername": "use-strict"
+				},
+				{
+					"name": "rhonsby",
+					"url": "https://github.com/rhonsby",
+					"githubUsername": "rhonsby"
+				}
+			],
+			"main": "",
+			"types": "index",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+				"directory": "types/webpack-env"
+			},
+			"scripts": {},
+			"dependencies": {},
+			"typesPublisherContentHash": "6a584eb8dae463a1ac678bd3645c7ea69d044296f65fbda92ed1fbe6601a8fb5",
+			"typeScriptVersion": "2.1",
+			"_id": "@types/webpack-env@1.13.9",
+			"dist": {
+				"integrity": "sha512-p8zp5xqkly3g4cCmo2mKOHI9+Z/kObmDj0BmjbDDJQlgDTiEGTbm17MEwTAusV6XceCy+bNw9q/ZHXHyKo3zkg==",
+				"shasum": "a67287861c928ebf4159a908d1fb1a2a34d4097a",
+				"tarball": "https://registry.npmjs.org/@types/webpack-env/-/webpack-env-1.13.9.tgz",
+				"fileCount": 4,
+				"unpackedSize": 15683,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcgbAcCRA9TVsSAnZWagAAvU4P/2nun4ddJgIGuv6qvW6t\nHhbvYHVwlyDw0Jb4EXMY+n1H+UzMcPIDB8V8w/q4IULvT0WjiLvVLtY0y5gZ\nRIUKiHCEINhy7zKI2w/VDDhIkk3ME9hr2tlBCSK/tPaFojDL5+8tnwSxy/xE\n6DRuiOmVbaFjnuzDI66d5BS+tpxTz1EnWZR8BLjkrmQ7cMcY+kW1Rv4G1gh4\nQQod3FsmhVcBVqmtxIZtxsUnkSKsvOtteJIVYukKC5X5JdUIbILDfJW5zpUs\nKy9S9AmU3akdum3TqKrnEoNgk3WShUpOUj14Ig0EgMt3/EeOQgJcU2pgUO5e\nJw67FUH0fvHh9jKaYtGrXbDA5/u4NHzNfyxNdZMVheQA1HYegjA0aKHetFW2\nc0vA75H25nUSRLmh76Y7b9ifwp0UxzBM7a6jgHwMPobB2WIIUsF/ODAeh1dY\nQm5lBLrC5VpzaR+oPf61xMPA2YcOJG92vF1Yu/JvUSQWlD8X86aZaLWwnGlP\npUeZv7TomE3AA9u9iy6K0AaVL/wGTgckNte2XnFxpbIpH5t+j1QRihE4CtyW\nLc3ZvLhphSHANnUwZCsBRWBYoNMT5YS/7B5KvNS2f+LE0LRGWctcrN4kElJE\nZj+FORtl6BmL6OSFxmsnmuslzL2YOVs62Mth3adKkJmOopDDLi6am1SSzqaE\nE6Cr\r\n=7DoH\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIEEN/V+Bc4gusiXZi/X7H3mH9MzacbxJGzHy3gsdYok/AiBXx+RpWmHvNL0QDT/Z7wfVQc4uHNIYUk6nXDeNbf3ymg=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/webpack-env_1.13.9_1552003100030_0.2851824539231089"
+			},
+			"_hasShrinkwrap": false
+		},
+		"1.14.0": {
+			"name": "@types/webpack-env",
+			"version": "1.14.0",
+			"description": "TypeScript definitions for webpack (module API)",
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "use-strict",
+					"url": "https://github.com/use-strict",
+					"githubUsername": "use-strict"
+				},
+				{
+					"name": "rhonsby",
+					"url": "https://github.com/rhonsby",
+					"githubUsername": "rhonsby"
+				}
+			],
+			"main": "",
+			"types": "index",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+				"directory": "types/webpack-env"
+			},
+			"scripts": {},
+			"dependencies": {},
+			"typesPublisherContentHash": "38b488aae4a85bafb20036cbb59f3496d420eafd8da420138c0e66c361a06c7f",
+			"typeScriptVersion": "2.1",
+			"_id": "@types/webpack-env@1.14.0",
+			"dist": {
+				"integrity": "sha512-Fv+0gYJzE/czLoRKq+gnXWr4yBpPM3tO3C8pDLFwqVKlMICQUq5OsxwwFZYDaVr7+L6mgNDp16iOcJHEz3J5RQ==",
+				"shasum": "8edfc5f8e6eae20eeed3ca0d02974ed4ee5e4efc",
+				"tarball": "https://registry.npmjs.org/@types/webpack-env/-/webpack-env-1.14.0.tgz",
+				"fileCount": 4,
+				"unpackedSize": 15799,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdJlK6CRA9TVsSAnZWagAAtR4P/2PlbGVRffBwxCAKw40N\nSGcbjsLYtBzf5EP5q26D59EDeRhijOfpYF4Lairo5JJ7HCyQCsvgoqsO8pth\n1XYNzYvLsDp7p+O1sEfKYYqqXDasc45iOwh8wfG1KBSoAB6Xx9tZmgIT4raV\nrNLQipu644KieMfdYx47t6HQBimTo/nkGz136C+362u4YIKUgTlLdGshaK9w\nbOw4+USmKUfRA0NgSsSketnrj7N1ts8X/lT3cvIAmeNTYuzaEz6AnPaFzFR3\nGUQnvJPf1+ki/wRlWi452CluFaG5X0Zp+Ye1STJ6isGimTuiXaamGS3OHCG8\nn0DB00dLwJunK+ghESTPozd5I5GGx46qf1ji5F6/s0IlA+pYtt1bPgx8gghv\n7TwAOOsR6HWI9irwwgNhGjt35nWPT+MDchRn4KsyRX6u5j/tBLfZzJC3mPIe\nCHG3ZLyGRYGTnhdbDu7q+MFvGbe41yfIZGsRLBrG5vTyZ9WClJ27HQCbnaf9\ncmefKNmhXrWHqW9g9KiMZFFa5YZ5zWkxqK/6Zn/eddcH3gXTIA2o9Ji5z3B7\n5E4uc2fSM3jSZ+2uozcyInBdAjdbOgTcO1kG7okxjyL4XxcMc12FE6QMJTX3\npaWSFJO7Ji23V4utvN1CSTUipnbqC86eRy5KP1TDK9BSUITRJ3ZpUFT2r4v5\n7e1X\r\n=2K3v\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDzuY3FXVd6UfKTEj+t/tbSM6W093z4oFrG7wViL+kcOwIhAJ2jzXxbBiNcBGLVLUzu+iFlekfeSu6T4J401oXbnJGq"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/webpack-env_1.14.0_1562792633844_0.779685769941451"
+			},
+			"_hasShrinkwrap": false
+		},
+		"1.14.1": {
+			"name": "@types/webpack-env",
+			"version": "1.14.1",
+			"description": "TypeScript definitions for webpack (module API)",
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "use-strict",
+					"url": "https://github.com/use-strict",
+					"githubUsername": "use-strict"
+				},
+				{
+					"name": "rhonsby",
+					"url": "https://github.com/rhonsby",
+					"githubUsername": "rhonsby"
+				}
+			],
+			"main": "",
+			"types": "index",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+				"directory": "types/webpack-env"
+			},
+			"scripts": {},
+			"dependencies": {},
+			"typesPublisherContentHash": "dcf1dd8f503633d93c41cc63896728fe021c0cd46455327d9eb40fd4005f5259",
+			"typeScriptVersion": "2.1",
+			"_id": "@types/webpack-env@1.14.1",
+			"dist": {
+				"integrity": "sha512-0Ki9jAAhKDSuLDXOIMADg54Hu60SuBTEsWaJGGy5cV+SSUQ63J2a+RrYYGrErzz39fXzTibhKrAQJAb8M7PNcA==",
+				"shasum": "0d8a53f308f017c53a5ddc3d07f4d6fa76b790d7",
+				"tarball": "https://registry.npmjs.org/@types/webpack-env/-/webpack-env-1.14.1.tgz",
+				"fileCount": 4,
+				"unpackedSize": 15900,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdpMg2CRA9TVsSAnZWagAAtMIP+wZ0OUwQEgrsv3MVmV6e\niuW7TfOI9Ru/fSCo7PaiXLQ/Uv0AeCuIYxM1dOk0HNbLfEwEZZJdtR4RoL29\nyVkZvVKPX3i5h63bemgs+QdGgz1FFskYG2oGOSmblres1175fATxkh5+X9y0\nfrWV1lQU353OvP1XIXzKbjRIwYSIPUsgJZXzy1zKa2s3g0pvp+EXjAA8PPny\ncH232banSofv2ogqNzBlsohD1yf47XZsumVe0RXoymbCp+Z2r7mO/jvfbvuA\nekElKwlD0wnJGuTU7Qaej78SAU7aQ1v0F0yI5iY3y5/RcwdRfNKhsXxrg8oj\nUT3BAZVQ1AUphRyrslBP2swBSUI/ABQDCgpnepSpzD3da4XlqVkvG5t+9yQy\nw5nMv8ojploveZkdtm7jpbQqcf3RsHaUKPVY/+y+9SnXWNvdpfVQzo4JQD8O\nnNbIuNBJrnFZ+H2by5M4+iOKOxNFVBvhUeOkBgdhBIt6ox/DBjGBuL3PjvCK\n1GEoZX1zwwQ/gSiBv/IzdfW5ZIIlnOiE9ZSrFs0XClUw4XbXghB/jAQtIVfz\nY1G9s/iZ7hdbn+6jpFD7I/NsXH4EUUP60akl8fh9hnodzBQkLlh9Q1ifWUkf\nhL4abeMyCDBhyL0ZkB6+MvV5232T+qifLdRg4jkSkUhxOz26DTHOQ+1CRKzk\n0u6a\r\n=ek7E\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDUaEwXOoXAUx6ed6XKmrjwqrfU/JRaPtKijBGnTgOgHwIgJ5quK0BvAcsSM+3bhyE8yrN41I7HUCpYh5D4zgR5440="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/webpack-env_1.14.1_1571080245935_0.40900468100449894"
+			},
+			"_hasShrinkwrap": false
+		},
+		"1.15.0": {
+			"name": "@types/webpack-env",
+			"version": "1.15.0",
+			"description": "TypeScript definitions for webpack (module API)",
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "use-strict",
+					"url": "https://github.com/use-strict",
+					"githubUsername": "use-strict"
+				},
+				{
+					"name": "rhonsby",
+					"url": "https://github.com/rhonsby",
+					"githubUsername": "rhonsby"
+				}
+			],
+			"main": "",
+			"types": "index.d.ts",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+				"directory": "types/webpack-env"
+			},
+			"scripts": {},
+			"dependencies": {},
+			"typesPublisherContentHash": "e5125ef7872a9ab824589a4ad27963c6c343ed161e131919af059ef0e9f05728",
+			"typeScriptVersion": "2.8",
+			"_id": "@types/webpack-env@1.15.0",
+			"dist": {
+				"integrity": "sha512-TfcyNecCz8Z9/s90gBOBniyzZrTru8u2Vp0VZODq4KEBaQu8bfXvu7o/KUOecMpzjbFPUA7aqgSq628Iue5BQg==",
+				"shasum": "bd9956d5044b1fb43e869a9ba9148862ff98d9fd",
+				"tarball": "https://registry.npmjs.org/@types/webpack-env/-/webpack-env-1.15.0.tgz",
+				"fileCount": 4,
+				"unpackedSize": 16127,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeD8/ZCRA9TVsSAnZWagAAb78P+wbrgTAtZDKQ46jguLjx\nvk3z0PWoI5Pt5ncMxtLkydtfwV+FD/4zqIr4LTCsJtFsHhFjt8CcQhVBFxiH\n8PUbY8n0INWUtYaNW9BzoUiu+9N0AgoL7r7qxpJ4A0gRGbQMt0lYH1A6luqX\n/GArFsPGx9TzIokL2nd/qr12onF7ZFhH2FYtbThzvKD4aS78ar4ovHMcdEq5\nxKHQuxK009ESZ0HkJOjtC/8f9Fl5NU3jivVN/ioyMqLBP+7LBBbKaZWy6iFH\nDLrss25MxPjSKWHCerVXBxQOKXdnQPca69udMDgwZYEZptziHxVIO3qEyovf\n1aLEzc1HCBkLBcHrpBeepWi18NurDWEkrjmyVNh89TnyZCRdDNtsbafdc2e1\nsKfImBp2PkbTcgujMCMQPGHNUx1QBkTnNIizmXYEPBGqvOBKP8vhBNMnowG6\nq4xMu9uu+AuXi5ZioTngBm/qFhwnIt+I6L4Ejw6y5GyEcUeaWFMKGvoLjtXP\n/xG11XRfipQUv4X3VpeYluKKBOZbklm0cQ1liKWo+Sr7xylx3/BLWIc2pu5O\nY0xVvt41Qda3XMO+zctjDDw5JDzz6SJlXsdqCbSayq1VUrdcEV+SgG/p8iue\nHJpqvnV35Y1Z3P+zbEjC5C7yU/s/+zA0xlE6pUX69rVaMP22aZVa9shatMcs\nLUPl\r\n=Y+/H\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCID62DuIhMtruz6u50BEXvzZi4a03HK3aHWnNGPnarHw7AiEA2rff3Mec9zYc6Z5IoLymojooLvqNaazVJbKe77BRz1A="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/webpack-env_1.15.0_1578094553497_0.905251134389019"
+			},
+			"_hasShrinkwrap": false
+		},
+		"1.15.1": {
+			"name": "@types/webpack-env",
+			"version": "1.15.1",
+			"description": "TypeScript definitions for webpack (module API)",
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "use-strict",
+					"url": "https://github.com/use-strict",
+					"githubUsername": "use-strict"
+				},
+				{
+					"name": "rhonsby",
+					"url": "https://github.com/rhonsby",
+					"githubUsername": "rhonsby"
+				}
+			],
+			"main": "",
+			"types": "index.d.ts",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+				"directory": "types/webpack-env"
+			},
+			"scripts": {},
+			"dependencies": {},
+			"typesPublisherContentHash": "c94a48ac7f9f0cfa29853f88193537bce930d0ec474ced916591d3ffdb7223b3",
+			"typeScriptVersion": "2.8",
+			"_id": "@types/webpack-env@1.15.1",
+			"dist": {
+				"integrity": "sha512-eWN5ElDTeBc5lRDh95SqA8x18D0ll2pWudU3uWiyfsRmIZcmUXpEsxPU+7+BsdCrO2vfLRC629u/MmjbmF+2tA==",
+				"shasum": "c8e84705e08eed430b5e15b39c65b0944e4d1422",
+				"tarball": "https://registry.npmjs.org/@types/webpack-env/-/webpack-env-1.15.1.tgz",
+				"fileCount": 4,
+				"unpackedSize": 16342,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeMgHlCRA9TVsSAnZWagAAb60P/3g/P2c+8ZS20zFjfu28\nrmwE1dKxjbr/bh30jHjhmkIfIXtunuetAXngxWjgziBbid7R4yvVGO+WpPBX\noCHA/z7YWm5DIFxiT7uemglLIAtS9HAG3kkJvg0iSI9p3bRpQcC4hP57p4/N\nanMjI5wBH694SfkLFrrIfpxjX2JQATUHc1gjz72XeGA58E9OCV/Jky+hMEE8\nLJIjd3lr/NyDFCK14yoBnWBaI8lZwhhdn9kKmrwIn30cwAv3AGNSwy/JakH7\nj3PkZZze0k9dZgk0K4hAcm0C04DPnL5sTnQEKucySmVsGEstL+GicFzcZEYo\nbpSxKFWx9Krtnunn/wubQCUK5teiID8kpA2eD5UIhAx8cZ92ktYIUx2Wn0xs\n7ti1Xqko/l14JflASHpcTPNpswQOEfcAQ/47UkXx5IYVKZuY73TNN1/J3ZgM\nXGM1WTS3K7YZ5ndXYXIbs6zwC+oKvYBhoxygh+JIqw5CeFAc51D/vlA8vUFH\nO6ct1RlUbgYlI49kfKX/CjRPdXsFIp2P+rj9cDyhtqLwo9E4QAKdu+pU/6hm\nntSwszO44zqlDJ+rsNArYBA1eKoXuaBWoxnWJQn94FdCY5aV4+YTuZF0rVqJ\neKfdbjLHWXAxR7pC7b2VaBumeIahQpwbQw+1m55XZ7ygICjYPzH0fM1OsGMD\nRUw2\r\n=SKpw\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQCGGJhyDVQ4flb0Q8ScuBbjSurzfMj7Vu4Adc+8FLMVaQIgJBkN7ZiGek5suefpY5c+uWSXt4PyPTjRmYmM5lz6lzc="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/webpack-env_1.15.1_1580335589009_0.8099780645229815"
+			},
+			"_hasShrinkwrap": false
+		},
+		"1.15.2": {
+			"name": "@types/webpack-env",
+			"version": "1.15.2",
+			"description": "TypeScript definitions for webpack (module API)",
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "use-strict",
+					"url": "https://github.com/use-strict",
+					"githubUsername": "use-strict"
+				},
+				{
+					"name": "rhonsby",
+					"url": "https://github.com/rhonsby",
+					"githubUsername": "rhonsby"
+				}
+			],
+			"main": "",
+			"types": "index.d.ts",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+				"directory": "types/webpack-env"
+			},
+			"scripts": {},
+			"dependencies": {},
+			"typesPublisherContentHash": "3ef159c293aefc19a42a96a95aa0c0984eb1b69454933b1819ea06fcbb4f545c",
+			"typeScriptVersion": "2.8",
+			"_id": "@types/webpack-env@1.15.2",
+			"dist": {
+				"integrity": "sha512-67ZgZpAlhIICIdfQrB5fnDvaKFcDxpKibxznfYRVAT4mQE41Dido/3Ty+E3xGBmTogc5+0Qb8tWhna+5B8z1iQ==",
+				"shasum": "927997342bb9f4a5185a86e6579a0a18afc33b0a",
+				"tarball": "https://registry.npmjs.org/@types/webpack-env/-/webpack-env-1.15.2.tgz",
+				"fileCount": 4,
+				"unpackedSize": 16314,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeodfTCRA9TVsSAnZWagAAW/YQAIttLMdfXyKVa3Z73Uof\nwKxjJNej/4BPUjKW+zOqM9HFKr7CZbqwS6Gy+Wj7EF9qCp4s7S3OIfgD7wP0\n9ApO97Dtf206AS6gCa/upgu2+p34GBYEUAEqwj8z9AnrOevK6hMAYgw8EApT\nKW2Bj6zP0Vrwy7h2AJSMzoe3DFVKJhmxbJ9NWfKpqN8T43F5SJG2yq34ziCW\nLW4CjGG1+D7adfdUWzSLSzYPXyWuLm5DWPouI0nSTWul/chY5hteubtzAPt4\nJ4I/DHi2zm7zweYwfIu/KL+5Q+d+3pXejBR+Q8l2H5F7s+2ydcICGPUsV1lP\njSBrmPFzcOsmlh10Q+XTUa8tAZ6KDnAVfNA4RwFYAYTHzCIdGgBA3glAiEN8\ncmqga2UuToq30IaQ8Nr8yZ+K6o0DoRO51QXhaaXTq9T6oZrZjvGxfCOtgXoq\njdIyWJeYWHXUUWt3bydDukKNwULfnaT8+ZrZZVmgxmyPc29UKwD3HZjTpTIr\nLFE5XnCB0Td9lck0+z1V2TZC+1o3F0bO2Jh84r87wgkcAfzn8oHnvhh1fE0l\nP0WL/Ng0df6ct7BSEtrCqYqUaxrSFTlsNlvqcaq+mPEuxy0PqSFqd/qpyIQu\n0aO7Kfi6Eov6DSE7XrAsZ2lfZZ5dQMNX67dm39Z4rP33PkmJoem72CF0gFED\n5E7M\r\n=2IQZ\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIDHBmbcBmeUJYF6zwHyD8CLQX1785TTLC2iSweqLUxbPAiEA2rmjpmp4bXOF7w1keHgDxeVWCZeYwn5pCD4pGnN3bm4="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/webpack-env_1.15.2_1587664850721_0.6703827838264822"
+			},
+			"_hasShrinkwrap": false
+		},
+		"1.15.3": {
+			"name": "@types/webpack-env",
+			"version": "1.15.3",
+			"description": "TypeScript definitions for webpack (module API)",
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "use-strict",
+					"url": "https://github.com/use-strict",
+					"githubUsername": "use-strict"
+				},
+				{
+					"name": "rhonsby",
+					"url": "https://github.com/rhonsby",
+					"githubUsername": "rhonsby"
+				}
+			],
+			"main": "",
+			"types": "index.d.ts",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+				"directory": "types/webpack-env"
+			},
+			"scripts": {},
+			"dependencies": {},
+			"typesPublisherContentHash": "a13ec7e78076606a75aef18f56d03d7dd799d40ac2cb4bc538da859529c648bf",
+			"typeScriptVersion": "3.2",
+			"_id": "@types/webpack-env@1.15.3",
+			"dist": {
+				"integrity": "sha512-5oiXqR7kwDGZ6+gmzIO2lTC+QsriNuQXZDWNYRV3l2XRN/zmPgnC21DLSx2D05zvD8vnXW6qUg7JnXZ4I6qLVQ==",
+				"shasum": "fb602cd4c2f0b7c0fb857e922075fdf677d25d84",
+				"tarball": "https://registry.npmjs.org/@types/webpack-env/-/webpack-env-1.15.3.tgz",
+				"fileCount": 4,
+				"unpackedSize": 16326,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfY4UzCRA9TVsSAnZWagAAuWgP/RIOKsbsVJR4cI2zZGi5\nmMtSfYUyTzJnJd1BhUv5wfZvOtthqDmZNGhiPLrfabcdS/0eLzLtkj9JRpdK\n0Fbd4a0rvdzQCkians8IpCHnJOHn0qoNuvErNPt9apIYJ1Q54O+TQYjpXoY0\nXuRh2BYZagFKJUZUvHEKLOLrAOCKH/zFCJ9fhyTt/U8esm5NJWmIlGvxe5Vi\nqwllOb1KBFYkGhKcsEd4Y+ZtVdDqMczCSYz0gz17/ZQ4DnPZx6nHPyXjljgQ\nO+qWaX7/xnBz8hSbejA2MQ47hINjW6hh2JJnERmbt8UKtTwLR4fYlKSZo6B7\n2KP0gz1tWT/kcmzTjBnSKy7qqxPJ+EXRdwgoRS3QCJYaXZjfAW4Yss7hrFb+\nLcj3NfDMvUzCbJEocIu2FLNJPA9NHnZOiS70Qa59NH1GV7mHup4KukwByacF\nMrno553iV4y19AbD5zeYHwsPw8nAbB8gj7pEp684t7SJrLA4Y9bw8L5pV5y/\n6jBXeKErT10cz6XnwA4AqLhHC5h9CEo2v9SO5funnUoEPKp986RmRhNhfp+Y\nUH1o8mrdY+5zCR3fvP90sHXCsLyC0xDRADSWVMPRIRnDSKp9tLcQ+nQTDDLX\nIZ254cx22WMqFyZYQyO7Yrb2OM4tJw4f+bYw9nbktmcKfuy1f6QAIb0Ejlr5\n00RD\r\n=Poc7\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIBWkSx2Y8J5DyP4q+fii1APQc9uTNpNiAGyenPTYxDqVAiAc2Ut45FlcuUyo83LRa9BCtCOH811jjSQ7paoUU2/7yQ=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/webpack-env_1.15.3_1600357683156_0.778684081329095"
+			},
+			"_hasShrinkwrap": false
+		},
+		"1.16.0": {
+			"name": "@types/webpack-env",
+			"version": "1.16.0",
+			"description": "TypeScript definitions for webpack (module API)",
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "use-strict",
+					"url": "https://github.com/use-strict",
+					"githubUsername": "use-strict"
+				},
+				{
+					"name": "rhonsby",
+					"url": "https://github.com/rhonsby",
+					"githubUsername": "rhonsby"
+				}
+			],
+			"main": "",
+			"types": "index.d.ts",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+				"directory": "types/webpack-env"
+			},
+			"scripts": {},
+			"dependencies": {},
+			"typesPublisherContentHash": "f2e38c3cea05926b3db8c55f447edebf91c2161b2df7f5ede5661c69bbabd7bf",
+			"typeScriptVersion": "3.3",
+			"_id": "@types/webpack-env@1.16.0",
+			"dist": {
+				"integrity": "sha512-Fx+NpfOO0CpeYX2g9bkvX8O5qh9wrU1sOF4g8sft4Mu7z+qfe387YlyY8w8daDyDsKY5vUxM0yxkAYnbkRbZEw==",
+				"shasum": "8c0a9435dfa7b3b1be76562f3070efb3f92637b4",
+				"tarball": "https://registry.npmjs.org/@types/webpack-env/-/webpack-env-1.16.0.tgz",
+				"fileCount": 4,
+				"unpackedSize": 16752,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfvEwtCRA9TVsSAnZWagAAwggP/iVDunxpWCss9iUvgIyr\nFULsaeYSZSkpETuS+wpXtxCBeJVTdY9cKZPlurNwnwM38Y1zkbxx5AdxWcZf\n+kbQAtDCjFCCN77J52mSj+ev4sjW/Y+MhZpgoIXu4eCchE0AnzvnNEzUZuNT\nP0X1IB+VbD/1qwUpVZM+IB5r8wH3hRrX6dj2vnsq3qrViIk3fP7TJMMmul1Y\nY6LB3gYUA2UmEaeHMRFHqDAKUQLmY2H0vTKHPXN7ABlOVCYWVHpcppR2S3Ca\nXTIStGIGefqxyNCcuX9ZNNwGG/3MzlgGs7tyDViHONf7KRtHnEX2qnv3CC5G\nCbK3TT7fqtlxebF0SSXGGPaCH0Jl9izCs2zzGDWkzBP6S8jUmP1ZQWQCS9cO\n5J6L/cJi8gIGhSEycjdnMtudIH6RTUzpiDUYwi3M/y4Vn4Gz+ErsSqxmAfSo\nWQWkGbE0c8NhTVRMsLrelC9Pv2P6VNq/RAqEHfkBDk+SyXP8J6SAnnP5QJEz\n7nR7/AVFOdjTxfHTszDB2gyV6T6CxICvsF/sAPh2nF2uOcguqbVa91P0q/XU\n/qAhzJrsJb9lRBywXU8bEwQhI5+qwZf12XDtglyYTfZhe0TTpjyyntjNl+Od\nll4L1RR4IFQsaKLqxedYPnKdmlH4hiFB3jLBn8rucinPUfLvpuYTn1eRzg/a\nL0Xd\r\n=BC16\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIB+qSUJRk5yL8wtUBExNpQH2ajLC+i5vTDoBwVzheNOrAiEA7VXrExyDITwEAv40nATxeUuSt1yJ4ilsu5pWwy1TzKw="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/webpack-env_1.16.0_1606175788724_0.19486813985346063"
+			},
+			"_hasShrinkwrap": false
+		},
+		"1.16.1": {
+			"name": "@types/webpack-env",
+			"version": "1.16.1",
+			"description": "TypeScript definitions for webpack (module API)",
+			"homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/webpack-env",
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "use-strict",
+					"url": "https://github.com/use-strict",
+					"githubUsername": "use-strict"
+				},
+				{
+					"name": "rhonsby",
+					"url": "https://github.com/rhonsby",
+					"githubUsername": "rhonsby"
+				}
+			],
+			"main": "",
+			"types": "index.d.ts",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+				"directory": "types/webpack-env"
+			},
+			"scripts": {},
+			"dependencies": {},
+			"typesPublisherContentHash": "29a85a223a816786929e47ca44aaef306ad2ada703c3b8415764164f4f1be431",
+			"typeScriptVersion": "3.6",
+			"_id": "@types/webpack-env@1.16.1",
+			"dist": {
+				"integrity": "sha512-SAE/l2o4TeFlTgy4VGKYns2X6nAZUsRJcwDs+b9LRdNd8u8nriPSKn9st/ZpL7YdZtLRXFLff481RGASr4c8FQ==",
+				"shasum": "e47cdbf49df97f98114e61ac71b26096a10239ab",
+				"tarball": "https://registry.npmjs.org/@types/webpack-env/-/webpack-env-1.16.1.tgz",
+				"fileCount": 4,
+				"unpackedSize": 16988,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJg3fw/CRA9TVsSAnZWagAArwQP/20ekc04vGEbNX9MfFs+\naq/i8U7RFg1PQMN5mjHKHibt2CU3Gg6Wn71XXQ4D52wdtwmh9WicF2lNNYPR\nTKFuq3kTQm929l7TOu2lvR9bRr2Ta03tP7QZFrnnxodFdA85v6Ue3tD+HIkm\nXEADljuLleBdgm84aotA/eXy8znvjWMuf10MWegHquXCFZuPnSews3iox/ER\nyvqy6VGPsl/nGMlgMqqAn5EFOKbuiYqLtm7S2hhuB3CM606BR+E2c9cRFmXG\nJu/i99E0mmpJrDtQuyP67VdBXhu4bNe+qruB/+027qfPOPjGo2Wetu2w1nfq\nos2jiMfgwg2vPQVAJR1Ws33KfqpMeYmWl6JqSAp4amOjcyRLP6er6xIN29nN\nzDT5jhYtz66qjkeoeWxL9GqM+yilIuQpUVX2vxLKSNsS7/av2yCItAf5CHxI\np+R1FaeML17YLjjf3WMN3EywuFusbgIEthxaGCCilPtcpaT4xOT1jhe87U2H\nS1RSjU7cDx0pVeuKDKWSxuKc5TxxdUGJq6WuVZAzH0/NwPnAS7fmKghpOXTN\nvg1x9VXczCkY9nuBcy0BP6jcYOJ4foHVuOGR5p1JyPKkGtofvaRNbnceYhdS\nQwS0go0vqcLULsn/KKEyo8s2wmqP6OqPb+xmVgG/kW+1hBdCaPzXSW/qw2dz\nP4Ls\r\n=oz4k\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDDiQdeYKiO4DViqURJFz+zKN9AtcpwrDHwiHyINhg5iAIhAPX5HRLxjRmo5/pDCGHre0au8K7hoY2LVBVx2uWa2YYC"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/webpack-env_1.16.1_1625160766968_0.47009794416503015"
+			},
+			"_hasShrinkwrap": false
+		},
+		"1.16.2": {
+			"name": "@types/webpack-env",
+			"version": "1.16.2",
+			"description": "TypeScript definitions for webpack (module API)",
+			"homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/webpack-env",
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "use-strict",
+					"url": "https://github.com/use-strict",
+					"githubUsername": "use-strict"
+				},
+				{
+					"name": "rhonsby",
+					"url": "https://github.com/rhonsby",
+					"githubUsername": "rhonsby"
+				}
+			],
+			"main": "",
+			"types": "index.d.ts",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+				"directory": "types/webpack-env"
+			},
+			"scripts": {},
+			"dependencies": {},
+			"typesPublisherContentHash": "af68a51e18402a03b3f2a6e0b9c58dec2530aa1a00d5446793ffe92061e65dc5",
+			"typeScriptVersion": "3.6",
+			"_id": "@types/webpack-env@1.16.2",
+			"dist": {
+				"integrity": "sha512-vKx7WNQNZDyJveYcHAm9ZxhqSGLYwoyLhrHjLBOkw3a7cT76sTdjgtwyijhk1MaHyRIuSztcVwrUOO/NEu68Dw==",
+				"shasum": "8db514b059c1b2ae14ce9d7bb325296de6a9a0fa",
+				"tarball": "https://registry.npmjs.org/@types/webpack-env/-/webpack-env-1.16.2.tgz",
+				"fileCount": 4,
+				"unpackedSize": 17214,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJg315lCRA9TVsSAnZWagAA97wP/iqU0vH5n+aqjEY7jSOt\nG4ggyK3qQRBlw0MQDncwgzQgAXd6PxIt8y4t2dOlv1DYcm35wMFPQUzKOznM\nccUIDrQ5V+xVuIn+lxUdLN79oBZAywU5mUIs2l/rN43SwwwpeBpdJvEhJqmN\nf9dfPyE6UIEWi4WadTEmH1hQQf3ssCNp67Ad6G+SY1362v+8oooOu7FvE+6F\n1tx+7f51yxCUTMimnGTna8jt+IUUp9gMWAoFI606uitAzCN1bdae/mroMkNG\n+VJN1z/pft57q2tdT/454Tr5I/W41R+Q5NsOa/K06ga92aYPdv+ahPGUk932\ney0YBIOz0JRrh/Lzcf4jy5Zku4xdJCMSz0/LEDqqHQtVgijdj+8zXYsLqlh4\naEz70JgMD5woX6FSmQhhuc8+DWR1u/JmLh684LsotgHUs47b+/RieplBZO9P\nQk1Wnp37Qt3uJbdjmAPm5UvjM0Z/SIxkrSvl0Jo9RfRwetMEZt+o8R78ixoY\nMQ5LgdV2aPN+VuD9Z1hW00w6rxmGgSgIF5QbGW9IEm3OW8tcARBXlfqAp6IL\nZNej3CsTAmoHq1GSkK5bBBZY7BG8CSI14izHiZRYz600+UN4Mw4Vivkn6g+e\nBfirXarxLrTPPK4BCEkV2WN2SU5S6/eg6y+fapJ9G3liczd2qbldR32ugXc4\n5w3R\r\n=gSnN\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIFgek5iJFbeHCfeNoeeb5RX65m4p766ZRBXamHalCeVoAiEAqUKTRxfqmTrM0lHHrSwJ21fNAcPh2PqDjCCPtoVNrvc="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/webpack-env_1.16.2_1625251429057_0.053293987470957704"
+			},
+			"_hasShrinkwrap": false
+		},
+		"1.16.3": {
+			"name": "@types/webpack-env",
+			"version": "1.16.3",
+			"description": "TypeScript definitions for webpack (module API)",
+			"homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/webpack-env",
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "use-strict",
+					"url": "https://github.com/use-strict",
+					"githubUsername": "use-strict"
+				},
+				{
+					"name": "rhonsby",
+					"url": "https://github.com/rhonsby",
+					"githubUsername": "rhonsby"
+				}
+			],
+			"main": "",
+			"types": "index.d.ts",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+				"directory": "types/webpack-env"
+			},
+			"scripts": {},
+			"dependencies": {},
+			"typesPublisherContentHash": "20818f300ddaffdf4e5937e0117721a2134ce8d3d047d77d0d426858368cd42c",
+			"typeScriptVersion": "3.7",
+			"_id": "@types/webpack-env@1.16.3",
+			"dist": {
+				"integrity": "sha512-9gtOPPkfyNoEqCQgx4qJKkuNm/x0R2hKR7fdl7zvTJyHnIisuE/LfvXOsYWL0o3qq6uiBnKZNNNzi3l0y/X+xw==",
+				"shasum": "b776327a73e561b71e7881d0cd6d34a1424db86a",
+				"tarball": "https://registry.npmjs.org/@types/webpack-env/-/webpack-env-1.16.3.tgz",
+				"fileCount": 4,
+				"unpackedSize": 17087,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIEg+jPGJBCAItB+yv16WuJIWovB4qNAabDrFpAyVTMJZAiEAgFs1FLn2Sn5QvXn4FojlURiYrvzR4pgjnVNgzZ7AMVg="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/webpack-env_1.16.3_1634144519975_0.054483309689929094"
+			},
+			"_hasShrinkwrap": false
+		},
+		"1.16.4": {
+			"name": "@types/webpack-env",
+			"version": "1.16.4",
+			"description": "TypeScript definitions for webpack (module API)",
+			"homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/webpack-env",
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "use-strict",
+					"url": "https://github.com/use-strict",
+					"githubUsername": "use-strict"
+				},
+				{
+					"name": "rhonsby",
+					"url": "https://github.com/rhonsby",
+					"githubUsername": "rhonsby"
+				}
+			],
+			"main": "",
+			"types": "index.d.ts",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+				"directory": "types/webpack-env"
+			},
+			"scripts": {},
+			"dependencies": {},
+			"typesPublisherContentHash": "3a0b3d89e894786559318b78bc37ba3c6dff8913145b5c55e72a53d998115961",
+			"typeScriptVersion": "3.9",
+			"_id": "@types/webpack-env@1.16.4",
+			"dist": {
+				"integrity": "sha512-llS8qveOUX3wxHnSykP5hlYFFuMfJ9p5JvIyCiBgp7WTfl6K5ZcyHj8r8JsN/J6QODkAsRRCLIcTuOCu8etkUw==",
+				"shasum": "1f4969042bf76d7ef7b5914f59b3b60073f4e1f4",
+				"tarball": "https://registry.npmjs.org/@types/webpack-env/-/webpack-env-1.16.4.tgz",
+				"fileCount": 4,
+				"unpackedSize": 17658,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIAdCDMBCCXX/rTJb0OQQ2VNE2bxJZCZ6xIUcZnUAVy3LAiAwQta2MFOwEQFshqQi6dIMYUM1Rqc/JhjCrWGV4UHIsQ=="
+					}
+				],
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJiWVehACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2VmrkqQ//fIqkpGzslD3xDqmMNxzEt0bZ6JjH4Vai7KdDVhmLOXRIs/Rg\r\n/y6TE3zDzX1Jonage1tFjU/zZel0FWYMCdwrfSk6WboX/SlPEjiRcNbraLdP\r\nAY82PZwQznWnyXhr+IhBlZpNuYQWmfe9I35ZljVpApPrRmZV0PXCBBInOHTf\r\nUOaX8kqbbjGEN92KyAYALVv+VQzLabVhBT3eaSTYwyNRqZqijCFEYJWqgbIw\r\nP+lcQNjEaOxw4tcRs0RctkBXzavXQfB4X0X852nk4cD6h8sjQNH3quo6eIRg\r\nfnquQdo4nZ8E3deSVj5MAfQ8ZtYx9uSDlov8YKoLLXmFkZaq9fIG/CQfDV38\r\niQ7/YoRCAqfMUrK5kNTeYWerAharE5F3kWX73IS50Gl12z0h7I1U2wvzz0ol\r\n3h7LotxnSogZtBofb5grW5jQTdwENwcgUTS5xAGUyXVd4mpQVjfMa8EBEx/Y\r\nUG/IS3jSNRXaDmi3D+6zxBRHYPb0A5Mo2SdY+BGvdrwQ81wp5Qh+7402Drrr\r\nOfzyFiujQlPDe4WssH4tle+Vieec1gmjcdmR0WQh5DyhSfKMcCFU62/8SFXC\r\n1EwO1r0cLD7+z7Q23uQ5E2pxnttozqxyfie38MWLqlg4w1cSw2awxidIQFN8\r\n/T1DMDBpKNOcIf5flw4gHLZs07IpQBecMZU=\r\n=gt/M\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/webpack-env_1.16.4_1650022305755_0.6959068668211239"
+			},
+			"_hasShrinkwrap": false
+		},
+		"1.17.0": {
+			"name": "@types/webpack-env",
+			"version": "1.17.0",
+			"description": "TypeScript definitions for webpack (module API)",
+			"homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/webpack-env",
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "use-strict",
+					"url": "https://github.com/use-strict",
+					"githubUsername": "use-strict"
+				},
+				{
+					"name": "rhonsby",
+					"url": "https://github.com/rhonsby",
+					"githubUsername": "rhonsby"
+				}
+			],
+			"main": "",
+			"types": "index.d.ts",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+				"directory": "types/webpack-env"
+			},
+			"scripts": {},
+			"dependencies": {},
+			"typesPublisherContentHash": "6057efb09d10164ef2eba8a5cc3da80b6f7fefb7b9c605289709e820a8ea39b4",
+			"typeScriptVersion": "3.9",
+			"_id": "@types/webpack-env@1.17.0",
+			"dist": {
+				"integrity": "sha512-eHSaNYEyxRA5IAG0Ym/yCyf86niZUIF/TpWKofQI/CVfh5HsMEUyfE2kwFxha4ow0s5g0LfISQxpDKjbRDrizw==",
+				"shasum": "f99ce359f1bfd87da90cc4a57cab0a18f34a48d0",
+				"tarball": "https://registry.npmjs.org/@types/webpack-env/-/webpack-env-1.17.0.tgz",
+				"fileCount": 4,
+				"unpackedSize": 16857,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIDCvbC5Zep159Lcbh5IvGLl/AGX540Y9JCR9zRlU63C5AiEAr/m0AQsiCNjwZl2xJa0xaK58/oiDez5OogShOubikMo="
+					}
+				],
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJiheRjACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2VmrJHw/+I7DXmJkX9bMuqUEa1OEaVQjlZvkeyhWQa0/IHlyTzeEaQSbX\r\nLC/4kI+ywYa++nQTer8CBlK3k5p4TABiHA5hHdtIIdVgdXO2c8Rjdmw4ewBR\r\nWeDlw8wfwIdDjC3o/nxzkHktAypxxvSbvC5rIQjTJIV+eBglEqfrDA1QkpPI\r\nc9DJwtjwuff6TFzVOE9SRnKz6qZVSJW2kkMV0Yt/lEBTOncaXTX8VQ9J5uC5\r\nR7gsf0EL+eDOvvqeBdToxrCUZyCsNI4VI/1TYlBmCe8R8LPDn/wk1KDwaC/O\r\nyOiYLfB6HtA51CBthH68J4UPbRLcU+ZSOkMYDg2MFAZAZMC4+jdsoKgcnlwr\r\nNiQhQ4a1apAXmrjBJMfyWg4vwx65J9m3hCEeoXRqwacZtR1r6t15+pNvkjGX\r\n8iq0Y420YVGzfgd/e9yZ5XyfuPveqMxKd1Dhi4bHTtJZUKJBX1m1XIDMdIuU\r\neFi9ulJOAd26z/TuHEVfEIhWalO4tbJdrselH5mObVGxnBgwMkaLALfduUDn\r\nY6mTM8MuXPDQPUMy5po0Dx8wfhpkLu1MeMRXgkKZCx2U9bNQePA3ldptHoJi\r\nWy6++P/xLyGWmP/uK5EgbBQWRO6HrwTiFC/ob0CUv0YGOT2ONxYZmUJiLdrd\r\n9J38rk9KKl9uZTYLTODFmmD63uyp/l82K1s=\r\n=Cw8o\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/webpack-env_1.17.0_1652941923506_0.7192204557876507"
+			},
+			"_hasShrinkwrap": false
+		},
+		"1.18.0": {
+			"name": "@types/webpack-env",
+			"version": "1.18.0",
+			"description": "TypeScript definitions for webpack (module API)",
+			"homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/webpack-env",
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "use-strict",
+					"url": "https://github.com/use-strict",
+					"githubUsername": "use-strict"
+				},
+				{
+					"name": "rhonsby",
+					"url": "https://github.com/rhonsby",
+					"githubUsername": "rhonsby"
+				}
+			],
+			"main": "",
+			"types": "index.d.ts",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+				"directory": "types/webpack-env"
+			},
+			"scripts": {},
+			"dependencies": {},
+			"typesPublisherContentHash": "b7d1cd0b1bf1b8458759e2d8881c68f0b3f441867491a14dba4fc84937135805",
+			"typeScriptVersion": "4.0",
+			"_id": "@types/webpack-env@1.18.0",
+			"dist": {
+				"integrity": "sha512-56/MAlX5WMsPVbOg7tAxnYvNYMMWr/QJiIp6BxVSW3JJXUVzzOn64qW8TzQyMSqSUFM2+PVI4aUHcHOzIz/1tg==",
+				"shasum": "ed6ecaa8e5ed5dfe8b2b3d00181702c9925f13fb",
+				"tarball": "https://registry.npmjs.org/@types/webpack-env/-/webpack-env-1.18.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 17069,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIGa4BtGjAqC328aAwrjjsWIrN1gAgZ6ihTQbbcexlOu3AiAPq8Q57sJzb9hj/zBnBQKpcMbFdT7M2Td7qj52z8DZxg=="
+					}
+				],
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJi+4BSACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2Vmq+GQ/9FVyw0uaPtrs4AESy9JJ/6U0OGpSB48sjfkEHTa4vRAWuxIcd\r\npDziI/EYDabaS3N/hu2mXdh+PbS5Gzj+SPNRIIduTluv/uArsbohIOeyyer8\r\nFOt312eex3O1rvitba7efvbW6ZiFd7ZpLSpluMubKOPvSh3F0WobAyyS3SiN\r\nePJJ/1+DOvlIL5ZhKnG+CUIjDrOX0jdmnxvHzZ+ffnDVmVAMNYpSTVk9TbfC\r\n+xmd3Qlb07s+rAYBPvakIwD563s8uUQatPpq4Y43z8w2L3YVB/s8IILYjFJ8\r\nZK8GyJ2p1dbbeGNSncv3/m7B4u5caqMGtjL8pqgqHuNx4cdMX+ucK4DM7WKG\r\npl2NPPSfKr/EQRcu/MlUbkrI7jh1gobQQl9BF+puEMpTKRJgC+cyGPH/ScJa\r\nyYUkReYBY+6qbNmrLvvNeboNswEDcFf+m9zob8NN6S5SI93JlvX9mZ9RkkT7\r\naV/HCE2B8slIOx5CRfAgRmebfn+a0SkYHzbsE4RoZL+WzP91glD8YGA8HzRm\r\n5eIFk9hHus0onGik6d5I/AFy5Jkltf6po+yaeJl7laPLqMxPNcJEzCuhXqZ7\r\n6BHiXxmSs9iH2VoYTT7RMWyjGDELPqCQm2fQZh0gipNh+b74/6F44szL/dtw\r\nlApHEY8IUSt3yQusGSx1wc6gZlxIqzZdUc8=\r\n=L6lV\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/webpack-env_1.18.0_1660649553911_0.060412039839185416"
+			},
+			"_hasShrinkwrap": false
+		}
+	},
+	"time": {
+		"modified": "2022-08-16T11:32:39.658Z",
+		"created": "2016-10-05T21:04:30.330Z",
+		"1.12.1": "2016-10-05T21:04:30.330Z",
+		"1.12.2": "2016-12-30T00:02:22.874Z",
+		"1.13.0": "2017-01-05T06:25:43.279Z",
+		"1.13.1": "2017-09-07T22:10:42.499Z",
+		"1.13.2": "2017-10-14T06:13:29.066Z",
+		"1.13.3": "2017-12-06T20:11:06.100Z",
+		"1.13.4": "2018-01-29T21:20:50.816Z",
+		"1.13.5": "2018-01-30T20:02:04.261Z",
+		"1.13.6": "2018-04-12T20:32:45.883Z",
+		"1.13.7": "2019-01-30T21:19:41.386Z",
+		"1.13.8": "2019-03-01T18:30:34.914Z",
+		"1.13.9": "2019-03-07T23:58:20.283Z",
+		"1.14.0": "2019-07-10T21:03:53.979Z",
+		"1.14.1": "2019-10-14T19:10:46.050Z",
+		"1.15.0": "2020-01-03T23:35:53.622Z",
+		"1.15.1": "2020-01-29T22:06:29.113Z",
+		"1.15.2": "2020-04-23T18:00:50.846Z",
+		"1.15.3": "2020-09-17T15:48:03.285Z",
+		"1.16.0": "2020-11-23T23:56:28.835Z",
+		"1.16.1": "2021-07-01T17:32:47.080Z",
+		"1.16.2": "2021-07-02T18:43:49.210Z",
+		"1.16.3": "2021-10-13T17:02:00.095Z",
+		"1.16.4": "2022-04-15T11:31:45.920Z",
+		"1.17.0": "2022-05-19T06:32:03.644Z",
+		"1.18.0": "2022-08-16T11:32:34.108Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "1.18.0",
+		"ts2.0": "1.13.7",
+		"ts2.1": "1.14.1",
+		"ts2.2": "1.14.1",
+		"ts2.3": "1.14.1",
+		"ts2.4": "1.14.1",
+		"ts2.5": "1.14.1",
+		"ts2.6": "1.14.1",
+		"ts2.7": "1.14.1",
+		"ts2.8": "1.15.2",
+		"ts2.9": "1.15.2",
+		"ts3.0": "1.15.2",
+		"ts3.1": "1.15.2",
+		"ts3.2": "1.15.3",
+		"ts3.3": "1.16.0",
+		"ts3.4": "1.16.0",
+		"ts3.5": "1.16.0",
+		"ts3.6": "1.16.2",
+		"ts3.7": "1.16.3",
+		"ts3.8": "1.16.3",
+		"ts3.9": "1.17.0",
+		"ts4.0": "1.18.0",
+		"ts4.1": "1.18.0",
+		"ts4.2": "1.18.0",
+		"ts4.3": "1.18.0",
+		"ts4.4": "1.18.0",
+		"ts4.5": "1.18.0",
+		"ts4.6": "1.18.0",
+		"ts4.7": "1.18.0",
+		"ts4.8": "1.18.0",
+		"ts4.9": "1.18.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"bf50bf144a22b3e75e4684933b47e7bf\"",
+			"fetched": 1660840720859
+		}
+	},
+	"_distfiles": {
+		"webpack-env-1.12.1.tgz": {
+			"url": "https://registry.npmjs.org/@types/webpack-env/-/webpack-env-1.12.1.tgz",
+			"sha": "3cc5373201a70e8381026a09eabf0f4a3301b3c4",
+			"registry": "npmjs"
+		},
+		"webpack-env-1.12.2.tgz": {
+			"url": "https://registry.npmjs.org/@types/webpack-env/-/webpack-env-1.12.2.tgz",
+			"sha": "32b029275826d9d9ca3b25c57cbfa8127eda29f8",
+			"registry": "npmjs"
+		},
+		"webpack-env-1.13.0.tgz": {
+			"url": "https://registry.npmjs.org/@types/webpack-env/-/webpack-env-1.13.0.tgz",
+			"sha": "3044381647e11ee973c5af2e925323930f691d80",
+			"registry": "npmjs"
+		},
+		"webpack-env-1.13.1.tgz": {
+			"url": "https://registry.npmjs.org/@types/webpack-env/-/webpack-env-1.13.1.tgz",
+			"sha": "b45c222e24301bd006e3edfc762cc6b51bda236a",
+			"registry": "npmjs"
+		},
+		"webpack-env-1.13.2.tgz": {
+			"url": "https://registry.npmjs.org/@types/webpack-env/-/webpack-env-1.13.2.tgz",
+			"sha": "c290b99dbef74df21b06671aea36e355bf3b27e1",
+			"registry": "npmjs"
+		},
+		"webpack-env-1.13.3.tgz": {
+			"url": "https://registry.npmjs.org/@types/webpack-env/-/webpack-env-1.13.3.tgz",
+			"sha": "0ecbe70f87341767793774d3683b51aa3246434c",
+			"registry": "npmjs"
+		},
+		"webpack-env-1.13.4.tgz": {
+			"url": "https://registry.npmjs.org/@types/webpack-env/-/webpack-env-1.13.4.tgz",
+			"sha": "ca3578299323f4fbec770bb32ed581198f0a8ed9",
+			"registry": "npmjs"
+		},
+		"webpack-env-1.13.5.tgz": {
+			"url": "https://registry.npmjs.org/@types/webpack-env/-/webpack-env-1.13.5.tgz",
+			"sha": "ca854e9fbdbcdf45d7376882875f28e2c60593f8",
+			"registry": "npmjs"
+		},
+		"webpack-env-1.13.6.tgz": {
+			"url": "https://registry.npmjs.org/@types/webpack-env/-/webpack-env-1.13.6.tgz",
+			"sha": "128d1685a7c34d31ed17010fc87d6a12c1de6976",
+			"registry": "npmjs"
+		},
+		"webpack-env-1.13.7.tgz": {
+			"url": "https://registry.npmjs.org/@types/webpack-env/-/webpack-env-1.13.7.tgz",
+			"sha": "137a4e57aa31ab57b1baf66f5dc3b6bf085e9944",
+			"registry": "npmjs"
+		},
+		"webpack-env-1.13.8.tgz": {
+			"url": "https://registry.npmjs.org/@types/webpack-env/-/webpack-env-1.13.8.tgz",
+			"sha": "859e35ab1811eccd35e6b8d692a622b0fa7b31ec",
+			"registry": "npmjs"
+		},
+		"webpack-env-1.13.9.tgz": {
+			"url": "https://registry.npmjs.org/@types/webpack-env/-/webpack-env-1.13.9.tgz",
+			"sha": "a67287861c928ebf4159a908d1fb1a2a34d4097a",
+			"registry": "npmjs"
+		},
+		"webpack-env-1.14.0.tgz": {
+			"url": "https://registry.npmjs.org/@types/webpack-env/-/webpack-env-1.14.0.tgz",
+			"sha": "8edfc5f8e6eae20eeed3ca0d02974ed4ee5e4efc",
+			"registry": "npmjs"
+		},
+		"webpack-env-1.14.1.tgz": {
+			"url": "https://registry.npmjs.org/@types/webpack-env/-/webpack-env-1.14.1.tgz",
+			"sha": "0d8a53f308f017c53a5ddc3d07f4d6fa76b790d7",
+			"registry": "npmjs"
+		},
+		"webpack-env-1.15.0.tgz": {
+			"url": "https://registry.npmjs.org/@types/webpack-env/-/webpack-env-1.15.0.tgz",
+			"sha": "bd9956d5044b1fb43e869a9ba9148862ff98d9fd",
+			"registry": "npmjs"
+		},
+		"webpack-env-1.15.1.tgz": {
+			"url": "https://registry.npmjs.org/@types/webpack-env/-/webpack-env-1.15.1.tgz",
+			"sha": "c8e84705e08eed430b5e15b39c65b0944e4d1422",
+			"registry": "npmjs"
+		},
+		"webpack-env-1.15.2.tgz": {
+			"url": "https://registry.npmjs.org/@types/webpack-env/-/webpack-env-1.15.2.tgz",
+			"sha": "927997342bb9f4a5185a86e6579a0a18afc33b0a",
+			"registry": "npmjs"
+		},
+		"webpack-env-1.15.3.tgz": {
+			"url": "https://registry.npmjs.org/@types/webpack-env/-/webpack-env-1.15.3.tgz",
+			"sha": "fb602cd4c2f0b7c0fb857e922075fdf677d25d84",
+			"registry": "npmjs"
+		},
+		"webpack-env-1.16.0.tgz": {
+			"url": "https://registry.npmjs.org/@types/webpack-env/-/webpack-env-1.16.0.tgz",
+			"sha": "8c0a9435dfa7b3b1be76562f3070efb3f92637b4",
+			"registry": "npmjs"
+		},
+		"webpack-env-1.16.1.tgz": {
+			"url": "https://registry.npmjs.org/@types/webpack-env/-/webpack-env-1.16.1.tgz",
+			"sha": "e47cdbf49df97f98114e61ac71b26096a10239ab",
+			"registry": "npmjs"
+		},
+		"webpack-env-1.16.2.tgz": {
+			"url": "https://registry.npmjs.org/@types/webpack-env/-/webpack-env-1.16.2.tgz",
+			"sha": "8db514b059c1b2ae14ce9d7bb325296de6a9a0fa",
+			"registry": "npmjs"
+		},
+		"webpack-env-1.16.3.tgz": {
+			"url": "https://registry.npmjs.org/@types/webpack-env/-/webpack-env-1.16.3.tgz",
+			"sha": "b776327a73e561b71e7881d0cd6d34a1424db86a",
+			"registry": "npmjs"
+		},
+		"webpack-env-1.16.4.tgz": {
+			"url": "https://registry.npmjs.org/@types/webpack-env/-/webpack-env-1.16.4.tgz",
+			"sha": "1f4969042bf76d7ef7b5914f59b3b60073f4e1f4",
+			"registry": "npmjs"
+		},
+		"webpack-env-1.17.0.tgz": {
+			"url": "https://registry.npmjs.org/@types/webpack-env/-/webpack-env-1.17.0.tgz",
+			"sha": "f99ce359f1bfd87da90cc4a57cab0a18f34a48d0",
+			"registry": "npmjs"
+		},
+		"webpack-env-1.18.0.tgz": {
+			"url": "https://registry.npmjs.org/@types/webpack-env/-/webpack-env-1.18.0.tgz",
+			"sha": "ed6ecaa8e5ed5dfe8b2b3d00181702c9925f13fb",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_rev": "3-d083fa79d61b41a0",
+	"_id": "@types/webpack-env",
+	"readme": "[object Object]"
+}

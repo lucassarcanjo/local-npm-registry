@@ -1,0 +1,828 @@
+{
+	"name": "@base2/pretty-print-object",
+	"versions": {
+		"0.0.1": {
+			"name": "@base2/pretty-print-object",
+			"version": "0.0.1",
+			"description": "Convert an object or array into a formatted string",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/Chris-Baker/Emotion-RGBA.git"
+			},
+			"main": "dist/index.js",
+			"scripts": {
+				"build": "tsc",
+				"test": "jest --verbose"
+			},
+			"keywords": [
+				"object",
+				"stringify",
+				"pretty",
+				"print",
+				"dump",
+				"format",
+				"type",
+				"json"
+			],
+			"author": {
+				"name": "Chris Baker"
+			},
+			"license": "MIT",
+			"dependencies": {},
+			"devDependencies": {
+				"@babel/core": "^7.4.3",
+				"@babel/plugin-transform-runtime": "^7.4.3",
+				"@babel/preset-env": "^7.4.3",
+				"@babel/preset-typescript": "^7.3.3",
+				"@babel/runtime": "^7.5.5",
+				"@types/jest": "^24.0.13",
+				"eslint": "^6.2.2",
+				"eslint-config-prettier": "^6.1.0",
+				"eslint-plugin-prettier": "^3.1.0",
+				"jest": "^24.8.0",
+				"prettier": "^1.15.3",
+				"pretty-quick": "^1.8.0",
+				"typescript": "^3.6.2"
+			},
+			"gitHead": "07df173a98eebaf3bcc91d01888c3b4f5679af60",
+			"bugs": {
+				"url": "https://github.com/Chris-Baker/Emotion-RGBA/issues"
+			},
+			"homepage": "https://github.com/Chris-Baker/Emotion-RGBA#readme",
+			"_id": "@base2/pretty-print-object@0.0.1",
+			"_nodeVersion": "10.16.0",
+			"_npmVersion": "6.9.0",
+			"dist": {
+				"integrity": "sha512-20tTad8UwHlh/hhlUB8SyFsLDXmfqKQNCpxqgDZ+/xaN7cWyqZLSnwyoiqiwwnvlfrYtp/+aO7Nl4RvgmVcPaw==",
+				"shasum": "1ac5869e37a45e3f65ae1ed68a2a0eadee122d5a",
+				"tarball": "https://registry.npmjs.org/@base2/pretty-print-object/-/pretty-print-object-0.0.1.tgz",
+				"fileCount": 9,
+				"unpackedSize": 18400,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdbRDwCRA9TVsSAnZWagAA/jEP/38ydVVkAUCEbr93rFLC\nKWdrmMKk6Um5c9Ec8C1Zfp0MfthX9J0JssYBhHRLXLNXKhqDktjfnqv8LTXC\n5UTyH+XbJq5zVMlW3EXLS2uArAoopxGr8M+Pi0k9agSPM/Vba4vyovt3h34p\n74mwCZFtQmyUTVL0hqhuLhB/PTcpWud6SAtpjq63gXq4ADUKx5kOSWnqGiTE\nRG2rJOPfd8S7KzM8xRyh+IO+vZQktr3t1XZCzLyIFR+dQV7yuSGgzHGHZ04Q\na96NLzMyFGTHYyQDMBGDtvbEThgCsaDe/Djj8lvSi6ssQvqbhpSoWNGtOX/k\nNFJIXWt8/lNdDjyXP9LlbBJ9Gb/uQEvYTxA2bnAaG0j3Cb/qLIe5gxV7sDcI\nE7zDX3CgWTYJ1JkzJvQccUvXwsPurkOA+iwsv5PlJI8mwTskAXJC+pbH3q+K\nrEVAcDHzP3QZrg9YzSK2ntMrScyHHgmE9ebQevPZWLY+jFb2RHITamaXUy/I\ne3KCF7Nk82xU3oLtt4g5TgvdwtaGPN874Jh8fccNv3vSFPh5vVAZWT40RVtI\nh8dFkdz/VLwJAFwEzD7cy677uV6pL6sSqNdNFJZa4ftNo2tVaHpMsqzRoUAR\n0sdNuNZoUYzgBKxUdrFBtPfGrEimnAqelM/JSdu+rwLB+uVlMIKDVo5NRAY+\nBYI4\r\n=BJov\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQD29rImnA0ERS6W/PIApX8e2AtzNyYKLRdJK4guHT8ioQIgMEMg+dSOOl8pK9ozn6UMxRjaPeZL/JVNDGrvlf1Valc="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "chris-baker",
+					"email": "lxufimdu@pm.me"
+				}
+			],
+			"_npmUser": {
+				"name": "chris-baker",
+				"email": "lxufimdu@pm.me"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/pretty-print-object_0.0.1_1567428847753_0.7315063762509793"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.0.2": {
+			"name": "@base2/pretty-print-object",
+			"version": "0.0.2",
+			"description": "Convert an object or array into a formatted string",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/Chris-Baker/pretty-print-object.git"
+			},
+			"main": "dist/index.js",
+			"scripts": {
+				"build": "tsc",
+				"test": "jest --verbose"
+			},
+			"keywords": [
+				"object",
+				"stringify",
+				"pretty",
+				"print",
+				"dump",
+				"format",
+				"type",
+				"json"
+			],
+			"author": {
+				"name": "Chris Baker"
+			},
+			"license": "BSD-2-Clause",
+			"dependencies": {},
+			"devDependencies": {
+				"@babel/core": "^7.4.3",
+				"@babel/plugin-transform-runtime": "^7.4.3",
+				"@babel/preset-env": "^7.4.3",
+				"@babel/preset-typescript": "^7.3.3",
+				"@babel/runtime": "^7.5.5",
+				"@types/jest": "^24.0.13",
+				"eslint": "^6.2.2",
+				"eslint-config-prettier": "^6.1.0",
+				"eslint-plugin-prettier": "^3.1.0",
+				"jest": "^24.8.0",
+				"prettier": "^1.15.3",
+				"pretty-quick": "^1.8.0",
+				"typescript": "^3.6.2"
+			},
+			"gitHead": "07df173a98eebaf3bcc91d01888c3b4f5679af60",
+			"bugs": {
+				"url": "https://github.com/Chris-Baker/pretty-print-object/issues"
+			},
+			"homepage": "https://github.com/Chris-Baker/pretty-print-object#readme",
+			"_id": "@base2/pretty-print-object@0.0.2",
+			"_nodeVersion": "10.16.0",
+			"_npmVersion": "6.9.0",
+			"dist": {
+				"integrity": "sha512-DkZatr6IjLRYeJXNqNVImkZAjoEAfh+QWsr6jjc1Fs7iwVCBg/FD2ftCozV6YNgZgUz1GrTavGAHm0ixTRQ4Hg==",
+				"shasum": "37b7c302f797f8d0e49fd140b1f78e7cac03ea5e",
+				"tarball": "https://registry.npmjs.org/@base2/pretty-print-object/-/pretty-print-object-0.0.2.tgz",
+				"fileCount": 9,
+				"unpackedSize": 18412,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdbRIBCRA9TVsSAnZWagAAeIoP/AriCHlIxDnJxfpta0p1\ndltgogxq2FCmMVSU/vd3egTjO4WOhA8eSP1QS0QuU2gwxslG4q1WhK7MAFG9\nwoaSf2kUbR9tmdlI3tjG2rBXx2/5URfY9H+E6QrOUqfh5nGmCZwGwuy/zITC\nUIJgCNl0IJ+eeJWjnVQp2KOViTQJToMBqLZGGBhgd+rnL8s49zfp6m3u4+qP\nzxBATMaBFKPwLE6Mn3aTUJ0H6ei+3rNqKQTVlxTYRaNqES+OD6+X7kiwlAcB\nB0kUJ5G0GKqGDnXGp0RR/XzPyozxQagdrAnhpk5CMRglNo1TL9IWSv+HvD1i\nh99ydXY+XAylPLeKA2Xif+WyTxVYixVXZz1YG2PZs4yhBlIqiYjLBdaqto/Z\n+8EfSfNa+NsbofzG8yjitMgKqR1LsUdGPSEF2zOlErj1Ee191fqnm/wKyeXH\nrO5pd+mKwopehbkH7rhSWLEy4w5K6RiG8mkhavUperLYR5lKisL4ODt4T/8v\nTZsgIpWGvoaGInO390KkfPN9i6TRUB1+jLdQ9Pl4qtP8of80n7boTUfQWDrh\ngfE52E0JIEmYSrRcu6CX9i9RsEypl1NiFuzPhpxccnFpwTl6XwpdU0ZEOzCf\nzDZQTWy85p8aKjrzXMPvbjHvu4UyAnqaL6oazV7ycek9CCxxPOJF//OLexdi\nGMiz\r\n=9BET\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIFZAWWjNgIVcPMx5ZQvB5xa7yLYl3crKVpXj2s9N/Y4sAiAHnTMM+d1bc7AZRqDCWXnvu3tA29HM0xZ8pZEGHmGlMQ=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "chris-baker",
+					"email": "lxufimdu@pm.me"
+				}
+			],
+			"_npmUser": {
+				"name": "chris-baker",
+				"email": "lxufimdu@pm.me"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/pretty-print-object_0.0.2_1567429120949_0.9493968791589478"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.0.3": {
+			"name": "@base2/pretty-print-object",
+			"version": "0.0.3",
+			"description": "Convert an object or array into a formatted string",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/Chris-Baker/pretty-print-object.git"
+			},
+			"main": "./dist/index.js",
+			"scripts": {
+				"build": "tsc",
+				"test": "jest --verbose"
+			},
+			"keywords": [
+				"object",
+				"stringify",
+				"pretty",
+				"print",
+				"dump",
+				"format",
+				"type",
+				"json"
+			],
+			"author": {
+				"name": "Chris Baker"
+			},
+			"license": "BSD-2-Clause",
+			"dependencies": {},
+			"devDependencies": {
+				"@babel/core": "^7.4.3",
+				"@babel/plugin-transform-runtime": "^7.4.3",
+				"@babel/preset-env": "^7.4.3",
+				"@babel/preset-typescript": "^7.3.3",
+				"@babel/runtime": "^7.5.5",
+				"@types/jest": "^24.0.13",
+				"eslint": "^6.2.2",
+				"eslint-config-prettier": "^6.1.0",
+				"eslint-plugin-prettier": "^3.1.0",
+				"jest": "^24.8.0",
+				"prettier": "^1.15.3",
+				"pretty-quick": "^1.8.0",
+				"typescript": "^3.6.2"
+			},
+			"gitHead": "a5db137a7c7fafa1b8cab762ff6f035754ba9408",
+			"bugs": {
+				"url": "https://github.com/Chris-Baker/pretty-print-object/issues"
+			},
+			"homepage": "https://github.com/Chris-Baker/pretty-print-object#readme",
+			"_id": "@base2/pretty-print-object@0.0.3",
+			"_nodeVersion": "10.16.0",
+			"_npmVersion": "6.9.0",
+			"dist": {
+				"integrity": "sha512-+VU/TuyNu+mwA5XY7V0cZUzSwjjwL+k2bE4GvA7m1485KY/Hyh136JkCQ20XYxDXJJOzsQ8837qnghO7y1wDfQ==",
+				"shasum": "ec21f6fe2ab4bb606e4dd1d72094fd20b92a0e47",
+				"tarball": "https://registry.npmjs.org/@base2/pretty-print-object/-/pretty-print-object-0.0.3.tgz",
+				"fileCount": 9,
+				"unpackedSize": 18444,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdbSKDCRA9TVsSAnZWagAAzQcQAI26A6FgebVCk3M83fmu\nGz1s4yXUJ6d3Q7rrY9I4s4FjeyJnJLkHRT3PMsQH7AhAyouV5pStbLh/1Ymb\n7hIBSwHu+7GuqI/9A0Q2KLZhU8EzGzlIk5GH7urc1oy504ir/0wamr3b0XJQ\nJsVw6IdkhH/fZVoYyKwLVH2n2MZLXVCXshVssIByH9hFpo6RjjYmpT2gGg5o\nRsl8Yu/F+O8Dq1SabGXJADe44bT8x3sGgyHZZC/wSZE4cf1kueKwpkBbADUn\nUEdTLyrZ7jy2vr1zgmeca1jvWQCwTwPGzB5YYk1y9+vRvxtGv/2VKQskaCsp\nptdzTat64rloMW1fIJAThOATesFNwzAzRVx+02ONtDk6pYPgPqf8IS0ib7LP\nRygHb548QRDc7j1EuI5m2bztALwRIeQzCwUNAci56SlpZ3t6eX+OS9l6lBZk\nO6plHzRhtIIEEOYVL4Fm1s+WUf76fO8055yajSdekpq+rUsYEBbDsyZsg0QE\nQodt+iH1npnlxW4ehGwO44MxAkxY2kExcz/KhF9Z7sL929SIJzZdD+Tycn9B\njk7g/7cfxLvN/STtM/S442dDA0D4qcCbRfQ4R+zrMGmv0jGyVXf2YtyZPWRu\n9YzMDg8WcQdKDg3JjGIuUWJe+cc37JbRoWNhei9Uw2ZLlco6aun6HG2urP7P\ng/77\r\n=JF0N\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCbTDTGNKFXkoZcrqW8lceVyDzNK7AwUOrg3TyEDkZxrQIhAN1/zkkQLfXAYcCjcKIyYk5M9rnPoPs6/S4hc04OZZvN"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "chris-baker",
+					"email": "lxufimdu@pm.me"
+				}
+			],
+			"_npmUser": {
+				"name": "chris-baker",
+				"email": "lxufimdu@pm.me"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/pretty-print-object_0.0.3_1567433347292_0.2484081870950221"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.0.4": {
+			"name": "@base2/pretty-print-object",
+			"version": "0.0.4",
+			"description": "Convert an object or array into a formatted string",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/Chris-Baker/pretty-print-object.git"
+			},
+			"main": "./dist/index.js",
+			"scripts": {
+				"build": "tsc",
+				"test": "jest --verbose"
+			},
+			"keywords": [
+				"object",
+				"stringify",
+				"pretty",
+				"print",
+				"dump",
+				"format",
+				"type",
+				"json"
+			],
+			"author": {
+				"name": "Chris Baker"
+			},
+			"license": "BSD-2-Clause",
+			"dependencies": {},
+			"devDependencies": {
+				"@babel/core": "^7.4.3",
+				"@babel/plugin-transform-runtime": "^7.4.3",
+				"@babel/preset-env": "^7.4.3",
+				"@babel/preset-typescript": "^7.3.3",
+				"@babel/runtime": "^7.5.5",
+				"@types/jest": "^24.0.13",
+				"eslint": "^6.2.2",
+				"eslint-config-prettier": "^6.1.0",
+				"eslint-plugin-prettier": "^3.1.0",
+				"jest": "^24.8.0",
+				"prettier": "^1.15.3",
+				"pretty-quick": "^1.8.0",
+				"typescript": "^3.6.2"
+			},
+			"gitHead": "a5db137a7c7fafa1b8cab762ff6f035754ba9408",
+			"bugs": {
+				"url": "https://github.com/Chris-Baker/pretty-print-object/issues"
+			},
+			"homepage": "https://github.com/Chris-Baker/pretty-print-object#readme",
+			"_id": "@base2/pretty-print-object@0.0.4",
+			"_nodeVersion": "10.16.0",
+			"_npmVersion": "6.9.0",
+			"dist": {
+				"integrity": "sha512-9gddyuE8QJX2iVvW6TDET9IpSYLJBiBSytVXScLJgD5sXpTEcrZNIJK9y+zFBjRV1KeOBw6f+xdSTwS9jYYaiw==",
+				"shasum": "0aba93f2f51ec27c4bad49623c70c89fc70be933",
+				"tarball": "https://registry.npmjs.org/@base2/pretty-print-object/-/pretty-print-object-0.0.4.tgz",
+				"fileCount": 6,
+				"unpackedSize": 17969,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdbSXGCRA9TVsSAnZWagAAChgP/2Wg3E6zvoQiGXFxIkG1\nCnTfMqZXRrcGVGFvlHvkpYYDHEbEWT3fAAbQgSsoqD5p0C27cmyzqPr4FdUF\nhwgJr37iAGFuMCtxZQTvF6Vx4vNbkNS/SPlQmoGKPeRYGvrY0YlRhaNhNQo0\n34ZG9gtv3YH6y4O27a3/QdZoKk7oNdFaF+RT00RU8t2ytbNAPFizfjiJSl5B\nQ6deHgBwdigE/CCoA4RlvnTUNKsHD6QkQt7LCZpTRAj8qByLR0960g+6jvuv\nM8gz5GH4/yA5gYFQnpqWj14HegZhUyKlcWkNfmRwCosrNrwI8/ep0GN4flRd\nlbJ9d8PHIky7HZrOO9SmJw8Kpxlc2//L2+mmS22LMvKiqJtdnkOPxG8Nj+Tt\nVrwdB6O6Q640sqy8D1Oxu7uVAlMXLAn68z3Sh0ZWO85CIOU26jSzR4xOLYVt\n7jGSnDQdm3OHIyTJ49z55bWSwagJGhuAGYnkJxNx8iTi1ZiFyjWr2dunM4ub\nNHOd2FOUrpsVagkeKgn/Wc3wxdbSAeYDddYJKhEKkMyfzcWA9ZuptIfuYDY1\nNABW7s3SOq0Sdawn5Dt1F8vUoUfoKQ+MIhkIh5L7g9hTtqJtHp7avPM5DyKL\nfzSRyf3SRfHOI4zhmy5BKBvuZb+/WSNw6LZuTQFQ/zZlvTnZ9JRJYokWZFsL\nhwzc\r\n=NbFJ\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQCjP5ArXuLgjo/xk6AJotXlXSyDYC+Yn06g0aRPKtKEDAIgCwT4JLDySasvry49EZHZ2EDXXdcKiNy/yoAGoNYP45Q="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "chris-baker",
+					"email": "lxufimdu@pm.me"
+				}
+			],
+			"_npmUser": {
+				"name": "chris-baker",
+				"email": "lxufimdu@pm.me"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/pretty-print-object_0.0.4_1567434181690_0.15213732803149704"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.0.5": {
+			"name": "@base2/pretty-print-object",
+			"version": "0.0.5",
+			"description": "Convert an object or array into a formatted string",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/Chris-Baker/pretty-print-object.git"
+			},
+			"main": "./dist/index.js",
+			"scripts": {
+				"build": "tsc",
+				"test": "jest --verbose"
+			},
+			"keywords": [
+				"object",
+				"stringify",
+				"pretty",
+				"print",
+				"dump",
+				"format",
+				"type",
+				"json"
+			],
+			"author": {
+				"name": "Chris Baker"
+			},
+			"license": "BSD-2-Clause",
+			"dependencies": {},
+			"devDependencies": {
+				"@babel/core": "^7.4.3",
+				"@babel/plugin-transform-runtime": "^7.4.3",
+				"@babel/preset-env": "^7.4.3",
+				"@babel/preset-typescript": "^7.3.3",
+				"@babel/runtime": "^7.5.5",
+				"@types/jest": "^24.0.13",
+				"eslint": "^6.2.2",
+				"eslint-config-prettier": "^6.1.0",
+				"eslint-plugin-prettier": "^3.1.0",
+				"jest": "^24.8.0",
+				"prettier": "^1.15.3",
+				"pretty-quick": "^1.8.0",
+				"typescript": "^3.6.2"
+			},
+			"gitHead": "a5db137a7c7fafa1b8cab762ff6f035754ba9408",
+			"bugs": {
+				"url": "https://github.com/Chris-Baker/pretty-print-object/issues"
+			},
+			"homepage": "https://github.com/Chris-Baker/pretty-print-object#readme",
+			"_id": "@base2/pretty-print-object@0.0.5",
+			"_nodeVersion": "10.16.0",
+			"_npmVersion": "6.9.0",
+			"dist": {
+				"integrity": "sha512-cnNxrFmW9SUg1prbGQvyKiqaQ3Pqm9vI3t30rhLAoolqwWYX9oXWK0tW6QyG1k3UPWPU8bSnQ4LaXTCBcpyk9Q==",
+				"shasum": "6084503efab758fc2070e1ce1679fa089437bd45",
+				"tarball": "https://registry.npmjs.org/@base2/pretty-print-object/-/pretty-print-object-0.0.5.tgz",
+				"fileCount": 6,
+				"unpackedSize": 17969,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdbSZlCRA9TVsSAnZWagAADEcP/AjgFSt9NHiqa8weK0KV\nsRGpIygnovCH7fXteYLPv5PFpPnouf3cuW2QMyLF6o3vz8o4+b9y3O3sR5R5\nLQSQIfXJ4aNziptB69zW6+k1KperEFz22rpIY0QPj4rtHKUDH1x4LkN5hF0k\nsUIsjq26TjChgM8+EZSBNzr7SYOrakGYiS9JOrYCw7wnySZBpsfm+tIpaRCM\ny0gaWKKWYyJrfzO+N1OyP80FC1FllXLRf6hOK1uuqXR5Es3KmI1UjMrR1dNN\nYJpdTRBGTKnl/SmD2XvUmrrIqFVIkD4dGMH2e7UvQ9TbHIyTKQiJP5VuH8mb\nCl98a8N44vKvhARIkMcvtbHNhPRYdvW1ISbBB/FsakFZ06gCU3lxhjrTtLiF\n3q95IsWHgPEYsQLEXln61JzDj8WQXAOWUWUSy8MPGFAoVStvQzok8iRykdiQ\naNPGmqVWuKfizDgq4viOKF8MZACjcq/LMiuCwnILFNIkvE5URn6b1MOaz+eC\n8+0XwcdRaBJH2OTUHbJUdxIrM53Rrdum1TtfZTzsZTLZcUi3dokebgRJepsb\n4CWc0OUI9jqnednMs5hAuO49j6TROKoV4/l+ye+8Xqk479IrUv7ucqMPmqKf\nluarKXwQaFWSr2D4WRIEe8UG17CPwcrUmZ1o6bhlyFp8jI+jCipOAb6BrjHz\nSk1r\r\n=BEm6\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIA/TT24a7T0gkpLRPnjgLcfZGY5CaiqPfBVkKLYlhD+BAiA4AJDcJi5heybDa/dhVoI+TWhrJs9BtOwu3s/5Dq9gqg=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "chris-baker",
+					"email": "lxufimdu@pm.me"
+				}
+			],
+			"_npmUser": {
+				"name": "chris-baker",
+				"email": "lxufimdu@pm.me"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/pretty-print-object_0.0.5_1567434340998_0.4184156897740239"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.0.6": {
+			"name": "@base2/pretty-print-object",
+			"version": "0.0.6",
+			"description": "Convert an object or array into a formatted string",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/Chris-Baker/pretty-print-object.git"
+			},
+			"main": "./dist/index.js",
+			"scripts": {
+				"build": "tsc",
+				"test": "jest --verbose"
+			},
+			"keywords": [
+				"object",
+				"stringify",
+				"pretty",
+				"print",
+				"dump",
+				"format",
+				"type",
+				"json"
+			],
+			"author": {
+				"name": "Chris Baker"
+			},
+			"license": "BSD-2-Clause",
+			"dependencies": {},
+			"devDependencies": {
+				"@babel/core": "^7.4.3",
+				"@babel/plugin-transform-runtime": "^7.4.3",
+				"@babel/preset-env": "^7.4.3",
+				"@babel/preset-typescript": "^7.3.3",
+				"@babel/runtime": "^7.5.5",
+				"@types/jest": "^24.0.13",
+				"eslint": "^6.2.2",
+				"eslint-config-prettier": "^6.1.0",
+				"eslint-plugin-prettier": "^3.1.0",
+				"jest": "^24.8.0",
+				"prettier": "^1.15.3",
+				"pretty-quick": "^1.8.0",
+				"typescript": "^3.6.2"
+			},
+			"gitHead": "a5db137a7c7fafa1b8cab762ff6f035754ba9408",
+			"bugs": {
+				"url": "https://github.com/Chris-Baker/pretty-print-object/issues"
+			},
+			"homepage": "https://github.com/Chris-Baker/pretty-print-object#readme",
+			"_id": "@base2/pretty-print-object@0.0.6",
+			"_nodeVersion": "10.16.0",
+			"_npmVersion": "6.9.0",
+			"dist": {
+				"integrity": "sha512-TN0UMxXafC3QmC7BBoRGbxuLyWzJKfV/csLA0efLuxUCZOXYW3pOGFm3CVUA3n1SLCrNnCci8tTVzoe4/96oBg==",
+				"shasum": "6488d3d5ff90853699c163af4e0b405c49a009d4",
+				"tarball": "https://registry.npmjs.org/@base2/pretty-print-object/-/pretty-print-object-0.0.6.tgz",
+				"fileCount": 6,
+				"unpackedSize": 17915,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdbScHCRA9TVsSAnZWagAAKUAP/ig4KP26/bPceAit76KH\nQlBOkcsPpPjKXFqimA2+vapb11DIgP2JeRA69vOSFT9D/G7MGCF6MFmCXlBM\nEpAu+t36lrJaLR11+TpcWqlc8lHyJ4dSiNTPdnN70/NqkJFylZNaC5W3UME7\neBiv3z/vFYH0MP10+6usUf369yiJoe07SI/4ofAabrO+wroJglZDnQi5w4q4\ng2jctVvr9nY+WYYuY+axXBAf6nEfweXMpasFSqV4AvNLEO3gIS5ZMqNinEY0\nk3pP48TelTL1tUkXbnSzKJ/R3mY1qK1oNkuUvCrcEaHIuZjrfLku/W2pEb5d\nLeFfAidHD/SbXgRO1kRGGZ3rlXV+PS8bRiyroKP6sbV92SILhZpVo+alyMY4\nqiJKJxQYbztMdncQE0TuzroCA7kExdwH8UB1bwyq7kda8FNLi5TxLbGkuatp\nFDt0PPU8iW/5Jc2NgDFMmLv6+yT0Ju9dQV603PCtgsWozMyC3rSCFZ8sniEY\nPi4QK24XENFAQjxxXA64TVNA8OOhk753NGA1tCVnPcY7zxcTgOb1Pz2slT1u\n5vfSJXHyw6pT0zrF+GoqFr/R205u3KXDiDNbVFL5S/oQhlyNGY0XvXI7Sc19\nNDoJpWh8IS7k/Xo0dUTHUqNE8UgiS+eR10+iLTQ3P7rVPLxzWR19QEGXReKo\nZ735\r\n=UoYh\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQCbifX5DUBmCQ3lIJ+ECwoVT7zFSOBlXcfU40LcPDfk+wIgY7Cb9PPpnTzJ4v63OTHH48AKO7EENVHgQKuGKRkmsK4="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "chris-baker",
+					"email": "lxufimdu@pm.me"
+				}
+			],
+			"_npmUser": {
+				"name": "chris-baker",
+				"email": "lxufimdu@pm.me"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/pretty-print-object_0.0.6_1567434502223_0.16124857919626945"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.0.0": {
+			"name": "@base2/pretty-print-object",
+			"version": "1.0.0",
+			"description": "Convert an object or array into a formatted string",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/Chris-Baker/pretty-print-object.git"
+			},
+			"main": "./dist/index.js",
+			"scripts": {
+				"build": "tsc",
+				"test": "jest --verbose"
+			},
+			"keywords": [
+				"object",
+				"stringify",
+				"pretty",
+				"print",
+				"dump",
+				"format",
+				"type",
+				"json"
+			],
+			"author": {
+				"name": "Chris Baker"
+			},
+			"license": "BSD-2-Clause",
+			"dependencies": {},
+			"devDependencies": {
+				"@babel/core": "^7.4.3",
+				"@babel/plugin-transform-runtime": "^7.4.3",
+				"@babel/preset-env": "^7.4.3",
+				"@babel/preset-typescript": "^7.3.3",
+				"@babel/runtime": "^7.5.5",
+				"@types/jest": "^24.0.13",
+				"eslint": "^6.2.2",
+				"eslint-config-prettier": "^6.1.0",
+				"eslint-plugin-prettier": "^3.1.0",
+				"jest": "^24.8.0",
+				"prettier": "^1.15.3",
+				"pretty-quick": "^1.8.0",
+				"typescript": "^3.6.2"
+			},
+			"gitHead": "a0f5390006dd43ff3bd1a302406731bd51b1e2e0",
+			"bugs": {
+				"url": "https://github.com/Chris-Baker/pretty-print-object/issues"
+			},
+			"homepage": "https://github.com/Chris-Baker/pretty-print-object#readme",
+			"_id": "@base2/pretty-print-object@1.0.0",
+			"_nodeVersion": "10.16.0",
+			"_npmVersion": "6.9.0",
+			"dist": {
+				"integrity": "sha512-4Th98KlMHr5+JkxfcoDT//6vY8vM+iSPrLNpHhRyLx2CFYi8e2RfqPLdpbnpo0Q5lQC5hNB79yes07zb02fvCw==",
+				"shasum": "860ce718b0b73f4009e153541faff2cb6b85d047",
+				"tarball": "https://registry.npmjs.org/@base2/pretty-print-object/-/pretty-print-object-1.0.0.tgz",
+				"fileCount": 6,
+				"unpackedSize": 18051,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdbSv8CRA9TVsSAnZWagAAoosP/RCAPa7eWu7UAHGnY+YT\ntJ/N/mUSCpinLo4DnNiZchuBLPMjiPK5Ixp3Kl7m3qvMomrQlY/pMzgcAGag\nAi3X0N3nQmDcBIr/mQ4y2yGnMNInppX9J8RGpCeInr59DZL5V7em2rO+OBit\n0BXsc4A/gccbfrvJytdRixF3axFF/rjhrjp+7pAnyqF76iQXOtksI2CACAHj\na6/XvrnRnwRs52K9BNOHnBS6dp6iOhdQMtexHHjAfNe4NpiXz5vHC4xQBeN+\ntxFfVFnw0ns9F3tgmn/xltAjsZVehP6Vss50+Z+nw7a9F2qAiuWlhDZgp35q\n5jNpaTXEf5kUj7A/qu8Exti0AmdRwBtOJ9prjUbRzgt3XIGhi4ekpooVW3JD\nJHOkVW3DNuGkpaH21n1dU6PjsOjG2z5euOdRNydB3veLQrCW9W16Aj4E7jCW\nmzhZdBJT55iE3QrDq2nlE7Ig264JzH2P8li9A+HMW64KSoBqu9HQXzvyELLr\n+Y8KugsJl++ISb1bM3hXlDFeJfdgN2TVzJK83lt1GpPP1Evo5Kl5l/IhWPkD\nCFV4lZjDUNMyNXiA9rwg3Bt1EYl0PkOCbGk7q4QbvMkN8obtLtqUvj5F4tfc\nVKTp2JRNsmudIB6NAF1/0/TN0nqr/ZW0rAPu9wOZWvxbPmDXpCj/cTFi0SsB\nUFs0\r\n=N0k3\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIGug+eXFKb8SfQmHSnVe1Tb76EhQv8+yy2unngq5S+/8AiApD4C4cYVK/tefRvV+sz2b6voOiniTYogYB8NioG18Yg=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "chris-baker",
+					"email": "lxufimdu@pm.me"
+				}
+			],
+			"_npmUser": {
+				"name": "chris-baker",
+				"email": "lxufimdu@pm.me"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/pretty-print-object_1.0.0_1567435771633_0.9654989945954393"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.0.1": {
+			"name": "@base2/pretty-print-object",
+			"version": "1.0.1",
+			"description": "Convert an object or array into a formatted string",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/Chris-Baker/pretty-print-object.git"
+			},
+			"main": "./dist/index.js",
+			"scripts": {
+				"build": "tsc",
+				"test": "jest --verbose"
+			},
+			"keywords": [
+				"object",
+				"stringify",
+				"pretty",
+				"print",
+				"dump",
+				"format",
+				"type",
+				"json"
+			],
+			"author": {
+				"name": "Chris Baker"
+			},
+			"license": "BSD-2-Clause",
+			"dependencies": {},
+			"devDependencies": {
+				"@babel/core": "^7.4.3",
+				"@babel/plugin-transform-runtime": "^7.4.3",
+				"@babel/preset-env": "^7.4.3",
+				"@babel/preset-typescript": "^7.3.3",
+				"@babel/runtime": "^7.5.5",
+				"@types/jest": "^24.0.13",
+				"eslint": "^6.2.2",
+				"eslint-config-prettier": "^6.1.0",
+				"eslint-plugin-prettier": "^3.1.0",
+				"jest": "^24.8.0",
+				"prettier": "^1.15.3",
+				"pretty-quick": "^1.8.0",
+				"typescript": "^3.6.2"
+			},
+			"gitHead": "aeb28c1330ba8dfb72af033901b40b887d93b105",
+			"bugs": {
+				"url": "https://github.com/Chris-Baker/pretty-print-object/issues"
+			},
+			"homepage": "https://github.com/Chris-Baker/pretty-print-object#readme",
+			"_id": "@base2/pretty-print-object@1.0.1",
+			"_nodeVersion": "12.18.4",
+			"_npmVersion": "6.14.6",
+			"dist": {
+				"integrity": "sha512-4iri8i1AqYHJE2DstZYkyEprg6Pq6sKx3xn5FpySk9sNhH7qN2LLlHJCfDTZRILNwQNPD7mATWM0TBui7uC1pA==",
+				"shasum": "371ba8be66d556812dc7fb169ebc3c08378f69d4",
+				"tarball": "https://registry.npmjs.org/@base2/pretty-print-object/-/pretty-print-object-1.0.1.tgz",
+				"fileCount": 6,
+				"unpackedSize": 18069,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgZDeFCRA9TVsSAnZWagAAypQP/i4pRH0IBNylOdeiDcH/\nHdbyYU8j5EaMtj9eBfEjdufoySWZOVyxMh/MAH292e5Lhbnpa4/m3InhuXyE\nma5BiTCOk5azFDm3cucfgB/oHyiQKTeAu6wi882Hrg+fs1vPmj8zQP6GdmUl\nFtz28Hw8xO6Ah0BjvoohmjACuDjO/4GshfCK6DpL/Zcq57PXqKj2XOZa8c5t\n6SrmKT9Bwxz//1Gm9dREseRbkOUDnhx2J+VFb4J/sa92V7/99Ry4BarQwpPk\nbH4w9/v/uv4xp7E46ZBvcXxAirnTkAAvZt+OK8njbLzyaZeQXXZghE9q5EAS\nxlu0NHzmm/y+d6SAhAxVKQfsnQwLAefyhBRH9W00AycyURYjdYxjVc3BTLZa\nud5Xw9W1rYEcR5pePM/Zu8yGlFDlSlZD3UoBre1/A/ol2QNIXlwugdW7GRKa\n1cXQLnGtOyY2rO9ReHikWw/Cb/Rq61/Os2+HTfA762J1TRKZDFv87Re+CAhG\nO/9jOgo3j3pVAuTGKY6faXW0iupcacqxE5VR0f/yrfu/1TzIg4tJcXsQG6bl\nB6yqgc3/iHiLO7jLx/NfA0j7nVXtp+MNLIx8SCbtLpC4Gp4iGYRhXy+T45It\n5ZW/sQBuvMn61Jd1+KUsFX8gAG3ClGPrOHbR0VbIPNGJikUYuJavJ42W3NSD\nOXMa\r\n=MIFs\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQC7dhcyVPu2/cCvsQJEhuJAwKqva3gdW2jo6L8EvwjnOQIhALxa6OmB5iCj4qBoZrcJEY0iCufLjHqUcVEy5ZVygL3e"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "chris-baker",
+				"email": "lxufimdu@pm.me"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "chris-baker",
+					"email": "lxufimdu@pm.me"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/pretty-print-object_1.0.1_1617180549290_0.3260810435010504"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.0.2": {
+			"name": "@base2/pretty-print-object",
+			"version": "1.0.2",
+			"description": "Convert an object or array into a formatted string",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/Chris-Baker/pretty-print-object.git"
+			},
+			"main": "./dist/index.js",
+			"scripts": {
+				"build": "tsc",
+				"test": "jest --verbose"
+			},
+			"keywords": [
+				"object",
+				"stringify",
+				"pretty",
+				"print",
+				"dump",
+				"format",
+				"type",
+				"json"
+			],
+			"author": {
+				"name": "Chris Baker"
+			},
+			"license": "BSD-2-Clause",
+			"devDependencies": {
+				"@babel/core": "^7.4.3",
+				"@babel/plugin-transform-runtime": "^7.4.3",
+				"@babel/preset-env": "^7.4.3",
+				"@babel/preset-typescript": "^7.3.3",
+				"@babel/runtime": "^7.5.5",
+				"@types/jest": "^24.0.13",
+				"@typescript-eslint/eslint-plugin": "^5.21.0",
+				"@typescript-eslint/parser": "^5.21.0",
+				"eslint": "^6.2.2",
+				"eslint-config-prettier": "^6.1.0",
+				"eslint-plugin-prettier": "^3.1.0",
+				"jest": "^28.0.2",
+				"prettier": "^1.15.3",
+				"pretty-quick": "^1.8.0",
+				"typescript": "^4.3.5"
+			},
+			"types": "./dist/index.d.ts",
+			"gitHead": "94c47930f45e0746b715d538075ec70fd92813ae",
+			"bugs": {
+				"url": "https://github.com/Chris-Baker/pretty-print-object/issues"
+			},
+			"homepage": "https://github.com/Chris-Baker/pretty-print-object#readme",
+			"_id": "@base2/pretty-print-object@1.0.2",
+			"_nodeVersion": "16.13.0",
+			"_npmVersion": "8.1.0",
+			"dist": {
+				"integrity": "sha512-rBha0UDfV7EmBRjWrGG7Cpwxg8WomPlo0q+R2so47ZFf9wy4YKJzLuHcVa0UGFjdcLZj/4F/1FNC46GIQhe7sA==",
+				"shasum": "e30192222fd13e3c1e97040163d6628a95f70844",
+				"tarball": "https://registry.npmjs.org/@base2/pretty-print-object/-/pretty-print-object-1.0.2.tgz",
+				"fileCount": 5,
+				"unpackedSize": 13360,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCICZjWBa6X6s03APvqNL5pyuIcsSAZa12kPcckkzdxbkcAiBVnNn0vQtRC3/sWri9hXkG4dyKQrCAFOB6sL+6RmXWzA=="
+					}
+				],
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJiaod3ACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2VmrCZw/9H1dsbW/G0hqlJwPQ4Fg/XdtQeDY6RTdvsSKp/IaZLR3MGjAK\r\nj2I4AwdLyD2m2kMUuCbuonZo0v7TCwO9XsHfUjhbmTtl9hnBxqDJFs29+K+H\r\nDQDN/KxNZadV3mNC/q4lyhiy3l9shsLXhDrKkMgcf952FcXO9/90z8swllwR\r\n1S4av9JbqSwhRcsKfIGAwk6ZgDoyMIIAn4FwEH2DrXHy6XPFGwiZAuU+m2aR\r\n4Gg6h5I9K/WAybu9kTVk7XJDOtEFYgXuR4HMaNp4NzVNdj/L/jEs5aFsjXZz\r\nS6XdFQfKc/sMwU47lFB73695cfnnP9CZQgVZ0B4AFts89vDaVWR9nVgKGvTW\r\nQCk2WTUFuwtWfRQdVw+pam6g8JY114CPLuqSK0wXe4SKnypOUtpBjK4NQHoN\r\njWLjpeOHln86VDlHr5tpauWIxI+SC8RwLKXmZBGvOR03YCiI9g3RfZudfEP6\r\nLRcXcv0F/ug9jQNDfiLZpgyMQlpNd7Ynzg/7HKqpCg2hjmkJ8iBxD1bMmqyQ\r\nACRySqPLHb306sD5Nv0po6WyPr7hNjYFUYKnTRa8AH3I0sY8IocJ1pZlT/xS\r\npo7QR5zRrE6iMrpkOxcOsynHdOaMIi48oOo6mbjlFrbG/N8yPP+b3XalnaRP\r\nRY6K7mpo49W6Sm+7oxHKyzoMrw/D8IU0XlM=\r\n=Uqtv\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "chris-baker",
+				"email": "lxufimdu@pm.me"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "chris-baker",
+					"email": "lxufimdu@pm.me"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/pretty-print-object_1.0.2_1651148662893_0.9223263200643106"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		}
+	},
+	"time": {
+		"created": "2019-09-02T12:54:07.545Z",
+		"0.0.1": "2019-09-02T12:54:07.862Z",
+		"modified": "2022-04-28T12:24:23.493Z",
+		"0.0.2": "2019-09-02T12:58:41.122Z",
+		"0.0.3": "2019-09-02T14:09:07.432Z",
+		"0.0.4": "2019-09-02T14:23:01.792Z",
+		"0.0.5": "2019-09-02T14:25:41.119Z",
+		"0.0.6": "2019-09-02T14:28:22.601Z",
+		"1.0.0": "2019-09-02T14:49:31.779Z",
+		"1.0.1": "2021-03-31T08:49:09.491Z",
+		"1.0.2": "2022-04-28T12:24:23.087Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "1.0.2"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"8959ee49b16409de28b645226d3dd1b7\"",
+			"fetched": 1660840769876
+		}
+	},
+	"_distfiles": {
+		"pretty-print-object-0.0.1.tgz": {
+			"url": "https://registry.npmjs.org/@base2/pretty-print-object/-/pretty-print-object-0.0.1.tgz",
+			"sha": "1ac5869e37a45e3f65ae1ed68a2a0eadee122d5a",
+			"registry": "npmjs"
+		},
+		"pretty-print-object-0.0.2.tgz": {
+			"url": "https://registry.npmjs.org/@base2/pretty-print-object/-/pretty-print-object-0.0.2.tgz",
+			"sha": "37b7c302f797f8d0e49fd140b1f78e7cac03ea5e",
+			"registry": "npmjs"
+		},
+		"pretty-print-object-0.0.3.tgz": {
+			"url": "https://registry.npmjs.org/@base2/pretty-print-object/-/pretty-print-object-0.0.3.tgz",
+			"sha": "ec21f6fe2ab4bb606e4dd1d72094fd20b92a0e47",
+			"registry": "npmjs"
+		},
+		"pretty-print-object-0.0.4.tgz": {
+			"url": "https://registry.npmjs.org/@base2/pretty-print-object/-/pretty-print-object-0.0.4.tgz",
+			"sha": "0aba93f2f51ec27c4bad49623c70c89fc70be933",
+			"registry": "npmjs"
+		},
+		"pretty-print-object-0.0.5.tgz": {
+			"url": "https://registry.npmjs.org/@base2/pretty-print-object/-/pretty-print-object-0.0.5.tgz",
+			"sha": "6084503efab758fc2070e1ce1679fa089437bd45",
+			"registry": "npmjs"
+		},
+		"pretty-print-object-0.0.6.tgz": {
+			"url": "https://registry.npmjs.org/@base2/pretty-print-object/-/pretty-print-object-0.0.6.tgz",
+			"sha": "6488d3d5ff90853699c163af4e0b405c49a009d4",
+			"registry": "npmjs"
+		},
+		"pretty-print-object-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/@base2/pretty-print-object/-/pretty-print-object-1.0.0.tgz",
+			"sha": "860ce718b0b73f4009e153541faff2cb6b85d047",
+			"registry": "npmjs"
+		},
+		"pretty-print-object-1.0.1.tgz": {
+			"url": "https://registry.npmjs.org/@base2/pretty-print-object/-/pretty-print-object-1.0.1.tgz",
+			"sha": "371ba8be66d556812dc7fb169ebc3c08378f69d4",
+			"registry": "npmjs"
+		},
+		"pretty-print-object-1.0.2.tgz": {
+			"url": "https://registry.npmjs.org/@base2/pretty-print-object/-/pretty-print-object-1.0.2.tgz",
+			"sha": "e30192222fd13e3c1e97040163d6628a95f70844",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_rev": "3-eff8e0928a7c66a5",
+	"_id": "@base2/pretty-print-object",
+	"readme": "# Pretty print object\n[![License][license-image]][license-url] ![coverage-badge-green]\n \n> Convert an object or array into a formatted string\n\nThis is a re-write of [stringify-object] in Typescript, modified to inline the dependencies and make it compatible with ES5 out of the box.\n\nUseful for when you want to get the string representation of an object in a formatted way.\n\nIt also handles circular references and lets you specify quote type.\n\n\n## Install\n\n```\n$ npm install @base2/pretty-print-object\n```\n\n\n## Usage\n\n```js\nimport { prettyPrint } from '@base2/pretty-print-object';\n\nconst obj = {\n    foo: 'bar',\n    'arr': [1, 2, 3],\n    nested: {\n        hello: \"world\"\n    }\n};\n\nconst pretty = prettyPrint(obj, {\n    indent: '  ',\n    singleQuotes: false\n});\n\nconsole.log(pretty);\n/*\n{\n    foo: \"bar\",\n    arr: [\n        1,\n        2,\n        3\n    ],\n    nested: {\n        hello: \"world\"\n    }\n}\n*/\n```\n\n\n## API\n\n### prettyPrint(input, [options])\n\nCircular references will be replaced with `\"[Circular]\"`.\n\nObject keys are only quoted when necessary, for example, `{'foo-bar': true}`.\n\n#### input\n\nType: `Object` `Array`\n\n#### options\n\nType: `Object`\n\n##### indent\n\nType: `string`<br>\nDefault: `\\t`\n\nPreferred indentation.\n\n##### singleQuotes\n\nType: `boolean`<br>\nDefault: `true`\n\nSet to false to get double-quoted strings.\n\n##### filter(obj, prop)\n\nType: `Function`\n\nExpected to return a `boolean` of whether to include the property `prop` of the object `obj` in the output.\n\n##### transform(obj, prop, originalResult)\n\nType: `Function`<br>\nDefault: `undefined`\n\nExpected to return a `string` that transforms the string that resulted from stringifying `obj[prop]`. This can be used to detect special types of objects that need to be stringified in a particular way. The `transform` function might return an alternate string in this case, otherwise returning the `originalResult`.\n\nHere's an example that uses the `transform` option to mask fields named \"password\":\n\n```js\nimport { prettyPrint } from '@base2/pretty-print-object';\n\nconst obj = {\n    user: 'becky',\n    password: 'secret'\n};\n\nconst pretty = prettyPrint(obj, {\n    transform: (obj, prop, originalResult) => {\n        if (prop === 'password') {\n            return originalResult.replace(/\\w/g, '*');\n        }\n\n        return originalResult;\n    }\n});\n\nconsole.log(pretty);\n/*\n{\n    user: 'becky',\n    password: '******'\n}\n*/\n```\n\n\n##### inlineCharacterLimit\n\nType: `number`\n\nWhen set, will inline values up to `inlineCharacterLimit` length for the sake of more terse output.\n\nFor example, given the example at the top of the README:\n\n```js\nimport { prettyPrint } from '@base2/pretty-print-object';\n\nconst obj = {\n    foo: 'bar',\n    'arr': [1, 2, 3],\n    nested: {\n        hello: \"world\"\n    }\n};\n\nconst pretty = prettyPrint(obj, {\n    indent: '  ',\n    singleQuotes: false,\n    inlineCharacterLimit: 12\n});\n\nconsole.log(pretty);\n/*\n{\n    foo: \"bar\",\n    arr: [1, 2, 3],\n    nested: {\n        hello: \"world\"\n    }\n}\n*/\n```\n\nAs you can see, `arr` was printed as a one-liner because its string was shorter than 12 characters.\n\n[stringify-object]: https://www.npmjs.com/package/stringify-object\n[coverage-badge-green]: https://img.shields.io/badge/Coverage-100%25-brightgreen.svg\n[license-url]: https://opensource.org/licenses/BSD-2-Clause\n[license-image]: https://img.shields.io/badge/License-BSD%202--Clause-orange.svg"
+}

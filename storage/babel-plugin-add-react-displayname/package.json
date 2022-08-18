@@ -1,0 +1,360 @@
+{
+	"name": "babel-plugin-add-react-displayname",
+	"versions": {
+		"0.0.1": {
+			"name": "babel-plugin-add-react-displayname",
+			"version": "0.0.1",
+			"description": "Automatically add displayName to all your components",
+			"main": "index.js",
+			"dependencies": {},
+			"devDependencies": {
+				"babel-core": "^6.14.0",
+				"babel-helper-plugin-test-runner": "^6.8.0",
+				"mocha": "^3.0.2",
+				"standard": "^8.1.0"
+			},
+			"scripts": {
+				"test": "mocha"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/opbeat/react-babel-displayname.git"
+			},
+			"author": {
+				"name": "Ron Cohen"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/opbeat/react-babel-displayname/issues"
+			},
+			"homepage": "https://github.com/opbeat/react-babel-displayname#readme",
+			"gitHead": "754a7d5466c271f1519e4a24d5c81b704577dcb9",
+			"_id": "babel-plugin-add-react-displayname@0.0.1",
+			"_shasum": "f4723ea4e015e9668cfdffd4822433bbeaaf41d8",
+			"_from": ".",
+			"_npmVersion": "2.15.2",
+			"_nodeVersion": "5.9.1",
+			"_npmUser": {
+				"name": "roncohen",
+				"email": "ron@opbeat.com"
+			},
+			"dist": {
+				"shasum": "f4723ea4e015e9668cfdffd4822433bbeaaf41d8",
+				"tarball": "https://registry.npmjs.org/babel-plugin-add-react-displayname/-/babel-plugin-add-react-displayname-0.0.1.tgz",
+				"integrity": "sha512-O2Z61GwXAaSLNpW4rs6Z9qFl/thraoWdNOYa+93qGwxnNgCpw+XQJuyEUrMtZoldACL660Im6cuV8UO4zjSdUA==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQComznO3Grj1FcFD1tyEgLrQHftne/DwQpFGF2Fr2SWggIgMUEii3pEVWSXv93BpBteokIJrGcObfCIHE7xEv+jY4g="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "roncohen",
+					"email": "ron@opbeat.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/babel-plugin-add-react-displayname-0.0.1.tgz_1475056755898_0.39352760929614305"
+			},
+			"contributors": []
+		},
+		"0.0.2": {
+			"name": "babel-plugin-add-react-displayname",
+			"version": "0.0.2",
+			"description": "Automatically add displayName to all your components",
+			"main": "index.js",
+			"dependencies": {},
+			"devDependencies": {
+				"babel-core": "^6.14.0",
+				"babel-helper-plugin-test-runner": "^6.8.0",
+				"mocha": "^3.0.2",
+				"standard": "^8.1.0"
+			},
+			"scripts": {
+				"test": "mocha"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/opbeat/babel-plugin-add-react-displayname.git"
+			},
+			"author": {
+				"name": "Ron Cohen"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/opbeat/babel-plugin-add-react-displayname/issues"
+			},
+			"homepage": "https://github.com/opbeat/babel-plugin-add-react-displayname#readme",
+			"gitHead": "c50126cb65c1a231f97491e663a03e6b75c51744",
+			"_id": "babel-plugin-add-react-displayname@0.0.2",
+			"_shasum": "8fe8bc8fb926e528dddf8ba4f7cd33d0af519344",
+			"_from": ".",
+			"_npmVersion": "2.15.2",
+			"_nodeVersion": "5.9.1",
+			"_npmUser": {
+				"name": "roncohen",
+				"email": "ron@opbeat.com"
+			},
+			"dist": {
+				"shasum": "8fe8bc8fb926e528dddf8ba4f7cd33d0af519344",
+				"tarball": "https://registry.npmjs.org/babel-plugin-add-react-displayname/-/babel-plugin-add-react-displayname-0.0.2.tgz",
+				"integrity": "sha512-k+eZnYmp25vZixG1Znaw1O3IejXfSPRoHSuV0l4hHeDaoWedUElvSRw7MdtntoDSedgiqSc6R9FD2o6J/KddiA==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCICtpLBtBYsRbLYcLPjhsswVcoqa7p5WctNHot5r7JXGhAiBRXLrslwRVsTyZll3km/FIP220iNJ+9uEg4o/V73Sftw=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "roncohen",
+					"email": "ron@opbeat.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/babel-plugin-add-react-displayname-0.0.2.tgz_1475069935489_0.6285100672394037"
+			},
+			"contributors": []
+		},
+		"0.0.3": {
+			"name": "babel-plugin-add-react-displayname",
+			"version": "0.0.3",
+			"description": "Automatically add displayName to all your components",
+			"main": "index.js",
+			"dependencies": {},
+			"devDependencies": {
+				"babel-core": "^6.14.0",
+				"babel-helper-plugin-test-runner": "^6.8.0",
+				"mocha": "^3.0.2",
+				"standard": "^8.1.0"
+			},
+			"scripts": {
+				"test": "mocha"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/opbeat/babel-plugin-add-react-displayname.git"
+			},
+			"author": {
+				"name": "Ron Cohen"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/opbeat/babel-plugin-add-react-displayname/issues"
+			},
+			"homepage": "https://github.com/opbeat/babel-plugin-add-react-displayname#readme",
+			"gitHead": "64593a2cb3920bd5e5fa3c4dd4914c062fa41565",
+			"_id": "babel-plugin-add-react-displayname@0.0.3",
+			"_shasum": "a6be13e6672f99f354b222bec5dac8df27aaa599",
+			"_from": ".",
+			"_npmVersion": "2.15.9",
+			"_nodeVersion": "4.6.0",
+			"_npmUser": {
+				"name": "roncohen",
+				"email": "ron@opbeat.com"
+			},
+			"dist": {
+				"shasum": "a6be13e6672f99f354b222bec5dac8df27aaa599",
+				"tarball": "https://registry.npmjs.org/babel-plugin-add-react-displayname/-/babel-plugin-add-react-displayname-0.0.3.tgz",
+				"integrity": "sha512-ejNoJyMMDYPcPW6yks6WwYGTHT/6VtsWm2Epeu6v4bdo4GfgD9jNOFnAU99Kjl+pE8IcVaUfkweWxkDfBzPkPg==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCcw9rYnwcTMggZ6U8k/p1ZdneIyNyzMV9bLDPBPBLzVgIhALFF8wnkRQOTBCj7p8VPcGX8mCL7v2Sg2qDLWMCCZGsI"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "roncohen",
+					"email": "ron@opbeat.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/babel-plugin-add-react-displayname-0.0.3.tgz_1475592298030_0.05943999718874693"
+			},
+			"contributors": []
+		},
+		"0.0.4": {
+			"name": "babel-plugin-add-react-displayname",
+			"version": "0.0.4",
+			"description": "Automatically add displayName to all your components",
+			"main": "index.js",
+			"dependencies": {},
+			"devDependencies": {
+				"babel-core": "^6.14.0",
+				"babel-helper-plugin-test-runner": "^6.8.0",
+				"babel-plugin-transform-decorators-legacy": "^1.3.4",
+				"babel-preset-stage-0": "^6.16.0",
+				"mocha": "^3.0.2",
+				"standard": "^8.1.0"
+			},
+			"scripts": {
+				"test": "mocha"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/opbeat/babel-plugin-add-react-displayname.git"
+			},
+			"author": {
+				"name": "Ron Cohen"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/opbeat/babel-plugin-add-react-displayname/issues"
+			},
+			"homepage": "https://github.com/opbeat/babel-plugin-add-react-displayname#readme",
+			"gitHead": "b386832763201366f0d99a0d6656d49648940455",
+			"_id": "babel-plugin-add-react-displayname@0.0.4",
+			"_shasum": "bc2a74bcbee6e505025b3352fea85ee7bc4c6f7c",
+			"_from": ".",
+			"_npmVersion": "3.10.8",
+			"_nodeVersion": "6.9.1",
+			"_npmUser": {
+				"name": "roncohen",
+				"email": "ron@opbeat.com"
+			},
+			"dist": {
+				"shasum": "bc2a74bcbee6e505025b3352fea85ee7bc4c6f7c",
+				"tarball": "https://registry.npmjs.org/babel-plugin-add-react-displayname/-/babel-plugin-add-react-displayname-0.0.4.tgz",
+				"integrity": "sha512-03ZqW9hdbHX6t/UPJ0B+PX8oir+9/9caK7SnV0qeU3E/uvcWaRkToB0hXYcuxuFkTrRC7elVQseMniyBSZoCCA==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIHaONuc0gkLFFEOUXPSXcMV71gPprBRuX9lV/nkzrEraAiAVcJ2R14BMib/IAY7OoC8Ozb/qFV0f/pn70oJhFrI7UQ=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "roncohen",
+					"email": "ron@opbeat.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/babel-plugin-add-react-displayname-0.0.4.tgz_1481377243179_0.47914085211232305"
+			},
+			"contributors": []
+		},
+		"0.0.5": {
+			"name": "babel-plugin-add-react-displayname",
+			"version": "0.0.5",
+			"description": "Automatically add displayName to all your components",
+			"main": "index.js",
+			"dependencies": {},
+			"devDependencies": {
+				"babel-core": "^6.14.0",
+				"babel-helper-plugin-test-runner": "^6.8.0",
+				"babel-plugin-transform-decorators-legacy": "^1.3.4",
+				"babel-preset-react": "^6.24.1",
+				"babel-preset-stage-0": "^6.16.0",
+				"mocha": "^3.0.2",
+				"standard": "^8.1.0"
+			},
+			"scripts": {
+				"test": "mocha"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/opbeat/babel-plugin-add-react-displayname.git"
+			},
+			"author": {
+				"name": "Ron Cohen"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/opbeat/babel-plugin-add-react-displayname/issues"
+			},
+			"homepage": "https://github.com/opbeat/babel-plugin-add-react-displayname#readme",
+			"gitHead": "bbdaa13f503eebda604fdf4edadb2f8a2ec4914f",
+			"_id": "babel-plugin-add-react-displayname@0.0.5",
+			"_shasum": "339d4cddb7b65fd62d1df9db9fe04de134122bd5",
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_nodeVersion": "6.11.5",
+			"_npmUser": {
+				"name": "roncohen",
+				"email": "ron@opbeat.com"
+			},
+			"dist": {
+				"shasum": "339d4cddb7b65fd62d1df9db9fe04de134122bd5",
+				"tarball": "https://registry.npmjs.org/babel-plugin-add-react-displayname/-/babel-plugin-add-react-displayname-0.0.5.tgz",
+				"integrity": "sha512-LY3+Y0XVDYcShHHorshrDbt4KFWL4bSeniCtl4SYZbask+Syngk1uMPCeN9+nSiZo6zX5s0RTq/J9Pnaaf/KHw==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDJxDsW1YlapUm/To+zS5anjsTZDhx/d4GMqrYxGg4esgIgC8+OSaWVc+xN8TtQ9NYZLv7vCEvT2TTIXnaDsgPY93Q="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "roncohen",
+					"email": "ron@opbeat.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/babel-plugin-add-react-displayname-0.0.5.tgz_1517355840045_0.5704040678683668"
+			},
+			"contributors": []
+		}
+	},
+	"time": {
+		"modified": "2022-06-13T04:00:23.657Z",
+		"created": "2016-09-28T09:59:16.504Z",
+		"0.0.1": "2016-09-28T09:59:16.504Z",
+		"0.0.2": "2016-09-28T13:38:57.423Z",
+		"0.0.3": "2016-10-04T14:44:59.632Z",
+		"0.0.4": "2016-12-10T13:40:43.804Z",
+		"0.0.5": "2018-01-30T23:44:00.922Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "0.0.5"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"49d5fad125d756054566894454c8f2ee\"",
+			"fetched": 1660840721102
+		}
+	},
+	"_distfiles": {
+		"babel-plugin-add-react-displayname-0.0.1.tgz": {
+			"url": "https://registry.npmjs.org/babel-plugin-add-react-displayname/-/babel-plugin-add-react-displayname-0.0.1.tgz",
+			"sha": "f4723ea4e015e9668cfdffd4822433bbeaaf41d8",
+			"registry": "npmjs"
+		},
+		"babel-plugin-add-react-displayname-0.0.2.tgz": {
+			"url": "https://registry.npmjs.org/babel-plugin-add-react-displayname/-/babel-plugin-add-react-displayname-0.0.2.tgz",
+			"sha": "8fe8bc8fb926e528dddf8ba4f7cd33d0af519344",
+			"registry": "npmjs"
+		},
+		"babel-plugin-add-react-displayname-0.0.3.tgz": {
+			"url": "https://registry.npmjs.org/babel-plugin-add-react-displayname/-/babel-plugin-add-react-displayname-0.0.3.tgz",
+			"sha": "a6be13e6672f99f354b222bec5dac8df27aaa599",
+			"registry": "npmjs"
+		},
+		"babel-plugin-add-react-displayname-0.0.4.tgz": {
+			"url": "https://registry.npmjs.org/babel-plugin-add-react-displayname/-/babel-plugin-add-react-displayname-0.0.4.tgz",
+			"sha": "bc2a74bcbee6e505025b3352fea85ee7bc4c6f7c",
+			"registry": "npmjs"
+		},
+		"babel-plugin-add-react-displayname-0.0.5.tgz": {
+			"url": "https://registry.npmjs.org/babel-plugin-add-react-displayname/-/babel-plugin-add-react-displayname-0.0.5.tgz",
+			"sha": "339d4cddb7b65fd62d1df9db9fe04de134122bd5",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_rev": "3-8fa97e307edc2dc9",
+	"_id": "babel-plugin-add-react-displayname",
+	"readme": "# babel-plugin-add-react-displayname\n\nAutomatically detects and sets displayName for React components. \nThis is useful for having real component names show up in production builds of React apps.\n\nBabel already does this for `React.createClass` style components, this adds support for the two other kinds of component definitions:\n * ES6-classes style components\n * Stateless components that return JSX\n\n\n## Installation\nSimply add `add-react-displayname` to your `.babelrc` file:\n\n```json\n{\n    \"plugins\": [\"add-react-displayname\"]\n}\n```\n\n## Troubleshooting\n\n#### Doesn't work for decorated classes\n\nIf you are using the `transform-decorators-legacy` plugin, make sure it's placed *after* this plugin in your plugin list. \n\n## Testing\n\n`npm test`"
+}

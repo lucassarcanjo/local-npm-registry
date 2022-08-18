@@ -1,0 +1,172 @@
+{
+	"name": "@types/normalize-package-data",
+	"versions": {
+		"2.4.0": {
+			"name": "@types/normalize-package-data",
+			"version": "2.4.0",
+			"description": "TypeScript definitions for normalize-package-data",
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "Jeff Dickey",
+					"url": "https://github.com/jdxcode",
+					"githubUsername": "jdxcode"
+				}
+			],
+			"main": "",
+			"repository": {
+				"type": "git",
+				"url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+			},
+			"scripts": {},
+			"dependencies": {},
+			"typesPublisherContentHash": "5d2101e9e55c73e1d649a6c311e0d40bdfaa25bb06bb75ea6f3bb0d149c1303b",
+			"typeScriptVersion": "2.0",
+			"_id": "@types/normalize-package-data@2.4.0",
+			"dist": {
+				"integrity": "sha512-f5j5b/Gf71L+dbqxIpQ4Z2WlmI/mPJ0fOkGGmFgtb6sAu97EPczzbS3/tJKxmcYDj55OX6ssqwDAWOHIYDRDGA==",
+				"shasum": "e486d0d97396d79beedd0a6e33f4534ff6b4973e",
+				"tarball": "https://registry.npmjs.org/@types/normalize-package-data/-/normalize-package-data-2.4.0.tgz",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDU93PUmqIHF66XYKhm+cWC9j45pt7lKlPvc9PA0fnWvAIgVOwcTueJk0RZQ4FdK4tZqtXwvMgc2OWUD9sXLizFzWM="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/normalize-package-data-2.4.0.tgz_1515310531876_0.8681222880259156"
+			},
+			"directories": {}
+		},
+		"2.4.1": {
+			"name": "@types/normalize-package-data",
+			"version": "2.4.1",
+			"description": "TypeScript definitions for normalize-package-data",
+			"homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/normalize-package-data",
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "Jeff Dickey",
+					"url": "https://github.com/jdxcode",
+					"githubUsername": "jdxcode"
+				}
+			],
+			"main": "",
+			"types": "index.d.ts",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+				"directory": "types/normalize-package-data"
+			},
+			"scripts": {},
+			"dependencies": {},
+			"typesPublisherContentHash": "10653410655e204616118acfbe2900dc09227bc3a80c532a93d44b46be54db36",
+			"typeScriptVersion": "3.6",
+			"_id": "@types/normalize-package-data@2.4.1",
+			"dist": {
+				"integrity": "sha512-Gj7cI7z+98M282Tqmp2K5EIsoouUEzbBJhQQzDE3jSIRk6r9gsz0oUokqIUR4u1R3dMHo0pDHM7sNOHyhulypw==",
+				"shasum": "d3357479a0fdfdd5907fe67e17e0a85c906e1301",
+				"tarball": "https://registry.npmjs.org/@types/normalize-package-data/-/normalize-package-data-2.4.1.tgz",
+				"fileCount": 4,
+				"unpackedSize": 6291,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJg5de9CRA9TVsSAnZWagAAvOUQAJ3EDjkANgk47d7YPxnD\n8w9X/OmfGOpEsbIZUQWBrIQZTkhzi6+2kY4dsBAzMCwuDCE0kM8/2ROhmYNm\nFSc2Nvgn0Mj3y68iLomwDLT4x+UKQ1cQsWOGIxd1PbnEXcexZD/zcOVgjnnV\n0SlE8VLsgxc7AX+Wwol7zOMMsCH6g64PijcFtDL5bkQiq3MtyhvzZoDdZf4w\ndjFHw5GOP5F0amHOwCPKrCjKhcm3XeqcS60E+qEUbKxrjFveYpewMoUvz5N+\nRhuH/cjLNaztN/W8d5xdKOJhqy+iXw9DGfP7kTzLRenQjVy9CWb553lqOGrm\nu5r3/HW/2KtpiO0HrbDZL1awjIl0h45rQKB6pyFQKHD1t329j5hE8IeZgaCL\nwavAcu61WtXQtMaIZQZwk7fLT1YwTOxM6Vhk1YDJLKmB+nKAP1c6oLu7oxu/\nvjU3luGciFzaE/vn0HpduD5gds+PQummLh431kRiZUx/Tnxi8IffpJMSl0ib\nkYWczJXbqG6XnOImx3YkqiJMIK18FS4CQrY9z4kraYchq53jxznsVbpyl4cm\niAw0Px/ajkYg+dOe6TL6kaygojFBsidq5Y1K0s/DGF3GKiEHE2sreQ1CUlRO\n4EQAFtOD4O7NkbrrcmhwOQ8CsID2qr7FZoqZ7GhcMe+0CJkB6L7YgLjZXNh8\nAO4l\r\n=HHE1\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDqfKBwTHt9EvZ77+N9qSpW6MvfDYdm8KH1GnO8G0At7gIhAPIBVl/Ro6vreHIrsHhkbW3NsG1S3Om2QGtXj3RU8ngD"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/normalize-package-data_2.4.1_1625675708615_0.26517946589144836"
+			},
+			"_hasShrinkwrap": false
+		}
+	},
+	"time": {
+		"modified": "2022-08-15T08:30:42.884Z",
+		"created": "2018-01-07T07:35:32.045Z",
+		"2.4.0": "2018-01-07T07:35:32.045Z",
+		"2.4.1": "2021-07-07T16:35:08.730Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "2.4.1",
+		"ts2.0": "2.4.0",
+		"ts2.1": "2.4.0",
+		"ts2.2": "2.4.0",
+		"ts2.3": "2.4.0",
+		"ts2.4": "2.4.0",
+		"ts2.5": "2.4.0",
+		"ts2.6": "2.4.0",
+		"ts2.7": "2.4.0",
+		"ts2.8": "2.4.0",
+		"ts2.9": "2.4.0",
+		"ts3.0": "2.4.0",
+		"ts3.1": "2.4.0",
+		"ts3.2": "2.4.0",
+		"ts3.3": "2.4.0",
+		"ts3.4": "2.4.0",
+		"ts3.5": "2.4.0",
+		"ts3.6": "2.4.1",
+		"ts3.7": "2.4.1",
+		"ts3.8": "2.4.1",
+		"ts3.9": "2.4.1",
+		"ts4.0": "2.4.1",
+		"ts4.1": "2.4.1",
+		"ts4.2": "2.4.1",
+		"ts4.3": "2.4.1",
+		"ts4.4": "2.4.1",
+		"ts4.5": "2.4.1",
+		"ts4.6": "2.4.1",
+		"ts4.7": "2.4.1",
+		"ts4.8": "2.4.1",
+		"ts4.9": "2.4.1"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"184d85278818b39bea8b0fcb941e3cb9\"",
+			"fetched": 1660840850787
+		}
+	},
+	"_distfiles": {
+		"normalize-package-data-2.4.0.tgz": {
+			"url": "https://registry.npmjs.org/@types/normalize-package-data/-/normalize-package-data-2.4.0.tgz",
+			"sha": "e486d0d97396d79beedd0a6e33f4534ff6b4973e",
+			"registry": "npmjs"
+		},
+		"normalize-package-data-2.4.1.tgz": {
+			"url": "https://registry.npmjs.org/@types/normalize-package-data/-/normalize-package-data-2.4.1.tgz",
+			"sha": "d3357479a0fdfdd5907fe67e17e0a85c906e1301",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_rev": "3-4b04dfc0c8044631",
+	"_id": "@types/normalize-package-data",
+	"readme": "# Installation\r\n> `npm install --save @types/normalize-package-data`\r\n\r\n# Summary\r\nThis package contains type definitions for normalize-package-data (https://github.com/npm/normalize-package-data#readme).\r\n\r\n# Details\r\nFiles were exported from https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/normalize-package-data.\r\n## [index.d.ts](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/normalize-package-data/index.d.ts)\r\n````ts\r\n// Type definitions for normalize-package-data 2.4\n// Project: https://github.com/npm/normalize-package-data#readme\n// Definitions by: Jeff Dickey <https://github.com/jdxcode>\n// Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped\n\nexport = normalize;\n\ndeclare function normalize(data: normalize.Input, warn?: normalize.WarnFn, strict?: boolean): void;\ndeclare function normalize(data: normalize.Input, strict?: boolean): void;\n\ndeclare namespace normalize {\n    type WarnFn = (msg: string) => void;\n    interface Input {[k: string]: any; }\n\n    interface Person {\n        name?: string | undefined;\n        email?: string | undefined;\n        url?: string | undefined;\n    }\n\n    interface Package {\n        [k: string]: any;\n        name: string;\n        version: string;\n        files?: string[] | undefined;\n        bin?: {[k: string]: string } | undefined;\n        man?: string[] | undefined;\n        keywords?: string[] | undefined;\n        author?: Person | undefined;\n        maintainers?: Person[] | undefined;\n        contributors?: Person[] | undefined;\n        bundleDependencies?: {[name: string]: string; } | undefined;\n        dependencies?: {[name: string]: string; } | undefined;\n        devDependencies?: {[name: string]: string; } | undefined;\n        optionalDependencies?: {[name: string]: string; } | undefined;\n        description?: string | undefined;\n        engines?: {[type: string]: string } | undefined;\n        license?: string | undefined;\n        repository?: { type: string, url: string } | undefined;\n        bugs?: { url: string, email?: string | undefined } | { url?: string | undefined, email: string } | undefined;\n        homepage?: string | undefined;\n        scripts?: {[k: string]: string} | undefined;\n        readme: string;\n        _id: string;\n    }\n}\n\r\n````\r\n\r\n### Additional Details\r\n * Last updated: Wed, 07 Jul 2021 16:31:34 GMT\r\n * Dependencies: none\r\n * Global values: none\r\n\r\n# Credits\r\nThese definitions were written by [Jeff Dickey](https://github.com/jdxcode)."
+}

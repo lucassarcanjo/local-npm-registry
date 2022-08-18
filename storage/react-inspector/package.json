@@ -1,0 +1,5357 @@
+{
+	"name": "react-inspector",
+	"versions": {
+		"1.0.0-alpha.0": {
+			"name": "react-inspector",
+			"version": "1.0.0-alpha.0",
+			"description": "Power of Browser DevTools inspectors right inside your React app",
+			"main": "lib/index.js",
+			"directories": {
+				"example": "example"
+			},
+			"scripts": {
+				"start": "node server.js",
+				"build": "babel src --out-dir lib && webpack --config webpack.prod.config.js",
+				"lint": "eslint lib",
+				"test": "mocha test --compilers js:babel-register --recursive",
+				"clean": "rimraf lib",
+				"prerelease": "npm run lint && npm run test && npm run clean && npm run build",
+				"release": ""
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/xyc/react-inspector.git"
+			},
+			"keywords": [
+				"react",
+				"reactjs",
+				"object",
+				"object-inspector",
+				"table-inspector",
+				"treeview",
+				"tableview",
+				"tree-view",
+				"table-view",
+				"tree",
+				"table",
+				"view",
+				"inspector",
+				"react-component",
+				"ui",
+				"devtools"
+			],
+			"author": {
+				"name": "Xiaoyi Chen",
+				"email": "cxychina@gmail.com",
+				"url": "http://github.com/xyc"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/xyc/react-inspector/issues"
+			},
+			"homepage": "https://github.com/xyc/react-inspector",
+			"devDependencies": {
+				"babel": "^6.0.0",
+				"babel-core": "^6.0.0",
+				"babel-eslint": "^6.0.0-beta.1",
+				"babel-loader": "^6.0.0",
+				"babel-preset-es2015": "^6.0.0",
+				"babel-preset-react": "^6.0.0",
+				"babel-preset-stage-0": "^6.0.0",
+				"core-js": "^1.1.4",
+				"css-loader": "^0.23.0",
+				"es5-shim": "^4.2.0",
+				"eslint": "^1.7.1",
+				"eslint-plugin-react": "^2.3.0",
+				"jasmine-core": "^2.3.4",
+				"mocha": "^2.4.5",
+				"react": "^0.14.7",
+				"react-addons-test-utils": "^0.14.7",
+				"react-dom": "^0.14.2",
+				"react-hot-loader": "^1.2.7",
+				"style-loader": "^0.13.0",
+				"rimraf": "^2.4.4",
+				"webpack": "^1.9.6",
+				"webpack-dev-server": "^1.8.2",
+				"babel-register": "^6.6.0",
+				"expect": "^1.14.0"
+			},
+			"peerDependencies": {
+				"react": "^0.14.0"
+			},
+			"gitHead": "871df1aab6e5c83a264431da0ab56d3b6317f1cd",
+			"_id": "react-inspector@1.0.0-alpha.0",
+			"_shasum": "1de1e0bb3a1ece1007004778a17c9180dcac4e90",
+			"_from": ".",
+			"_npmVersion": "2.14.2",
+			"_nodeVersion": "4.0.0",
+			"_npmUser": {
+				"name": "xyc",
+				"email": "cxychina@gmail.com"
+			},
+			"dist": {
+				"shasum": "1de1e0bb3a1ece1007004778a17c9180dcac4e90",
+				"tarball": "https://registry.npmjs.org/react-inspector/-/react-inspector-1.0.0-alpha.0.tgz",
+				"integrity": "sha512-8WeLptLpCv1shzgW0Cf6gxiWBhIFtPS3pNLv87Hf2rJgBpdhxoDaPav/aBNTNwMoyNksPpNnk6YwCwy+wcYY2A==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIFuBuMrGC9sya5gITi4NP8xtUY/R9YEW10EXvT71rCOLAiEAgm1+B8LVpjSObaMNHNGN7fScw0bEjVmSi/ENimSdYxg="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "xyc",
+					"email": "cxychina@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/react-inspector-1.0.0-alpha.0.tgz_1457102986782_0.4814352828543633"
+			},
+			"contributors": []
+		},
+		"1.0.0-alpha.1": {
+			"name": "react-inspector",
+			"version": "1.0.0-alpha.1",
+			"description": "Power of Browser DevTools inspectors right inside your React app",
+			"main": "lib/index.js",
+			"directories": {
+				"example": "example"
+			},
+			"scripts": {
+				"start": "node server.js",
+				"build": "babel src --out-dir lib && webpack --config webpack.prod.config.js",
+				"lint": "eslint lib",
+				"test": "mocha test --compilers js:babel-register --recursive",
+				"clean": "rimraf lib",
+				"prerelease": "npm run lint && npm run test && npm run clean && npm run build",
+				"release": ""
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/xyc/react-inspector.git"
+			},
+			"keywords": [
+				"react",
+				"reactjs",
+				"object",
+				"object-inspector",
+				"table-inspector",
+				"treeview",
+				"tableview",
+				"tree-view",
+				"table-view",
+				"tree",
+				"table",
+				"view",
+				"inspector",
+				"react-component",
+				"ui",
+				"devtools"
+			],
+			"author": {
+				"name": "Xiaoyi Chen",
+				"email": "cxychina@gmail.com",
+				"url": "http://github.com/xyc"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/xyc/react-inspector/issues"
+			},
+			"homepage": "https://github.com/xyc/react-inspector",
+			"devDependencies": {
+				"babel": "^6.0.0",
+				"babel-core": "^6.0.0",
+				"babel-eslint": "^6.0.0-beta.1",
+				"babel-loader": "^6.0.0",
+				"babel-preset-es2015": "^6.0.0",
+				"babel-preset-react": "^6.0.0",
+				"babel-preset-stage-0": "^6.0.0",
+				"core-js": "^1.1.4",
+				"css-loader": "^0.23.0",
+				"es5-shim": "^4.2.0",
+				"eslint": "^1.7.1",
+				"eslint-plugin-react": "^2.3.0",
+				"jasmine-core": "^2.3.4",
+				"mocha": "^2.4.5",
+				"react": "^0.14.7",
+				"react-addons-test-utils": "^0.14.7",
+				"react-dom": "^0.14.2",
+				"react-hot-loader": "^1.2.7",
+				"style-loader": "^0.13.0",
+				"rimraf": "^2.4.4",
+				"webpack": "^1.9.6",
+				"webpack-dev-server": "^1.8.2",
+				"babel-register": "^6.6.0",
+				"expect": "^1.14.0"
+			},
+			"peerDependencies": {
+				"react": "^0.14.0"
+			},
+			"gitHead": "871df1aab6e5c83a264431da0ab56d3b6317f1cd",
+			"_id": "react-inspector@1.0.0-alpha.1",
+			"_shasum": "dc48742db383a67ac6b7745e570faecaa4ecb3d0",
+			"_from": ".",
+			"_npmVersion": "2.14.2",
+			"_nodeVersion": "4.0.0",
+			"_npmUser": {
+				"name": "xyc",
+				"email": "cxychina@gmail.com"
+			},
+			"dist": {
+				"shasum": "dc48742db383a67ac6b7745e570faecaa4ecb3d0",
+				"tarball": "https://registry.npmjs.org/react-inspector/-/react-inspector-1.0.0-alpha.1.tgz",
+				"integrity": "sha512-1Um/8pk/lmkIoVfze2k0N2tgmaCJkvD3QrL/to+tlA1aXmiLptpvFB7APNatWkZBfKo4POrY90OfHPGzB0xXjw==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIC1QNwu8h3gK1kK3dx9ljWP5fGTODFfy+5qtSwmBCmRYAiAwLesIznqQKUCa1nk3cj6iR+18OxMvrZVg0aNdZjIU6g=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "xyc",
+					"email": "cxychina@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-13-west.internal.npmjs.com",
+				"tmp": "tmp/react-inspector-1.0.0-alpha.1.tgz_1457104685380_0.48292250791564584"
+			},
+			"contributors": []
+		},
+		"1.0.0-alpha.2": {
+			"name": "react-inspector",
+			"version": "1.0.0-alpha.2",
+			"description": "Power of Browser DevTools inspectors right inside your React app",
+			"main": "lib/index.js",
+			"directories": {
+				"example": "example"
+			},
+			"scripts": {
+				"start": "node server.js",
+				"build": "babel src --out-dir lib && webpack --config webpack.prod.config.js",
+				"lint": "eslint lib",
+				"test": "mocha test --compilers js:babel-register --recursive",
+				"clean": "rimraf lib",
+				"prerelease": "npm run lint && npm run test && npm run clean && npm run build",
+				"release": "npm publish ."
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/xyc/react-inspector.git"
+			},
+			"keywords": [
+				"react",
+				"reactjs",
+				"object",
+				"object-inspector",
+				"table-inspector",
+				"treeview",
+				"tableview",
+				"tree-view",
+				"table-view",
+				"tree",
+				"table",
+				"view",
+				"inspector",
+				"react-component",
+				"ui",
+				"devtools"
+			],
+			"author": {
+				"name": "Xiaoyi Chen",
+				"email": "cxychina@gmail.com",
+				"url": "http://github.com/xyc"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/xyc/react-inspector/issues"
+			},
+			"homepage": "https://github.com/xyc/react-inspector",
+			"devDependencies": {
+				"babel": "^6.0.0",
+				"babel-core": "^6.0.0",
+				"babel-eslint": "^6.0.0-beta.1",
+				"babel-loader": "^6.0.0",
+				"babel-preset-es2015": "^6.0.0",
+				"babel-preset-react": "^6.0.0",
+				"babel-preset-stage-0": "^6.0.0",
+				"core-js": "^1.1.4",
+				"css-loader": "^0.23.0",
+				"es5-shim": "^4.2.0",
+				"eslint": "^1.7.1",
+				"eslint-plugin-react": "^2.3.0",
+				"jasmine-core": "^2.3.4",
+				"mocha": "^2.4.5",
+				"react": "^0.14.7",
+				"react-addons-test-utils": "^0.14.7",
+				"react-dom": "^0.14.2",
+				"react-hot-loader": "^1.2.7",
+				"style-loader": "^0.13.0",
+				"rimraf": "^2.4.4",
+				"webpack": "^1.9.6",
+				"webpack-dev-server": "^1.8.2",
+				"babel-register": "^6.6.0",
+				"expect": "^1.14.0"
+			},
+			"peerDependencies": {
+				"react": "^0.14.0"
+			},
+			"gitHead": "871df1aab6e5c83a264431da0ab56d3b6317f1cd",
+			"_id": "react-inspector@1.0.0-alpha.2",
+			"_shasum": "07c5c32a9be793729be0563de76bd0475fce4d9a",
+			"_from": ".",
+			"_npmVersion": "2.14.2",
+			"_nodeVersion": "4.0.0",
+			"_npmUser": {
+				"name": "xyc",
+				"email": "cxychina@gmail.com"
+			},
+			"dist": {
+				"shasum": "07c5c32a9be793729be0563de76bd0475fce4d9a",
+				"tarball": "https://registry.npmjs.org/react-inspector/-/react-inspector-1.0.0-alpha.2.tgz",
+				"integrity": "sha512-5e2mGfT5G7RwP2TRzlkzQ97cAyR5keP4+1SzudrazUjq/X1lNFAZNeOcaWpfXKOAFzP8YECZauRW4f9A/O3ctw==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCovlT+O7u/4OW6TAYq7oE91v3O/5HxMHEGkW4Zvhk9lAIhAP53SWSLauwO1eG9ad/fOHazAxJ0j6rJQ9SCKj0FTtCg"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "xyc",
+					"email": "cxychina@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-13-west.internal.npmjs.com",
+				"tmp": "tmp/react-inspector-1.0.0-alpha.2.tgz_1457138311182_0.2111402004957199"
+			},
+			"contributors": []
+		},
+		"1.0.0-alpha.3": {
+			"name": "react-inspector",
+			"version": "1.0.0-alpha.3",
+			"description": "Power of Browser DevTools inspectors right inside your React app",
+			"main": "lib/index.js",
+			"directories": {
+				"example": "example"
+			},
+			"scripts": {
+				"start": "node server.js",
+				"build": "babel src --out-dir lib && webpack --config webpack.prod.config.js",
+				"lint": "eslint lib",
+				"test": "mocha src --compilers js:babel-register --recursive",
+				"test:watch": "npm run test -- --watch",
+				"clean": "rimraf lib",
+				"prerelease": "npm run lint && npm run test && npm run clean && npm run build",
+				"release": "npm publish ."
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/xyc/react-inspector.git"
+			},
+			"keywords": [
+				"react",
+				"reactjs",
+				"object",
+				"object-inspector",
+				"table-inspector",
+				"treeview",
+				"tableview",
+				"tree-view",
+				"table-view",
+				"tree",
+				"table",
+				"view",
+				"inspector",
+				"react-component",
+				"ui",
+				"devtools"
+			],
+			"author": {
+				"name": "Xiaoyi Chen",
+				"email": "cxychina@gmail.com",
+				"url": "http://github.com/xyc"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/xyc/react-inspector/issues"
+			},
+			"homepage": "https://github.com/xyc/react-inspector",
+			"devDependencies": {
+				"babel": "^6.0.0",
+				"babel-core": "^6.0.0",
+				"babel-eslint": "^6.0.0-beta.1",
+				"babel-loader": "^6.0.0",
+				"babel-preset-es2015": "^6.0.0",
+				"babel-preset-react": "^6.0.0",
+				"babel-preset-stage-0": "^6.0.0",
+				"babel-register": "^6.6.0",
+				"core-js": "^1.1.4",
+				"css-loader": "^0.23.0",
+				"enzyme": "^2.0.0",
+				"es5-shim": "^4.2.0",
+				"eslint": "^1.7.1",
+				"eslint-plugin-react": "^2.3.0",
+				"expect": "^1.14.0",
+				"jasmine-core": "^2.3.4",
+				"mocha": "^2.4.5",
+				"react": "^0.14.7",
+				"react-addons-test-utils": "^0.14.7",
+				"react-dom": "^0.14.2",
+				"react-hot-loader": "^1.2.7",
+				"rimraf": "^2.4.4",
+				"style-loader": "^0.13.0",
+				"webpack": "^1.9.6",
+				"webpack-dev-server": "^1.8.2"
+			},
+			"peerDependencies": {
+				"react": "^0.14.0"
+			},
+			"gitHead": "d2b99f7f0815ec4a00abc5483c56bc98ffb7e7cb",
+			"_id": "react-inspector@1.0.0-alpha.3",
+			"_shasum": "d8f1f8926f3ab4a483c2fd443f677490f257e8b0",
+			"_from": ".",
+			"_npmVersion": "2.14.2",
+			"_nodeVersion": "4.0.0",
+			"_npmUser": {
+				"name": "xyc",
+				"email": "cxychina@gmail.com"
+			},
+			"dist": {
+				"shasum": "d8f1f8926f3ab4a483c2fd443f677490f257e8b0",
+				"tarball": "https://registry.npmjs.org/react-inspector/-/react-inspector-1.0.0-alpha.3.tgz",
+				"integrity": "sha512-Nd2uik7+fsXljxdQSG6ZHZp46cV4YQPWFCukLVz6PzxmSkfXpaaTm2SJNQ61B+QBGEvr+oawSUKKgfTNEp6Icg==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIA8atFilc5uv9GfHYTWCma2GZowbS79Orkekh+xo6yVOAiB/bSLkC/I37g8D6U5XkzQijUfHsDOI8sXJApC7/F8cew=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "xyc",
+					"email": "cxychina@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-13-west.internal.npmjs.com",
+				"tmp": "tmp/react-inspector-1.0.0-alpha.3.tgz_1458638090236_0.07068769005127251"
+			},
+			"contributors": []
+		},
+		"1.0.0-alpha.4": {
+			"name": "react-inspector",
+			"version": "1.0.0-alpha.4",
+			"description": "Power of Browser DevTools inspectors right inside your React app",
+			"main": "lib/index.js",
+			"directories": {
+				"example": "example"
+			},
+			"scripts": {
+				"start": "node server.js",
+				"build": "babel src --out-dir lib && webpack --config webpack.prod.config.js",
+				"lint": "eslint lib",
+				"test": "mocha src --compilers js:babel-register --recursive",
+				"test:watch": "npm run test -- --watch",
+				"clean": "rimraf lib",
+				"prerelease": "npm run lint && npm run test && npm run clean && npm run build",
+				"release": "npm publish ."
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/xyc/react-inspector.git"
+			},
+			"keywords": [
+				"react",
+				"reactjs",
+				"object",
+				"object-inspector",
+				"table-inspector",
+				"treeview",
+				"tableview",
+				"tree-view",
+				"table-view",
+				"tree",
+				"table",
+				"view",
+				"inspector",
+				"react-component",
+				"ui",
+				"devtools"
+			],
+			"author": {
+				"name": "Xiaoyi Chen",
+				"email": "cxychina@gmail.com",
+				"url": "http://github.com/xyc"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/xyc/react-inspector/issues"
+			},
+			"homepage": "https://github.com/xyc/react-inspector",
+			"devDependencies": {
+				"babel-cli": "^6.7.5",
+				"babel-core": "^6.0.0",
+				"babel-eslint": "^6.0.0-beta.1",
+				"babel-loader": "^6.0.0",
+				"babel-preset-es2015": "^6.0.0",
+				"babel-preset-react": "^6.0.0",
+				"babel-preset-stage-0": "^6.0.0",
+				"babel-register": "^6.6.0",
+				"core-js": "^1.1.4",
+				"css-loader": "^0.23.0",
+				"enzyme": "^2.0.0",
+				"es5-shim": "^4.2.0",
+				"eslint": "^1.7.1",
+				"eslint-plugin-react": "^2.3.0",
+				"expect": "^1.14.0",
+				"jasmine-core": "^2.3.4",
+				"mocha": "^2.4.5",
+				"react": "^0.14.7 || ^15.0.0",
+				"react-addons-test-utils": "^0.14.7",
+				"react-dom": "^0.14.2",
+				"react-hot-loader": "^1.2.7",
+				"rimraf": "^2.4.4",
+				"style-loader": "^0.13.0",
+				"webpack": "^1.9.6",
+				"webpack-dev-server": "^1.8.2"
+			},
+			"peerDependencies": {
+				"react": "^0.14.0"
+			},
+			"gitHead": "089da20d92bfb0877a31f5b0ca1ebdbc282e2139",
+			"_id": "react-inspector@1.0.0-alpha.4",
+			"_shasum": "4fd109a595cf1bb24030f731ed912d5fdbcd10fc",
+			"_from": ".",
+			"_npmVersion": "2.14.2",
+			"_nodeVersion": "4.0.0",
+			"_npmUser": {
+				"name": "xyc",
+				"email": "cxychina@gmail.com"
+			},
+			"dist": {
+				"shasum": "4fd109a595cf1bb24030f731ed912d5fdbcd10fc",
+				"tarball": "https://registry.npmjs.org/react-inspector/-/react-inspector-1.0.0-alpha.4.tgz",
+				"integrity": "sha512-NvpjPvCywzD5zgcxccsy+w/JqOBrpqzBAU/mhS9R6t38FD11GD/dpFjRzo1a4rajYpvZ6voDv6tr/FjDGcwM1A==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQCTsWlucaCbDL20GhqzsMYihNn5/6iMQ+/kGByIBs5e6gIgB5FmvkyRkekOvJootrQ2NardSkcLKWOjCvKDakQBzx0="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "xyc",
+					"email": "cxychina@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/react-inspector-1.0.0-alpha.4.tgz_1462256684352_0.2498851774726063"
+			},
+			"contributors": []
+		},
+		"1.0.0-alpha.5": {
+			"name": "react-inspector",
+			"version": "1.0.0-alpha.5",
+			"description": "Power of Browser DevTools inspectors right inside your React app",
+			"main": "lib/index.js",
+			"directories": {
+				"example": "example"
+			},
+			"scripts": {
+				"start": "node server.js",
+				"build": "babel src --out-dir lib && webpack --config webpack.prod.config.js",
+				"lint": "eslint lib",
+				"test": "mocha src --compilers js:babel-register --recursive",
+				"test:watch": "npm run test -- --watch",
+				"clean": "rimraf lib",
+				"prerelease": "npm run lint && npm run test && npm run clean && npm run build",
+				"release": "npm publish ."
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/xyc/react-inspector.git"
+			},
+			"keywords": [
+				"react",
+				"reactjs",
+				"object",
+				"object-inspector",
+				"table-inspector",
+				"treeview",
+				"tableview",
+				"tree-view",
+				"table-view",
+				"tree",
+				"table",
+				"view",
+				"inspector",
+				"react-component",
+				"ui",
+				"devtools"
+			],
+			"author": {
+				"name": "Xiaoyi Chen",
+				"email": "cxychina@gmail.com",
+				"url": "http://github.com/xyc"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/xyc/react-inspector/issues"
+			},
+			"homepage": "https://github.com/xyc/react-inspector",
+			"devDependencies": {
+				"babel-cli": "^6.7.5",
+				"babel-core": "^6.0.0",
+				"babel-eslint": "^6.0.0-beta.1",
+				"babel-loader": "^6.0.0",
+				"babel-preset-es2015": "^6.0.0",
+				"babel-preset-react": "^6.0.0",
+				"babel-preset-stage-0": "^6.0.0",
+				"babel-register": "^6.6.0",
+				"core-js": "^1.1.4",
+				"css-loader": "^0.23.0",
+				"enzyme": "^2.2.0",
+				"eslint": "^1.7.1",
+				"eslint-plugin-react": "^2.3.0",
+				"expect": "^1.14.0",
+				"jasmine-core": "^2.3.4",
+				"mocha": "^2.4.5",
+				"react": "^15.0.2",
+				"react-addons-test-utils": "^15.0.2",
+				"react-dom": "^15.0.2",
+				"react-hot-loader": "^1.2.7",
+				"rimraf": "^2.4.4",
+				"style-loader": "^0.13.0",
+				"webpack": "^1.9.6",
+				"webpack-dev-server": "^1.8.2"
+			},
+			"peerDependencies": {
+				"react": "^0.14.0 || ^15.0.0-0"
+			},
+			"gitHead": "6fa15e79d3427fc500da37a86b67be49fd21fa01",
+			"_id": "react-inspector@1.0.0-alpha.5",
+			"_shasum": "bbefb8634662ade48e09bb40e33f6a3d99ddfe22",
+			"_from": ".",
+			"_npmVersion": "2.14.2",
+			"_nodeVersion": "4.0.0",
+			"_npmUser": {
+				"name": "xyc",
+				"email": "cxychina@gmail.com"
+			},
+			"dist": {
+				"shasum": "bbefb8634662ade48e09bb40e33f6a3d99ddfe22",
+				"tarball": "https://registry.npmjs.org/react-inspector/-/react-inspector-1.0.0-alpha.5.tgz",
+				"integrity": "sha512-HOri/jHQ7lZIzp37Jp/sXVLh3JUdQDU0NYiaFxiYmpFdjh5JxCS6BFTkoGeTSpSbUEHM0UzM8/ThDht9Z0zKxw==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIAZqHMzKovPnjLN3nkkFBI6wcwM/SGUZSAMTCWHKvhHoAiBREf+FCj+wwOJr7pBdG4mPXRZQwANZjXdFPs6Shl9UwA=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "xyc",
+					"email": "cxychina@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/react-inspector-1.0.0-alpha.5.tgz_1462257788206_0.9476942666806281"
+			},
+			"contributors": []
+		},
+		"1.0.0-alpha.6": {
+			"name": "react-inspector",
+			"version": "1.0.0-alpha.6",
+			"description": "Power of Browser DevTools inspectors right inside your React app",
+			"main": "lib/index.js",
+			"directories": {
+				"example": "example"
+			},
+			"scripts": {
+				"start": "node server.js",
+				"build": "babel src --out-dir lib && webpack --config webpack.prod.config.js",
+				"lint": "eslint lib",
+				"test": "mocha src --compilers js:babel-register --recursive",
+				"test:watch": "npm run test -- --watch",
+				"clean": "rimraf lib",
+				"prerelease": "npm run lint && npm run test && npm run clean && npm run build",
+				"release": "npm publish ."
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/xyc/react-inspector.git"
+			},
+			"keywords": [
+				"react",
+				"reactjs",
+				"object",
+				"object-inspector",
+				"table-inspector",
+				"treeview",
+				"tableview",
+				"tree-view",
+				"table-view",
+				"tree",
+				"table",
+				"view",
+				"inspector",
+				"react-component",
+				"ui",
+				"devtools"
+			],
+			"author": {
+				"name": "Xiaoyi Chen",
+				"email": "cxychina@gmail.com",
+				"url": "http://github.com/xyc"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/xyc/react-inspector/issues"
+			},
+			"homepage": "https://github.com/xyc/react-inspector",
+			"devDependencies": {
+				"babel-cli": "^6.7.5",
+				"babel-core": "^6.0.0",
+				"babel-eslint": "^6.0.0-beta.1",
+				"babel-loader": "^6.0.0",
+				"babel-preset-es2015": "^6.0.0",
+				"babel-preset-react": "^6.0.0",
+				"babel-preset-stage-0": "^6.0.0",
+				"babel-register": "^6.6.0",
+				"core-js": "^1.1.4",
+				"css-loader": "^0.23.0",
+				"enzyme": "^2.2.0",
+				"eslint": "^1.7.1",
+				"eslint-plugin-react": "^2.3.0",
+				"expect": "^1.14.0",
+				"jasmine-core": "^2.3.4",
+				"mocha": "^2.4.5",
+				"react": "^15.0.2",
+				"react-addons-test-utils": "^15.0.2",
+				"react-dom": "^15.0.2",
+				"react-hot-loader": "^1.2.7",
+				"rimraf": "^2.4.4",
+				"style-loader": "^0.13.0",
+				"webpack": "^1.9.6",
+				"webpack-dev-server": "^1.8.2"
+			},
+			"peerDependencies": {
+				"react": "^0.14.0 || ^15.0.0-0"
+			},
+			"gitHead": "a522ecab9c2be54b79111ef40d147e856b3f6333",
+			"_id": "react-inspector@1.0.0-alpha.6",
+			"_shasum": "1e73a77a84c0c2b7f506e22c7e0be313a89ae7c0",
+			"_from": ".",
+			"_npmVersion": "2.14.2",
+			"_nodeVersion": "4.0.0",
+			"_npmUser": {
+				"name": "xyc",
+				"email": "cxychina@gmail.com"
+			},
+			"dist": {
+				"shasum": "1e73a77a84c0c2b7f506e22c7e0be313a89ae7c0",
+				"tarball": "https://registry.npmjs.org/react-inspector/-/react-inspector-1.0.0-alpha.6.tgz",
+				"integrity": "sha512-yofOcuqps8mnvIfA4jyXmbxvKStRKkWdMYq3wdwCAi48Bsv0vbETfu39PIEr0my3RtHw9wwXNt3OmULlrRtibA==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDZp4AcIcNinmz+LpFbc+H/+CeRuVV7SxXVtMEK6LJmWQIgWvtpdyF30YnxaHGEquBW+DnB7hsaMqbgKtMndPG9glY="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "xyc",
+					"email": "cxychina@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/react-inspector-1.0.0-alpha.6.tgz_1462508405214_0.9313283504452556"
+			},
+			"contributors": []
+		},
+		"1.0.0-beta.1": {
+			"name": "react-inspector",
+			"version": "1.0.0-beta.1",
+			"description": "Power of Browser DevTools inspectors right inside your React app",
+			"main": "lib/index.js",
+			"directories": {
+				"example": "example"
+			},
+			"scripts": {
+				"start": "node server.js",
+				"build": "babel src --out-dir lib && webpack --config webpack.prod.config.js",
+				"lint": "eslint lib",
+				"test": "mocha src --compilers js:babel-register --recursive",
+				"test:watch": "npm run test -- --watch",
+				"clean": "rimraf lib",
+				"prerelease": "npm run lint && npm run test && npm run clean && npm run build",
+				"release": "npm publish ."
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/xyc/react-inspector.git"
+			},
+			"keywords": [
+				"react",
+				"reactjs",
+				"object",
+				"object-inspector",
+				"table-inspector",
+				"treeview",
+				"tableview",
+				"tree-view",
+				"table-view",
+				"tree",
+				"table",
+				"view",
+				"inspector",
+				"react-component",
+				"ui",
+				"devtools"
+			],
+			"author": {
+				"name": "Xiaoyi Chen",
+				"email": "cxychina@gmail.com",
+				"url": "http://github.com/xyc"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/xyc/react-inspector/issues"
+			},
+			"homepage": "https://github.com/xyc/react-inspector",
+			"devDependencies": {
+				"babel-cli": "^6.7.5",
+				"babel-core": "^6.0.0",
+				"babel-eslint": "^6.0.0-beta.1",
+				"babel-loader": "^6.0.0",
+				"babel-preset-es2015": "^6.0.0",
+				"babel-preset-react": "^6.0.0",
+				"babel-preset-stage-0": "^6.0.0",
+				"babel-register": "^6.6.0",
+				"core-js": "^1.1.4",
+				"css-loader": "^0.23.0",
+				"enzyme": "^2.2.0",
+				"eslint": "^1.7.1",
+				"eslint-plugin-react": "^2.3.0",
+				"expect": "^1.14.0",
+				"jasmine-core": "^2.3.4",
+				"mocha": "^2.4.5",
+				"react": "^15.0.2",
+				"react-addons-test-utils": "^15.0.2",
+				"react-dom": "^15.0.2",
+				"react-hot-loader": "^1.2.7",
+				"rimraf": "^2.4.4",
+				"style-loader": "^0.13.0",
+				"webpack": "^1.9.6",
+				"webpack-dev-server": "^1.8.2"
+			},
+			"peerDependencies": {
+				"react": "^0.14.0 || ^15.0.0-0"
+			},
+			"gitHead": "956c0af1595df2f92dc5d78d951cd1e5bd68c7de",
+			"_id": "react-inspector@1.0.0-beta.1",
+			"_shasum": "c44faed0c77d8faa4deae549d42a9a0e56490ee0",
+			"_from": ".",
+			"_npmVersion": "3.8.9",
+			"_nodeVersion": "6.1.0",
+			"_npmUser": {
+				"name": "xyc",
+				"email": "cxychina@gmail.com"
+			},
+			"dist": {
+				"shasum": "c44faed0c77d8faa4deae549d42a9a0e56490ee0",
+				"tarball": "https://registry.npmjs.org/react-inspector/-/react-inspector-1.0.0-beta.1.tgz",
+				"integrity": "sha512-BRtXuY4LGYaewqaJ6MGEdslJZvnzqSF8RwaFON/7BTDAjI+kXWrTZzjAqfkXaQ3DxWNPMCQNoCR+T2k4huFC7A==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIHyc0YBO62Y1pBpB2abBCcRGT56iE+dFYPIwrd1gYNKbAiEAzNws8zgyrq/l8smkUb+FdkuqtVlypHV6tfZo+p0XCaU="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "xyc",
+					"email": "cxychina@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/react-inspector-1.0.0-beta.1.tgz_1462769087559_0.49001740175299346"
+			},
+			"contributors": []
+		},
+		"1.0.0-beta.2": {
+			"name": "react-inspector",
+			"version": "1.0.0-beta.2",
+			"description": "Power of Browser DevTools inspectors right inside your React app",
+			"main": "lib/index.js",
+			"directories": {
+				"example": "example"
+			},
+			"scripts": {
+				"start": "node server.js",
+				"build": "babel src --out-dir lib && webpack --config webpack.prod.config.js",
+				"lint": "eslint lib",
+				"test": "mocha src --compilers js:babel-register --recursive",
+				"test:watch": "npm run test -- --watch",
+				"clean": "rimraf lib",
+				"prerelease": "npm run lint && npm run test && npm run clean && npm run build",
+				"release": "npm publish ."
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/xyc/react-inspector.git"
+			},
+			"keywords": [
+				"react",
+				"reactjs",
+				"object",
+				"object-inspector",
+				"table-inspector",
+				"treeview",
+				"tableview",
+				"tree-view",
+				"table-view",
+				"tree",
+				"table",
+				"view",
+				"inspector",
+				"react-component",
+				"ui",
+				"devtools"
+			],
+			"author": {
+				"name": "Xiaoyi Chen",
+				"email": "cxychina@gmail.com",
+				"url": "http://github.com/xyc"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/xyc/react-inspector/issues"
+			},
+			"homepage": "https://github.com/xyc/react-inspector",
+			"devDependencies": {
+				"babel-cli": "^6.7.5",
+				"babel-core": "^6.0.0",
+				"babel-eslint": "^6.0.0-beta.1",
+				"babel-loader": "^6.0.0",
+				"babel-preset-es2015": "^6.0.0",
+				"babel-preset-react": "^6.0.0",
+				"babel-preset-stage-0": "^6.0.0",
+				"babel-register": "^6.6.0",
+				"core-js": "^1.1.4",
+				"css-loader": "^0.23.0",
+				"enzyme": "^2.2.0",
+				"eslint": "^1.7.1",
+				"eslint-plugin-react": "^2.3.0",
+				"expect": "^1.14.0",
+				"jasmine-core": "^2.3.4",
+				"mocha": "^2.4.5",
+				"react": "^15.0.2",
+				"react-addons-test-utils": "^15.0.2",
+				"react-dom": "^15.0.2",
+				"react-hot-loader": "^1.2.7",
+				"rimraf": "^2.4.4",
+				"style-loader": "^0.13.0",
+				"webpack": "^1.9.6",
+				"webpack-dev-server": "^1.8.2"
+			},
+			"peerDependencies": {
+				"react": "^0.14.0 || ^15.0.0-0"
+			},
+			"gitHead": "3fe30192e9c5e8d8074b3ea0e48dd6a5255081ef",
+			"_id": "react-inspector@1.0.0-beta.2",
+			"_shasum": "a260d0467f479954238bec2eea12fa002aa5e556",
+			"_from": ".",
+			"_npmVersion": "3.8.9",
+			"_nodeVersion": "6.1.0",
+			"_npmUser": {
+				"name": "xyc",
+				"email": "cxychina@gmail.com"
+			},
+			"dist": {
+				"shasum": "a260d0467f479954238bec2eea12fa002aa5e556",
+				"tarball": "https://registry.npmjs.org/react-inspector/-/react-inspector-1.0.0-beta.2.tgz",
+				"integrity": "sha512-dCxJtwlP8pOqb61z6MBb8ybXlLAMlgUkewJ5RSz5FmcYFYf31eitwDesybef4gnFoD0hrDQ66+iXV2xyl9LoNw==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCICEXAnI03pZ/p1Mq+Tbg6c+M06yH2Q0faZrHw3r5SWYlAiBlp6KwocnBWxOkvU2pmDcc3COoZlWHKbR0SNnAu/9hYg=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "xyc",
+					"email": "cxychina@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/react-inspector-1.0.0-beta.2.tgz_1462771352887_0.41532192984595895"
+			},
+			"contributors": []
+		},
+		"1.0.0": {
+			"name": "react-inspector",
+			"version": "1.0.0",
+			"description": "Power of Browser DevTools inspectors right inside your React app",
+			"main": "lib/index.js",
+			"directories": {
+				"example": "example"
+			},
+			"scripts": {
+				"start": "node server.js",
+				"build": "babel src --out-dir lib && webpack --config webpack.prod.config.js",
+				"lint": "eslint lib",
+				"test": "mocha src --compilers js:babel-register --recursive",
+				"test:watch": "npm run test -- --watch",
+				"clean": "rimraf lib",
+				"prerelease": "npm run lint && npm run test && npm run clean && npm run build",
+				"release": "npm publish ."
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/xyc/react-inspector.git"
+			},
+			"keywords": [
+				"react",
+				"reactjs",
+				"object",
+				"object-inspector",
+				"table-inspector",
+				"treeview",
+				"tableview",
+				"tree-view",
+				"table-view",
+				"tree",
+				"table",
+				"view",
+				"inspector",
+				"react-component",
+				"ui",
+				"devtools"
+			],
+			"author": {
+				"name": "Xiaoyi Chen",
+				"email": "cxychina@gmail.com",
+				"url": "http://github.com/xyc"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/xyc/react-inspector/issues"
+			},
+			"homepage": "https://github.com/xyc/react-inspector",
+			"devDependencies": {
+				"babel-cli": "^6.7.5",
+				"babel-core": "^6.0.0",
+				"babel-eslint": "^6.0.0-beta.1",
+				"babel-loader": "^6.0.0",
+				"babel-plugin-transform-runtime": "^6.9.0",
+				"babel-preset-es2015": "^6.0.0",
+				"babel-preset-react": "^6.0.0",
+				"babel-preset-stage-0": "^6.0.0",
+				"babel-register": "^6.6.0",
+				"core-js": "^1.1.4",
+				"css-loader": "^0.23.0",
+				"enzyme": "^2.2.0",
+				"eslint": "^1.7.1",
+				"eslint-plugin-react": "^2.3.0",
+				"expect": "^1.14.0",
+				"jasmine-core": "^2.3.4",
+				"mocha": "^2.4.5",
+				"react": "^15.0.2",
+				"react-addons-test-utils": "^15.0.2",
+				"react-dom": "^15.0.2",
+				"react-hot-loader": "^1.2.7",
+				"rebug": "0.0.3",
+				"rimraf": "^2.4.4",
+				"style-loader": "^0.13.0",
+				"webpack": "^1.9.6",
+				"webpack-dev-server": "^1.8.2"
+			},
+			"peerDependencies": {
+				"react": "^0.14.0 || ^15.0.0-0"
+			},
+			"dependencies": {
+				"is-dom": "^1.0.5"
+			},
+			"gitHead": "1b50e4ec835f816a75c28b93fe2a43f6c12a4a9c",
+			"_id": "react-inspector@1.0.0",
+			"_shasum": "2b7bb996344702d818e48d09f22a2f5a4a7dba97",
+			"_from": ".",
+			"_npmVersion": "3.8.9",
+			"_nodeVersion": "6.1.0",
+			"_npmUser": {
+				"name": "xyc",
+				"email": "cxychina@gmail.com"
+			},
+			"dist": {
+				"shasum": "2b7bb996344702d818e48d09f22a2f5a4a7dba97",
+				"tarball": "https://registry.npmjs.org/react-inspector/-/react-inspector-1.0.0.tgz",
+				"integrity": "sha512-WtJ+jqsf+QU1aOmKb3iio6T8Pgy73ewOqWaN2dv2wHMlw56A3w/1yWW4gSecTmAXdpBmDg23GRoEUy5WT8KUmw==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIHYjM9+xQ0OsmYuvP3CJrwnPWjxh0sP9PkWhSTDO8UzrAiBkPzawbgn/1Of+RGY5rRLQiYGIo0owAackYl7pQFNo7A=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "xyc",
+					"email": "cxychina@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/react-inspector-1.0.0.tgz_1466284138965_0.14496853877790272"
+			},
+			"contributors": []
+		},
+		"1.0.1": {
+			"name": "react-inspector",
+			"version": "1.0.1",
+			"description": "Power of Browser DevTools inspectors right inside your React app",
+			"main": "lib/index.js",
+			"directories": {
+				"example": "example"
+			},
+			"scripts": {
+				"start": "node server.js",
+				"build": "babel src --out-dir lib && webpack --config webpack.prod.config.js",
+				"lint": "eslint lib",
+				"test": "mocha src --compilers js:babel-register --recursive",
+				"test:watch": "npm run test -- --watch",
+				"clean": "rimraf lib",
+				"prerelease": "npm run lint && npm run test && npm run clean && npm run build",
+				"release": "npm publish ."
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/xyc/react-inspector.git"
+			},
+			"keywords": [
+				"react",
+				"reactjs",
+				"object",
+				"object-inspector",
+				"table-inspector",
+				"treeview",
+				"tableview",
+				"tree-view",
+				"table-view",
+				"tree",
+				"table",
+				"view",
+				"inspector",
+				"react-component",
+				"ui",
+				"devtools"
+			],
+			"author": {
+				"name": "Xiaoyi Chen",
+				"email": "cxychina@gmail.com",
+				"url": "http://github.com/xyc"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/xyc/react-inspector/issues"
+			},
+			"homepage": "https://github.com/xyc/react-inspector",
+			"devDependencies": {
+				"babel-cli": "^6.7.5",
+				"babel-core": "^6.0.0",
+				"babel-eslint": "^6.0.0-beta.1",
+				"babel-loader": "^6.0.0",
+				"babel-plugin-transform-runtime": "^6.9.0",
+				"babel-preset-es2015": "^6.0.0",
+				"babel-preset-react": "^6.0.0",
+				"babel-preset-stage-0": "^6.0.0",
+				"babel-register": "^6.6.0",
+				"babel-runtime": "^6.9.2",
+				"core-js": "^1.1.4",
+				"css-loader": "^0.23.0",
+				"enzyme": "^2.2.0",
+				"eslint": "^1.7.1",
+				"eslint-plugin-react": "^2.3.0",
+				"expect": "^1.14.0",
+				"jasmine-core": "^2.3.4",
+				"mocha": "^2.4.5",
+				"react": "^15.0.2",
+				"react-addons-test-utils": "^15.0.2",
+				"react-dom": "^15.0.2",
+				"react-hot-loader": "^1.2.7",
+				"rebug": "0.0.3",
+				"rimraf": "^2.4.4",
+				"style-loader": "^0.13.0",
+				"webpack": "^1.9.6",
+				"webpack-dev-server": "^1.8.2"
+			},
+			"peerDependencies": {
+				"react": "^0.14.0 || ^15.0.0-0"
+			},
+			"dependencies": {
+				"is-dom": "^1.0.5"
+			},
+			"gitHead": "1b07c04967036f1cf16dd6d6470e4760150121e1",
+			"_id": "react-inspector@1.0.1",
+			"_shasum": "9fb5c05fe98aa77b0c656ab8ee9fe17461d070b5",
+			"_from": ".",
+			"_npmVersion": "3.8.9",
+			"_nodeVersion": "6.1.0",
+			"_npmUser": {
+				"name": "xyc",
+				"email": "cxychina@gmail.com"
+			},
+			"dist": {
+				"shasum": "9fb5c05fe98aa77b0c656ab8ee9fe17461d070b5",
+				"tarball": "https://registry.npmjs.org/react-inspector/-/react-inspector-1.0.1.tgz",
+				"integrity": "sha512-VWETELUJTmhoqAf5BDLJn9IBu2leeEaMnvddyCqU2/VcOtwQZqFSPNQ3jO69zHpd0ph9j3iS4gqYQ6HhgU28jQ==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQClcMannfSRhzg2q1eE85udeHAenu/RogKgzwzZQpqR5AIhAKsXKoRrK9SMDWmGifx5YnCoOLK6IleJbL2i5u3TwEH4"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "xyc",
+					"email": "cxychina@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/react-inspector-1.0.1.tgz_1466652335315_0.757292264373973"
+			},
+			"contributors": []
+		},
+		"1.1.0": {
+			"name": "react-inspector",
+			"version": "1.1.0",
+			"description": "Power of Browser DevTools inspectors right inside your React app",
+			"main": "lib/index.js",
+			"directories": {
+				"example": "example"
+			},
+			"scripts": {
+				"start": "node server.js",
+				"build": "babel src --out-dir lib && webpack --config webpack.prod.config.js",
+				"lint": "eslint lib",
+				"test": "mocha src --compilers js:babel-register --recursive",
+				"test:watch": "npm run test -- --watch",
+				"clean": "rimraf lib",
+				"prerelease": "npm run lint && npm run test && npm run clean && npm run build",
+				"release": "npm publish ."
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/xyc/react-inspector.git"
+			},
+			"keywords": [
+				"react",
+				"reactjs",
+				"object",
+				"object-inspector",
+				"table-inspector",
+				"treeview",
+				"tableview",
+				"tree-view",
+				"table-view",
+				"tree",
+				"table",
+				"view",
+				"inspector",
+				"react-component",
+				"ui",
+				"devtools"
+			],
+			"author": {
+				"name": "Xiaoyi Chen",
+				"email": "cxychina@gmail.com",
+				"url": "http://github.com/xyc"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/xyc/react-inspector/issues"
+			},
+			"homepage": "https://github.com/xyc/react-inspector",
+			"devDependencies": {
+				"babel-cli": "^6.7.5",
+				"babel-core": "^6.0.0",
+				"babel-eslint": "^6.0.0-beta.1",
+				"babel-loader": "^6.0.0",
+				"babel-plugin-transform-runtime": "^6.9.0",
+				"babel-preset-es2015": "^6.0.0",
+				"babel-preset-react": "^6.0.0",
+				"babel-preset-stage-0": "^6.0.0",
+				"babel-register": "^6.6.0",
+				"babel-runtime": "^6.9.2",
+				"core-js": "^1.1.4",
+				"css-loader": "^0.23.0",
+				"enzyme": "^2.2.0",
+				"eslint": "^1.7.1",
+				"eslint-plugin-react": "^2.3.0",
+				"expect": "^1.14.0",
+				"jasmine-core": "^2.3.4",
+				"mocha": "^2.4.5",
+				"react": "^15.0.2",
+				"react-addons-test-utils": "^15.0.2",
+				"react-dom": "^15.0.2",
+				"react-hot-loader": "^1.2.7",
+				"rebug": "0.0.3",
+				"rimraf": "^2.4.4",
+				"style-loader": "^0.13.0",
+				"webpack": "^1.9.6",
+				"webpack-dev-server": "^1.8.2"
+			},
+			"peerDependencies": {
+				"react": "^0.14.0 || ^15.0.0-0"
+			},
+			"dependencies": {
+				"is-dom": "^1.0.5"
+			},
+			"gitHead": "0e3e1751874997426e8da29fec21fe96dcb099a6",
+			"_id": "react-inspector@1.1.0",
+			"_shasum": "8d55bb94ffc9fd3982a222eb257dbe9cdd4f1b87",
+			"_from": ".",
+			"_npmVersion": "3.8.9",
+			"_nodeVersion": "6.1.0",
+			"_npmUser": {
+				"name": "xyc",
+				"email": "cxychina@gmail.com"
+			},
+			"dist": {
+				"shasum": "8d55bb94ffc9fd3982a222eb257dbe9cdd4f1b87",
+				"tarball": "https://registry.npmjs.org/react-inspector/-/react-inspector-1.1.0.tgz",
+				"integrity": "sha512-l9/ZgfQlzybMZV9lLak6JSXctPYoYMZYUW8JIm9OJeLEgooL+PPfHRp/XGnWspkpneWY8NkdsYAq5iUUA2J2tA==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCICivo25R3TyC8/8Oz0OvCQxhuiqR+bJ22S1N8jXGaMNKAiEAvA/80c24P9QbZTqIUCfjWaKqTdrObNESlUq3nz4nrRw="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "xyc",
+					"email": "cxychina@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/react-inspector-1.1.0.tgz_1468382287716_0.4769487543962896"
+			},
+			"contributors": []
+		},
+		"1.1.1": {
+			"name": "react-inspector",
+			"version": "1.1.1",
+			"description": "Power of Browser DevTools inspectors right inside your React app",
+			"main": "lib/index.js",
+			"scripts": {
+				"storybook": "start-storybook -p 9001",
+				"build:storybook": "build-storybook -o storybook-static",
+				"build": "babel src --out-dir lib && webpack --config webpack.prod.config.js",
+				"lint": "eslint lib",
+				"test": "mocha src --compilers js:babel-register --recursive",
+				"test:watch": "npm run test -- --watch",
+				"clean": "rimraf lib",
+				"prerelease": "npm run lint && npm run test && npm run clean && npm run build",
+				"release": "npm publish ."
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/xyc/react-inspector.git"
+			},
+			"keywords": [
+				"react",
+				"reactjs",
+				"object",
+				"object-inspector",
+				"table-inspector",
+				"treeview",
+				"tableview",
+				"tree-view",
+				"table-view",
+				"tree",
+				"table",
+				"view",
+				"inspector",
+				"react-component",
+				"ui",
+				"devtools"
+			],
+			"author": {
+				"name": "Xiaoyi Chen",
+				"email": "cxychina@gmail.com",
+				"url": "http://github.com/xyc"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/xyc/react-inspector/issues"
+			},
+			"homepage": "https://github.com/xyc/react-inspector",
+			"devDependencies": {
+				"@kadira/storybook": "^1.38.0",
+				"babel-cli": "^6.7.5",
+				"babel-core": "^6.0.0",
+				"babel-eslint": "^6.0.0-beta.1",
+				"babel-loader": "^6.0.0",
+				"babel-plugin-transform-runtime": "^6.9.0",
+				"babel-preset-es2015": "^6.0.0",
+				"babel-preset-react": "^6.0.0",
+				"babel-preset-stage-0": "^6.0.0",
+				"babel-register": "^6.6.0",
+				"core-js": "^1.1.4",
+				"css-loader": "^0.23.0",
+				"enzyme": "^2.2.0",
+				"eslint": "^1.7.1",
+				"eslint-plugin-react": "^2.3.0",
+				"expect": "^1.14.0",
+				"jasmine-core": "^2.3.4",
+				"mocha": "^2.4.5",
+				"react": "^15.0.2",
+				"react-addons-test-utils": "^15.0.2",
+				"react-dom": "^15.0.2",
+				"react-hot-loader": "^1.2.7",
+				"rebug": "0.0.3",
+				"rimraf": "^2.4.4",
+				"style-loader": "^0.13.0",
+				"webpack": "^1.9.6",
+				"webpack-dev-server": "^1.8.2"
+			},
+			"peerDependencies": {
+				"react": "^0.14.0 || ^15.0.0-0"
+			},
+			"dependencies": {
+				"babel-runtime": "^6.9.2",
+				"is-dom": "^1.0.5"
+			},
+			"gitHead": "3910b1aeb857f0e5e3fc9797a9823ce72858366a",
+			"_id": "react-inspector@1.1.1",
+			"_shasum": "e5e413e516f6b27f2e90d86c2088cb2bf496a0e6",
+			"_from": ".",
+			"_npmVersion": "3.8.9",
+			"_nodeVersion": "6.1.0",
+			"_npmUser": {
+				"name": "xyc",
+				"email": "cxychina@gmail.com"
+			},
+			"dist": {
+				"shasum": "e5e413e516f6b27f2e90d86c2088cb2bf496a0e6",
+				"tarball": "https://registry.npmjs.org/react-inspector/-/react-inspector-1.1.1.tgz",
+				"integrity": "sha512-a3BC/JDF/LS4j2ZlqTPC0Yvdyk4F0YfedJNMo0WB841foHoLJS7/KS2MBQQx1t3a5ydamZ4fqOfWnYoS2DWvWQ==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDtODD6kn1pkq1KHF7RAUkaGGwoZjCJJVsQ61BRDmoORAIgSCaESP5pYGMDzR0F8o8RZRcwURtzJ6TvfT6BP68V5DY="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "xyc",
+					"email": "cxychina@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/react-inspector-1.1.1.tgz_1477702180538_0.4188988006208092"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.1.2": {
+			"name": "react-inspector",
+			"version": "1.1.2",
+			"description": "Power of Browser DevTools inspectors right inside your React app",
+			"main": "lib/index.js",
+			"scripts": {
+				"storybook": "start-storybook -p 9001",
+				"build:storybook": "build-storybook -o storybook-static",
+				"build": "babel src --out-dir lib && webpack --config webpack.prod.config.js",
+				"lint": "eslint lib",
+				"test": "mocha src --compilers js:babel-register --recursive",
+				"test:watch": "npm run test -- --watch",
+				"clean": "rimraf lib",
+				"prerelease": "npm run lint && npm run test && npm run clean && npm run build",
+				"release": "npm publish ."
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/xyc/react-inspector.git"
+			},
+			"keywords": [
+				"react",
+				"reactjs",
+				"object",
+				"object-inspector",
+				"table-inspector",
+				"treeview",
+				"tableview",
+				"tree-view",
+				"table-view",
+				"tree",
+				"table",
+				"view",
+				"inspector",
+				"react-component",
+				"ui",
+				"devtools"
+			],
+			"author": {
+				"name": "Xiaoyi Chen",
+				"email": "cxychina@gmail.com",
+				"url": "http://github.com/xyc"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/xyc/react-inspector/issues"
+			},
+			"homepage": "https://github.com/xyc/react-inspector",
+			"devDependencies": {
+				"@kadira/storybook": "^1.38.0",
+				"babel-cli": "^6.7.5",
+				"babel-core": "^6.0.0",
+				"babel-eslint": "^6.0.0-beta.1",
+				"babel-loader": "^6.0.0",
+				"babel-plugin-transform-runtime": "^6.9.0",
+				"babel-preset-es2015": "^6.0.0",
+				"babel-preset-react": "^6.0.0",
+				"babel-preset-stage-0": "^6.0.0",
+				"babel-register": "^6.6.0",
+				"core-js": "^1.1.4",
+				"css-loader": "^0.23.0",
+				"enzyme": "^2.2.0",
+				"eslint": "^1.7.1",
+				"eslint-plugin-react": "^2.3.0",
+				"expect": "^1.14.0",
+				"jasmine-core": "^2.3.4",
+				"mocha": "^2.4.5",
+				"react": "^15.0.2",
+				"react-addons-test-utils": "^15.0.2",
+				"react-dom": "^15.0.2",
+				"react-hot-loader": "^1.2.7",
+				"rebug": "0.0.3",
+				"rimraf": "^2.4.4",
+				"style-loader": "^0.13.0",
+				"webpack": "^1.9.6",
+				"webpack-dev-server": "^1.8.2"
+			},
+			"peerDependencies": {
+				"react": "^0.14.0 || ^15.0.0-0"
+			},
+			"dependencies": {
+				"babel-runtime": "^6.9.2",
+				"is-dom": "^1.0.5"
+			},
+			"gitHead": "1a3971b698e1f5ebf088fda305702e03c88dd110",
+			"_id": "react-inspector@1.1.2",
+			"_shasum": "192bc54f2be44f9fa0f29f183386f7f6e380f5ec",
+			"_from": ".",
+			"_npmVersion": "3.8.9",
+			"_nodeVersion": "6.1.0",
+			"_npmUser": {
+				"name": "xyc",
+				"email": "cxychina@gmail.com"
+			},
+			"dist": {
+				"shasum": "192bc54f2be44f9fa0f29f183386f7f6e380f5ec",
+				"tarball": "https://registry.npmjs.org/react-inspector/-/react-inspector-1.1.2.tgz",
+				"integrity": "sha512-n/hXTMDQ2o6Qb2W+qT5N0137d6PF/xj2xuof9vjOZ1Y/DOqqsT9QzK/AjfhLxEqfe3kwiJx5wcXOxBYv59uPlQ==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQD6kHvJFGVQfUJHtscBdwpXtvXsezROdOosdDVybo2ceQIhAOtKAOM6luZx649iggzi0+r8kaMDOOdi1mzdK/BtQgVm"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "xyc",
+					"email": "cxychina@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/react-inspector-1.1.2.tgz_1481519352869_0.4950317773036659"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"2.0.0": {
+			"name": "react-inspector",
+			"version": "2.0.0",
+			"description": "Power of Browser DevTools inspectors right inside your React app",
+			"main": "lib/index.js",
+			"scripts": {
+				"storybook": "start-storybook -p 9001",
+				"build:storybook": "build-storybook -o storybook-static",
+				"build": "babel src --out-dir lib && webpack --config webpack.prod.config.js",
+				"lint": "eslint src --fix",
+				"test": "mocha src --compilers js:babel-register --recursive",
+				"test:watch": "npm run test -- --watch",
+				"clean": "rimraf lib",
+				"prerelease": "npm run lint && npm run test && npm run clean && npm run build",
+				"release": "npm publish . --access public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/xyc/react-inspector.git"
+			},
+			"keywords": [
+				"react",
+				"reactjs",
+				"object",
+				"object-inspector",
+				"table-inspector",
+				"treeview",
+				"tableview",
+				"tree-view",
+				"table-view",
+				"tree",
+				"table",
+				"view",
+				"inspector",
+				"react-component",
+				"ui",
+				"devtools"
+			],
+			"author": {
+				"name": "Xiaoyi Chen",
+				"email": "cxychina@gmail.com",
+				"url": "http://github.com/xyc"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/xyc/react-inspector/issues"
+			},
+			"homepage": "https://github.com/xyc/react-inspector",
+			"devDependencies": {
+				"@kadira/storybook": "^2.35.3",
+				"babel-cli": "^6.24.1",
+				"babel-core": "^6.24.1",
+				"babel-eslint": "^7.2.3",
+				"babel-loader": "^7.0.0",
+				"babel-plugin-transform-runtime": "^6.23.0",
+				"babel-preset-es2015": "^6.24.1",
+				"babel-preset-react": "^6.24.1",
+				"babel-preset-stage-0": "^6.24.1",
+				"babel-register": "^6.24.1",
+				"core-js": "^2.4.1",
+				"css-loader": "^0.28.1",
+				"enzyme": "^2.8.2",
+				"eslint": "^3.19.0",
+				"eslint-plugin-react": "^7.0.0",
+				"eslint-plugin-prettier": "^2.0.1",
+				"expect": "^1.20.2",
+				"jasmine-core": "^2.6.1",
+				"mocha": "^3.3.0",
+				"prettier": "^1.3.0",
+				"prop-types": "^15.5.9",
+				"react": "^15.5.4",
+				"react-addons-test-utils": "^15.5.1",
+				"react-dom": "^15.5.4",
+				"react-hot-loader": "^1.3.1",
+				"rebug": "0.0.3",
+				"rimraf": "^2.6.1",
+				"style-loader": "^0.17.0",
+				"webpack": "^2.5.1",
+				"webpack-dev-server": "^2.4.5"
+			},
+			"peerDependencies": {
+				"react": "^0.14.0 || ^15.0.0-0"
+			},
+			"dependencies": {
+				"babel-runtime": "^6.23.0",
+				"is-dom": "^1.0.9"
+			},
+			"gitHead": "27ede0323f51d62b01a31a895adc35a2b2462943",
+			"_id": "react-inspector@2.0.0",
+			"_shasum": "c945932f2c2bf2fab7873c6e07d83881404b9313",
+			"_from": ".",
+			"_npmVersion": "4.5.0",
+			"_nodeVersion": "6.10.0",
+			"_npmUser": {
+				"name": "ndelangen",
+				"email": "ndelangen@me.com"
+			},
+			"dist": {
+				"shasum": "c945932f2c2bf2fab7873c6e07d83881404b9313",
+				"tarball": "https://registry.npmjs.org/react-inspector/-/react-inspector-2.0.0.tgz",
+				"integrity": "sha512-sttBjDsEUcriEHnw7d1R7F2OtNIDLzWB0nvvLRD+MIoBNQHGUStnLmqglJoCP8pQx1bxetDX+cq/4hihPnJnoQ==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIAI6U4jcEQ/eLapy8JZEfez4jm+Xtd1K5szTzRgPhzskAiEAyO98MdT3u2xGOzl+ox8tyRLF3r6H+B0XaZDsh/IJZ4Q="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"email": "ndelangen@me.com",
+					"name": "ndelangen"
+				},
+				{
+					"email": "cxychina@gmail.com",
+					"name": "xyc"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/react-inspector-2.0.0.tgz_1494621899420_0.5449200631119311"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"2.1.0": {
+			"name": "react-inspector",
+			"version": "2.1.0",
+			"description": "Power of Browser DevTools inspectors right inside your React app",
+			"main": "lib/index.js",
+			"scripts": {
+				"storybook": "start-storybook -p 9001",
+				"build:storybook": "build-storybook -o storybook-static",
+				"build": "babel src --out-dir lib && webpack --config webpack.prod.config.js",
+				"lint": "eslint src --fix",
+				"test": "mocha src --compilers js:babel-register --recursive",
+				"test:watch": "npm run test -- --watch",
+				"clean": "rimraf lib",
+				"prerelease": "npm run lint && npm run test && npm run clean && npm run build",
+				"release": "npm publish . --access public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/xyc/react-inspector.git"
+			},
+			"keywords": [
+				"react",
+				"reactjs",
+				"object",
+				"object-inspector",
+				"table-inspector",
+				"treeview",
+				"tableview",
+				"tree-view",
+				"table-view",
+				"tree",
+				"table",
+				"view",
+				"inspector",
+				"react-component",
+				"ui",
+				"devtools"
+			],
+			"author": {
+				"name": "Xiaoyi Chen",
+				"email": "cxychina@gmail.com",
+				"url": "http://github.com/xyc"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/xyc/react-inspector/issues"
+			},
+			"homepage": "https://github.com/xyc/react-inspector",
+			"devDependencies": {
+				"@kadira/storybook": "^2.35.3",
+				"babel-cli": "^6.24.1",
+				"babel-core": "^6.24.1",
+				"babel-eslint": "^7.2.3",
+				"babel-loader": "^7.0.0",
+				"babel-plugin-transform-runtime": "^6.23.0",
+				"babel-preset-es2015": "^6.24.1",
+				"babel-preset-react": "^6.24.1",
+				"babel-preset-stage-0": "^6.24.1",
+				"babel-register": "^6.24.1",
+				"core-js": "^2.4.1",
+				"css-loader": "^0.28.1",
+				"enzyme": "^2.8.2",
+				"eslint": "^3.19.0",
+				"eslint-plugin-react": "^7.0.0",
+				"eslint-plugin-prettier": "^2.0.1",
+				"expect": "^1.20.2",
+				"jasmine-core": "^2.6.1",
+				"mocha": "^3.3.0",
+				"prettier": "^1.3.0",
+				"prop-types": "^15.5.9",
+				"react": "^15.5.4",
+				"react-addons-test-utils": "^15.5.1",
+				"react-dom": "^15.5.4",
+				"react-hot-loader": "^1.3.1",
+				"rebug": "0.0.3",
+				"rimraf": "^2.6.1",
+				"style-loader": "^0.17.0",
+				"webpack": "^2.5.1",
+				"webpack-dev-server": "^2.4.5"
+			},
+			"peerDependencies": {
+				"react": "^0.14.0 || ^15.0.0-0"
+			},
+			"dependencies": {
+				"babel-runtime": "^6.23.0",
+				"is-dom": "^1.0.9"
+			},
+			"gitHead": "8c5e425c77ff54ee632c062fde82328c2dd38579",
+			"_id": "react-inspector@2.1.0",
+			"_npmVersion": "5.0.3",
+			"_nodeVersion": "8.1.2",
+			"_npmUser": {
+				"name": "ndelangen",
+				"email": "ndelangen@me.com"
+			},
+			"dist": {
+				"integrity": "sha512-FR28JHZQzrqTo9/lVHxPZRHgWmiAkfHPeRvgQUW8zbj76zNNaATfEIko7qc/TjznHouGtb3vVjURk1VNTxWqYg==",
+				"shasum": "45504d1e13bc4d10707b977c1ca11484d14616c7",
+				"tarball": "https://registry.npmjs.org/react-inspector/-/react-inspector-2.1.0.tgz",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIDnrTLBCVKUV4gxMkeS+D88+vsC1K9Ox+5kmRyF1tIFaAiEA3UXa8Jm3Vjio+BZbbbw1w4NYZXKMwx7vq3ITRadDVLA="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "codyreichert",
+					"email": "codyreichert@gmail.com"
+				},
+				{
+					"name": "ndelangen",
+					"email": "ndelangen@me.com"
+				},
+				{
+					"name": "xyc",
+					"email": "cxychina@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-inspector-2.1.0.tgz_1498647233577_0.8759318806696683"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"2.1.1": {
+			"name": "react-inspector",
+			"version": "2.1.1",
+			"description": "Power of Browser DevTools inspectors right inside your React app",
+			"main": "lib/index.js",
+			"scripts": {
+				"storybook": "start-storybook -p 9001",
+				"build:storybook": "build-storybook -o storybook-static",
+				"build": "babel src --out-dir lib && webpack --config webpack.prod.config.js",
+				"lint": "eslint src --fix",
+				"test": "mocha src --compilers js:babel-register --recursive",
+				"test:watch": "npm run test -- --watch",
+				"clean": "rimraf lib",
+				"prerelease": "npm run lint && npm run test && npm run clean && npm run build",
+				"release": "npm publish . --access public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/xyc/react-inspector.git"
+			},
+			"keywords": [
+				"react",
+				"reactjs",
+				"object",
+				"object-inspector",
+				"table-inspector",
+				"treeview",
+				"tableview",
+				"tree-view",
+				"table-view",
+				"tree",
+				"table",
+				"view",
+				"inspector",
+				"react-component",
+				"ui",
+				"devtools"
+			],
+			"author": {
+				"name": "Xiaoyi Chen",
+				"email": "cxychina@gmail.com",
+				"url": "http://github.com/xyc"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/xyc/react-inspector/issues"
+			},
+			"homepage": "https://github.com/xyc/react-inspector",
+			"devDependencies": {
+				"@kadira/storybook": "^2.35.3",
+				"babel-cli": "^6.24.1",
+				"babel-core": "^6.24.1",
+				"babel-eslint": "^7.2.3",
+				"babel-loader": "^7.0.0",
+				"babel-plugin-transform-runtime": "^6.23.0",
+				"babel-preset-es2015": "^6.24.1",
+				"babel-preset-react": "^6.24.1",
+				"babel-preset-stage-0": "^6.24.1",
+				"babel-register": "^6.24.1",
+				"core-js": "^2.4.1",
+				"css-loader": "^0.28.1",
+				"enzyme": "^2.8.2",
+				"eslint": "^3.19.0",
+				"eslint-plugin-react": "^7.0.0",
+				"eslint-plugin-prettier": "^2.0.1",
+				"expect": "^1.20.2",
+				"jasmine-core": "^2.6.1",
+				"mocha": "^3.3.0",
+				"prettier": "^1.3.0",
+				"prop-types": "^15.5.9",
+				"react": "^15.5.4",
+				"react-addons-test-utils": "^15.5.1",
+				"react-dom": "^15.5.4",
+				"react-hot-loader": "^1.3.1",
+				"rebug": "0.0.3",
+				"rimraf": "^2.6.1",
+				"style-loader": "^0.17.0",
+				"webpack": "^2.5.1",
+				"webpack-dev-server": "^2.4.5"
+			},
+			"peerDependencies": {
+				"react": "^0.14.0 || ^15.0.0-0"
+			},
+			"dependencies": {
+				"babel-runtime": "^6.23.0",
+				"is-dom": "^1.0.9"
+			},
+			"gitHead": "a70840085f4bb6c769c982b28b4606226f6691b7",
+			"_id": "react-inspector@2.1.1",
+			"_npmVersion": "5.0.4",
+			"_nodeVersion": "8.1.2",
+			"_npmUser": {
+				"name": "ndelangen",
+				"email": "ndelangen@me.com"
+			},
+			"dist": {
+				"integrity": "sha512-AeZcBjq8NiknEmrck9LfFLbnwJPNQiPTh8wAEUopZPU6t1zWbGZj10WYq1jNPZNuh0MzkxyGB6HHmNPYogp2mQ==",
+				"shasum": "2e68030d7ef0811a012f167258dd84232fd5ead1",
+				"tarball": "https://registry.npmjs.org/react-inspector/-/react-inspector-2.1.1.tgz",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDHGOHP/GBD75x7FVKvFN662cbdk4EW9VG/1uxE3LUSugIhALkQs9U7ZsUvL3nN/yAibIx2aFmkUFqyRh47b+QEa999"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "codyreichert",
+					"email": "codyreichert@gmail.com"
+				},
+				{
+					"name": "ndelangen",
+					"email": "ndelangen@me.com"
+				},
+				{
+					"name": "xyc",
+					"email": "cxychina@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-inspector-2.1.1.tgz_1499201096145_0.61818892438896"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"2.1.2": {
+			"name": "react-inspector",
+			"version": "2.1.2",
+			"description": "Power of Browser DevTools inspectors right inside your React app",
+			"main": "lib/index.js",
+			"scripts": {
+				"storybook": "start-storybook -p 9001",
+				"build:storybook": "build-storybook -o storybook-static",
+				"build": "babel src --out-dir lib && webpack --config webpack.prod.config.js",
+				"lint": "eslint src --fix",
+				"test": "mocha src --compilers js:babel-register --recursive",
+				"test:watch": "npm run test -- --watch",
+				"clean": "rimraf lib",
+				"prerelease": "npm run lint && npm run test && npm run clean && npm run build",
+				"release": "npm publish . --access public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/xyc/react-inspector.git"
+			},
+			"keywords": [
+				"react",
+				"reactjs",
+				"object",
+				"object-inspector",
+				"table-inspector",
+				"treeview",
+				"tableview",
+				"tree-view",
+				"table-view",
+				"tree",
+				"table",
+				"view",
+				"inspector",
+				"react-component",
+				"ui",
+				"devtools"
+			],
+			"author": {
+				"name": "Xiaoyi Chen",
+				"email": "cxychina@gmail.com",
+				"url": "http://github.com/xyc"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/xyc/react-inspector/issues"
+			},
+			"homepage": "https://github.com/xyc/react-inspector",
+			"devDependencies": {
+				"@kadira/storybook": "^2.35.3",
+				"babel-cli": "^6.24.1",
+				"babel-core": "^6.24.1",
+				"babel-eslint": "^7.2.3",
+				"babel-loader": "^7.0.0",
+				"babel-plugin-transform-runtime": "^6.23.0",
+				"babel-preset-es2015": "^6.24.1",
+				"babel-preset-react": "^6.24.1",
+				"babel-preset-stage-0": "^6.24.1",
+				"babel-register": "^6.24.1",
+				"core-js": "^2.4.1",
+				"css-loader": "^0.28.1",
+				"enzyme": "^2.8.2",
+				"eslint": "^4.1.1",
+				"eslint-plugin-jasmine": "^2.6.2",
+				"eslint-plugin-react": "^7.1.0",
+				"expect": "^1.20.2",
+				"jasmine-core": "^2.6.1",
+				"mocha": "^3.3.0",
+				"prettier": "^1.3.0",
+				"prop-types": "^15.5.9",
+				"react": "^15.5.4",
+				"react-addons-test-utils": "^15.5.1",
+				"react-dom": "^15.5.4",
+				"react-hot-loader": "^1.3.1",
+				"rebug": "0.0.3",
+				"rimraf": "^2.6.1",
+				"style-loader": "^0.18.2",
+				"webpack": "^3.1.0",
+				"webpack-dev-server": "^2.4.5"
+			},
+			"peerDependencies": {
+				"react": "^0.14.0 || ^15.0.0-0"
+			},
+			"dependencies": {
+				"babel-runtime": "^6.23.0",
+				"is-dom": "^1.0.9"
+			},
+			"gitHead": "9a7824c7fef913ed81e92321a04bff1f8209ab28",
+			"_id": "react-inspector@2.1.2",
+			"_shasum": "17deaaac08c71664fccfbcbb44095f161c587339",
+			"_from": ".",
+			"_npmVersion": "2.14.3",
+			"_nodeVersion": "4.1.0",
+			"_npmUser": {
+				"name": "codyreichert",
+				"email": "codyreichert@gmail.com"
+			},
+			"dist": {
+				"shasum": "17deaaac08c71664fccfbcbb44095f161c587339",
+				"tarball": "https://registry.npmjs.org/react-inspector/-/react-inspector-2.1.2.tgz",
+				"integrity": "sha512-oMpadEhqVURv/WMsuyqbePFZ7R5dMX0GjA2rHpk2PQ/xK9Ko24X9m935cj3u8YPvMYAnN7ZJ6+ZY3sRyVAfVEw==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDu5BHHjnYjuiprMwITT5m4QQhKCzy3Sl6EZW+vh43ZGwIgSk1IbpPLa/h+q33ZjK+gUmy/L9nvfccFuEKUDj76NtE="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "codyreichert",
+					"email": "codyreichert@gmail.com"
+				},
+				{
+					"name": "ndelangen",
+					"email": "ndelangen@me.com"
+				},
+				{
+					"name": "xyc",
+					"email": "cxychina@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-inspector-2.1.2.tgz_1500839768051_0.36107911192812026"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"2.1.3": {
+			"name": "react-inspector",
+			"version": "2.1.3",
+			"description": "Power of Browser DevTools inspectors right inside your React app",
+			"main": "lib/index.js",
+			"scripts": {
+				"storybook": "start-storybook -p 9001",
+				"build:storybook": "build-storybook -o storybook-static",
+				"build": "babel src --out-dir lib && webpack --config webpack.prod.config.js",
+				"lint": "eslint src --fix",
+				"test": "mocha src --compilers js:babel-register --recursive",
+				"test:watch": "npm run test -- --watch",
+				"clean": "rimraf lib",
+				"prerelease": "npm run lint && npm run test && npm run clean && npm run build",
+				"release": "npm publish . --access public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/xyc/react-inspector.git"
+			},
+			"keywords": [
+				"react",
+				"reactjs",
+				"object",
+				"object-inspector",
+				"table-inspector",
+				"treeview",
+				"tableview",
+				"tree-view",
+				"table-view",
+				"tree",
+				"table",
+				"view",
+				"inspector",
+				"react-component",
+				"ui",
+				"devtools"
+			],
+			"author": {
+				"name": "Xiaoyi Chen",
+				"email": "cxychina@gmail.com",
+				"url": "http://github.com/xyc"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/xyc/react-inspector/issues"
+			},
+			"homepage": "https://github.com/xyc/react-inspector",
+			"devDependencies": {
+				"@kadira/storybook": "^2.35.3",
+				"babel-cli": "^6.24.1",
+				"babel-core": "^6.24.1",
+				"babel-eslint": "^7.2.3",
+				"babel-loader": "^7.0.0",
+				"babel-plugin-transform-runtime": "^6.23.0",
+				"babel-preset-es2015": "^6.24.1",
+				"babel-preset-react": "^6.24.1",
+				"babel-preset-stage-0": "^6.24.1",
+				"babel-register": "^6.24.1",
+				"core-js": "^2.4.1",
+				"css-loader": "^0.28.1",
+				"enzyme": "^2.8.2",
+				"eslint": "^4.1.1",
+				"eslint-plugin-jasmine": "^2.6.2",
+				"eslint-plugin-react": "^7.1.0",
+				"expect": "^1.20.2",
+				"jasmine-core": "^2.6.1",
+				"mocha": "^3.3.0",
+				"prettier": "^1.3.0",
+				"prop-types": "^15.5.9",
+				"react": "^15.5.4",
+				"react-addons-test-utils": "^15.5.1",
+				"react-dom": "^15.5.4",
+				"react-hot-loader": "^1.3.1",
+				"rebug": "0.0.3",
+				"rimraf": "^2.6.1",
+				"style-loader": "^0.18.2",
+				"webpack": "^3.1.0",
+				"webpack-dev-server": "^2.4.5"
+			},
+			"peerDependencies": {
+				"react": "^0.14.0 || ^15.0.0-0"
+			},
+			"dependencies": {
+				"babel-runtime": "^6.23.0",
+				"is-dom": "^1.0.9"
+			},
+			"gitHead": "d12b40b7c019f6dd36c88e3c9b79c8b634f09814",
+			"_id": "react-inspector@2.1.3",
+			"_shasum": "61fc4c6b6b29b5262af3aad781a12138cd181a32",
+			"_from": ".",
+			"_npmVersion": "2.14.3",
+			"_nodeVersion": "4.1.0",
+			"_npmUser": {
+				"name": "codyreichert",
+				"email": "codyreichert@gmail.com"
+			},
+			"dist": {
+				"shasum": "61fc4c6b6b29b5262af3aad781a12138cd181a32",
+				"tarball": "https://registry.npmjs.org/react-inspector/-/react-inspector-2.1.3.tgz",
+				"integrity": "sha512-TFmcfSNSlOX/cb/tZr8/AvETv/HIC6bbc5kd1jlYST45ePSbCftK5rRXqJoJp5crRG+Vd/V5FpjZICHnaBgPRQ==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIGMPsh3qqxkLeg/RxOHatBSboH+u5rCm2gx+LfE0td7zAiBZiAG+CSBqEL4ReAQs9iwKCOsS7Y+XW5c2st0EgiNwEQ=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "codyreichert",
+					"email": "codyreichert@gmail.com"
+				},
+				{
+					"name": "ndelangen",
+					"email": "ndelangen@me.com"
+				},
+				{
+					"name": "xyc",
+					"email": "cxychina@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-inspector-2.1.3.tgz_1500840500444_0.7142234069760889"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"2.1.4": {
+			"name": "react-inspector",
+			"version": "2.1.4",
+			"description": "Power of Browser DevTools inspectors right inside your React app",
+			"main": "lib/index.js",
+			"scripts": {
+				"storybook": "start-storybook -p 9001",
+				"build:storybook": "build-storybook -o storybook-static",
+				"build": "babel src --out-dir lib && webpack --config webpack.prod.config.js",
+				"lint": "eslint src --fix",
+				"test": "mocha src --compilers js:babel-register --recursive",
+				"test:watch": "npm run test -- --watch",
+				"clean": "rimraf lib",
+				"prerelease": "npm run lint && npm run test && npm run clean && npm run build",
+				"release": "npm publish . --access public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/xyc/react-inspector.git"
+			},
+			"keywords": [
+				"react",
+				"reactjs",
+				"object",
+				"object-inspector",
+				"table-inspector",
+				"treeview",
+				"tableview",
+				"tree-view",
+				"table-view",
+				"tree",
+				"table",
+				"view",
+				"inspector",
+				"react-component",
+				"ui",
+				"devtools"
+			],
+			"author": {
+				"name": "Xiaoyi Chen",
+				"email": "cxychina@gmail.com",
+				"url": "http://github.com/xyc"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/xyc/react-inspector/issues"
+			},
+			"homepage": "https://github.com/xyc/react-inspector",
+			"devDependencies": {
+				"@kadira/storybook": "^2.35.3",
+				"babel-cli": "^6.24.1",
+				"babel-core": "^6.24.1",
+				"babel-eslint": "^7.2.3",
+				"babel-loader": "^7.0.0",
+				"babel-plugin-transform-runtime": "^6.23.0",
+				"babel-preset-es2015": "^6.24.1",
+				"babel-preset-react": "^6.24.1",
+				"babel-preset-stage-0": "^6.24.1",
+				"babel-register": "^6.24.1",
+				"core-js": "^2.4.1",
+				"css-loader": "^0.28.1",
+				"enzyme": "^2.8.2",
+				"eslint": "^4.1.1",
+				"eslint-plugin-jasmine": "^2.6.2",
+				"eslint-plugin-react": "^7.1.0",
+				"expect": "^1.20.2",
+				"jasmine-core": "^2.6.1",
+				"mocha": "^3.3.0",
+				"prettier": "^1.3.0",
+				"prop-types": "^15.5.9",
+				"react": "^15.5.4",
+				"react-addons-test-utils": "^15.5.1",
+				"react-dom": "^15.5.4",
+				"react-hot-loader": "^1.3.1",
+				"rebug": "0.0.3",
+				"rimraf": "^2.6.1",
+				"style-loader": "^0.18.2",
+				"webpack": "^3.1.0",
+				"webpack-dev-server": "^2.4.5"
+			},
+			"peerDependencies": {
+				"react": "^0.14.0 || ^15.0.0-0"
+			},
+			"dependencies": {
+				"babel-runtime": "^6.23.0",
+				"is-dom": "^1.0.9"
+			},
+			"gitHead": "390b9ee954089fc0f18b322c009862cd1bac069a",
+			"_id": "react-inspector@2.1.4",
+			"_shasum": "2123fab74f68ae3136fbd02392fadb764326d04d",
+			"_from": ".",
+			"_npmVersion": "3.8.9",
+			"_nodeVersion": "6.1.0",
+			"_npmUser": {
+				"name": "xyc",
+				"email": "cxychina@gmail.com"
+			},
+			"dist": {
+				"shasum": "2123fab74f68ae3136fbd02392fadb764326d04d",
+				"tarball": "https://registry.npmjs.org/react-inspector/-/react-inspector-2.1.4.tgz",
+				"integrity": "sha512-RfCbOn2s3+J4e2LfKIMK4YRB9Imqw9bWDjLXmHSykXD9h6CbImNKw3c6bC0qOcpbHtbaLexanef3zxJCsAJVpA==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIAnTzcs4U1ZeqNBd3fQ0nvY2d18mK3WIdqaLS1Tk6wUAAiEAk+KQkJv9jxAdgnIF7XeEjeDmLrgga3YxKu2OBIZvc4o="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "codyreichert",
+					"email": "codyreichert@gmail.com"
+				},
+				{
+					"name": "ndelangen",
+					"email": "ndelangen@me.com"
+				},
+				{
+					"name": "xyc",
+					"email": "cxychina@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-inspector-2.1.4.tgz_1502183941487_0.8650301010347903"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"2.1.5": {
+			"name": "react-inspector",
+			"version": "2.1.5",
+			"description": "Power of Browser DevTools inspectors right inside your React app",
+			"main": "lib/index.js",
+			"scripts": {
+				"storybook": "start-storybook -p 9001",
+				"build:storybook": "build-storybook -o storybook-static",
+				"build": "babel src --out-dir lib && webpack --config webpack.prod.config.js",
+				"lint": "eslint src --fix",
+				"test": "mocha src --compilers js:babel-register --recursive",
+				"test:watch": "npm run test -- --watch",
+				"clean": "rimraf lib",
+				"prerelease": "npm run lint && npm run test && npm run clean && npm run build",
+				"release": "npm publish . --access public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/xyc/react-inspector.git"
+			},
+			"keywords": [
+				"react",
+				"reactjs",
+				"object",
+				"object-inspector",
+				"table-inspector",
+				"treeview",
+				"tableview",
+				"tree-view",
+				"table-view",
+				"tree",
+				"table",
+				"view",
+				"inspector",
+				"react-component",
+				"ui",
+				"devtools"
+			],
+			"author": {
+				"name": "Xiaoyi Chen",
+				"email": "cxychina@gmail.com",
+				"url": "http://github.com/xyc"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/xyc/react-inspector/issues"
+			},
+			"homepage": "https://github.com/xyc/react-inspector",
+			"devDependencies": {
+				"@kadira/storybook": "^2.35.3",
+				"babel-cli": "^6.24.1",
+				"babel-core": "^6.24.1",
+				"babel-eslint": "^7.2.3",
+				"babel-loader": "^7.0.0",
+				"babel-plugin-transform-runtime": "^6.23.0",
+				"babel-preset-es2015": "^6.24.1",
+				"babel-preset-react": "^6.24.1",
+				"babel-preset-stage-0": "^6.24.1",
+				"babel-register": "^6.24.1",
+				"core-js": "^2.4.1",
+				"css-loader": "^0.28.1",
+				"enzyme": "^2.8.2",
+				"eslint": "^4.1.1",
+				"eslint-plugin-jasmine": "^2.6.2",
+				"eslint-plugin-react": "^7.1.0",
+				"expect": "^1.20.2",
+				"jasmine-core": "^2.6.1",
+				"mocha": "^3.3.0",
+				"prettier": "^1.3.0",
+				"prop-types": "^15.5.9",
+				"react": "^15.5.4",
+				"react-addons-test-utils": "^15.5.1",
+				"react-dom": "^15.5.4",
+				"react-hot-loader": "^1.3.1",
+				"rebug": "0.0.3",
+				"rimraf": "^2.6.1",
+				"style-loader": "^0.18.2",
+				"webpack": "^3.1.0",
+				"webpack-dev-server": "^2.4.5"
+			},
+			"peerDependencies": {
+				"react": "^0.14.0 || ^15.0.0-0"
+			},
+			"dependencies": {
+				"babel-runtime": "^6.23.0",
+				"is-dom": "^1.0.9"
+			},
+			"gitHead": "848177578519be85bffa47c32c034a71638fc8e1",
+			"_id": "react-inspector@2.1.5",
+			"_npmVersion": "5.0.3",
+			"_nodeVersion": "8.1.2",
+			"_npmUser": {
+				"name": "ndelangen",
+				"email": "ndelangen@me.com"
+			},
+			"dist": {
+				"integrity": "sha512-D5XlrbF/EkUqFTmpKXf7BA2xvgXLM2sKcHt7PaoB5YsDNFlzyhhgrHo9tQJ+zUSGYI2yqq8nu4MozZ2YGTn0zQ==",
+				"shasum": "a6ba576ba4becb3050cfcabc23e0e38df7be6512",
+				"tarball": "https://registry.npmjs.org/react-inspector/-/react-inspector-2.1.5.tgz",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIBJ8yCISEzmaEyBSKULDFqIuvylaXcZK2WEougKDeI+jAiB0TA0cGwSs18GiywJQ/s90jd3i0eVw1EQtvWMBSbLYcQ=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "codyreichert",
+					"email": "codyreichert@gmail.com"
+				},
+				{
+					"name": "ndelangen",
+					"email": "ndelangen@me.com"
+				},
+				{
+					"name": "xyc",
+					"email": "cxychina@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-inspector-2.1.5.tgz_1506192167605_0.21735212882049382"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"2.1.6": {
+			"name": "react-inspector",
+			"version": "2.1.6",
+			"description": "Power of Browser DevTools inspectors right inside your React app",
+			"main": "lib/index.js",
+			"scripts": {
+				"storybook": "start-storybook -p 9001",
+				"build:storybook": "build-storybook -o storybook-static",
+				"build": "babel src --out-dir lib && webpack --config webpack.prod.config.js",
+				"lint": "eslint src --fix",
+				"test": "mocha src --compilers js:babel-register --recursive",
+				"test:watch": "npm run test -- --watch",
+				"clean": "rimraf lib",
+				"prerelease": "npm run lint && npm run test && npm run clean && npm run build",
+				"release": "npm publish . --access public"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/xyc/react-inspector.git"
+			},
+			"keywords": [
+				"react",
+				"reactjs",
+				"object",
+				"object-inspector",
+				"table-inspector",
+				"treeview",
+				"tableview",
+				"tree-view",
+				"table-view",
+				"tree",
+				"table",
+				"view",
+				"inspector",
+				"react-component",
+				"ui",
+				"devtools"
+			],
+			"author": {
+				"name": "Xiaoyi Chen",
+				"email": "cxychina@gmail.com",
+				"url": "http://github.com/xyc"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/xyc/react-inspector/issues"
+			},
+			"homepage": "https://github.com/xyc/react-inspector",
+			"devDependencies": {
+				"@kadira/storybook": "^2.35.3",
+				"babel-cli": "^6.24.1",
+				"babel-core": "^6.24.1",
+				"babel-eslint": "^7.2.3",
+				"babel-loader": "^7.0.0",
+				"babel-plugin-transform-runtime": "^6.23.0",
+				"babel-preset-es2015": "^6.24.1",
+				"babel-preset-react": "^6.24.1",
+				"babel-preset-stage-0": "^6.24.1",
+				"babel-register": "^6.24.1",
+				"core-js": "^2.4.1",
+				"css-loader": "^0.28.1",
+				"enzyme": "^2.8.2",
+				"eslint": "^4.1.1",
+				"eslint-plugin-jasmine": "^2.6.2",
+				"eslint-plugin-react": "^7.1.0",
+				"expect": "^1.20.2",
+				"jasmine-core": "^2.6.1",
+				"mocha": "^3.3.0",
+				"prettier": "^1.3.0",
+				"prop-types": "^15.5.9",
+				"react": "^15.5.4",
+				"react-addons-test-utils": "^15.5.1",
+				"react-dom": "^15.5.4",
+				"react-hot-loader": "^1.3.1",
+				"rebug": "0.0.3",
+				"rimraf": "^2.6.1",
+				"style-loader": "^0.18.2",
+				"webpack": "^3.1.0",
+				"webpack-dev-server": "^2.4.5"
+			},
+			"peerDependencies": {
+				"react": "^0.14.0 || ^15.0.0-0"
+			},
+			"dependencies": {
+				"babel-runtime": "^6.23.0",
+				"is-dom": "^1.0.9"
+			},
+			"gitHead": "39f0574b0ec6cdd46ceca179c2acb2734bf9fe67",
+			"_id": "react-inspector@2.1.6",
+			"_npmVersion": "5.0.3",
+			"_nodeVersion": "8.1.2",
+			"_npmUser": {
+				"name": "ndelangen",
+				"email": "ndelangen@me.com"
+			},
+			"dist": {
+				"integrity": "sha512-YAM/GXQq457luk1u00ChwpxZ9MICXAgs+9XqL5DNml/jLJWBApHjbzLbT5rgU1g6MVCKO2TxFPAiLnKNZ70FBg==",
+				"shasum": "bebdf069f5bd3ee130ed689a5e98c0796be49347",
+				"tarball": "https://registry.npmjs.org/react-inspector/-/react-inspector-2.1.6.tgz",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQCfbViqaXhgXSiNIpLDdVNrjkvFMgKuM/xtQTDU7ydqBQIgIimVmo6TQ4KA57oIHJJ3wUnUt2XWLeFEwj8H/+mbYFQ="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "codyreichert",
+					"email": "codyreichert@gmail.com"
+				},
+				{
+					"name": "ndelangen",
+					"email": "ndelangen@me.com"
+				},
+				{
+					"name": "xyc",
+					"email": "cxychina@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-inspector-2.1.6.tgz_1506192208016_0.2304926891811192"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"2.2.0-alpha.0": {
+			"name": "react-inspector",
+			"version": "2.2.0-alpha.0",
+			"description": "Power of Browser DevTools inspectors right inside your React app",
+			"keywords": [
+				"devtools",
+				"inspector",
+				"object",
+				"object-inspector",
+				"react",
+				"react-component",
+				"reactjs",
+				"table",
+				"table-inspector",
+				"table-view",
+				"tableview",
+				"tree",
+				"tree-view",
+				"treeview",
+				"ui",
+				"view"
+			],
+			"homepage": "https://github.com/xyc/react-inspector",
+			"bugs": {
+				"url": "https://github.com/xyc/react-inspector/issues"
+			},
+			"license": "MIT",
+			"author": {
+				"name": "Xiaoyi Chen",
+				"email": "cxychina@gmail.com",
+				"url": "http://github.com/xyc"
+			},
+			"main": "lib/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/xyc/react-inspector.git"
+			},
+			"scripts": {
+				"build": "babel src --out-dir lib && webpack --config webpack.prod.config.js",
+				"build:storybook": "build-storybook -o storybook-static",
+				"clean": "rimraf lib",
+				"lint": "eslint src --fix",
+				"prerelease": "npm run lint && npm run test && npm run clean && npm run build",
+				"release": "npm publish . --access public",
+				"storybook": "start-storybook -p 9001",
+				"test": "jest src",
+				"test:watch": "npm run test -- --watch"
+			},
+			"dependencies": {
+				"babel-runtime": "^6.26.0",
+				"is-dom": "^1.0.9"
+			},
+			"devDependencies": {
+				"@storybook/react": "^3.2.11",
+				"babel-cli": "^6.26.0",
+				"babel-core": "^6.26.0",
+				"babel-eslint": "^8.0.1",
+				"babel-loader": "^7.1.2",
+				"babel-plugin-transform-runtime": "^6.23.0",
+				"babel-preset-es2015": "^6.24.1",
+				"babel-preset-react": "^6.24.1",
+				"babel-preset-stage-0": "^6.24.1",
+				"babel-register": "^6.26.0",
+				"core-js": "^2.5.1",
+				"css-loader": "^0.28.7",
+				"eslint": "^4.7.2",
+				"eslint-plugin-jasmine": "^2.8.4",
+				"eslint-plugin-react": "^7.4.0",
+				"expect": "^21.2.1",
+				"jest": "^21.2.1",
+				"prettier": "^1.7.2",
+				"prop-types": "^15.6.0",
+				"react": "^16.0.0",
+				"react-dom": "^16.0.0",
+				"react-hot-loader": "^1.3.1",
+				"react-test-renderer": "^16.0.0",
+				"rebug": "^0.0.3",
+				"rimraf": "^2.6.2",
+				"style-loader": "^0.18.2",
+				"webpack": "^3.6.0",
+				"webpack-dev-server": "^2.9.1"
+			},
+			"peerDependencies": {
+				"react": "react@^0.14.0 || ^15.0.0 || ^16.0.0"
+			},
+			"gitHead": "b6d8ce6fc7c334f0f85d56a21b0530fec0770558",
+			"_id": "react-inspector@2.2.0-alpha.0",
+			"_npmVersion": "5.0.3",
+			"_nodeVersion": "8.1.2",
+			"_npmUser": {
+				"name": "ndelangen",
+				"email": "ndelangen@me.com"
+			},
+			"dist": {
+				"integrity": "sha512-LXFd+XTSk8vmYL1tn10wmuw71j44IvViO9OokjLROWyjKJhAXunW5DmDuPSvfuPq2eaxS0HRb7y45tRhVN12MA==",
+				"shasum": "5bb875df4799f47969a6fed4c217f3221f46dbe7",
+				"tarball": "https://registry.npmjs.org/react-inspector/-/react-inspector-2.2.0-alpha.0.tgz",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQD1E5+AUbOJT/ZSvFlJNu3LeBoCVEV+N2pU5geS1E5uMAIgSrru3MnnvsA2SvvuPfOEUBij7hgOLnYjwd4xeRKnZPg="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "codyreichert",
+					"email": "codyreichert@gmail.com"
+				},
+				{
+					"name": "ndelangen",
+					"email": "ndelangen@me.com"
+				},
+				{
+					"name": "xyc",
+					"email": "cxychina@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-inspector-2.2.0-alpha.0.tgz_1506667088333_0.6001230743713677"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"2.2.0": {
+			"name": "react-inspector",
+			"version": "2.2.0",
+			"description": "Power of Browser DevTools inspectors right inside your React app",
+			"keywords": [
+				"devtools",
+				"inspector",
+				"object",
+				"object-inspector",
+				"react",
+				"react-component",
+				"reactjs",
+				"table",
+				"table-inspector",
+				"table-view",
+				"tableview",
+				"tree",
+				"tree-view",
+				"treeview",
+				"ui",
+				"view"
+			],
+			"homepage": "https://github.com/xyc/react-inspector",
+			"bugs": {
+				"url": "https://github.com/xyc/react-inspector/issues"
+			},
+			"license": "MIT",
+			"author": {
+				"name": "Xiaoyi Chen",
+				"email": "cxychina@gmail.com",
+				"url": "http://github.com/xyc"
+			},
+			"main": "lib/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/xyc/react-inspector.git"
+			},
+			"scripts": {
+				"build": "babel src --out-dir lib && webpack --config webpack.prod.config.js",
+				"build:storybook": "build-storybook -o storybook-static",
+				"clean": "rimraf lib",
+				"lint": "eslint src --fix",
+				"prerelease": "npm run lint && npm run test && npm run clean && npm run build",
+				"release": "npm publish . --access public",
+				"storybook": "start-storybook -p 9001",
+				"test": "jest src",
+				"test:watch": "npm run test -- --watch"
+			},
+			"dependencies": {
+				"babel-runtime": "^6.26.0",
+				"is-dom": "^1.0.9"
+			},
+			"devDependencies": {
+				"@storybook/react": "^3.2.11",
+				"babel-cli": "^6.26.0",
+				"babel-core": "^6.26.0",
+				"babel-eslint": "^8.0.1",
+				"babel-loader": "^7.1.2",
+				"babel-plugin-transform-runtime": "^6.23.0",
+				"babel-preset-es2015": "^6.24.1",
+				"babel-preset-react": "^6.24.1",
+				"babel-preset-stage-0": "^6.24.1",
+				"babel-register": "^6.26.0",
+				"core-js": "^2.5.1",
+				"css-loader": "^0.28.7",
+				"eslint": "^4.7.2",
+				"eslint-plugin-jasmine": "^2.8.4",
+				"eslint-plugin-react": "^7.4.0",
+				"expect": "^21.2.1",
+				"jest": "^21.2.1",
+				"prettier": "^1.7.2",
+				"prop-types": "^15.6.0",
+				"react": "^16.0.0",
+				"react-dom": "^16.0.0",
+				"react-hot-loader": "^1.3.1",
+				"react-test-renderer": "^16.0.0",
+				"rebug": "^0.0.3",
+				"rimraf": "^2.6.2",
+				"style-loader": "^0.18.2",
+				"webpack": "^3.6.0",
+				"webpack-dev-server": "^2.9.1"
+			},
+			"peerDependencies": {
+				"react": "react@^0.14.0 || ^15.0.0 || ^16.0.0"
+			},
+			"gitHead": "b6d8ce6fc7c334f0f85d56a21b0530fec0770558",
+			"_id": "react-inspector@2.2.0",
+			"_npmVersion": "5.0.3",
+			"_nodeVersion": "8.1.2",
+			"_npmUser": {
+				"name": "ndelangen",
+				"email": "ndelangen@me.com"
+			},
+			"dist": {
+				"integrity": "sha512-G5qXffxY5U1XhleV/YxHfJvjAiHHPDhYItygvz0FGdEuFVop0FTHNlHbUYRn7XOtARiMBekaBinq8PkA+ylrEg==",
+				"shasum": "2aa0778c3512063f598d7a89a28a5d5c7733cad7",
+				"tarball": "https://registry.npmjs.org/react-inspector/-/react-inspector-2.2.0.tgz",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIDhPvkaYMMgU6+gVAYopIZ8IsnyC0yn0Cob1ddTpMA5TAiAg01sn8RxV6lUP7JOQ7Qlj1f+P9odEdqZ8aJGT4otTBg=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "codyreichert",
+					"email": "codyreichert@gmail.com"
+				},
+				{
+					"name": "ndelangen",
+					"email": "ndelangen@me.com"
+				},
+				{
+					"name": "xyc",
+					"email": "cxychina@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-inspector-2.2.0.tgz_1506668248584_0.5609499465208501"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"2.2.1": {
+			"name": "react-inspector",
+			"version": "2.2.1",
+			"description": "Power of Browser DevTools inspectors right inside your React app",
+			"keywords": [
+				"devtools",
+				"inspector",
+				"object",
+				"object-inspector",
+				"react",
+				"react-component",
+				"reactjs",
+				"table",
+				"table-inspector",
+				"table-view",
+				"tableview",
+				"tree",
+				"tree-view",
+				"treeview",
+				"ui",
+				"view"
+			],
+			"homepage": "https://github.com/xyc/react-inspector",
+			"bugs": {
+				"url": "https://github.com/xyc/react-inspector/issues"
+			},
+			"license": "MIT",
+			"author": {
+				"name": "Xiaoyi Chen",
+				"email": "cxychina@gmail.com",
+				"url": "http://github.com/xyc"
+			},
+			"main": "lib/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/xyc/react-inspector.git"
+			},
+			"scripts": {
+				"build": "babel src --out-dir lib && webpack --config webpack.prod.config.js",
+				"build:storybook": "build-storybook -o storybook-static",
+				"clean": "rimraf lib",
+				"lint": "eslint src --fix",
+				"prerelease": "npm run lint && npm run test && npm run clean && npm run build",
+				"release": "npm publish . --access public",
+				"storybook": "start-storybook -p 9001",
+				"test": "jest src",
+				"test:watch": "npm run test -- --watch"
+			},
+			"dependencies": {
+				"babel-runtime": "^6.26.0",
+				"is-dom": "^1.0.9"
+			},
+			"devDependencies": {
+				"@storybook/react": "^3.2.11",
+				"babel-cli": "^6.26.0",
+				"babel-core": "^6.26.0",
+				"babel-eslint": "^8.0.1",
+				"babel-loader": "^7.1.2",
+				"babel-plugin-transform-runtime": "^6.23.0",
+				"babel-preset-es2015": "^6.24.1",
+				"babel-preset-react": "^6.24.1",
+				"babel-preset-stage-0": "^6.24.1",
+				"babel-register": "^6.26.0",
+				"core-js": "^2.5.1",
+				"css-loader": "^0.28.7",
+				"eslint": "^4.7.2",
+				"eslint-plugin-jasmine": "^2.8.4",
+				"eslint-plugin-react": "^7.4.0",
+				"expect": "^21.2.1",
+				"jest": "^21.2.1",
+				"prettier": "^1.7.2",
+				"prop-types": "^15.6.0",
+				"react": "^16.0.0",
+				"react-dom": "^16.0.0",
+				"react-hot-loader": "^1.3.1",
+				"react-test-renderer": "^16.0.0",
+				"rebug": "^0.0.3",
+				"rimraf": "^2.6.2",
+				"style-loader": "^0.18.2",
+				"webpack": "^3.6.0",
+				"webpack-dev-server": "^2.9.1"
+			},
+			"peerDependencies": {
+				"react": "^0.14.0 || ^15.0.0 || ^16.0.0"
+			},
+			"gitHead": "d8f3eb9fb4a445712edd3e68f2ff63ef9994ef2e",
+			"_id": "react-inspector@2.2.1",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "8.8.1",
+			"_npmUser": {
+				"name": "ndelangen",
+				"email": "ndelangen@me.com"
+			},
+			"dist": {
+				"integrity": "sha512-aXrxJTfriJtZtv/+A9cFIOpfbt711yCD1Ht3fSn3JyuDaAt1+eLtb01R5d/8gGpyquOVWn/d+eM1VPqFXS7UZA==",
+				"shasum": "c24f9a0131960b8e63c8392254d34df0717aabdf",
+				"tarball": "https://registry.npmjs.org/react-inspector/-/react-inspector-2.2.1.tgz",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIFq+PAKMKl6or+8naIGVUVexX0/BnWjCr7Nce+YiesZvAiEAwI0rJygVzW7A42HqdIV9hRv8Xc07rpsAROTfWl7luYk="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "codyreichert",
+					"email": "codyreichert@gmail.com"
+				},
+				{
+					"name": "ndelangen",
+					"email": "ndelangen@me.com"
+				},
+				{
+					"name": "xyc",
+					"email": "cxychina@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-inspector-2.2.1.tgz_1509467762295_0.49071776610799134"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"2.2.2": {
+			"name": "react-inspector",
+			"version": "2.2.2",
+			"description": "Power of Browser DevTools inspectors right inside your React app",
+			"keywords": [
+				"devtools",
+				"inspector",
+				"object",
+				"object-inspector",
+				"react",
+				"react-component",
+				"reactjs",
+				"table",
+				"table-inspector",
+				"table-view",
+				"tableview",
+				"tree",
+				"tree-view",
+				"treeview",
+				"ui",
+				"view"
+			],
+			"homepage": "https://github.com/xyc/react-inspector",
+			"bugs": {
+				"url": "https://github.com/xyc/react-inspector/issues"
+			},
+			"license": "MIT",
+			"author": {
+				"name": "Xiaoyi Chen",
+				"email": "cxychina@gmail.com",
+				"url": "http://github.com/xyc"
+			},
+			"main": "lib/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/xyc/react-inspector.git"
+			},
+			"scripts": {
+				"build": "babel src --out-dir lib && webpack --config webpack.prod.config.js",
+				"build:storybook": "build-storybook -o storybook-static",
+				"clean": "rimraf lib",
+				"lint": "eslint src --fix",
+				"prerelease": "npm run lint && npm run test && npm run clean && npm run build",
+				"release": "npm publish . --access public",
+				"storybook": "start-storybook -p 9001",
+				"test": "jest src",
+				"test:watch": "npm run test -- --watch"
+			},
+			"dependencies": {
+				"babel-runtime": "^6.26.0",
+				"is-dom": "^1.0.9"
+			},
+			"devDependencies": {
+				"@storybook/react": "^3.2.17",
+				"babel-cli": "^6.26.0",
+				"babel-core": "^6.26.0",
+				"babel-eslint": "^8.0.3",
+				"babel-loader": "^7.1.2",
+				"babel-plugin-transform-runtime": "^6.23.0",
+				"babel-preset-es2015": "^6.24.1",
+				"babel-preset-react": "^6.24.1",
+				"babel-preset-stage-0": "^6.24.1",
+				"babel-register": "^6.26.0",
+				"core-js": "^2.5.2",
+				"css-loader": "^0.28.7",
+				"eslint": "^4.13.0",
+				"eslint-plugin-jasmine": "^2.9.1",
+				"eslint-plugin-react": "^7.5.1",
+				"expect": "^21.2.1",
+				"jest": "^21.2.1",
+				"prettier": "^1.9.1",
+				"prop-types": "^15.6.0",
+				"react": "^16.2.0",
+				"react-dom": "^16.2.0",
+				"react-hot-loader": "^3.1.3",
+				"react-test-renderer": "^16.2.0",
+				"rebug": "^0.0.3",
+				"rimraf": "^2.6.2",
+				"style-loader": "^0.19.0",
+				"webpack": "^3.10.0",
+				"webpack-dev-server": "^2.9.7"
+			},
+			"peerDependencies": {
+				"react": "^0.14.0 || ^15.0.0 || ^16.0.0"
+			},
+			"gitHead": "697c32ab0df8fea30a319e647f10ecbb12a88365",
+			"_id": "react-inspector@2.2.2",
+			"_npmVersion": "5.4.2",
+			"_nodeVersion": "8.8.1",
+			"_npmUser": {
+				"name": "ndelangen",
+				"email": "ndelangen@me.com"
+			},
+			"dist": {
+				"integrity": "sha512-SzkmYvVUJEmUBuFwGgaGOTGucUBnKXH2wWFdzatkCrawm4P85eqgYvqevHE3DGWpfXqE1pJO4d98TYUANQGCrg==",
+				"shasum": "c04f5248fa92ab6c23e37960e725fb7f48c34d05",
+				"tarball": "https://registry.npmjs.org/react-inspector/-/react-inspector-2.2.2.tgz",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDwmHxG3YmTGtFRGDQVxIuCTs5AUulzayM2DgPpxKo4YgIgGow7wlCR26okbS9tCkfK10Fxljt/QdDmekBL0YHhNeI="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "codyreichert",
+					"email": "codyreichert@gmail.com"
+				},
+				{
+					"name": "ndelangen",
+					"email": "ndelangen@me.com"
+				},
+				{
+					"name": "xyc",
+					"email": "cxychina@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-inspector-2.2.2.tgz_1512899707157_0.5172770798671991"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"2.3.0": {
+			"name": "react-inspector",
+			"version": "2.3.0",
+			"description": "Power of Browser DevTools inspectors right inside your React app",
+			"keywords": [
+				"devtools",
+				"inspector",
+				"object",
+				"object-inspector",
+				"react",
+				"react-component",
+				"reactjs",
+				"table",
+				"table-inspector",
+				"table-view",
+				"tableview",
+				"tree",
+				"tree-view",
+				"treeview",
+				"ui",
+				"view"
+			],
+			"homepage": "https://github.com/xyc/react-inspector",
+			"bugs": {
+				"url": "https://github.com/xyc/react-inspector/issues"
+			},
+			"license": "MIT",
+			"author": {
+				"name": "Xiaoyi Chen",
+				"email": "cxychina@gmail.com",
+				"url": "http://github.com/xyc"
+			},
+			"main": "lib/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/xyc/react-inspector.git"
+			},
+			"scripts": {
+				"build": "babel src --out-dir lib && webpack --config webpack.prod.config.js",
+				"build:storybook": "build-storybook -o storybook-static",
+				"clean": "rimraf lib",
+				"lint": "eslint src --fix",
+				"prerelease": "npm run lint && npm run test && npm run clean && npm run build",
+				"release": "npm publish . --access public",
+				"storybook": "start-storybook -p 9001",
+				"test": "jest src",
+				"test:watch": "npm run test -- --watch"
+			},
+			"dependencies": {
+				"babel-runtime": "^6.26.0",
+				"is-dom": "^1.0.9"
+			},
+			"devDependencies": {
+				"@storybook/react": "^3.4.0",
+				"babel-cli": "^6.26.0",
+				"babel-core": "^6.26.0",
+				"babel-eslint": "^8.2.2",
+				"babel-loader": "^7.1.4",
+				"babel-plugin-transform-runtime": "^6.23.0",
+				"babel-preset-es2015": "^6.24.1",
+				"babel-preset-react": "^6.24.1",
+				"babel-preset-stage-0": "^6.24.1",
+				"babel-register": "^6.26.0",
+				"core-js": "^2.5.5",
+				"css-loader": "^0.28.11",
+				"eslint": "^4.19.1",
+				"eslint-plugin-jasmine": "^2.9.3",
+				"eslint-plugin-react": "^7.7.0",
+				"expect": "^22.4.3",
+				"jest": "^22.4.3",
+				"prettier": "^1.11.1",
+				"prop-types": "^15.6.1",
+				"react": "^16.3.1",
+				"react-dom": "^16.3.1",
+				"react-hot-loader": "^4.0.1",
+				"react-test-renderer": "^16.3.1",
+				"rebug": "^0.0.3",
+				"rimraf": "^2.6.2",
+				"style-loader": "^0.20.3",
+				"webpack": "^4.5.0",
+				"webpack-cli": "^2.0.14",
+				"webpack-dev-server": "^3.1.3"
+			},
+			"peerDependencies": {
+				"react": "^0.14.0 || ^15.0.0 || ^16.0.0"
+			},
+			"gitHead": "45a856a86430a3d2d926ab21546408215f2df428",
+			"_id": "react-inspector@2.3.0",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "8.9.4",
+			"_npmUser": {
+				"name": "ndelangen",
+				"email": "ndelangen@me.com"
+			},
+			"dist": {
+				"integrity": "sha512-aIcbWb0fKFhEMB+RadoOYawlr1JoMMfrQ1oRgPUG/f/e4zERVJ6nYcIaQmrQmdHCZ63BOqe2cEkoeY0kyLBzNg==",
+				"shasum": "fc9c1d38ab687fc0d190dcaf133ae40158968fc8",
+				"tarball": "https://registry.npmjs.org/react-inspector/-/react-inspector-2.3.0.tgz",
+				"fileCount": 35,
+				"unpackedSize": 449238,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCICtIqaLU8YzgkbepeMqSOhiiqCKxUH6XEuoX+cM2VL7CAiEAiMcU+LV9X6npIbWjjpqzC2g1MbbhAMTjwT6uhsKp0Hw="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "codyreichert",
+					"email": "codyreichert@gmail.com"
+				},
+				{
+					"name": "ndelangen",
+					"email": "ndelangen@me.com"
+				},
+				{
+					"name": "xyc",
+					"email": "cxychina@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-inspector_2.3.0_1523316721608_0.9768666748967656"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"2.3.1": {
+			"name": "react-inspector",
+			"version": "2.3.1",
+			"description": "Power of Browser DevTools inspectors right inside your React app",
+			"keywords": [
+				"devtools",
+				"inspector",
+				"object",
+				"object-inspector",
+				"react",
+				"react-component",
+				"reactjs",
+				"table",
+				"table-inspector",
+				"table-view",
+				"tableview",
+				"tree",
+				"tree-view",
+				"treeview",
+				"ui",
+				"view"
+			],
+			"homepage": "https://github.com/xyc/react-inspector",
+			"bugs": {
+				"url": "https://github.com/xyc/react-inspector/issues"
+			},
+			"license": "MIT",
+			"author": {
+				"name": "Xiaoyi Chen",
+				"email": "cxychina@gmail.com",
+				"url": "http://github.com/xyc"
+			},
+			"main": "lib/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/xyc/react-inspector.git"
+			},
+			"scripts": {
+				"build": "babel src --out-dir lib && webpack --config webpack.prod.config.js",
+				"build:storybook": "build-storybook -o storybook-static",
+				"clean": "rimraf lib",
+				"lint": "eslint src --fix",
+				"prerelease": "npm run lint && npm run test && npm run clean && npm run build",
+				"release": "npm publish . --access public",
+				"storybook": "start-storybook -p 9001",
+				"test": "jest src",
+				"test:watch": "npm run test -- --watch"
+			},
+			"dependencies": {
+				"babel-runtime": "^6.26.0",
+				"is-dom": "^1.0.9",
+				"prop-types": "^15.6.1"
+			},
+			"devDependencies": {
+				"@storybook/react": "^3.4.0",
+				"babel-cli": "^6.26.0",
+				"babel-core": "^6.26.0",
+				"babel-eslint": "^8.2.2",
+				"babel-loader": "^7.1.4",
+				"babel-plugin-transform-runtime": "^6.23.0",
+				"babel-preset-es2015": "^6.24.1",
+				"babel-preset-react": "^6.24.1",
+				"babel-preset-stage-0": "^6.24.1",
+				"babel-register": "^6.26.0",
+				"core-js": "^2.5.5",
+				"css-loader": "^0.28.11",
+				"eslint": "^4.19.1",
+				"eslint-plugin-jasmine": "^2.9.3",
+				"eslint-plugin-react": "^7.7.0",
+				"expect": "^22.4.3",
+				"jest": "^22.4.3",
+				"prettier": "^1.11.1",
+				"react": "^16.3.1",
+				"react-dom": "^16.3.1",
+				"react-hot-loader": "^4.0.1",
+				"react-test-renderer": "^16.3.1",
+				"rebug": "^0.0.3",
+				"rimraf": "^2.6.2",
+				"style-loader": "^0.20.3",
+				"webpack": "^4.5.0",
+				"webpack-cli": "^2.0.14",
+				"webpack-dev-server": "^3.1.3"
+			},
+			"peerDependencies": {
+				"react": "^0.14.0 || ^15.0.0 || ^16.0.0"
+			},
+			"gitHead": "adf981d202143ab5b59411d16925acfe70e899fc",
+			"_id": "react-inspector@2.3.1",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "9.10.0",
+			"_npmUser": {
+				"name": "xyc",
+				"email": "cxychina@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-tUUK7t3KWgZEIUktOYko5Ic/oYwvjEvQUFAGC1UeMeDaQ5za2yZFtItJa2RTwBJB//NxPr000WQK6sEbqC6y0Q==",
+				"shasum": "f0eb7f520669b545b441af9d38ec6d706e5f649c",
+				"tarball": "https://registry.npmjs.org/react-inspector/-/react-inspector-2.3.1.tgz",
+				"fileCount": 37,
+				"unpackedSize": 450944,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJb/2D3CRA9TVsSAnZWagAA52IP/RWqJjGmWePWSJfwaa/3\nFK53AX3+uhvl2BHh7+L5+CfrneIrzjR8d9eHoXI7CF7rQVXTts+SpBIRIbVh\n3MqXNgwfBkI7QA7RfMOWCKSnTCRB/R4fSN2OBtIDsKCjY/XP3w263nNZHqql\n1/D/CXg9V2nNdf3NGR6eweM1+yAs1JuI7xwa8UXgEzL65nVYRcau7LFVmvn2\n1wgdVKfU4Zdx9mwO+efWjk4w6GoJB7IuNtdosqPE0IHAHgu+akLmZX+lTrt9\n6hAe7JfPcOUzFrd+TA2GR0jAtH5XEzqQDTFwHcZDLfYjWATD2k5MiWAc1oqP\nlbFyuSQkx0AHJ8DNLBGfewk7je9iwx9tLiSMRDSNRf+NR9blq33pARDV+qx6\nMzdpcPHeTYml8hya9O/ZBW6HBhm9P0W57qXML9ZR7VEtg7RfsdJvu3danmtD\nqzgb4o+iORBbXMADuTKGDm40qfoX0r/MA92LaSQ92kLL16G0y8/TginaQnBl\nJpUkP5Cp6Beaid6TMz/hFQl5I0ErzXewxc0puOaf5C3uK81/P07hfyFbRQG2\nfPg/rVJn7YJBlZc6xaDiiwa3qs+vnPapL36fJmJZsEybEvUpuuJI7FeY67am\nbhYtYqLZRsgeLk74OSaFEnLoPwTuBYZOcovr4R1YYJTpEXen+IPtTgITosKg\nBG2Y\r\n=kJQK\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIAa6W1IfdkMTq1VjjzeyB9jJ9Xs2s8O3o+rA6pirnAe8AiEA8y1CC+Y+yg3Vfp8QbLJf2C5TSNPkrBuXqf+bKllGtHo="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "codyreichert",
+					"email": "codyreichert@gmail.com"
+				},
+				{
+					"name": "ndelangen",
+					"email": "ndelangen@me.com"
+				},
+				{
+					"name": "xyc",
+					"email": "cxychina@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-inspector_2.3.1_1543463158821_0.5177690238360422"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.0.0": {
+			"name": "react-inspector",
+			"version": "3.0.0",
+			"description": "Power of Browser DevTools inspectors right inside your React app",
+			"keywords": [
+				"devtools",
+				"inspector",
+				"object",
+				"object-inspector",
+				"react",
+				"react-component",
+				"reactjs",
+				"table",
+				"table-inspector",
+				"table-view",
+				"tableview",
+				"tree",
+				"tree-view",
+				"treeview",
+				"ui",
+				"view"
+			],
+			"homepage": "https://github.com/xyc/react-inspector",
+			"bugs": {
+				"url": "https://github.com/xyc/react-inspector/issues"
+			},
+			"license": "MIT",
+			"author": {
+				"name": "Xiaoyi Chen",
+				"email": "cxychina@gmail.com",
+				"url": "http://github.com/xyc"
+			},
+			"main": "lib/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/xyc/react-inspector.git"
+			},
+			"scripts": {
+				"build": "babel src --out-dir lib && webpack --config webpack.prod.config.js",
+				"build:storybook": "build-storybook -o storybook-static",
+				"clean": "rimraf lib",
+				"lint": "eslint src --fix",
+				"prerelease": "npm run lint && npm run test && npm run clean && npm run build",
+				"release": "npm publish . --access public",
+				"storybook": "start-storybook -p 9001",
+				"test": "jest src",
+				"test:updatesnapshot": "jest src --update-snapshot",
+				"test:watch": "npm run test -- --watch"
+			},
+			"dependencies": {
+				"babel-runtime": "^6.26.0",
+				"is-dom": "^1.0.9",
+				"prop-types": "^15.6.1"
+			},
+			"devDependencies": {
+				"@babel/cli": "^7.2.3",
+				"@babel/core": "^7.2.2",
+				"@babel/plugin-proposal-class-properties": "^7.3.0",
+				"@babel/plugin-proposal-do-expressions": "^7.2.0",
+				"@babel/plugin-proposal-export-default-from": "^7.2.0",
+				"@babel/plugin-proposal-logical-assignment-operators": "^7.2.0",
+				"@babel/plugin-proposal-nullish-coalescing-operator": "^7.2.0",
+				"@babel/plugin-proposal-object-rest-spread": "^7.3.1",
+				"@babel/plugin-proposal-optional-chaining": "^7.2.0",
+				"@babel/plugin-transform-object-assign": "^7.2.0",
+				"@babel/preset-env": "^7.3.1",
+				"@babel/preset-react": "^7.0.0",
+				"@babel/register": "^7.0.0",
+				"@storybook/react": "^4.1.11",
+				"babel-eslint": "^10.0.1",
+				"babel-loader": "^8.0.5",
+				"core-js": "^2.5.5",
+				"css-loader": "^2.1.0",
+				"eslint": "^5.13.0",
+				"eslint-plugin-jasmine": "^2.9.3",
+				"eslint-plugin-react": "^7.7.0",
+				"expect": "^24.0.0",
+				"jest": "^24.0.0",
+				"prettier": "^1.16.3",
+				"react": "^16.8.4",
+				"react-dom": "^16.8.4",
+				"react-hot-loader": "^4.0.1",
+				"react-test-renderer": "^16.8.0-alpha.1",
+				"rimraf": "^2.6.2",
+				"style-loader": "^0.23.1",
+				"webpack": "^4.5.0",
+				"webpack-cli": "^3.2.1",
+				"webpack-dev-server": "^3.1.3"
+			},
+			"peerDependencies": {
+				"react": "^16.8.4"
+			},
+			"gitHead": "934d30b069bee3d277e8947cafd78469ecd6f719",
+			"_id": "react-inspector@3.0.0",
+			"_nodeVersion": "10.0.0",
+			"_npmVersion": "6.7.0",
+			"_npmUser": {
+				"name": "xyc",
+				"email": "cxychina@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-nKXmnRhotT+DGkif5Q877CmIiSJmHpquAMRmCYhZ5E8qX4RSB9W0LcHu0tGNJNJRX1KDsHsM2AkCje2fYkNSfg==",
+				"shasum": "e9a6bf1195d02e5b76d9eaf260b1ce6ba23d46df",
+				"tarball": "https://registry.npmjs.org/react-inspector/-/react-inspector-3.0.0.tgz",
+				"fileCount": 40,
+				"unpackedSize": 525193,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJckfduCRA9TVsSAnZWagAAY+kQAJqrTLfeSE7haCjOCAg9\nRDepzHcuCsIyaMxAbKzrn6sKMj3ITnQyF1BxKIlwFFRIT0t9PBLyicZIj1o4\nh97IJT6oqbVRy0y/fzPOcFJyU4u2u80sQ+rh8NxkyEL21eOep09/Gm12DXBW\nh0X1/+Q1b4p/ji+kRBgU9n/B+SJKYLsHYPlvi6l0AOeiccjMUdK96R5XkDqm\nsyCXtawpp210I/1q8fVM74R14FORo8uC/koDD2I2ZQ+B7vrayhqFhAQAFCOh\nPWoFeCgmfcCJFCO13q3es7ZYgnuDFPvBijdP5nPQ0rLixxCs/ICMSyHsYZKU\nutQ/qPizFVyJlPOkYP9quBPOd/FZnnB+PdtiAMJvscYpExtR3c64ys7jxlg+\ncf7BwEZhcv3Z81U+YAtfVdhllSsyCPOt201Hb2fqWyYWQ5d07B5Hmq0EFgQ8\n+pAvIZAkG6QPqefkPl27wvAR0vd/2HV9VOSoDxRpJhxU0gQZALCGqPZ3RQaB\nXyU0++SZmz4jdnOMHhBoEFuDK9uuU8d2wLS+gdP++/knAPAW8EgL+MdAwdIH\nQ2FB72O3rxn0Z85G4U96VIoZDqgFt5AI0Q6FTFpcF3kbwvDHdwguhIkhpAT3\nBheqTXkD/BRE2dpTJBoiRrXN92rWgOQzrr/TA+v/zFpNLlpMi8i/OAglq8zJ\nkf44\r\n=ob4F\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCE4i8/K8UiIgEeZVVEx1I8Cou5Em3MVc6cJP0MqgVU6wIhAMG8FwXyvFbG+OA++cV38H/0CGROnqzjU6C+kf63Pmgl"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "codyreichert",
+					"email": "codyreichert@gmail.com"
+				},
+				{
+					"name": "ndelangen",
+					"email": "ndelangen@me.com"
+				},
+				{
+					"name": "xyc",
+					"email": "cxychina@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-inspector_3.0.0_1553069933470_0.4224755319347542"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.0.1": {
+			"name": "react-inspector",
+			"version": "3.0.1",
+			"description": "Power of Browser DevTools inspectors right inside your React app",
+			"keywords": [
+				"devtools",
+				"inspector",
+				"object",
+				"object-inspector",
+				"react",
+				"react-component",
+				"reactjs",
+				"table",
+				"table-inspector",
+				"table-view",
+				"tableview",
+				"tree",
+				"tree-view",
+				"treeview",
+				"ui",
+				"view"
+			],
+			"homepage": "https://github.com/xyc/react-inspector",
+			"bugs": {
+				"url": "https://github.com/xyc/react-inspector/issues"
+			},
+			"license": "MIT",
+			"author": {
+				"name": "Xiaoyi Chen",
+				"email": "cxychina@gmail.com",
+				"url": "http://github.com/xyc"
+			},
+			"main": "dist/cjs/react-inspector.js",
+			"module": "dist/es/react-inspector.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/xyc/react-inspector.git"
+			},
+			"scripts": {
+				"build": "rollup -c",
+				"build:storybook": "build-storybook -o storybook-static",
+				"clean": "rimraf dist",
+				"lint": "eslint src --fix",
+				"prerelease": "npm run lint && npm run test && npm run clean && npm run build",
+				"release": "npm publish . --access public",
+				"storybook": "start-storybook -p 9001",
+				"test": "jest src",
+				"test:updatesnapshot": "jest src --update-snapshot",
+				"test:watch": "npm run test -- --watch"
+			},
+			"dependencies": {
+				"babel-runtime": "^6.26.0",
+				"is-dom": "^1.0.9",
+				"prop-types": "^15.6.1"
+			},
+			"devDependencies": {
+				"@babel/cli": "^7.2.3",
+				"@babel/core": "^7.2.2",
+				"@babel/plugin-proposal-class-properties": "^7.3.0",
+				"@babel/plugin-proposal-do-expressions": "^7.2.0",
+				"@babel/plugin-proposal-export-default-from": "^7.2.0",
+				"@babel/plugin-proposal-logical-assignment-operators": "^7.2.0",
+				"@babel/plugin-proposal-nullish-coalescing-operator": "^7.2.0",
+				"@babel/plugin-proposal-object-rest-spread": "^7.3.1",
+				"@babel/plugin-proposal-optional-chaining": "^7.2.0",
+				"@babel/plugin-transform-object-assign": "^7.2.0",
+				"@babel/plugin-transform-runtime": "^7.4.0",
+				"@babel/preset-env": "^7.3.1",
+				"@babel/preset-react": "^7.0.0",
+				"@babel/register": "^7.0.0",
+				"@storybook/react": "^4.1.11",
+				"babel-eslint": "^10.0.1",
+				"babel-loader": "^8.0.5",
+				"core-js": "^2.5.5",
+				"css-loader": "^2.1.0",
+				"eslint": "^5.13.0",
+				"eslint-plugin-jasmine": "^2.9.3",
+				"eslint-plugin-react": "^7.7.0",
+				"expect": "^24.0.0",
+				"jest": "^24.0.0",
+				"prettier": "^1.16.3",
+				"react": "^16.8.4",
+				"react-dom": "^16.8.4",
+				"react-hot-loader": "^4.0.1",
+				"react-test-renderer": "^16.8.0-alpha.1",
+				"rimraf": "^2.6.2",
+				"rollup": "^1.7.3",
+				"rollup-plugin-babel": "^4.3.2",
+				"rollup-plugin-commonjs": "^9.2.2",
+				"rollup-plugin-node-resolve": "^4.0.1",
+				"style-loader": "^0.23.1",
+				"webpack": "^4.5.0",
+				"webpack-cli": "^3.2.1",
+				"webpack-dev-server": "^3.1.3"
+			},
+			"peerDependencies": {
+				"react": "^16.8.4"
+			},
+			"gitHead": "3c2578d4577ed656248ffd1c21efd4bc7e21d42c",
+			"_id": "react-inspector@3.0.1",
+			"_npmVersion": "6.1.0",
+			"_nodeVersion": "10.5.0",
+			"_npmUser": {
+				"name": "xyc",
+				"email": "cxychina@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-wXktc0IGk/p9nfcS5azReJSRWb+ddN6K6v3BSqzrWkMkBPkT8/wW8dEUrbhOzV/rOyLgBrh3kDHURsiIl7JOlg==",
+				"shasum": "765c4afa7a9cedac55d46cc9f3a604b1f9a28b97",
+				"tarball": "https://registry.npmjs.org/react-inspector/-/react-inspector-3.0.1.tgz",
+				"fileCount": 14,
+				"unpackedSize": 1197708,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcnHMyCRA9TVsSAnZWagAAyCkP/1XwSirfAgwjK+ywwUDE\nuFaxFCn79OPjJLqiXZ3v1lVQvPpEvdBzzK05MYNDh4MbBE5tFyptLnv8evxV\nuIFX+EcwGWrDaAMqk26Fk+jmL7RPmOPcioDgh5o5yJY1ZV54j+dLtCTStfBX\noj43zXoSUQPUNlhBR+2hVT6Qw5Bpf+mXin7zMj3N7umfWRzfagTU7gA8Zdru\nwTHw1kdXaM7bZvuUKZa7l91uGuGciOdZO9BvtB05rwlxmDlu5OorYdfo/nSW\nMDXuZAYc5VfDuGyYPo5YX2VsZiAWSjge7yf+CzMN64Bag5ipfVJZUvrtuqLf\n2S8tgmbepOsZgBRAHnWqsTjUXmj051HFWbSkn5NHLl1xenib5ZwcOvhEYCBw\nUi9TlhtYXgBavFcqFgl9kEZHHL0HEH3j+8tmfXMayw1loPXfzsn0Va0bVKWm\nxAbdbhDuyBY/jMf4sGSSAQU8RXejeZCudaYuIYWyiVDk/lBDsDzW8nkXpvRo\nFdw7/gpVeU0Le6MSFxtQ2opcR+Gz3F+Jk44PT4pS+POdmRgVepsUEjomsCVW\nEfY4Pzqc7EM8U2fjO4j8jzU9Rp1l4CBoskzbuQkboXGjxlVlTvpeu3hIWiba\nm0OAc71z9hUr/G8T3NlcfKJWySzzecur4q5hI459g6UWVcpYiCVQ0Qvl4Etr\nIgYf\r\n=4jOv\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQCqHIwyW3rvrlb44SPKLBU/QGs+RfKNmUMfVaze2jOD2AIgIcahvQkkYqH65WV82ljaqIt3UBS1lN66qxZdBUov/UE="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "codyreichert",
+					"email": "codyreichert@gmail.com"
+				},
+				{
+					"name": "ndelangen",
+					"email": "ndelangen@me.com"
+				},
+				{
+					"name": "xyc",
+					"email": "cxychina@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-inspector_3.0.1_1553756977625_0.08289921686248558"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.0.2": {
+			"name": "react-inspector",
+			"version": "3.0.2",
+			"description": "Power of Browser DevTools inspectors right inside your React app",
+			"keywords": [
+				"devtools",
+				"inspector",
+				"object",
+				"object-inspector",
+				"react",
+				"react-component",
+				"reactjs",
+				"table",
+				"table-inspector",
+				"table-view",
+				"tableview",
+				"tree",
+				"tree-view",
+				"treeview",
+				"ui",
+				"view"
+			],
+			"homepage": "https://github.com/xyc/react-inspector",
+			"bugs": {
+				"url": "https://github.com/xyc/react-inspector/issues"
+			},
+			"license": "MIT",
+			"author": {
+				"name": "Xiaoyi Chen",
+				"email": "cxychina@gmail.com",
+				"url": "http://github.com/xyc"
+			},
+			"main": "dist/cjs/react-inspector.js",
+			"module": "dist/es/react-inspector.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/xyc/react-inspector.git"
+			},
+			"scripts": {
+				"build": "rollup -c",
+				"build:storybook": "build-storybook -o storybook-static",
+				"clean": "rimraf dist",
+				"lint": "eslint src --fix",
+				"prerelease": "npm run lint && npm run test && npm run clean && npm run build",
+				"release": "npm publish . --access public",
+				"storybook": "start-storybook -p 9001",
+				"test": "jest src",
+				"test:updatesnapshot": "jest src --update-snapshot",
+				"test:watch": "npm run test -- --watch"
+			},
+			"dependencies": {
+				"babel-runtime": "^6.26.0",
+				"is-dom": "^1.0.9",
+				"prop-types": "^15.6.1"
+			},
+			"devDependencies": {
+				"@babel/cli": "^7.2.3",
+				"@babel/core": "^7.2.2",
+				"@babel/plugin-proposal-class-properties": "^7.3.0",
+				"@babel/plugin-proposal-do-expressions": "^7.2.0",
+				"@babel/plugin-proposal-export-default-from": "^7.2.0",
+				"@babel/plugin-proposal-logical-assignment-operators": "^7.2.0",
+				"@babel/plugin-proposal-nullish-coalescing-operator": "^7.2.0",
+				"@babel/plugin-proposal-object-rest-spread": "^7.3.1",
+				"@babel/plugin-proposal-optional-chaining": "^7.2.0",
+				"@babel/plugin-transform-object-assign": "^7.2.0",
+				"@babel/plugin-transform-runtime": "^7.4.0",
+				"@babel/preset-env": "^7.3.1",
+				"@babel/preset-react": "^7.0.0",
+				"@babel/register": "^7.0.0",
+				"@storybook/react": "^4.1.11",
+				"babel-eslint": "^10.0.1",
+				"babel-loader": "^8.0.5",
+				"core-js": "^2.5.5",
+				"css-loader": "^2.1.0",
+				"eslint": "^5.13.0",
+				"eslint-plugin-jasmine": "^2.9.3",
+				"eslint-plugin-react": "^7.7.0",
+				"expect": "^24.0.0",
+				"jest": "^24.0.0",
+				"prettier": "^1.16.3",
+				"react": "^16.8.4",
+				"react-dom": "^16.8.4",
+				"react-hot-loader": "^4.0.1",
+				"react-test-renderer": "^16.8.0-alpha.1",
+				"rimraf": "^2.6.2",
+				"rollup": "^1.7.3",
+				"rollup-plugin-babel": "^4.3.2",
+				"rollup-plugin-commonjs": "^9.2.2",
+				"rollup-plugin-node-resolve": "^4.0.1",
+				"style-loader": "^0.23.1",
+				"webpack": "^4.5.0",
+				"webpack-cli": "^3.2.1",
+				"webpack-dev-server": "^3.1.3"
+			},
+			"peerDependencies": {
+				"react": "^16.8.4"
+			},
+			"gitHead": "92c67c02835dbbd5835b703fd35a5e818ad3bfbb",
+			"_id": "react-inspector@3.0.2",
+			"_npmVersion": "6.1.0",
+			"_nodeVersion": "10.5.0",
+			"_npmUser": {
+				"name": "xyc",
+				"email": "cxychina@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-PSR8xDoGFN8R3LKmq1NT+hBBwhxjd9Qwz8yKY+5NXY/CHpxXHm01CVabxzI7zFwFav/M3JoC/Z0Ro2kSX6Ef2Q==",
+				"shasum": "c530a06101f562475537e47df428e1d7aff16ed8",
+				"tarball": "https://registry.npmjs.org/react-inspector/-/react-inspector-3.0.2.tgz",
+				"fileCount": 10,
+				"unpackedSize": 769098,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcnHeYCRA9TVsSAnZWagAAHpUP/0Ec/g3AgQCbH7NtKq0Q\nqVZ+HUW6jzo02HhSqbp5iKiGs7acE2bj7L6Mao4YHFIl/Y0BrAlF51iwqyGF\n4v9CiZ6qBS+j5DgyD2p/3DJpw9u6iTTiiWV6wCGqzHG+yfRei9Ofd2oqyfdA\nkwmdXlNsEa3Rs6QDaH/9m3eGhSQ30AlB4/zxjnXjUNCxInayL+W45Ek2BpQD\n+LMy+isoDCkrmLTce81eISOU5Q35bq1FDW/SeCSTRnzqFVTvI9o/sPjEkCU4\nUBovdayk/MtbeELYx42cMDPOw1LvM3CMrx6C10xH4zjqk04svWyTEvtiaeNb\niot5MB61f6EihaD9RzCkoC1pgB0CG4A5+c5sOhoH6M8IPvloWf+yJCinylrp\nqIsFcZZh9ZZY02iROoio9fKHxTjTIBIZ4Lgf7CM6C1zlY5ukmmipo1zSs/6/\neXfD/XzyfWjOWTWDpHkLoWCZBLHogi/EfhdB7k3czqWsf0gJTS0iyVKD7rAN\nas+dpTWZl+ilQuHliwT4DOGDXnVTviUrMAvbE5z3ZCv4LwOjr85Qbt5Gk0KH\nWXL//Fv5c78lL+J5Z2TZdVS7TVUzKRR5lQOckWb69V1O4C6N25R7RwS/Vt5+\nXm6OVw3axzIrg/E23OKdPhtHQCviRGoCq0rrEtB9ZAGMqPwItdRMLHVSo9qg\nhkc4\r\n=I1WU\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCICGS4c/ONzPzPG8CLg1gShFXL07kS9MYR4SxDQXknTJDAiEApiJR3PUGNvd8MdkyrzCRxvy1QgwTMOE23MlzRdx/NGE="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "codyreichert",
+					"email": "codyreichert@gmail.com"
+				},
+				{
+					"name": "ndelangen",
+					"email": "ndelangen@me.com"
+				},
+				{
+					"name": "xyc",
+					"email": "cxychina@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-inspector_3.0.2_1553758103441_0.6344768399378495"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"4.0.0": {
+			"name": "react-inspector",
+			"version": "4.0.0",
+			"description": "Power of Browser DevTools inspectors right inside your React app",
+			"keywords": [
+				"devtools",
+				"inspector",
+				"object",
+				"object-inspector",
+				"react",
+				"react-component",
+				"reactjs",
+				"table",
+				"table-inspector",
+				"table-view",
+				"tableview",
+				"tree",
+				"tree-view",
+				"treeview",
+				"ui",
+				"view"
+			],
+			"homepage": "https://github.com/xyc/react-inspector",
+			"bugs": {
+				"url": "https://github.com/xyc/react-inspector/issues"
+			},
+			"license": "MIT",
+			"author": {
+				"name": "Xiaoyi Chen",
+				"email": "cxychina@gmail.com",
+				"url": "http://github.com/xyc"
+			},
+			"main": "dist/cjs/react-inspector.js",
+			"module": "dist/es/react-inspector.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/xyc/react-inspector.git"
+			},
+			"scripts": {
+				"build": "rollup -c",
+				"build-storybook": "build-storybook -o storybook-static",
+				"clean": "rimraf dist",
+				"lint": "eslint src --fix",
+				"prerelease": "npm run lint && npm run test && npm run clean && npm run build",
+				"release": "npm publish . --access public",
+				"storybook": "start-storybook -p 9001",
+				"test": "jest src",
+				"test-updatesnapshot": "jest src --update-snapshot",
+				"test-watch": "npm run test -- --watch",
+				"chromatic": "CHROMATIC_APP_CODE=17yeg4lpa7q chromatic test"
+			},
+			"dependencies": {
+				"babel-runtime": "^6.26.0",
+				"is-dom": "^1.0.9",
+				"prop-types": "^15.6.1",
+				"storybook-chromatic": "^2.2.2"
+			},
+			"devDependencies": {
+				"@babel/cli": "^7.2.3",
+				"@babel/core": "^7.2.2",
+				"@babel/plugin-syntax-bigint": "^7.2.0",
+				"@babel/plugin-proposal-class-properties": "^7.3.0",
+				"@babel/plugin-proposal-do-expressions": "^7.2.0",
+				"@babel/plugin-proposal-export-default-from": "^7.2.0",
+				"@babel/plugin-proposal-logical-assignment-operators": "^7.2.0",
+				"@babel/plugin-proposal-nullish-coalescing-operator": "^7.2.0",
+				"@babel/plugin-proposal-object-rest-spread": "^7.3.1",
+				"@babel/plugin-proposal-optional-chaining": "^7.2.0",
+				"@babel/plugin-transform-object-assign": "^7.2.0",
+				"@babel/plugin-transform-runtime": "^7.4.0",
+				"@babel/preset-env": "^7.3.1",
+				"@babel/preset-react": "^7.0.0",
+				"@babel/register": "^7.0.0",
+				"@storybook/react": "^5.0.10",
+				"babel-eslint": "^10.0.1",
+				"babel-loader": "^8.0.5",
+				"core-js": "^3.0.1",
+				"css-loader": "^2.1.0",
+				"eslint": "^5.13.0",
+				"eslint-plugin-jasmine": "^2.9.3",
+				"eslint-plugin-react": "^7.7.0",
+				"expect": "^24.0.0",
+				"jest": "^24.0.0",
+				"prettier": "^1.16.3",
+				"react": "^16.8.4",
+				"react-dom": "^16.8.4",
+				"react-hot-loader": "^4.0.1",
+				"react-test-renderer": "^16.8.0-alpha.1",
+				"rimraf": "^2.6.2",
+				"rollup": "^1.7.3",
+				"rollup-plugin-babel": "^4.3.2",
+				"rollup-plugin-commonjs": "^9.2.2",
+				"rollup-plugin-node-resolve": "^4.0.1",
+				"style-loader": "^0.23.1",
+				"webpack": "^4.5.0",
+				"webpack-cli": "^3.2.1",
+				"webpack-dev-server": "^3.1.3"
+			},
+			"peerDependencies": {
+				"react": "^16.8.4"
+			},
+			"gitHead": "5ed1555c110fb95aab99c3aa9838d091ee2cf3ec",
+			"_id": "react-inspector@4.0.0",
+			"_nodeVersion": "10.16.3",
+			"_npmVersion": "6.9.0",
+			"dist": {
+				"integrity": "sha512-heh4THBeJg0HLYO/3VBAOaFPkdEHoTZq9VFgP4rOzGw/jyqdVd5spfXSl3LNB1fwrwaWef75Q1hCuwlY4GaKjQ==",
+				"shasum": "ad73200ca18452aff333df2e2791be4544c422a9",
+				"tarball": "https://registry.npmjs.org/react-inspector/-/react-inspector-4.0.0.tgz",
+				"fileCount": 10,
+				"unpackedSize": 771284,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdjMuVCRA9TVsSAnZWagAAkK4P/1HrsrATwcunowd0rpYX\nIitmOO0Gr0B5fqVt1hb8DyYzR6/Je1sBm1gVNp2twH7DkxpG9HmjN4PXTzyO\nehtDXmf1ghEMDL+zjg6qhunsmB617Q00Bt4Q2aqF4Guis1wQsFbCXoxfdHgQ\nC3lBoHmDmywWmINcyu1PQNjV+SbEnoSu/4w9HGg/MruGelww/VkPaYW9As+T\nPYMi9Zjgu2qXsLNpW35kKciA6Lot6OiAY5/fWiL285NuBhk7M07U5xyPmL9k\n30UkGn4XNJbAQipA1pLbhmjonV1ev8VMoa6wao98rLJB7C9aI1b1a9zwnAz4\n4mNLupDauicIdpXbONIF7piRQ06C2X3Q9jDfFVgfTQg5oTcECn5ygQfXc9M0\nc2gaP1gTNI9FhonZk4MUl4vbEFmtNj4zwiawmQItsbHtXdPrpgNUI8FpF8lK\nlXXMadf2zzBA/HjLNHRTSzi0RN7w1v0xs1M5PPCtPFO9GsRRLBA2Af0wie5I\naY0sKoui67T3fAWl7AN98McOvaYlGYMBIv9YQ3MDGb/Rqb0nuSzcGAZd6XlD\nMC6gJ7bNvi+Q8mpNbsEm2Hg1a7vqvwnuXdc/p9rKcxHxFdvXLnNy3jL3XyUz\nhSE/d7R+Ob2GahvpvTZ5mfQwYpZvrpm+V30XQTl+T8MnUAbT1ELIO401jo67\nJA82\r\n=Zd6X\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCxYns2GUxQiCy/QStRojAI4sVcrLEQZra7WgFVLoBNRQIhAKOyXmlL3Dvl8tnUNHTcEouhX0KjW9miUQwSY99p67u7"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "codyreichert",
+					"email": "codyreichert@gmail.com"
+				},
+				{
+					"name": "ndelangen",
+					"email": "ndelangen@me.com"
+				},
+				{
+					"name": "xyc",
+					"email": "cxychina@gmail.com"
+				}
+			],
+			"_npmUser": {
+				"name": "ndelangen",
+				"email": "ndelangen@me.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-inspector_4.0.0_1569508244894_0.39051916229815964"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"4.0.1": {
+			"name": "react-inspector",
+			"version": "4.0.1",
+			"description": "Power of Browser DevTools inspectors right inside your React app",
+			"keywords": [
+				"devtools",
+				"inspector",
+				"object",
+				"object-inspector",
+				"react",
+				"react-component",
+				"reactjs",
+				"table",
+				"table-inspector",
+				"table-view",
+				"tableview",
+				"tree",
+				"tree-view",
+				"treeview",
+				"ui",
+				"view"
+			],
+			"homepage": "https://github.com/xyc/react-inspector",
+			"bugs": {
+				"url": "https://github.com/xyc/react-inspector/issues"
+			},
+			"license": "MIT",
+			"author": {
+				"name": "Xiaoyi Chen",
+				"email": "cxychina@gmail.com",
+				"url": "http://github.com/xyc"
+			},
+			"main": "dist/cjs/react-inspector.js",
+			"module": "dist/es/react-inspector.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/xyc/react-inspector.git"
+			},
+			"scripts": {
+				"build": "rollup -c",
+				"build-storybook": "build-storybook -o storybook-static",
+				"clean": "rimraf dist",
+				"lint": "eslint src --fix",
+				"prerelease": "npm run lint && npm run test && npm run clean && npm run build",
+				"release": "npm publish . --access public",
+				"storybook": "start-storybook -p 9001",
+				"test": "jest src",
+				"test-updatesnapshot": "jest src --update-snapshot",
+				"test-watch": "npm run test -- --watch",
+				"chromatic": "CHROMATIC_APP_CODE=17yeg4lpa7q chromatic test"
+			},
+			"dependencies": {
+				"@babel/runtime": "^7.6.3",
+				"is-dom": "^1.0.9",
+				"prop-types": "^15.6.1"
+			},
+			"devDependencies": {
+				"@babel/cli": "^7.2.3",
+				"@babel/core": "^7.2.2",
+				"@babel/plugin-proposal-class-properties": "^7.3.0",
+				"@babel/plugin-proposal-do-expressions": "^7.2.0",
+				"@babel/plugin-proposal-export-default-from": "^7.2.0",
+				"@babel/plugin-proposal-logical-assignment-operators": "^7.2.0",
+				"@babel/plugin-proposal-nullish-coalescing-operator": "^7.2.0",
+				"@babel/plugin-proposal-object-rest-spread": "^7.3.1",
+				"@babel/plugin-proposal-optional-chaining": "^7.2.0",
+				"@babel/plugin-syntax-bigint": "^7.2.0",
+				"@babel/plugin-transform-object-assign": "^7.2.0",
+				"@babel/plugin-transform-runtime": "^7.4.0",
+				"@babel/preset-env": "^7.3.1",
+				"@babel/preset-react": "^7.0.0",
+				"@babel/register": "^7.0.0",
+				"@storybook/react": "^5.0.10",
+				"babel-eslint": "^10.0.1",
+				"babel-loader": "^8.0.5",
+				"core-js": "^3.0.1",
+				"css-loader": "^2.1.0",
+				"eslint": "^5.13.0",
+				"eslint-plugin-jasmine": "^2.9.3",
+				"eslint-plugin-react": "^7.7.0",
+				"expect": "^24.0.0",
+				"jest": "^24.0.0",
+				"prettier": "^1.16.3",
+				"react": "^16.8.4",
+				"react-dom": "^16.8.4",
+				"react-hot-loader": "^4.0.1",
+				"react-test-renderer": "^16.8.0-alpha.1",
+				"rimraf": "^2.6.2",
+				"rollup": "^1.7.3",
+				"rollup-plugin-babel": "^4.3.2",
+				"rollup-plugin-commonjs": "^9.2.2",
+				"rollup-plugin-node-resolve": "^4.0.1",
+				"storybook-chromatic": "^2.2.2",
+				"style-loader": "^0.23.1",
+				"webpack": "^4.5.0",
+				"webpack-cli": "^3.2.1",
+				"webpack-dev-server": "^3.1.3"
+			},
+			"peerDependencies": {
+				"react": "^16.8.4"
+			},
+			"gitHead": "91a4931c480914871fa1806fafcecbb1eefb019c",
+			"_id": "react-inspector@4.0.1",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "10.13.0",
+			"_npmUser": {
+				"name": "xyc",
+				"email": "cxychina@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-xSiM6CE79JBqSj8Fzd9dWBHv57tLTH7OM57GP3VrE5crzVF3D5Khce9w1Xcw75OAbvrA0Mi2vBneR1OajKmXFg==",
+				"shasum": "0f888f78ff7daccbc7be5d452b20c96dc6d5fbb8",
+				"tarball": "https://registry.npmjs.org/react-inspector/-/react-inspector-4.0.1.tgz",
+				"fileCount": 10,
+				"unpackedSize": 1061921,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeZCRqCRA9TVsSAnZWagAA6yQP/25s58MN1WCuuiRFEyiM\n3U3nxQCEHjQTbpcEg9O1czm5SJHZktFBdFAvK2ZayhVUAUSYczGyF3lv7bCJ\nVRCFEQLYn30T/DefoR3kJRyWgCVdNOjBocO8LyCD2WM3m2r7zqhI2oR14uL/\nJbk94YwDpvqidZOScfc6nR+6/gK9eKbdPzAGq9voZzqv5d7ZPQV1DXqDh8lD\nOj5315YSSd3SRvdmmKohiTghocdfPL785jd61O7tZkHB57ukRmi5H82A5NAa\nTzDuzBSJCcWbMep27i2eS/mToUnfK/kEF1QqpHtegCqiwz4xIwxSiT34zAgX\nOdYfDo9UH66hFJdeH6R3I3W7VnMbK9H0+OSFcGTmPcXLUEbh7L1PfIIku54p\nmJmrw+ABlWzyXAKiXzeGfsz6V5dpY2Z7KTzsdaOHqEO+LfwBIhTuKT26WMOG\nvnuCOldEX3IVrozaG+sVvRH4sk3eyWJpUh9wgA0FkRzeZeGBCuxHO4AienqX\n2Uo9GjCsHScOmGmyWZRYmhdUHUfIFxt73ekolTbymfodiKLSxTgHOhP53SEL\nlp+DFPN6YRT1YejQYgO8TJ64mnjf8v7kblWcYOo516L4dIKyatO/tW9zHbV1\nTsHTAiGWRe5NtuwIH/LSLA5tz1Hql+hGO+mQu7J+ajevebkHBmJARFIBjZ7B\nPMV+\r\n=/2pW\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIHh2klmwvbq5dGpReUI4Xi64fF+UxvwpX0HFuJgl6FmzAiEAihtv0yzo3FuxT7k9Xy9ghASV7W30XIRZO3sayAqpNRQ="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "codyreichert",
+					"email": "codyreichert@gmail.com"
+				},
+				{
+					"name": "ndelangen",
+					"email": "ndelangen@me.com"
+				},
+				{
+					"name": "xyc",
+					"email": "cxychina@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-inspector_4.0.1_1583621225768_0.12147219021198197"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"5.0.0": {
+			"name": "react-inspector",
+			"version": "5.0.0",
+			"description": "Power of Browser DevTools inspectors right inside your React app",
+			"keywords": [
+				"devtools",
+				"inspector",
+				"object",
+				"object-inspector",
+				"react",
+				"react-component",
+				"reactjs",
+				"table",
+				"table-inspector",
+				"table-view",
+				"tableview",
+				"tree",
+				"tree-view",
+				"treeview",
+				"ui",
+				"view"
+			],
+			"homepage": "https://github.com/xyc/react-inspector",
+			"bugs": {
+				"url": "https://github.com/xyc/react-inspector/issues"
+			},
+			"license": "MIT",
+			"author": {
+				"name": "Xiaoyi Chen",
+				"email": "cxychina@gmail.com",
+				"url": "http://github.com/xyc"
+			},
+			"main": "dist/cjs/react-inspector.js",
+			"module": "dist/es/react-inspector.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/xyc/react-inspector.git"
+			},
+			"scripts": {
+				"build": "rollup -c",
+				"build-storybook": "build-storybook -o storybook-static",
+				"clean": "rimraf dist",
+				"lint": "eslint src --fix",
+				"prerelease": "npm run lint && npm run test && npm run clean && npm run build",
+				"release": "npm publish . --access public",
+				"storybook": "start-storybook -p 9001",
+				"test": "jest src",
+				"test-updatesnapshot": "jest src --update-snapshot",
+				"test-watch": "npm run test -- --watch",
+				"chromatic": "CHROMATIC_APP_CODE=17yeg4lpa7q chromatic test"
+			},
+			"dependencies": {
+				"@babel/runtime": "^7.6.3",
+				"is-dom": "^1.0.9",
+				"prop-types": "^15.6.1"
+			},
+			"devDependencies": {
+				"@babel/cli": "^7.2.3",
+				"@babel/core": "^7.2.2",
+				"@babel/plugin-proposal-class-properties": "^7.3.0",
+				"@babel/plugin-proposal-do-expressions": "^7.2.0",
+				"@babel/plugin-proposal-export-default-from": "^7.2.0",
+				"@babel/plugin-proposal-logical-assignment-operators": "^7.2.0",
+				"@babel/plugin-proposal-nullish-coalescing-operator": "^7.2.0",
+				"@babel/plugin-proposal-object-rest-spread": "^7.3.1",
+				"@babel/plugin-proposal-optional-chaining": "^7.2.0",
+				"@babel/plugin-syntax-bigint": "^7.2.0",
+				"@babel/plugin-transform-object-assign": "^7.2.0",
+				"@babel/plugin-transform-runtime": "^7.4.0",
+				"@babel/preset-env": "^7.3.1",
+				"@babel/preset-react": "^7.0.0",
+				"@babel/register": "^7.0.0",
+				"@storybook/react": "^5.0.10",
+				"babel-eslint": "^10.0.1",
+				"babel-loader": "^8.0.5",
+				"core-js": "^3.0.1",
+				"css-loader": "^2.1.0",
+				"eslint": "^5.13.0",
+				"eslint-plugin-jasmine": "^2.9.3",
+				"eslint-plugin-react": "^7.7.0",
+				"expect": "^24.0.0",
+				"jest": "^24.0.0",
+				"prettier": "^1.16.3",
+				"react": "^16.8.4",
+				"react-dom": "^16.8.4",
+				"react-hot-loader": "^4.0.1",
+				"react-test-renderer": "^16.8.0-alpha.1",
+				"rimraf": "^2.6.2",
+				"rollup": "^1.7.3",
+				"rollup-plugin-babel": "^4.3.2",
+				"rollup-plugin-commonjs": "^9.2.2",
+				"rollup-plugin-node-resolve": "^4.0.1",
+				"storybook-chromatic": "^2.2.2",
+				"style-loader": "^0.23.1",
+				"webpack": "^4.5.0",
+				"webpack-cli": "^3.2.1",
+				"webpack-dev-server": "^3.1.3"
+			},
+			"peerDependencies": {
+				"react": "^16.8.4"
+			},
+			"gitHead": "dc35762906fb4982440567ad067aa951c4ba1619",
+			"_id": "react-inspector@5.0.0",
+			"_nodeVersion": "12.14.1",
+			"_npmVersion": "6.13.4",
+			"dist": {
+				"integrity": "sha512-R0uHfWDJsKKqfZ/xocQme0cYIxwx0Kd8wPQoEwyEcoBXMtBPEiSjL3k+NqmoznXpSSn9tg5UMJ64CRiuzUukyQ==",
+				"shasum": "8e7ea3a64e0a4783c440986e0b14936f8fe40c80",
+				"tarball": "https://registry.npmjs.org/react-inspector/-/react-inspector-5.0.0.tgz",
+				"fileCount": 11,
+				"unpackedSize": 1010190,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeZ7LGCRA9TVsSAnZWagAAQwUP/R1ACOitIgcen3XHLdSX\nHX2Klg45rMZ1BFRi8CtnQkTPyQ9r+FZsgA5U06J3HS8xSiaHUOb8UuhwWtkO\n0aezmXY9tfkPlVVAUetD68mrLIAJT7rFl1MXYmVaXmAyhHhEsaO8zTIyZ/n1\nQ6KsUup/CozXAeRdp56lJK7D/okxVipolYQRr554hPEHQ9SCjJEmrSdO4KxE\nZ7Kls3RhDrjTW3npefO1U38kHDWajwuOeb5nD0mgXk45m7iVR9ec/5q+6881\nRtm8Cg/klw3ilUMAV8P7RHX7vE+R0271ICDPdKfkpEGXqI84+FXP34bWWZCn\nCM7LLhQXHKpp4ewYa7ww/HRHz2VX7yJFzrk9UKplZWEzD99htbcXWTbMDX09\nUjFQz4sPTEtQt0yDStjRNBAX3x8T6IsncV7eO+CmoWH841Jli5yuZrZFjBcR\nhKhC0+lkQqTj1h/uGI20qGOnI8UIyHsA5e7XukjAKhOH9bOHLM+JbKmyVsH/\nDBDyGv2kU/fB7Ikuvss2Ye/X6cwOZRXcGpxI1fgXWpYg+aHHkzmU6Ih7wmlG\nfvhuKFMFIyiROwzHGWYNXAOfDVfzqtbz03t0NHbbIfvo9xGoAZIF+9Xiy+Hc\ndP2+juRkk+OuSEab6+TDm4NO/9B/FqYsl9sK1948f/OFOTYDlf8eaj6Hy5NW\nPGRL\r\n=SRNi\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCOVlEzih8WkFyzaf8INard+d+w/XTKlJkkulNYQD4W8gIhANHf3TybaVB7AFTY92YjpbK+PSVMERtxvPv84UCHY3Ma"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "codyreichert",
+					"email": "codyreichert@gmail.com"
+				},
+				{
+					"name": "ndelangen",
+					"email": "ndelangen@me.com"
+				},
+				{
+					"name": "xyc",
+					"email": "cxychina@gmail.com"
+				}
+			],
+			"_npmUser": {
+				"name": "ndelangen",
+				"email": "ndelangen@me.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-inspector_5.0.0_1583854278137_0.519722234895482"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"5.0.1": {
+			"name": "react-inspector",
+			"version": "5.0.1",
+			"description": "Power of Browser DevTools inspectors right inside your React app",
+			"keywords": [
+				"devtools",
+				"inspector",
+				"object",
+				"object-inspector",
+				"react",
+				"react-component",
+				"reactjs",
+				"table",
+				"table-inspector",
+				"table-view",
+				"tableview",
+				"tree",
+				"tree-view",
+				"treeview",
+				"ui",
+				"view"
+			],
+			"homepage": "https://github.com/xyc/react-inspector",
+			"bugs": {
+				"url": "https://github.com/xyc/react-inspector/issues"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/xyc/react-inspector.git"
+			},
+			"license": "MIT",
+			"author": {
+				"name": "Xiaoyi Chen",
+				"email": "cxychina@gmail.com",
+				"url": "http://github.com/xyc"
+			},
+			"main": "dist/cjs/react-inspector.js",
+			"module": "dist/es/react-inspector.js",
+			"scripts": {
+				"build": "rollup -c",
+				"build-storybook": "build-storybook -o storybook-static",
+				"chromatic": "CHROMATIC_APP_CODE=17yeg4lpa7q chromatic",
+				"clean": "rimraf dist",
+				"lint": "eslint src --fix",
+				"prerelease": "npm run lint && npm run test && npm run clean && npm run build",
+				"release": "npm publish . --access public",
+				"storybook": "start-storybook -p 9001",
+				"test": "jest src",
+				"test-updatesnapshot": "jest src --update-snapshot",
+				"test-watch": "npm run test -- --watch"
+			},
+			"dependencies": {
+				"@babel/runtime": "^7.8.7",
+				"is-dom": "^1.1.0",
+				"prop-types": "^15.6.1"
+			},
+			"devDependencies": {
+				"@babel/cli": "^7.8.4",
+				"@babel/core": "^7.8.7",
+				"@babel/plugin-proposal-class-properties": "^7.8.3",
+				"@babel/plugin-proposal-do-expressions": "^7.8.3",
+				"@babel/plugin-proposal-export-default-from": "^7.8.3",
+				"@babel/plugin-proposal-logical-assignment-operators": "^7.8.3",
+				"@babel/plugin-proposal-nullish-coalescing-operator": "^7.8.3",
+				"@babel/plugin-proposal-object-rest-spread": "^7.8.3",
+				"@babel/plugin-proposal-optional-chaining": "^7.8.3",
+				"@babel/plugin-syntax-bigint": "^7.8.3",
+				"@babel/plugin-transform-object-assign": "^7.8.3",
+				"@babel/plugin-transform-runtime": "^7.8.3",
+				"@babel/preset-env": "^7.8.7",
+				"@babel/preset-react": "^7.8.3",
+				"@babel/register": "^7.8.6",
+				"@storybook/react": "^5.3.14",
+				"babel-eslint": "^10.1.0",
+				"babel-loader": "^8.0.6",
+				"core-js": "^3.6.4",
+				"css-loader": "^3.4.2",
+				"eslint": "^6.8.0",
+				"eslint-plugin-jasmine": "^4.1.0",
+				"eslint-plugin-react": "^7.19.0",
+				"expect": "^25.1.0",
+				"jest": "^25.1.0",
+				"prettier": "^1.19.1",
+				"react": "^16.13.0",
+				"react-dom": "^16.13.0",
+				"react-hot-loader": "^4.12.19",
+				"react-test-renderer": "^16.13.0",
+				"rimraf": "^3.0.2",
+				"rollup": "^2.0.3",
+				"rollup-plugin-babel": "^4.4.0",
+				"rollup-plugin-commonjs": "^10.1.0",
+				"rollup-plugin-node-resolve": "^5.2.0",
+				"storybook-chromatic": "^3.5.2",
+				"style-loader": "^1.1.3",
+				"webpack": "^4.42.0",
+				"webpack-cli": "^3.3.11",
+				"webpack-dev-server": "^3.10.3"
+			},
+			"peerDependencies": {
+				"react": "^16.8.4"
+			},
+			"gitHead": "9ae745d1810eb08421f27a05b8391cef6d68ab92",
+			"_id": "react-inspector@5.0.1",
+			"_nodeVersion": "12.14.1",
+			"_npmVersion": "6.13.4",
+			"dist": {
+				"integrity": "sha512-qRIENuAIcRaytrmg/TL5nN5igYZMzyQqIKlWA8zoYRDltULsZC1bWy2Ua5wYJuwEYnC3gK4FCjcIQnb+5OyLsQ==",
+				"shasum": "8a30f3d488c4f40203624bbe24800f508ae05d3a",
+				"tarball": "https://registry.npmjs.org/react-inspector/-/react-inspector-5.0.1.tgz",
+				"fileCount": 11,
+				"unpackedSize": 1062638,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeZ7RpCRA9TVsSAnZWagAAIL4QAIQnxUAYzKhx+j1CKEv3\nvlJSiQo0A9HG6g5Mkf/msn6IvOy50oajgnkgjcLYkrVH3FHZX3A/Y2sX3KUf\nG64pshk5TE27WE0IXXC45Zdqhdp3Y+kr752KRHdUSdXAgT10hq4Rlp2ioeK+\nIMiegLxXbucWil9kc8q5F7cN8+MnujB60cS1Z/GdYz9n3ddAG0o2i+SdwJj/\n8Dy1CQEW/LNJjgNA98SO1Hr2fb4eNoQyhh4/9FMcEfiz/HshvsWQ++6VRtuV\n/UDoscmV5pbCAdIXhMPao903wrra0kg0GjwlbyKLPrG0IQ9O9jEbKGWZieOm\nJKuityDM+YP9rq2X7a2ZwVhvt8yytjklbwi7jjx2vwEDElxHRb9SO2CUMUxe\n3I4cC7347BmLmJnQO0HQsJ3iUAFExUVBZaLYCGMV/fRCgziy1CInNC9hYcWa\nzy3TVPDsieja5pvUffQE2p5Rgi/uSN2E7fKiS7N5QXZSHBnsnTssaRZydx9Z\nxybu89oZFV4Ztw6bvVvDrGhh9pTo2mPXNy7yQpT4r8qQokJnn+SOxJ+C3tnI\nSQBzfEQIvWSDHz7wy8RsYgQJa/H9l51LhJ0X52euRSULxv7oKA7cqDZDqygv\nK0JfEilBpVKfrngPgJJcVfjTQyIh/pG3cpUEItVfbiEpn4yXCRh7MrzLqpwR\n/PyX\r\n=ZLvA\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIGcRq8qmGBJKS424DayCbpkk6E1k4VMsn21Cnoi6p+B0AiEAtz1URNT0A3htzA5netLR89VA+9RzaZyU24lWNVPeYPA="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "codyreichert",
+					"email": "codyreichert@gmail.com"
+				},
+				{
+					"name": "ndelangen",
+					"email": "ndelangen@me.com"
+				},
+				{
+					"name": "xyc",
+					"email": "cxychina@gmail.com"
+				}
+			],
+			"_npmUser": {
+				"name": "ndelangen",
+				"email": "ndelangen@me.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-inspector_5.0.1_1583854696434_0.3937260693777158"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"5.1.0-debug.0": {
+			"name": "react-inspector",
+			"version": "5.1.0-debug.0",
+			"description": "Power of Browser DevTools inspectors right inside your React app",
+			"keywords": [
+				"devtools",
+				"inspector",
+				"object",
+				"object-inspector",
+				"react",
+				"react-component",
+				"reactjs",
+				"table",
+				"table-inspector",
+				"table-view",
+				"tableview",
+				"tree",
+				"tree-view",
+				"treeview",
+				"ui",
+				"view"
+			],
+			"homepage": "https://github.com/xyc/react-inspector",
+			"bugs": {
+				"url": "https://github.com/xyc/react-inspector/issues"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/xyc/react-inspector.git"
+			},
+			"license": "MIT",
+			"author": {
+				"name": "Xiaoyi Chen",
+				"email": "cxychina@gmail.com",
+				"url": "http://github.com/xyc"
+			},
+			"main": "dist/cjs/react-inspector.js",
+			"module": "dist/es/react-inspector.js",
+			"scripts": {
+				"build": "rollup -c",
+				"build-storybook": "build-storybook",
+				"chromatic": "chromatic --project-token=17yeg4lpa7q",
+				"clean": "rimraf dist",
+				"lint": "eslint src --fix",
+				"prerelease": "npm run lint && npm run test && npm run clean && npm run build",
+				"release": "npm publish . --access public",
+				"storybook": "start-storybook -p 9001",
+				"test": "jest src",
+				"test-updatesnapshot": "jest src --update-snapshot",
+				"test-watch": "npm run test -- --watch"
+			},
+			"dependencies": {
+				"@babel/runtime": "^7.0.0",
+				"is-dom": "^1.0.0",
+				"prop-types": "^15.0.0"
+			},
+			"devDependencies": {
+				"@babel/cli": "^7.11.6",
+				"@babel/core": "^7.11.6",
+				"@babel/plugin-proposal-class-properties": "^7.10.4",
+				"@babel/plugin-proposal-do-expressions": "^7.10.4",
+				"@babel/plugin-proposal-export-default-from": "^7.10.4",
+				"@babel/plugin-proposal-logical-assignment-operators": "^7.11.0",
+				"@babel/plugin-proposal-nullish-coalescing-operator": "^7.10.4",
+				"@babel/plugin-proposal-object-rest-spread": "^7.11.0",
+				"@babel/plugin-proposal-optional-chaining": "^7.11.0",
+				"@babel/plugin-syntax-bigint": "^7.8.3",
+				"@babel/plugin-transform-object-assign": "^7.10.4",
+				"@babel/plugin-transform-runtime": "^7.11.5",
+				"@babel/preset-env": "^7.11.5",
+				"@babel/preset-react": "^7.10.4",
+				"@babel/register": "^7.11.5",
+				"@storybook/react": "^6.0.21",
+				"babel-eslint": "^10.1.0",
+				"babel-loader": "^8.1.0",
+				"chromatic": "^5.1.0",
+				"core-js": "^3.6.5",
+				"css-loader": "^4.3.0",
+				"eslint": "^7.8.1",
+				"eslint-plugin-jasmine": "^4.1.1",
+				"eslint-plugin-react": "^7.20.6",
+				"expect": "^26.4.2",
+				"jest": "^26.4.2",
+				"prettier": "^2.1.1",
+				"react": "^16.13.1",
+				"react-dom": "^16.13.1",
+				"react-hot-loader": "^4.12.21",
+				"react-test-renderer": "^16.13.1",
+				"rimraf": "^3.0.2",
+				"rollup": "^2.26.11",
+				"rollup-plugin-babel": "^4.4.0",
+				"rollup-plugin-cleanup": "^3.1.1",
+				"rollup-plugin-commonjs": "^10.1.0",
+				"rollup-plugin-node-resolve": "^5.2.0",
+				"style-loader": "^1.2.1",
+				"webpack": "^4.44.1",
+				"webpack-cli": "^3.3.12",
+				"webpack-dev-server": "^3.11.0"
+			},
+			"peerDependencies": {
+				"react": "^16.8.4"
+			},
+			"readmeFilename": "README.md",
+			"gitHead": "1ad356553896fcf99f54ca79fdc2823940d2d14c",
+			"_id": "react-inspector@5.1.0-debug.0",
+			"_nodeVersion": "12.16.3",
+			"_npmVersion": "6.14.7",
+			"dist": {
+				"integrity": "sha512-XFtGBcdv+onrogPqe4pS5YwSBkuSuGOgmVVwD90QerUiy9csRUtu8ZHBza1J8mS7GlPtEuHhFUZzsjidUHNEGg==",
+				"shasum": "1753d417f88670890ca42778e9aa023e931f1f25",
+				"tarball": "https://registry.npmjs.org/react-inspector/-/react-inspector-5.1.0-debug.0.tgz",
+				"fileCount": 28,
+				"unpackedSize": 17126450,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfWh4wCRA9TVsSAnZWagAA7jUP/2xhqjck4uv1Wo0qnC4k\nTRRquX4VAA7YFUdzC7eE4J54+4+dSZYQHOHzB1MqK22xbVOBM+j38UAMOIAP\nxGk548AUCOy3UwYjxXTs/MvTbONrkuXQQ+svw6qILm9OpXITKG04PVVPQsPf\n46g+0qWr3QfvD23Mb8UzKaAGP+2tk247XpaOwpsKIpj4YS4dFuWRQJZIA3bA\nHKw1v3Q2OmOQdnGqnlc0rxkjpUTxkJcOl05CMsFDefBNcUtDVm3PYr3MKdSZ\nRzpAfhZBmg7yEPt/dRrVyDLc/C3pGICLsY+BXIriSU2b1SuL3TkHHMiH+PB5\nHzpkPeR8AgMerBRzVtb75kB8L8g1Inmfu8z6MKqS3c6Y8BZIVJNZEGF+SfCu\nshX8MmBYz1VrtW6D3k4CJbUE3enxfV+zf8YZ4MnOmjdJEnOvo7KfyyfVNKYe\nW1i/QdxdvVKpHtvQzzWVkgmg7tPCgETJwAsNeHHGjWtDsy7/ArvdfVDIGaab\nz2mm6eOYlvYE3mV9ye7Bg4zyq/qTfDV3pBdYyidMSv/MrgaGlKHiyBYSipiV\nolott57p/AlmGq8nAImI1zBR3Cuqs0me+hBrfe2NhGeU9Hay5HQPBDNxW/vB\nct6FATXruP3IQML5oIO+qVyY6Fsrs8jUAMfhsm8LMm3xKkrzniSbwpF3LWsJ\nKQoP\r\n=801Q\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQCuuSLfa/Wzq/qGJXDVRugtmS3JT6VTkhtKFb8zFOL0+QIgf6cx5o/09acJ4HpN0PGMAy+vtiavg6hemH0ovrDmvH0="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "xyc",
+					"email": "cxychina@gmail.com"
+				},
+				{
+					"name": "ndelangen",
+					"email": "ndelangen@me.com"
+				}
+			],
+			"_npmUser": {
+				"name": "ndelangen",
+				"email": "ndelangen@me.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-inspector_5.1.0-debug.0_1599741488430_0.9292045828300672"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"5.1.0": {
+			"name": "react-inspector",
+			"version": "5.1.0",
+			"description": "Power of Browser DevTools inspectors right inside your React app",
+			"keywords": [
+				"devtools",
+				"inspector",
+				"object",
+				"object-inspector",
+				"react",
+				"react-component",
+				"reactjs",
+				"table",
+				"table-inspector",
+				"table-view",
+				"tableview",
+				"tree",
+				"tree-view",
+				"treeview",
+				"ui",
+				"view"
+			],
+			"homepage": "https://github.com/xyc/react-inspector",
+			"bugs": {
+				"url": "https://github.com/xyc/react-inspector/issues"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/xyc/react-inspector.git"
+			},
+			"license": "MIT",
+			"author": {
+				"name": "Xiaoyi Chen",
+				"email": "cxychina@gmail.com",
+				"url": "http://github.com/xyc"
+			},
+			"main": "dist/cjs/react-inspector.js",
+			"module": "dist/es/react-inspector.js",
+			"scripts": {
+				"build": "rollup -c",
+				"build-storybook": "build-storybook",
+				"chromatic": "chromatic --project-token=17yeg4lpa7q",
+				"clean": "rimraf dist",
+				"lint": "eslint src --fix",
+				"prerelease": "npm run lint && npm run test && npm run clean && npm run build",
+				"release": "npm publish . --access public",
+				"storybook": "start-storybook -p 9001",
+				"test": "jest src",
+				"test-updatesnapshot": "jest src --update-snapshot",
+				"test-watch": "npm run test -- --watch"
+			},
+			"dependencies": {
+				"@babel/runtime": "^7.0.0",
+				"is-dom": "^1.0.0",
+				"prop-types": "^15.0.0"
+			},
+			"devDependencies": {
+				"@babel/cli": "^7.11.6",
+				"@babel/core": "^7.11.6",
+				"@babel/plugin-proposal-class-properties": "^7.10.4",
+				"@babel/plugin-proposal-do-expressions": "^7.10.4",
+				"@babel/plugin-proposal-export-default-from": "^7.10.4",
+				"@babel/plugin-proposal-logical-assignment-operators": "^7.11.0",
+				"@babel/plugin-proposal-nullish-coalescing-operator": "^7.10.4",
+				"@babel/plugin-proposal-object-rest-spread": "^7.11.0",
+				"@babel/plugin-proposal-optional-chaining": "^7.11.0",
+				"@babel/plugin-syntax-bigint": "^7.8.3",
+				"@babel/plugin-transform-object-assign": "^7.10.4",
+				"@babel/plugin-transform-runtime": "^7.11.5",
+				"@babel/preset-env": "^7.11.5",
+				"@babel/preset-react": "^7.10.4",
+				"@babel/register": "^7.11.5",
+				"@storybook/react": "^6.0.21",
+				"babel-eslint": "^10.1.0",
+				"babel-loader": "^8.1.0",
+				"chromatic": "^5.1.0",
+				"core-js": "^3.6.5",
+				"css-loader": "^4.3.0",
+				"eslint": "^7.8.1",
+				"eslint-plugin-jasmine": "^4.1.1",
+				"eslint-plugin-react": "^7.20.6",
+				"expect": "^26.4.2",
+				"jest": "^26.4.2",
+				"prettier": "^2.1.1",
+				"react": "^16.13.1",
+				"react-dom": "^16.13.1",
+				"react-hot-loader": "^4.12.21",
+				"react-test-renderer": "^16.13.1",
+				"rimraf": "^3.0.2",
+				"rollup": "^2.26.11",
+				"rollup-plugin-babel": "^4.4.0",
+				"rollup-plugin-cleanup": "^3.1.1",
+				"rollup-plugin-commonjs": "^10.1.0",
+				"rollup-plugin-node-resolve": "^5.2.0",
+				"style-loader": "^1.2.1",
+				"webpack": "^4.44.1",
+				"webpack-cli": "^3.3.12",
+				"webpack-dev-server": "^3.11.0"
+			},
+			"peerDependencies": {
+				"react": "^16.8.4"
+			},
+			"gitHead": "6a7d9ee659d123f618fe13dae30a4f8cb341db77",
+			"_id": "react-inspector@5.1.0",
+			"_nodeVersion": "12.16.3",
+			"_npmVersion": "6.14.7",
+			"dist": {
+				"integrity": "sha512-JAwswiengIcxi4X/Ssb8nf6suOuQsyit8Fxo04+iPKTnPNY3XIOuagjMZSzpJDDKkYcc/ARlySOYZZv626WUvA==",
+				"shasum": "45a325e15f33e595be5356ca2d3ceffb7d6b8c3a",
+				"tarball": "https://registry.npmjs.org/react-inspector/-/react-inspector-5.1.0.tgz",
+				"fileCount": 28,
+				"unpackedSize": 17126442,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfWiOwCRA9TVsSAnZWagAALrgP/jZ2NHgfE7WfErTgCTAW\nZhwDhbnvuqBNZSfIN8/r8WSV67LTi5RWLt1Dmy9STDyjrJhOuP1AksqBgRqO\nRitnZ55Tf/8pYCo+pYIW+J8ngyG8rGVspGNdNY6R/tHBFKTmZxI8Hf4Lkje/\nAg0QMlxgv1fxJk6auLJdMeGAIy9zEl9Lg4j/dLXDvJWYeKGEdlYGl8MvlDnM\nIYnvmP8Qm+PBxpjen1guQvfNn79aSeb8jI8s++3PMO5blb7g+vJpUEShofmc\nfFcW7U6iA7LPFZva4V9ODlq30PX2KegIr/0JUWVBzzeAO9jwZSjKu+zUrzm6\njIaasnAk9vOO6b3yk6e1ZzvX7/vfruV5iM0peXDR7n+mOgk5wQNsh0TLisjo\nHAsErl+cfySg7WwMy3tMQJr5sHFnhZWQLMtE1aNVwL8YDhhlDB1zOdNBKY1O\ntiB/VhkREG0tg3BbxGq3vStarxlJpmOWyfsX8smGS5LINxYO73YZIpdeQYWN\nB7HWEgf9NSYeDDHrP1O7Z/Fki894rYE9kqcTmgpgsa9qakwZpIX+5TmuGHdi\nP0TiSvACVGXI4iqAnJBK/PKy4xWnRn2o7Alw/xfWYVzPHHZn/OVQmJ+UTZOD\nMomXRlpS2v0vyHfvD7LJrvV8W+YjyoGqs+caAcaqksZ16OlKqWbsz/v4kEYZ\nnVVS\r\n=xqdB\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIGOZULZsY9vv+P2ljjaFnb0HcCAI0OhYjq+d84+tU++TAiBSrf1hy4UkvAhJSnOkuBpzx64Jd/yfkbZsHwDD+rGNbw=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "xyc",
+					"email": "cxychina@gmail.com"
+				},
+				{
+					"name": "ndelangen",
+					"email": "ndelangen@me.com"
+				}
+			],
+			"_npmUser": {
+				"name": "ndelangen",
+				"email": "ndelangen@me.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-inspector_5.1.0_1599742896374_0.5628426513165381"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"5.1.1": {
+			"name": "react-inspector",
+			"version": "5.1.1",
+			"description": "Power of Browser DevTools inspectors right inside your React app",
+			"keywords": [
+				"devtools",
+				"inspector",
+				"object",
+				"object-inspector",
+				"react",
+				"react-component",
+				"reactjs",
+				"table",
+				"table-inspector",
+				"table-view",
+				"tableview",
+				"tree",
+				"tree-view",
+				"treeview",
+				"ui",
+				"view"
+			],
+			"homepage": "https://github.com/xyc/react-inspector",
+			"bugs": {
+				"url": "https://github.com/xyc/react-inspector/issues"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/xyc/react-inspector.git"
+			},
+			"license": "MIT",
+			"author": {
+				"name": "Xiaoyi Chen",
+				"email": "cxychina@gmail.com",
+				"url": "http://github.com/xyc"
+			},
+			"main": "dist/cjs/react-inspector.js",
+			"module": "dist/es/react-inspector.js",
+			"scripts": {
+				"build": "rollup -c",
+				"build-storybook": "build-storybook",
+				"chromatic": "chromatic --project-token=17yeg4lpa7q",
+				"clean": "rimraf dist",
+				"lint": "eslint src --fix",
+				"prerelease": "npm run lint && npm run test && npm run clean && npm run build",
+				"release": "npm publish . --access public",
+				"storybook": "start-storybook -p 9001",
+				"test": "jest src",
+				"test-updatesnapshot": "jest src --update-snapshot",
+				"test-watch": "npm run test -- --watch"
+			},
+			"dependencies": {
+				"@babel/runtime": "^7.0.0",
+				"is-dom": "^1.0.0",
+				"prop-types": "^15.0.0"
+			},
+			"devDependencies": {
+				"@babel/cli": "^7.11.6",
+				"@babel/core": "^7.11.6",
+				"@babel/plugin-proposal-class-properties": "^7.10.4",
+				"@babel/plugin-proposal-do-expressions": "^7.10.4",
+				"@babel/plugin-proposal-export-default-from": "^7.10.4",
+				"@babel/plugin-proposal-logical-assignment-operators": "^7.11.0",
+				"@babel/plugin-proposal-nullish-coalescing-operator": "^7.10.4",
+				"@babel/plugin-proposal-object-rest-spread": "^7.11.0",
+				"@babel/plugin-proposal-optional-chaining": "^7.11.0",
+				"@babel/plugin-syntax-bigint": "^7.8.3",
+				"@babel/plugin-transform-object-assign": "^7.10.4",
+				"@babel/plugin-transform-runtime": "^7.11.5",
+				"@babel/preset-env": "^7.11.5",
+				"@babel/preset-react": "^7.10.4",
+				"@babel/register": "^7.11.5",
+				"@storybook/react": "^6.0.21",
+				"babel-eslint": "^10.1.0",
+				"babel-loader": "^8.1.0",
+				"chromatic": "^5.1.0",
+				"core-js": "^3.6.5",
+				"css-loader": "^4.3.0",
+				"eslint": "^7.8.1",
+				"eslint-plugin-jasmine": "^4.1.1",
+				"eslint-plugin-react": "^7.20.6",
+				"expect": "^26.4.2",
+				"jest": "^26.4.2",
+				"prettier": "^2.1.1",
+				"react": "^16.13.1",
+				"react-dom": "^16.13.1",
+				"react-hot-loader": "^4.12.21",
+				"react-test-renderer": "^16.13.1",
+				"rimraf": "^3.0.2",
+				"rollup": "^2.26.11",
+				"rollup-plugin-babel": "^4.4.0",
+				"rollup-plugin-cleanup": "^3.1.1",
+				"rollup-plugin-commonjs": "^10.1.0",
+				"rollup-plugin-node-resolve": "^5.2.0",
+				"style-loader": "^1.2.1",
+				"webpack": "^4.44.1",
+				"webpack-cli": "^3.3.12",
+				"webpack-dev-server": "^3.11.0"
+			},
+			"peerDependencies": {
+				"react": "^16.8.4 || ^17.0.0"
+			},
+			"gitHead": "7403d6604309403fd1cb9b4a129ee1fb1650117e",
+			"_id": "react-inspector@5.1.1",
+			"_nodeVersion": "15.14.0",
+			"_npmVersion": "7.7.6",
+			"dist": {
+				"integrity": "sha512-GURDaYzoLbW8pMGXwYPDBIv6nqei4kK7LPRZ9q9HCZF54wqXz/dnylBp/kfE9XmekBhHvLDdcYeyIwSrvtOiWg==",
+				"shasum": "58476c78fde05d5055646ed8ec02030af42953c8",
+				"tarball": "https://registry.npmjs.org/react-inspector/-/react-inspector-5.1.1.tgz",
+				"fileCount": 10,
+				"unpackedSize": 1026111,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgeEjLCRA9TVsSAnZWagAAj+YP/0JwfzLcChTahCzz7Gtn\nRs0TWXa9BxOuzHu+4CPPMpCLYBibxsGg3doLEiMbu4ai+g7auiBk+s4wq9a5\nk3jJiVfCoOD3IFFkNDYNuLvPcCqEIH2LCzzTKyG2q5kL7CdLKJVn9Pbdo8Mo\nkhyOKlayFoOj16yJXCSn2RikEtxHkb9B3xHp+bgQnuFlb9XSrTdNprxZibcd\n9PS+wsKFvcn9FeXUd1k9hloNqtdGeBD5dKCq3YKQqrTD2UVUhTPwAGhaHToI\n7QOmUOQ19VNUSmYXQLWKT0pq9Ss7TaeoXKzamapFl9r6Xw7j4LdiVJ+szBuS\nqeMmcusxkowIMPbYxQVRZg4CzFlUeVtc8HbzEVscFgZZegtw2vXtAavBlv6j\nFyrXOXb0aknZGKsUc4+fkKvB/bFEoOHdgUln63or65AO/NXwBN6VKTblfZsv\nstTgr3AniERsEetkvlaAa5kuCrR1WacihQuxx/1jDAVknk7inHU+ukDy2Gr7\nawka5qshmme5ZT7RPb+6wHTYtlpkkMKdY36d3hL/e16ZdsKX/g48CoU1BC/w\nBvWXt08Cw6bDCdMydDDVAozTvDoAOnQRpsR2we49q0hRkA3dSSGl/w4QrRky\nfxafkVUoFirzvHjBgl1z4U7tngQWhhqLcUc1ISK3xS8QyAKdODVhEjwbWrew\nzdqE\r\n=2qzo\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQC+xjSpyPzgEf69d65DLJj6OPxqB9iuCiiuzJlfAQsPtAIhAPUs/p1TegOyrpeHAC/gAbznJ0z2RhbB+2/hz4lJ0zWf"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "bret",
+				"email": "bcomnes@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "xyc",
+					"email": "cxychina@gmail.com"
+				},
+				{
+					"name": "bret",
+					"email": "bcomnes@gmail.com"
+				},
+				{
+					"name": "ndelangen",
+					"email": "ndelangen@me.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-inspector_5.1.1_1618495690846_0.21161769855604606"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"6.0.0": {
+			"name": "react-inspector",
+			"version": "6.0.0",
+			"description": "Power of Browser DevTools inspectors right inside your React app",
+			"keywords": [
+				"devtools",
+				"inspector",
+				"object",
+				"object-inspector",
+				"react",
+				"react-component",
+				"reactjs",
+				"table",
+				"table-inspector",
+				"table-view",
+				"tableview",
+				"tree",
+				"tree-view",
+				"treeview",
+				"ui",
+				"view"
+			],
+			"homepage": "https://github.com/xyc/react-inspector",
+			"bugs": {
+				"url": "https://github.com/xyc/react-inspector/issues"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/xyc/react-inspector.git"
+			},
+			"license": "MIT",
+			"author": {
+				"name": "Xiaoyi Chen",
+				"email": "cxychina@gmail.com",
+				"url": "http://github.com/xyc"
+			},
+			"exports": {
+				".": {
+					"require": "./dist/index.js",
+					"import": "./dist/index.mjs",
+					"types": "./dist/index.d.ts"
+				},
+				"./package.json": "./package.json"
+			},
+			"main": "dist/index.js",
+			"module": "dist/index.mjs",
+			"types": "dist/index.d.ts",
+			"scripts": {
+				"build": "tsup",
+				"build-storybook": "build-storybook",
+				"chromatic": "chromatic --project-token=17yeg4lpa7q",
+				"lint": "eslint src stories",
+				"prerelease": "npm run lint && npm run test && npm run build",
+				"release": "npm publish . --access public",
+				"storybook": "start-storybook -p 9001",
+				"test": "jest src"
+			},
+			"devDependencies": {
+				"@babel/core": "^7.11.6",
+				"@babel/plugin-proposal-class-properties": "^7.10.4",
+				"@babel/plugin-proposal-do-expressions": "^7.10.4",
+				"@babel/plugin-proposal-logical-assignment-operators": "^7.11.0",
+				"@babel/plugin-proposal-nullish-coalescing-operator": "^7.10.4",
+				"@babel/plugin-proposal-object-rest-spread": "^7.11.0",
+				"@babel/plugin-proposal-optional-chaining": "^7.11.0",
+				"@babel/plugin-syntax-bigint": "^7.8.3",
+				"@babel/plugin-transform-object-assign": "^7.10.4",
+				"@babel/plugin-transform-runtime": "^7.11.5",
+				"@babel/preset-env": "^7.11.5",
+				"@babel/preset-react": "^7.10.4",
+				"@babel/preset-typescript": "^7.18.6",
+				"@babel/register": "^7.11.5",
+				"@storybook/builder-webpack5": "^6.5.9",
+				"@storybook/manager-webpack5": "^6.5.9",
+				"@storybook/react": "^6.5.9",
+				"@types/is-dom": "^1.1.0",
+				"@types/react": "^16",
+				"@typescript-eslint/eslint-plugin": "^5.30.4",
+				"@typescript-eslint/parser": "^5.30.4",
+				"babel-loader": "^8.1.0",
+				"chromatic": "^6.7.0",
+				"eslint": "^8.19.0",
+				"eslint-config-prettier": "^8.5.0",
+				"eslint-plugin-prettier": "^4.2.1",
+				"expect": "^26.4.2",
+				"is-dom": "^1.1.0",
+				"jest": "^26.4.2",
+				"prettier": "^2.1.1",
+				"react": "^16.13.1",
+				"react-dom": "^16.13.1",
+				"react-test-renderer": "^16.13.1",
+				"tsup": "^6.1.3",
+				"typescript": "^4.7.4",
+				"webpack": "^5"
+			},
+			"peerDependencies": {
+				"react": "^16.8.4 || ^17.0.0 || ^18.0.0"
+			},
+			"gitHead": "f87a9fc3fe38086bbaafe206fd9252be0d011a63",
+			"_id": "react-inspector@6.0.0",
+			"_nodeVersion": "14.18.1",
+			"_npmVersion": "6.14.15",
+			"dist": {
+				"integrity": "sha512-3KCjvso49iGa2yLq05x80yGXyxSqIPLR6+FWzjoBUpL64maEfeFGtNBFMGhe7Il2xBsc0U/P1U54JNhiT53ehQ==",
+				"shasum": "76067bcc5da973409c366fe9ba66ecb6c96c4d33",
+				"tarball": "https://registry.npmjs.org/react-inspector/-/react-inspector-6.0.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 57801,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDgkhmVbqfijrRl42VWCrktf1T80UeKQiNtBvxioLbD4QIgcbNfdq/LSYB9OjqBKcUhcKnIEe8wvpNSkDQqfcI56tU="
+					}
+				],
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJiwt11ACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2Vmo+Hw//bBk69+DneN/GXGJKyG/ke5zRJJTpJEcmKfZ3z8+qgE5mzdFH\r\nhqaVkutFA54MV7t5BcjvYWvjmqSH29SLHtDda6SklyEEiDURILDDAvdG99nU\r\n/7M1R2UWIyxBkC9+IUvLci6shqaE7qOEp6xZYlHtS9nNd31W9E+DX0VASWQm\r\n3hP4flxBZLIZC4gCiJ9ZgGlZa0+F0rBchTsOw2RnOSRgNzH9CDfE4B4ygPJX\r\nzgoZnZdEpz+JLcBobFyH6qneBwu5ooZ227a4rxewFoKRqNM5IIhryBLR2SF2\r\nHZuS7Rqn3e/nVF1YEHjDc/OMmIbIZfokTIQi4LMPivUHh6YcM5s5Xzb0QzlV\r\nFUNeWSMIdCo/cY5wrzrwo4aZGYwjdujGrQK48jwhwodLlZro+7+o5xO8BZMD\r\nRkNHLhlNkdxQrPW4VJINkmrzcacVUcC24wJpuNAwD+sDEbfcHVU7Zo0P1uTN\r\nXy9cW17xn0/CXWz+IhmMf1r+JhR55vDF/RzNqTFUSbO9QgwB+OP+S59nyVmS\r\nBJsig5vlURXGdUZJG35eux+YlIEMUkGnH3+VOPkZvtj3abY/tBqv3skW2dym\r\ndL8OI+HEzlpBnIhz/Ga36KQIRK3bKDkpllhccG7MPEGcDdmtFXBvi8UoImvL\r\n67dv//X+vCJdR3LagwzglfKCxnSQ6nyfqmg=\r\n=Qhrf\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "ndelangen",
+				"email": "ndelangen@me.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "xyc",
+					"email": "cxychina@gmail.com"
+				},
+				{
+					"name": "bret",
+					"email": "bcomnes@gmail.com"
+				},
+				{
+					"name": "ndelangen",
+					"email": "ndelangen@me.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-inspector_6.0.0_1656937845637_0.8505107331685684"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"6.0.1": {
+			"name": "react-inspector",
+			"version": "6.0.1",
+			"description": "Power of Browser DevTools inspectors right inside your React app",
+			"keywords": [
+				"devtools",
+				"inspector",
+				"object",
+				"object-inspector",
+				"react",
+				"react-component",
+				"reactjs",
+				"table",
+				"table-inspector",
+				"table-view",
+				"tableview",
+				"tree",
+				"tree-view",
+				"treeview",
+				"ui",
+				"view"
+			],
+			"homepage": "https://github.com/xyc/react-inspector",
+			"bugs": {
+				"url": "https://github.com/xyc/react-inspector/issues"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/xyc/react-inspector.git"
+			},
+			"license": "MIT",
+			"author": {
+				"name": "Xiaoyi Chen",
+				"email": "cxychina@gmail.com",
+				"url": "http://github.com/xyc"
+			},
+			"exports": {
+				".": {
+					"require": "./dist/index.js",
+					"import": "./dist/index.mjs",
+					"types": "./dist/index.d.ts"
+				},
+				"./package.json": "./package.json"
+			},
+			"main": "dist/index.js",
+			"module": "dist/index.mjs",
+			"types": "dist/index.d.ts",
+			"scripts": {
+				"build": "tsup",
+				"build-storybook": "build-storybook",
+				"chromatic": "chromatic --project-token=17yeg4lpa7q",
+				"lint": "eslint src stories",
+				"prerelease": "npm run lint && npm run test && npm run build",
+				"release": "npm publish . --access public",
+				"storybook": "start-storybook -p 9001",
+				"test": "jest src"
+			},
+			"devDependencies": {
+				"@babel/core": "^7.11.6",
+				"@babel/plugin-proposal-class-properties": "^7.10.4",
+				"@babel/plugin-proposal-do-expressions": "^7.10.4",
+				"@babel/plugin-proposal-logical-assignment-operators": "^7.11.0",
+				"@babel/plugin-proposal-nullish-coalescing-operator": "^7.10.4",
+				"@babel/plugin-proposal-object-rest-spread": "^7.11.0",
+				"@babel/plugin-proposal-optional-chaining": "^7.11.0",
+				"@babel/plugin-syntax-bigint": "^7.8.3",
+				"@babel/plugin-transform-object-assign": "^7.10.4",
+				"@babel/plugin-transform-runtime": "^7.11.5",
+				"@babel/preset-env": "^7.11.5",
+				"@babel/preset-react": "^7.10.4",
+				"@babel/preset-typescript": "^7.18.6",
+				"@babel/register": "^7.11.5",
+				"@storybook/builder-webpack5": "^6.5.9",
+				"@storybook/manager-webpack5": "^6.5.9",
+				"@storybook/react": "^6.5.9",
+				"@types/is-dom": "^1.1.0",
+				"@types/react": "^16",
+				"@typescript-eslint/eslint-plugin": "^5.30.4",
+				"@typescript-eslint/parser": "^5.30.4",
+				"babel-loader": "^8.1.0",
+				"chromatic": "^6.7.0",
+				"eslint": "^8.19.0",
+				"eslint-config-prettier": "^8.5.0",
+				"eslint-plugin-prettier": "^4.2.1",
+				"expect": "^26.4.2",
+				"is-dom": "^1.1.0",
+				"jest": "^26.4.2",
+				"prettier": "^2.1.1",
+				"react": "^16.13.1",
+				"react-dom": "^16.13.1",
+				"react-test-renderer": "^16.13.1",
+				"tsup": "^6.1.3",
+				"typescript": "^4.7.4",
+				"webpack": "^5"
+			},
+			"peerDependencies": {
+				"react": "^16.8.4 || ^17.0.0 || ^18.0.0"
+			},
+			"gitHead": "666117a358ff692deabb6e65d407ccb9c417898a",
+			"_id": "react-inspector@6.0.1",
+			"_nodeVersion": "14.18.1",
+			"_npmVersion": "6.14.15",
+			"dist": {
+				"integrity": "sha512-cxKSeFTf7jpSSVddm66sKdolG90qURAX3g1roTeaN6x0YEbtWc8JpmFN9+yIqLNH2uEkYerWLtJZIXRIFuBKrg==",
+				"shasum": "1a37f0165d9df81ee804d63259eaaeabe841287d",
+				"tarball": "https://registry.npmjs.org/react-inspector/-/react-inspector-6.0.1.tgz",
+				"fileCount": 9,
+				"unpackedSize": 251172,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIGehZIn2NnlvY5eZsCQsjAhNKqiVQKj/I031c3ukRfH8AiEA7hn+kjZZ13vLl6jSwLrTNY2c9CCJZu9dfgdVTlzrrk0="
+					}
+				],
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJiwuLjACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2Vmqb1xAAodiLdJ7C/DXLzNmgGgWWUlSj4S0YFPaKuohL3ipNQwuOvA7i\r\ncqZz9cfxhgKeta+qffTSc7BNjqLkR9V+ayjba87iNpcGWmSVvuJKP4zNPNpo\r\njVDkVari4/axkkufHhSYIRwTCsPZLoNRIWW89tQRtjnvcpXLo5I5sYLAk6c7\r\nDN1kHTmLhEEfLZQshUQtERfdZuPow6YpcjkVCXMqE5V6/wWXAW3Cg+P8ooGw\r\nmjtrXio7CN4azrKRRCSGSxoSSuX2FYk/2l+yUxy8am3Pn2CzDBwUByfMrO6q\r\nUpE6XnhwMT+Sveim+YY7hP9iQZpL9TvQ1cFE0a4ATMU5BZD2M7B4A3I9ZG1R\r\n8UslJztNjT23xtFgqB9LUMcM5h1lOm0ucoOfCFAlKjCJLWyXZzgVHnKuarag\r\nnzqFLfolnVvApowkmC1gntAQ/LlvdPx564owUAXfbdXR8waLmbjED8WB9ldV\r\n2sUx04f1YdBwxYSqeKj/heZMRaSqaD8chWOd2IX/pKgcOTvEeePFcW2eR5fR\r\nAzmJ6a0Qz7iW1a0X7HruoBvqYcohiSbKOGK46YhrtpiMt8fiTvAUftG/UUNJ\r\nRZII5A7ZfEdoKfZ+qrtCv6zcOm+hvNhe8zplfxP3prjKWMjHKeFaFS3r5039\r\nHqiEOa8aWcwcn+BSl3tmP/qGKUREN7qkdp4=\r\n=ITn4\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "ndelangen",
+				"email": "ndelangen@me.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "xyc",
+					"email": "cxychina@gmail.com"
+				},
+				{
+					"name": "bret",
+					"email": "bcomnes@gmail.com"
+				},
+				{
+					"name": "ndelangen",
+					"email": "ndelangen@me.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-inspector_6.0.1_1656939235167_0.30299036033056437"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		}
+	},
+	"time": {
+		"modified": "2022-07-04T12:53:55.366Z",
+		"created": "2016-03-04T14:49:48.107Z",
+		"1.0.0-alpha.0": "2016-03-04T14:49:48.107Z",
+		"1.0.0-alpha.1": "2016-03-04T15:18:06.719Z",
+		"1.0.0-alpha.2": "2016-03-05T00:38:32.663Z",
+		"1.0.0-alpha.3": "2016-03-22T09:14:50.646Z",
+		"1.0.0-alpha.4": "2016-05-03T06:24:44.757Z",
+		"1.0.0-alpha.5": "2016-05-03T06:43:08.638Z",
+		"1.0.0-alpha.6": "2016-05-06T04:20:05.709Z",
+		"1.0.0-beta.1": "2016-05-09T04:44:50.024Z",
+		"1.0.0-beta.2": "2016-05-09T05:22:35.378Z",
+		"1.0.0": "2016-06-18T21:09:01.528Z",
+		"1.0.1": "2016-06-23T03:25:35.809Z",
+		"1.1.0": "2016-07-13T03:58:10.768Z",
+		"1.1.1": "2016-10-29T00:49:40.779Z",
+		"1.1.2": "2016-12-12T05:09:14.840Z",
+		"2.0.0": "2017-05-12T20:45:00.929Z",
+		"2.1.0": "2017-06-28T10:53:54.716Z",
+		"2.1.1": "2017-07-04T20:44:57.184Z",
+		"2.1.2": "2017-07-23T19:56:09.192Z",
+		"2.1.3": "2017-07-23T20:08:21.742Z",
+		"2.1.4": "2017-08-08T09:19:01.635Z",
+		"2.1.5": "2017-09-23T18:42:48.806Z",
+		"2.1.6": "2017-09-23T18:43:29.192Z",
+		"2.2.0-alpha.0": "2017-09-29T06:38:09.540Z",
+		"2.2.0": "2017-09-29T06:57:29.777Z",
+		"2.2.1": "2017-10-31T16:36:03.665Z",
+		"2.2.2": "2017-12-10T09:55:07.232Z",
+		"2.3.0": "2018-04-09T23:32:01.735Z",
+		"2.3.1": "2018-11-29T03:45:59.039Z",
+		"3.0.0": "2019-03-20T08:18:53.629Z",
+		"3.0.1": "2019-03-28T07:09:38.046Z",
+		"3.0.2": "2019-03-28T07:28:23.639Z",
+		"4.0.0": "2019-09-26T14:30:45.125Z",
+		"4.0.1": "2020-03-07T22:47:05.970Z",
+		"5.0.0": "2020-03-10T15:31:18.360Z",
+		"5.0.1": "2020-03-10T15:38:16.763Z",
+		"5.1.0-debug.0": "2020-09-10T12:38:08.637Z",
+		"5.1.0": "2020-09-10T13:01:36.603Z",
+		"5.1.1": "2021-04-15T14:08:11.051Z",
+		"6.0.0": "2022-07-04T12:30:45.786Z",
+		"6.0.1": "2022-07-04T12:53:55.293Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "6.0.1",
+		"alpha": "2.2.0-alpha.0",
+		"debug": "5.1.0-debug.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"9942b327cbb1103346729deb8f003229\"",
+			"fetched": 1660840715676
+		}
+	},
+	"_distfiles": {
+		"react-inspector-1.0.0-alpha.0.tgz": {
+			"url": "https://registry.npmjs.org/react-inspector/-/react-inspector-1.0.0-alpha.0.tgz",
+			"sha": "1de1e0bb3a1ece1007004778a17c9180dcac4e90",
+			"registry": "npmjs"
+		},
+		"react-inspector-1.0.0-alpha.1.tgz": {
+			"url": "https://registry.npmjs.org/react-inspector/-/react-inspector-1.0.0-alpha.1.tgz",
+			"sha": "dc48742db383a67ac6b7745e570faecaa4ecb3d0",
+			"registry": "npmjs"
+		},
+		"react-inspector-1.0.0-alpha.2.tgz": {
+			"url": "https://registry.npmjs.org/react-inspector/-/react-inspector-1.0.0-alpha.2.tgz",
+			"sha": "07c5c32a9be793729be0563de76bd0475fce4d9a",
+			"registry": "npmjs"
+		},
+		"react-inspector-1.0.0-alpha.3.tgz": {
+			"url": "https://registry.npmjs.org/react-inspector/-/react-inspector-1.0.0-alpha.3.tgz",
+			"sha": "d8f1f8926f3ab4a483c2fd443f677490f257e8b0",
+			"registry": "npmjs"
+		},
+		"react-inspector-1.0.0-alpha.4.tgz": {
+			"url": "https://registry.npmjs.org/react-inspector/-/react-inspector-1.0.0-alpha.4.tgz",
+			"sha": "4fd109a595cf1bb24030f731ed912d5fdbcd10fc",
+			"registry": "npmjs"
+		},
+		"react-inspector-1.0.0-alpha.5.tgz": {
+			"url": "https://registry.npmjs.org/react-inspector/-/react-inspector-1.0.0-alpha.5.tgz",
+			"sha": "bbefb8634662ade48e09bb40e33f6a3d99ddfe22",
+			"registry": "npmjs"
+		},
+		"react-inspector-1.0.0-alpha.6.tgz": {
+			"url": "https://registry.npmjs.org/react-inspector/-/react-inspector-1.0.0-alpha.6.tgz",
+			"sha": "1e73a77a84c0c2b7f506e22c7e0be313a89ae7c0",
+			"registry": "npmjs"
+		},
+		"react-inspector-1.0.0-beta.1.tgz": {
+			"url": "https://registry.npmjs.org/react-inspector/-/react-inspector-1.0.0-beta.1.tgz",
+			"sha": "c44faed0c77d8faa4deae549d42a9a0e56490ee0",
+			"registry": "npmjs"
+		},
+		"react-inspector-1.0.0-beta.2.tgz": {
+			"url": "https://registry.npmjs.org/react-inspector/-/react-inspector-1.0.0-beta.2.tgz",
+			"sha": "a260d0467f479954238bec2eea12fa002aa5e556",
+			"registry": "npmjs"
+		},
+		"react-inspector-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/react-inspector/-/react-inspector-1.0.0.tgz",
+			"sha": "2b7bb996344702d818e48d09f22a2f5a4a7dba97",
+			"registry": "npmjs"
+		},
+		"react-inspector-1.0.1.tgz": {
+			"url": "https://registry.npmjs.org/react-inspector/-/react-inspector-1.0.1.tgz",
+			"sha": "9fb5c05fe98aa77b0c656ab8ee9fe17461d070b5",
+			"registry": "npmjs"
+		},
+		"react-inspector-1.1.0.tgz": {
+			"url": "https://registry.npmjs.org/react-inspector/-/react-inspector-1.1.0.tgz",
+			"sha": "8d55bb94ffc9fd3982a222eb257dbe9cdd4f1b87",
+			"registry": "npmjs"
+		},
+		"react-inspector-1.1.1.tgz": {
+			"url": "https://registry.npmjs.org/react-inspector/-/react-inspector-1.1.1.tgz",
+			"sha": "e5e413e516f6b27f2e90d86c2088cb2bf496a0e6",
+			"registry": "npmjs"
+		},
+		"react-inspector-1.1.2.tgz": {
+			"url": "https://registry.npmjs.org/react-inspector/-/react-inspector-1.1.2.tgz",
+			"sha": "192bc54f2be44f9fa0f29f183386f7f6e380f5ec",
+			"registry": "npmjs"
+		},
+		"react-inspector-2.0.0.tgz": {
+			"url": "https://registry.npmjs.org/react-inspector/-/react-inspector-2.0.0.tgz",
+			"sha": "c945932f2c2bf2fab7873c6e07d83881404b9313",
+			"registry": "npmjs"
+		},
+		"react-inspector-2.1.0.tgz": {
+			"url": "https://registry.npmjs.org/react-inspector/-/react-inspector-2.1.0.tgz",
+			"sha": "45504d1e13bc4d10707b977c1ca11484d14616c7",
+			"registry": "npmjs"
+		},
+		"react-inspector-2.1.1.tgz": {
+			"url": "https://registry.npmjs.org/react-inspector/-/react-inspector-2.1.1.tgz",
+			"sha": "2e68030d7ef0811a012f167258dd84232fd5ead1",
+			"registry": "npmjs"
+		},
+		"react-inspector-2.1.2.tgz": {
+			"url": "https://registry.npmjs.org/react-inspector/-/react-inspector-2.1.2.tgz",
+			"sha": "17deaaac08c71664fccfbcbb44095f161c587339",
+			"registry": "npmjs"
+		},
+		"react-inspector-2.1.3.tgz": {
+			"url": "https://registry.npmjs.org/react-inspector/-/react-inspector-2.1.3.tgz",
+			"sha": "61fc4c6b6b29b5262af3aad781a12138cd181a32",
+			"registry": "npmjs"
+		},
+		"react-inspector-2.1.4.tgz": {
+			"url": "https://registry.npmjs.org/react-inspector/-/react-inspector-2.1.4.tgz",
+			"sha": "2123fab74f68ae3136fbd02392fadb764326d04d",
+			"registry": "npmjs"
+		},
+		"react-inspector-2.1.5.tgz": {
+			"url": "https://registry.npmjs.org/react-inspector/-/react-inspector-2.1.5.tgz",
+			"sha": "a6ba576ba4becb3050cfcabc23e0e38df7be6512",
+			"registry": "npmjs"
+		},
+		"react-inspector-2.1.6.tgz": {
+			"url": "https://registry.npmjs.org/react-inspector/-/react-inspector-2.1.6.tgz",
+			"sha": "bebdf069f5bd3ee130ed689a5e98c0796be49347",
+			"registry": "npmjs"
+		},
+		"react-inspector-2.2.0-alpha.0.tgz": {
+			"url": "https://registry.npmjs.org/react-inspector/-/react-inspector-2.2.0-alpha.0.tgz",
+			"sha": "5bb875df4799f47969a6fed4c217f3221f46dbe7",
+			"registry": "npmjs"
+		},
+		"react-inspector-2.2.0.tgz": {
+			"url": "https://registry.npmjs.org/react-inspector/-/react-inspector-2.2.0.tgz",
+			"sha": "2aa0778c3512063f598d7a89a28a5d5c7733cad7",
+			"registry": "npmjs"
+		},
+		"react-inspector-2.2.1.tgz": {
+			"url": "https://registry.npmjs.org/react-inspector/-/react-inspector-2.2.1.tgz",
+			"sha": "c24f9a0131960b8e63c8392254d34df0717aabdf",
+			"registry": "npmjs"
+		},
+		"react-inspector-2.2.2.tgz": {
+			"url": "https://registry.npmjs.org/react-inspector/-/react-inspector-2.2.2.tgz",
+			"sha": "c04f5248fa92ab6c23e37960e725fb7f48c34d05",
+			"registry": "npmjs"
+		},
+		"react-inspector-2.3.0.tgz": {
+			"url": "https://registry.npmjs.org/react-inspector/-/react-inspector-2.3.0.tgz",
+			"sha": "fc9c1d38ab687fc0d190dcaf133ae40158968fc8",
+			"registry": "npmjs"
+		},
+		"react-inspector-2.3.1.tgz": {
+			"url": "https://registry.npmjs.org/react-inspector/-/react-inspector-2.3.1.tgz",
+			"sha": "f0eb7f520669b545b441af9d38ec6d706e5f649c",
+			"registry": "npmjs"
+		},
+		"react-inspector-3.0.0.tgz": {
+			"url": "https://registry.npmjs.org/react-inspector/-/react-inspector-3.0.0.tgz",
+			"sha": "e9a6bf1195d02e5b76d9eaf260b1ce6ba23d46df",
+			"registry": "npmjs"
+		},
+		"react-inspector-3.0.1.tgz": {
+			"url": "https://registry.npmjs.org/react-inspector/-/react-inspector-3.0.1.tgz",
+			"sha": "765c4afa7a9cedac55d46cc9f3a604b1f9a28b97",
+			"registry": "npmjs"
+		},
+		"react-inspector-3.0.2.tgz": {
+			"url": "https://registry.npmjs.org/react-inspector/-/react-inspector-3.0.2.tgz",
+			"sha": "c530a06101f562475537e47df428e1d7aff16ed8",
+			"registry": "npmjs"
+		},
+		"react-inspector-4.0.0.tgz": {
+			"url": "https://registry.npmjs.org/react-inspector/-/react-inspector-4.0.0.tgz",
+			"sha": "ad73200ca18452aff333df2e2791be4544c422a9",
+			"registry": "npmjs"
+		},
+		"react-inspector-4.0.1.tgz": {
+			"url": "https://registry.npmjs.org/react-inspector/-/react-inspector-4.0.1.tgz",
+			"sha": "0f888f78ff7daccbc7be5d452b20c96dc6d5fbb8",
+			"registry": "npmjs"
+		},
+		"react-inspector-5.0.0.tgz": {
+			"url": "https://registry.npmjs.org/react-inspector/-/react-inspector-5.0.0.tgz",
+			"sha": "8e7ea3a64e0a4783c440986e0b14936f8fe40c80",
+			"registry": "npmjs"
+		},
+		"react-inspector-5.0.1.tgz": {
+			"url": "https://registry.npmjs.org/react-inspector/-/react-inspector-5.0.1.tgz",
+			"sha": "8a30f3d488c4f40203624bbe24800f508ae05d3a",
+			"registry": "npmjs"
+		},
+		"react-inspector-5.1.0-debug.0.tgz": {
+			"url": "https://registry.npmjs.org/react-inspector/-/react-inspector-5.1.0-debug.0.tgz",
+			"sha": "1753d417f88670890ca42778e9aa023e931f1f25",
+			"registry": "npmjs"
+		},
+		"react-inspector-5.1.0.tgz": {
+			"url": "https://registry.npmjs.org/react-inspector/-/react-inspector-5.1.0.tgz",
+			"sha": "45a325e15f33e595be5356ca2d3ceffb7d6b8c3a",
+			"registry": "npmjs"
+		},
+		"react-inspector-5.1.1.tgz": {
+			"url": "https://registry.npmjs.org/react-inspector/-/react-inspector-5.1.1.tgz",
+			"sha": "58476c78fde05d5055646ed8ec02030af42953c8",
+			"registry": "npmjs"
+		},
+		"react-inspector-6.0.0.tgz": {
+			"url": "https://registry.npmjs.org/react-inspector/-/react-inspector-6.0.0.tgz",
+			"sha": "76067bcc5da973409c366fe9ba66ecb6c96c4d33",
+			"registry": "npmjs"
+		},
+		"react-inspector-6.0.1.tgz": {
+			"url": "https://registry.npmjs.org/react-inspector/-/react-inspector-6.0.1.tgz",
+			"sha": "1a37f0165d9df81ee804d63259eaaeabe841287d",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_rev": "3-1c7d7ac203adfb3a",
+	"_id": "react-inspector",
+	"readme": "# react-inspector\n\n[![build status](https://img.shields.io/travis/storybookjs/react-inspector/master.svg?style=flat-square)](https://travis-ci.org/storybookjs/react-inspector)\n[![npm version](https://img.shields.io/npm/v/react-inspector.svg?style=flat-square)](https://www.npmjs.com/package/react-inspector)\n[![npm downloads](https://img.shields.io/npm/dm/react-inspector.svg?style=flat-square)](https://www.npmjs.com/package/react-inspector)\n\nPower of [Browser DevTools](https://developers.google.com/web/tools/chrome-devtools/) inspectors right inside your React app. Check out the [interactive playground](https://storybookjs.github.io/react-inspector/) or [storybook](https://react-inspector.netlify.com).\n\n![''](https://storybookjs.github.io/react-inspector/objectinspector.png)\n\n![''](https://cldup.com/XhNGcBq9h2.png)\n\n![''](https://storybookjs.github.io/react-inspector/tableinspector.png)\n\n## Install\n\nNPM:\n\n```sh\nnpm install react-inspector\n```\n\nRecommended versions:\n\n- version `3.0.2`: If you are using React 16.8.4 or later.\n- version `2.3.1`: If you are using an earlier version of React.\n\n## Getting started\n\n### &lt;Inspector />\n\nA shorthand for the inspectors.\n\n- `<Inspector/>` is equivalent to `<ObjectInspector>` or `<DOMInspector>` if inspecting a DOM Node.\n- `<Inspector table/>` is equivalent to `<TableInspector>`.\n\n### &lt;ObjectInspector />\n\nLike `console.log`. Consider this as a glorified version of `<pre>JSON.stringify(data, null, 2)</pre>`.\n\n#### How it works\n\nTree state is saved at root. If you click to expand some elements in the hierarchy, the state will be preserved after the element is unmounted.\n\n#### API\n\nThe component accepts the following props:\n\n**`data: PropTypes.any`:** the Javascript object you would like to inspect\n\n**`name: PropTypes.string`:** specify the optional name of the root node, default to `undefined`\n\n**`expandLevel: PropTypes.number`:** an integer specifying to which level the tree should be initially expanded\n\n**`expandPaths: PropTypes.oneOfType([PropTypes.string, PropTypes.array])`:** an array containing all the paths that should be expanded when the component is initialized, or a string of just one path\n\n- The path string is similar to [JSONPath](https://goessner.net/articles/JsonPath/).\n  - It is a dot separated string like `$.foo.bar`. `$.foo.bar` expands the path `$.foo.bar` where `$` refers to the root node. Note that it only expands that single node (but not all its parents and the root node). Instead, you should use `expandPaths={['$', '$.foo', '$.foo.bar']}` to expand all the way to the `$.foo.bar` node.\n  - You can refer to array index paths using `['$', '$.1']`\n  - You can use wildcard to expand all paths on a specific level\n    - For example, to expand all first level and second level nodes, use `['$', '$.*']` (equivalent to `expandLevel={2}`)\n- the results are merged with expandLevel\n\n**`showNonenumerable: PropTypes.bool`:** show non-enumerable properties\n\n**`sortObjectKeys: PropTypes.oneOfType([PropTypes.bool, PropTypes.func])`:** Sort object keys with optional compare function\n\nWhen `sortObjectKeys={true}` is provided, keys of objects are sorted in alphabetical order except for arrays.\n\n**`nodeRenderer: PropTypes.func`:** Use a custom `nodeRenderer` to render the object properties (optional)\n\n- Instead of using the default `nodeRenderer`, you can provide a\n  custom function for rendering object properties. The _default_\n  nodeRender looks like this:\n\n  ```js\n  import { ObjectRootLabel } from 'react-inspector'\n  import { ObjectLabel } from 'react-inspector'\n\n  const defaultNodeRenderer = ({ depth, name, data, isNonenumerable, expanded }) =>\n    depth === 0\n      ? <ObjectRootLabel name={name} data={data} />\n      : <ObjectLabel name={name} data={data} isNonenumerable={isNonenumerable} />;\n  ```\n\n### &lt;TableInspector />\n\nLike `console.table`.\n\n#### API\n\nThe component accepts the following props:\n\n**`data: PropTypes.oneOfType([PropTypes.array, PropTypes.object])`:** the Javascript object you would like to inspect, either an array or an object\n\n**`columns: PropTypes.array`:** An array of the names of the columns you'd like to display in the table\n\n### &lt;DOMInspector />\n\n#### API\n\nThe component accepts the following props:\n\n**`data: PropTypes.object`:** the DOM Node you would like to inspect\n\n#### Usage\n\n```js\nimport {ObjectInspector, TableInspector} from 'react-inspector';\n\n// or use the shorthand\nimport Inspector from 'react-inspector';\n\nconst MyComponent = ({ data }) =>\n  <div>\n    <ObjectInspector data={data} />\n    <TableInspector data={data} />\n\n    <Inspector data={data} />\n    <Inspector table data={data} />\n  </div>\n\nlet data = { /* ... */ };\n\nReactDOM.render(\n  <MyComponent data={data} />,\n  document.getElementById('root')\n);\n```\n\nTry embedding the inspectors inside a component's render() method to provide a live view for its props/state (Works even better with hot reloading).\n\n### More Examples\n\nCheck out the storybook for more examples.\n\n```sh\nnpm install && npm run storybook\n```\n\nOpen [http://localhost:9001/](http://localhost:9001/)\n\n## Theme\n\nBy specifying the `theme` prop you can customize the inspectors. `theme` prop can be\n\n1. a string referring to a preset theme (`\"chromeLight\"` or `\"chromeDark\"`, default to `\"chromeLight\"`)\n2. or a custom object that provides the necessary variables. Checkout [`src/styles/themes`](https://github.com/storybookjs/react-inspector/tree/master/src/styles/themes) for possible theme variables.\n\n**Example 1:** Using a preset theme:\n\n```js\n<Inspector theme=\"chromeDark\" data={{a: 'a', b: 'b'}}/>\n```\n\n**Example 2:** changing the tree node indentation by inheriting the chrome light theme:\n\n```js\nimport { chromeLight } from 'react-inspector'\n\n<Inspector theme={{...chromeLight, ...({ TREENODE_PADDING_LEFT: 20 })}} data={{a: 'a', b: 'b'}}/>\n```\n\n## Roadmap\n\nType of inspectors:\n\n- [x] Tree style\n  - [x] common objects\n  - [x] DOM nodes\n- [x] Table style\n  - [ ] Column resizer\n- [ ] Group style\n\n## Contribution\n\nContribution is welcome. [Past contributors](https://github.com/storybookjs/react-inspector/graphs/contributors)\n\n## Additional\n\n- If you intend to capture `console.log`s, you may want to look at [`console-feed`](https://www.npmjs.com/package/console-feed).\n- `react-object-inspector` package will be deprecated. `<ObjectInspector/>` is now part of the new package `react-inspector`.\n- Why inline style? [This document](https://github.com/erikras/react-redux-universal-hot-example/blob/master/docs/InlineStyles.md) summarizes it well."
+}

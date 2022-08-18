@@ -1,0 +1,1062 @@
+{
+	"name": "address",
+	"versions": {
+		"0.0.1": {
+			"name": "address",
+			"version": "0.0.1",
+			"description": "Get current machine IP, MAC and DNS servers.",
+			"main": "index.js",
+			"scripts": {
+				"test": "make test-all"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"pedding": "*",
+				"mm": "*",
+				"should": "*",
+				"blanket": "*",
+				"travis-cov": "*",
+				"coveralls": "*",
+				"mocha-lcov-reporter": "*",
+				"mocha": "*"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/fengmk2/address.git"
+			},
+			"keywords": [
+				"address"
+			],
+			"engines": {
+				"node": ">= 0.8.0"
+			},
+			"author": {
+				"name": "fengmk2",
+				"email": "fengmk2@gmail.com"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/fengmk2/address/issues"
+			},
+			"_id": "address@0.0.1",
+			"dist": {
+				"shasum": "2e32201de7ab7d2bffb3abeef19763497e224a89",
+				"tarball": "https://registry.npmjs.org/address/-/address-0.0.1.tgz",
+				"integrity": "sha512-1V4Aw9ZjeVVtshxZQAXpaVGTjd8LNwO3xMX8xL+wVzQ66kAimYPxfjwj159rChhgVivAh+As/wD3dlw4/QYtMQ==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIFBg5d7AIJjBIkKMWNMlwKlE7ws8cWk6X0MYxcM0voK/AiBgCWAj7aMAoyuOa6vjTh5SXpfNCObIsAWAMRuCTy/n4A=="
+					}
+				]
+			},
+			"_from": ".",
+			"_npmVersion": "1.3.5",
+			"_npmUser": {
+				"name": "fengmk2",
+				"email": "fengmk2@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "fengmk2",
+					"email": "fengmk2@gmail.com"
+				}
+			],
+			"directories": {},
+			"contributors": []
+		},
+		"0.0.2": {
+			"name": "address",
+			"version": "0.0.2",
+			"description": "Get current machine IP, MAC and DNS servers.",
+			"main": "index.js",
+			"scripts": {
+				"test": "make test-all"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"pedding": "*",
+				"mm": "*",
+				"should": "*",
+				"blanket": "*",
+				"travis-cov": "*",
+				"coveralls": "*",
+				"mocha-lcov-reporter": "*",
+				"mocha": "*"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/fengmk2/address.git"
+			},
+			"keywords": [
+				"address"
+			],
+			"engines": {
+				"node": ">= 0.8.0"
+			},
+			"author": {
+				"name": "fengmk2",
+				"email": "fengmk2@gmail.com"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/fengmk2/address/issues"
+			},
+			"_id": "address@0.0.2",
+			"dist": {
+				"shasum": "961c202a217a742291dfdd590efb9eb99bb66ae7",
+				"tarball": "https://registry.npmjs.org/address/-/address-0.0.2.tgz",
+				"integrity": "sha512-47zW50cHjwra5fs9WXMnO4PksN2Jr1dxEPrls5ayuoMwrJs+bmwEGWVg/c9Vo+jleIg8NYLqWnlA71TQ6nYfrQ==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIARZb1ZcVPZKdbfU46LzbggnWOjyGVWseyoDscWBSdIJAiBv6osSkTS737QeMJdmLLBPBv2ndYT4INS+P81C8KU28Q=="
+					}
+				]
+			},
+			"_from": ".",
+			"_npmVersion": "1.3.6",
+			"_npmUser": {
+				"name": "fengmk2",
+				"email": "fengmk2@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "fengmk2",
+					"email": "fengmk2@gmail.com"
+				}
+			],
+			"directories": {},
+			"contributors": []
+		},
+		"0.0.3": {
+			"name": "address",
+			"version": "0.0.3",
+			"description": "Get current machine IP, MAC and DNS servers.",
+			"main": "index.js",
+			"scripts": {
+				"test": "make test-all"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"pedding": "*",
+				"mm": "*",
+				"should": "*",
+				"blanket": "*",
+				"travis-cov": "*",
+				"coveralls": "*",
+				"mocha-lcov-reporter": "*",
+				"mocha": "*"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/fengmk2/address.git"
+			},
+			"keywords": [
+				"address"
+			],
+			"engines": {
+				"node": ">= 0.8.0"
+			},
+			"author": {
+				"name": "fengmk2",
+				"email": "fengmk2@gmail.com"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/fengmk2/address/issues"
+			},
+			"_id": "address@0.0.3",
+			"dist": {
+				"shasum": "81c73446c8f5f08758ff5ede5cfab74e4d348f16",
+				"tarball": "https://registry.npmjs.org/address/-/address-0.0.3.tgz",
+				"integrity": "sha512-O2RnN+S2K+TsilCeJ8ajLBarYPFlKZZLLAeKfXOQlOk7elarJny8iFg/HiLWcUka/bR1C9GoxToHVAoVXUQbiQ==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIDzlNx3lzxmMGF2xbt0xcXajzXQu4aNblGDFeFJMB5oxAiBHLlF46x5JR6J2Gnyklx/4fwMxO+PQFks7r+g26jS0kw=="
+					}
+				]
+			},
+			"_from": ".",
+			"_npmVersion": "1.3.11",
+			"_npmUser": {
+				"name": "fengmk2",
+				"email": "fengmk2@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "fengmk2",
+					"email": "fengmk2@gmail.com"
+				}
+			],
+			"directories": {},
+			"contributors": []
+		},
+		"1.0.0": {
+			"name": "address",
+			"version": "1.0.0",
+			"description": "Get current machine IP, MAC and DNS servers.",
+			"main": "lib/address.js",
+			"files": [
+				"lib"
+			],
+			"scripts": {
+				"test": "mocha --check-leaks -R spec -t 5000 test/*.test.js",
+				"test-cov": "istanbul cover node_modules/.bin/_mocha -- --check-leaks -t 5000 test/*.test.js",
+				"test-travis": "istanbul cover node_modules/.bin/_mocha --report lcovonly -- --check-leaks -t 5000 test/*.test.js",
+				"benchmark": "matcha",
+				"autod": "autod -w --prefix '~'",
+				"cnpm": "npm install --registry=https://registry.npm.taobao.org",
+				"contributors": "contributors -f plain -o AUTHORS"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"istanbul": "*",
+				"matcha": "*",
+				"mm": "*",
+				"mocha": "*",
+				"pedding": "*",
+				"should": "*"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/node-modules/address.git"
+			},
+			"keywords": [
+				"address",
+				"ip",
+				"ipv4",
+				"mac"
+			],
+			"engines": {
+				"node": ">= 0.12.0"
+			},
+			"author": {
+				"name": "fengmk2",
+				"email": "fengmk2@gmail.com"
+			},
+			"license": "MIT",
+			"gitHead": "4af8781dfb49f7f0682879b0f176cc9fb82d0fc3",
+			"bugs": {
+				"url": "https://github.com/node-modules/address/issues"
+			},
+			"homepage": "https://github.com/node-modules/address#readme",
+			"_id": "address@1.0.0",
+			"_shasum": "20200f7900eeb5f13779e768785c78c32ce2ce86",
+			"_from": ".",
+			"_npmVersion": "2.13.3",
+			"_nodeVersion": "3.0.0",
+			"_npmUser": {
+				"name": "fengmk2",
+				"email": "fengmk2@gmail.com"
+			},
+			"maintainers": [
+				{
+					"name": "fengmk2",
+					"email": "fengmk2@gmail.com"
+				}
+			],
+			"dist": {
+				"shasum": "20200f7900eeb5f13779e768785c78c32ce2ce86",
+				"tarball": "https://registry.npmjs.org/address/-/address-1.0.0.tgz",
+				"integrity": "sha512-qkEcDuq3tAWu3cG3skPW5utFx/Fh6Hr6BsZIVfrBzM4LmF/HE4zzpcyvQ5VRBKqxLbZi2/nskDXO17d88C663A==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIFiLHBRr1Tg/q/FwyIjBVVxdkzRM3LdSxrr2JZQyErxbAiEAoth2Nmt2rMD6osmQnuhyTUTqotwr9jfUK98ysbGc4X8="
+					}
+				]
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.0.1": {
+			"name": "address",
+			"version": "1.0.1",
+			"description": "Get current machine IP, MAC and DNS servers.",
+			"main": "lib/address.js",
+			"files": [
+				"lib"
+			],
+			"scripts": {
+				"test": "mocha --check-leaks -R spec -t 5000 test/*.test.js",
+				"test-cov": "istanbul cover node_modules/.bin/_mocha -- --check-leaks -t 5000 test/*.test.js",
+				"test-travis": "istanbul cover node_modules/.bin/_mocha --report lcovonly -- --check-leaks -t 5000 test/*.test.js",
+				"benchmark": "matcha",
+				"autod": "autod -w --prefix '^'",
+				"cnpm": "npm install --registry=https://registry.npm.taobao.org",
+				"contributors": "contributors -f plain -o AUTHORS"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"contributors": "*",
+				"istanbul": "*",
+				"matcha": "*",
+				"mm": "*",
+				"mocha": "*",
+				"pedding": "*",
+				"should": "*"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/node-modules/address.git"
+			},
+			"keywords": [
+				"address",
+				"ip",
+				"ipv4",
+				"mac"
+			],
+			"engines": {
+				"node": ">= 0.12.0"
+			},
+			"author": {
+				"name": "fengmk2",
+				"email": "fengmk2@gmail.com"
+			},
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "fengmk2",
+					"email": "fengmk2@gmail.com",
+					"url": "http://fengmk2.com"
+				},
+				{
+					"name": "alsotang",
+					"email": "alsotang@gmail.com",
+					"url": "https://github.com/alsotang"
+				}
+			],
+			"gitHead": "fc3536a8f2a3862d3c8066178b3f7d60483192cc",
+			"bugs": {
+				"url": "https://github.com/node-modules/address/issues"
+			},
+			"homepage": "https://github.com/node-modules/address#readme",
+			"_id": "address@1.0.1",
+			"_shasum": "363f5d3f2be26d0655d8afd5a9562e4fc2194537",
+			"_from": ".",
+			"_npmVersion": "2.15.9",
+			"_nodeVersion": "4.6.0",
+			"_npmUser": {
+				"name": "fengmk2",
+				"email": "fengmk2@gmail.com"
+			},
+			"dist": {
+				"shasum": "363f5d3f2be26d0655d8afd5a9562e4fc2194537",
+				"tarball": "https://registry.npmjs.org/address/-/address-1.0.1.tgz",
+				"integrity": "sha512-TWVEdi8eS8tF+NPiCgwI+of8mi9Zojposi26Ase0Ei8TErWDnLSCxH2kvwH4tELCDIiQhimnm38aIg+z7GnjGw==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQCVVvPPXbk7lOYatk8tC74crceqwjKmhR9a7CPorVM8tQIgXSYVVJjtUGcv3edLRM4mm3l0l8zYEWR/69FYb4/55tI="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "fengmk2",
+					"email": "fengmk2@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/address-1.0.1.tgz_1475221883259_0.3445093466434628"
+			},
+			"directories": {}
+		},
+		"1.0.2": {
+			"name": "address",
+			"version": "1.0.2",
+			"description": "Get current machine IP, MAC and DNS servers.",
+			"main": "lib/address.js",
+			"files": [
+				"lib"
+			],
+			"scripts": {
+				"test": "mocha --check-leaks -R spec -t 5000 test/*.test.js",
+				"test-cov": "istanbul cover node_modules/.bin/_mocha -- --check-leaks -t 5000 test/*.test.js",
+				"test-travis": "istanbul cover node_modules/.bin/_mocha --report lcovonly -- --check-leaks -t 5000 test/*.test.js",
+				"benchmark": "matcha",
+				"autod": "autod -w --prefix '^'",
+				"cnpm": "npm install --registry=https://registry.npm.taobao.org",
+				"contributors": "contributors -f plain -o AUTHORS"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"contributors": "*",
+				"istanbul": "*",
+				"matcha": "*",
+				"mm": "*",
+				"mocha": "*",
+				"pedding": "*",
+				"should": "*",
+				"benchmark": "*",
+				"beautify-benchmark": "*",
+				"webstorm-disable-index": "1"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/node-modules/address.git"
+			},
+			"keywords": [
+				"address",
+				"ip",
+				"ipv4",
+				"mac"
+			],
+			"engines": {
+				"node": ">= 0.12.0"
+			},
+			"author": {
+				"name": "fengmk2",
+				"email": "fengmk2@gmail.com"
+			},
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "fengmk2",
+					"email": "fengmk2@gmail.com",
+					"url": "http://fengmk2.com"
+				},
+				{
+					"name": "alsotang",
+					"email": "alsotang@gmail.com",
+					"url": "https://github.com/alsotang"
+				}
+			],
+			"gitHead": "f5cee41a0503249a02876a82f9e4f7dfc1d253b7",
+			"bugs": {
+				"url": "https://github.com/node-modules/address/issues"
+			},
+			"homepage": "https://github.com/node-modules/address#readme",
+			"_id": "address@1.0.2",
+			"_shasum": "480081e82b587ba319459fef512f516fe03d58af",
+			"_from": ".",
+			"_npmVersion": "4.2.0",
+			"_nodeVersion": "7.10.0",
+			"_npmUser": {
+				"name": "fengmk2",
+				"email": "fengmk2@gmail.com"
+			},
+			"dist": {
+				"shasum": "480081e82b587ba319459fef512f516fe03d58af",
+				"tarball": "https://registry.npmjs.org/address/-/address-1.0.2.tgz",
+				"integrity": "sha512-uFU9NQDu9Rs1N/1Cyah2qeyTMVqag0+HPdM/57i1Q7dLPMlKQrkDT7f7x/ROIDB7/5f+lv0r1IvQ/4wZFGKSnQ==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCftyr8YXxyGNPA0blj6FeWL565x9lGCPfYjTM3vXCUuQIhAND2ZvYRcAFyKtQiH3qlvuEiUq/dFhf8EUxd4FYOETIU"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "fengmk2",
+					"email": "fengmk2@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/address-1.0.2.tgz_1495729717962_0.17448946181684732"
+			},
+			"directories": {}
+		},
+		"1.0.3": {
+			"name": "address",
+			"version": "1.0.3",
+			"description": "Get current machine IP, MAC and DNS servers.",
+			"main": "lib/address.js",
+			"files": [
+				"lib"
+			],
+			"scripts": {
+				"test": "mocha --check-leaks -R spec -t 5000 test/*.test.js",
+				"test-cov": "istanbul cover node_modules/.bin/_mocha -- --check-leaks -t 5000 test/*.test.js",
+				"test-travis": "istanbul cover node_modules/.bin/_mocha --report lcovonly -- --check-leaks -t 5000 test/*.test.js",
+				"benchmark": "matcha",
+				"autod": "autod -w --prefix '^'",
+				"cnpm": "npm install --registry=https://registry.npm.taobao.org",
+				"contributors": "contributors -f plain -o AUTHORS"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"contributors": "*",
+				"istanbul": "*",
+				"matcha": "*",
+				"mm": "*",
+				"mocha": "*",
+				"pedding": "*",
+				"should": "*",
+				"benchmark": "*",
+				"beautify-benchmark": "*",
+				"webstorm-disable-index": "1"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/node-modules/address.git"
+			},
+			"keywords": [
+				"address",
+				"ip",
+				"ipv4",
+				"mac"
+			],
+			"engines": {
+				"node": ">= 0.12.0"
+			},
+			"author": {
+				"name": "fengmk2",
+				"email": "fengmk2@gmail.com"
+			},
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "fengmk2",
+					"email": "fengmk2@gmail.com",
+					"url": "http://fengmk2.com"
+				},
+				{
+					"name": "alsotang",
+					"email": "alsotang@gmail.com",
+					"url": "https://github.com/alsotang"
+				}
+			],
+			"gitHead": "f17f63e7eb38e45abf64d90612774eb98b59cee2",
+			"bugs": {
+				"url": "https://github.com/node-modules/address/issues"
+			},
+			"homepage": "https://github.com/node-modules/address#readme",
+			"_id": "address@1.0.3",
+			"_npmVersion": "5.3.0",
+			"_nodeVersion": "8.3.0",
+			"_npmUser": {
+				"name": "fengmk2",
+				"email": "fengmk2@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-z55ocwKBRLryBs394Sm3ushTtBeg6VAeuku7utSoSnsJKvKcnXFIyC6vh27n3rXyxSgkJBBCAvyOn7gSUcTYjg==",
+				"shasum": "b5f50631f8d6cec8bd20c963963afb55e06cbce9",
+				"tarball": "https://registry.npmjs.org/address/-/address-1.0.3.tgz",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCMgBSiYni1jRQ/pvKmWwKpU+QP4uxTzS+oQ4ZD3fAtOgIhANFOK+ePTR4m6DT+N9H/PlTgABerKjgSpF5eZuyF80td"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "fengmk2",
+					"email": "fengmk2@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/address-1.0.3.tgz_1503567347805_0.4586020016577095"
+			},
+			"directories": {}
+		},
+		"1.1.0": {
+			"name": "address",
+			"version": "1.1.0",
+			"description": "Get current machine IP, MAC and DNS servers.",
+			"main": "lib/address.js",
+			"types": "lib/address.d.ts",
+			"scripts": {
+				"test": "mocha --check-leaks -R spec -t 5000 test/*.test.js",
+				"test-cov": "istanbul cover node_modules/.bin/_mocha -- --check-leaks -t 5000 test/*.test.js",
+				"test-travis": "istanbul cover node_modules/.bin/_mocha --report lcovonly -- --check-leaks -t 5000 test/*.test.js",
+				"benchmark": "matcha",
+				"autod": "autod -w --prefix '^'",
+				"contributors": "contributors -f plain -o AUTHORS"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"contributors": "*",
+				"istanbul": "*",
+				"matcha": "*",
+				"mm": "*",
+				"mocha": "*",
+				"pedding": "*",
+				"should": "*",
+				"benchmark": "*",
+				"beautify-benchmark": "*"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/node-modules/address.git"
+			},
+			"keywords": [
+				"address",
+				"ip",
+				"ipv4",
+				"mac"
+			],
+			"engines": {
+				"node": ">= 0.12.0"
+			},
+			"author": {
+				"name": "fengmk2",
+				"email": "fengmk2@gmail.com"
+			},
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "fengmk2",
+					"email": "fengmk2@gmail.com",
+					"url": "https://github.com/fengmk2"
+				},
+				{
+					"name": "alsotang",
+					"email": "alsotang@gmail.com",
+					"url": "https://github.com/alsotang"
+				},
+				{
+					"name": "ali-sdk",
+					"email": "m@fengmk2.com",
+					"url": "https://github.com/ali-sdk"
+				},
+				{
+					"name": "tangyao",
+					"email": "2001-wms@163.com"
+				},
+				{
+					"name": "Mathieu TUDISCO",
+					"email": "oss@mathieutu.dev"
+				}
+			],
+			"gitHead": "d5c17a733d5b53942043502833dc7fbd6dd0f33d",
+			"bugs": {
+				"url": "https://github.com/node-modules/address/issues"
+			},
+			"homepage": "https://github.com/node-modules/address#readme",
+			"_id": "address@1.1.0",
+			"_npmVersion": "6.5.0",
+			"_nodeVersion": "12.0.0",
+			"_npmUser": {
+				"name": "fengmk2",
+				"email": "fengmk2@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-4diPfzWbLEIElVG4AnqP+00SULlPzNuyJFNnmMrLgyaxG6tZXJ1sn7mjBu4fHrJE+Yp/jgylOweJn2xsLMFggQ==",
+				"shasum": "ef8e047847fcd2c5b6f50c16965f924fd99fe709",
+				"tarball": "https://registry.npmjs.org/address/-/address-1.1.0.tgz",
+				"fileCount": 6,
+				"unpackedSize": 12725,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcwG0vCRA9TVsSAnZWagAAdSYP/1/DSh0LwPJizGXNWwyz\nY6NTog5v1UJZwLlxsan4aP6PkLfYo3aF4IysAnTGNvBO6AdiywMCvjeuvKfn\n6L9edinsi/RqxB5RQFfzi5NyqVv73W/ZPz5Z9Yj89NGDQLnqnSRTgMFtnOpo\n2smlyADxni9OZTbg9AtYhXjGYKYHX+BYxLLfOYfmVt8+xTMHIWaOA9eediDF\nU/Rm8FIhOpAobQKPXGlg3Ac8w/x3nDyCBpiisyrsvJ288kjssgMCOelmwqxr\nzHfiy8WBsaiHO3AzaBWF6YaxV5ZIstnPh1D266FS2L9/BUKt2wGEu3pa5gOo\nZglM5zz4S73icvXwUybG/32k2Kjlmlv6WfxB4rz3F3/B84E9hELoN4gZ5mQm\n4DXfA2N/+N+Lguf0PRC2z2bL3YOAlbCc4habwob2DArGlGDY89oy1CtZsKnM\ns6smGVrifzA5FirqabizF8CHraIQwJ6ra7tiC49QH6wHMO/i8qsmgczPN8Ci\nXA1MaQbMLlJmEIXVY9WPpDkQMhJig/Q2/dWRPxI6k4px4VVlGPzJpgXV+eWK\nj4fisJ8gk5se4jM239KJvgu+Q26rud5PfmwtR3+q34vk3GXW4XSmUIU2lWsX\nhw1bu885L5v1OzZOOck4v1KOynX7WX7Gm08znNvDqYUxhlynWh92PIIdYufc\nK13l\r\n=rAnY\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCICNr9GBH9XWaEkTU0uQTsS+Lf0S9nDENhBCyyckKJleZAiAmhxkLQENirNvWu3LOrMPgaPcKIg1fzX0dcmKTR3T1fg=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "fengmk2",
+					"email": "fengmk2@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/address_1.1.0_1556114735239_0.9934551439081425"
+			},
+			"_hasShrinkwrap": false
+		},
+		"1.1.1": {
+			"name": "address",
+			"version": "1.1.1",
+			"description": "Get current machine IP, MAC and DNS servers.",
+			"main": "lib/address.js",
+			"types": "lib/address.d.ts",
+			"scripts": {
+				"test": "mocha --check-leaks -R spec -t 5000 test/*.test.js",
+				"test-cov": "istanbul cover node_modules/.bin/_mocha -- --check-leaks -t 5000 test/*.test.js",
+				"test-travis": "istanbul cover node_modules/.bin/_mocha --report lcovonly -- --check-leaks -t 5000 test/*.test.js",
+				"benchmark": "matcha",
+				"autod": "autod -w --prefix '^'",
+				"contributors": "contributors -f plain -o AUTHORS"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"contributors": "*",
+				"istanbul": "*",
+				"matcha": "*",
+				"mm": "*",
+				"mocha": "*",
+				"pedding": "*",
+				"should": "*",
+				"benchmark": "*",
+				"beautify-benchmark": "*"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/node-modules/address.git"
+			},
+			"keywords": [
+				"address",
+				"ip",
+				"ipv4",
+				"mac"
+			],
+			"engines": {
+				"node": ">= 0.12.0"
+			},
+			"author": {
+				"name": "fengmk2",
+				"email": "fengmk2@gmail.com"
+			},
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "fengmk2",
+					"email": "fengmk2@gmail.com",
+					"url": "https://github.com/fengmk2"
+				},
+				{
+					"name": "alsotang",
+					"email": "alsotang@gmail.com",
+					"url": "https://github.com/alsotang"
+				},
+				{
+					"name": "ali-sdk",
+					"email": "m@fengmk2.com",
+					"url": "https://github.com/ali-sdk"
+				},
+				{
+					"name": "tangyao",
+					"email": "2001-wms@163.com"
+				},
+				{
+					"name": "Mathieu TUDISCO",
+					"email": "oss@mathieutu.dev"
+				}
+			],
+			"gitHead": "9aa2ca133f114edbb043177fb49523ea200f1720",
+			"bugs": {
+				"url": "https://github.com/node-modules/address/issues"
+			},
+			"homepage": "https://github.com/node-modules/address#readme",
+			"_id": "address@1.1.1",
+			"_npmVersion": "6.5.0",
+			"_nodeVersion": "12.3.1",
+			"_npmUser": {
+				"name": "fengmk2",
+				"email": "fengmk2@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-srclZEseI6OB0MgWYWuYpr2F5fHMxh5lgWF72CeUFm5QgJyviPA64Q7PzJdBQkFCJibEycqsZ5b9L0l/J8SlyQ==",
+				"shasum": "9483d6464788dee73e9a0f9f5d57bedf429b2a70",
+				"tarball": "https://registry.npmjs.org/address/-/address-1.1.1.tgz",
+				"fileCount": 6,
+				"unpackedSize": 12977,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdXoQLCRA9TVsSAnZWagAAqJcP/RoQLXkPLLfA18jOvH2u\nSaq08wWmIdZK94Bm+hYkpDUBtaQnenGKB7rJkzMUFfQpwNUFmLAW20eHhaXy\nKiUlrZOhodlrJZGoKwQYJQMxra9vvGLbr1AtdsuvJsEHFXoUPNZFxtQM1hPL\n2irhl4V2jIVtMIt1oCJVX4N0FizSdP3crmF3ZoKHOLqYTzBIxP80/GKcQnzl\n1XTq6HTFvuDkpllCn3GgZYwZbo0OzEOY09UH6qpvyDVkMO/hs4bF0KLNg+Wy\nwKizQKQacJTsHreL0w9Fz+xSTfiP6oRLXoBC0q2TmtHQoGNYbcHjtzneaxSV\n153xFo6U4NLcNmb5nejhvOpTzr6mQsl8FreYYo8dR4AdlPxi6iYVQiTJCf+Z\nK6kZQq21oGZff2NCUEXHAx1yB+yjDkmpN4axs1sGN1h2hgqUslONZKojv1uN\nRk2e3/tsFT5hf9vOUFfw1f5a/OjoYwwX/67XiBFe9quWDnAjQZh6cKSy7yVH\nyGpm72xokjvPP6x4nBGc+e2ifzLukrmExg21enQ5DVrsCm/blYh3H5rGGU3L\nCSlR7IOlHCZrT3oZbaxI5eTpDxB8BVCx2nASxBgzUl5s5u0Xezdlj85KxiJs\n+EWnob9REUxBWRelm54gmad+bcfzs0TvISw8Y93uCSyzAxFzM4S96wcv3rON\nfJnB\r\n=xNvB\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQC+0CfAXab300QV9/DhvZQQYXjsQsTkao5+/gcUf06q3gIhAMLClIcd6MK8xYpmSRXMkhtaq/nsRe1lJSFzgyB4ENTi"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "fengmk2",
+					"email": "fengmk2@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/address_1.1.1_1566475275127_0.570037106856988"
+			},
+			"_hasShrinkwrap": false
+		},
+		"1.1.2": {
+			"name": "address",
+			"version": "1.1.2",
+			"description": "Get current machine IP, MAC and DNS servers.",
+			"main": "lib/address.js",
+			"types": "lib/address.d.ts",
+			"scripts": {
+				"test": "mocha --check-leaks -R spec -t 5000 test/*.test.js",
+				"test-cov": "istanbul cover node_modules/.bin/_mocha -- --check-leaks -t 5000 test/*.test.js",
+				"test-travis": "istanbul cover node_modules/.bin/_mocha --report lcovonly -- --check-leaks -t 5000 test/*.test.js",
+				"benchmark": "matcha",
+				"autod": "autod -w --prefix '^'",
+				"contributors": "contributors -f plain -o AUTHORS"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"@types/node": "^12.7.2",
+				"beautify-benchmark": "*",
+				"benchmark": "*",
+				"contributors": "*",
+				"istanbul": "*",
+				"matcha": "*",
+				"mm": "*",
+				"mocha": "*",
+				"pedding": "*",
+				"runscript": "^1.4.0",
+				"should": "*",
+				"typescript": "^3.5.3"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/node-modules/address.git"
+			},
+			"keywords": [
+				"address",
+				"ip",
+				"ipv4",
+				"mac"
+			],
+			"engines": {
+				"node": ">= 0.12.0"
+			},
+			"author": {
+				"name": "fengmk2",
+				"email": "fengmk2@gmail.com"
+			},
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "fengmk2",
+					"email": "fengmk2@gmail.com",
+					"url": "https://github.com/fengmk2"
+				},
+				{
+					"name": "alsotang",
+					"email": "alsotang@gmail.com",
+					"url": "https://github.com/alsotang"
+				},
+				{
+					"name": "ali-sdk",
+					"email": "m@fengmk2.com",
+					"url": "https://github.com/ali-sdk"
+				},
+				{
+					"name": "tangyao",
+					"email": "2001-wms@163.com"
+				},
+				{
+					"name": "Mathieu TUDISCO",
+					"email": "oss@mathieutu.dev"
+				}
+			],
+			"gitHead": "05b5f072d34f7d69dc8281bd86f9dd09a9618391",
+			"bugs": {
+				"url": "https://github.com/node-modules/address/issues"
+			},
+			"homepage": "https://github.com/node-modules/address#readme",
+			"_id": "address@1.1.2",
+			"_npmVersion": "6.5.0",
+			"_nodeVersion": "12.3.1",
+			"_npmUser": {
+				"name": "fengmk2",
+				"email": "fengmk2@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-aT6camzM4xEA54YVJYSqxz1kv4IHnQZRtThJJHhUMRExaU5spC7jX5ugSwTaTgJliIgs4VhZOk7htClvQ/LmRA==",
+				"shasum": "bf1116c9c758c51b7a933d296b72c221ed9428b6",
+				"tarball": "https://registry.npmjs.org/address/-/address-1.1.2.tgz",
+				"fileCount": 6,
+				"unpackedSize": 13379,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdY5ELCRA9TVsSAnZWagAAOwoP/ivTNEecPpqvwotzbRKR\n8imo3yyXDIezvxlQQqtgpi7YLZUtXLKWi5Wtk+KvSfqqLwxvdyk1GAkqxhxx\n1Sr824J7mMSGg4WNIKWkePlmo4jbbYySzknU43yznpPMO6EMuaKhTjx0VbDE\nXNTakyY7JkYBdlD6WKTmdJrupDppFDUnmtpYwRysZasPOjCq6XWpPqh7e9nU\neo1nFD3PyD7/UlMWMuUGIk5WiiIGtNrKcPi0pAdrvg3DJcfwEYFv5jNPue8t\nsoPWyble6gudl7YuWsITcj1bLr3tGKgUtDazuPYRxgVHrqFOprhQdAN/s7Hn\nocl6hbr1HlC8305VDd3EmRNzXtuteqLAiIPttXM6uwjr3oI3Pc/b7VedGqY1\niJ7O92yxDiCHj8druFuHBapKvReG6Aud4WzhrjtCKVK7Uz/a5BTS/IXth6aY\nPiphfppyU34+BzBLbJ5gHLpilta1OAdCM5TnWheo6uOF/5oAfZrO9yDoy+1V\nXbff10MD8qqq28i+jF6k5b3rPOwyB9Url4qGC+CPaY/y7aL9GqXUl9jgck8G\nKmLoM+QlEtR2Vcm9iTlpC/o4iEsvgaX3J3U+N8zoW3gPCQknjY60W1/eCbCI\nUeR5/gZASOxwDr9rVsVzYJg1h/GKrrUhzytBgxyUiQvjUfX7XJ1dRswVQwtH\n0FEq\r\n=L45o\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIG6up1Is3CkAayCw7bC9Rx3zLuTC9R0cXcSAk8+urQLcAiEA3pEEZvwm2f2GC0YUeXV91TKvDRX2PDd1uG/37BvPlXI="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "fengmk2",
+					"email": "fengmk2@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/address_1.1.2_1566806282805_0.26064372915585543"
+			},
+			"_hasShrinkwrap": false
+		},
+		"1.2.0": {
+			"name": "address",
+			"version": "1.2.0",
+			"description": "Get current machine IP, MAC and DNS servers.",
+			"main": "lib/address.js",
+			"types": "lib/address.d.ts",
+			"scripts": {
+				"test": "mocha --check-leaks -R spec -t 5000 test/*.test.js",
+				"test-cov": "istanbul cover node_modules/.bin/_mocha -- --check-leaks -t 5000 test/*.test.js",
+				"test-travis": "istanbul cover node_modules/.bin/_mocha --report lcovonly -- --check-leaks -t 5000 test/*.test.js",
+				"benchmark": "matcha",
+				"autod": "autod -w --prefix '^'",
+				"contributors": "git-contributor"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"@types/node": "^12.7.2",
+				"beautify-benchmark": "*",
+				"benchmark": "*",
+				"git-contributor": "^1.1.0",
+				"istanbul": "*",
+				"matcha": "*",
+				"mm": "*",
+				"mocha": "*",
+				"pedding": "*",
+				"runscript": "^1.4.0",
+				"should": "*",
+				"typescript": "^3.5.3"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/node-modules/address.git"
+			},
+			"keywords": [
+				"address",
+				"ip",
+				"ipv4",
+				"mac"
+			],
+			"engines": {
+				"node": ">= 10.0.0"
+			},
+			"author": {
+				"name": "fengmk2",
+				"email": "fengmk2@gmail.com"
+			},
+			"license": "MIT",
+			"gitHead": "3b87462b17ba34215ff129229db2a769bb6779af",
+			"bugs": {
+				"url": "https://github.com/node-modules/address/issues"
+			},
+			"homepage": "https://github.com/node-modules/address#readme",
+			"_id": "address@1.2.0",
+			"_nodeVersion": "16.15.0",
+			"_npmVersion": "6.14.12",
+			"dist": {
+				"integrity": "sha512-tNEZYz5G/zYunxFm7sfhAxkXEuLj3K6BKwv6ZURlsF6yiUQ65z0Q2wZW9L5cPUl9ocofGvXOdFYbFHp0+6MOig==",
+				"shasum": "d352a62c92fee90f89a693eccd2a8b2139ab02d9",
+				"tarball": "https://registry.npmjs.org/address/-/address-1.2.0.tgz",
+				"fileCount": 6,
+				"unpackedSize": 15378,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIGwtFkUEdLB3DQx56lpiI56Mkk/3Zth4xmKTRSt8vimuAiEA0SZywR+JkRpivNPnDv+kfUnj4hRy3yoonaSC1WXHykE="
+					}
+				],
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJia+FTACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2VmqnpA//f+WrmLs7Thu9suc/T/6ebkAthwx1iznOBwQKjoPqtcZPkF3f\r\np6jAOhKGw8Iy2hVQ/EnUkDZUA38a9UyHbQ/C8GqVMNkch/7isjIBa7GRcEP6\r\nIn3c5HsORKmhPqR2v7o3QGnIa3XdBtf/vd+65Zh54p1FRdFmmdynH2zJHL+G\r\nUeITmb69l8uFw2BzL9nD+jBbW81nHmXe0x8OiYLNxv4FwT3SGEYF8pzo5deX\r\n9mIPbJ85XPJlqnsIivKxIBc4IeriIis3Fq8m23NAl9i2b3BlYKbAoUBwdM6P\r\nJHV/am7IMsLLxV7WAO+c+UuKawHqt/tx6QIabSNGdeX17Jc4JY4/8k8uyMTl\r\neo0RZsf2MOpXLiTg+ezeE1Ujf7iWy2o+oBNQW2UoWc/ydLO2RjY3BODe+GYM\r\nwaKfcshmi8yXAnBCsi1wFTfb7NXb0pru73opqRdYk+o0ofuvIShPND0pT0Jz\r\ng02h09/5qutwq66Pf714f/k6euorEfAPfJVtSOPSHHcCadB5P/2xnjpgcBar\r\nkJ/RRtjp2YGDXwLzV8HOZ9Gz5YdMiePagXkIukNOp4waxszfZxRQMyN6Qrqn\r\nLYtS/wvxvxt+UguJGXSGcGkYCnImJQ/SONLnDXxbTxVVNIb4q8Q6gfj2VzMW\r\ntpQuCKHZE1vmtWFP0LMy/AHIw5H+AzWT8n0=\r\n=imnh\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "fengmk2",
+				"email": "fengmk2@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "fengmk2",
+					"email": "fengmk2@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/address_1.2.0_1651237203312_0.9415215271704405"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		}
+	},
+	"time": {
+		"modified": "2022-06-13T02:26:00.805Z",
+		"created": "2013-07-30T15:10:01.881Z",
+		"0.0.1-alpha": "2013-07-30T15:10:08.745Z",
+		"0.0.1": "2013-07-31T09:44:48.849Z",
+		"0.0.2": "2013-08-08T06:21:39.984Z",
+		"0.0.3": "2013-11-04T08:17:10.694Z",
+		"1.0.0": "2015-08-05T23:45:45.211Z",
+		"1.0.1": "2016-09-30T07:51:25.004Z",
+		"1.0.2": "2017-05-25T16:28:38.130Z",
+		"1.0.3": "2017-08-24T09:35:47.914Z",
+		"1.1.0": "2019-04-24T14:05:35.454Z",
+		"1.1.1": "2019-08-22T12:01:15.262Z",
+		"1.1.2": "2019-08-26T07:58:02.946Z",
+		"1.2.0": "2022-04-29T13:00:03.497Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "1.2.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"8e47738d6a4f211bc6363b4f0bac789e\"",
+			"fetched": 1660840776663
+		}
+	},
+	"_distfiles": {
+		"address-0.0.1.tgz": {
+			"url": "https://registry.npmjs.org/address/-/address-0.0.1.tgz",
+			"sha": "2e32201de7ab7d2bffb3abeef19763497e224a89",
+			"registry": "npmjs"
+		},
+		"address-0.0.2.tgz": {
+			"url": "https://registry.npmjs.org/address/-/address-0.0.2.tgz",
+			"sha": "961c202a217a742291dfdd590efb9eb99bb66ae7",
+			"registry": "npmjs"
+		},
+		"address-0.0.3.tgz": {
+			"url": "https://registry.npmjs.org/address/-/address-0.0.3.tgz",
+			"sha": "81c73446c8f5f08758ff5ede5cfab74e4d348f16",
+			"registry": "npmjs"
+		},
+		"address-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/address/-/address-1.0.0.tgz",
+			"sha": "20200f7900eeb5f13779e768785c78c32ce2ce86",
+			"registry": "npmjs"
+		},
+		"address-1.0.1.tgz": {
+			"url": "https://registry.npmjs.org/address/-/address-1.0.1.tgz",
+			"sha": "363f5d3f2be26d0655d8afd5a9562e4fc2194537",
+			"registry": "npmjs"
+		},
+		"address-1.0.2.tgz": {
+			"url": "https://registry.npmjs.org/address/-/address-1.0.2.tgz",
+			"sha": "480081e82b587ba319459fef512f516fe03d58af",
+			"registry": "npmjs"
+		},
+		"address-1.0.3.tgz": {
+			"url": "https://registry.npmjs.org/address/-/address-1.0.3.tgz",
+			"sha": "b5f50631f8d6cec8bd20c963963afb55e06cbce9",
+			"registry": "npmjs"
+		},
+		"address-1.1.0.tgz": {
+			"url": "https://registry.npmjs.org/address/-/address-1.1.0.tgz",
+			"sha": "ef8e047847fcd2c5b6f50c16965f924fd99fe709",
+			"registry": "npmjs"
+		},
+		"address-1.1.1.tgz": {
+			"url": "https://registry.npmjs.org/address/-/address-1.1.1.tgz",
+			"sha": "9483d6464788dee73e9a0f9f5d57bedf429b2a70",
+			"registry": "npmjs"
+		},
+		"address-1.1.2.tgz": {
+			"url": "https://registry.npmjs.org/address/-/address-1.1.2.tgz",
+			"sha": "bf1116c9c758c51b7a933d296b72c221ed9428b6",
+			"registry": "npmjs"
+		},
+		"address-1.2.0.tgz": {
+			"url": "https://registry.npmjs.org/address/-/address-1.2.0.tgz",
+			"sha": "d352a62c92fee90f89a693eccd2a8b2139ab02d9",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_rev": "3-64bf1e703804d46f",
+	"_id": "address",
+	"readme": "address\n=======\n\n[![NPM version][npm-image]][npm-url]\n[![build status][travis-image]][travis-url]\n[![Test coverage][coveralls-image]][coveralls-url]\n[![Gittip][gittip-image]][gittip-url]\n[![David deps][david-image]][david-url]\n[![npm download][download-image]][download-url]\n\n[npm-image]: https://img.shields.io/npm/v/address.svg?style=flat-square\n[npm-url]: https://npmjs.org/package/address\n[travis-image]: https://img.shields.io/travis/node-modules/address.svg?style=flat-square\n[travis-url]: https://travis-ci.org/node-modules/address\n[coveralls-image]: https://img.shields.io/coveralls/node-modules/address.svg?style=flat-square\n[coveralls-url]: https://coveralls.io/r/node-modules/address?branch=master\n[gittip-image]: https://img.shields.io/gittip/fengmk2.svg?style=flat-square\n[gittip-url]: https://www.gittip.com/fengmk2/\n[david-image]: https://img.shields.io/david/node-modules/address.svg?style=flat-square\n[david-url]: https://david-dm.org/node-modules/address\n[download-image]: https://img.shields.io/npm/dm/address.svg?style=flat-square\n[download-url]: https://npmjs.org/package/address\n\nGet current machine IP, MAC and DNS servers.\n\nDNS servers receive from `/etc/resolv.conf`.\n\n## Install\n\n```bash\n$ npm install address\n```\n\n## Usage\n\nGet IP is sync and get MAC is async for now.\n\n```js\nvar address = require('address');\n\n// default interface 'eth' on linux, 'en' on osx.\naddress.ip();   // '192.168.0.2'\naddress.ipv6(); // 'fe80::7aca:39ff:feb0:e67d'\naddress.mac(function (err, addr) {\n  console.log(addr); // '78:ca:39:b0:e6:7d'\n});\n\n// local loopback\naddress.ip('lo'); // '127.0.0.1'\n\n// vboxnet MAC\naddress.mac('vboxnet', function (err, addr) {\n  console.log(addr); // '0a:00:27:00:00:00'\n});\n```\n\n### Get all addresses: IPv4, IPv6 and MAC\n\n```js\naddress(function (err, addrs) {\n  console.log(addrs.ip, addrs.ipv6, addrs.mac);\n  // '192.168.0.2', 'fe80::7aca:39ff:feb0:e67d', '78:ca:39:b0:e6:7d'\n});\n\naddress('vboxnet', function (err, addrs) {\n  console.log(addrs.ip, addrs.ipv6, addrs.mac);\n  // '192.168.56.1', null, '0a:00:27:00:00:00'\n});\n```\n\n### Get an interface info with family\n\n```js\naddress.interface('IPv4', 'eth1');\n// { address: '192.168.1.1', family: 'IPv4', mac: '78:ca:39:b0:e6:7d' }\n```\n\n### Get DNS servers\n\n```js\naddress.dns(function (err, addrs) {\n  console.log(addrs);\n  // ['10.13.2.1', '10.13.2.6']\n});\n```\n\n## benchmark\n\nrun `$ npm run benchmark`\n\n```\n18,929 op/s » #ip\n17,622 op/s » #ipv6\n16,347 op/s » #mac\n11,906 op/s » #dns\n```\n\n## License\n\n[MIT](LICENSE.txt)\n<!-- GITCONTRIBUTOR_START -->\n\n## Contributors\n\n|[<img src=\"https://avatars.githubusercontent.com/u/156269?v=4\" width=\"100px;\"/><br/><sub><b>fengmk2</b></sub>](https://github.com/fengmk2)<br/>|[<img src=\"https://avatars.githubusercontent.com/u/1147375?v=4\" width=\"100px;\"/><br/><sub><b>alsotang</b></sub>](https://github.com/alsotang)<br/>|[<img src=\"https://avatars.githubusercontent.com/u/1409643?v=4\" width=\"100px;\"/><br/><sub><b>mariodu</b></sub>](https://github.com/mariodu)<br/>|[<img src=\"https://avatars.githubusercontent.com/u/11351322?v=4\" width=\"100px;\"/><br/><sub><b>mathieutu</b></sub>](https://github.com/mathieutu)<br/>|[<img src=\"https://avatars.githubusercontent.com/u/2139038?v=4\" width=\"100px;\"/><br/><sub><b>zhangyuheng</b></sub>](https://github.com/zhangyuheng)<br/>|[<img src=\"https://avatars.githubusercontent.com/u/1400114?v=4\" width=\"100px;\"/><br/><sub><b>coolme200</b></sub>](https://github.com/coolme200)<br/>|\n| :---: | :---: | :---: | :---: | :---: | :---: |\n[<img src=\"https://avatars.githubusercontent.com/u/5856440?v=4\" width=\"100px;\"/><br/><sub><b>whxaxes</b></sub>](https://github.com/whxaxes)<br/>\n\nThis project follows the git-contributor [spec](https://github.com/xudafeng/git-contributor), auto updated at `Fri Apr 29 2022 20:59:23 GMT+0800`.\n\n<!-- GITCONTRIBUTOR_END -->"
+}

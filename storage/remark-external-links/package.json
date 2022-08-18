@@ -1,0 +1,2423 @@
+{
+	"name": "remark-external-links",
+	"versions": {
+		"1.0.0": {
+			"name": "remark-external-links",
+			"version": "1.0.0",
+			"description": "Automatically add target et rel attributes on external links",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/xuopled/remark-external-links.git"
+			},
+			"keywords": [
+				"markdown",
+				"remark",
+				"plugin",
+				"link",
+				"url"
+			],
+			"author": {
+				"name": "Cédric Delpoux",
+				"email": "xuopled@gmail.com"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/xuopled/remark-external-links/issues"
+			},
+			"homepage": "https://github.com/xuopled/remark-external-links#readme",
+			"main": "lib/index.js",
+			"files": [
+				"lib"
+			],
+			"scripts": {
+				"clean": "rm -rf lib",
+				"build": "babel ./src --out-dir ./lib --ignore /__tests__/",
+				"lint": "eslint src/",
+				"prepublish": "npm run clean && npm run build",
+				"test": "jest"
+			},
+			"devDependencies": {
+				"babel-cli": "~6.22.2",
+				"babel-eslint": "~7.1.1",
+				"babel-plugin-transform-object-rest-spread": "~6.22.0",
+				"babel-preset-es2015": "~6.22.0",
+				"eslint": "~3.14.0",
+				"jest": "~18.1.0",
+				"remark": "~6.2.0",
+				"remark-html": "~5.1.0",
+				"unist-util-select": "~1.5.0"
+			},
+			"gitHead": "03f7ccacc72c6c1ec4322e7182a6ed5142975470",
+			"_id": "remark-external-links@1.0.0",
+			"_shasum": "afec08d1c99fd18e66ed54a46a0302729135fc9f",
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_nodeVersion": "7.3.0",
+			"_npmUser": {
+				"name": "cedricdelpoux",
+				"email": "cedric.delpoux@gmail.com"
+			},
+			"dist": {
+				"shasum": "afec08d1c99fd18e66ed54a46a0302729135fc9f",
+				"tarball": "https://registry.npmjs.org/remark-external-links/-/remark-external-links-1.0.0.tgz",
+				"integrity": "sha512-JCynM+5OttAjPjYHf5EYQP6LD9+l+sxlhKvnHFWpUxJgnd3xP9ChjyNaNsfE0vpMDgCqetkNXlGgF0gdM6Lndw==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDepmKGQiN/nb7JwE867CwzUWdeVST+6/2Y8ZJlj+jNugIhAJS3uMxfv6LoXE1/O73/DU9ZiDkQF09ZsM+3C7M1d5Cs"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "cedricdelpoux",
+					"email": "cedric.delpoux@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/remark-external-links-1.0.0.tgz_1485364387997_0.46547957183793187"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.0.1": {
+			"name": "remark-external-links",
+			"version": "1.0.1",
+			"description": "Automatically adds the target and rel attributes to external links",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/xuopled/remark-external-links.git"
+			},
+			"keywords": [
+				"markdown",
+				"remark",
+				"plugin",
+				"link",
+				"url"
+			],
+			"author": {
+				"name": "Cédric Delpoux",
+				"email": "xuopled@gmail.com"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/xuopled/remark-external-links/issues"
+			},
+			"homepage": "https://github.com/xuopled/remark-external-links#readme",
+			"main": "lib/index.js",
+			"files": [
+				"lib"
+			],
+			"scripts": {
+				"clean": "rm -rf lib",
+				"build": "babel ./src --out-dir ./lib --ignore /__tests__/",
+				"lint": "eslint src/",
+				"prepublish": "npm run clean && npm run build",
+				"test": "jest"
+			},
+			"devDependencies": {
+				"babel-cli": "~6.22.2",
+				"babel-eslint": "~7.1.1",
+				"babel-plugin-transform-object-rest-spread": "~6.22.0",
+				"babel-preset-es2015": "~6.22.0",
+				"eslint": "~3.14.0",
+				"jest": "~18.1.0",
+				"remark": "~6.2.0",
+				"remark-html": "~5.1.0"
+			},
+			"dependencies": {
+				"unist-util-select": "~1.5.0"
+			},
+			"gitHead": "12a66674a19661af1ef21fc11620d92012a3d730",
+			"_id": "remark-external-links@1.0.1",
+			"_shasum": "6140251948eb408bae596d96e3ec2f79678f177e",
+			"_from": ".",
+			"_npmVersion": "3.10.10",
+			"_nodeVersion": "7.3.0",
+			"_npmUser": {
+				"name": "cedricdelpoux",
+				"email": "cedric.delpoux@gmail.com"
+			},
+			"dist": {
+				"shasum": "6140251948eb408bae596d96e3ec2f79678f177e",
+				"tarball": "https://registry.npmjs.org/remark-external-links/-/remark-external-links-1.0.1.tgz",
+				"integrity": "sha512-c443bpwdLZDEPGpSleRg1fZQTnO2oN0TzsAlmZfUHHXJEmUDoOJ2RX1fTbvJx7LNm3NVU3/cSNBvk7jrnrNimg==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDb/74sO7VRJsaXDD8hzXMd9sn8Sr2JL4fVoCR+IwHuFgIgA8K1ZtTBvYmlIAuBfKNojGuNdqwpjhhKc6Fw2AaOpD4="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "cedricdelpoux",
+					"email": "cedric.delpoux@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/remark-external-links-1.0.1.tgz_1485422342734_0.41071885428391397"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"2.0.0": {
+			"name": "remark-external-links",
+			"version": "2.0.0",
+			"description": "Automatically adds the target and rel attributes to external links",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/xuopled/remark-external-links.git"
+			},
+			"keywords": [
+				"markdown",
+				"remark",
+				"plugin",
+				"link",
+				"url"
+			],
+			"author": {
+				"name": "Cédric Delpoux",
+				"email": "xuopled@gmail.com"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/xuopled/remark-external-links/issues"
+			},
+			"homepage": "https://github.com/xuopled/remark-external-links#readme",
+			"main": "lib/index.js",
+			"files": [
+				"lib"
+			],
+			"scripts": {
+				"clean": "rm -rf lib",
+				"build": "babel ./src --out-dir ./lib --ignore /__tests__/",
+				"lint": "eslint src/",
+				"prepublish": "npm run clean && npm run build",
+				"test": "jest"
+			},
+			"devDependencies": {
+				"babel-cli": "~6.22.2",
+				"babel-eslint": "~7.1.1",
+				"babel-plugin-transform-object-rest-spread": "~6.22.0",
+				"babel-preset-es2015": "~6.22.0",
+				"eslint": "~3.14.0",
+				"jest": "~18.1.0",
+				"remark": "~9.0.0",
+				"remark-html": "~7.0.0"
+			},
+			"dependencies": {
+				"unist-util-select": "~1.5.0"
+			},
+			"gitHead": "39552b53b68701264c7a748285f4cedb8f02eccb",
+			"_id": "remark-external-links@2.0.0",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "10.0.0",
+			"_npmUser": {
+				"name": "xuopled",
+				"email": "xuopled@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-Ya1ojtcxZbnemgg62m7UBQ48OdhuPpadtKUnNSiYYMqw9BVQmG1v3hSM1sp0XbXOoT92AxVmC530trW5VCiEOg==",
+				"shasum": "fe00455719d92408a7b453ef04f7f481d163b1f8",
+				"tarball": "https://registry.npmjs.org/remark-external-links/-/remark-external-links-2.0.0.tgz",
+				"fileCount": 4,
+				"unpackedSize": 5085,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbDmzaCRA9TVsSAnZWagAABF8QAJ12waBPmN7ZEJ4xLQ3J\nWVO6keioW0EH3tw0nip+vqWjD0Jk6ctiaxGzpz6dk9D9IepbL+1rAFy1KXHv\nKRI2WLRFnteYFjExinipIomt4OeyHEsdEo6baa19+NXTOF/p0MsTVPy0mrnL\noQSOjXCEVFFWWc+KM/C+FdBIFv6Udzs3RM2uZ6AZpUmamOSrZ7WqvZzDQwtz\nM16zUS+K4JKs3uTPw6zwdYUT8UZo7AJnDVXb9EVjmvNfd1z9YUb1tFARwkWC\nMDlGsx/cJEpaY63PbGGBjxXKoFzt55Xqpm7ga5O29Cm53/AIwsizXDBSMR2A\nPcRW1ogwb9x+K4r2+pfl0w+yHUfbreaX3IqT+T/g3BR0QRtagKmSiREp5ryz\nw5X4IT7UfGMTM8A6wi46i815lD3NPR3FJ8FxswMF/r/xMLGpsLsYfk0jOx/p\na7pV2xQucOeNHZSzhngxAnD46hAZsgS4Orh78aZwVFkjfYpPUtebtINcFY92\nPvScQO7hvpOcHAyGOO0soxOUp/T3XaXbx0wOSiXOva43FXR8XIME3O8q+R7q\nWFezdZANv7x8RthcpI+vddrFsWAq8EBekSuu+hTpf7JnyT3E0xQKsY9rJm1P\nQ3zUlZ5egJ/qlvVDDuYo0/uABQw0c8YEakl1qoL6kGj/hjQp3f4gj4D978QQ\nuev5\r\n=H2Ez\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCICV2loBq6MPzKi1FeWH1WTW1ePAC8Cwz5SmOg3ce+KR3AiEAy/8zA4J6qCQBD/NhAZxqFCqhEFtO78hOVQCKHEAbgrc="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "xuopled",
+					"email": "xuopled@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/remark-external-links_2.0.0_1527672026105_0.714243890786552"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.0.0": {
+			"name": "remark-external-links",
+			"version": "3.0.0",
+			"description": "Automatically adds the target and rel attributes to external links",
+			"license": "MIT",
+			"keywords": [
+				"markdown",
+				"remark",
+				"plugin",
+				"link",
+				"url"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/remarkjs/remark-external-links.git"
+			},
+			"bugs": {
+				"url": "https://github.com/remarkjs/remark-external-links/issues"
+			},
+			"author": {
+				"name": "Cédric Delpoux",
+				"email": "xuopled@gmail.com"
+			},
+			"contributors": [
+				{
+					"name": "Cédric Delpoux",
+					"email": "xuopled@gmail.com"
+				},
+				{
+					"name": "Titus Wormer",
+					"email": "tituswormer@gmail.com",
+					"url": "http://wooorm.com"
+				}
+			],
+			"files": [
+				"index.js"
+			],
+			"dependencies": {
+				"space-separated-tokens": "^1.1.2",
+				"unist-util-visit": "^1.4.0"
+			},
+			"devDependencies": {
+				"jest": "~23.5.0",
+				"prettier": "^1.14.2",
+				"remark": "~9.0.0",
+				"remark-cli": "^5.0.0",
+				"remark-html": "~8.0.0",
+				"remark-preset-wooorm": "^4.0.0",
+				"xo": "^0.22.0"
+			},
+			"scripts": {
+				"format": "remark . -qfo && prettier --write \"**/*.js\" && xo --fix",
+				"test-api": "jest",
+				"test-coverage": "jest --collectCoverage",
+				"test": "npm run format && npm run test-coverage"
+			},
+			"jest": {
+				"coverageThreshold": {
+					"global": {
+						"branches": 100,
+						"functions": 100,
+						"lines": 100,
+						"statements": 100
+					}
+				}
+			},
+			"prettier": {
+				"tabWidth": 2,
+				"useTabs": false,
+				"singleQuote": true,
+				"bracketSpacing": false,
+				"semi": false,
+				"trailingComma": "none"
+			},
+			"xo": {
+				"prettier": true,
+				"esnext": false
+			},
+			"remarkConfig": {
+				"plugins": [
+					"preset-wooorm"
+				]
+			},
+			"gitHead": "5cc2fed9a24b70b45a0e8007bc98fa7c3c0a52b2",
+			"homepage": "https://github.com/remarkjs/remark-external-links#readme",
+			"_id": "remark-external-links@3.0.0",
+			"_npmVersion": "6.3.0",
+			"_nodeVersion": "10.0.0",
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-4P9rvQeZUvZUCMpdkCos7ZrobrutZpRxgtTXOKbkJgjloccLgW6ZhBgXXGr1uSHP+ioMaxdAb5XQi8qdYa7w4w==",
+				"shasum": "2463c7feb14f33c9ca84b93c563a9ad223fb61d3",
+				"tarball": "https://registry.npmjs.org/remark-external-links/-/remark-external-links-3.0.0.tgz",
+				"fileCount": 4,
+				"unpackedSize": 6212,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbeoUCCRA9TVsSAnZWagAAi4UP/19Z7HNfi5cUYxaTayjq\nPsARP4NgJuSXY9yCqaQmiHQopjw3Ibg02eKbBE80FPzGoy3DuUHx8/mp37Ex\nt+W2L9N/1boHKZUiYnuaX5QVByCCRf3LjgaFh0SBzskOIriXhEBfOcqHSdUP\nrhvQC5RcqtpKQWl3Vf/+K7eUCLc0r6gJZH3Z7WDwNvyHwNzBHanycRbJeQy+\nuEKutQ8XJaVUOc6PyoE4RGA79WBXu7HbRKFwnApFDSzKJ4zNAgexeX24CD06\nDcZcueMkcje6azdlcdqMaQVSlT9IU6mgPod0zP5QTtFk348ouWrtitGttWgd\n7pPgS/IRnYbRa9zzQoim9q32Rit3YFmW29O/rM2mF6TrJqabcNBJxZgQ0qpO\nsTctxNZKAajmvO+kzgO9tIoMeljpLpJ38A7SUwu7g5F6XpZ0yg/nIVmmF7/d\nF9+jZ68oWcDNPm4O2ObK4tzpgcT9EPrWVT7fbfw7Mz9bWBfO4vOVkMr/Wc1J\n+NVpHBcTB+z/zo9ynuDnT/LqY7g5Cn+3LL9A/MZ4lQCZjViV8Y4nWqAtuLB6\nBi16KFxxMIi4c6zFz1/WxEMtE7YN0WlJJiZpIHxLdXAtxRJQkWPbP0Id6RHo\nyavUGYtcxL0Tp/X2Yu6BwN7trf2eodPJNwQ5BU26Glp/MpvXKvVMA6IoeGsc\nAyJF\r\n=3DY2\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEMCH0KCejTxENLbO6wSgjVAZJve2GrAuTCWR60phL34y/UCIEkAfICTsOC1Js22ZbRPwOWdAKOt1+j9vCh6A/BQU93w"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"email": "Christian.Murphy.42@gmail.com",
+					"name": "christianmurphy"
+				},
+				{
+					"email": "denysdovhan@gmail.com",
+					"name": "denysdovhan"
+				},
+				{
+					"email": "eush77@gmail.com",
+					"name": "eush77"
+				},
+				{
+					"email": "fazouanem3@gmail.com",
+					"name": "fazouane-marouane"
+				},
+				{
+					"email": "david@spektrakel.de",
+					"name": "haggis_"
+				},
+				{
+					"email": "johnotander@gmail.com",
+					"name": "johno"
+				},
+				{
+					"email": "lin90162@yahoo.co.jp",
+					"name": "rhysd"
+				},
+				{
+					"email": "fluke8259@gmail.com",
+					"name": "rokt33r"
+				},
+				{
+					"email": "sethvincent@gmail.com",
+					"name": "sethvincent"
+				},
+				{
+					"email": "victor@draft.li",
+					"name": "vhf"
+				},
+				{
+					"email": "tituswormer@gmail.com",
+					"name": "wooorm"
+				},
+				{
+					"email": "xuopled@gmail.com",
+					"name": "xuopled"
+				},
+				{
+					"email": "zeke@sikelianos.com",
+					"name": "zeke"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/remark-external-links_3.0.0_1534756097495_0.8056058665994204"
+			},
+			"_hasShrinkwrap": false
+		},
+		"3.0.1": {
+			"name": "remark-external-links",
+			"version": "3.0.1",
+			"description": "Automatically adds the target and rel attributes to external links",
+			"license": "MIT",
+			"keywords": [
+				"markdown",
+				"remark",
+				"plugin",
+				"link",
+				"url"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/remarkjs/remark-external-links.git"
+			},
+			"bugs": {
+				"url": "https://github.com/remarkjs/remark-external-links/issues"
+			},
+			"author": {
+				"name": "Cédric Delpoux",
+				"email": "xuopled@gmail.com"
+			},
+			"contributors": [
+				{
+					"name": "Cédric Delpoux",
+					"email": "xuopled@gmail.com"
+				},
+				{
+					"name": "Titus Wormer",
+					"email": "tituswormer@gmail.com",
+					"url": "http://wooorm.com"
+				},
+				{
+					"name": "Merlijn Vos",
+					"email": "merlijn@soverin.net"
+				}
+			],
+			"dependencies": {
+				"space-separated-tokens": "^1.1.2",
+				"unist-util-visit": "^1.4.0"
+			},
+			"devDependencies": {
+				"jest": "^23.6.0",
+				"prettier": "^1.14.2",
+				"remark": "^10.0.0",
+				"remark-cli": "^6.0.0",
+				"remark-html": "^8.0.0",
+				"remark-preset-wooorm": "^4.0.0",
+				"xo": "^0.23.0"
+			},
+			"scripts": {
+				"format": "remark . -qfo && prettier --write \"**/*.js\" && xo --fix",
+				"test-api": "jest",
+				"test-coverage": "jest --collectCoverage",
+				"test": "npm run format && npm run test-coverage"
+			},
+			"jest": {
+				"coverageThreshold": {
+					"global": {
+						"branches": 100,
+						"functions": 100,
+						"lines": 100,
+						"statements": 100
+					}
+				}
+			},
+			"prettier": {
+				"tabWidth": 2,
+				"useTabs": false,
+				"singleQuote": true,
+				"bracketSpacing": false,
+				"semi": false,
+				"trailingComma": "none"
+			},
+			"xo": {
+				"prettier": true,
+				"esnext": false
+			},
+			"remarkConfig": {
+				"plugins": [
+					"preset-wooorm"
+				]
+			},
+			"gitHead": "4461f0df90741a0f9aaa57b0129ccc361abd794c",
+			"homepage": "https://github.com/remarkjs/remark-external-links#readme",
+			"_id": "remark-external-links@3.0.1",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "10.9.0",
+			"_npmUser": {
+				"name": "murderlon",
+				"email": "merlijn@soverin.net"
+			},
+			"dist": {
+				"integrity": "sha512-hb5RXnqj1iUKXfQVjVwV7L07XtcDtbD91oGzVYbE9Lff3F4xan14+Csqr0X/sWuyQ/kdCIzCgvRloub+G+UL+A==",
+				"shasum": "6e6a9aa6e1c48ca80fccb23e48a627ec388349b8",
+				"tarball": "https://registry.npmjs.org/remark-external-links/-/remark-external-links-3.0.1.tgz",
+				"fileCount": 4,
+				"unpackedSize": 6284,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJb7ukwCRA9TVsSAnZWagAAzVoP/2viPC296Yomv+7xK4iP\nAJ+ywZLAtE9RqlRXmGu4lcS9JY6JruF2q1BnipZJiv/V3o9hwUd6gV0pF7rn\nNdslg7Ur5YfLSFfgzaTB+E10hcsMmrnCWGSEiCHW15tII5Nv844cPmVDnNu9\nSiEh1+5hNtXXvYUoy4UlLmEGie46BBbpgf0c8wlmFxEYDt2/sTtGZOuEn74f\nSCPCxtWy5Ibv4fJpKM8qI61kxeaAQaUAPakkIYzMsxw+AZfap8UW+Ewr20Zh\n/eF0OlYQnTW0cfPu3E9eqhhHBNv5cnIomg5vFzRqP2h7M/9tBmSMcLZzByAp\nuGwHbwanNqctlbGBhnx0uFJLvIxfINX00jMU+RRUCHX99wmVKVZP7SKE8GsF\nfeYC2VeFs7SgLYp6wusl/xQUPpE/5Kvl5BVn4RkTcvNsfXyNJIQf9YFkkRCJ\n+HfVtq0rQuzDB/warK5rmrU+ihJXV+ehHv9Gh0ONpxLmW49nu0xXZhWPzT9D\n6ICYXodznQ4fFJjCYeeGCW05KENvN+Fk3atyono//34XIGwasA5qA8LtLmBv\nmbcgdz1+DtAHpUxSf9PkITt9OeFvJDebizT4lyNw031NtcV3YgYuoQowrNyt\ns+S9Xw9mWClYJ0k749wpILL2oc88mN1qRfAB+Cxpa4up/EFsK/Cf7qt8CIlH\nr2i4\r\n=a7Ye\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCN0qV9UqNbe4Vh4snUlIHppx0hEfnRTky4PGRP+UKNewIhAM9tY9VX/hPU/YX0axvl1Vo3swqiI87T5M8sT/ZG4DJI"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"email": "Christian.Murphy.42@gmail.com",
+					"name": "christianmurphy"
+				},
+				{
+					"email": "denysdovhan@gmail.com",
+					"name": "denysdovhan"
+				},
+				{
+					"email": "eush77@gmail.com",
+					"name": "eush77"
+				},
+				{
+					"email": "fazouanem3@gmail.com",
+					"name": "fazouane-marouane"
+				},
+				{
+					"email": "david@spektrakel.de",
+					"name": "haggis_"
+				},
+				{
+					"email": "johnotander@gmail.com",
+					"name": "johno"
+				},
+				{
+					"email": "merlijn@soverin.net",
+					"name": "murderlon"
+				},
+				{
+					"email": "lin90162@yahoo.co.jp",
+					"name": "rhysd"
+				},
+				{
+					"email": "fluke8259@gmail.com",
+					"name": "rokt33r"
+				},
+				{
+					"email": "sethvincent@gmail.com",
+					"name": "sethvincent"
+				},
+				{
+					"email": "victor@draft.li",
+					"name": "vhf"
+				},
+				{
+					"email": "tituswormer@gmail.com",
+					"name": "wooorm"
+				},
+				{
+					"email": "xuopled@gmail.com",
+					"name": "xuopled"
+				},
+				{
+					"email": "zeke@sikelianos.com",
+					"name": "zeke"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/remark-external-links_3.0.1_1542383919728_0.8237590533291639"
+			},
+			"_hasShrinkwrap": false
+		},
+		"3.1.0": {
+			"name": "remark-external-links",
+			"version": "3.1.0",
+			"description": "Automatically adds the target and rel attributes to external links",
+			"license": "MIT",
+			"keywords": [
+				"markdown",
+				"remark",
+				"plugin",
+				"link",
+				"url"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/remarkjs/remark-external-links.git"
+			},
+			"bugs": {
+				"url": "https://github.com/remarkjs/remark-external-links/issues"
+			},
+			"author": {
+				"name": "Cédric Delpoux",
+				"email": "xuopled@gmail.com"
+			},
+			"contributors": [
+				{
+					"name": "Cédric Delpoux",
+					"email": "xuopled@gmail.com"
+				},
+				{
+					"name": "Titus Wormer",
+					"email": "tituswormer@gmail.com",
+					"url": "https://wooorm.com"
+				},
+				{
+					"name": "Merlijn Vos",
+					"email": "merlijn@soverin.net"
+				}
+			],
+			"dependencies": {
+				"mdast-util-definitions": "^1.2.3",
+				"space-separated-tokens": "^1.1.2",
+				"unist-util-visit": "^1.4.0"
+			},
+			"devDependencies": {
+				"jest": "^23.6.0",
+				"prettier": "^1.14.2",
+				"remark": "^10.0.0",
+				"remark-cli": "^6.0.0",
+				"remark-html": "^9.0.0",
+				"remark-preset-wooorm": "^4.0.0",
+				"xo": "^0.23.0"
+			},
+			"scripts": {
+				"format": "remark . -qfo && prettier --write \"**/*.js\" && xo --fix",
+				"test-api": "jest",
+				"test-coverage": "jest --collectCoverage",
+				"test": "npm run format && npm run test-coverage"
+			},
+			"jest": {
+				"coverageThreshold": {
+					"global": {
+						"branches": 100,
+						"functions": 100,
+						"lines": 100,
+						"statements": 100
+					}
+				}
+			},
+			"prettier": {
+				"tabWidth": 2,
+				"useTabs": false,
+				"singleQuote": true,
+				"bracketSpacing": false,
+				"semi": false,
+				"trailingComma": "none"
+			},
+			"xo": {
+				"prettier": true,
+				"esnext": false
+			},
+			"remarkConfig": {
+				"plugins": [
+					"preset-wooorm"
+				]
+			},
+			"gitHead": "b2915b43b8c90ce03a1664f4a62a9d30c5bbebb8",
+			"homepage": "https://github.com/remarkjs/remark-external-links#readme",
+			"_id": "remark-external-links@3.1.0",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "11.0.0",
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-Kx8LSSVZAEB1flMZW7wJEdB+S2SzDjii0jybxVBedUoxAj56x+Xqp9ghqU157yiP4MNaj6Ey4tBk4aG0+NCgIg==",
+				"shasum": "bb823b3492cd6f457b5ba2da87c918eb2231d484",
+				"tarball": "https://registry.npmjs.org/remark-external-links/-/remark-external-links-3.1.0.tgz",
+				"fileCount": 4,
+				"unpackedSize": 6991,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJb9qNZCRA9TVsSAnZWagAADj0QAJafKh8MLm2U23X5ciLL\nvK/9gUWDOd3/Sxq1Y1UEPMsDBBNdnvRBvwCS8GI6/WT14fNtBQaxSowGl4Py\nVG9EgwR5eV/FMsZ+xSr1/Pr1HK0/LyaGG7M1zBcvB4r/IhNIASFqGx3o+m2E\np65l47qFTRriXlrxOLuy95V3UeIorGPRJCUpLyDWj5S8I0490CL07TDb7FGi\nuDtprqqDtg6abHzL/4PZzEcJsXPrcy33liJFvyi7rJ8NMG88Xuup7FQxi8OF\nfb/iaCGeXROaUkZqU4poCSDAF0tYuJWEMGCpBxsPWi3CEN9/lsRu4QF744Uk\ndTzVi5eKnAfaLgVVue8kfhOOmj+CUSfhL4Mao3oLnCEftJ5WYlEcJecqefaa\nsZFi3EFfSU42WpBqBcdYrsHXhzfML6OANfHg80Azd2RE77SdNAnCuvF9RppG\njWSh4fy6tk9aJh96aCdy7YUDYJLU+O3X+UdNk+uZYfT1SClhVQPfnNZPy7Nt\nEWsrPpT1/xZqLx43XuPOdt1jCdfbvChbxugYygdor7GQ3HoLuyM0RtFKcZOD\nrwW76ibOUQd833tQuoT7p6/1UXVM5QuGT5gWjpWAl8VaC8qUF3iP5DXS0FW1\nuQ4e1AzXvwmsyI49u6Amz0BxaV2LrQGINDw4B/1qyx8ehCmR5yiUILpwNZGk\nHuAY\r\n=f0Ki\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIFlm6/p1b3y6N66yJQfGFahJ309Gm2DmjmmtsHj5Q/BYAiEAhzxxP7HQ24IMb+CJ+jFGt/IrUYMHoCBCO6e8SxbAURQ="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"email": "Christian.Murphy.42@gmail.com",
+					"name": "christianmurphy"
+				},
+				{
+					"email": "denysdovhan@gmail.com",
+					"name": "denysdovhan"
+				},
+				{
+					"email": "eush77@gmail.com",
+					"name": "eush77"
+				},
+				{
+					"email": "fazouanem3@gmail.com",
+					"name": "fazouane-marouane"
+				},
+				{
+					"email": "david@spektrakel.de",
+					"name": "haggis_"
+				},
+				{
+					"email": "johnotander@gmail.com",
+					"name": "johno"
+				},
+				{
+					"email": "merlijn@soverin.net",
+					"name": "murderlon"
+				},
+				{
+					"email": "lin90162@yahoo.co.jp",
+					"name": "rhysd"
+				},
+				{
+					"email": "fluke8259@gmail.com",
+					"name": "rokt33r"
+				},
+				{
+					"email": "sethvincent@gmail.com",
+					"name": "sethvincent"
+				},
+				{
+					"email": "victor@draft.li",
+					"name": "vhf"
+				},
+				{
+					"email": "tituswormer@gmail.com",
+					"name": "wooorm"
+				},
+				{
+					"email": "xuopled@gmail.com",
+					"name": "xuopled"
+				},
+				{
+					"email": "zeke@sikelianos.com",
+					"name": "zeke"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/remark-external-links_3.1.0_1542890328280_0.23340167485746166"
+			},
+			"_hasShrinkwrap": false
+		},
+		"3.1.1": {
+			"name": "remark-external-links",
+			"version": "3.1.1",
+			"description": "Automatically adds the target and rel attributes to external links",
+			"license": "MIT",
+			"keywords": [
+				"markdown",
+				"remark",
+				"plugin",
+				"link",
+				"url"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/remarkjs/remark-external-links.git"
+			},
+			"bugs": {
+				"url": "https://github.com/remarkjs/remark-external-links/issues"
+			},
+			"author": {
+				"name": "Cédric Delpoux",
+				"email": "xuopled@gmail.com"
+			},
+			"contributors": [
+				{
+					"name": "Cédric Delpoux",
+					"email": "xuopled@gmail.com"
+				},
+				{
+					"name": "Titus Wormer",
+					"email": "tituswormer@gmail.com",
+					"url": "https://wooorm.com"
+				},
+				{
+					"name": "Merlijn Vos",
+					"email": "merlijn@soverin.net"
+				}
+			],
+			"dependencies": {
+				"is-absolute-url": "^2.1.0",
+				"mdast-util-definitions": "^1.2.3",
+				"space-separated-tokens": "^1.1.2",
+				"unist-util-visit": "^1.4.0"
+			},
+			"devDependencies": {
+				"jest": "^23.6.0",
+				"prettier": "^1.14.2",
+				"remark": "^10.0.0",
+				"remark-cli": "^6.0.0",
+				"remark-html": "^9.0.0",
+				"remark-preset-wooorm": "^4.0.0",
+				"xo": "^0.23.0"
+			},
+			"scripts": {
+				"format": "remark . -qfo && prettier --write \"**/*.js\" && xo --fix",
+				"test-api": "jest",
+				"test-coverage": "jest --collectCoverage",
+				"test": "npm run format && npm run test-coverage"
+			},
+			"jest": {
+				"coverageThreshold": {
+					"global": {
+						"branches": 100,
+						"functions": 100,
+						"lines": 100,
+						"statements": 100
+					}
+				}
+			},
+			"prettier": {
+				"tabWidth": 2,
+				"useTabs": false,
+				"singleQuote": true,
+				"bracketSpacing": false,
+				"semi": false,
+				"trailingComma": "none"
+			},
+			"xo": {
+				"prettier": true,
+				"esnext": false
+			},
+			"remarkConfig": {
+				"plugins": [
+					"preset-wooorm"
+				]
+			},
+			"gitHead": "3036589f1835964ebf9634fd3af9911fc4a447b7",
+			"homepage": "https://github.com/remarkjs/remark-external-links#readme",
+			"_id": "remark-external-links@3.1.1",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "11.0.0",
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-QeqEeThumJ6GJzzgP45XY7+C6IGdvRxy8WkJNL/jRaeiGLDxmBUx0ggFIm5N5tHU3O8KbUrxM4tZgAHb53hddg==",
+				"shasum": "a8d2aead51639daffae5e2255469fce4a86c09bb",
+				"tarball": "https://registry.npmjs.org/remark-external-links/-/remark-external-links-3.1.1.tgz",
+				"fileCount": 4,
+				"unpackedSize": 6997,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJb+raECRA9TVsSAnZWagAAx04P/29Zp10I5DX2z+OX+mQJ\njyUQcj0Glm0lTCj6HEL7euD1pEsHc0dbF1YNTbDSWzkO6ZKwEWjWe9wDIaIH\nyBymHSB2/Mqt02OI5Irj4I0QkdncjIR6nFwB67LBQeC1dRCdu8CJr9VMKQ1+\nahfcTcA97RDe+l7c4SeAESDjAC0BD5NJtMN0P94whyicmyG/Q7DzT25GgYrF\nRtbteEHRNhQRsYWJ3yJE7IFA1G7MYJzd3F9SkpPq0ilIasgh9cFPvuZ7kTL/\nUFysuUKdOeU8pHypxMZmRp4fXZpLbitY3ez3bngvihvp5BWiThsof5GSU3Og\nLr2FAidJlkAFVyDg+pAVa4Gam+kAQB/0g4eh96BSJykbwL7bdKIlqscoymrp\nE/31/2O7xoxSW9xqPRaTJewTIRi6lOZXdPmqbtOmjIXQ+/61EWtAj0XWWs6i\nSRGu0ZSGk446Eor7XzRQ8c5IsugKDfRcGOqSI51uxmEWDIuz09Ug0qYSK31e\nXIT6qhr0JtIrlGPOhBszQM469ZH1PCKDUqtikAiwKCAJnn0d9+8MXvot088t\ny0zPEHd9NXWuiTybdM0tGPRH0ZESgc5tJS7Z8b4V7bvAQEETcO+19zXMH9wz\ns8VoM1Bz61oXzaujD0r20KIqlw8c32aXtv752K82772ZDLcgtbmmqRhOrzar\nR1pq\r\n=I15r\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIFiq36aVofn+javBnPIKdlQjxGgS30yaLsyT97o60XiPAiBME9eO6z8QJrk54NsUBvAO5+H/5wBEWT5Ubw8hL+3vDw=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"email": "Christian.Murphy.42@gmail.com",
+					"name": "christianmurphy"
+				},
+				{
+					"email": "denysdovhan@gmail.com",
+					"name": "denysdovhan"
+				},
+				{
+					"email": "eush77@gmail.com",
+					"name": "eush77"
+				},
+				{
+					"email": "fazouanem3@gmail.com",
+					"name": "fazouane-marouane"
+				},
+				{
+					"email": "david@spektrakel.de",
+					"name": "haggis_"
+				},
+				{
+					"email": "johnotander@gmail.com",
+					"name": "johno"
+				},
+				{
+					"email": "merlijn@soverin.net",
+					"name": "murderlon"
+				},
+				{
+					"email": "lin90162@yahoo.co.jp",
+					"name": "rhysd"
+				},
+				{
+					"email": "fluke8259@gmail.com",
+					"name": "rokt33r"
+				},
+				{
+					"email": "sethvincent@gmail.com",
+					"name": "sethvincent"
+				},
+				{
+					"email": "victor@draft.li",
+					"name": "vhf"
+				},
+				{
+					"email": "tituswormer@gmail.com",
+					"name": "wooorm"
+				},
+				{
+					"email": "xuopled@gmail.com",
+					"name": "xuopled"
+				},
+				{
+					"email": "zeke@sikelianos.com",
+					"name": "zeke"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/remark-external-links_3.1.1_1543157379758_0.34748972437992043"
+			},
+			"_hasShrinkwrap": false
+		},
+		"4.0.0": {
+			"name": "remark-external-links",
+			"version": "4.0.0",
+			"description": "Automatically adds the target and rel attributes to external links",
+			"license": "MIT",
+			"keywords": [
+				"markdown",
+				"remark",
+				"plugin",
+				"link",
+				"url"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/remarkjs/remark-external-links.git"
+			},
+			"bugs": {
+				"url": "https://github.com/remarkjs/remark-external-links/issues"
+			},
+			"author": {
+				"name": "Cédric Delpoux",
+				"email": "xuopled@gmail.com"
+			},
+			"contributors": [
+				{
+					"name": "Cédric Delpoux",
+					"email": "xuopled@gmail.com"
+				},
+				{
+					"name": "Titus Wormer",
+					"email": "tituswormer@gmail.com",
+					"url": "https://wooorm.com"
+				},
+				{
+					"name": "Merlijn Vos",
+					"email": "merlijn@soverin.net"
+				}
+			],
+			"dependencies": {
+				"is-absolute-url": "^2.1.0",
+				"mdast-util-definitions": "^1.2.3",
+				"space-separated-tokens": "^1.1.2",
+				"unist-util-visit": "^1.4.0"
+			},
+			"devDependencies": {
+				"jest": "^23.6.0",
+				"prettier": "^1.14.2",
+				"remark": "^10.0.0",
+				"remark-cli": "^6.0.0",
+				"remark-html": "^9.0.0",
+				"remark-preset-wooorm": "^4.0.0",
+				"xo": "^0.23.0"
+			},
+			"scripts": {
+				"format": "remark . -qfo && prettier --write \"**/*.js\" && xo --fix",
+				"test-api": "jest",
+				"test-coverage": "jest --collectCoverage",
+				"test": "npm run format && npm run test-coverage"
+			},
+			"jest": {
+				"coverageThreshold": {
+					"global": {
+						"branches": 100,
+						"functions": 100,
+						"lines": 100,
+						"statements": 100
+					}
+				}
+			},
+			"prettier": {
+				"tabWidth": 2,
+				"useTabs": false,
+				"singleQuote": true,
+				"bracketSpacing": false,
+				"semi": false,
+				"trailingComma": "none"
+			},
+			"xo": {
+				"prettier": true,
+				"esnext": false
+			},
+			"remarkConfig": {
+				"plugins": [
+					"preset-wooorm"
+				]
+			},
+			"gitHead": "fbd55687668356e565100f3a419a7b21470cc8cb",
+			"homepage": "https://github.com/remarkjs/remark-external-links#readme",
+			"_id": "remark-external-links@4.0.0",
+			"_npmVersion": "6.5.0",
+			"_nodeVersion": "11.0.0",
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-4R24/FfwUtBdrGQUdWnGGEp3rzYOE5Sj4hwpOFm1m4yzYak7Yt1ikfN1cPWgUhpKEMm8P7vb6WFIfcMFaUrelg==",
+				"shasum": "2f6ff800ad9a422fcacd9a055471d68b6a381dd1",
+				"tarball": "https://registry.npmjs.org/remark-external-links/-/remark-external-links-4.0.0.tgz",
+				"fileCount": 4,
+				"unpackedSize": 7361,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcL7IcCRA9TVsSAnZWagAA6lEP/jUhZvLbIsDc8+2hePXQ\nojo4rC67jCx8kPWwvflh+WFUMJLgFrVZu5EiNNztH59UmcOwhWdfKRdbUPtG\nzZ5Y3jPEFLfc7RkS4Xw5BYaVfjcAD/oRQ6PNmroIlKzaoCxe/2LMoA+Fw2XN\nUhvAQ6sNJsJo0T9XndKl0iPyIN8X89mkJLe0ltz45tpcYM67pNYTci6e5/lL\nXXAfWLhZGff6U97FPStArSE3Ei1efVjqgIsB6I4HXaytAHNLlD6KDkcpm9k7\nCeK5YiZNcnFaaDIte1j4gBRNZhTXQZE8hXxaV6oZ3qyZjih4CrrKFnaGjfIo\nzbT5einyWeQsF+VmUlmmVZrEz2Lx4oJEtq9ESVPo1ik0kCgDXf39XZuNCnKu\na14PpmoJovm3qs3W0caM974qhw9Cdj/J97CHs2bDCjd+00TfIrJlVz3HCAv5\n51+AWTnP5gL2DTYEJtIrYxNB0YVi93pTHVTZKg8zQkIPL972FYkru9rt+Qva\nTJayowA2sxfBbA6KUKB0sEJ7deFTcwW7yoRtkWmY15Yk62MKXVRSZ5dfzVdW\ntGQfKaIJo9U4SQlDr26EBR/EEuwSHZ9gtp6N2xwR0tM5oD2x9sgYhoojiy1I\ntAAr3LVgFiX2z2/UCSUlAi+2XVaFA0XJjs3BXo6Q13uS37V+zfwoshp74FOf\nH2qF\r\n=3GUR\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCmqxTwjM05CP1QpbSHZXKBLz19msKbpfyW7qz0aEfZBwIhAMSWvx0IljtC4oQMKi8qYzcKkQ+4n9ewiJiBb+fSbtsd"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"email": "Christian.Murphy.42@gmail.com",
+					"name": "christianmurphy"
+				},
+				{
+					"email": "johnotander@gmail.com",
+					"name": "johno"
+				},
+				{
+					"email": "merlijn@soverin.net",
+					"name": "murderlon"
+				},
+				{
+					"email": "victor@draft.li",
+					"name": "vhf"
+				},
+				{
+					"email": "tituswormer@gmail.com",
+					"name": "wooorm"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/remark-external-links_4.0.0_1546629660039_0.2638864118921531"
+			},
+			"_hasShrinkwrap": false
+		},
+		"5.0.0": {
+			"name": "remark-external-links",
+			"version": "5.0.0",
+			"description": "remark plugin to automatically add target and rel attributes to external links",
+			"license": "MIT",
+			"keywords": [
+				"unified",
+				"remark",
+				"plugin",
+				"mdast",
+				"markdown",
+				"external",
+				"link",
+				"url"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/remarkjs/remark-external-links.git"
+			},
+			"bugs": {
+				"url": "https://github.com/remarkjs/remark-external-links/issues"
+			},
+			"author": {
+				"name": "Cédric Delpoux",
+				"email": "xuopled@gmail.com"
+			},
+			"contributors": [
+				{
+					"name": "Cédric Delpoux",
+					"email": "xuopled@gmail.com"
+				},
+				{
+					"name": "Titus Wormer",
+					"email": "tituswormer@gmail.com",
+					"url": "https://wooorm.com"
+				},
+				{
+					"name": "Merlijn Vos",
+					"email": "merlijn@soverin.net"
+				},
+				{
+					"name": "Takayosi Amagi",
+					"email": "fand.gmork@gmail.com"
+				},
+				{
+					"name": "Zach Schnackel",
+					"email": "info@zslabs.com"
+				},
+				{
+					"name": "Tsuyusato Kitsune",
+					"email": "make.just.on@gmail.com"
+				},
+				{
+					"name": "Matsuko Friedland",
+					"email": "info@matsuko.ca"
+				}
+			],
+			"dependencies": {
+				"extend": "^3.0.0",
+				"is-absolute-url": "^3.0.0",
+				"mdast-util-definitions": "^1.2.3",
+				"space-separated-tokens": "^1.1.2",
+				"unist-util-visit": "^1.4.0"
+			},
+			"devDependencies": {
+				"nyc": "^14.0.0",
+				"prettier": "^1.0.0",
+				"remark": "^10.0.0",
+				"remark-cli": "^6.0.0",
+				"remark-html": "^9.0.0",
+				"remark-preset-wooorm": "^5.0.0",
+				"tape": "^4.0.0",
+				"xo": "^0.24.0"
+			},
+			"scripts": {
+				"format": "remark . -qfo && prettier --write \"**/*.js\" && xo --fix",
+				"test-api": "node test",
+				"test-coverage": "nyc --reporter lcov tape test.js",
+				"test": "npm run format && npm run test-coverage"
+			},
+			"nyc": {
+				"check-coverage": true,
+				"lines": 100,
+				"functions": 100,
+				"branches": 100
+			},
+			"prettier": {
+				"tabWidth": 2,
+				"useTabs": false,
+				"singleQuote": true,
+				"bracketSpacing": false,
+				"semi": false,
+				"trailingComma": "none"
+			},
+			"xo": {
+				"prettier": true,
+				"esnext": false
+			},
+			"remarkConfig": {
+				"plugins": [
+					"preset-wooorm"
+				]
+			},
+			"gitHead": "45afdb443246511fb81413ea1a28201e9ace378d",
+			"homepage": "https://github.com/remarkjs/remark-external-links#readme",
+			"_id": "remark-external-links@5.0.0",
+			"_nodeVersion": "12.2.0",
+			"_npmVersion": "6.9.0",
+			"dist": {
+				"integrity": "sha512-lYnZGNN10N3YGMvO95Zup4hZ+VHI82JgcrGJfuxOLQExoho/iNhlrPVSkmdapYQl928pkOn4YOgJf/0pdZkteA==",
+				"shasum": "e7fc0e0cc4c92d33fb195b08ed1dc691fdb1689a",
+				"tarball": "https://registry.npmjs.org/remark-external-links/-/remark-external-links-5.0.0.tgz",
+				"fileCount": 4,
+				"unpackedSize": 9071,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdCjO4CRA9TVsSAnZWagAA9ZQP/jMlkTE91mF139a0xIR+\n6jwPeZjLA4StnFQjnDvWQlk7ZEEsUTtTPCv01cgxdJnQUoM+Y+PsEu4T1E7c\n0Ozeh1mZ1G9ba7DO8mn85nUYRhg3XYmOKqzvbMFyQoO7TZdQh/j6DNv619wJ\nDoHEaxSBVyz00vSkT9nQRbRlab1YJUh8DPRekX/wf/iFAsdooYcb4E49R8JQ\nmOOAvy6PN0VyVoDkjdVKb0AHzsqiLqWij2uetPzBQf+HlzVN+7Rqx5qa67sW\n5zzMsNCPn9ADqIMI89dlRt8hOz7YXQ3ly+myD+WQqnwg+9kwms66vEX3qBH2\nrh//fUk5qNsDoIiAYknnO1uN72AtLzJtcENrzWxHo1j7eOg9QbpK27w9GPAu\n2OVe3Ixu1YYmPErnWvrOCQAmZig9/DVjbYafgsuQ6dnHXPcjS2pnEoHYWY7Z\n6Qy5ZG2zzom28XOjV7Scm8oAOoGskOgzOdBCGGpw8ReDi84MlRWsdkwniP7z\nWVx5RyusYRvh8h7Due/5zD4VsQy0Gd4JS+qOJVwEKzGAbgarSMuMnLdVZq2z\ndk1j+VJcDWoAk127ALq5lPSKYWoSXKZDXoxOvm3SjZqOvSxn6z7RxrgArCY2\nuWhu8lXel1ZHpYLBiya40F+JJ7OaodaPDBj7D67A2x5ZgD16cm4A9t92mHg3\ntEKE\r\n=CGCM\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQD2/La6H/XkZuO4+RqloaFcyZT2cgMpW6U9Q4pJXDruugIgDxgzJw902kbLeoeQFnDfUKbZ7EH+Q69V/g0+diWVQew="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"email": "Christian.Murphy.42@gmail.com",
+					"name": "christianmurphy"
+				},
+				{
+					"email": "johnotander@gmail.com",
+					"name": "johno"
+				},
+				{
+					"email": "merlijn@soverin.net",
+					"name": "murderlon"
+				},
+				{
+					"email": "victor@draft.li",
+					"name": "vhf"
+				},
+				{
+					"email": "tituswormer@gmail.com",
+					"name": "wooorm"
+				}
+			],
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/remark-external-links_5.0.0_1560949680638_0.0208792357896741"
+			},
+			"_hasShrinkwrap": false
+		},
+		"6.0.0": {
+			"name": "remark-external-links",
+			"version": "6.0.0",
+			"description": "remark plugin to automatically add target and rel attributes to external links",
+			"license": "MIT",
+			"keywords": [
+				"unified",
+				"remark",
+				"remark-plugin",
+				"plugin",
+				"mdast",
+				"markdown",
+				"external",
+				"link",
+				"url"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/remarkjs/remark-external-links.git"
+			},
+			"bugs": {
+				"url": "https://github.com/remarkjs/remark-external-links/issues"
+			},
+			"funding": {
+				"type": "opencollective",
+				"url": "https://opencollective.com/unified"
+			},
+			"author": {
+				"name": "Cédric Delpoux",
+				"email": "xuopled@gmail.com"
+			},
+			"contributors": [
+				{
+					"name": "Cédric Delpoux",
+					"email": "xuopled@gmail.com"
+				},
+				{
+					"name": "Titus Wormer",
+					"email": "tituswormer@gmail.com",
+					"url": "https://wooorm.com"
+				},
+				{
+					"name": "Merlijn Vos",
+					"email": "merlijn@soverin.net"
+				},
+				{
+					"name": "Takayosi Amagi",
+					"email": "fand.gmork@gmail.com"
+				},
+				{
+					"name": "Zach Schnackel",
+					"email": "info@zslabs.com"
+				},
+				{
+					"name": "Tsuyusato Kitsune",
+					"email": "make.just.on@gmail.com"
+				},
+				{
+					"name": "Matsuko Friedland",
+					"email": "info@matsuko.ca"
+				}
+			],
+			"dependencies": {
+				"extend": "^3.0.0",
+				"is-absolute-url": "^3.0.0",
+				"mdast-util-definitions": "^2.0.0",
+				"space-separated-tokens": "^1.1.2",
+				"unist-util-visit": "^2.0.0"
+			},
+			"devDependencies": {
+				"nyc": "^15.0.0",
+				"prettier": "^2.0.0",
+				"remark": "^11.0.0",
+				"remark-cli": "^7.0.0",
+				"remark-html": "^10.0.0",
+				"remark-preset-wooorm": "^6.0.0",
+				"tape": "^4.0.0",
+				"xo": "^0.28.0"
+			},
+			"scripts": {
+				"format": "remark . -qfo && prettier --write \"**/*.js\" && xo --fix",
+				"test-api": "node test",
+				"test-coverage": "nyc --reporter lcov tape test.js",
+				"test": "npm run format && npm run test-coverage"
+			},
+			"nyc": {
+				"check-coverage": true,
+				"lines": 100,
+				"functions": 100,
+				"branches": 100
+			},
+			"prettier": {
+				"tabWidth": 2,
+				"useTabs": false,
+				"singleQuote": true,
+				"bracketSpacing": false,
+				"semi": false,
+				"trailingComma": "none"
+			},
+			"xo": {
+				"prettier": true,
+				"esnext": false,
+				"rules": {
+					"unicorn/prefer-includes": "off"
+				}
+			},
+			"remarkConfig": {
+				"plugins": [
+					"preset-wooorm"
+				]
+			},
+			"gitHead": "0ba573ae3630a3f2f377d07b4295dfb964b24e8a",
+			"homepage": "https://github.com/remarkjs/remark-external-links#readme",
+			"_id": "remark-external-links@6.0.0",
+			"_nodeVersion": "13.10.1",
+			"_npmVersion": "6.14.3",
+			"dist": {
+				"integrity": "sha512-pshbYdqIHxTyMaHYT3H7RS7DIFWchM6cpQ1AU0Fmb7erZ/S3H4fuWvcOM2cE1QNVKPOsXFIi6qi++tmFakTA/w==",
+				"shasum": "c89e2565578584a925097a0526ef7ab874f8e342",
+				"tarball": "https://registry.npmjs.org/remark-external-links/-/remark-external-links-6.0.0.tgz",
+				"fileCount": 4,
+				"unpackedSize": 9800,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeeJKhCRA9TVsSAnZWagAAeJ0P/RrWRxiyLtlBaSgpRCpB\nHr4hILtYcLCsQ3skaEmalc3ceNkBRaKQdNkevCAj3iAt1TxHqHXQHvAQ6+cy\nEpZ4oN9yWmv3Y0yReVgd2ClFwEITwa4pjsvvhHjXCWGAtk++mThlhiAZC5ka\ng2IaqxRwYrPnT+soa1TIwV0BFUmvwwlAbDx5s2XEDNDXoqg857Y2aKC61pDf\nUJA5q7BQ3uwM80R6DejxjeKxr/J27p45gGHj1Z6P+7e982zdVNqWGicV2+gt\n6AQuW97Zp6LX38XwU1vmsmKX/cvXcImnQZB4Br7hZid2GrvduvN6s73D3Ah4\nAWhuZjPDUaxgmGdLDKmjQzuE30qsacP7DgZD2EVrr9epF04QP3cgQOxbuzDG\niD2Gu6aEjZAcJFyUO2ZCMEeyCL5RfPVNh23aP7O9xMGCL8lAL1VZk9Q+HJgR\nEytYPBgcu3uzwbWUNRkVNjDpX684hc/nvezXhnjm0GTLjUx1AQEsKMA8FlWD\norx12kptAVlP3vtv9Zf/9OCosZXJjUj80RaWE88fvkXgkOv6Vi4pf6VPnBdc\n8nM8C4KvMj1Krxj+x7GAOBuh+PqCtx2M0Yb+2X5btf+tYif7u4XoDgRKMETe\n87XEzO21N7UwDWMxCQdegndSKnIn5FQT/uVfzGOvPIJpptgY06gX2uLTz3jn\nibRh\r\n=f17H\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCICm+jk+NLmNKEoJ9eQf51AGDBy7hixT6HH6JgbTfafTmAiEAtkjzq8ld0+0w/nBWggCxgjyBCx4GHGF+bzac3vPTl3Y="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"email": "johnotander@gmail.com",
+					"name": "johno"
+				},
+				{
+					"email": "tituswormer@gmail.com",
+					"name": "wooorm"
+				}
+			],
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/remark-external-links_6.0.0_1584960161123_0.037140964185335745"
+			},
+			"_hasShrinkwrap": false
+		},
+		"6.1.0": {
+			"name": "remark-external-links",
+			"version": "6.1.0",
+			"description": "remark plugin to automatically add target and rel attributes to external links",
+			"license": "MIT",
+			"keywords": [
+				"unified",
+				"remark",
+				"remark-plugin",
+				"plugin",
+				"mdast",
+				"markdown",
+				"external",
+				"link",
+				"url"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/remarkjs/remark-external-links.git"
+			},
+			"bugs": {
+				"url": "https://github.com/remarkjs/remark-external-links/issues"
+			},
+			"funding": {
+				"type": "opencollective",
+				"url": "https://opencollective.com/unified"
+			},
+			"author": {
+				"name": "Cédric Delpoux",
+				"email": "xuopled@gmail.com"
+			},
+			"contributors": [
+				{
+					"name": "Cédric Delpoux",
+					"email": "xuopled@gmail.com"
+				},
+				{
+					"name": "Titus Wormer",
+					"email": "tituswormer@gmail.com",
+					"url": "https://wooorm.com"
+				},
+				{
+					"name": "Merlijn Vos",
+					"email": "merlijn@soverin.net"
+				},
+				{
+					"name": "Takayosi Amagi",
+					"email": "fand.gmork@gmail.com"
+				},
+				{
+					"name": "Zach Schnackel",
+					"email": "info@zslabs.com"
+				},
+				{
+					"name": "Tsuyusato Kitsune",
+					"email": "make.just.on@gmail.com"
+				},
+				{
+					"name": "Matsuko Friedland",
+					"email": "info@matsuko.ca"
+				}
+			],
+			"dependencies": {
+				"extend": "^3.0.0",
+				"is-absolute-url": "^3.0.0",
+				"mdast-util-definitions": "^2.0.0",
+				"space-separated-tokens": "^1.0.0",
+				"unist-util-visit": "^2.0.0"
+			},
+			"devDependencies": {
+				"nyc": "^15.0.0",
+				"prettier": "^2.0.0",
+				"remark": "^12.0.0",
+				"remark-cli": "^8.0.0",
+				"remark-html": "^11.0.0",
+				"remark-preset-wooorm": "^7.0.0",
+				"tape": "^5.0.0",
+				"xo": "^0.32.0"
+			},
+			"scripts": {
+				"format": "remark . -qfo && prettier --write \"**/*.js\" && xo --fix",
+				"test-api": "node test",
+				"test-coverage": "nyc --reporter lcov tape test.js",
+				"test": "npm run format && npm run test-coverage"
+			},
+			"nyc": {
+				"check-coverage": true,
+				"lines": 100,
+				"functions": 100,
+				"branches": 100
+			},
+			"prettier": {
+				"tabWidth": 2,
+				"useTabs": false,
+				"singleQuote": true,
+				"bracketSpacing": false,
+				"semi": false,
+				"trailingComma": "none"
+			},
+			"xo": {
+				"prettier": true,
+				"esnext": false,
+				"rules": {
+					"unicorn/prefer-includes": "off"
+				}
+			},
+			"remarkConfig": {
+				"plugins": [
+					"preset-wooorm"
+				]
+			},
+			"gitHead": "9b9333bf22a2719e89d7a40b8d67e3e2bd0a315d",
+			"homepage": "https://github.com/remarkjs/remark-external-links#readme",
+			"_id": "remark-external-links@6.1.0",
+			"_nodeVersion": "14.0.0",
+			"_npmVersion": "6.14.5",
+			"dist": {
+				"integrity": "sha512-dJr+vhe3wuh1+E9jltQ+efRMqtMDOOnfFkhtoArOmhnBcPQX6THttXMkc/H0kdnAvkXTk7f2QdOYm5qo/sGqdw==",
+				"shasum": "1a545b3cf896eae00ec1732d90f595f75a329abe",
+				"tarball": "https://registry.npmjs.org/remark-external-links/-/remark-external-links-6.1.0.tgz",
+				"fileCount": 4,
+				"unpackedSize": 10140,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJe3op3CRA9TVsSAnZWagAAfdUP/1pkplJ/4k5qKEFRJNai\nkt6lKk6Fh3aMlcviwh8l0tXcshnZZRKV9EUe6TPQgngVoycPm3+DN5m60EcC\nZF3c86cYizzXVWtcOLJFF9NrRnyFESOyJ6KppV/lK5stAJOM5eOo+iGt0DRd\n5SlTupASDygBSWR8tTmBS9lOhO3zj6qivn5mXslUBvX2pzUiOkLpvTn2an6d\nhYC8L52hkSfSIluvhPyVszMtPlvG/u/1XWplth2FHw4G5Y1EV3a9jX0CDRc8\nk6kGDpPwPE4ERRsP0btyGalA7IbvM6d/XKzox1CmE2zf0y39CCYMoQwGGxW4\n9TYdrCpklm5u+eCDoxZX5KOnvy4KUxQTL9H+tj+hV3HM39lF8EpwfyPLWFzR\n78PhWmzOO5hMdPEVsFkYmo8K8S/WWWlmMNDMHlRwkcvhGxgYVH7kvYd7zAo0\n/5tXYkrrMjEcMGvSjQEoNtpzdrwVEDCaI4v95Vijd+H9rFflthdd3AGYCA+P\ncLTfp0UBA5w5t0LS1GGyB5U+89dmnIz5F8b+9ijQ2YViQf3gapi8ZTZdgJXy\n+B464lyqlu18mYY1JfsZqBPPZ3kGX9JQQjKq1Rqc5+KxF2+hgyRWTLFj/CeR\nJdWJedK00j7H3kfwgBNhHJDh2ebZQ17lUYr6PeyccDw8/xURfkWlcE/evbWl\n0oyH\r\n=0yLK\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQC7z5dv120HFzBwJpI6ic5T0uBxs7X/pQbFCBFtcpKq3QIgUPAQqeBwTj8SKOdQBKiY6wm1yausQAHnsSE4EmKXFaA="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"email": "johnotander@gmail.com",
+					"name": "johno"
+				},
+				{
+					"email": "tituswormer@gmail.com",
+					"name": "wooorm"
+				}
+			],
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/remark-external-links_6.1.0_1591642743049_0.9062446335740468"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0": {
+			"name": "remark-external-links",
+			"version": "7.0.0",
+			"description": "remark plugin to automatically add target and rel attributes to external links",
+			"license": "MIT",
+			"keywords": [
+				"unified",
+				"remark",
+				"remark-plugin",
+				"plugin",
+				"mdast",
+				"markdown",
+				"external",
+				"link",
+				"url"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/remarkjs/remark-external-links.git"
+			},
+			"bugs": {
+				"url": "https://github.com/remarkjs/remark-external-links/issues"
+			},
+			"funding": {
+				"type": "opencollective",
+				"url": "https://opencollective.com/unified"
+			},
+			"author": {
+				"name": "Cédric Delpoux",
+				"email": "xuopled@gmail.com"
+			},
+			"contributors": [
+				{
+					"name": "Cédric Delpoux",
+					"email": "xuopled@gmail.com"
+				},
+				{
+					"name": "Titus Wormer",
+					"email": "tituswormer@gmail.com",
+					"url": "https://wooorm.com"
+				},
+				{
+					"name": "Merlijn Vos",
+					"email": "merlijn@soverin.net"
+				},
+				{
+					"name": "Takayosi Amagi",
+					"email": "fand.gmork@gmail.com"
+				},
+				{
+					"name": "Zach Schnackel",
+					"email": "info@zslabs.com"
+				},
+				{
+					"name": "Tsuyusato Kitsune",
+					"email": "make.just.on@gmail.com"
+				},
+				{
+					"name": "Matsuko Friedland",
+					"email": "info@matsuko.ca"
+				}
+			],
+			"types": "types/index.d.ts",
+			"dependencies": {
+				"extend": "^3.0.0",
+				"is-absolute-url": "^3.0.0",
+				"mdast-util-definitions": "^3.0.0",
+				"space-separated-tokens": "^1.0.0",
+				"unist-util-visit": "^2.0.0"
+			},
+			"devDependencies": {
+				"dtslint": "^3.0.0",
+				"nyc": "^15.0.0",
+				"prettier": "^2.0.0",
+				"remark": "^12.0.0",
+				"remark-cli": "^8.0.0",
+				"remark-html": "^12.0.0",
+				"remark-preset-wooorm": "^7.0.0",
+				"tape": "^5.0.0",
+				"xo": "^0.33.0"
+			},
+			"scripts": {
+				"format": "remark . -qfo && prettier . --write && xo --fix",
+				"test-api": "node test",
+				"test-coverage": "nyc --reporter lcov tape test.js",
+				"test-types": "dtslint types",
+				"test": "npm run format && npm run test-coverage && npm run test-types"
+			},
+			"nyc": {
+				"check-coverage": true,
+				"lines": 100,
+				"functions": 100,
+				"branches": 100
+			},
+			"prettier": {
+				"tabWidth": 2,
+				"useTabs": false,
+				"singleQuote": true,
+				"bracketSpacing": false,
+				"semi": false,
+				"trailingComma": "none"
+			},
+			"xo": {
+				"prettier": true,
+				"esnext": false,
+				"rules": {
+					"unicorn/prefer-includes": "off",
+					"import/no-extraneous-dependencies": "off"
+				}
+			},
+			"remarkConfig": {
+				"plugins": [
+					"preset-wooorm"
+				]
+			},
+			"gitHead": "2c6fc4bd9801489809789964dff96c9ecf6e0605",
+			"homepage": "https://github.com/remarkjs/remark-external-links#readme",
+			"_id": "remark-external-links@7.0.0",
+			"_nodeVersion": "14.7.0",
+			"_npmVersion": "6.14.8",
+			"dist": {
+				"integrity": "sha512-Iihlg28wFTWyGyTquKolM6nHLkgrRnRXp/QSwjbWGThwIFVKIMHZLAkCii26aTGDEiKr6p1QfMt4oltBIIngug==",
+				"shasum": "f9415a622e2d965c4017c0dde7e659a061bd8b5c",
+				"tarball": "https://registry.npmjs.org/remark-external-links/-/remark-external-links-7.0.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 12617,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfQSJoCRA9TVsSAnZWagAAY4YQAKMsEbDucSu96x3gixIW\nNjGP4DfOGu0nkNi/dZLZWe74qBPGIV9de9A8e9u1RLxf7Ats1C6xEAsI6M2/\nQjfCoEcNmW6XLWgn1C982FtY1KxSCTy1/Q+dCJcTqzSAw4JOyF/9Q54CsoXx\nf0s3ma3/vYaq6JMadvFMP6AtsplBleXlhbTHkHAa6NTVvG1SXOQcQ7NNrbrc\nkzLYA+nlkiyEpcgV82phhR/L9uR4MyMMm8jqpT6Lj9xfB7yBfXFjSzy9oS0F\nvdE/Jf+5vPF+YtmIPAj3Ol+wJTN3/NorE1IY+ypstfRFNlpCZ572ji2lYTwG\n2guUTR9UuvId0Z7kLRfg4UT8o45HnuqJDQThME2T11JBVf+a+AC986iiHdzD\nQdIkzpCrD27Crb7/3d0sSDOx5fh/MmL+ak1+mg2elEddGSsZbVTAsZDqLr+4\ntK9yUue7AWqYAx4QZsMyb57Z6riEE+ngLCWFvpnTtf0hkRZIHAHCyFqJnH7j\noF9TaE+VENQiHItmRC2JtfKiPgIdWfaZRQmc/fHKpK2tbuSRKKzSsbC29oAb\njlpdozUXnfX9YpYA4nB1EV8YXzaDwREZdaa/RGPf5JCEDywnV3Di01EJKfux\nqwLdd2kkRgSbuJPdTa9O6lYSbZjhXlSwd2QKNvRC5aS9COiT1r6oqZ44Z05z\nbNH8\r\n=3rvC\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIFGpLzKGA+hEuWsc7ipq2xTWAYM+KVLzDoSoM+3h+ZiZAiEAo47GOqAfT5Hea6oAy8+lvcq57l31gbd4sRk9JpSciq8="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"email": "johnotander@gmail.com",
+					"name": "johno"
+				},
+				{
+					"email": "tituswormer@gmail.com",
+					"name": "wooorm"
+				}
+			],
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/remark-external-links_7.0.0_1598104167990_0.9710405538575153"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.1": {
+			"name": "remark-external-links",
+			"version": "7.0.1",
+			"description": "remark plugin to automatically add target and rel attributes to external links",
+			"license": "MIT",
+			"keywords": [
+				"unified",
+				"remark",
+				"remark-plugin",
+				"plugin",
+				"mdast",
+				"markdown",
+				"external",
+				"link",
+				"url"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/remarkjs/remark-external-links.git"
+			},
+			"bugs": {
+				"url": "https://github.com/remarkjs/remark-external-links/issues"
+			},
+			"funding": {
+				"type": "opencollective",
+				"url": "https://opencollective.com/unified"
+			},
+			"author": {
+				"name": "Cédric Delpoux",
+				"email": "xuopled@gmail.com"
+			},
+			"contributors": [
+				{
+					"name": "Cédric Delpoux",
+					"email": "xuopled@gmail.com"
+				},
+				{
+					"name": "Titus Wormer",
+					"email": "tituswormer@gmail.com",
+					"url": "https://wooorm.com"
+				},
+				{
+					"name": "Merlijn Vos",
+					"email": "merlijn@soverin.net"
+				},
+				{
+					"name": "Takayosi Amagi",
+					"email": "fand.gmork@gmail.com"
+				},
+				{
+					"name": "Zach Schnackel",
+					"email": "info@zslabs.com"
+				},
+				{
+					"name": "Tsuyusato Kitsune",
+					"email": "make.just.on@gmail.com"
+				},
+				{
+					"name": "Matsuko Friedland",
+					"email": "info@matsuko.ca"
+				}
+			],
+			"types": "types/index.d.ts",
+			"dependencies": {
+				"extend": "^3.0.0",
+				"is-absolute-url": "^3.0.0",
+				"mdast-util-definitions": "^3.0.0",
+				"space-separated-tokens": "^1.0.0",
+				"unist-util-visit": "^2.0.0"
+			},
+			"devDependencies": {
+				"dtslint": "^4.0.0",
+				"nyc": "^15.0.0",
+				"prettier": "^2.0.0",
+				"remark": "^12.0.0",
+				"remark-cli": "^8.0.0",
+				"remark-html": "^12.0.0",
+				"remark-preset-wooorm": "^7.0.0",
+				"tape": "^5.0.0",
+				"xo": "^0.33.0"
+			},
+			"scripts": {
+				"format": "remark . -qfo && prettier . --write && xo --fix",
+				"test-api": "node test",
+				"test-coverage": "nyc --reporter lcov tape test.js",
+				"test-types": "dtslint types",
+				"test": "npm run format && npm run test-coverage && npm run test-types"
+			},
+			"nyc": {
+				"check-coverage": true,
+				"lines": 100,
+				"functions": 100,
+				"branches": 100
+			},
+			"prettier": {
+				"tabWidth": 2,
+				"useTabs": false,
+				"singleQuote": true,
+				"bracketSpacing": false,
+				"semi": false,
+				"trailingComma": "none"
+			},
+			"xo": {
+				"prettier": true,
+				"esnext": false,
+				"rules": {
+					"unicorn/prefer-includes": "off",
+					"import/no-extraneous-dependencies": "off"
+				}
+			},
+			"remarkConfig": {
+				"plugins": [
+					"preset-wooorm"
+				]
+			},
+			"gitHead": "5e888ce33795407ccd1b6b6f4b5c58d45a0ca416",
+			"homepage": "https://github.com/remarkjs/remark-external-links#readme",
+			"_id": "remark-external-links@7.0.1",
+			"_nodeVersion": "14.8.0",
+			"_npmVersion": "6.14.8",
+			"dist": {
+				"integrity": "sha512-a98JnTMRln8GseQq0buE4Aq6yYjYF4aRIlrPVxL9PT1pcy+yMJij24dEYAqvdluF9GHgNs/De+8y6kzqsjH1jQ==",
+				"shasum": "c71ca81ea4cca48f067a9659645e4e87a94e54d5",
+				"tarball": "https://registry.npmjs.org/remark-external-links/-/remark-external-links-7.0.1.tgz",
+				"fileCount": 5,
+				"unpackedSize": 12625,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfczlbCRA9TVsSAnZWagAARJwP/0zW3V7ay4BnCYIcwKqt\nDRKjT1Yn+PsMjb3i+fxcd6gl3/uD39+aQ+FQ0uY3xY8xoFFkVFpCpJaQrmOr\nqsgu67HkRj51qsbjBbUwX7FPEsObSEnIL8D6JZ1LdQT5s1Ke/dQLh7SCubnp\nYuGMijAQmPyb/gUEAsAMTW3FcB0+waCrutcZuc46N24uyrtlVB+thx0lzLO1\nS3cWBUYTxlIweV7CyBeiNsp+1Xe/o9q/lhZ3wGOhyblpS0Z9j40ozliUfPKZ\nDcoAJ0yYehORW+F8cQ6bzLruIMRAvci2FubtQc5T9lNXcvo2sNW1TBducofZ\nGY5inSxQDCG9EYcfPywDKPnF2cfZ/gIUWK3hMXkugr7tWpcem/f8UUZGQVd0\nmnuM/oeAxBwwUNT6+fYO/F42UE4nC3/XViJp6Qf2zuxu1/nDKqo4xCh7rlbS\nsZIcwmfsN/JSSdPvES+QP2M2h/TQyVOzLDWgMC5qb4rkkMQxxpjLPIe0Vei8\nBFSQqX9oqmcmowMUW3c4ImpZ7AEE2rOD+ptBVCemqiZMFQEFPnFt/zUlpZ7I\nSmsIjJJj9rW0jZ0WcjLLsgPRbijKYUthl65Zyw6vRCykoMc26xVkZZ3Nr3nd\nA2vItnY3SJRRpAYaIoJYpKZsAL2PAvRAFab8zaq3lsMZUMVhGtPO5M9V4QNo\naLGO\r\n=qAVh\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIAciWeLGyovUZ5ZK8011F1vXkVHXgEE2pIeZ3xk/Pl+KAiBfeq6zNuaI2iaUE2LEqGrQvY9neFjJ/iPGLQmmvpMpLw=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				},
+				{
+					"name": "johno",
+					"email": "johnotander@gmail.com"
+				}
+			],
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/remark-external-links_7.0.1_1601386842561_0.6450745647707357"
+			},
+			"_hasShrinkwrap": false
+		},
+		"8.0.0": {
+			"name": "remark-external-links",
+			"version": "8.0.0",
+			"description": "remark plugin to automatically add target and rel attributes to external links",
+			"license": "MIT",
+			"keywords": [
+				"unified",
+				"remark",
+				"remark-plugin",
+				"plugin",
+				"mdast",
+				"markdown",
+				"external",
+				"link",
+				"url"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/remarkjs/remark-external-links.git"
+			},
+			"bugs": {
+				"url": "https://github.com/remarkjs/remark-external-links/issues"
+			},
+			"funding": {
+				"type": "opencollective",
+				"url": "https://opencollective.com/unified"
+			},
+			"author": {
+				"name": "Cédric Delpoux",
+				"email": "xuopled@gmail.com"
+			},
+			"contributors": [
+				{
+					"name": "Cédric Delpoux",
+					"email": "xuopled@gmail.com"
+				},
+				{
+					"name": "Titus Wormer",
+					"email": "tituswormer@gmail.com",
+					"url": "https://wooorm.com"
+				},
+				{
+					"name": "Merlijn Vos",
+					"email": "merlijn@soverin.net"
+				},
+				{
+					"name": "Takayosi Amagi",
+					"email": "fand.gmork@gmail.com"
+				},
+				{
+					"name": "Zach Schnackel",
+					"email": "info@zslabs.com"
+				},
+				{
+					"name": "Tsuyusato Kitsune",
+					"email": "make.just.on@gmail.com"
+				},
+				{
+					"name": "Matsuko Friedland",
+					"email": "info@matsuko.ca"
+				}
+			],
+			"types": "types/index.d.ts",
+			"dependencies": {
+				"extend": "^3.0.0",
+				"is-absolute-url": "^3.0.0",
+				"mdast-util-definitions": "^4.0.0",
+				"space-separated-tokens": "^1.0.0",
+				"unist-util-visit": "^2.0.0"
+			},
+			"devDependencies": {
+				"dtslint": "^4.0.0",
+				"nyc": "^15.0.0",
+				"prettier": "^2.0.0",
+				"remark": "^13.0.0-alpha.0",
+				"remark-cli": "^8.0.0",
+				"remark-html": "^13.0.0",
+				"remark-preset-wooorm": "^7.0.0",
+				"tape": "^5.0.0",
+				"xo": "^0.33.0"
+			},
+			"scripts": {
+				"format": "remark . -qfo && prettier . --write && xo --fix",
+				"test-api": "node test",
+				"test-coverage": "nyc --reporter lcov tape test.js",
+				"test-types": "dtslint types",
+				"test": "npm run format && npm run test-coverage && npm run test-types"
+			},
+			"nyc": {
+				"check-coverage": true,
+				"lines": 100,
+				"functions": 100,
+				"branches": 100
+			},
+			"prettier": {
+				"tabWidth": 2,
+				"useTabs": false,
+				"singleQuote": true,
+				"bracketSpacing": false,
+				"semi": false,
+				"trailingComma": "none"
+			},
+			"xo": {
+				"prettier": true,
+				"esnext": false,
+				"rules": {
+					"unicorn/prefer-includes": "off",
+					"import/no-extraneous-dependencies": "off"
+				}
+			},
+			"remarkConfig": {
+				"plugins": [
+					"preset-wooorm"
+				]
+			},
+			"gitHead": "b055943d5c10889f8ae0456a8d054896c767c46e",
+			"homepage": "https://github.com/remarkjs/remark-external-links#readme",
+			"_id": "remark-external-links@8.0.0",
+			"_nodeVersion": "14.8.0",
+			"_npmVersion": "6.14.8",
+			"dist": {
+				"integrity": "sha512-5vPSX0kHoSsqtdftSHhIYofVINC8qmp0nctkeU9YoJwV3YfiBRiI6cbFRJ0oI/1F9xS+bopXG0m2KS8VFscuKA==",
+				"shasum": "308de69482958b5d1cd3692bc9b725ce0240f345",
+				"tarball": "https://registry.npmjs.org/remark-external-links/-/remark-external-links-8.0.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 12974,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJffsTqCRA9TVsSAnZWagAAzeMP/0p0f8H8L7Tk1MNh25RZ\nDHDjZ+IlL+1F/tESIC/+UkDa7ISmCsTf87vetHgMmeaBdmDJWJznjeZLeW2/\n1Ocak+GGIhdSAw6Pd1iyQ9yqQg/aobItUMmttweMGr7Y8u01PsZ0qzYn3U+6\ngig3Uq/q/xscYBnP32LmZJ0/ryBv8cznOr+17l+YC/HfnHx4yiVXRprNiPkR\n2zEVf8jMMGEz0ntOCIvufLzbKWutd236jrsl8QYObkF9nm0dQ9b8hQqSmsR8\njCasXj5MQVHKSvU0DTOETaYARABsPyfHYEjsrNwQzOxEa6LLa1t3oBKdoBrF\nnSe0nRJtm77OoVtanhWpQ6Qr1ZLHM+lwXcxAt7VbC0o69W95ayTFub5ZJbVI\n+0+W39+P8fwV3F3UQcAMeoAiOmEH2hRdl0fKUllg8FYqhxF2YiqSBjNDRBBk\n0lBcNv6IEKQ43nL/Yo/Z4qnIINmUikz/v/Q6/SLBQ+2Vc4r6LPeMRsNQDZ/L\n7uJpquWBuHRchBBvgX/+t7mqEx+GkDQdj8hO72ATTkuGoIJdNOSI+3qRxZ93\n76fWH9K3AwX6K3clDsXlIEJmMq87wCWLx13Nd9OFbh3J2AoogfQCytNGCHuF\n9ytp+Gey4jaWYXygGrsG4ZIivyah6ihC9+HrXLu8c6MsxmE22SiCiQOG3jCu\nu7nf\r\n=I0Lr\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDJHrZtjoGpL/gA6ak79VPo7kYk91IjCHHaIdzUIB7hzgIhAJX5KRROZWf1NQUNvF1GKVBLmUH3KEOJQuP4EzuErxD1"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				},
+				{
+					"name": "johno",
+					"email": "johnotander@gmail.com"
+				}
+			],
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/remark-external-links_8.0.0_1602143466468_0.17083699563222177"
+			},
+			"_hasShrinkwrap": false
+		},
+		"9.0.0": {
+			"name": "remark-external-links",
+			"version": "9.0.0",
+			"description": "remark plugin to automatically add target and rel attributes to external links",
+			"license": "MIT",
+			"keywords": [
+				"unified",
+				"remark",
+				"remark-plugin",
+				"plugin",
+				"mdast",
+				"markdown",
+				"external",
+				"link",
+				"url"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/remarkjs/remark-external-links.git"
+			},
+			"bugs": {
+				"url": "https://github.com/remarkjs/remark-external-links/issues"
+			},
+			"funding": {
+				"type": "opencollective",
+				"url": "https://opencollective.com/unified"
+			},
+			"author": {
+				"name": "Cédric Delpoux",
+				"email": "xuopled@gmail.com"
+			},
+			"contributors": [
+				{
+					"name": "Cédric Delpoux",
+					"email": "xuopled@gmail.com"
+				},
+				{
+					"name": "Titus Wormer",
+					"email": "tituswormer@gmail.com",
+					"url": "https://wooorm.com"
+				},
+				{
+					"name": "Merlijn Vos",
+					"email": "merlijn@soverin.net"
+				},
+				{
+					"name": "Takayosi Amagi",
+					"email": "fand.gmork@gmail.com"
+				},
+				{
+					"name": "Zach Schnackel",
+					"email": "info@zslabs.com"
+				},
+				{
+					"name": "Tsuyusato Kitsune",
+					"email": "make.just.on@gmail.com"
+				},
+				{
+					"name": "Matsuko Friedland",
+					"email": "info@matsuko.ca"
+				}
+			],
+			"sideEffects": false,
+			"type": "module",
+			"main": "index.js",
+			"types": "index.d.ts",
+			"dependencies": {
+				"@types/hast": "^2.3.2",
+				"@types/mdast": "^3.0.0",
+				"extend": "^3.0.0",
+				"is-absolute-url": "^3.0.0",
+				"mdast-util-definitions": "^5.0.0",
+				"space-separated-tokens": "^2.0.0",
+				"unified": "^10.0.0",
+				"unist-util-visit": "^4.0.0"
+			},
+			"devDependencies": {
+				"@types/extend": "^3.0.1",
+				"@types/tape": "^4.0.0",
+				"c8": "^7.0.0",
+				"prettier": "^2.0.0",
+				"remark": "^14.0.0",
+				"remark-cli": "^10.0.0",
+				"remark-html": "^13.0.0",
+				"remark-preset-wooorm": "^8.0.0",
+				"rimraf": "^3.0.0",
+				"tape": "^5.0.0",
+				"type-coverage": "^2.0.0",
+				"typescript": "^4.0.0",
+				"xo": "^0.43.0"
+			},
+			"scripts": {
+				"build": "rimraf \"*.d.ts\" && tsc && type-coverage",
+				"format": "remark . -qfo && prettier . -w --loglevel warn && xo --fix",
+				"test-api": "node --conditions development test.js",
+				"test-coverage": "c8 --check-coverage --branches 100 --functions 100 --lines 100 --statements 100 --reporter lcov npm run test-api",
+				"test": "npm run build && npm run format && npm run test-coverage"
+			},
+			"prettier": {
+				"tabWidth": 2,
+				"useTabs": false,
+				"singleQuote": true,
+				"bracketSpacing": false,
+				"semi": false,
+				"trailingComma": "none"
+			},
+			"xo": {
+				"prettier": true
+			},
+			"remarkConfig": {
+				"plugins": [
+					"preset-wooorm"
+				]
+			},
+			"typeCoverage": {
+				"atLeast": 100,
+				"detail": true,
+				"strict": true,
+				"ignoreCatch": true
+			},
+			"gitHead": "307f8dc843acfb2c8760eba349b7c916c758c379",
+			"homepage": "https://github.com/remarkjs/remark-external-links#readme",
+			"_id": "remark-external-links@9.0.0",
+			"_nodeVersion": "16.6.1",
+			"_npmVersion": "7.20.3",
+			"dist": {
+				"integrity": "sha512-1s81E99otVCKB2zPTsYkCV6kYUAgTiNTXeEylceYpfzF9iFuk6VhrafFT2PuwPjvvRVwmqL1Al0bphJt/ggxkA==",
+				"shasum": "af0fc62890a270e724d9c6d5a671def2b2c9fbec",
+				"tarball": "https://registry.npmjs.org/remark-external-links/-/remark-external-links-9.0.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 14355,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJhC+b6CRA9TVsSAnZWagAAYJYQAI4mhAM9PWTB1wI+BwLG\nSm59Mn6D3xgCD9Ge3zE51L2AL/H5NxzXlt+aYRrYpxTQuc1b+2CF1PhXvNKf\n27gvN7qdBY0o199wWdp8nsr/rthxBe6Qn/J9J1ONitzFaPQDP/CaKkLlkbGR\nfe1sTXhSPyYUIz8r1GLh5RQI/FbjV1Y/fuepe3xfAJBJ9DzBspq1PjKl1Som\nbX4ncJoPD2kx+bK6Sbe8O0JUv3XooxeHXKDYqHn2ruD1/NE8bc7qTZIActV2\nkiXRHQUiB8fmsMaVR5Eu5Q/E2TKP2SZeAOCGRNgYuAo3PvFPKQyQny0o808O\nub+/rZlkcdTnge8WMfKiZ9EStua4jBVTMGEAwcosntD/8hNHdmK4ldOlO0JX\nDFYc9kgQp9ANpGgv+xaJC+wO4fwjwZ+x0anfyrwu8Ct+Bj5UQFK/s4feynwb\nraVTgXCZM0tuXXm80Q/2ui6WfnxR5VtGUF67NNVzD4mUshqhbC/l9zcUu/pi\ns6Mwsh9t3GQl8ccIopokFJtrn39C3s5dV9UR7Vsw4EUOHRlc+Off18Qsm2xB\naM29wdFvca1XMsqpjdtojH3AkqGPDgfhU9yp3a/wvr9Vol800/PvEjOaUT4S\nXR1ICS+pdOILrM0Y0wLgf6XkLUKppMiD4nCc9tUwnRvbk9VG03oZzFvet7As\nxYMD\r\n=Z8aw\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIFyaQNWIWeDpEQHC2F9f43UNqdSBkMwH5IW2FjoV6M2XAiEAp1yglJu0nwxSSaFa0sUmNK9jogwSgTAOt8x7Uc1+7wI="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "johno",
+					"email": "johnotander@gmail.com"
+				},
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/remark-external-links_9.0.0_1628169977995_0.1300974754565618"
+			},
+			"_hasShrinkwrap": false
+		},
+		"9.0.1": {
+			"name": "remark-external-links",
+			"version": "9.0.1",
+			"description": "Legacy remark plugin to automatically add target and rel attributes to external links — please use `rehype-external-links`",
+			"license": "MIT",
+			"keywords": [],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/remarkjs/remark-external-links.git"
+			},
+			"bugs": {
+				"url": "https://github.com/remarkjs/remark-external-links/issues"
+			},
+			"funding": {
+				"type": "opencollective",
+				"url": "https://opencollective.com/unified"
+			},
+			"author": {
+				"name": "Cédric Delpoux",
+				"email": "xuopled@gmail.com"
+			},
+			"contributors": [
+				{
+					"name": "Cédric Delpoux",
+					"email": "xuopled@gmail.com"
+				},
+				{
+					"name": "Titus Wormer",
+					"email": "tituswormer@gmail.com",
+					"url": "https://wooorm.com"
+				},
+				{
+					"name": "Merlijn Vos",
+					"email": "merlijn@soverin.net"
+				},
+				{
+					"name": "Takayosi Amagi",
+					"email": "fand.gmork@gmail.com"
+				},
+				{
+					"name": "Zach Schnackel",
+					"email": "info@zslabs.com"
+				},
+				{
+					"name": "Tsuyusato Kitsune",
+					"email": "make.just.on@gmail.com"
+				},
+				{
+					"name": "Matsuko Friedland",
+					"email": "info@matsuko.ca"
+				}
+			],
+			"sideEffects": false,
+			"type": "module",
+			"main": "index.js",
+			"types": "index.d.ts",
+			"dependencies": {
+				"@types/hast": "^2.3.2",
+				"@types/mdast": "^3.0.0",
+				"extend": "^3.0.0",
+				"is-absolute-url": "^4.0.0",
+				"mdast-util-definitions": "^5.0.0",
+				"space-separated-tokens": "^2.0.0",
+				"unified": "^10.0.0",
+				"unist-util-visit": "^4.0.0"
+			},
+			"devDependencies": {
+				"@types/extend": "^3.0.1",
+				"@types/tape": "^4.0.0",
+				"c8": "^7.0.0",
+				"prettier": "^2.0.0",
+				"remark": "^14.0.0",
+				"remark-cli": "^10.0.0",
+				"remark-html": "^14.0.0",
+				"remark-preset-wooorm": "^9.0.0",
+				"rimraf": "^3.0.0",
+				"tape": "^5.0.0",
+				"type-coverage": "^2.0.0",
+				"typescript": "^4.0.0",
+				"xo": "^0.44.0"
+			},
+			"scripts": {
+				"build": "rimraf \"*.d.ts\" && tsc && type-coverage",
+				"format": "remark . -qfo && prettier . -w --loglevel warn && xo --fix",
+				"test-api": "node --conditions development test.js",
+				"test-coverage": "c8 --check-coverage --branches 100 --functions 100 --lines 100 --statements 100 --reporter lcov npm run test-api",
+				"test": "npm run build && npm run format && npm run test-coverage"
+			},
+			"prettier": {
+				"tabWidth": 2,
+				"useTabs": false,
+				"singleQuote": true,
+				"bracketSpacing": false,
+				"semi": false,
+				"trailingComma": "none"
+			},
+			"xo": {
+				"prettier": true
+			},
+			"remarkConfig": {
+				"plugins": [
+					"preset-wooorm"
+				]
+			},
+			"typeCoverage": {
+				"atLeast": 100,
+				"detail": true,
+				"strict": true,
+				"ignoreCatch": true
+			},
+			"gitHead": "11bfaea2a13452f61290114f22701e455780774c",
+			"homepage": "https://github.com/remarkjs/remark-external-links#readme",
+			"_id": "remark-external-links@9.0.1",
+			"_nodeVersion": "16.6.1",
+			"_npmVersion": "7.20.3",
+			"dist": {
+				"integrity": "sha512-EYw+p8Zqy5oT5+W8iSKzInfRLY+zeKWHCf0ut+Q5SwnaSIDGXd2zzvp4SWqyAuVbinNmZ0zjMrDKaExWZnTYqQ==",
+				"shasum": "6e28354fd7d2c75c2652e32782441bb312cc995a",
+				"tarball": "https://registry.npmjs.org/remark-external-links/-/remark-external-links-9.0.1.tgz",
+				"fileCount": 5,
+				"unpackedSize": 9663,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJhGl1XCRA9TVsSAnZWagAArLsQAJw+2nOpFYHBb8aWo2ar\n+KNdT0+8hsbKvIDqFAVFaZi19dIyBd+azqWNDTBjjKh6JLbzHRmFAkVIq3fQ\nwP5ikxjOzEBRYQ5If9OWC0mvw9NlrFgEmE4c/82sMwLIbMONGKqvKKGwp+Ap\n0vdeiCYuFfqHc7LnNctgskEi2M272fwlvrkDWFfHkQmGAET83LlNOFvn2M4v\nC8lfJ4SoAFjBzO5YXMzAFueOH7OLECU9aMG1snrwP26K0FYN6A6HQV0C7s9R\nEbVVoQPQZ5MssPQXKWxak6hmZvV/36B4MDzCFk4XyMpAKDnjc0ufAc1/crEE\ncd9LI+CHRxT3Usf/tX+LVEQYTVDyk2kJgEx1Aomq4B+bs+OxDQkp2wCeLjQQ\n5oJJoydJiHIcb+BAasvs2m6W45wh6VQz2ZEbGi8DQrlMK381XORQe71L0upS\n5Rgl5XmnlBPb4UOr4q89iD8jFtG5/OTHaC7Af+PtznoyaGH3D0Hm8ObZaKMc\nbPPJqScoO0BqajyMRzyfsej/9Edggx9ZwwQENNE7fxz4YByVfYZ++JBfqEJQ\n9XUaoGq9f7AmOu7JNcN41l4TwJsOF+I5dn9GQoSC9ffEprEdoYyuA0ObzQdJ\n7C8XUZqTdr3TjXWDKMHb6JOfovsWuwuvufnfdaTZVXIw4NoEXXu8rcsfJJyP\nOk/4\r\n=rxrZ\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIFD85t+yMGwtN5kr0JA6d5Q3VjM64wyQnbtnm10XToitAiEA5WPunEfU3rEFBU6P3BrAMhtEKLvRG62usnmhoXrTRl8="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "johno",
+					"email": "johnotander@gmail.com"
+				},
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/remark-external-links_9.0.1_1629117782945_0.14267297828217318"
+			},
+			"_hasShrinkwrap": false
+		}
+	},
+	"time": {
+		"modified": "2022-06-26T11:01:17.759Z",
+		"created": "2017-01-25T17:13:08.679Z",
+		"1.0.0": "2017-01-25T17:13:08.679Z",
+		"1.0.1": "2017-01-26T09:19:03.344Z",
+		"2.0.0": "2018-05-30T09:20:26.167Z",
+		"3.0.0": "2018-08-20T09:08:17.592Z",
+		"3.0.1": "2018-11-16T15:58:39.833Z",
+		"3.1.0": "2018-11-22T12:38:48.548Z",
+		"3.1.1": "2018-11-25T14:49:39.865Z",
+		"4.0.0": "2019-01-04T19:21:00.159Z",
+		"5.0.0": "2019-06-19T13:08:00.805Z",
+		"6.0.0": "2020-03-23T10:42:41.255Z",
+		"6.1.0": "2020-06-08T18:59:03.138Z",
+		"7.0.0": "2020-08-22T13:49:28.123Z",
+		"7.0.1": "2020-09-29T13:40:42.685Z",
+		"8.0.0": "2020-10-08T07:51:06.568Z",
+		"9.0.0": "2021-08-05T13:26:18.121Z",
+		"9.0.1": "2021-08-16T12:43:03.083Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "9.0.1"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"38414e67ad7e99d199827b7c1105eef3\"",
+			"fetched": 1660840740637
+		}
+	},
+	"_distfiles": {
+		"remark-external-links-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/remark-external-links/-/remark-external-links-1.0.0.tgz",
+			"sha": "afec08d1c99fd18e66ed54a46a0302729135fc9f",
+			"registry": "npmjs"
+		},
+		"remark-external-links-1.0.1.tgz": {
+			"url": "https://registry.npmjs.org/remark-external-links/-/remark-external-links-1.0.1.tgz",
+			"sha": "6140251948eb408bae596d96e3ec2f79678f177e",
+			"registry": "npmjs"
+		},
+		"remark-external-links-2.0.0.tgz": {
+			"url": "https://registry.npmjs.org/remark-external-links/-/remark-external-links-2.0.0.tgz",
+			"sha": "fe00455719d92408a7b453ef04f7f481d163b1f8",
+			"registry": "npmjs"
+		},
+		"remark-external-links-3.0.0.tgz": {
+			"url": "https://registry.npmjs.org/remark-external-links/-/remark-external-links-3.0.0.tgz",
+			"sha": "2463c7feb14f33c9ca84b93c563a9ad223fb61d3",
+			"registry": "npmjs"
+		},
+		"remark-external-links-3.0.1.tgz": {
+			"url": "https://registry.npmjs.org/remark-external-links/-/remark-external-links-3.0.1.tgz",
+			"sha": "6e6a9aa6e1c48ca80fccb23e48a627ec388349b8",
+			"registry": "npmjs"
+		},
+		"remark-external-links-3.1.0.tgz": {
+			"url": "https://registry.npmjs.org/remark-external-links/-/remark-external-links-3.1.0.tgz",
+			"sha": "bb823b3492cd6f457b5ba2da87c918eb2231d484",
+			"registry": "npmjs"
+		},
+		"remark-external-links-3.1.1.tgz": {
+			"url": "https://registry.npmjs.org/remark-external-links/-/remark-external-links-3.1.1.tgz",
+			"sha": "a8d2aead51639daffae5e2255469fce4a86c09bb",
+			"registry": "npmjs"
+		},
+		"remark-external-links-4.0.0.tgz": {
+			"url": "https://registry.npmjs.org/remark-external-links/-/remark-external-links-4.0.0.tgz",
+			"sha": "2f6ff800ad9a422fcacd9a055471d68b6a381dd1",
+			"registry": "npmjs"
+		},
+		"remark-external-links-5.0.0.tgz": {
+			"url": "https://registry.npmjs.org/remark-external-links/-/remark-external-links-5.0.0.tgz",
+			"sha": "e7fc0e0cc4c92d33fb195b08ed1dc691fdb1689a",
+			"registry": "npmjs"
+		},
+		"remark-external-links-6.0.0.tgz": {
+			"url": "https://registry.npmjs.org/remark-external-links/-/remark-external-links-6.0.0.tgz",
+			"sha": "c89e2565578584a925097a0526ef7ab874f8e342",
+			"registry": "npmjs"
+		},
+		"remark-external-links-6.1.0.tgz": {
+			"url": "https://registry.npmjs.org/remark-external-links/-/remark-external-links-6.1.0.tgz",
+			"sha": "1a545b3cf896eae00ec1732d90f595f75a329abe",
+			"registry": "npmjs"
+		},
+		"remark-external-links-7.0.0.tgz": {
+			"url": "https://registry.npmjs.org/remark-external-links/-/remark-external-links-7.0.0.tgz",
+			"sha": "f9415a622e2d965c4017c0dde7e659a061bd8b5c",
+			"registry": "npmjs"
+		},
+		"remark-external-links-7.0.1.tgz": {
+			"url": "https://registry.npmjs.org/remark-external-links/-/remark-external-links-7.0.1.tgz",
+			"sha": "c71ca81ea4cca48f067a9659645e4e87a94e54d5",
+			"registry": "npmjs"
+		},
+		"remark-external-links-8.0.0.tgz": {
+			"url": "https://registry.npmjs.org/remark-external-links/-/remark-external-links-8.0.0.tgz",
+			"sha": "308de69482958b5d1cd3692bc9b725ce0240f345",
+			"registry": "npmjs"
+		},
+		"remark-external-links-9.0.0.tgz": {
+			"url": "https://registry.npmjs.org/remark-external-links/-/remark-external-links-9.0.0.tgz",
+			"sha": "af0fc62890a270e724d9c6d5a671def2b2c9fbec",
+			"registry": "npmjs"
+		},
+		"remark-external-links-9.0.1.tgz": {
+			"url": "https://registry.npmjs.org/remark-external-links/-/remark-external-links-9.0.1.tgz",
+			"sha": "6e28354fd7d2c75c2652e32782441bb312cc995a",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_rev": "3-bfd201cb4feb8854",
+	"_id": "remark-external-links",
+	"readme": "# remark-external-links\n\n**Stability: Legacy**.\nThis package is no longer recommended for use.\nIt’s still covered by semantic-versioning guarantees and not yet deprecated,\nbut use of this package should be avoided.\nPlease use `remark-rehype` to move from remark (markdown) to rehype (HTML)\nand then replace `remark-external-links` with\n[`rehype-external-links`][rehype-external-links].\n\nLegacy [documentation for this package](https://github.com/remarkjs/remark-external-links/tree/307f8dc)\nis still available in Git.\n\n## License\n\n[MIT][license] © [Cédric Delpoux][author]\n\n<!-- Definitions -->\n\n[license]: license\n\n[author]: https://xuopled.netlify.com\n\n[rehype-external-links]: https://github.com/rehypejs/rehype-external-links"
+}

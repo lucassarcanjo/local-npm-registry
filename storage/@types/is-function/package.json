@@ -1,0 +1,177 @@
+{
+	"name": "@types/is-function",
+	"versions": {
+		"1.0.0": {
+			"name": "@types/is-function",
+			"version": "1.0.0",
+			"description": "TypeScript definitions for is-function",
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "Evangelos Zotos",
+					"url": "https://github.com/evangeloszotos",
+					"githubUsername": "evangeloszotos"
+				}
+			],
+			"main": "",
+			"types": "index",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+			},
+			"scripts": {},
+			"dependencies": {},
+			"typesPublisherContentHash": "b778e8adb3b8d0b9d6a7f76fdd613718677114b4a0cf01b7cd491d619b8be097",
+			"typeScriptVersion": "2.0",
+			"_id": "@types/is-function@1.0.0",
+			"dist": {
+				"integrity": "sha512-iTs9HReBu7evG77Q4EC8hZnqRt57irBDkK9nvmHroiOIVwYMQc4IvYvdRgwKfYepunIY7Oh/dBuuld+Gj9uo6w==",
+				"shasum": "1b0b819b1636c7baf0d6785d030d12edf70c3e83",
+				"tarball": "https://registry.npmjs.org/@types/is-function/-/is-function-1.0.0.tgz",
+				"fileCount": 4,
+				"unpackedSize": 2663,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcSPWpCRA9TVsSAnZWagAAUV0P/1DmuFZDXRBvyeoSu8KO\n6xsCsDM7ua202ubeGHnHKjywwNqjJG1AHF9qoreCPReZZelP7tRd2ak3lY5n\n7IRC4lVYsBSeF8HZhMG9mcfXbVJawVtX+QKd4JJgix86H1tK71o32loB1gHw\nOf8kNcBIOQtvRBYbfPWCdUHqtWsAHsfcoX3niIR93buybyG7Q+WhdOiD/mBv\nSV1yJWn9LybVz0QJ9dXQmEYV0psfQGXvEb2tnG2TUJbvMjfa6Rnb/M9+GRLJ\nbAPM+5yp+ALhIbGYWTp+U82V1zafPRjikaSIpfp2vtmYNwSNrZ2KeVI6C+Ow\nvugg/lvjDm1ZIGbWeSdAB//9V6rQz/szcmWQiIWMC1VVyfywTmUrBQiqWDiY\nu0LLymKPkEfZNxEZ7ROLvQNUSLOmpmEtmqmRoTfZ+GZIsxkaRSsIIV9yZ9n6\nvv55n/mJ8LxZihi2p0+51j3/wPIazeQV2u/FgiqjkWcOCgqVPPhBbaHfm32E\nJGR4j+ODTmB3yZQjNVkSiML6ObxVDklxLXUmfHdzyE3wOy42CrE45kjCSQ0M\nRqc+Cabxti3SWylNs6Ph6dW/05uHDFFWc/DwMd1uCiaTcTnpYLFbX0WP6W3W\nM981TSQWfWDCfqSudifHYwqLhtj+MKpSlPC+PbIXNfzFPY/kYjZvBkYv4AZa\n8Cl9\r\n=M6l0\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIBZG9XUs/d3hKuxi0X6Av5LhfND3lLy2RpdnhokR0b8eAiBgopJbOsWx63s8MNWK1dUfYkGcQn5g0pA2AqHum9TBRw=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/is-function_1.0.0_1548285353106_0.9653609530439549"
+			},
+			"_hasShrinkwrap": false
+		},
+		"1.0.1": {
+			"name": "@types/is-function",
+			"version": "1.0.1",
+			"description": "TypeScript definitions for is-function",
+			"homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/is-function",
+			"license": "MIT",
+			"contributors": [
+				{
+					"name": "Evangelos Zotos",
+					"url": "https://github.com/evangeloszotos",
+					"githubUsername": "evangeloszotos"
+				}
+			],
+			"main": "",
+			"types": "index.d.ts",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+				"directory": "types/is-function"
+			},
+			"scripts": {},
+			"dependencies": {},
+			"typesPublisherContentHash": "cb1edae8c2529d53c3314d6c8fcc4ebf17f148767a6684b8beef72db7924e7e9",
+			"typeScriptVersion": "3.7",
+			"_id": "@types/is-function@1.0.1",
+			"dist": {
+				"integrity": "sha512-A79HEEiwXTFtfY+Bcbo58M2GRYzCr9itHWzbzHVFNEYCcoU/MMGwYYf721gBrnhpj1s6RGVVha/IgNFnR0Iw/Q==",
+				"shasum": "2d024eace950c836d9e3335a66b97960ae41d022",
+				"tarball": "https://registry.npmjs.org/@types/is-function/-/is-function-1.0.1.tgz",
+				"fileCount": 4,
+				"unpackedSize": 3202,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJhNojMCRA9TVsSAnZWagAAGqcP/inuD8Vy8qL7T0qVia/i\nDsPOVer/MpTjwyWwa8JTwHOtcJadCVtc6nDvEczih9Krf/sjwSHtUPFyjx6n\n/vTx0NQAHeqWVf6cy2vSKvA11lW4IlrzPFppNlofPJlCjyM9+w5PHmtvGDge\nlEuOqGgSsBcEaGhAR7p0jhNEhYsJUy8Fra8vOac9HN21EvAlv3wWy9Tew9pT\nF0F7pie/XAsEW3M5OFFcT7oikfk7TXhL3ed4yOx/7fCD2HV8df+z/iOq0vzj\nTHuyERRctmFZFWxuwY2eNiD/mPqRUMC3h8ga2uvRunsl1pocASiRISJwSezB\nT7wgfxKL7gGL5BCi8Q+hn9bSR4ahzZfGszMeaaDt6MAANc+X1tetkFRgEkIL\nwUSG1uqPC8YgCOacHyZ0V0tihvFTX/rm8AmWULPkv2Itob+gGY6I1an7w/nF\nFih4Q2e4Gyzp42dBkk1ikotP5mcCtlEUVMaAKk1mgA1wLuItQTtBUIFzOEMX\nRWGaRsFq5AL3QWxhIK483K7NYED3jvA4V6c90BZDSBKksAQHeUOp2tJKYKW7\n88Mzp3YgEVkCOeEJxU5KGp4eOiMlEdwc9wajdDssUu0I0ALS30BlKLYbhMRT\npg+HdhVg4AZRG5v85Nj5r+7Fb2ACV80xIrVllqy9SJNOb2XnngWgTHhlTKcX\nByJ6\r\n=Ao0G\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDyqfSd1t+52aqb1mkXMYyJ6z6WIcQeFwUTq3StXuLk0gIgTUWiCRuhNkB4CtdxFNj8GWBCoKwUqZfdTfN/iGJV+n0="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "types",
+				"email": "ts-npm-types@microsoft.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "types",
+					"email": "ts-npm-types@microsoft.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/is-function_1.0.1_1630963916062_0.6510699029850651"
+			},
+			"_hasShrinkwrap": false
+		}
+	},
+	"time": {
+		"created": "2019-01-23T23:15:52.929Z",
+		"1.0.0": "2019-01-23T23:15:53.251Z",
+		"modified": "2022-08-15T08:29:10.829Z",
+		"1.0.1": "2021-09-06T21:31:56.190Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "1.0.1",
+		"ts2.0": "1.0.0",
+		"ts2.1": "1.0.0",
+		"ts2.2": "1.0.0",
+		"ts2.3": "1.0.0",
+		"ts2.4": "1.0.0",
+		"ts2.5": "1.0.0",
+		"ts2.6": "1.0.0",
+		"ts2.7": "1.0.0",
+		"ts2.8": "1.0.0",
+		"ts2.9": "1.0.0",
+		"ts3.0": "1.0.0",
+		"ts3.1": "1.0.0",
+		"ts3.2": "1.0.0",
+		"ts3.3": "1.0.0",
+		"ts3.4": "1.0.0",
+		"ts3.5": "1.0.0",
+		"ts3.6": "1.0.0",
+		"ts3.7": "1.0.1",
+		"ts3.8": "1.0.1",
+		"ts3.9": "1.0.1",
+		"ts4.0": "1.0.1",
+		"ts4.1": "1.0.1",
+		"ts4.2": "1.0.1",
+		"ts4.3": "1.0.1",
+		"ts4.4": "1.0.1",
+		"ts4.5": "1.0.1",
+		"ts4.6": "1.0.1",
+		"ts4.7": "1.0.1",
+		"ts4.8": "1.0.1",
+		"ts4.9": "1.0.1"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"82c7857ffcc636c9644e88133f703bb0\"",
+			"fetched": 1660840748450
+		}
+	},
+	"_distfiles": {
+		"is-function-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/@types/is-function/-/is-function-1.0.0.tgz",
+			"sha": "1b0b819b1636c7baf0d6785d030d12edf70c3e83",
+			"registry": "npmjs"
+		},
+		"is-function-1.0.1.tgz": {
+			"url": "https://registry.npmjs.org/@types/is-function/-/is-function-1.0.1.tgz",
+			"sha": "2d024eace950c836d9e3335a66b97960ae41d022",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_rev": "3-d155ee3488210de1",
+	"_id": "@types/is-function",
+	"readme": "# Installation\r\n> `npm install --save @types/is-function`\r\n\r\n# Summary\r\nThis package contains type definitions for is-function (https://github.com/grncdr/js-is-function).\r\n\r\n# Details\r\nFiles were exported from https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/is-function.\r\n## [index.d.ts](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/is-function/index.d.ts)\r\n````ts\r\n// Type definitions for is-function 1.0\n// Project: https://github.com/grncdr/js-is-function\n// Definitions by: Evangelos Zotos <https://github.com/evangeloszotos>\n// Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped\n\nexport = isFunction;\ndeclare function isFunction(fn?: any): boolean;\n\r\n````\r\n\r\n### Additional Details\r\n * Last updated: Mon, 06 Sep 2021 21:31:20 GMT\r\n * Dependencies: none\r\n * Global values: none\r\n\r\n# Credits\r\nThese definitions were written by [Evangelos Zotos](https://github.com/evangeloszotos)."
+}

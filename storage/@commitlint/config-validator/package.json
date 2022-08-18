@@ -1,0 +1,495 @@
+{
+	"name": "@commitlint/config-validator",
+	"versions": {
+		"16.0.0": {
+			"name": "@commitlint/config-validator",
+			"version": "16.0.0",
+			"description": "config validator for commitlint.config.js",
+			"main": "lib/validate.js",
+			"types": "lib/validate.d.ts",
+			"scripts": {
+				"deps": "dep-check",
+				"pkg": "pkg-check --skip-import"
+			},
+			"engines": {
+				"node": ">=v12"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/conventional-changelog/commitlint.git",
+				"directory": "@commitlint/config-validator"
+			},
+			"bugs": {
+				"url": "https://github.com/conventional-changelog/commitlint/issues"
+			},
+			"homepage": "https://commitlint.js.org/",
+			"keywords": [
+				"conventional-changelog",
+				"commitlint",
+				"library",
+				"core"
+			],
+			"author": {
+				"name": "Mario Nebl",
+				"email": "hello@herebecode.com"
+			},
+			"license": "MIT",
+			"devDependencies": {
+				"@commitlint/utils": "^16.0.0"
+			},
+			"dependencies": {
+				"@commitlint/types": "^16.0.0",
+				"ajv": "^6.12.6"
+			},
+			"gitHead": "a6bacf60d7dccf969677cdef48fd22f8a92b5f08",
+			"_id": "@commitlint/config-validator@16.0.0",
+			"_nodeVersion": "14.15.0",
+			"_npmVersion": "6.14.8",
+			"dist": {
+				"integrity": "sha512-i80DGlo1FeC5jZpuoNV9NIjQN/m2dDV3jYGWg+1Wr+KldptkUHXj+6GY1Akll66lJ3D8s6aUGi3comPLHPtWHg==",
+				"shasum": "61dd84895e5dcab6066ff5e21e2b9a96b0ed6323",
+				"tarball": "https://registry.npmjs.org/@commitlint/config-validator/-/config-validator-16.0.0.tgz",
+				"fileCount": 11,
+				"unpackedSize": 11443,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJhyBkSCRA9TVsSAnZWagAAso0P/11zZ+0gbh3KE6OT4DlR\n3qwajHKfFA7f1A5pc8ppL/zLRyX4hPhp4e0PvciAwUFvnxvYctiwi0vzO3Hx\nAddCAbHVESuYpUkP/E7RTTibz7Fc5/MXwwcB9mmJ8Du3278ATk7Ntksj1jzW\nYDgz/hMIOKQS/DWV0s0vQMokvOEt6G2SiMx7wlw4KPHCEuZEco9xHs3KIBKI\nIWikxNDm7aLxsoDDKZz0fR6+hk9UWibjxuA0CpJ4mnsD7iQ4sQaMQJA4wAYZ\n23hhbNCj/IZDRbteR5dHVB6DILsbpIGX36+ZPqQntwYoU1SSyJspHT/+xbio\niM2RlFhcF12OXrluk40pUh+6620ahhpX6FEfosQcTYscUStDp0opU7f0YBe9\nRW6pvl/pIW5R1mX4bviUfexBKGUzyUdiwO37y1Q1+aACjhbeB+LD+3JF4smt\nryu+Mb1P5Ig2Fw6KFzmOtQCUHOOyMm3krSU5XWhDYV82PUr7mpD0c+2+AI4R\nfleD7Y4ybF2cW1uHFOeHLitF2+XwVO6JN8y+9QwS0OshkQOqq6e21AsJyxJv\nEbnXU43MYfj8h05KZYSXSnESUTaDw7UWgVPmFWV0wrZimeodCX1zEIncP+6G\nMZ098hVNGErEcnWqvY8TJE2ELGTTQgmx5k5MX4kJCURN5we4St3et9wMEYa0\n3jR1\r\n=gJlg\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQD0XQD5wr5BaGrgg85/ts1AZXKBK5hJB2ryiUV0HcObTAIgdgT3nFGtlL4NyIwuwF/zpzU4ZfOqCg/Iq7VPAxmBiSE="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "escapedcat",
+				"email": "npm@htmlcss.de"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "marionebl",
+					"email": "hello@mario-nebl.de"
+				},
+				{
+					"name": "martinhelmut",
+					"email": "info@martin-fieber.se"
+				},
+				{
+					"name": "escapedcat",
+					"email": "npm@htmlcss.de"
+				},
+				{
+					"name": "bycedric",
+					"email": "me@bycedric.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/config-validator_16.0.0_1640503570746_0.2796422957066804"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"16.1.0": {
+			"name": "@commitlint/config-validator",
+			"version": "16.1.0",
+			"description": "config validator for commitlint.config.js",
+			"main": "lib/validate.js",
+			"types": "lib/validate.d.ts",
+			"scripts": {
+				"deps": "dep-check",
+				"pkg": "pkg-check --skip-import"
+			},
+			"engines": {
+				"node": ">=v12"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/conventional-changelog/commitlint.git",
+				"directory": "@commitlint/config-validator"
+			},
+			"bugs": {
+				"url": "https://github.com/conventional-changelog/commitlint/issues"
+			},
+			"homepage": "https://commitlint.js.org/",
+			"keywords": [
+				"conventional-changelog",
+				"commitlint",
+				"library",
+				"core"
+			],
+			"author": {
+				"name": "Mario Nebl",
+				"email": "hello@herebecode.com"
+			},
+			"license": "MIT",
+			"devDependencies": {
+				"@commitlint/utils": "^16.0.0"
+			},
+			"dependencies": {
+				"@commitlint/types": "^16.0.0",
+				"ajv": "^6.12.6"
+			},
+			"gitHead": "ddc727aeaa9a2b962abf30311687897596eff177",
+			"_id": "@commitlint/config-validator@16.1.0",
+			"_nodeVersion": "12.22.8",
+			"_npmVersion": "lerna/4.0.0/node@v12.22.8+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-2cHeZPNTuf1JWbMqyA46MkExor5HMSgv8JrdmzEakUbJHUreh35/wN00FJf57qGs134exQW2thiSQ1IJUsVx2Q==",
+				"shasum": "410979f713ed55cbb85504d46295c1fd2419dc4d",
+				"tarball": "https://registry.npmjs.org/@commitlint/config-validator/-/config-validator-16.1.0.tgz",
+				"fileCount": 12,
+				"unpackedSize": 13090,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJh6Q1/CRA9TVsSAnZWagAAk8wP/AukJVtNeaAjhj50ACNi\nUsLlbocJrTEqz64a6bFaHuxrZ5hv6uNqy28mYQJmZg276N83w+1yJ/sxUuv6\njwNavZi8CJlOu12/rjDQHSqhoMPEZqB7oVQqvVuoDwJpeFW0aYyZz8WGZ3NV\nKcj/FhFPKOkafleJnJri2e+EtQGIW4mYXGTkbySojwbxyxZ7HhY2G41LqWpl\nz2Ze/P7AnMYwh4IBvg/8R94Pxel+naobAN48VjattoAk7/hFlSuguA9RD/I2\nw2J4t8pvODa/6mWPoiUYdIi7IS29fSnBCxeShvU4fTMr+B93lG+t6pkN67bD\nnhWaYWyXDnQ+lktC45rSg5Wtkf70EvY7A5YPRXmROkqhamEjpvyF09HHW6el\nZXEQpU1h48EqTYqWBSU7UPapOXHVPUuWdWIGfX1C8uhTY25pS2E1wlC+SbOO\nxs99Pg5zUqWh36Bmo762uga1c/UOCxZfcM6v9U0PiBhAsIrmkYaXKoIQVTe9\nZa78Ae2IS8Y/QJlaX6UJT8wKHhxFXb49LCr5nR0XbZP33GKemsRr/Uu92gK2\nQ2ofOwbDY++KTAFQg4BzUBAYv9nIrzWql8nAI/F9YLGLMXk08IEvX1gmev4r\n6lonDLYfLsp9+1bR6jXrer7RZLN7hLxlgRmrR+ezVyYG+ss4aLgxpgBBmede\ntD02\r\n=mic5\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQD++c9BZVx2tCAOuKevUpgdiMTuR5cgDwl6V4fTuxWeaQIhAIZU7+Hmj6dQFsgCS9oUDMb9xxgEV90dQLYpMw3vmJgt"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "escapedcat",
+				"email": "npm@htmlcss.de"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "marionebl",
+					"email": "hello@mario-nebl.de"
+				},
+				{
+					"name": "martinhelmut",
+					"email": "info@martin-fieber.se"
+				},
+				{
+					"name": "escapedcat",
+					"email": "npm@htmlcss.de"
+				},
+				{
+					"name": "bycedric",
+					"email": "me@bycedric.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/config-validator_16.1.0_1642663295014_0.569764529893616"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"16.2.1": {
+			"name": "@commitlint/config-validator",
+			"version": "16.2.1",
+			"description": "config validator for commitlint.config.js",
+			"main": "lib/validate.js",
+			"types": "lib/validate.d.ts",
+			"scripts": {
+				"deps": "dep-check",
+				"pkg": "pkg-check --skip-import"
+			},
+			"engines": {
+				"node": ">=v12"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/conventional-changelog/commitlint.git",
+				"directory": "@commitlint/config-validator"
+			},
+			"bugs": {
+				"url": "https://github.com/conventional-changelog/commitlint/issues"
+			},
+			"homepage": "https://commitlint.js.org/",
+			"keywords": [
+				"conventional-changelog",
+				"commitlint",
+				"library",
+				"core"
+			],
+			"author": {
+				"name": "Mario Nebl",
+				"email": "hello@herebecode.com"
+			},
+			"license": "MIT",
+			"devDependencies": {
+				"@commitlint/utils": "^16.2.1"
+			},
+			"dependencies": {
+				"@commitlint/types": "^16.2.1",
+				"ajv": "^6.12.6"
+			},
+			"gitHead": "071cce297f207ebcaf9cfa00e23542b7e0a550e8",
+			"_id": "@commitlint/config-validator@16.2.1",
+			"_nodeVersion": "14.17.6",
+			"_npmVersion": "lerna/4.0.0/node@v14.17.6+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-hogSe0WGg7CKmp4IfNbdNES3Rq3UEI4XRPB8JL4EPgo/ORq5nrGTVzxJh78omibNuB8Ho4501Czb1Er1MoDWpw==",
+				"shasum": "794e769afd4756e4cf1bfd823b6612932e39c56d",
+				"tarball": "https://registry.npmjs.org/@commitlint/config-validator/-/config-validator-16.2.1.tgz",
+				"fileCount": 12,
+				"unpackedSize": 13270,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJiCKkvCRA9TVsSAnZWagAAS1MP/jZezvjB9PJ+T+A/uhkt\nRF9N6cU9ollKmghEV6Km0/b08InmlmmPndj/eFicNLvIYZnPPzmUCJ5zmNpF\ne7wqotGSo/WFJgrEv915y2j/tlHmv2ZLZios0U84ZpVc0+2TT5vqSUGWzyi+\nm/WwThFW9whJpfmLpyhWu4azbNCHy3BY9+s4nLs+pwLmB7n5c/gx6MwvWKn2\nB8ShVObpMJUdCXgDwbglaxr6ext3bVb9Zif9+mx0jDytZUawfqOUpBfmZjKQ\nxsOSmsXj7cKgCnU+mjLLB5DfyY8MnDO2vcTMi//otDgdp7fIJbCYGFVxcROr\naHlxvK8dYKn3NKTJhhIPxV32c3Uqsm4q1Nn/e4F0I8MFqX55rz5WZWn5b50n\nngS61lit1I3G2nhy4VrEpcGzRJeqXwR8QJWbXq1QGB+ZHJway5ZPwugrKQGk\ncjfZ8bKhLY1eS11vWbbNtTK5arTccVUQRj2/u1HiNXE5ZlSqiPIeJb4JO7Pq\nrjNb5NyfkKR6xz2WNvHvbYnY2AN5RKXmGpnlo2IProqEVkXBLFCERgLVt8DD\nmxP6uByLd4xH269ADG6asFMQrpMAXNIJvdqMUWOjIGYQIzrVak2crTWwrLH3\n7BL4gOPCVHQFKAAPp3EKGxBmFCdnTg8E2p7FH4Jz/j3rkgB2zoz5TIJJQzis\nnbz7\r\n=zNGT\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIDQUNBwkyBjf2q5Xu7P3O8/vGZPtjlfQmVp6V5A+O7oDAiEAgJ8BhuppVnDRFwfdmVhQrP5kCOxGwQObOMVEvtfj+dI="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "escapedcat",
+				"email": "npm@htmlcss.de"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "marionebl",
+					"email": "hello@mario-nebl.de"
+				},
+				{
+					"name": "martinhelmut",
+					"email": "info@martin-fieber.se"
+				},
+				{
+					"name": "escapedcat",
+					"email": "npm@htmlcss.de"
+				},
+				{
+					"name": "bycedric",
+					"email": "me@bycedric.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/config-validator_16.2.1_1644734767002_0.36575947925563046"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"17.0.0": {
+			"name": "@commitlint/config-validator",
+			"version": "17.0.0",
+			"description": "config validator for commitlint.config.js",
+			"main": "lib/validate.js",
+			"types": "lib/validate.d.ts",
+			"scripts": {
+				"deps": "dep-check",
+				"pkg": "pkg-check --skip-import"
+			},
+			"engines": {
+				"node": ">=v14"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/conventional-changelog/commitlint.git",
+				"directory": "@commitlint/config-validator"
+			},
+			"bugs": {
+				"url": "https://github.com/conventional-changelog/commitlint/issues"
+			},
+			"homepage": "https://commitlint.js.org/",
+			"keywords": [
+				"conventional-changelog",
+				"commitlint",
+				"library",
+				"core"
+			],
+			"author": {
+				"name": "Mario Nebl",
+				"email": "hello@herebecode.com"
+			},
+			"license": "MIT",
+			"devDependencies": {
+				"@commitlint/utils": "^17.0.0"
+			},
+			"dependencies": {
+				"@commitlint/types": "^17.0.0",
+				"ajv": "^6.12.6"
+			},
+			"gitHead": "ed437d29464ab1b239deecb84ce4d1f2a5e471c6",
+			"_id": "@commitlint/config-validator@17.0.0",
+			"_nodeVersion": "14.17.6",
+			"_npmVersion": "lerna/4.0.0/node@v14.17.6+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-78IQjoZWR4kDHp/U5y17euEWzswJpPkA9TDL5F6oZZZaLIEreWzrDZD5PWtM8MsSRl/K2LDU/UrzYju2bKLMpA==",
+				"shasum": "49ab09f3ca0ac3449e79ea389cb4942423162ac0",
+				"tarball": "https://registry.npmjs.org/@commitlint/config-validator/-/config-validator-17.0.0.tgz",
+				"fileCount": 12,
+				"unpackedSize": 13764,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCzUnrrsz8t+7Tv5hsbt1OKcyyNqb+YgrYL10pD+OU69AIhAI6k3iMe8as/mLnZSbMKTSjPHA7BheFgBNws4KwnulQ+"
+					}
+				],
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJigihQACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2VmoDLQ/5AIBrQgPvgkMxxXSo9Ao7/Bb+AfPMpIxSMtc8VpY63kUA/U57\r\noHuWq9EkBhpt5maB8PNMrOxtXr7voVhe9IS3wJL3pzzG7Bq4JBGsUyDyTDMw\r\nXGP2Yz3v01C+NOkuFo52iwcfl5s+2W+0XHsxT8qho6uLb8lUdeiMaxky3MhY\r\nHING63lU3K48973s0XxL43UEr9mo6c7eDhBkJaOoxUd37lPcK4ULiThHHTGE\r\nNeaUbeXCRnQOFoYjzDirF+wh2XdLMNBupcDUbCUgxRIku7VLjBnQVn1VhOu9\r\npJthwKJq4iZsBLLcTu3cpn1a99o2XlvJ12jm0Y3SQrpRNnINrDV5U0LaImgQ\r\nspXOu+bgq/kz/8vyKLraPanEzSELhkf6dSYag6xCwpMc98jpt69XWktc7we+\r\nKPHZhUO4JKKSQrqoZoPb9OsbkD36dJE4DB/aXqkoyLDGHGw/gFzPXz+vExXY\r\nPM/wwcMbkWm4KNK1tl39a3roY2NncO1Ph8HwEfeIFLqi9gRyco4XyVQaHowy\r\n65s0ajERI3Yw3zQmKIZQgycWsPJ0HSlYv9etpB8THPtnXZWrT3AmowBuKStM\r\n4b6CTmgO6Gml4eui8pUE+/w/kcuxBwWEYcj25VQvfYwpT1JuCCtKLYkt4qFI\r\nTjtYt3a+qiPDEK2AFp21NgoQdHGO3Y5UqaY=\r\n=5EsK\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "escapedcat",
+				"email": "npm@htmlcss.de"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "marionebl",
+					"email": "hello@mario-nebl.de"
+				},
+				{
+					"name": "martinhelmut",
+					"email": "info@martin-fieber.se"
+				},
+				{
+					"name": "escapedcat",
+					"email": "npm@htmlcss.de"
+				},
+				{
+					"name": "bycedric",
+					"email": "me@bycedric.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/config-validator_17.0.0_1652697168615_0.6413628562768054"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"17.0.3": {
+			"name": "@commitlint/config-validator",
+			"version": "17.0.3",
+			"description": "config validator for commitlint.config.js",
+			"main": "lib/validate.js",
+			"types": "lib/validate.d.ts",
+			"scripts": {
+				"deps": "dep-check",
+				"pkg": "pkg-check --skip-import"
+			},
+			"engines": {
+				"node": ">=v14"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/conventional-changelog/commitlint.git",
+				"directory": "@commitlint/config-validator"
+			},
+			"bugs": {
+				"url": "https://github.com/conventional-changelog/commitlint/issues"
+			},
+			"homepage": "https://commitlint.js.org/",
+			"keywords": [
+				"conventional-changelog",
+				"commitlint",
+				"library",
+				"core"
+			],
+			"author": {
+				"name": "Mario Nebl",
+				"email": "hello@herebecode.com"
+			},
+			"license": "MIT",
+			"devDependencies": {
+				"@commitlint/utils": "^17.0.0"
+			},
+			"dependencies": {
+				"@commitlint/types": "^17.0.0",
+				"ajv": "^8.11.0"
+			},
+			"gitHead": "234e762ccfb4c89456dcfb050405a723ae762076",
+			"_id": "@commitlint/config-validator@17.0.3",
+			"_nodeVersion": "14.17.6",
+			"_npmVersion": "lerna/5.0.0/node@v14.17.6+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-3tLRPQJKapksGE7Kee9axv+9z5I2GDHitDH4q63q7NmNA0wkB+DAorJ0RHz2/K00Zb1/MVdHzhCga34FJvDihQ==",
+				"shasum": "5d1ec17eece1f85a0d06c05d168a039b313eb5d7",
+				"tarball": "https://registry.npmjs.org/@commitlint/config-validator/-/config-validator-17.0.3.tgz",
+				"fileCount": 12,
+				"unpackedSize": 14110,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIDrfYT1QephkE8/6Lp3IW62N+ZojHET/f2Ua/yJQQCvEAiEAjZezh2+FI6nOZq77cwdmv4ZInfydDYV9fET4hcjdr+8="
+					}
+				],
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJitq00ACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2VmroJA//enbn8Ts/VKL6/3yQzeKEkVMA4reT6su/KSFZ8xZtxCZWUmMp\r\nHCSiXrvy5/bFGMjjegPLB2YAqiFt+AIXeSGCsGSU4x8tQjhkUPkPPpAAyvNR\r\ntsek10nV48WEtBohb1oJmJPYlUhF1CG/Ga6Uk0vn2QCOTcgXHC53mwCAiL80\r\nZv/DWpg4hvOxEvnt9smgs1nMTfLDRnUIKJe0zoyH2PNDgixZweIJtjCzYH80\r\ndlAvSwWP3U8QqLPwylRkg3+DItpJaiEa35P95JeIC+dFNnbXWfjwZKVacz/l\r\np1TCITdklnTy5so/wMc2QoOYqdWy+Mv32Frz+bko0y0lVaS3EIldHg7M82YL\r\nMV8BOJECAk9vuefcYZc+QmwCTvin5Ns2WNnOPio7FJg5d+5ynjMTH+lrYmQG\r\nm7bLbzLaYy+WvotJaw8ZspYvhXu8Pg+/FjnkXjhso0Up7LvSZ7tlonmFE7tO\r\nCoZhDnqd6FRBPkV1w0JrNVLRUjLCP+fup++IROotZnZ86b+P3mwIQDcZWClG\r\n/crY3zpvgY6EkGC1auYxEh8yREj8nEU+T4OKBZtLo2UigO2szDFuyXRVjVGS\r\nJuXwc+EAV1vuGipK8vLaYYwaAMU0VLVQaJC0jTtXOAkTb/o10OEs9kEvULKR\r\nvinJyu36VzIxdwKbt3/iMq6pbHcBkANlrmI=\r\n=Wfsz\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "escapedcat",
+				"email": "npm@htmlcss.de"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "marionebl",
+					"email": "hello@mario-nebl.de"
+				},
+				{
+					"name": "martinhelmut",
+					"email": "info@martin-fieber.se"
+				},
+				{
+					"name": "escapedcat",
+					"email": "npm@htmlcss.de"
+				},
+				{
+					"name": "bycedric",
+					"email": "me@bycedric.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/config-validator_17.0.3_1656139060267_0.2845305049932607"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		}
+	},
+	"time": {
+		"created": "2021-12-26T07:26:10.709Z",
+		"16.0.0": "2021-12-26T07:26:10.921Z",
+		"modified": "2022-06-25T06:37:40.574Z",
+		"16.1.0": "2022-01-20T07:21:35.153Z",
+		"16.2.1": "2022-02-13T06:46:07.209Z",
+		"17.0.0": "2022-05-16T10:32:48.774Z",
+		"17.0.3": "2022-06-25T06:37:40.465Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "17.0.3"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"d8d0a22071217f3bd7699c26d82a0c48\"",
+			"fetched": 1660840794701
+		}
+	},
+	"_distfiles": {
+		"config-validator-16.0.0.tgz": {
+			"url": "https://registry.npmjs.org/@commitlint/config-validator/-/config-validator-16.0.0.tgz",
+			"sha": "61dd84895e5dcab6066ff5e21e2b9a96b0ed6323",
+			"registry": "npmjs"
+		},
+		"config-validator-16.1.0.tgz": {
+			"url": "https://registry.npmjs.org/@commitlint/config-validator/-/config-validator-16.1.0.tgz",
+			"sha": "410979f713ed55cbb85504d46295c1fd2419dc4d",
+			"registry": "npmjs"
+		},
+		"config-validator-16.2.1.tgz": {
+			"url": "https://registry.npmjs.org/@commitlint/config-validator/-/config-validator-16.2.1.tgz",
+			"sha": "794e769afd4756e4cf1bfd823b6612932e39c56d",
+			"registry": "npmjs"
+		},
+		"config-validator-17.0.0.tgz": {
+			"url": "https://registry.npmjs.org/@commitlint/config-validator/-/config-validator-17.0.0.tgz",
+			"sha": "49ab09f3ca0ac3449e79ea389cb4942423162ac0",
+			"registry": "npmjs"
+		},
+		"config-validator-17.0.3.tgz": {
+			"url": "https://registry.npmjs.org/@commitlint/config-validator/-/config-validator-17.0.3.tgz",
+			"sha": "5d1ec17eece1f85a0d06c05d168a039b313eb5d7",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_rev": "3-fadc6bf6e3898006",
+	"_id": "@commitlint/config-validator",
+	"readme": "ERROR: No README data found!"
+}

@@ -1,0 +1,5624 @@
+{
+	"name": "@storybook/csf",
+	"versions": {
+		"0.0.1": {
+			"name": "@storybook/csf",
+			"version": "0.0.1",
+			"description": "Storybook Component Story Format (CSF) utilities",
+			"keywords": [
+				"storybook",
+				"component story format",
+				"csf",
+				"stories"
+			],
+			"homepage": "https://github.com/storybookjs/csf",
+			"bugs": {
+				"url": "https://github.com/storybookjs/csf/issues"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/storybookjs/csf.git"
+			},
+			"license": "MIT",
+			"main": "dist/index.js",
+			"types": "dist/index.d.ts",
+			"scripts": {
+				"build": "babel src --out-dir dist --extensions \".ts\" && tsc --emitDeclarationOnly",
+				"lint": "eslint src --ext .js,.ts",
+				"prepublish": "yarn build",
+				"test": "jest"
+			},
+			"eslintConfig": {
+				"extends": [
+					"@storybook/eslint-config-storybook"
+				]
+			},
+			"prettier": "@storybook/linter-config/prettier.config",
+			"jest": {
+				"testEnvironment": "node"
+			},
+			"dependencies": {
+				"lodash": "^4.17.15"
+			},
+			"devDependencies": {
+				"@babel/cli": "^7.7.4",
+				"@babel/core": "^7.7.4",
+				"@babel/preset-env": "^7.7.4",
+				"@babel/preset-typescript": "^7.7.4",
+				"@storybook/eslint-config-storybook": "^2.1.0",
+				"@types/jest": "^24.0.23",
+				"@types/lodash": "^4.14.149",
+				"babel-core": "7.0.0-bridge.0",
+				"babel-jest": "^24.9.0",
+				"common-tags": "^1.8.0",
+				"eslint": "^6.7.1",
+				"jest": "^24.9.0",
+				"prettier": "^1.19.1",
+				"typescript": "^3.7.2"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"gitHead": "943c35ec3985e7feae3343197f5d632dfaee1fcb",
+			"_id": "@storybook/csf@0.0.1",
+			"_nodeVersion": "10.16.3",
+			"_npmVersion": "6.9.0",
+			"dist": {
+				"integrity": "sha512-USTLkZze5gkel8MYCujSRBVIrUQ3YPBrLOx7GNk/0wttvVtlzWXAq9eLbQ4p/NicGxP+3T7KPEMVV//g+yubpw==",
+				"shasum": "95901507dc02f0bc6f9ac8ee1983e2fc5bb98ce6",
+				"tarball": "https://registry.npmjs.org/@storybook/csf/-/csf-0.0.1.tgz",
+				"fileCount": 7,
+				"unpackedSize": 12240,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJd7fAqCRA9TVsSAnZWagAAXZIP/1i5kFhqXMBVh5doeI+3\nxU1Q+IDhANYMpJwubIbZWzv4IfQctVWTc2ARwjuZE77YNKMqyHN9kXjAnRr2\nf0Uj7llB1LSGNdlKnQ0CZZxc8AqpjvpjcvpTcDxQtoWe5AjPsQNRq9c71NGb\nH6m3t+ZrMwnqPo51aMPsbRKaCEduQ8ULCYIam2YW71/2dMCxkb7wbr0lPaWH\ngF0Fw7olC9ecMFe4K2flH3W5BShSk7DT0qfmQ2u33eVfUTgqaz4xtof+rZmI\nfF1N70+/b+KKqNhJZw2irlGoOSUB8zngvQfwTEa9Effjvd6nedo6bkZUjRaM\nmpZ3ASkVNuJqbR6bk0kV+h1P266lvvz+NfrxQWCxU8YR71ctTnD9OQcDbW82\nCsySmTeJh4QTLA6COTL42bft1B/BYdRBHGBGSPgjQOlSNI4+fIVj05FzD8EM\n3Dz+w/4+1ZxTQjgCIuG6sIwxwqeThjFnJcl+b6NvJnWQJYCQFykHZiCGURrS\n+nnQVUV7sqDIC7t9K5tpT2fZhZJXsSpNnLR0fqpDB0qSbY0l4Qt2t+ReGjTX\nGx9hL/qtBVj/m+x1yTzrCvtXxRrU0OXKob+w1O5SVLHtEDbv9CZuwauadUlp\ncPSOr9l/kLg8WFs3PzWxkEhDgHPHAijfa4z8MfWuqjHA7ACkMlU91tZs/yIC\null5\r\n=Di/1\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQCDBKtZQo/ozeLe5ebYvLz7Ov23iIv8KhyzhmNtTVDr/AIgad6aclNHotwv6QEKpJFajHQR8FP/p4yZ1/XGkN//WL4="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "ghengeveld",
+					"email": "info@ghengeveld.nl"
+				},
+				{
+					"name": "kylesuss",
+					"email": "susskyle@gmail.com"
+				},
+				{
+					"name": "usulpro",
+					"email": "regx@usul.su"
+				},
+				{
+					"name": "domyen",
+					"email": "dom@hichroma.com"
+				},
+				{
+					"name": "gongreg",
+					"email": "gytis.vinclovas@gmail.com"
+				},
+				{
+					"name": "tmeasday",
+					"email": "tom@thesnail.org"
+				},
+				{
+					"name": "pksunkara",
+					"email": "pavan.sss1991@gmail.com"
+				},
+				{
+					"name": "ndelangen",
+					"email": "ndelangen@me.com"
+				},
+				{
+					"name": "shilman",
+					"email": "michael@lab80.co"
+				},
+				{
+					"name": "alexandrebodin",
+					"email": "bodin.alex@gmail.com"
+				},
+				{
+					"name": "hypnosphi",
+					"email": "talpa@yandex.ru"
+				},
+				{
+					"name": "danielduan",
+					"email": "dduan@yahoo.com"
+				},
+				{
+					"name": "igor-dv",
+					"email": "davydkin.igor@gmail.com"
+				}
+			],
+			"_npmUser": {
+				"name": "shilman",
+				"email": "michael@lab80.co"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/csf_0.0.1_1575874602268_0.4010049712706376"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.0.2-alpha.0": {
+			"name": "@storybook/csf",
+			"version": "0.0.2-alpha.0",
+			"description": "Storybook Component Story Format (CSF) utilities",
+			"keywords": [
+				"storybook",
+				"component story format",
+				"csf",
+				"stories"
+			],
+			"homepage": "https://github.com/storybookjs/csf",
+			"bugs": {
+				"url": "https://github.com/storybookjs/csf/issues"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/storybookjs/csf.git"
+			},
+			"license": "MIT",
+			"main": "dist/index.js",
+			"types": "dist/index.d.ts",
+			"scripts": {
+				"build": "babel src --out-dir dist --extensions \".ts\" && tsc --emitDeclarationOnly",
+				"lint": "eslint src --ext .js,.ts",
+				"prepublish": "yarn build",
+				"test": "jest"
+			},
+			"eslintConfig": {
+				"extends": [
+					"@storybook/eslint-config-storybook"
+				]
+			},
+			"prettier": "@storybook/linter-config/prettier.config",
+			"jest": {
+				"testEnvironment": "node"
+			},
+			"dependencies": {
+				"lodash": "^4.17.15"
+			},
+			"devDependencies": {
+				"@babel/cli": "^7.7.4",
+				"@babel/core": "^7.7.4",
+				"@babel/preset-env": "^7.7.4",
+				"@babel/preset-typescript": "^7.7.4",
+				"@storybook/eslint-config-storybook": "^2.1.0",
+				"@types/jest": "^24.0.23",
+				"@types/lodash": "^4.14.149",
+				"babel-core": "7.0.0-bridge.0",
+				"babel-jest": "^24.9.0",
+				"common-tags": "^1.8.0",
+				"eslint": "^6.7.1",
+				"jest": "^24.9.0",
+				"prettier": "^1.19.1",
+				"typescript": "^3.7.2"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"readmeFilename": "README.md",
+			"gitHead": "4671e25295e8ca33df76e2e76632aad3cb805a60",
+			"_id": "@storybook/csf@0.0.2-alpha.0",
+			"_nodeVersion": "10.16.3",
+			"_npmVersion": "6.9.0",
+			"dist": {
+				"integrity": "sha512-3ml3SFPlpr1f4w4xAkVb4gI6dgw3E0pq+3WjBNqo5wxON45tLrkTkjDeMfuDh/B0lr7YCBJv88XbFxQn0fxTcw==",
+				"shasum": "d97cdb01d8b5b5f8e05a61daced1a34b654395c5",
+				"tarball": "https://registry.npmjs.org/@storybook/csf/-/csf-0.0.2-alpha.0.tgz",
+				"fileCount": 11,
+				"unpackedSize": 16709,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeMutOCRA9TVsSAnZWagAA2GIP/2D5uLjHEobGCWYrzfC5\nappkzS50BirwEDQfVZ7Z9Du7yxudMHp7WW1eU7oiua/uWRsSkPxywm3S0Xva\nGPviDtYhkZGnn7fGWBiDEshOXgDExv1L63IIl6ls+DpLGxyEvq/7FyaamMEq\nFfjBUVIyhkudpaKmEyusGJEl/mum+CYDzjykYDZJxJJsA71E83qMRn1BG/v0\nkMpb2/fwiKZapK4ERJDQpo8XzG+DdBf9e+cXKmOzUgTSx2+cR3jMADTDsrfm\n3poqrpTQqqdf3/e1Igu0eWWjn4uhIuabp/J6orO6dyPwGyVvzsSOD/LRvHnw\npGbpo//x60AnjrVypGn5alrd7QrjeTdmb1c4lnOFuHbD9bjNWdtaN3R3FwiA\nP5sLyMm0tCs+iUOVd+FoP9eqgwFRg6ddxyF3vI2koSPQFB3BOh31ELfZsCv0\nZbCeEC1TICZ62IH5m4adCuvdMVTaxmag8hYf8PhhNwW9Dgtw6ohX+KR70ViT\nmW45zCDHz/nitzcaxTJxZWhno99F1i+al6zq+Qj8mfo13jrU05spTVQPjgBt\nIyNa+FDErrKbKwLe1/Z12X8GNh4B1xi+8fWLjrnfWUzs8CHk9Z3k1jsIeBWm\nQ2V4ZTV0rwuyPmjko+HQWalipmz4a876H+ZDGEIBTtiMLB4mjPsX7NO3s3rj\nTR0Q\r\n=ObMg\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIGYQERzmp0ZJVu639kr3Jf6h629ddiKLjNBCEzJ6DuiJAiBsYgklTEVVOfZgQKdqvdSWxdNbtJeseVOh6TqGuEbE7w=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"email": "bodin.alex@gmail.com",
+					"name": "alexandrebodin"
+				},
+				{
+					"email": "dduan@yahoo.com",
+					"name": "danielduan"
+				},
+				{
+					"email": "dom@hichroma.com",
+					"name": "domyen"
+				},
+				{
+					"email": "info@ghengeveld.nl",
+					"name": "ghengeveld"
+				},
+				{
+					"email": "gytis.vinclovas@gmail.com",
+					"name": "gongreg"
+				},
+				{
+					"email": "talpa@yandex.ru",
+					"name": "hypnosphi"
+				},
+				{
+					"email": "davydkin.igor@gmail.com",
+					"name": "igor-dv"
+				},
+				{
+					"email": "susskyle@gmail.com",
+					"name": "kylesuss"
+				},
+				{
+					"email": "ndelangen@me.com",
+					"name": "ndelangen"
+				},
+				{
+					"email": "patrick.gotthardt@trivago.com",
+					"name": "pago"
+				},
+				{
+					"email": "pavan.sss1991@gmail.com",
+					"name": "pksunkara"
+				},
+				{
+					"email": "michael@lab80.co",
+					"name": "shilman"
+				},
+				{
+					"email": "tom@thesnail.org",
+					"name": "tmeasday"
+				},
+				{
+					"email": "regx@usul.su",
+					"name": "usulpro"
+				}
+			],
+			"_npmUser": {
+				"name": "shilman",
+				"email": "michael@lab80.co"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/csf_0.0.2-alpha.0_1580395342153_0.7229102119263093"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.0.2--canary.4d00998.0": {
+			"name": "@storybook/csf",
+			"version": "0.0.2--canary.4d00998.0",
+			"description": "Component Story Format (CSF) utilities",
+			"keywords": [
+				"storybook",
+				"component story format",
+				"csf",
+				"stories"
+			],
+			"homepage": "https://github.com/ComponentDriven/csf",
+			"bugs": {
+				"url": "https://github.com/ComponentDriven/csf/issues"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ComponentDriven/csf.git"
+			},
+			"license": "MIT",
+			"main": "dist/index.js",
+			"types": "dist/index.d.ts",
+			"scripts": {
+				"build": "babel src --out-dir dist --extensions \".ts\" && tsc --emitDeclarationOnly",
+				"lint": "eslint src --ext .js,.ts",
+				"test": "jest",
+				"release": "yarn build && auto shipit"
+			},
+			"eslintConfig": {
+				"extends": [
+					"@storybook/eslint-config-storybook"
+				]
+			},
+			"prettier": "@storybook/linter-config/prettier.config",
+			"jest": {
+				"testEnvironment": "node"
+			},
+			"dependencies": {
+				"lodash": "^4.17.15"
+			},
+			"devDependencies": {
+				"@babel/cli": "^7.8.4",
+				"@babel/core": "^7.9.0",
+				"@babel/preset-env": "^7.9.5",
+				"@babel/preset-typescript": "^7.9.0",
+				"@storybook/eslint-config-storybook": "^2.1.0",
+				"@types/jest": "^24.0.23",
+				"@types/lodash": "^4.14.149",
+				"auto": "^10.31.0",
+				"babel-core": "7.0.0-bridge.0",
+				"babel-jest": "^24.9.0",
+				"common-tags": "^1.8.0",
+				"eslint": "^6.7.1",
+				"jest": "^24.9.0",
+				"prettier": "^1.19.1",
+				"typescript": "^3.7.2"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"readmeFilename": "README.md",
+			"gitHead": "4d00998c0f15060216d88053b6e42400b166114c",
+			"_id": "@storybook/csf@0.0.2--canary.4d00998.0",
+			"_nodeVersion": "14.16.1",
+			"_npmVersion": "6.14.12",
+			"dist": {
+				"integrity": "sha512-CcImy/71b8bp1YjCRK9ZOOD/F3ggca8nOyZG0n1a9xsGyc5vs5W2N6nRHUQcWYXZrXq9iNHz5pYacMGio75X5w==",
+				"shasum": "17fd55a21b5ac9ee83a068cde958c640b87360c3",
+				"tarball": "https://registry.npmjs.org/@storybook/csf/-/csf-0.0.2--canary.4d00998.0.tgz",
+				"fileCount": 17,
+				"unpackedSize": 28539,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJhIz/bCRA9TVsSAnZWagAALrkQAJZnYqkDLmzCeVIbi2wp\nJ42Oc8gVpBBWAqnR50vAHoRdBl8CaSFSSAyOTF+Ri4SPiH6M/cPTcfvdA4CX\nXzBCI+GMRZJ7Bo46+Zu7JYrfaFw9kkACPuaD1RjZy7NM2OnLxAK14LVOTfmr\nkSGF5Kdtv73sW0lx/pAlA2kbJHikpnn91QKjMKh6kdqZyOAQ7MMeOh7smnBA\ncEg4m7NRpZZ7kY1IdHXNvXPpYlth4aiC17yojLse+c2ZN8fcqzO4E7p6Eyum\nZOf0rFAbVsl5mXEgZTztDhqK/E8CdA8gdkVZW5i1wdItgw5p71g7a6Z6ZF1s\nIyUpctY0T4t7A4lK6VjRmY7hDwykYdm3gZl72u5pXEUSZ6+FRu8bPyUm/S8e\nim2SpOQcr9P7UurQO9QN7zyDzafGfHGx5tt80sBDQN3C1QbJBE5/FUF2eXMR\nKjT+XoO6DNob90jk3eKgz7b6sRhxMu17cDiOfEzzeZFkfnKXIJPWuBeJ2S8N\nz+tadszEfEOgd6fdz4HNO9E+Wn9JTAzQhrAVcO2gaDBgpuQ0fZsx4PQplpyW\nC0n1sihFo3Fc1j2A+XhkhV6tZLbcb56GKAvfi0Qec9umqlfp7FIfQbAZIEJ3\nSAd6Qz4DDsmGyLjbijAQFzhQTqN0uUJJxHkrx6DBtNRTiq4HWwPS5MgT01eT\nUMq0\r\n=MA5d\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIDCnUdd/hs5dU2yw43oDx4kd3OH1TDiXOsBqIp1ErfCRAiAUFu8fM/6att5ILieoIpQNHKVf0lBJnE1naXMI2Wha1w=="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "shilman",
+				"email": "michael@lab80.co"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "tooppaaa",
+					"email": "clementdungler@gmail.com"
+				},
+				{
+					"name": "ndelangen",
+					"email": "ndelangen@me.com"
+				},
+				{
+					"name": "shilman",
+					"email": "michael@lab80.co"
+				},
+				{
+					"name": "alexandrebodin",
+					"email": "bodin.alex@gmail.com"
+				},
+				{
+					"name": "hypnosphi",
+					"email": "talpa@yandex.ru"
+				},
+				{
+					"name": "danielduan",
+					"email": "dduan@yahoo.com"
+				},
+				{
+					"name": "igor-dv",
+					"email": "davydkin.igor@gmail.com"
+				},
+				{
+					"name": "pksunkara",
+					"email": "pavan.sss1991@gmail.com"
+				},
+				{
+					"name": "tmeasday",
+					"email": "tom@thesnail.org"
+				},
+				{
+					"name": "gongreg",
+					"email": "gytis.vinclovas@gmail.com"
+				},
+				{
+					"name": "domyen",
+					"email": "dom@hichroma.com"
+				},
+				{
+					"name": "usulpro",
+					"email": "regx@usul.su"
+				},
+				{
+					"name": "kylesuss",
+					"email": "susskyle@gmail.com"
+				},
+				{
+					"name": "ghengeveld",
+					"email": "info@ghengeveld.nl"
+				},
+				{
+					"name": "pago",
+					"email": "patrick.gotthardt@trivago.com"
+				},
+				{
+					"name": "dandean",
+					"email": "me@dandean.com"
+				},
+				{
+					"name": "codebyalex",
+					"email": "wilsonc.alexander@gmail.com"
+				},
+				{
+					"name": "mrmckeb",
+					"email": "mrmckeb.npm@outlook.com"
+				},
+				{
+					"name": "dannyhw",
+					"email": "danny.h.williams@hotmail.com"
+				},
+				{
+					"name": "winkervsbecks",
+					"email": "varunvachhar@gmail.com"
+				},
+				{
+					"name": "rvasikarla",
+					"email": "vasikarla.raj@gmail.com"
+				},
+				{
+					"name": "amalik2",
+					"email": "ahnmalik2@gmail.com"
+				},
+				{
+					"name": "lshadler",
+					"email": "lshadler13@gmail.com"
+				},
+				{
+					"name": "phated",
+					"email": "blaine.bublitz@gmail.com"
+				},
+				{
+					"name": "yannbf",
+					"email": "yannbf@gmail.com"
+				},
+				{
+					"name": "dylanpiercey",
+					"email": "pierceydylan@gmail.com"
+				},
+				{
+					"name": "monkeyworks",
+					"email": "igor.szyporyn@gmail.com"
+				},
+				{
+					"name": "darleendenno",
+					"email": "darleendenno@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/csf_0.0.2--canary.4d00998.0_1629700059846_0.4077446207375848"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.0.2--canary.3b9fb86.0": {
+			"name": "@storybook/csf",
+			"version": "0.0.2--canary.3b9fb86.0",
+			"description": "Component Story Format (CSF) utilities",
+			"keywords": [
+				"storybook",
+				"component story format",
+				"csf",
+				"stories"
+			],
+			"homepage": "https://github.com/ComponentDriven/csf",
+			"bugs": {
+				"url": "https://github.com/ComponentDriven/csf/issues"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ComponentDriven/csf.git"
+			},
+			"license": "MIT",
+			"main": "dist/index.js",
+			"types": "dist/index.d.ts",
+			"scripts": {
+				"build": "babel src --out-dir dist --extensions \".ts\" && tsc --emitDeclarationOnly",
+				"lint": "eslint src --ext .js,.ts",
+				"test": "jest",
+				"release": "yarn build && auto shipit"
+			},
+			"eslintConfig": {
+				"extends": [
+					"@storybook/eslint-config-storybook"
+				]
+			},
+			"prettier": "@storybook/linter-config/prettier.config",
+			"jest": {
+				"testEnvironment": "node"
+			},
+			"dependencies": {
+				"lodash": "^4.17.15"
+			},
+			"devDependencies": {
+				"@babel/cli": "^7.8.4",
+				"@babel/core": "^7.9.0",
+				"@babel/preset-env": "^7.9.5",
+				"@babel/preset-typescript": "^7.9.0",
+				"@storybook/eslint-config-storybook": "^2.1.0",
+				"@types/jest": "^24.0.23",
+				"@types/lodash": "^4.14.149",
+				"auto": "^10.31.0",
+				"babel-core": "7.0.0-bridge.0",
+				"babel-jest": "^24.9.0",
+				"common-tags": "^1.8.0",
+				"eslint": "^6.7.1",
+				"jest": "^24.9.0",
+				"prettier": "^1.19.1",
+				"typescript": "^3.7.2"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"readmeFilename": "README.md",
+			"gitHead": "3b9fb86237f90fb07c1a3a0b36816c047dd32c4f",
+			"_id": "@storybook/csf@0.0.2--canary.3b9fb86.0",
+			"_nodeVersion": "14.16.1",
+			"_npmVersion": "6.14.12",
+			"dist": {
+				"integrity": "sha512-ZrNy0EI3S3a6GKDpWJVNkgxHORrMBCtwzOH/YX7QNspfPysS0IneTPiZOJAbviYMyTVcNRpab+POVsd50IYBYQ==",
+				"shasum": "e51e65bf63a3c2f7aa6aef2d1aea49695879ce3f",
+				"tarball": "https://registry.npmjs.org/@storybook/csf/-/csf-0.0.2--canary.3b9fb86.0.tgz",
+				"fileCount": 17,
+				"unpackedSize": 28778,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJhI5IeCRA9TVsSAnZWagAAQWsQAJ65HRa7ggVrgr60i/I+\nIdsh4bUhwv8FOSwYTNsg7iWTCSbRW4nAPRDUvGoFckCp0gl/3geYg7PRhyYN\nUHmpw1pdeklyRkSl6NrSti2Wa3HvnzlvmC77dlzDDYTCqpDRE5+/bX1+8j+e\nWBMyOVM7ljM325CStucxKMe6BzN+4S4LJNffo1EDZwXupbJGWrKXXb3WZISJ\nKQfqNJCkN/ExnU1Uj0mor6eyGXoGkk6yXqYStvd0gb1HtyAOgsLgwyiVXu+K\nGpEAaUSR3tVc+yZNaXrQ3jmbfguz3DjNdCCb7CxKpd9hHXn1Wbm8aEC7dchP\nXlntB9GpMNlb2aAqUOBPQ+yGrdnaMaWpg15D1cknn4mqiXW46lVODpCwP2Bi\nBCyd9xcFYcsThVofLk6OePfwIshqXdw6acOMauo31blEQvVEozmUaVnNHis8\nqVKLKbcpqiUaS78vujBQoE49PJA9DL61SsxdhGiCmiEqoTF+CT0wnUbVP/Cx\nqCol2exIZ5BCuh6fV7S2FdoLv8tLl/Lpqyi8xAWQT6ymsYk4+D5Th4rKpZQR\n+T8JVNsSndg3aIbwoqCpoxDEbIJ4FyFC4ZfHXiIvW5I18U90H2tl8PaJnmrm\ng4Ismxqir4jH30iMwmiUIEfjdmwricm/XKJB3tssVvZfhTFXgSq7ZS9XOglC\npM6v\r\n=vvbs\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDcfbKmg8M8/ugx4wWm869pGeJ7NsjXOPbmbjtJfYtrcwIhAKyG6EH2Kbyn2r6anq3jWidRPKilqfXjmXEjLNcg4Q0k"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "shilman",
+				"email": "michael@lab80.co"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "tooppaaa",
+					"email": "clementdungler@gmail.com"
+				},
+				{
+					"name": "ndelangen",
+					"email": "ndelangen@me.com"
+				},
+				{
+					"name": "shilman",
+					"email": "michael@lab80.co"
+				},
+				{
+					"name": "alexandrebodin",
+					"email": "bodin.alex@gmail.com"
+				},
+				{
+					"name": "hypnosphi",
+					"email": "talpa@yandex.ru"
+				},
+				{
+					"name": "danielduan",
+					"email": "dduan@yahoo.com"
+				},
+				{
+					"name": "igor-dv",
+					"email": "davydkin.igor@gmail.com"
+				},
+				{
+					"name": "pksunkara",
+					"email": "pavan.sss1991@gmail.com"
+				},
+				{
+					"name": "tmeasday",
+					"email": "tom@thesnail.org"
+				},
+				{
+					"name": "gongreg",
+					"email": "gytis.vinclovas@gmail.com"
+				},
+				{
+					"name": "domyen",
+					"email": "dom@hichroma.com"
+				},
+				{
+					"name": "usulpro",
+					"email": "regx@usul.su"
+				},
+				{
+					"name": "kylesuss",
+					"email": "susskyle@gmail.com"
+				},
+				{
+					"name": "ghengeveld",
+					"email": "info@ghengeveld.nl"
+				},
+				{
+					"name": "pago",
+					"email": "patrick.gotthardt@trivago.com"
+				},
+				{
+					"name": "dandean",
+					"email": "me@dandean.com"
+				},
+				{
+					"name": "codebyalex",
+					"email": "wilsonc.alexander@gmail.com"
+				},
+				{
+					"name": "mrmckeb",
+					"email": "mrmckeb.npm@outlook.com"
+				},
+				{
+					"name": "dannyhw",
+					"email": "danny.h.williams@hotmail.com"
+				},
+				{
+					"name": "winkervsbecks",
+					"email": "varunvachhar@gmail.com"
+				},
+				{
+					"name": "rvasikarla",
+					"email": "vasikarla.raj@gmail.com"
+				},
+				{
+					"name": "amalik2",
+					"email": "ahnmalik2@gmail.com"
+				},
+				{
+					"name": "lshadler",
+					"email": "lshadler13@gmail.com"
+				},
+				{
+					"name": "phated",
+					"email": "blaine.bublitz@gmail.com"
+				},
+				{
+					"name": "yannbf",
+					"email": "yannbf@gmail.com"
+				},
+				{
+					"name": "dylanpiercey",
+					"email": "pierceydylan@gmail.com"
+				},
+				{
+					"name": "monkeyworks",
+					"email": "igor.szyporyn@gmail.com"
+				},
+				{
+					"name": "darleendenno",
+					"email": "darleendenno@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/csf_0.0.2--canary.3b9fb86.0_1629721118208_0.3353408756129217"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.0.2--canary.856a16c.0": {
+			"name": "@storybook/csf",
+			"version": "0.0.2--canary.856a16c.0",
+			"description": "Component Story Format (CSF) utilities",
+			"keywords": [
+				"storybook",
+				"component story format",
+				"csf",
+				"stories"
+			],
+			"homepage": "https://github.com/ComponentDriven/csf",
+			"bugs": {
+				"url": "https://github.com/ComponentDriven/csf/issues"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ComponentDriven/csf.git"
+			},
+			"license": "MIT",
+			"main": "dist/index.js",
+			"types": "dist/index.d.ts",
+			"scripts": {
+				"build": "babel src --out-dir dist --extensions \".ts\" && tsc --emitDeclarationOnly",
+				"lint": "eslint src --ext .js,.ts",
+				"test": "jest",
+				"release": "yarn build && auto shipit"
+			},
+			"eslintConfig": {
+				"extends": [
+					"@storybook/eslint-config-storybook"
+				]
+			},
+			"prettier": "@storybook/linter-config/prettier.config",
+			"jest": {
+				"testEnvironment": "node"
+			},
+			"dependencies": {
+				"lodash": "^4.17.15"
+			},
+			"devDependencies": {
+				"@babel/cli": "^7.8.4",
+				"@babel/core": "^7.9.0",
+				"@babel/preset-env": "^7.9.5",
+				"@babel/preset-typescript": "^7.9.0",
+				"@storybook/eslint-config-storybook": "^2.1.0",
+				"@types/jest": "^24.0.23",
+				"@types/lodash": "^4.14.149",
+				"auto": "^10.31.0",
+				"babel-core": "7.0.0-bridge.0",
+				"babel-jest": "^24.9.0",
+				"common-tags": "^1.8.0",
+				"eslint": "^6.7.1",
+				"jest": "^24.9.0",
+				"prettier": "^1.19.1",
+				"typescript": "^3.7.2"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"readmeFilename": "README.md",
+			"gitHead": "856a16c2f93fa13a9b597a48b25d91c96342d4b8",
+			"_id": "@storybook/csf@0.0.2--canary.856a16c.0",
+			"_nodeVersion": "14.16.1",
+			"_npmVersion": "6.14.12",
+			"dist": {
+				"integrity": "sha512-tQUZ9BtE63vQaEjMbHZZE8FxwZOTQqKGyCzz0PqjuMf94VZuhBPMhdfht93Z9AkujVfMB0WjNsqz+h28rF3NQw==",
+				"shasum": "56284d1df5627884d741835311fd60c0c68d5642",
+				"tarball": "https://registry.npmjs.org/@storybook/csf/-/csf-0.0.2--canary.856a16c.0.tgz",
+				"fileCount": 17,
+				"unpackedSize": 29147,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJhJIxxCRA9TVsSAnZWagAAEw4QAKKhImZ0Yc1wbYDevulI\nhHgRrVZnHwDUaUk1ygiWUEYroo22ZGKlcpE+PoagNjm3M0US8PKBfOe9kPrI\nmlquumNt0c+l9facbUyOiXnA0jYQ+e/7Gy7bIqLuCvf/Mxbvk0zrBKV47AKL\nftuaWgOv4TC081XeKBNSeBuHPk0Hosi/uO6DBN3Ah82g9qGy6idqEiiJuRg7\nwZKfmyfwHEMdmpwyBo1LckeFBbL4TuGwaLfAKHkCzqzQ3OSyK7TWy7F/hYv3\nZ1Aas4Ndas4oS36cW0xZ1HDOY6sgs3qwDsTzIGyECLFoNkRyVUHfUF5J1fIb\n6UQQwTpyzrpsVYhY4Xrz73XAdRvc/7ngJzdcZY0ACOvT0fvYgxJ5llFz+hhX\nxtM/N6dYQp35UY0XI40tOPmF+P0Wu0Od757HPnek0BFyH2CkjIFa6FuNqlP1\neQFXVC4bac3nwXiqBX5IlBlRErVoxtKr2lSaqCClQEivjsqtY17CpRnVH4rU\nTuuNHp9pNVS99jLzKf/JDdllplbCyPsA5K2Mr6i/vJNrro5LiVk0B2hoPCRh\nayvRRSYA1t5EfJA3ge29lgWyuAg+2jwh8MAp/GZOUXisY9JgoHG+Xj0EjM0f\nkjZpnsnI1JfzXJFd/IMsMDcwaOTZ6Qg22ahVHY+xr5EQH26CPyzq1HgGSUZF\npplt\r\n=E2Mv\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIFC8f59ybTVlqoPo1i7Gh3KGPrKwv7x2hk3fCpwp55qoAiEAvwNiJ1Xz6hguL6vcv77GDV1srS6D6ka6POw4mcwqgLY="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "shilman",
+				"email": "michael@lab80.co"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "tooppaaa",
+					"email": "clementdungler@gmail.com"
+				},
+				{
+					"name": "ndelangen",
+					"email": "ndelangen@me.com"
+				},
+				{
+					"name": "shilman",
+					"email": "michael@lab80.co"
+				},
+				{
+					"name": "alexandrebodin",
+					"email": "bodin.alex@gmail.com"
+				},
+				{
+					"name": "hypnosphi",
+					"email": "talpa@yandex.ru"
+				},
+				{
+					"name": "danielduan",
+					"email": "dduan@yahoo.com"
+				},
+				{
+					"name": "igor-dv",
+					"email": "davydkin.igor@gmail.com"
+				},
+				{
+					"name": "pksunkara",
+					"email": "pavan.sss1991@gmail.com"
+				},
+				{
+					"name": "tmeasday",
+					"email": "tom@thesnail.org"
+				},
+				{
+					"name": "gongreg",
+					"email": "gytis.vinclovas@gmail.com"
+				},
+				{
+					"name": "domyen",
+					"email": "dom@hichroma.com"
+				},
+				{
+					"name": "usulpro",
+					"email": "regx@usul.su"
+				},
+				{
+					"name": "kylesuss",
+					"email": "susskyle@gmail.com"
+				},
+				{
+					"name": "ghengeveld",
+					"email": "info@ghengeveld.nl"
+				},
+				{
+					"name": "pago",
+					"email": "patrick.gotthardt@trivago.com"
+				},
+				{
+					"name": "dandean",
+					"email": "me@dandean.com"
+				},
+				{
+					"name": "codebyalex",
+					"email": "wilsonc.alexander@gmail.com"
+				},
+				{
+					"name": "mrmckeb",
+					"email": "mrmckeb.npm@outlook.com"
+				},
+				{
+					"name": "dannyhw",
+					"email": "danny.h.williams@hotmail.com"
+				},
+				{
+					"name": "winkervsbecks",
+					"email": "varunvachhar@gmail.com"
+				},
+				{
+					"name": "rvasikarla",
+					"email": "vasikarla.raj@gmail.com"
+				},
+				{
+					"name": "amalik2",
+					"email": "ahnmalik2@gmail.com"
+				},
+				{
+					"name": "lshadler",
+					"email": "lshadler13@gmail.com"
+				},
+				{
+					"name": "phated",
+					"email": "blaine.bublitz@gmail.com"
+				},
+				{
+					"name": "yannbf",
+					"email": "yannbf@gmail.com"
+				},
+				{
+					"name": "dylanpiercey",
+					"email": "pierceydylan@gmail.com"
+				},
+				{
+					"name": "monkeyworks",
+					"email": "igor.szyporyn@gmail.com"
+				},
+				{
+					"name": "darleendenno",
+					"email": "darleendenno@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/csf_0.0.2--canary.856a16c.0_1629785201743_0.18960639080231778"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.0.2--canary.9c0fda0.0": {
+			"name": "@storybook/csf",
+			"version": "0.0.2--canary.9c0fda0.0",
+			"description": "Component Story Format (CSF) utilities",
+			"keywords": [
+				"storybook",
+				"component story format",
+				"csf",
+				"stories"
+			],
+			"homepage": "https://github.com/ComponentDriven/csf",
+			"bugs": {
+				"url": "https://github.com/ComponentDriven/csf/issues"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ComponentDriven/csf.git"
+			},
+			"license": "MIT",
+			"main": "dist/index.js",
+			"types": "dist/index.d.ts",
+			"scripts": {
+				"build": "babel src --out-dir dist --extensions \".ts\" && tsc --emitDeclarationOnly",
+				"lint": "eslint src --ext .js,.ts",
+				"test": "jest",
+				"release": "yarn build && auto shipit"
+			},
+			"eslintConfig": {
+				"extends": [
+					"@storybook/eslint-config-storybook"
+				]
+			},
+			"prettier": "@storybook/linter-config/prettier.config",
+			"jest": {
+				"testEnvironment": "node"
+			},
+			"dependencies": {
+				"lodash": "^4.17.15"
+			},
+			"devDependencies": {
+				"@babel/cli": "^7.8.4",
+				"@babel/core": "^7.9.0",
+				"@babel/preset-env": "^7.9.5",
+				"@babel/preset-typescript": "^7.9.0",
+				"@storybook/eslint-config-storybook": "^2.1.0",
+				"@types/jest": "^24.0.23",
+				"@types/lodash": "^4.14.149",
+				"auto": "^10.31.0",
+				"babel-core": "7.0.0-bridge.0",
+				"babel-jest": "^24.9.0",
+				"common-tags": "^1.8.0",
+				"eslint": "^6.7.1",
+				"jest": "^24.9.0",
+				"prettier": "^1.19.1",
+				"typescript": "^3.7.2"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"readmeFilename": "README.md",
+			"gitHead": "9c0fda03604eb509601ce1596ff9d230e526b18c",
+			"_id": "@storybook/csf@0.0.2--canary.9c0fda0.0",
+			"_nodeVersion": "14.16.1",
+			"_npmVersion": "6.14.12",
+			"dist": {
+				"integrity": "sha512-0yaSFmdxKk7HRJJjNAxKp+WEBxrCXZKEdKssZYSzTXhqhtmRAj4mJpiP7zHIBmSShzXVTRMQAgYqN0MyrP+ntw==",
+				"shasum": "3fd5261eeb1736846df6aa229148471ab463bb85",
+				"tarball": "https://registry.npmjs.org/@storybook/csf/-/csf-0.0.2--canary.9c0fda0.0.tgz",
+				"fileCount": 13,
+				"unpackedSize": 25927,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJhJayrCRA9TVsSAnZWagAADfAP/j9ruIA+pQYDXlhDiiIx\nSNFZhXSXEls1OrJ74uE5sjc163/eknwKszpslWUKs7aFXG7cpMtSnY7nw5wb\nMmlGNUrty7+2Zt6+NqobQb3tlV0iZrttM+ppl5bls7GiRydDU7dkL4hoI9ST\n/n6VFqapo4UUty4bQWo8bSe7+g58ux23+zn//gotp4BHMdd1AxbUbF+YLRjf\naJKwkg1n1wEJLOuNJ/pGTZmoR1DlhUx441tsY93gpYXy/EB0DVjKPpqp0r0p\nvuSGl5rneIeIN/+gxE48eXc2DvhJDectzHiiOR3Zuc+AxpRCm0onUWah0cDt\n0g+IQmPnVz3vx1RzDS29y+g09iUnrKxmGTgvkysTx6EhnKncY9wmU/2kTG5g\nLC6PssJ75TtqocnGbaI9S3uPOBa4JMe9L86ipdg+KsM+IFwmJI775i9xrY+i\nHr/QuoCjeq1ndR6SDGi3yHDnkTLA2UuCbihZn/NLZwfBYdzv82dfG/URz5y3\nmNS1YSM/IkBAqvzesfUZPmvpEKrhf8u1xr8qaBLc6hdNISE0kzc4f3r+k6j0\n1Sikd8o79oyIONBzJv9S2gqyJpxQs3fxTkbWw8/emFHe1wx6TbSg6DG9rp08\nRinJPccuDijfkdYDKJnS4oYZvaxUSxuznyyDtF3rJRx9c0ztKee1KL3zYbDA\naMhU\r\n=5YjB\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIFFta5M1xoQd5MR4O4QQNv0zmWYxqlqa9f/MCePspZ6LAiAzE68Y/qATMi8Hcmll0YmwG9LPaXLDbK/W+3tuSEdBYQ=="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "shilman",
+				"email": "michael@lab80.co"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "tooppaaa",
+					"email": "clementdungler@gmail.com"
+				},
+				{
+					"name": "ndelangen",
+					"email": "ndelangen@me.com"
+				},
+				{
+					"name": "shilman",
+					"email": "michael@lab80.co"
+				},
+				{
+					"name": "alexandrebodin",
+					"email": "bodin.alex@gmail.com"
+				},
+				{
+					"name": "hypnosphi",
+					"email": "talpa@yandex.ru"
+				},
+				{
+					"name": "danielduan",
+					"email": "dduan@yahoo.com"
+				},
+				{
+					"name": "igor-dv",
+					"email": "davydkin.igor@gmail.com"
+				},
+				{
+					"name": "pksunkara",
+					"email": "pavan.sss1991@gmail.com"
+				},
+				{
+					"name": "tmeasday",
+					"email": "tom@thesnail.org"
+				},
+				{
+					"name": "gongreg",
+					"email": "gytis.vinclovas@gmail.com"
+				},
+				{
+					"name": "domyen",
+					"email": "dom@hichroma.com"
+				},
+				{
+					"name": "usulpro",
+					"email": "regx@usul.su"
+				},
+				{
+					"name": "kylesuss",
+					"email": "susskyle@gmail.com"
+				},
+				{
+					"name": "ghengeveld",
+					"email": "info@ghengeveld.nl"
+				},
+				{
+					"name": "pago",
+					"email": "patrick.gotthardt@trivago.com"
+				},
+				{
+					"name": "dandean",
+					"email": "me@dandean.com"
+				},
+				{
+					"name": "codebyalex",
+					"email": "wilsonc.alexander@gmail.com"
+				},
+				{
+					"name": "mrmckeb",
+					"email": "mrmckeb.npm@outlook.com"
+				},
+				{
+					"name": "dannyhw",
+					"email": "danny.h.williams@hotmail.com"
+				},
+				{
+					"name": "winkervsbecks",
+					"email": "varunvachhar@gmail.com"
+				},
+				{
+					"name": "rvasikarla",
+					"email": "vasikarla.raj@gmail.com"
+				},
+				{
+					"name": "amalik2",
+					"email": "ahnmalik2@gmail.com"
+				},
+				{
+					"name": "lshadler",
+					"email": "lshadler13@gmail.com"
+				},
+				{
+					"name": "phated",
+					"email": "blaine.bublitz@gmail.com"
+				},
+				{
+					"name": "yannbf",
+					"email": "yannbf@gmail.com"
+				},
+				{
+					"name": "dylanpiercey",
+					"email": "pierceydylan@gmail.com"
+				},
+				{
+					"name": "monkeyworks",
+					"email": "igor.szyporyn@gmail.com"
+				},
+				{
+					"name": "darleendenno",
+					"email": "darleendenno@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/csf_0.0.2--canary.9c0fda0.0_1629858987352_0.6364345711013986"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.0.2--canary.cc8c2b0.0": {
+			"name": "@storybook/csf",
+			"version": "0.0.2--canary.cc8c2b0.0",
+			"description": "Component Story Format (CSF) utilities",
+			"keywords": [
+				"storybook",
+				"component story format",
+				"csf",
+				"stories"
+			],
+			"homepage": "https://github.com/ComponentDriven/csf",
+			"bugs": {
+				"url": "https://github.com/ComponentDriven/csf/issues"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ComponentDriven/csf.git"
+			},
+			"license": "MIT",
+			"main": "dist/index.js",
+			"types": "dist/index.d.ts",
+			"scripts": {
+				"build": "babel src --out-dir dist --extensions \".ts\" && tsc --emitDeclarationOnly",
+				"lint": "eslint src --ext .js,.ts",
+				"test": "jest",
+				"release": "yarn build && auto shipit"
+			},
+			"eslintConfig": {
+				"extends": [
+					"@storybook/eslint-config-storybook"
+				]
+			},
+			"prettier": "@storybook/linter-config/prettier.config",
+			"jest": {
+				"testEnvironment": "node"
+			},
+			"dependencies": {
+				"lodash": "^4.17.15"
+			},
+			"devDependencies": {
+				"@babel/cli": "^7.8.4",
+				"@babel/core": "^7.9.0",
+				"@babel/preset-env": "^7.9.5",
+				"@babel/preset-typescript": "^7.9.0",
+				"@storybook/eslint-config-storybook": "^2.1.0",
+				"@types/jest": "^24.0.23",
+				"@types/lodash": "^4.14.149",
+				"auto": "^10.31.0",
+				"babel-core": "7.0.0-bridge.0",
+				"babel-jest": "^24.9.0",
+				"common-tags": "^1.8.0",
+				"eslint": "^6.7.1",
+				"jest": "^24.9.0",
+				"prettier": "^1.19.1",
+				"typescript": "^3.7.2"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"readmeFilename": "README.md",
+			"gitHead": "cc8c2b0d0d8a39d07aef9009070cdb5a8d6c3c3c",
+			"_id": "@storybook/csf@0.0.2--canary.cc8c2b0.0",
+			"_nodeVersion": "14.16.1",
+			"_npmVersion": "6.14.12",
+			"dist": {
+				"integrity": "sha512-J6bugl59YHN0dMSFjj+TJqlZWwGiKWPGR72ZSetiuPQUJ9DM9jj9RjWw9Xqb9hEseCejuEV7IXWdTLB/K8nfDQ==",
+				"shasum": "c46d2fd177b778b4e37c92ac63d13daf2ea707cb",
+				"tarball": "https://registry.npmjs.org/@storybook/csf/-/csf-0.0.2--canary.cc8c2b0.0.tgz",
+				"fileCount": 13,
+				"unpackedSize": 25927,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJhKDt9CRA9TVsSAnZWagAA3REP/0GfVrGJfPRiYgpuYsYw\nRIDUnpwhxUXa/Y9fE7AiTCZiGn0OKysh037m3muDLlHznwjKHeHsMGHeSRIF\nXr/GBDlZm+WsJc87CaTLS1JYBKCvS4dMBOJ55ko7DdYEmQtCxRXCSMB30SJr\nC03BaL6q3T32DapLtwAousAMpP2LaPrN4sU752utzOiLXv1nrFAeVwaD5Dk5\nfZvgVR3tSiH13Ynu0derPBzrlGKntqTs/n/7PMzJci+Q5RlMF3/+IsgOBRKt\nBNGXrTOWJJjMxTSVbvmC2Z0HijfD9QYZP4fHwQ1Fgag6PBcuCsQPJnaOH1jC\n+tfsZJ1IFPvKYqmz1APSc1K9Ud1Bl4vixDHl76elXE8TcdY0NLKhp2oioKgM\nuqyuWZ4yEZY4t0872sF65+vyYxjRokl5gI7f8Q+HQxukX40BIgt+zQ0XuCOx\nn9/daboNTG1AF01omqf82nIgtx/CzJJwdxZ6/CmMUGb5u7e8AsPcb0K+CaqY\nmGmBV2Iov0kTkAqKM0s/4uFHDNyFThznbOc2Rrb/AMLmAF98XX7Ld2UPlKrz\ninUMmK3Ug1aIJ+yvqwtooWSZeexMnjGpvesmc0ISZARBAVqGeK4WpVR0Fw0l\nEsGWegColwVAKLHzr0v1xc1ZRZ3gANWS6etl9U4PAXXyCpLv48GTxjtZqqK6\n60zT\r\n=p7vE\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIA6MTmvf86P+dXGHK2gDdkoZsyMKkZULSGkZAuTfzPziAiBOpJ5m/89woiXH7ReZuw7QFNlm8JqocGLUpEoeQSyk0A=="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "shilman",
+				"email": "michael@lab80.co"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "tooppaaa",
+					"email": "clementdungler@gmail.com"
+				},
+				{
+					"name": "ndelangen",
+					"email": "ndelangen@me.com"
+				},
+				{
+					"name": "shilman",
+					"email": "michael@lab80.co"
+				},
+				{
+					"name": "alexandrebodin",
+					"email": "bodin.alex@gmail.com"
+				},
+				{
+					"name": "hypnosphi",
+					"email": "talpa@yandex.ru"
+				},
+				{
+					"name": "danielduan",
+					"email": "dduan@yahoo.com"
+				},
+				{
+					"name": "igor-dv",
+					"email": "davydkin.igor@gmail.com"
+				},
+				{
+					"name": "pksunkara",
+					"email": "pavan.sss1991@gmail.com"
+				},
+				{
+					"name": "tmeasday",
+					"email": "tom@thesnail.org"
+				},
+				{
+					"name": "gongreg",
+					"email": "gytis.vinclovas@gmail.com"
+				},
+				{
+					"name": "domyen",
+					"email": "dom@hichroma.com"
+				},
+				{
+					"name": "usulpro",
+					"email": "regx@usul.su"
+				},
+				{
+					"name": "kylesuss",
+					"email": "susskyle@gmail.com"
+				},
+				{
+					"name": "ghengeveld",
+					"email": "info@ghengeveld.nl"
+				},
+				{
+					"name": "pago",
+					"email": "patrick.gotthardt@trivago.com"
+				},
+				{
+					"name": "dandean",
+					"email": "me@dandean.com"
+				},
+				{
+					"name": "codebyalex",
+					"email": "wilsonc.alexander@gmail.com"
+				},
+				{
+					"name": "mrmckeb",
+					"email": "mrmckeb.npm@outlook.com"
+				},
+				{
+					"name": "dannyhw",
+					"email": "danny.h.williams@hotmail.com"
+				},
+				{
+					"name": "winkervsbecks",
+					"email": "varunvachhar@gmail.com"
+				},
+				{
+					"name": "rvasikarla",
+					"email": "vasikarla.raj@gmail.com"
+				},
+				{
+					"name": "amalik2",
+					"email": "ahnmalik2@gmail.com"
+				},
+				{
+					"name": "lshadler",
+					"email": "lshadler13@gmail.com"
+				},
+				{
+					"name": "phated",
+					"email": "blaine.bublitz@gmail.com"
+				},
+				{
+					"name": "yannbf",
+					"email": "yannbf@gmail.com"
+				},
+				{
+					"name": "dylanpiercey",
+					"email": "pierceydylan@gmail.com"
+				},
+				{
+					"name": "monkeyworks",
+					"email": "igor.szyporyn@gmail.com"
+				},
+				{
+					"name": "darleendenno",
+					"email": "darleendenno@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/csf_0.0.2--canary.cc8c2b0.0_1630026621662_0.6219778105584166"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.0.2--canary.c10361d.0": {
+			"name": "@storybook/csf",
+			"version": "0.0.2--canary.c10361d.0",
+			"description": "Component Story Format (CSF) utilities",
+			"keywords": [
+				"storybook",
+				"component story format",
+				"csf",
+				"stories"
+			],
+			"homepage": "https://github.com/ComponentDriven/csf",
+			"bugs": {
+				"url": "https://github.com/ComponentDriven/csf/issues"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ComponentDriven/csf.git"
+			},
+			"license": "MIT",
+			"main": "dist/index.js",
+			"types": "dist/index.d.ts",
+			"scripts": {
+				"build": "babel src --out-dir dist --extensions \".ts\" && tsc --emitDeclarationOnly",
+				"lint": "eslint src --ext .js,.ts",
+				"test": "jest",
+				"release": "yarn build && auto shipit"
+			},
+			"eslintConfig": {
+				"extends": [
+					"@storybook/eslint-config-storybook"
+				]
+			},
+			"prettier": "@storybook/linter-config/prettier.config",
+			"jest": {
+				"testEnvironment": "node"
+			},
+			"dependencies": {
+				"lodash": "^4.17.15"
+			},
+			"devDependencies": {
+				"@babel/cli": "^7.8.4",
+				"@babel/core": "^7.9.0",
+				"@babel/preset-env": "^7.9.5",
+				"@babel/preset-typescript": "^7.9.0",
+				"@storybook/eslint-config-storybook": "^2.1.0",
+				"@types/jest": "^24.0.23",
+				"@types/lodash": "^4.14.149",
+				"auto": "^10.31.0",
+				"babel-core": "7.0.0-bridge.0",
+				"babel-jest": "^24.9.0",
+				"common-tags": "^1.8.0",
+				"eslint": "^6.7.1",
+				"jest": "^24.9.0",
+				"prettier": "^1.19.1",
+				"typescript": "^3.7.2"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"readmeFilename": "README.md",
+			"gitHead": "c10361df00ac4a6b90a720c4f741d092ac125794",
+			"_id": "@storybook/csf@0.0.2--canary.c10361d.0",
+			"_nodeVersion": "14.16.1",
+			"_npmVersion": "6.14.12",
+			"dist": {
+				"integrity": "sha512-SREM0MCZnQlagQ2TTJgP1dXg/8cEthpwz4PbeqHE8m+hwcnP+4sie+0ChPERKquj3smpJwKX86Q7htWlM4VoIA==",
+				"shasum": "61b95f5a89c90b83d9aeaa5a48ec0dc91de54172",
+				"tarball": "https://registry.npmjs.org/@storybook/csf/-/csf-0.0.2--canary.c10361d.0.tgz",
+				"fileCount": 13,
+				"unpackedSize": 25951,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJhLdK4CRA9TVsSAnZWagAAORUP/jTjX15jeDzYdTzTU4by\nfsZ7gRrKQxpvBA8qhK1PEwHxFOPNlc8B7/BtwG5h+KY1ZGsYHRyhxL6VJ9fa\nRHmiJPKZ1G4Ld5u+vFfPe7+2gkkDuPpsjpsbLQcboG9x7Z6Sai/DALMXRPhF\njztXEW5hxNN27S+Y4FgcbjGWcuNorFt6Me0accQRvuGNaIdEJSNLEBSFLtFZ\ntv/IVIs430e/o1kb5mC95dqpgpsV+xwJDRTwAudtY7eobCG2QDQ5J4NprDtH\nBQ43WET9kMAlViK6NmB3RHO3W4n7Cksj9l4wyxzQOojswugZbMFpfihrmJDb\nxfjKPVuinLZytS0VEBqLppXWjhijFRTkCgQCsa8Ou+pF/o+V8KVBWCFAltSq\naKJqBwpmLeJo2ehnBrWgmXnFZlJ/e+KM/OIqcoAq7A7K4yYNOJY2L6XODpTm\nxjyv2Q073eos0GCX/gxpC+JLL3zbRnp/Mlx2Ua9oNTbZVBVc80XyN+WCIk3U\nmOt7nNet/k9AKbNaS6E1bhKAWyEDAZDwNE8U+HgQ4HP4KmSCVqArznN39O8I\nc3eAmpsNQ6ps/Ov+rbUiFS1AMT0t/lSMz8fy/CKZT7rDB+6xiwJt2AuUQkv9\nmAB/EJj3fUnlUrpQFJsz/da4SQBXgc4WI+ZrSgGTS7yysC41thmlPoRpt1yH\n6ix6\r\n=ytf2\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDwwWn3i17WiSpVJpa6xTt/mFFlbxhlvegByXXGLZTJMQIhAJHbQn9r3VTGxaqf6KOV3J4KtRGDQfFwhgx/sCoLvPFx"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "shilman",
+				"email": "michael@lab80.co"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "tooppaaa",
+					"email": "clementdungler@gmail.com"
+				},
+				{
+					"name": "ndelangen",
+					"email": "ndelangen@me.com"
+				},
+				{
+					"name": "shilman",
+					"email": "michael@lab80.co"
+				},
+				{
+					"name": "alexandrebodin",
+					"email": "bodin.alex@gmail.com"
+				},
+				{
+					"name": "hypnosphi",
+					"email": "talpa@yandex.ru"
+				},
+				{
+					"name": "danielduan",
+					"email": "dduan@yahoo.com"
+				},
+				{
+					"name": "igor-dv",
+					"email": "davydkin.igor@gmail.com"
+				},
+				{
+					"name": "pksunkara",
+					"email": "pavan.sss1991@gmail.com"
+				},
+				{
+					"name": "tmeasday",
+					"email": "tom@thesnail.org"
+				},
+				{
+					"name": "gongreg",
+					"email": "gytis.vinclovas@gmail.com"
+				},
+				{
+					"name": "domyen",
+					"email": "dom@hichroma.com"
+				},
+				{
+					"name": "usulpro",
+					"email": "regx@usul.su"
+				},
+				{
+					"name": "kylesuss",
+					"email": "susskyle@gmail.com"
+				},
+				{
+					"name": "ghengeveld",
+					"email": "info@ghengeveld.nl"
+				},
+				{
+					"name": "pago",
+					"email": "patrick.gotthardt@trivago.com"
+				},
+				{
+					"name": "dandean",
+					"email": "me@dandean.com"
+				},
+				{
+					"name": "codebyalex",
+					"email": "wilsonc.alexander@gmail.com"
+				},
+				{
+					"name": "mrmckeb",
+					"email": "mrmckeb.npm@outlook.com"
+				},
+				{
+					"name": "dannyhw",
+					"email": "danny.h.williams@hotmail.com"
+				},
+				{
+					"name": "winkervsbecks",
+					"email": "varunvachhar@gmail.com"
+				},
+				{
+					"name": "rvasikarla",
+					"email": "vasikarla.raj@gmail.com"
+				},
+				{
+					"name": "amalik2",
+					"email": "ahnmalik2@gmail.com"
+				},
+				{
+					"name": "lshadler",
+					"email": "lshadler13@gmail.com"
+				},
+				{
+					"name": "phated",
+					"email": "blaine.bublitz@gmail.com"
+				},
+				{
+					"name": "yannbf",
+					"email": "yannbf@gmail.com"
+				},
+				{
+					"name": "dylanpiercey",
+					"email": "pierceydylan@gmail.com"
+				},
+				{
+					"name": "monkeyworks",
+					"email": "igor.szyporyn@gmail.com"
+				},
+				{
+					"name": "darleendenno",
+					"email": "darleendenno@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/csf_0.0.2--canary.c10361d.0_1630393016083_0.2901452313725499"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.0.2--canary.29b0df7.0": {
+			"name": "@storybook/csf",
+			"version": "0.0.2--canary.29b0df7.0",
+			"description": "Component Story Format (CSF) utilities",
+			"keywords": [
+				"storybook",
+				"component story format",
+				"csf",
+				"stories"
+			],
+			"homepage": "https://github.com/ComponentDriven/csf",
+			"bugs": {
+				"url": "https://github.com/ComponentDriven/csf/issues"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ComponentDriven/csf.git"
+			},
+			"license": "MIT",
+			"main": "dist/index.js",
+			"types": "dist/index.d.ts",
+			"scripts": {
+				"build": "babel src --out-dir dist --extensions \".ts\" && tsc --emitDeclarationOnly",
+				"lint": "eslint src --ext .js,.ts",
+				"test": "jest",
+				"release": "yarn build && auto shipit"
+			},
+			"eslintConfig": {
+				"extends": [
+					"@storybook/eslint-config-storybook"
+				]
+			},
+			"prettier": "@storybook/linter-config/prettier.config",
+			"jest": {
+				"testEnvironment": "node"
+			},
+			"dependencies": {
+				"lodash": "^4.17.15"
+			},
+			"devDependencies": {
+				"@babel/cli": "^7.8.4",
+				"@babel/core": "^7.9.0",
+				"@babel/preset-env": "^7.9.5",
+				"@babel/preset-typescript": "^7.9.0",
+				"@storybook/eslint-config-storybook": "^2.1.0",
+				"@types/jest": "^24.0.23",
+				"@types/lodash": "^4.14.149",
+				"auto": "^10.31.0",
+				"babel-core": "7.0.0-bridge.0",
+				"babel-jest": "^24.9.0",
+				"common-tags": "^1.8.0",
+				"eslint": "^6.7.1",
+				"jest": "^24.9.0",
+				"prettier": "^1.19.1",
+				"typescript": "^3.7.2"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"readmeFilename": "README.md",
+			"gitHead": "29b0df755e413f1b3e3c55fc668f7bb50fb0e435",
+			"_id": "@storybook/csf@0.0.2--canary.29b0df7.0",
+			"_nodeVersion": "14.16.1",
+			"_npmVersion": "6.14.12",
+			"dist": {
+				"integrity": "sha512-joaBO6WyptTIcBY6x8LboDE8yVksLIvFTtbqr1UFTVI9tqTIGqhKtgGvH8gIgbJIxXaafEK7MGKANUmjPuBKqA==",
+				"shasum": "3777bec0d42a2bdaae889afd80a311dc303bb122",
+				"tarball": "https://registry.npmjs.org/@storybook/csf/-/csf-0.0.2--canary.29b0df7.0.tgz",
+				"fileCount": 13,
+				"unpackedSize": 25963,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJhMZtvCRA9TVsSAnZWagAASWUP/1d4b/tgDZNRAoDx0Sc5\nOHx1+3u5I7bK1uHo0UWp/B4HB6rpi9xHLHZ9qmyQEm5PYrQYXf39wazmtSWL\nwbv7rxSRs9h1kWSlz0A1i1p+PAki1vKNdDo2H+wulFqqOxDpvt9zugQOW6KQ\nLv3kuq/g1NUawmo5NgD58VqnDq0KNbUtudutirpcCjXCCz/BkFjEZXBd6Kx9\nVSZw8EU4yd5VCq27YdTn/nxNKl7WZmGjw3IYte2YrE9JS0uVV1KtudWGsGYq\n2Sx5uTqjVkuvlzdYjvgsmwpCc+rHOUCDn5SPzOgQ3IWxlFpDuEB860RUlgmU\nql3fKUKERD4ayDtF84WtBrDQXbxZyx/0w/GwvjATlQTXZU26BHkBjIzkKvHW\nnluOlInj9P20PiXMbHgfzK9hFn7HFxMY3Szw92rYbUWlsNr3kprl7xjYR71O\nqpt8UIV2YG/oPyDhFyBfaVtzj/N9AZ4XWkIVmxxLsnpYe1UdDYx84LfTVNJI\nWgUv+rqF6rDtXsPO+HFakXKB4Erp2idUZq8vPWdk/yQUlTlhYiEcTVKELp86\naB32GVeyDImDlTWP9Sz4MgO28bcxr3acZlan0cU2Mola2LkalimOtRB6XOlR\nEDLCVB5862HdAYHKNI9YQhvZzwxfLJwQv9BKC+9SHO/R2O0VP78MTS+ty5iY\nQQFe\r\n=P035\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDcdIx/IC6+i9TruqwHilKSbO/bDLcH7+JP9pbzu5bEmAIgXeYQKicRMYY11PwjhavLb5FSyPUeq/Ra3dgHlUUE6kc="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "shilman",
+				"email": "michael@lab80.co"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "tooppaaa",
+					"email": "clementdungler@gmail.com"
+				},
+				{
+					"name": "ndelangen",
+					"email": "ndelangen@me.com"
+				},
+				{
+					"name": "shilman",
+					"email": "michael@lab80.co"
+				},
+				{
+					"name": "alexandrebodin",
+					"email": "bodin.alex@gmail.com"
+				},
+				{
+					"name": "hypnosphi",
+					"email": "talpa@yandex.ru"
+				},
+				{
+					"name": "danielduan",
+					"email": "dduan@yahoo.com"
+				},
+				{
+					"name": "igor-dv",
+					"email": "davydkin.igor@gmail.com"
+				},
+				{
+					"name": "pksunkara",
+					"email": "pavan.sss1991@gmail.com"
+				},
+				{
+					"name": "tmeasday",
+					"email": "tom@thesnail.org"
+				},
+				{
+					"name": "gongreg",
+					"email": "gytis.vinclovas@gmail.com"
+				},
+				{
+					"name": "domyen",
+					"email": "dom@hichroma.com"
+				},
+				{
+					"name": "usulpro",
+					"email": "regx@usul.su"
+				},
+				{
+					"name": "kylesuss",
+					"email": "susskyle@gmail.com"
+				},
+				{
+					"name": "ghengeveld",
+					"email": "info@ghengeveld.nl"
+				},
+				{
+					"name": "pago",
+					"email": "patrick.gotthardt@trivago.com"
+				},
+				{
+					"name": "dandean",
+					"email": "me@dandean.com"
+				},
+				{
+					"name": "codebyalex",
+					"email": "wilsonc.alexander@gmail.com"
+				},
+				{
+					"name": "mrmckeb",
+					"email": "mrmckeb.npm@outlook.com"
+				},
+				{
+					"name": "dannyhw",
+					"email": "danny.h.williams@hotmail.com"
+				},
+				{
+					"name": "winkervsbecks",
+					"email": "varunvachhar@gmail.com"
+				},
+				{
+					"name": "rvasikarla",
+					"email": "vasikarla.raj@gmail.com"
+				},
+				{
+					"name": "amalik2",
+					"email": "ahnmalik2@gmail.com"
+				},
+				{
+					"name": "lshadler",
+					"email": "lshadler13@gmail.com"
+				},
+				{
+					"name": "phated",
+					"email": "blaine.bublitz@gmail.com"
+				},
+				{
+					"name": "yannbf",
+					"email": "yannbf@gmail.com"
+				},
+				{
+					"name": "dylanpiercey",
+					"email": "pierceydylan@gmail.com"
+				},
+				{
+					"name": "monkeyworks",
+					"email": "igor.szyporyn@gmail.com"
+				},
+				{
+					"name": "darleendenno",
+					"email": "darleendenno@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/csf_0.0.2--canary.29b0df7.0_1630641006929_0.49718322097181766"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.0.2--canary.a1972cb.0": {
+			"name": "@storybook/csf",
+			"version": "0.0.2--canary.a1972cb.0",
+			"description": "Component Story Format (CSF) utilities",
+			"keywords": [
+				"storybook",
+				"component story format",
+				"csf",
+				"stories"
+			],
+			"homepage": "https://github.com/ComponentDriven/csf",
+			"bugs": {
+				"url": "https://github.com/ComponentDriven/csf/issues"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ComponentDriven/csf.git"
+			},
+			"license": "MIT",
+			"main": "dist/index.js",
+			"types": "dist/index.d.ts",
+			"scripts": {
+				"build": "babel src --out-dir dist --extensions \".ts\" && tsc --emitDeclarationOnly",
+				"lint": "eslint src --ext .js,.ts",
+				"test": "jest",
+				"release": "yarn build && auto shipit"
+			},
+			"eslintConfig": {
+				"extends": [
+					"@storybook/eslint-config-storybook"
+				]
+			},
+			"prettier": "@storybook/linter-config/prettier.config",
+			"jest": {
+				"testEnvironment": "node"
+			},
+			"dependencies": {
+				"lodash": "^4.17.15"
+			},
+			"devDependencies": {
+				"@babel/cli": "^7.8.4",
+				"@babel/core": "^7.9.0",
+				"@babel/preset-env": "^7.9.5",
+				"@babel/preset-typescript": "^7.9.0",
+				"@storybook/eslint-config-storybook": "^2.1.0",
+				"@types/jest": "^24.0.23",
+				"@types/lodash": "^4.14.149",
+				"auto": "^10.31.0",
+				"babel-core": "7.0.0-bridge.0",
+				"babel-jest": "^24.9.0",
+				"common-tags": "^1.8.0",
+				"eslint": "^6.7.1",
+				"jest": "^24.9.0",
+				"prettier": "^1.19.1",
+				"typescript": "^3.7.2"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"readmeFilename": "README.md",
+			"gitHead": "a1972cb79d2d4b5e2affdc53f03e009be0a99650",
+			"_id": "@storybook/csf@0.0.2--canary.a1972cb.0",
+			"_nodeVersion": "14.16.1",
+			"_npmVersion": "6.14.12",
+			"dist": {
+				"integrity": "sha512-Aza1csee5Bv8L4kxD+9Yq0GXulqI8hj3jP8RlHWGDq5rFPmTFDuXPnkjdBEowS2FDexhu/sPLQzjvgRFA4Q/uw==",
+				"shasum": "0bdbe964d6742d98653d62d796d121f7f371d8d4",
+				"tarball": "https://registry.npmjs.org/@storybook/csf/-/csf-0.0.2--canary.a1972cb.0.tgz",
+				"fileCount": 13,
+				"unpackedSize": 26020,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJhMZ4lCRA9TVsSAnZWagAA43sQAJtGh1FI3wE4PrmbP6tR\n8BJbJamE8ZgsvZR9RqGW+tV7jpWvMbKSJjKQIvNfWkrudJA8iPVdQr3FXrVm\nEUczu+CiiMA2VTzllHB6Cdfzqpu+VhWOBpANG7SpDZIholnEQEsanKcnQcX/\ngiWzdwCADG3iW4tQ8TlMOHzDSZDn7jDXu8f6l6j+HQACzZqSqxemRVSUFSp6\nMQ4I/BI8KLA9rs9V3T1UzYdDA1TdPInMXzYNrV/IfBWBYdugfSgc45tgbsul\nSvAJkkNgjuiXkRgvpZVyRANFmBhmRxlJ7piHcZ8VV8TbCih6DyFueXXIGhlN\nontGsrR5EwFkYsI9Ra9KrGS0KS22IHL7nbGHNhCBS/Wuv9JJVlHsyQrazx3X\nQywVy2Il4kaAMqoqlpdmSXwbNFsoFdoz0d9NO4HEsskB7ApOWBoRKQzhpqU1\n1SmH3OQZ6asX4cBBlH86LTZXvRym5OdgjMX8j2IJ2ab+LehsCPUGQR0iex0d\n0CP6yAv0+t4rgH39oiTuA97XCdCeMKPSyKTuUJeGLLxBRROdnXhxj2ncSQuW\n8a9ePe98HcWhPTiICp1BlJV+Cz6cZ3y9A+pgd3wXSvoqwhIFb8pRHFHidRnP\njspsi6Qi7saAQ2A78UEY3Z07qupV0lJ2W4RpYyhDw8uQ2QtqDJcnB0XcN+VP\nCxpA\r\n=uKnm\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCnZv0vsDEI6/UykjlhiJB9m/XQF1To1s2KpOkSilyZsQIhAMZeZ41kqNFVh0K8Mu0P9OGLoPLrU4iPVNUMWTEMrybw"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "shilman",
+				"email": "michael@lab80.co"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "tooppaaa",
+					"email": "clementdungler@gmail.com"
+				},
+				{
+					"name": "ndelangen",
+					"email": "ndelangen@me.com"
+				},
+				{
+					"name": "shilman",
+					"email": "michael@lab80.co"
+				},
+				{
+					"name": "alexandrebodin",
+					"email": "bodin.alex@gmail.com"
+				},
+				{
+					"name": "hypnosphi",
+					"email": "talpa@yandex.ru"
+				},
+				{
+					"name": "danielduan",
+					"email": "dduan@yahoo.com"
+				},
+				{
+					"name": "igor-dv",
+					"email": "davydkin.igor@gmail.com"
+				},
+				{
+					"name": "pksunkara",
+					"email": "pavan.sss1991@gmail.com"
+				},
+				{
+					"name": "tmeasday",
+					"email": "tom@thesnail.org"
+				},
+				{
+					"name": "gongreg",
+					"email": "gytis.vinclovas@gmail.com"
+				},
+				{
+					"name": "domyen",
+					"email": "dom@hichroma.com"
+				},
+				{
+					"name": "usulpro",
+					"email": "regx@usul.su"
+				},
+				{
+					"name": "kylesuss",
+					"email": "susskyle@gmail.com"
+				},
+				{
+					"name": "ghengeveld",
+					"email": "info@ghengeveld.nl"
+				},
+				{
+					"name": "pago",
+					"email": "patrick.gotthardt@trivago.com"
+				},
+				{
+					"name": "dandean",
+					"email": "me@dandean.com"
+				},
+				{
+					"name": "codebyalex",
+					"email": "wilsonc.alexander@gmail.com"
+				},
+				{
+					"name": "mrmckeb",
+					"email": "mrmckeb.npm@outlook.com"
+				},
+				{
+					"name": "dannyhw",
+					"email": "danny.h.williams@hotmail.com"
+				},
+				{
+					"name": "winkervsbecks",
+					"email": "varunvachhar@gmail.com"
+				},
+				{
+					"name": "rvasikarla",
+					"email": "vasikarla.raj@gmail.com"
+				},
+				{
+					"name": "amalik2",
+					"email": "ahnmalik2@gmail.com"
+				},
+				{
+					"name": "lshadler",
+					"email": "lshadler13@gmail.com"
+				},
+				{
+					"name": "phated",
+					"email": "blaine.bublitz@gmail.com"
+				},
+				{
+					"name": "yannbf",
+					"email": "yannbf@gmail.com"
+				},
+				{
+					"name": "dylanpiercey",
+					"email": "pierceydylan@gmail.com"
+				},
+				{
+					"name": "monkeyworks",
+					"email": "igor.szyporyn@gmail.com"
+				},
+				{
+					"name": "darleendenno",
+					"email": "darleendenno@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/csf_0.0.2--canary.a1972cb.0_1630641700887_0.6502754600160703"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.0.2--canary.d61cd6c.0": {
+			"name": "@storybook/csf",
+			"version": "0.0.2--canary.d61cd6c.0",
+			"description": "Component Story Format (CSF) utilities",
+			"keywords": [
+				"storybook",
+				"component story format",
+				"csf",
+				"stories"
+			],
+			"homepage": "https://github.com/ComponentDriven/csf",
+			"bugs": {
+				"url": "https://github.com/ComponentDriven/csf/issues"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ComponentDriven/csf.git"
+			},
+			"license": "MIT",
+			"main": "dist/index.js",
+			"types": "dist/index.d.ts",
+			"scripts": {
+				"build": "babel src --out-dir dist --extensions \".ts\" && tsc --emitDeclarationOnly",
+				"lint": "eslint src --ext .js,.ts",
+				"test": "jest",
+				"release": "yarn build && auto shipit"
+			},
+			"eslintConfig": {
+				"extends": [
+					"@storybook/eslint-config-storybook"
+				]
+			},
+			"prettier": "@storybook/linter-config/prettier.config",
+			"jest": {
+				"testEnvironment": "node"
+			},
+			"dependencies": {
+				"lodash": "^4.17.15"
+			},
+			"devDependencies": {
+				"@babel/cli": "^7.8.4",
+				"@babel/core": "^7.9.0",
+				"@babel/preset-env": "^7.9.5",
+				"@babel/preset-typescript": "^7.9.0",
+				"@storybook/eslint-config-storybook": "^2.1.0",
+				"@types/jest": "^24.0.23",
+				"@types/lodash": "^4.14.149",
+				"auto": "^10.31.0",
+				"babel-core": "7.0.0-bridge.0",
+				"babel-jest": "^24.9.0",
+				"common-tags": "^1.8.0",
+				"eslint": "^6.7.1",
+				"jest": "^24.9.0",
+				"prettier": "^1.19.1",
+				"typescript": "^3.7.2"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"readmeFilename": "README.md",
+			"gitHead": "d61cd6c28f8cdfbab70828921a65951e971a200d",
+			"_id": "@storybook/csf@0.0.2--canary.d61cd6c.0",
+			"_nodeVersion": "14.16.1",
+			"_npmVersion": "6.14.12",
+			"dist": {
+				"integrity": "sha512-NygRX4d9S6mKTV6A6OE/0AB4WDYzZHhOmFkxfI9Nj6tg0VuJ4yF+23FwaMeIpyLWr2XzcR9O7/moRk1gG37tHw==",
+				"shasum": "2e8d2aa92f247ff873ec790742f4a133df18233f",
+				"tarball": "https://registry.npmjs.org/@storybook/csf/-/csf-0.0.2--canary.d61cd6c.0.tgz",
+				"fileCount": 13,
+				"unpackedSize": 26771,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJhNaLlCRA9TVsSAnZWagAAYJoP/3p5PWDx84zUzXjWoS/P\nhJEiRdJEUZBGPRMJtEy4CvoahqTRbdooi0P6icogDbFCCXVH32DQRNvb1dtA\nkdJLklBCBhCnmNVxPrChkOVRLs6qd7x0K+YGJh6gBPZs8VV6ECh3cDfMSbMr\nOeCaJPAtPvPCC5Y/HXOF9T4NImwpsjKoGdLSJaYUfLQxncgrmC55lkf7lIwI\n4AYPvY26E6M3s0wGSsAivAyVbLLvoXt29rTWq9QqXpGw4oFH8i5YEYdNptRg\nA8ojuF1AP2ReFrQbXw6jfigiUBZC8wj1LieZtM1vPHa92/EOT1W+d8UwEt6U\nvjAhlTQRBpZnlco5dRe5+KhjVYQYJ88RcdnN6UtWi3yEWRs0n3NMOOYOj2WU\nEQTOo5ukguvpjAxPPpoPy7YS79rKzQ/rsV0dGZ8XH3xncqyjUKEmFREe3Ugy\nSJ95Ddy5Od1Gmfe38TUmuyMmaDY/WGhNEC9H8JMlfcQ+mXgRlaS57izTix+R\nygvWDBRPZlm043x0DPQYvGQx9Cbh24E554KeY+n8UKm8okzt92f2dwHUkJ1Y\n/+SdjYmSHX76mFPGdosyZxttmTptE4MJphsK+cSgPCeMIpkGQru4tpEPcODC\nPzIZKqrlYpQG8kAee8EsIpikwYpossFAGdsSXXVGCbpg1CNzsBW1jO6V6l4f\nQS/G\r\n=yxFN\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIFpFrJ0+uHD1Vg/MMdoML5rRWuAbmnVy+OoMXzkIl+20AiB7hTmAVex+n4vu4FDZiPEuAGXowLpy5GkOVoqth302ZQ=="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "shilman",
+				"email": "michael@lab80.co"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "tooppaaa",
+					"email": "clementdungler@gmail.com"
+				},
+				{
+					"name": "ndelangen",
+					"email": "ndelangen@me.com"
+				},
+				{
+					"name": "shilman",
+					"email": "michael@lab80.co"
+				},
+				{
+					"name": "alexandrebodin",
+					"email": "bodin.alex@gmail.com"
+				},
+				{
+					"name": "hypnosphi",
+					"email": "talpa@yandex.ru"
+				},
+				{
+					"name": "danielduan",
+					"email": "dduan@yahoo.com"
+				},
+				{
+					"name": "igor-dv",
+					"email": "davydkin.igor@gmail.com"
+				},
+				{
+					"name": "pksunkara",
+					"email": "pavan.sss1991@gmail.com"
+				},
+				{
+					"name": "tmeasday",
+					"email": "tom@thesnail.org"
+				},
+				{
+					"name": "gongreg",
+					"email": "gytis.vinclovas@gmail.com"
+				},
+				{
+					"name": "domyen",
+					"email": "dom@hichroma.com"
+				},
+				{
+					"name": "usulpro",
+					"email": "regx@usul.su"
+				},
+				{
+					"name": "kylesuss",
+					"email": "susskyle@gmail.com"
+				},
+				{
+					"name": "ghengeveld",
+					"email": "info@ghengeveld.nl"
+				},
+				{
+					"name": "pago",
+					"email": "patrick.gotthardt@trivago.com"
+				},
+				{
+					"name": "dandean",
+					"email": "me@dandean.com"
+				},
+				{
+					"name": "codebyalex",
+					"email": "wilsonc.alexander@gmail.com"
+				},
+				{
+					"name": "mrmckeb",
+					"email": "mrmckeb.npm@outlook.com"
+				},
+				{
+					"name": "dannyhw",
+					"email": "danny.h.williams@hotmail.com"
+				},
+				{
+					"name": "winkervsbecks",
+					"email": "varunvachhar@gmail.com"
+				},
+				{
+					"name": "rvasikarla",
+					"email": "vasikarla.raj@gmail.com"
+				},
+				{
+					"name": "amalik2",
+					"email": "ahnmalik2@gmail.com"
+				},
+				{
+					"name": "lshadler",
+					"email": "lshadler13@gmail.com"
+				},
+				{
+					"name": "phated",
+					"email": "blaine.bublitz@gmail.com"
+				},
+				{
+					"name": "yannbf",
+					"email": "yannbf@gmail.com"
+				},
+				{
+					"name": "dylanpiercey",
+					"email": "pierceydylan@gmail.com"
+				},
+				{
+					"name": "monkeyworks",
+					"email": "igor.szyporyn@gmail.com"
+				},
+				{
+					"name": "darleendenno",
+					"email": "darleendenno@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/csf_0.0.2--canary.d61cd6c.0_1630905061677_0.771844424270874"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.0.2--canary.a925d24.0": {
+			"name": "@storybook/csf",
+			"version": "0.0.2--canary.a925d24.0",
+			"description": "Component Story Format (CSF) utilities",
+			"keywords": [
+				"storybook",
+				"component story format",
+				"csf",
+				"stories"
+			],
+			"homepage": "https://github.com/ComponentDriven/csf",
+			"bugs": {
+				"url": "https://github.com/ComponentDriven/csf/issues"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ComponentDriven/csf.git"
+			},
+			"license": "MIT",
+			"main": "dist/index.js",
+			"types": "dist/index.d.ts",
+			"scripts": {
+				"build": "babel src --out-dir dist --extensions \".ts\" && tsc --emitDeclarationOnly",
+				"lint": "eslint src --ext .js,.ts",
+				"test": "jest",
+				"release": "yarn build && auto shipit"
+			},
+			"eslintConfig": {
+				"extends": [
+					"@storybook/eslint-config-storybook"
+				]
+			},
+			"prettier": "@storybook/linter-config/prettier.config",
+			"jest": {
+				"testEnvironment": "node"
+			},
+			"dependencies": {
+				"lodash": "^4.17.15"
+			},
+			"devDependencies": {
+				"@babel/cli": "^7.8.4",
+				"@babel/core": "^7.9.0",
+				"@babel/preset-env": "^7.9.5",
+				"@babel/preset-typescript": "^7.9.0",
+				"@storybook/eslint-config-storybook": "^2.1.0",
+				"@types/jest": "^24.0.23",
+				"@types/lodash": "^4.14.149",
+				"auto": "^10.31.0",
+				"babel-core": "7.0.0-bridge.0",
+				"babel-jest": "^24.9.0",
+				"common-tags": "^1.8.0",
+				"eslint": "^6.7.1",
+				"jest": "^24.9.0",
+				"prettier": "^1.19.1",
+				"typescript": "^3.7.2"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"readmeFilename": "README.md",
+			"gitHead": "a925d246ba92a06115a2184888736c59ecb01854",
+			"_id": "@storybook/csf@0.0.2--canary.a925d24.0",
+			"_nodeVersion": "12.16.3",
+			"_npmVersion": "6.14.4",
+			"dist": {
+				"integrity": "sha512-ZEl6PvIoKOt9bNUKFuBpZEfD5RkCsp4HIaE5xwcDBFQyaYQ34n31YoCEXQX37vqbos3yBe2DaP41RYKhQsZ6OQ==",
+				"shasum": "e55ab5bca96a51b89ac32f8c2b6d195c1a24a8f8",
+				"tarball": "https://registry.npmjs.org/@storybook/csf/-/csf-0.0.2--canary.a925d24.0.tgz",
+				"fileCount": 13,
+				"unpackedSize": 26772,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJhNw18CRA9TVsSAnZWagAA7uAQAIO8JScmW7iAk1bb4zo1\nXDoM2IemqnTY5NQ+PxDAKpN9IBXv+BpPc1WMTPrDZ3xcXPCmrbS9QE+aTmle\n2kvSw1YEdPyglo1NfrYN4ZLtSYmC5AjYWd0THRcA1y0Uz0JAb7HXHk0y/wYF\npBb4sfGofjSGQ+XKuS8xbVVLQSTjIinbwEOPVRpOLnRP/LBN+F2yz4YDZ3BM\nPsti/Z6gjyqHyvZEAM6dW0ctwCytsA6JOahrCjjz962xvBfYh2PRvzv9/CkV\n4X1Ja8BJjlhYQLYAKA6RGwg2E3CrFXEZa2/3U5yG/vzB6KfmMpua56FAMDe0\nQlok7UuPM9QJhGdfXkWuSKKfO+mUW61qdamvmjnMvSy0ONhoolwAXVu6e9ke\nGFAVzYSMRCI2dPfwPCsEXwnpFvHy8h46dmaxvECQjQFiLpMeuITdBwivGtro\nsIByoYYX9L9yItMgp+bKpTH7FEUw8o2z7MxSzOm+Joyx+oLPdYVq91SMPl9Q\nb91Lp+b9FMpUmOglZyF5GRBUUkLOGK0t1/Ut0+RYAZUMRKh3jFiGI1nRas4M\n/+rxtIc785a1EHFJzjKdOJUuJhZ6b2Q3rDDQTqau46SWd4oTz0I5+LfLv9P+\nru4vCwHejjXdyuqQT0vjfQ+7Q1dZIN2JMnQ12En35Im7NmEm+VvMdFDRix41\n/s5r\r\n=tai6\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDZAE0nLVSLp+RbNK0m5GK5HfNsXEOF1u7NyotJTqSN3QIhAI8Dhs3cMNwh2N5zArATwrO3XG4n2oG8htD3+K6H8hfE"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "tmeasday",
+				"email": "tom@thesnail.org"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "tooppaaa",
+					"email": "clementdungler@gmail.com"
+				},
+				{
+					"name": "ndelangen",
+					"email": "ndelangen@me.com"
+				},
+				{
+					"name": "shilman",
+					"email": "michael@lab80.co"
+				},
+				{
+					"name": "alexandrebodin",
+					"email": "bodin.alex@gmail.com"
+				},
+				{
+					"name": "hypnosphi",
+					"email": "talpa@yandex.ru"
+				},
+				{
+					"name": "danielduan",
+					"email": "dduan@yahoo.com"
+				},
+				{
+					"name": "igor-dv",
+					"email": "davydkin.igor@gmail.com"
+				},
+				{
+					"name": "pksunkara",
+					"email": "pavan.sss1991@gmail.com"
+				},
+				{
+					"name": "tmeasday",
+					"email": "tom@thesnail.org"
+				},
+				{
+					"name": "gongreg",
+					"email": "gytis.vinclovas@gmail.com"
+				},
+				{
+					"name": "domyen",
+					"email": "dom@hichroma.com"
+				},
+				{
+					"name": "usulpro",
+					"email": "regx@usul.su"
+				},
+				{
+					"name": "kylesuss",
+					"email": "susskyle@gmail.com"
+				},
+				{
+					"name": "ghengeveld",
+					"email": "info@ghengeveld.nl"
+				},
+				{
+					"name": "pago",
+					"email": "patrick.gotthardt@trivago.com"
+				},
+				{
+					"name": "dandean",
+					"email": "me@dandean.com"
+				},
+				{
+					"name": "codebyalex",
+					"email": "wilsonc.alexander@gmail.com"
+				},
+				{
+					"name": "mrmckeb",
+					"email": "mrmckeb.npm@outlook.com"
+				},
+				{
+					"name": "dannyhw",
+					"email": "danny.h.williams@hotmail.com"
+				},
+				{
+					"name": "winkervsbecks",
+					"email": "varunvachhar@gmail.com"
+				},
+				{
+					"name": "rvasikarla",
+					"email": "vasikarla.raj@gmail.com"
+				},
+				{
+					"name": "amalik2",
+					"email": "ahnmalik2@gmail.com"
+				},
+				{
+					"name": "lshadler",
+					"email": "lshadler13@gmail.com"
+				},
+				{
+					"name": "phated",
+					"email": "blaine.bublitz@gmail.com"
+				},
+				{
+					"name": "yannbf",
+					"email": "yannbf@gmail.com"
+				},
+				{
+					"name": "dylanpiercey",
+					"email": "pierceydylan@gmail.com"
+				},
+				{
+					"name": "monkeyworks",
+					"email": "igor.szyporyn@gmail.com"
+				},
+				{
+					"name": "darleendenno",
+					"email": "darleendenno@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/csf_0.0.2--canary.a925d24.0_1630997884050_0.666543518080305"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.0.2--canary.5459c65.0": {
+			"name": "@storybook/csf",
+			"version": "0.0.2--canary.5459c65.0",
+			"description": "Component Story Format (CSF) utilities",
+			"keywords": [
+				"storybook",
+				"component story format",
+				"csf",
+				"stories"
+			],
+			"homepage": "https://github.com/ComponentDriven/csf",
+			"bugs": {
+				"url": "https://github.com/ComponentDriven/csf/issues"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ComponentDriven/csf.git"
+			},
+			"license": "MIT",
+			"main": "dist/index.js",
+			"types": "dist/index.d.ts",
+			"scripts": {
+				"build": "babel src --out-dir dist --extensions \".ts\" && tsc --emitDeclarationOnly",
+				"lint": "eslint src --ext .js,.ts",
+				"test": "jest",
+				"release": "yarn build && auto shipit"
+			},
+			"eslintConfig": {
+				"extends": [
+					"@storybook/eslint-config-storybook"
+				]
+			},
+			"prettier": "@storybook/linter-config/prettier.config",
+			"jest": {
+				"testEnvironment": "node"
+			},
+			"dependencies": {
+				"lodash": "^4.17.15"
+			},
+			"devDependencies": {
+				"@babel/cli": "^7.8.4",
+				"@babel/core": "^7.9.0",
+				"@babel/preset-env": "^7.9.5",
+				"@babel/preset-typescript": "^7.9.0",
+				"@storybook/eslint-config-storybook": "^2.1.0",
+				"@types/jest": "^24.0.23",
+				"@types/lodash": "^4.14.149",
+				"auto": "^10.31.0",
+				"babel-core": "7.0.0-bridge.0",
+				"babel-jest": "^24.9.0",
+				"common-tags": "^1.8.0",
+				"eslint": "^6.7.1",
+				"jest": "^24.9.0",
+				"prettier": "^1.19.1",
+				"typescript": "^3.7.2"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"readmeFilename": "README.md",
+			"gitHead": "5459c6525c57afae187e6192dea40a9bf57eff09",
+			"_id": "@storybook/csf@0.0.2--canary.5459c65.0",
+			"_nodeVersion": "12.16.3",
+			"_npmVersion": "6.14.4",
+			"dist": {
+				"integrity": "sha512-XMOIjXwi8PhnbfvYLg3CbHQEASo3tKCSdM2cp7xgS9Hf13v4xyjgboqpUKT7V0vr3LLPdTsvxgohoUaer8waVA==",
+				"shasum": "81e047326ce2b40c30a28dbbd00055ef689f552b",
+				"tarball": "https://registry.npmjs.org/@storybook/csf/-/csf-0.0.2--canary.5459c65.0.tgz",
+				"fileCount": 13,
+				"unpackedSize": 26789,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJhN2QCCRA9TVsSAnZWagAAjloP/1KISaCkiRhzOgVw9VGm\n29PqBOFYtotHTg3UoOyLKB94h5M3vhema/LW8Bbj8rl5uJL6Uc++v0P173Tr\n8gBL+8b/JC0lVVk/KiiJ0hDTikI+2KH+W4WRMKv4Oa/NROZLYoVPIxQSf9k6\n2vDkd2hLyQbz9CQPOZ5PZQt9qiD88QuiV4/xAqKtsjIWr1+YCYt/WZk6yfJX\n4Lw189JhVvM14cvVExHZpvdFf5mmi4/ibabrwD5lr48gZeV5dmRr8UrBiKGF\nXnM/aOizKlCZVuNGDZbix4XlNk63NX/XqG0u0wHHj5BDmH61XpOTTfLEe+gV\nVhfK+PGR3AqGZ4NXgw5jGKbZHrbVX20VdE06P8s1NkgLvbDdPQGBiV/MSNjC\nkVw/nl2+1YdkaGfk+o9vfv8svnkxq48qa/1f0Z3UZ6oCYUuz/uw1AWN95FTD\nekLlbszYz5kg2iOgN059rPS+c5cva+e+6xSzPNBi86HavxKu4oEzTv+PUI8R\naYeiRGK0SKot3mYDwA/Ba9NvWVDUzO/P1IPPlFc/f0YnWUWzoM/CHla+o+6a\nphKzcN0oZSsIGfAMQ5DjErizaV1fJotKGisdlv8g+P+1oBT6NcVgCDePKUV8\noB4wLfY5xkCxuVeA8cfs0ZIqTuuO53jwXsRbMYZ6bdq199zSz67I9cnFB3hd\nGpdO\r\n=qTaT\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDfQKXIMAtsYFqkSt27kwURAaaHNqapDNZYMBDfnKabnAIgI6vhveeA6vbprpK7turDQIdoSE7souZMD008JA0hpWs="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "tmeasday",
+				"email": "tom@thesnail.org"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "tooppaaa",
+					"email": "clementdungler@gmail.com"
+				},
+				{
+					"name": "ndelangen",
+					"email": "ndelangen@me.com"
+				},
+				{
+					"name": "shilman",
+					"email": "michael@lab80.co"
+				},
+				{
+					"name": "alexandrebodin",
+					"email": "bodin.alex@gmail.com"
+				},
+				{
+					"name": "hypnosphi",
+					"email": "talpa@yandex.ru"
+				},
+				{
+					"name": "danielduan",
+					"email": "dduan@yahoo.com"
+				},
+				{
+					"name": "igor-dv",
+					"email": "davydkin.igor@gmail.com"
+				},
+				{
+					"name": "pksunkara",
+					"email": "pavan.sss1991@gmail.com"
+				},
+				{
+					"name": "tmeasday",
+					"email": "tom@thesnail.org"
+				},
+				{
+					"name": "gongreg",
+					"email": "gytis.vinclovas@gmail.com"
+				},
+				{
+					"name": "domyen",
+					"email": "dom@hichroma.com"
+				},
+				{
+					"name": "usulpro",
+					"email": "regx@usul.su"
+				},
+				{
+					"name": "kylesuss",
+					"email": "susskyle@gmail.com"
+				},
+				{
+					"name": "ghengeveld",
+					"email": "info@ghengeveld.nl"
+				},
+				{
+					"name": "pago",
+					"email": "patrick.gotthardt@trivago.com"
+				},
+				{
+					"name": "dandean",
+					"email": "me@dandean.com"
+				},
+				{
+					"name": "codebyalex",
+					"email": "wilsonc.alexander@gmail.com"
+				},
+				{
+					"name": "mrmckeb",
+					"email": "mrmckeb.npm@outlook.com"
+				},
+				{
+					"name": "dannyhw",
+					"email": "danny.h.williams@hotmail.com"
+				},
+				{
+					"name": "winkervsbecks",
+					"email": "varunvachhar@gmail.com"
+				},
+				{
+					"name": "rvasikarla",
+					"email": "vasikarla.raj@gmail.com"
+				},
+				{
+					"name": "amalik2",
+					"email": "ahnmalik2@gmail.com"
+				},
+				{
+					"name": "lshadler",
+					"email": "lshadler13@gmail.com"
+				},
+				{
+					"name": "phated",
+					"email": "blaine.bublitz@gmail.com"
+				},
+				{
+					"name": "yannbf",
+					"email": "yannbf@gmail.com"
+				},
+				{
+					"name": "dylanpiercey",
+					"email": "pierceydylan@gmail.com"
+				},
+				{
+					"name": "monkeyworks",
+					"email": "igor.szyporyn@gmail.com"
+				},
+				{
+					"name": "darleendenno",
+					"email": "darleendenno@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/csf_0.0.2--canary.5459c65.0_1631020034842_0.5987435770968408"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.0.2--canary.b1d5348.0": {
+			"name": "@storybook/csf",
+			"version": "0.0.2--canary.b1d5348.0",
+			"description": "Component Story Format (CSF) utilities",
+			"keywords": [
+				"storybook",
+				"component story format",
+				"csf",
+				"stories"
+			],
+			"homepage": "https://github.com/ComponentDriven/csf",
+			"bugs": {
+				"url": "https://github.com/ComponentDriven/csf/issues"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ComponentDriven/csf.git"
+			},
+			"license": "MIT",
+			"main": "dist/index.js",
+			"types": "dist/index.d.ts",
+			"scripts": {
+				"build": "babel src --out-dir dist --extensions \".ts\" && tsc --emitDeclarationOnly",
+				"lint": "eslint src --ext .js,.ts",
+				"test": "jest",
+				"release": "yarn build && auto shipit"
+			},
+			"eslintConfig": {
+				"extends": [
+					"@storybook/eslint-config-storybook"
+				]
+			},
+			"prettier": "@storybook/linter-config/prettier.config",
+			"jest": {
+				"testEnvironment": "node"
+			},
+			"dependencies": {
+				"lodash": "^4.17.15"
+			},
+			"devDependencies": {
+				"@babel/cli": "^7.8.4",
+				"@babel/core": "^7.9.0",
+				"@babel/preset-env": "^7.9.5",
+				"@babel/preset-typescript": "^7.9.0",
+				"@storybook/eslint-config-storybook": "^2.1.0",
+				"@types/jest": "^24.0.23",
+				"@types/lodash": "^4.14.149",
+				"auto": "^10.31.0",
+				"babel-core": "7.0.0-bridge.0",
+				"babel-jest": "^24.9.0",
+				"common-tags": "^1.8.0",
+				"eslint": "^6.7.1",
+				"jest": "^24.9.0",
+				"prettier": "^1.19.1",
+				"typescript": "^3.7.2"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"readmeFilename": "README.md",
+			"gitHead": "b1d534830bd0219adcfcb174e56485e903514a3b",
+			"_id": "@storybook/csf@0.0.2--canary.b1d5348.0",
+			"_nodeVersion": "12.16.3",
+			"_npmVersion": "6.14.4",
+			"dist": {
+				"integrity": "sha512-Z5Usefmo99aenbC9uUCBY6+Tedq6RMxDs2z5ziwjWv8Fgiy/8kuht55CVGtlHUSB2dQP7xbIuOv7i89q+4ytfQ==",
+				"shasum": "0ef8351f60f753daf26b50a13df2a8c51de2c6cb",
+				"tarball": "https://registry.npmjs.org/@storybook/csf/-/csf-0.0.2--canary.b1d5348.0.tgz",
+				"fileCount": 13,
+				"unpackedSize": 26800,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJhOF7MCRA9TVsSAnZWagAAFRwP/1RMHGXgHUEmYnj1r0XV\n5ozkSIxmMPH0mEiZQdcYNjOkEdjTEfmrlHEIy6Vs3X7O5wxlhD4Im+KRgk2c\nisUC35+OU/3wCV5tWBqSSkJS/s6M8c85nS6q5/EebHgMMH84SbY8Q83qV6oK\nIxeqvwwP5TURr2ELFAOekw3Jiq4VqY9he2MJioM8fbYQIC3y2LffSHPF/Gvf\nOp0QW7iZe3mdYTCCxpoxvS6xeVOLmVp7AoT85z6jm790DfUU/taL7bFEEpga\ngNCM/WUMjCDDzpCa+FndeepWYfb46DMfBYKvhP5qBIde+fMCz03JMUiGqRfG\niwHdpgAPIdLz6PT6I0ujaLw79E52erMyvWsKGxnMLOZPdioz7/3O6/grNYiG\nmtdicL1VryDWkFRs/SZnQOR/aKrit0BKqDS9GHf2ItME6W7J5VpqPslbd0JX\nbAGsM+dGQWTz1ydOPklIjt7+e70JsrT1g0EcpJbsN9jrvnV+M7tSoDhtdIk3\nkXcTIjXqh5RpwBW07izDHlZczoIX6K5dt/qMoerXAk25WPGQMl++VnEl7n44\nG+QRgMjNTMNcSJxTTpgxwuYzQSJoP+e0d7bvfDK3nAyaFogGlnL0MeGtFGK/\nCPKPTb7+I/1wb+ebazU9ohQBEAJRwp0mGtjgfyXbc1i040VAdGpNJwe/mSAX\n4hiD\r\n=ZrkB\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCJkFapSHiTqrJXVHEyT4snUjaX/DOye/V7fIAZ/7fjdwIhAOJ4FWy5yXy4tf6nc2SIbftcdlfvZ5e7XJozMo7Rsowm"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "tmeasday",
+				"email": "tom@thesnail.org"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "tooppaaa",
+					"email": "clementdungler@gmail.com"
+				},
+				{
+					"name": "ndelangen",
+					"email": "ndelangen@me.com"
+				},
+				{
+					"name": "shilman",
+					"email": "michael@lab80.co"
+				},
+				{
+					"name": "alexandrebodin",
+					"email": "bodin.alex@gmail.com"
+				},
+				{
+					"name": "hypnosphi",
+					"email": "talpa@yandex.ru"
+				},
+				{
+					"name": "danielduan",
+					"email": "dduan@yahoo.com"
+				},
+				{
+					"name": "igor-dv",
+					"email": "davydkin.igor@gmail.com"
+				},
+				{
+					"name": "pksunkara",
+					"email": "pavan.sss1991@gmail.com"
+				},
+				{
+					"name": "tmeasday",
+					"email": "tom@thesnail.org"
+				},
+				{
+					"name": "gongreg",
+					"email": "gytis.vinclovas@gmail.com"
+				},
+				{
+					"name": "domyen",
+					"email": "dom@hichroma.com"
+				},
+				{
+					"name": "usulpro",
+					"email": "regx@usul.su"
+				},
+				{
+					"name": "kylesuss",
+					"email": "susskyle@gmail.com"
+				},
+				{
+					"name": "ghengeveld",
+					"email": "info@ghengeveld.nl"
+				},
+				{
+					"name": "pago",
+					"email": "patrick.gotthardt@trivago.com"
+				},
+				{
+					"name": "dandean",
+					"email": "me@dandean.com"
+				},
+				{
+					"name": "codebyalex",
+					"email": "wilsonc.alexander@gmail.com"
+				},
+				{
+					"name": "mrmckeb",
+					"email": "mrmckeb.npm@outlook.com"
+				},
+				{
+					"name": "dannyhw",
+					"email": "danny.h.williams@hotmail.com"
+				},
+				{
+					"name": "winkervsbecks",
+					"email": "varunvachhar@gmail.com"
+				},
+				{
+					"name": "rvasikarla",
+					"email": "vasikarla.raj@gmail.com"
+				},
+				{
+					"name": "amalik2",
+					"email": "ahnmalik2@gmail.com"
+				},
+				{
+					"name": "lshadler",
+					"email": "lshadler13@gmail.com"
+				},
+				{
+					"name": "phated",
+					"email": "blaine.bublitz@gmail.com"
+				},
+				{
+					"name": "yannbf",
+					"email": "yannbf@gmail.com"
+				},
+				{
+					"name": "dylanpiercey",
+					"email": "pierceydylan@gmail.com"
+				},
+				{
+					"name": "monkeyworks",
+					"email": "igor.szyporyn@gmail.com"
+				},
+				{
+					"name": "darleendenno",
+					"email": "darleendenno@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/csf_0.0.2--canary.b1d5348.0_1631084236322_0.9589790309181774"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.0.2--canary.062665d.0": {
+			"name": "@storybook/csf",
+			"version": "0.0.2--canary.062665d.0",
+			"description": "Component Story Format (CSF) utilities",
+			"keywords": [
+				"storybook",
+				"component story format",
+				"csf",
+				"stories"
+			],
+			"homepage": "https://github.com/ComponentDriven/csf",
+			"bugs": {
+				"url": "https://github.com/ComponentDriven/csf/issues"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ComponentDriven/csf.git"
+			},
+			"license": "MIT",
+			"main": "dist/index.js",
+			"types": "dist/index.d.ts",
+			"scripts": {
+				"build": "babel src --out-dir dist --extensions \".ts\" && tsc --emitDeclarationOnly",
+				"lint": "eslint src --ext .js,.ts",
+				"test": "jest",
+				"release": "yarn build && auto shipit"
+			},
+			"eslintConfig": {
+				"extends": [
+					"@storybook/eslint-config-storybook"
+				]
+			},
+			"prettier": "@storybook/linter-config/prettier.config",
+			"jest": {
+				"testEnvironment": "node"
+			},
+			"dependencies": {
+				"lodash": "^4.17.15"
+			},
+			"devDependencies": {
+				"@babel/cli": "^7.8.4",
+				"@babel/core": "^7.9.0",
+				"@babel/preset-env": "^7.9.5",
+				"@babel/preset-typescript": "^7.9.0",
+				"@storybook/eslint-config-storybook": "^2.1.0",
+				"@types/jest": "^24.0.23",
+				"@types/lodash": "^4.14.149",
+				"auto": "^10.31.0",
+				"babel-core": "7.0.0-bridge.0",
+				"babel-jest": "^24.9.0",
+				"common-tags": "^1.8.0",
+				"eslint": "^6.7.1",
+				"jest": "^24.9.0",
+				"prettier": "^1.19.1",
+				"typescript": "^3.7.2"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"readmeFilename": "README.md",
+			"gitHead": "062665d83ac6b18b86e6eb31a3701745e41a9893",
+			"_id": "@storybook/csf@0.0.2--canary.062665d.0",
+			"_nodeVersion": "12.16.3",
+			"_npmVersion": "6.14.4",
+			"dist": {
+				"integrity": "sha512-P5knTXHXBnBjy3uYIEVuJ3xwMOvomFs1KWM83UqGZDrQxJng4Sk0AzU+N+8e+13u9lIRjioEV3KpTUUK8lqJrg==",
+				"shasum": "f9f9065dd7f7efe21e87cd3dda0f490a73573521",
+				"tarball": "https://registry.npmjs.org/@storybook/csf/-/csf-0.0.2--canary.062665d.0.tgz",
+				"fileCount": 13,
+				"unpackedSize": 27499,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJhPHyRCRA9TVsSAnZWagAAPZ8P/RaxC8P7EsJfzTV6atCp\noa0r3imJesm+Fs9rbC12VHIVsndJt07TRQfPILeNshUUoNaxfde1QlWXpZhO\nZE3eBH7MDLSxxUOfNfFtvqMgmizTnLTKRPcY0BXR9YpkuUxFd+C5R0yJfhgR\n1td+iW3Lecy4QJXItxTrr8tW1Kk6xvAkk6N7C4h9WEY1x67dQVX213quAUAT\nXrnS/afhILipOKBnlJtcPqv8JF4vkfJxQsnREPGsNDMz2VitE+TsRXUNR7wU\nenUSp9GMPf3J7vhRqnwJHgtmlDHblt1nolRakp6Z0m7zPo/JMTCukrgLQ2vq\nJOE2VLT6GgnfG6AtOthGr/PZoivHQrkx1dvYCqaRiBxnI7FBm1arbsVIrpwu\nP9GL+PM0eZOkQKbGM8inMp2zD47zkwbPW0UFyMz/hr5t229NLLPVHquQ/MwG\nsrEgCpQlg057Juond72d4CoO3Z8aMhexsXuhiXHROHv9K6ngcMoXEjoK1scc\nHAsp3lZp0ITolOT/XgAZIyttMRuXMWBT+GMpJ2OBGz+J/4H7zx0zScTcdxRt\ntZBvfkwPpmQ1ZzzQYryWjxmeeVqIIuaSI8JIrMEas0Cc5Wvlvjx+TZircfM9\nlRFeqMqbBjBOy7pYXZyt9IOTMr82vpkFtacngSOv22zdwk6w8NwNyGNEGKMM\nNEpJ\r\n=Msqs\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIEW95YnaJyzRqZdy4y7GaZxK19AsRgwMDgCUZB8BuQPIAiB5e71P+ZcLSr6dMxzWF4Jc6+rEE8bwBmZU0qjAL/Ei4A=="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "tmeasday",
+				"email": "tom@thesnail.org"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "tooppaaa",
+					"email": "clementdungler@gmail.com"
+				},
+				{
+					"name": "ndelangen",
+					"email": "ndelangen@me.com"
+				},
+				{
+					"name": "shilman",
+					"email": "michael@lab80.co"
+				},
+				{
+					"name": "alexandrebodin",
+					"email": "bodin.alex@gmail.com"
+				},
+				{
+					"name": "hypnosphi",
+					"email": "talpa@yandex.ru"
+				},
+				{
+					"name": "danielduan",
+					"email": "dduan@yahoo.com"
+				},
+				{
+					"name": "igor-dv",
+					"email": "davydkin.igor@gmail.com"
+				},
+				{
+					"name": "pksunkara",
+					"email": "pavan.sss1991@gmail.com"
+				},
+				{
+					"name": "tmeasday",
+					"email": "tom@thesnail.org"
+				},
+				{
+					"name": "gongreg",
+					"email": "gytis.vinclovas@gmail.com"
+				},
+				{
+					"name": "domyen",
+					"email": "dom@hichroma.com"
+				},
+				{
+					"name": "usulpro",
+					"email": "regx@usul.su"
+				},
+				{
+					"name": "kylesuss",
+					"email": "susskyle@gmail.com"
+				},
+				{
+					"name": "ghengeveld",
+					"email": "info@ghengeveld.nl"
+				},
+				{
+					"name": "pago",
+					"email": "patrick.gotthardt@trivago.com"
+				},
+				{
+					"name": "dandean",
+					"email": "me@dandean.com"
+				},
+				{
+					"name": "codebyalex",
+					"email": "wilsonc.alexander@gmail.com"
+				},
+				{
+					"name": "mrmckeb",
+					"email": "mrmckeb.npm@outlook.com"
+				},
+				{
+					"name": "dannyhw",
+					"email": "danny.h.williams@hotmail.com"
+				},
+				{
+					"name": "winkervsbecks",
+					"email": "varunvachhar@gmail.com"
+				},
+				{
+					"name": "rvasikarla",
+					"email": "vasikarla.raj@gmail.com"
+				},
+				{
+					"name": "amalik2",
+					"email": "ahnmalik2@gmail.com"
+				},
+				{
+					"name": "lshadler",
+					"email": "lshadler13@gmail.com"
+				},
+				{
+					"name": "phated",
+					"email": "blaine.bublitz@gmail.com"
+				},
+				{
+					"name": "yannbf",
+					"email": "yannbf@gmail.com"
+				},
+				{
+					"name": "dylanpiercey",
+					"email": "pierceydylan@gmail.com"
+				},
+				{
+					"name": "monkeyworks",
+					"email": "igor.szyporyn@gmail.com"
+				},
+				{
+					"name": "darleendenno",
+					"email": "darleendenno@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/csf_0.0.2--canary.062665d.0_1631354001740_0.3078541294628001"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.0.2--canary.68887a1.0": {
+			"name": "@storybook/csf",
+			"version": "0.0.2--canary.68887a1.0",
+			"description": "Component Story Format (CSF) utilities",
+			"keywords": [
+				"storybook",
+				"component story format",
+				"csf",
+				"stories"
+			],
+			"homepage": "https://github.com/ComponentDriven/csf",
+			"bugs": {
+				"url": "https://github.com/ComponentDriven/csf/issues"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ComponentDriven/csf.git"
+			},
+			"license": "MIT",
+			"main": "dist/index.js",
+			"types": "dist/index.d.ts",
+			"scripts": {
+				"build": "babel src --out-dir dist --extensions \".ts\" && tsc --emitDeclarationOnly",
+				"lint": "eslint src --ext .js,.ts",
+				"test": "jest",
+				"release": "yarn build && auto shipit"
+			},
+			"eslintConfig": {
+				"extends": [
+					"@storybook/eslint-config-storybook"
+				]
+			},
+			"prettier": "@storybook/linter-config/prettier.config",
+			"jest": {
+				"testEnvironment": "node"
+			},
+			"dependencies": {
+				"lodash": "^4.17.15"
+			},
+			"devDependencies": {
+				"@babel/cli": "^7.8.4",
+				"@babel/core": "^7.9.0",
+				"@babel/preset-env": "^7.9.5",
+				"@babel/preset-typescript": "^7.9.0",
+				"@storybook/eslint-config-storybook": "^2.1.0",
+				"@types/jest": "^24.0.23",
+				"@types/lodash": "^4.14.149",
+				"auto": "^10.31.0",
+				"babel-core": "7.0.0-bridge.0",
+				"babel-jest": "^24.9.0",
+				"common-tags": "^1.8.0",
+				"eslint": "^6.7.1",
+				"jest": "^24.9.0",
+				"prettier": "^1.19.1",
+				"typescript": "^3.7.2"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"readmeFilename": "README.md",
+			"gitHead": "68887a18785cc709b31c0966500f53377052a4f6",
+			"_id": "@storybook/csf@0.0.2--canary.68887a1.0",
+			"_nodeVersion": "12.16.3",
+			"_npmVersion": "6.14.4",
+			"dist": {
+				"integrity": "sha512-s5YzmJso4L356lLXdYrTiPv8VnEMNxtPrpusx5EKu8ltBAaIlRqSZFkfyX4lgfhgYyOb0KGRYyryDf0etPoTGA==",
+				"shasum": "5805a953f221b4d9a3c647274ffdb0468e164d27",
+				"tarball": "https://registry.npmjs.org/@storybook/csf/-/csf-0.0.2--canary.68887a1.0.tgz",
+				"fileCount": 13,
+				"unpackedSize": 27444,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJhPunFCRA9TVsSAnZWagAAQ4IQAJFwImdXkCrROioUshG8\nuMzVSIN643ed5TuzZTTBfVecenb3Q8RtkFW6dZs/wkBinGV16mqgpcBgoYxR\n83i+LUA/7lsXv960qBe5IJ4X7yOuVyMtIZr/cqpqEEed6iyc/beK7fO5H2Q1\nHPtie+GZPhPSZc34fBJzYJWkVX4ZpKA1n+AJdlhclAZIQ7AgK7GQlbpTIbAe\nLQKss7lXA+IMsnlYR2z5jcs4FBDmCJareFGEAXlsybMzggGSdeHeVl5vyqA+\nPyA6PfBVBDNIlWR2BFkl1UxGU1Q0YfEGX/lA5XtXtyIwfvKmhCDG0X2JzG7L\nRfrcFGO4rwE9Vdtmsi/t2CzO7Y1XGC+NaJ3geIiJFk5jLhbpPYvGMhcOiwYC\nRPe1hiSb6zgADEq2FusifDXWRDtPCQs+n2KpzOUkf/1/i1qjVdte6Z1ZrSHL\nuQERR+df9qIpCR6wP3lrMEEdUwIrXjlS6iqcmN7At/6ScekFCWco7eAGK8vW\n64yJ+/5PrU/4iiF9Tcf0MdTDbtVQLEPheAQnFxd4q5ULy9n/Qf70SvL9S4BI\nRNxAIF3kCBh1pXzh9T927FuuCwDywkCf/Wvhap7BayF/OTG/0zLOeHS9S+qx\n4wpOKBVRlra4+18dtHehNxW1gM0OMnhwYqeF2LVKKwOW+04Bn8Wn3wRHQWT/\n8xBf\r\n=Duya\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIFb1ZAXZk48LnMU/vw2L3dj68GobXnTenZrOeclYzR/AAiAwP6OVLCR9Ccw9UyTUwqtu46VlkEySnt/wDbEOgChOig=="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "tmeasday",
+				"email": "tom@thesnail.org"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "tooppaaa",
+					"email": "clementdungler@gmail.com"
+				},
+				{
+					"name": "ndelangen",
+					"email": "ndelangen@me.com"
+				},
+				{
+					"name": "shilman",
+					"email": "michael@lab80.co"
+				},
+				{
+					"name": "alexandrebodin",
+					"email": "bodin.alex@gmail.com"
+				},
+				{
+					"name": "hypnosphi",
+					"email": "talpa@yandex.ru"
+				},
+				{
+					"name": "danielduan",
+					"email": "dduan@yahoo.com"
+				},
+				{
+					"name": "igor-dv",
+					"email": "davydkin.igor@gmail.com"
+				},
+				{
+					"name": "pksunkara",
+					"email": "pavan.sss1991@gmail.com"
+				},
+				{
+					"name": "tmeasday",
+					"email": "tom@thesnail.org"
+				},
+				{
+					"name": "gongreg",
+					"email": "gytis.vinclovas@gmail.com"
+				},
+				{
+					"name": "domyen",
+					"email": "dom@hichroma.com"
+				},
+				{
+					"name": "usulpro",
+					"email": "regx@usul.su"
+				},
+				{
+					"name": "kylesuss",
+					"email": "susskyle@gmail.com"
+				},
+				{
+					"name": "ghengeveld",
+					"email": "info@ghengeveld.nl"
+				},
+				{
+					"name": "pago",
+					"email": "patrick.gotthardt@trivago.com"
+				},
+				{
+					"name": "dandean",
+					"email": "me@dandean.com"
+				},
+				{
+					"name": "codebyalex",
+					"email": "wilsonc.alexander@gmail.com"
+				},
+				{
+					"name": "mrmckeb",
+					"email": "mrmckeb.npm@outlook.com"
+				},
+				{
+					"name": "dannyhw",
+					"email": "danny.h.williams@hotmail.com"
+				},
+				{
+					"name": "winkervsbecks",
+					"email": "varunvachhar@gmail.com"
+				},
+				{
+					"name": "rvasikarla",
+					"email": "vasikarla.raj@gmail.com"
+				},
+				{
+					"name": "amalik2",
+					"email": "ahnmalik2@gmail.com"
+				},
+				{
+					"name": "lshadler",
+					"email": "lshadler13@gmail.com"
+				},
+				{
+					"name": "phated",
+					"email": "blaine.bublitz@gmail.com"
+				},
+				{
+					"name": "yannbf",
+					"email": "yannbf@gmail.com"
+				},
+				{
+					"name": "dylanpiercey",
+					"email": "pierceydylan@gmail.com"
+				},
+				{
+					"name": "monkeyworks",
+					"email": "igor.szyporyn@gmail.com"
+				},
+				{
+					"name": "darleendenno",
+					"email": "darleendenno@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/csf_0.0.2--canary.68887a1.0_1631513029225_0.48206424761098576"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.0.2--canary.6aca495.0": {
+			"name": "@storybook/csf",
+			"version": "0.0.2--canary.6aca495.0",
+			"description": "Component Story Format (CSF) utilities",
+			"keywords": [
+				"storybook",
+				"component story format",
+				"csf",
+				"stories"
+			],
+			"homepage": "https://github.com/ComponentDriven/csf",
+			"bugs": {
+				"url": "https://github.com/ComponentDriven/csf/issues"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ComponentDriven/csf.git"
+			},
+			"license": "MIT",
+			"main": "dist/index.js",
+			"types": "dist/index.d.ts",
+			"scripts": {
+				"build": "babel src --out-dir dist --extensions \".ts\" && tsc --emitDeclarationOnly",
+				"lint": "eslint src --ext .js,.ts",
+				"test": "jest",
+				"release": "yarn build && auto shipit"
+			},
+			"eslintConfig": {
+				"extends": [
+					"@storybook/eslint-config-storybook"
+				]
+			},
+			"prettier": "@storybook/linter-config/prettier.config",
+			"jest": {
+				"testEnvironment": "node"
+			},
+			"dependencies": {
+				"lodash": "^4.17.15"
+			},
+			"devDependencies": {
+				"@babel/cli": "^7.8.4",
+				"@babel/core": "^7.9.0",
+				"@babel/preset-env": "^7.9.5",
+				"@babel/preset-typescript": "^7.9.0",
+				"@storybook/eslint-config-storybook": "^2.1.0",
+				"@types/jest": "^24.0.23",
+				"@types/lodash": "^4.14.149",
+				"auto": "^10.31.0",
+				"babel-core": "7.0.0-bridge.0",
+				"babel-jest": "^24.9.0",
+				"common-tags": "^1.8.0",
+				"eslint": "^6.7.1",
+				"jest": "^24.9.0",
+				"prettier": "^1.19.1",
+				"typescript": "^3.7.2"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"readmeFilename": "README.md",
+			"gitHead": "6aca4956d48312c8451fc015f0ec7592866db4ad",
+			"_id": "@storybook/csf@0.0.2--canary.6aca495.0",
+			"_nodeVersion": "12.16.3",
+			"_npmVersion": "6.14.4",
+			"dist": {
+				"integrity": "sha512-SRKP/zXfHQ/tAlqVAysXGyVrYvILwyDuhisXP6hpXW7BHej2BXVxR4LizA5AFpj99j066KbxdHKFMNmrncZEuw==",
+				"shasum": "1569819337b0414e6e5575680c96505eda803d0b",
+				"tarball": "https://registry.npmjs.org/@storybook/csf/-/csf-0.0.2--canary.6aca495.0.tgz",
+				"fileCount": 13,
+				"unpackedSize": 27458,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCePo+bWZelnDTH+tDVnfwHCeMcL7/icxOaZgi5qMNZOAIhAL1XRHs7xQwYo4FvN24yG9q86zw4PaFoVeOp09JyWDPG"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "tmeasday",
+				"email": "tom@thesnail.org"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "tooppaaa",
+					"email": "clementdungler@gmail.com"
+				},
+				{
+					"name": "ndelangen",
+					"email": "ndelangen@me.com"
+				},
+				{
+					"name": "shilman",
+					"email": "michael@lab80.co"
+				},
+				{
+					"name": "alexandrebodin",
+					"email": "bodin.alex@gmail.com"
+				},
+				{
+					"name": "hypnosphi",
+					"email": "talpa@yandex.ru"
+				},
+				{
+					"name": "danielduan",
+					"email": "dduan@yahoo.com"
+				},
+				{
+					"name": "igor-dv",
+					"email": "davydkin.igor@gmail.com"
+				},
+				{
+					"name": "pksunkara",
+					"email": "pavan.sss1991@gmail.com"
+				},
+				{
+					"name": "tmeasday",
+					"email": "tom@thesnail.org"
+				},
+				{
+					"name": "gongreg",
+					"email": "gytis.vinclovas@gmail.com"
+				},
+				{
+					"name": "domyen",
+					"email": "dom@hichroma.com"
+				},
+				{
+					"name": "usulpro",
+					"email": "regx@usul.su"
+				},
+				{
+					"name": "kylesuss",
+					"email": "susskyle@gmail.com"
+				},
+				{
+					"name": "ghengeveld",
+					"email": "info@ghengeveld.nl"
+				},
+				{
+					"name": "pago",
+					"email": "patrick.gotthardt@trivago.com"
+				},
+				{
+					"name": "dandean",
+					"email": "me@dandean.com"
+				},
+				{
+					"name": "codebyalex",
+					"email": "wilsonc.alexander@gmail.com"
+				},
+				{
+					"name": "mrmckeb",
+					"email": "mrmckeb.npm@outlook.com"
+				},
+				{
+					"name": "dannyhw",
+					"email": "danny.h.williams@hotmail.com"
+				},
+				{
+					"name": "winkervsbecks",
+					"email": "varunvachhar@gmail.com"
+				},
+				{
+					"name": "rvasikarla",
+					"email": "vasikarla.raj@gmail.com"
+				},
+				{
+					"name": "amalik2",
+					"email": "ahnmalik2@gmail.com"
+				},
+				{
+					"name": "lshadler",
+					"email": "lshadler13@gmail.com"
+				},
+				{
+					"name": "phated",
+					"email": "blaine.bublitz@gmail.com"
+				},
+				{
+					"name": "yannbf",
+					"email": "yannbf@gmail.com"
+				},
+				{
+					"name": "dylanpiercey",
+					"email": "pierceydylan@gmail.com"
+				},
+				{
+					"name": "monkeyworks",
+					"email": "igor.szyporyn@gmail.com"
+				},
+				{
+					"name": "darleendenno",
+					"email": "darleendenno@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/csf_0.0.2--canary.6aca495.0_1632121022844_0.7176151151953594"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.0.2--canary.87bc651.0": {
+			"name": "@storybook/csf",
+			"version": "0.0.2--canary.87bc651.0",
+			"description": "Component Story Format (CSF) utilities",
+			"keywords": [
+				"storybook",
+				"component story format",
+				"csf",
+				"stories"
+			],
+			"homepage": "https://github.com/ComponentDriven/csf",
+			"bugs": {
+				"url": "https://github.com/ComponentDriven/csf/issues"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ComponentDriven/csf.git"
+			},
+			"license": "MIT",
+			"main": "dist/index.js",
+			"types": "dist/index.d.ts",
+			"scripts": {
+				"build": "babel src --out-dir dist --extensions \".ts\" && tsc --emitDeclarationOnly",
+				"lint": "eslint src --ext .js,.ts",
+				"test": "jest",
+				"release": "yarn build && auto shipit"
+			},
+			"eslintConfig": {
+				"extends": [
+					"@storybook/eslint-config-storybook"
+				]
+			},
+			"prettier": "@storybook/linter-config/prettier.config",
+			"jest": {
+				"testEnvironment": "node"
+			},
+			"dependencies": {
+				"lodash": "^4.17.15"
+			},
+			"devDependencies": {
+				"@babel/cli": "^7.8.4",
+				"@babel/core": "^7.9.0",
+				"@babel/preset-env": "^7.9.5",
+				"@babel/preset-typescript": "^7.9.0",
+				"@storybook/eslint-config-storybook": "^2.1.0",
+				"@types/jest": "^24.0.23",
+				"@types/lodash": "^4.14.149",
+				"auto": "^10.31.0",
+				"babel-core": "7.0.0-bridge.0",
+				"babel-jest": "^24.9.0",
+				"common-tags": "^1.8.0",
+				"eslint": "^6.7.1",
+				"jest": "^24.9.0",
+				"prettier": "^1.19.1",
+				"typescript": "^3.7.2"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"readmeFilename": "README.md",
+			"gitHead": "87bc65128aef3d33293be067c876c8eaa779f0d2",
+			"_id": "@storybook/csf@0.0.2--canary.87bc651.0",
+			"_nodeVersion": "14.16.1",
+			"_npmVersion": "6.14.12",
+			"dist": {
+				"integrity": "sha512-ajk1Uxa+rBpFQHKrCcTmJyQBXZ5slfwHVEaKlkuFaW77it8RgbPJp/ccna3sgoi8oZ7FkkOyvv1Ve4SmwFqRqw==",
+				"shasum": "c7b99b3a344117ef67b10137b6477a3d2750cf44",
+				"tarball": "https://registry.npmjs.org/@storybook/csf/-/csf-0.0.2--canary.87bc651.0.tgz",
+				"fileCount": 17,
+				"unpackedSize": 30969,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDAufS14UbVGZjdwWBNFnzhhnOHh4+nOlXQWVV9J3HPcQIgf8jyT4simfE66QtIXRMyBD6QC8u7WgvEyWy6qTUNHoc="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "shilman",
+				"email": "michael@lab80.co"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "tooppaaa",
+					"email": "clementdungler@gmail.com"
+				},
+				{
+					"name": "ndelangen",
+					"email": "ndelangen@me.com"
+				},
+				{
+					"name": "shilman",
+					"email": "michael@lab80.co"
+				},
+				{
+					"name": "alexandrebodin",
+					"email": "bodin.alex@gmail.com"
+				},
+				{
+					"name": "hypnosphi",
+					"email": "talpa@yandex.ru"
+				},
+				{
+					"name": "danielduan",
+					"email": "dduan@yahoo.com"
+				},
+				{
+					"name": "igor-dv",
+					"email": "davydkin.igor@gmail.com"
+				},
+				{
+					"name": "pksunkara",
+					"email": "pavan.sss1991@gmail.com"
+				},
+				{
+					"name": "tmeasday",
+					"email": "tom@thesnail.org"
+				},
+				{
+					"name": "gongreg",
+					"email": "gytis.vinclovas@gmail.com"
+				},
+				{
+					"name": "domyen",
+					"email": "dom@hichroma.com"
+				},
+				{
+					"name": "usulpro",
+					"email": "regx@usul.su"
+				},
+				{
+					"name": "kylesuss",
+					"email": "susskyle@gmail.com"
+				},
+				{
+					"name": "ghengeveld",
+					"email": "info@ghengeveld.nl"
+				},
+				{
+					"name": "pago",
+					"email": "patrick.gotthardt@trivago.com"
+				},
+				{
+					"name": "dandean",
+					"email": "me@dandean.com"
+				},
+				{
+					"name": "codebyalex",
+					"email": "wilsonc.alexander@gmail.com"
+				},
+				{
+					"name": "mrmckeb",
+					"email": "mrmckeb.npm@outlook.com"
+				},
+				{
+					"name": "dannyhw",
+					"email": "danny.h.williams@hotmail.com"
+				},
+				{
+					"name": "winkervsbecks",
+					"email": "varunvachhar@gmail.com"
+				},
+				{
+					"name": "rvasikarla",
+					"email": "vasikarla.raj@gmail.com"
+				},
+				{
+					"name": "amalik2",
+					"email": "ahnmalik2@gmail.com"
+				},
+				{
+					"name": "lshadler",
+					"email": "lshadler13@gmail.com"
+				},
+				{
+					"name": "phated",
+					"email": "blaine.bublitz@gmail.com"
+				},
+				{
+					"name": "yannbf",
+					"email": "yannbf@gmail.com"
+				},
+				{
+					"name": "dylanpiercey",
+					"email": "pierceydylan@gmail.com"
+				},
+				{
+					"name": "monkeyworks",
+					"email": "igor.szyporyn@gmail.com"
+				},
+				{
+					"name": "darleendenno",
+					"email": "darleendenno@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/csf_0.0.2--canary.87bc651.0_1633449335867_0.9568738062815083"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.0.2--canary.835a408.0": {
+			"name": "@storybook/csf",
+			"version": "0.0.2--canary.835a408.0",
+			"description": "Component Story Format (CSF) utilities",
+			"keywords": [
+				"storybook",
+				"component story format",
+				"csf",
+				"stories"
+			],
+			"homepage": "https://github.com/ComponentDriven/csf",
+			"bugs": {
+				"url": "https://github.com/ComponentDriven/csf/issues"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ComponentDriven/csf.git"
+			},
+			"license": "MIT",
+			"main": "dist/index.js",
+			"types": "dist/index.d.ts",
+			"scripts": {
+				"build": "babel src --out-dir dist --extensions \".ts\" && tsc --emitDeclarationOnly",
+				"lint": "eslint src --ext .js,.ts",
+				"test": "jest",
+				"release": "yarn build && auto shipit"
+			},
+			"eslintConfig": {
+				"extends": [
+					"@storybook/eslint-config-storybook"
+				]
+			},
+			"prettier": "@storybook/linter-config/prettier.config",
+			"jest": {
+				"testEnvironment": "node"
+			},
+			"dependencies": {
+				"lodash": "^4.17.15"
+			},
+			"devDependencies": {
+				"@babel/cli": "^7.8.4",
+				"@babel/core": "^7.9.0",
+				"@babel/preset-env": "^7.9.5",
+				"@babel/preset-typescript": "^7.9.0",
+				"@storybook/eslint-config-storybook": "^2.1.0",
+				"@types/jest": "^24.0.23",
+				"@types/lodash": "^4.14.149",
+				"auto": "^10.31.0",
+				"babel-core": "7.0.0-bridge.0",
+				"babel-jest": "^24.9.0",
+				"common-tags": "^1.8.0",
+				"eslint": "^6.7.1",
+				"jest": "^24.9.0",
+				"prettier": "^1.19.1",
+				"typescript": "^3.7.2"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"readmeFilename": "README.md",
+			"gitHead": "835a408711df516e2dfaa17d0724da42ec691df8",
+			"_id": "@storybook/csf@0.0.2--canary.835a408.0",
+			"_nodeVersion": "14.17.6",
+			"_npmVersion": "6.14.15",
+			"dist": {
+				"integrity": "sha512-4LV+Le6aecqMPQ5hUAMawnTe2FTrLZ5y66F1iWo4ALwjK3t14pRMV68cNs0baYZUEcm3fA7vh/Ol6zywNlkL8A==",
+				"shasum": "3cee923a345b07b9b77eb818a5b968bb6502b61e",
+				"tarball": "https://registry.npmjs.org/@storybook/csf/-/csf-0.0.2--canary.835a408.0.tgz",
+				"fileCount": 17,
+				"unpackedSize": 30963,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJhuoG/CRA9TVsSAnZWagAAMn0P/0uTYBNXyU4iJ2pelWNJ\nG3qbG9M64KID4g8K6epUoWVlyRkEKIfIU5Y6/guRNNdGgZmelVj/FAY3z0cv\nu9i3iDd/q98g79sz+02dRpugczX6MJcA0BlaDvh63FwII7tFDzJJ6SwY+jGe\n5bpZ8HMi7nJX+zb4e4wGKGTNNt937ul1FI18u62BKCAppXkp5JP6kkCpKBST\nVs8qmx1Jz0AjHF/fGvtRoFdR+yICPrbIO9DMlexr57YDRU7emzuyPWe7ZlWq\ng45PsBw3CCCj1pNO8heyFSOYrvrONEyDuZgXmFpojpOvgWtULDMVeWctx527\nNrx8MUimaYBnyZm7WBdO2IL8/UePS1YOMKr3QbfoIQr8zfDiEt90fCOxK2gz\nW9zLQiVKfwSgMm+RfzB4ih7IkbvzGhMhO+qurRWEtYxOcMDMX8TJy9wOCdJ2\nSydwIHOXIV9RF6er03TiN9s4ypERFt2xPTCbAOW2FXGNVQlyOH5Ke2tdOwpF\nUx6YAkDI2VsvdhvIw4FsSk6dpvmSaivMx6EwRro6poSqcBYnh5XVWSYBtAm/\npCdn7Go0wbWnV/Aw5c/d9+YWpKV1+kX5idj4uxX2heb0DbhDRse5gK4OAVSF\nWh8s7lMZ4mP/NrkQil2odm0EjuzrhGprRnXDG6/GqXRwEOEejkodLp+hpEAV\nAEoj\r\n=vppu\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQCi9FUbyXvYu1P9+BVWUbCAAVp2Gtv2/eHKVH4GrlZlqAIgN+RH9DBaHIKRgO+tXAATFUbscWZbrD92y2KlU8NnR58="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "shilman",
+				"email": "michael@lab80.co"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "kylegach",
+					"email": "kyle.gach@gmail.com"
+				},
+				{
+					"name": "tooppaaa",
+					"email": "clementdungler@gmail.com"
+				},
+				{
+					"name": "ndelangen",
+					"email": "ndelangen@me.com"
+				},
+				{
+					"name": "shilman",
+					"email": "michael@lab80.co"
+				},
+				{
+					"name": "alexandrebodin",
+					"email": "bodin.alex@gmail.com"
+				},
+				{
+					"name": "hypnosphi",
+					"email": "talpa@yandex.ru"
+				},
+				{
+					"name": "danielduan",
+					"email": "dduan@yahoo.com"
+				},
+				{
+					"name": "igor-dv",
+					"email": "davydkin.igor@gmail.com"
+				},
+				{
+					"name": "pksunkara",
+					"email": "pavan.sss1991@gmail.com"
+				},
+				{
+					"name": "tmeasday",
+					"email": "tom@thesnail.org"
+				},
+				{
+					"name": "gongreg",
+					"email": "gytis.vinclovas@gmail.com"
+				},
+				{
+					"name": "domyen",
+					"email": "dom@hichroma.com"
+				},
+				{
+					"name": "usulpro",
+					"email": "regx@usul.su"
+				},
+				{
+					"name": "kylesuss",
+					"email": "susskyle@gmail.com"
+				},
+				{
+					"name": "ghengeveld",
+					"email": "info@ghengeveld.nl"
+				},
+				{
+					"name": "pago",
+					"email": "patrick.gotthardt@trivago.com"
+				},
+				{
+					"name": "dandean",
+					"email": "me@dandean.com"
+				},
+				{
+					"name": "codebyalex",
+					"email": "wilsonc.alexander@gmail.com"
+				},
+				{
+					"name": "mrmckeb",
+					"email": "mrmckeb.npm@outlook.com"
+				},
+				{
+					"name": "dannyhw",
+					"email": "danny.h.williams@hotmail.com"
+				},
+				{
+					"name": "winkervsbecks",
+					"email": "varunvachhar@gmail.com"
+				},
+				{
+					"name": "rvasikarla",
+					"email": "vasikarla.raj@gmail.com"
+				},
+				{
+					"name": "amalik2",
+					"email": "ahnmalik2@gmail.com"
+				},
+				{
+					"name": "lshadler",
+					"email": "lshadler13@gmail.com"
+				},
+				{
+					"name": "phated",
+					"email": "blaine.bublitz@gmail.com"
+				},
+				{
+					"name": "yannbf",
+					"email": "yannbf@gmail.com"
+				},
+				{
+					"name": "dylanpiercey",
+					"email": "pierceydylan@gmail.com"
+				},
+				{
+					"name": "monkeyworks",
+					"email": "igor.szyporyn@gmail.com"
+				},
+				{
+					"name": "darleendenno",
+					"email": "darleendenno@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/csf_0.0.2--canary.835a408.0_1639612863367_0.7543400460251912"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.0.2--canary.789b78e.0": {
+			"name": "@storybook/csf",
+			"version": "0.0.2--canary.789b78e.0",
+			"description": "Component Story Format (CSF) utilities",
+			"keywords": [
+				"storybook",
+				"component story format",
+				"csf",
+				"stories"
+			],
+			"homepage": "https://github.com/ComponentDriven/csf",
+			"bugs": {
+				"url": "https://github.com/ComponentDriven/csf/issues"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ComponentDriven/csf.git"
+			},
+			"license": "MIT",
+			"main": "dist/index.js",
+			"types": "dist/index.d.ts",
+			"scripts": {
+				"build": "babel src --out-dir dist --extensions \".ts\" && tsc --emitDeclarationOnly",
+				"lint": "eslint src --ext .js,.ts",
+				"test": "jest",
+				"release": "yarn build && auto shipit"
+			},
+			"eslintConfig": {
+				"extends": [
+					"@storybook/eslint-config-storybook"
+				]
+			},
+			"prettier": "@storybook/linter-config/prettier.config",
+			"jest": {
+				"testEnvironment": "node"
+			},
+			"dependencies": {
+				"lodash": "^4.17.15"
+			},
+			"devDependencies": {
+				"@babel/cli": "^7.8.4",
+				"@babel/core": "^7.9.0",
+				"@babel/preset-env": "^7.9.5",
+				"@babel/preset-typescript": "^7.9.0",
+				"@storybook/eslint-config-storybook": "^2.1.0",
+				"@types/jest": "^24.0.23",
+				"@types/lodash": "^4.14.149",
+				"auto": "^10.31.0",
+				"babel-core": "7.0.0-bridge.0",
+				"babel-jest": "^24.9.0",
+				"common-tags": "^1.8.0",
+				"eslint": "^6.7.1",
+				"jest": "^24.9.0",
+				"prettier": "^1.19.1",
+				"typescript": "^3.7.2"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"readmeFilename": "README.md",
+			"gitHead": "789b78ef6019c92d3d2008acbba2c0187d62a607",
+			"_id": "@storybook/csf@0.0.2--canary.789b78e.0",
+			"_nodeVersion": "14.17.6",
+			"_npmVersion": "6.14.15",
+			"dist": {
+				"integrity": "sha512-/VEh1D8SiHZKNLJPZwdYK7k/jtMoLjor5hGP/kieN13uVumuiUHsz63b54flxrYWZVkGw0Zk8aLrL3RQH5uMxg==",
+				"shasum": "1924b3f94536b8fd817c628b76080fa58d74f093",
+				"tarball": "https://registry.npmjs.org/@storybook/csf/-/csf-0.0.2--canary.789b78e.0.tgz",
+				"fileCount": 17,
+				"unpackedSize": 31893,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJiDxmXACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2VmqkfQ//T6vrbOEDXXHlyucNsi6pmI6ei6TBYj0fvx2o4/tBDr9NhFKc\r\nbg34MuDf7HjHZAOqooC+Km3bihvthELy/wJgGpqcnzR8QTzPgcSou53h3BMI\r\nxu8YSV1NpSnNsTkjNr3BmPCRZaqVuZpXjlHWqxPCJ10cBvuVcsz/Tnrrdevi\r\nYtnE8S7XokZ4X0V5nMm3zX8BddzOYecg2VK5K+WdB88soGySH/uySs055ZMX\r\n+RK4I7bmnTp97QveMqvOdYRyj4WPCuszoprPFsEZa0cmMF85AQnX94EEMSRE\r\nuDv2C/YuXpDdJ5xBS+EL0Egd6wtFxlEx+NYjhhQJ9upC238YAMblnb36wHIL\r\nxdXXOiUMdVmaBYe89RjTtTOGmlpol8AQkG0WUAJGcdAF9w4F75c3lgZGJSJO\r\n6AeSmyq/UEy3SSqxrokO0Yk8wMVyO/MrYr79JeQ3h0USkX/nUtIClvVVJS/D\r\nwh09UZYxERw7TsqYfezp8qVzwhF6Tk+xJF50tzbUpwc+p/gav7jjhl0l07MV\r\nLsbJM0F+wj0D75tMX45SFz5T/F21ayq2qI9jkqn3dBK6715uEvB399z2OxsL\r\nQ9vjsGgGbyQvj5ixTd9FXjK/SDlUhzjFv3xbeHMRESj+gffOGOXvFOlqPCHc\r\nTkAqg9yPAhuNyTaxMTfp00xxGvQwguvYnOo=\r\n=8Alr\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQC9lUzd9X5FUw0Lgeo/88JmBuRPZr6Ka/5yJ8+/T/HRGQIhAKq6E799MPCq04UdbuA/+8EUTMiCwzqRJQ0Ef2wXAg49"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "shilman",
+				"email": "michael@lab80.co"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "kylegach",
+					"email": "kyle.gach@gmail.com"
+				},
+				{
+					"name": "tooppaaa",
+					"email": "clementdungler@gmail.com"
+				},
+				{
+					"name": "ndelangen",
+					"email": "ndelangen@me.com"
+				},
+				{
+					"name": "shilman",
+					"email": "michael@lab80.co"
+				},
+				{
+					"name": "alexandrebodin",
+					"email": "bodin.alex@gmail.com"
+				},
+				{
+					"name": "hypnosphi",
+					"email": "talpa@yandex.ru"
+				},
+				{
+					"name": "danielduan",
+					"email": "dduan@yahoo.com"
+				},
+				{
+					"name": "igor-dv",
+					"email": "davydkin.igor@gmail.com"
+				},
+				{
+					"name": "pksunkara",
+					"email": "pavan.sss1991@gmail.com"
+				},
+				{
+					"name": "tmeasday",
+					"email": "tom@thesnail.org"
+				},
+				{
+					"name": "gongreg",
+					"email": "gytis.vinclovas@gmail.com"
+				},
+				{
+					"name": "domyen",
+					"email": "dom@hichroma.com"
+				},
+				{
+					"name": "usulpro",
+					"email": "regx@usul.su"
+				},
+				{
+					"name": "kylesuss",
+					"email": "susskyle@gmail.com"
+				},
+				{
+					"name": "ghengeveld",
+					"email": "info@ghengeveld.nl"
+				},
+				{
+					"name": "pago",
+					"email": "patrick.gotthardt@trivago.com"
+				},
+				{
+					"name": "dandean",
+					"email": "me@dandean.com"
+				},
+				{
+					"name": "codebyalex",
+					"email": "wilsonc.alexander@gmail.com"
+				},
+				{
+					"name": "mrmckeb",
+					"email": "mrmckeb.npm@outlook.com"
+				},
+				{
+					"name": "dannyhw",
+					"email": "danny.h.williams@hotmail.com"
+				},
+				{
+					"name": "winkervsbecks",
+					"email": "varunvachhar@gmail.com"
+				},
+				{
+					"name": "rvasikarla",
+					"email": "vasikarla.raj@gmail.com"
+				},
+				{
+					"name": "amalik2",
+					"email": "ahnmalik2@gmail.com"
+				},
+				{
+					"name": "lshadler",
+					"email": "lshadler13@gmail.com"
+				},
+				{
+					"name": "phated",
+					"email": "blaine.bublitz@gmail.com"
+				},
+				{
+					"name": "yannbf",
+					"email": "yannbf@gmail.com"
+				},
+				{
+					"name": "dylanpiercey",
+					"email": "pierceydylan@gmail.com"
+				},
+				{
+					"name": "monkeyworks",
+					"email": "igor.szyporyn@gmail.com"
+				},
+				{
+					"name": "darleendenno",
+					"email": "darleendenno@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/csf_0.0.2--canary.789b78e.0_1645156759765_0.9263063528345423"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.0.2--canary.507502b.0": {
+			"name": "@storybook/csf",
+			"version": "0.0.2--canary.507502b.0",
+			"description": "Component Story Format (CSF) utilities",
+			"keywords": [
+				"storybook",
+				"component story format",
+				"csf",
+				"stories"
+			],
+			"homepage": "https://github.com/ComponentDriven/csf",
+			"bugs": {
+				"url": "https://github.com/ComponentDriven/csf/issues"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ComponentDriven/csf.git"
+			},
+			"license": "MIT",
+			"main": "dist/index.js",
+			"types": "dist/index.d.ts",
+			"scripts": {
+				"build": "babel src --out-dir dist --extensions \".ts\" && tsc --emitDeclarationOnly",
+				"lint": "eslint src --ext .js,.ts",
+				"test": "jest",
+				"release": "yarn build && auto shipit"
+			},
+			"eslintConfig": {
+				"extends": [
+					"@storybook/eslint-config-storybook"
+				]
+			},
+			"prettier": "@storybook/linter-config/prettier.config",
+			"jest": {
+				"testEnvironment": "node"
+			},
+			"dependencies": {
+				"lodash": "^4.17.15"
+			},
+			"devDependencies": {
+				"@babel/cli": "^7.8.4",
+				"@babel/core": "^7.9.0",
+				"@babel/preset-env": "^7.9.5",
+				"@babel/preset-typescript": "^7.9.0",
+				"@storybook/eslint-config-storybook": "^2.1.0",
+				"@types/jest": "^24.0.23",
+				"@types/lodash": "^4.14.149",
+				"auto": "^10.31.0",
+				"babel-core": "7.0.0-bridge.0",
+				"babel-jest": "^24.9.0",
+				"common-tags": "^1.8.0",
+				"eslint": "^6.7.1",
+				"jest": "^24.9.0",
+				"prettier": "^1.19.1",
+				"typescript": "^3.7.2"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"readmeFilename": "README.md",
+			"gitHead": "507502b66fd7e7b7e7f341734b5f6ded44b28ade",
+			"_id": "@storybook/csf@0.0.2--canary.507502b.0",
+			"_nodeVersion": "16.13.0",
+			"_npmVersion": "8.1.0",
+			"dist": {
+				"integrity": "sha512-8WnH9H3rm2D3iK6b0QDAlpzb4ozQCW8pX0x2txN/9wRjjdbAJQ9wUEGVYPteQn7nZ+6NRw2EcVvsDY5X+BP/NA==",
+				"shasum": "02f6f187a77a46f0dad8b061371201c7eb2395aa",
+				"tarball": "https://registry.npmjs.org/@storybook/csf/-/csf-0.0.2--canary.507502b.0.tgz",
+				"fileCount": 17,
+				"unpackedSize": 32095,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJiF0jPACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2VmqJZA//SsTZa84TCzBhfJU8hXO0Lk6z/K3bqTwz5aqJbp0hUFhocp3h\r\nLB0XnFcRtQXMsVDOgVzW39gYL0vVgnDORPbU2GMFh1QOSBCr7PcEF3NUI5GL\r\nNKwZvgAQgryAngumuarvS2xE/B2jX2kcb1JS8DZkUmJWgpx5SDZu/Kd6EyCm\r\n8nCDS7vY17+Idf8mtsD92bBv1nRAV+VpyFeeDQfkGhCaqNIOTasbjseE23HQ\r\n4eK+vSbKXQQ6adHVOAnofhQIj9/+TjLR4n94EIhq7OqxuVzgySyvZoX3K3NY\r\nr101YNZJkWdp0LNTdztAPL4dxiru4bC1qXo00ltHzm0kNYuf7+0wurfFnrN6\r\npfwLaCtLpujq+/HDhCpXwrPaoz/a7C5EhLaaZGgm2N4xo6IMO0olZQbm8e6E\r\n54U8fbFz7AKZc3PtRBgNkZhQvJMGEmLiM8kzYkXMxf+XdVpDLH/l477J2aKf\r\nKepNithpLprudWuSzaSZm5Qk/QfAkScjMCX6o1vcIpdZfL/yy/ZFQYqBN7e4\r\npbaoYNkJ2cxMzo+JoNMisUQSmtuiEuccLPna/D2In9/BQEC8Gkdi0jd8u2fY\r\ntReVF4cU4/dIeSMyFuRYbb3tAYuwIZcuEYoiengUhIf0/sTEqbLlIWtZfJOv\r\nztfBjqwoUfSCxQqLBqI6oYrHn75/Oa7bjKg=\r\n=/uCI\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIE6z3qWxt+ZbMl9kU36YP9R6LsXDaKC7CMSZ+2HeL3ZsAiEA7uzpvWDUneEzmm8CA1k60pnokViOFLsh27S77V2X+V8="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "shilman",
+				"email": "michael@lab80.co"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "kylegach",
+					"email": "kyle.gach@gmail.com"
+				},
+				{
+					"name": "tooppaaa",
+					"email": "clementdungler@gmail.com"
+				},
+				{
+					"name": "ndelangen",
+					"email": "ndelangen@me.com"
+				},
+				{
+					"name": "shilman",
+					"email": "michael@lab80.co"
+				},
+				{
+					"name": "alexandrebodin",
+					"email": "bodin.alex@gmail.com"
+				},
+				{
+					"name": "hypnosphi",
+					"email": "talpa@yandex.ru"
+				},
+				{
+					"name": "danielduan",
+					"email": "dduan@yahoo.com"
+				},
+				{
+					"name": "igor-dv",
+					"email": "davydkin.igor@gmail.com"
+				},
+				{
+					"name": "pksunkara",
+					"email": "pavan.sss1991@gmail.com"
+				},
+				{
+					"name": "tmeasday",
+					"email": "tom@thesnail.org"
+				},
+				{
+					"name": "gongreg",
+					"email": "gytis.vinclovas@gmail.com"
+				},
+				{
+					"name": "domyen",
+					"email": "dom@hichroma.com"
+				},
+				{
+					"name": "usulpro",
+					"email": "regx@usul.su"
+				},
+				{
+					"name": "kylesuss",
+					"email": "susskyle@gmail.com"
+				},
+				{
+					"name": "ghengeveld",
+					"email": "info@ghengeveld.nl"
+				},
+				{
+					"name": "pago",
+					"email": "patrick.gotthardt@trivago.com"
+				},
+				{
+					"name": "dandean",
+					"email": "me@dandean.com"
+				},
+				{
+					"name": "codebyalex",
+					"email": "wilsonc.alexander@gmail.com"
+				},
+				{
+					"name": "mrmckeb",
+					"email": "mrmckeb.npm@outlook.com"
+				},
+				{
+					"name": "dannyhw",
+					"email": "danny.h.williams@hotmail.com"
+				},
+				{
+					"name": "winkervsbecks",
+					"email": "varunvachhar@gmail.com"
+				},
+				{
+					"name": "rvasikarla",
+					"email": "vasikarla.raj@gmail.com"
+				},
+				{
+					"name": "amalik2",
+					"email": "ahnmalik2@gmail.com"
+				},
+				{
+					"name": "lshadler",
+					"email": "lshadler13@gmail.com"
+				},
+				{
+					"name": "phated",
+					"email": "blaine.bublitz@gmail.com"
+				},
+				{
+					"name": "yannbf",
+					"email": "yannbf@gmail.com"
+				},
+				{
+					"name": "dylanpiercey",
+					"email": "pierceydylan@gmail.com"
+				},
+				{
+					"name": "monkeyworks",
+					"email": "igor.szyporyn@gmail.com"
+				},
+				{
+					"name": "darleendenno",
+					"email": "darleendenno@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/csf_0.0.2--canary.507502b.0_1645693134884_0.37919079734762695"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.0.2--canary.d38f8f1.0": {
+			"name": "@storybook/csf",
+			"version": "0.0.2--canary.d38f8f1.0",
+			"description": "Component Story Format (CSF) utilities",
+			"keywords": [
+				"storybook",
+				"component story format",
+				"csf",
+				"stories"
+			],
+			"homepage": "https://github.com/ComponentDriven/csf",
+			"bugs": {
+				"url": "https://github.com/ComponentDriven/csf/issues"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ComponentDriven/csf.git"
+			},
+			"license": "MIT",
+			"main": "dist/index.js",
+			"types": "dist/index.d.ts",
+			"scripts": {
+				"build": "babel src --out-dir dist --extensions \".ts\" && tsc --emitDeclarationOnly",
+				"lint": "eslint src --ext .js,.ts",
+				"test": "jest",
+				"release": "yarn build && auto shipit"
+			},
+			"eslintConfig": {
+				"extends": [
+					"@storybook/eslint-config-storybook"
+				]
+			},
+			"prettier": "@storybook/linter-config/prettier.config",
+			"jest": {
+				"testEnvironment": "node"
+			},
+			"dependencies": {
+				"lodash": "^4.17.15"
+			},
+			"devDependencies": {
+				"@babel/cli": "^7.8.4",
+				"@babel/core": "^7.9.0",
+				"@babel/preset-env": "^7.9.5",
+				"@babel/preset-typescript": "^7.9.0",
+				"@storybook/eslint-config-storybook": "^2.1.0",
+				"@types/jest": "^24.0.23",
+				"@types/lodash": "^4.14.149",
+				"auto": "^10.31.0",
+				"babel-core": "7.0.0-bridge.0",
+				"babel-jest": "^24.9.0",
+				"common-tags": "^1.8.0",
+				"eslint": "^6.7.1",
+				"jest": "^24.9.0",
+				"prettier": "^1.19.1",
+				"typescript": "^3.7.2"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"readmeFilename": "README.md",
+			"gitHead": "d38f8f1731594f7c1bcde9d66d58fe60cb49b8ce",
+			"_id": "@storybook/csf@0.0.2--canary.d38f8f1.0",
+			"_nodeVersion": "16.13.0",
+			"_npmVersion": "8.1.0",
+			"dist": {
+				"integrity": "sha512-2zW6gyQvVVf/H8CRZQctSUPR2iHOMrms0dNxv9OyPo0TlS1Y84mJKu7jppAjxF/iUlDwl9HY+HJYChR6X4Q83Q==",
+				"shasum": "cb62868ee5c1a57438a3cc44dc370313bfad2d35",
+				"tarball": "https://registry.npmjs.org/@storybook/csf/-/csf-0.0.2--canary.d38f8f1.0.tgz",
+				"fileCount": 21,
+				"unpackedSize": 40521,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDu84diCD/FdJS9mto+261WIsIefyEj4ckbQi4lQiEMFwIhAIbOr4m3Fe3gBtdEy5gEYmlhQZJHMEu55XdkUYrCQSAz"
+					}
+				],
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJiS61AACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2Vmph7xAAok9aXaJ6vGV0WqJTFnTAQ0dbT0qXFG8zGDv+LFQbvBSIa9Wf\r\nLMO5KzPkeHxvKrcB/7/t6M9McdhGhIlDihSIcMzVK0G++uwJmPnSwNi8HpF7\r\nAfMf2En13PbY8aVwl9ChByGCyPS7HfLcYQybCwDEqhTPskgGXtxNm7ImLNsV\r\njalb8aVmxWRds6Q9SGmWlPBfzQ5GGNnCbzSovm41txr/Konkkwr51T9NjrS7\r\nNuZ6I877c/m5qHAMQZfhXle4dJ7PQEB5/ntfUAYMbAOGUluRilJfmWTNcxn+\r\nG01Do7PfzTK7xLvqH4VTuER8FJYVeB8pUNjcgUziss4DR7W62ivjFTh9KVwu\r\nLfFiU/3EQVMKbeejOIpHhGY6icCzsWC2YZSV0XTEStluXt1eYC1mELk1u575\r\n2zdgn+gtYBFggFNUB8EzyzW0TPUeVX9MMJYnLjYkIVtSdbSTjjbVHt+3imQR\r\nhxU0uQUr01titLWEFymZcDoVpGqQ1Gh5NT4yI8X4xEBHZVfV4JFMLo3JWQVp\r\n/euFhWnzp59EWZuAS56yd+SuIUk7JdnTAhDEwxqnk5aae6pchDxe1qRpJW1w\r\nqFBK9WkYewsXNZVhr6mUaLKKB080WOABSIwlqNDzbcFFxYCdNdLprLvsCK2b\r\nV5XSOx5nA3aRKg1cVveSLSHh2DqNODiPw/A=\r\n=roUW\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "shilman",
+				"email": "michael@lab80.co"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "kylegach",
+					"email": "kyle.gach@gmail.com"
+				},
+				{
+					"name": "tooppaaa",
+					"email": "clementdungler@gmail.com"
+				},
+				{
+					"name": "ndelangen",
+					"email": "ndelangen@me.com"
+				},
+				{
+					"name": "shilman",
+					"email": "michael@lab80.co"
+				},
+				{
+					"name": "alexandrebodin",
+					"email": "bodin.alex@gmail.com"
+				},
+				{
+					"name": "hypnosphi",
+					"email": "talpa@yandex.ru"
+				},
+				{
+					"name": "danielduan",
+					"email": "dduan@yahoo.com"
+				},
+				{
+					"name": "igor-dv",
+					"email": "davydkin.igor@gmail.com"
+				},
+				{
+					"name": "pksunkara",
+					"email": "pavan.sss1991@gmail.com"
+				},
+				{
+					"name": "tmeasday",
+					"email": "tom@thesnail.org"
+				},
+				{
+					"name": "gongreg",
+					"email": "gytis.vinclovas@gmail.com"
+				},
+				{
+					"name": "domyen",
+					"email": "dom@hichroma.com"
+				},
+				{
+					"name": "usulpro",
+					"email": "regx@usul.su"
+				},
+				{
+					"name": "kylesuss",
+					"email": "susskyle@gmail.com"
+				},
+				{
+					"name": "ghengeveld",
+					"email": "info@ghengeveld.nl"
+				},
+				{
+					"name": "pago",
+					"email": "patrick.gotthardt@trivago.com"
+				},
+				{
+					"name": "dandean",
+					"email": "me@dandean.com"
+				},
+				{
+					"name": "codebyalex",
+					"email": "wilsonc.alexander@gmail.com"
+				},
+				{
+					"name": "mrmckeb",
+					"email": "mrmckeb.npm@outlook.com"
+				},
+				{
+					"name": "dannyhw",
+					"email": "danny.h.williams@hotmail.com"
+				},
+				{
+					"name": "winkervsbecks",
+					"email": "varunvachhar@gmail.com"
+				},
+				{
+					"name": "rvasikarla",
+					"email": "vasikarla.raj@gmail.com"
+				},
+				{
+					"name": "amalik2",
+					"email": "ahnmalik2@gmail.com"
+				},
+				{
+					"name": "lshadler",
+					"email": "lshadler13@gmail.com"
+				},
+				{
+					"name": "phated",
+					"email": "blaine.bublitz@gmail.com"
+				},
+				{
+					"name": "yannbf",
+					"email": "yannbf@gmail.com"
+				},
+				{
+					"name": "dylanpiercey",
+					"email": "pierceydylan@gmail.com"
+				},
+				{
+					"name": "monkeyworks",
+					"email": "igor.szyporyn@gmail.com"
+				},
+				{
+					"name": "darleendenno",
+					"email": "darleendenno@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/csf_0.0.2--canary.d38f8f1.0_1649126720617_0.031121027203714346"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.0.2--canary.92ac0db.0": {
+			"name": "@storybook/csf",
+			"version": "0.0.2--canary.92ac0db.0",
+			"description": "Component Story Format (CSF) utilities",
+			"keywords": [
+				"storybook",
+				"component story format",
+				"csf",
+				"stories"
+			],
+			"homepage": "https://github.com/ComponentDriven/csf",
+			"bugs": {
+				"url": "https://github.com/ComponentDriven/csf/issues"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ComponentDriven/csf.git"
+			},
+			"license": "MIT",
+			"main": "dist/index.js",
+			"types": "dist/index.d.ts",
+			"scripts": {
+				"build": "babel src --out-dir dist --extensions \".ts\" && tsc --emitDeclarationOnly",
+				"lint": "eslint src --ext .js,.ts",
+				"test": "jest",
+				"release": "yarn build && auto shipit"
+			},
+			"eslintConfig": {
+				"extends": [
+					"@storybook/eslint-config-storybook"
+				]
+			},
+			"prettier": "@storybook/linter-config/prettier.config",
+			"jest": {
+				"testEnvironment": "node"
+			},
+			"dependencies": {
+				"lodash": "^4.17.15"
+			},
+			"devDependencies": {
+				"@babel/cli": "^7.8.4",
+				"@babel/core": "^7.9.0",
+				"@babel/preset-env": "^7.9.5",
+				"@babel/preset-typescript": "^7.9.0",
+				"@storybook/eslint-config-storybook": "^2.1.0",
+				"@types/jest": "^24.0.23",
+				"@types/lodash": "^4.14.149",
+				"auto": "^10.31.0",
+				"babel-core": "7.0.0-bridge.0",
+				"babel-jest": "^24.9.0",
+				"common-tags": "^1.8.0",
+				"eslint": "^6.7.1",
+				"jest": "^24.9.0",
+				"prettier": "^1.19.1",
+				"typescript": "^3.7.2"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"readmeFilename": "README.md",
+			"gitHead": "92ac0db9cf829b3694538deb2417a4095ad03633",
+			"_id": "@storybook/csf@0.0.2--canary.92ac0db.0",
+			"_nodeVersion": "16.13.0",
+			"_npmVersion": "8.1.0",
+			"dist": {
+				"integrity": "sha512-Op2s62gp/0B5yf/yMs/4s0wLS6sPy2HrBL2CNDpEK4P0EFPuVVs5CpoVTjsfbJKv47PgAs9EokVchPa0cujgLg==",
+				"shasum": "fc522e4334b446734a6cd3c5459a19a7bb389ef0",
+				"tarball": "https://registry.npmjs.org/@storybook/csf/-/csf-0.0.2--canary.92ac0db.0.tgz",
+				"fileCount": 21,
+				"unpackedSize": 41989,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIFXBiPDijUiXa0T56CliTyfgYYJc+ikznqE3Fetpz1nOAiAAgvEyzz3zMQjGXIsZC6jrCQotKDNxSm78Gx/RSBpDzw=="
+					}
+				],
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJiS7svACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2Vmr4ZRAAmqAIPrHSZsU0EzHaB0ufPxwa7IyXrYltbPOZizeKy6lgLxmn\r\nmjMCWUz1nulNwvNq78NdY8HYPp0UvNmid5wlt0VD1fh8mcTlIWRX7nq1jhZN\r\n7gAR/ut4BJBUdK22oJ+MiZEKS0sfphodg52NFPJV05+D0veM5gHUy/jNdKe/\r\nnkrvQwamG7NLzOk+gMgWau2P6tX8HNBkHcCIJozkJ65GaTPH2TcUjBN07cbh\r\npFfYhmjCd0JMNY1PxFsVKayCciGoIr2LMKUCML08bK4WrgB2GoNYCYBJz4gd\r\nZryrCvy+EgGo2Ra7F0Z7fxKE2Xu/PQHbKbsTl9FM7chsfnw2+0a2gzPao7oF\r\nXbjh0L0WsrG3bcatm6AfdDLS2X9pCgAKzpxUHdE+EsED73JIg5pmZvBh1xoy\r\nLVbsQBkvAI0ilClREtpDajL74wCbyaFpuJFhj3BgBtOQBfW7VIkuFtxbs7tA\r\nhjxHTPQTY3avS4gTMAyCTfMuGEzFwPsyTQyoDpO33fgMeq5qEHWeM/lDrMi2\r\nBXQQR6vB34iApt7wR4UpqvyjJ3odJL1UBSbQGA7YZb6+c6sgk3ksZMrND28z\r\n7B3TpVNzgZ9TGHu+UOLNEWHROWrWlTnt0XfxawQ+ZiNAZtrHEuz5pFQZ1kuQ\r\nG8d432fujVHLC5+Lfe0KahyCOpisUeZ9MTg=\r\n=a1Gl\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "shilman",
+				"email": "michael@lab80.co"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "kylegach",
+					"email": "kyle.gach@gmail.com"
+				},
+				{
+					"name": "tooppaaa",
+					"email": "clementdungler@gmail.com"
+				},
+				{
+					"name": "ndelangen",
+					"email": "ndelangen@me.com"
+				},
+				{
+					"name": "shilman",
+					"email": "michael@lab80.co"
+				},
+				{
+					"name": "alexandrebodin",
+					"email": "bodin.alex@gmail.com"
+				},
+				{
+					"name": "hypnosphi",
+					"email": "talpa@yandex.ru"
+				},
+				{
+					"name": "danielduan",
+					"email": "dduan@yahoo.com"
+				},
+				{
+					"name": "igor-dv",
+					"email": "davydkin.igor@gmail.com"
+				},
+				{
+					"name": "pksunkara",
+					"email": "pavan.sss1991@gmail.com"
+				},
+				{
+					"name": "tmeasday",
+					"email": "tom@thesnail.org"
+				},
+				{
+					"name": "gongreg",
+					"email": "gytis.vinclovas@gmail.com"
+				},
+				{
+					"name": "domyen",
+					"email": "dom@hichroma.com"
+				},
+				{
+					"name": "usulpro",
+					"email": "regx@usul.su"
+				},
+				{
+					"name": "kylesuss",
+					"email": "susskyle@gmail.com"
+				},
+				{
+					"name": "ghengeveld",
+					"email": "info@ghengeveld.nl"
+				},
+				{
+					"name": "pago",
+					"email": "patrick.gotthardt@trivago.com"
+				},
+				{
+					"name": "dandean",
+					"email": "me@dandean.com"
+				},
+				{
+					"name": "codebyalex",
+					"email": "wilsonc.alexander@gmail.com"
+				},
+				{
+					"name": "mrmckeb",
+					"email": "mrmckeb.npm@outlook.com"
+				},
+				{
+					"name": "dannyhw",
+					"email": "danny.h.williams@hotmail.com"
+				},
+				{
+					"name": "winkervsbecks",
+					"email": "varunvachhar@gmail.com"
+				},
+				{
+					"name": "rvasikarla",
+					"email": "vasikarla.raj@gmail.com"
+				},
+				{
+					"name": "amalik2",
+					"email": "ahnmalik2@gmail.com"
+				},
+				{
+					"name": "lshadler",
+					"email": "lshadler13@gmail.com"
+				},
+				{
+					"name": "phated",
+					"email": "blaine.bublitz@gmail.com"
+				},
+				{
+					"name": "yannbf",
+					"email": "yannbf@gmail.com"
+				},
+				{
+					"name": "dylanpiercey",
+					"email": "pierceydylan@gmail.com"
+				},
+				{
+					"name": "monkeyworks",
+					"email": "igor.szyporyn@gmail.com"
+				},
+				{
+					"name": "darleendenno",
+					"email": "darleendenno@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/csf_0.0.2--canary.92ac0db.0_1649130287508_0.6816214530204159"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.0.2--canary.7c6c115.0": {
+			"name": "@storybook/csf",
+			"version": "0.0.2--canary.7c6c115.0",
+			"description": "Component Story Format (CSF) utilities",
+			"keywords": [
+				"storybook",
+				"component story format",
+				"csf",
+				"stories"
+			],
+			"homepage": "https://github.com/ComponentDriven/csf",
+			"bugs": {
+				"url": "https://github.com/ComponentDriven/csf/issues"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ComponentDriven/csf.git"
+			},
+			"license": "MIT",
+			"main": "dist/index.js",
+			"types": "dist/index.d.ts",
+			"scripts": {
+				"build": "babel src --out-dir dist --extensions \".ts\" && tsc --emitDeclarationOnly",
+				"lint": "eslint src --ext .js,.ts",
+				"test": "jest",
+				"release": "yarn build && auto shipit"
+			},
+			"eslintConfig": {
+				"extends": [
+					"@storybook/eslint-config-storybook"
+				]
+			},
+			"prettier": "@storybook/linter-config/prettier.config",
+			"jest": {
+				"testEnvironment": "node",
+				"roots": [
+					"<rootDir>/src"
+				]
+			},
+			"dependencies": {
+				"lodash": "^4.17.15"
+			},
+			"devDependencies": {
+				"@babel/cli": "^7.8.4",
+				"@babel/core": "^7.9.0",
+				"@babel/preset-env": "^7.9.5",
+				"@babel/preset-typescript": "^7.9.0",
+				"@storybook/eslint-config-storybook": "^2.1.0",
+				"@types/jest": "^24.0.23",
+				"@types/lodash": "^4.14.149",
+				"auto": "^10.31.0",
+				"babel-core": "7.0.0-bridge.0",
+				"babel-jest": "^24.9.0",
+				"common-tags": "^1.8.0",
+				"eslint": "^6.7.1",
+				"jest": "^24.9.0",
+				"prettier": "^1.19.1",
+				"typescript": "^3.7.2"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"readmeFilename": "README.md",
+			"gitHead": "7c6c115da15780b88894814c411f19c54722e506",
+			"_id": "@storybook/csf@0.0.2--canary.7c6c115.0",
+			"_nodeVersion": "16.13.0",
+			"_npmVersion": "8.1.0",
+			"dist": {
+				"integrity": "sha512-LRIDJp2JionBqZ4/c2DncDk5jGzd3sua92jGbQVRtVyIGdaAVDuNtqXY9Fh+yzO7QE03Cm+BEs59Yat5J7EdEQ==",
+				"shasum": "91724e34be7b168acddb8df7e7821ed371ce31ff",
+				"tarball": "https://registry.npmjs.org/@storybook/csf/-/csf-0.0.2--canary.7c6c115.0.tgz",
+				"fileCount": 21,
+				"unpackedSize": 42379,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIEG/jLRwhfrp9TR1InT4hRp0M1BWlp6xevNQgrTILNhDAiBXKBzWVHMojfQGf5NJCZDcjifJqKu+CuSg2TxdGF98hA=="
+					}
+				],
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJiS8bCACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2Vmq5rBAAgbCLgZ+f36BjNjI8g3Z+KVs6oHJE8rb1VBmzJuj11+zPNjaZ\r\nuGug1pyv4GkF6kV3vnPa79Wy7DIULO7crFtI1+pD17cN5PKul8jPc8aq09I6\r\neM0xvbo9fZAS3+riG2wLSmYJC4Tu4cL8znphLTcOKi/D8jCYNua+9Sb5MXS5\r\naaAv20gzN5+JvlPJxB0nkAe/rIE/S4ydULzAlL95K9APMLFTgoFC77imy0Bc\r\novCdQgRvfz0z5I9QtlZ6KU7MLdT45FAx+clfdvMwzoPuC9mjm2yUL+eWZ471\r\nXrw2hMBOay5fs/RtquWo5uuueJtLw02T42c18CfKF5qLkYNeWlYGXVS6sbrJ\r\nsI2HSdh9wrqRV/+A3AEile5g6vKNIfRxW6sX7IAI0Rqm9VITcw6DON4Iz6O4\r\nQUsorTl76IIOrmMcspwRG/3AouDPX6ElIdl6AnqqzhBD8Kke0t3smSEIx97D\r\nOrnf8nU+DhI2fko9IHabd3FoyIXi+1A5oee1vXn22Fg9bADhJp7BnW7t1p8l\r\n+0CB5tQZhl1fd2FrZtt5rKo1DTVVbRZ12jiAMecsHStYC/mY1EjDgUCELIK6\r\n3GPydIVFRmSLiASl5PIPpOK8xi5MTUQD31VkFhbLHpb6lkwjRrfekmDXHqWJ\r\n0shll+CCf3J47HVTI/DVrF/XeqDCfOJi33U=\r\n=bFD7\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "shilman",
+				"email": "michael@lab80.co"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "kylegach",
+					"email": "kyle.gach@gmail.com"
+				},
+				{
+					"name": "tooppaaa",
+					"email": "clementdungler@gmail.com"
+				},
+				{
+					"name": "ndelangen",
+					"email": "ndelangen@me.com"
+				},
+				{
+					"name": "shilman",
+					"email": "michael@lab80.co"
+				},
+				{
+					"name": "alexandrebodin",
+					"email": "bodin.alex@gmail.com"
+				},
+				{
+					"name": "hypnosphi",
+					"email": "talpa@yandex.ru"
+				},
+				{
+					"name": "danielduan",
+					"email": "dduan@yahoo.com"
+				},
+				{
+					"name": "igor-dv",
+					"email": "davydkin.igor@gmail.com"
+				},
+				{
+					"name": "pksunkara",
+					"email": "pavan.sss1991@gmail.com"
+				},
+				{
+					"name": "tmeasday",
+					"email": "tom@thesnail.org"
+				},
+				{
+					"name": "gongreg",
+					"email": "gytis.vinclovas@gmail.com"
+				},
+				{
+					"name": "domyen",
+					"email": "dom@hichroma.com"
+				},
+				{
+					"name": "usulpro",
+					"email": "regx@usul.su"
+				},
+				{
+					"name": "kylesuss",
+					"email": "susskyle@gmail.com"
+				},
+				{
+					"name": "ghengeveld",
+					"email": "info@ghengeveld.nl"
+				},
+				{
+					"name": "pago",
+					"email": "patrick.gotthardt@trivago.com"
+				},
+				{
+					"name": "dandean",
+					"email": "me@dandean.com"
+				},
+				{
+					"name": "codebyalex",
+					"email": "wilsonc.alexander@gmail.com"
+				},
+				{
+					"name": "mrmckeb",
+					"email": "mrmckeb.npm@outlook.com"
+				},
+				{
+					"name": "dannyhw",
+					"email": "danny.h.williams@hotmail.com"
+				},
+				{
+					"name": "winkervsbecks",
+					"email": "varunvachhar@gmail.com"
+				},
+				{
+					"name": "rvasikarla",
+					"email": "vasikarla.raj@gmail.com"
+				},
+				{
+					"name": "amalik2",
+					"email": "ahnmalik2@gmail.com"
+				},
+				{
+					"name": "lshadler",
+					"email": "lshadler13@gmail.com"
+				},
+				{
+					"name": "phated",
+					"email": "blaine.bublitz@gmail.com"
+				},
+				{
+					"name": "yannbf",
+					"email": "yannbf@gmail.com"
+				},
+				{
+					"name": "dylanpiercey",
+					"email": "pierceydylan@gmail.com"
+				},
+				{
+					"name": "monkeyworks",
+					"email": "igor.szyporyn@gmail.com"
+				},
+				{
+					"name": "darleendenno",
+					"email": "darleendenno@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/csf_0.0.2--canary.7c6c115.0_1649133249794_0.5400741922323149"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.0.2--canary.4566f4d.0": {
+			"name": "@storybook/csf",
+			"version": "0.0.2--canary.4566f4d.0",
+			"description": "Component Story Format (CSF) utilities",
+			"keywords": [
+				"storybook",
+				"component story format",
+				"csf",
+				"stories"
+			],
+			"homepage": "https://github.com/ComponentDriven/csf",
+			"bugs": {
+				"url": "https://github.com/ComponentDriven/csf/issues"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ComponentDriven/csf.git"
+			},
+			"license": "MIT",
+			"main": "dist/index.js",
+			"types": "dist/index.d.ts",
+			"scripts": {
+				"build": "babel src --out-dir dist --extensions \".ts\" && tsc --emitDeclarationOnly",
+				"lint": "eslint src --ext .js,.ts",
+				"test": "jest",
+				"release": "yarn build && auto shipit"
+			},
+			"eslintConfig": {
+				"extends": [
+					"@storybook/eslint-config-storybook"
+				]
+			},
+			"prettier": "@storybook/linter-config/prettier.config",
+			"jest": {
+				"testEnvironment": "node",
+				"roots": [
+					"<rootDir>/src"
+				]
+			},
+			"dependencies": {
+				"lodash": "^4.17.15"
+			},
+			"devDependencies": {
+				"@babel/cli": "^7.8.4",
+				"@babel/core": "^7.9.0",
+				"@babel/preset-env": "^7.9.5",
+				"@babel/preset-typescript": "^7.9.0",
+				"@storybook/eslint-config-storybook": "^2.1.0",
+				"@types/jest": "^24.0.23",
+				"@types/lodash": "^4.14.149",
+				"auto": "^10.31.0",
+				"babel-core": "7.0.0-bridge.0",
+				"babel-jest": "^24.9.0",
+				"common-tags": "^1.8.0",
+				"eslint": "^6.7.1",
+				"jest": "^24.9.0",
+				"prettier": "^1.19.1",
+				"typescript": "^3.7.2"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"readmeFilename": "README.md",
+			"gitHead": "4566f4da20ea41a599548128cf993d1bae7d1d46",
+			"_id": "@storybook/csf@0.0.2--canary.4566f4d.0",
+			"_nodeVersion": "16.13.0",
+			"_npmVersion": "8.1.0",
+			"dist": {
+				"integrity": "sha512-kkAAguQvlpWyV+N3HoAMHfRvGVDgRVEm+pNgOq7rlJKvFXz66B18rNTLmKX7QrOOKb82wrexHOomz/VLu1DwUA==",
+				"shasum": "2b8e50a9170c0f3dabb33135fc4720cc989c7066",
+				"tarball": "https://registry.npmjs.org/@storybook/csf/-/csf-0.0.2--canary.4566f4d.0.tgz",
+				"fileCount": 21,
+				"unpackedSize": 42388,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDE4hoxr9nrPpZOZXj1u0HRKVPOxwyAi36rdWfSC1gVsQIhAPSov2NvdeqNhJixWUo0pGZNYo+9k3IWzn/qHLVkUiqI"
+					}
+				],
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJiVT5pACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2VmqGAxAAmYwqSi/CVC/OSIo7apDDy0pO3VvoDRXCHHdr3D3RWXgfrpcZ\r\nv5nuSaJgzuQXad75z9s/akfMUMWcvcaSSvk7z94rGRGIgn/iPxIJi65luNpa\r\n5cTFnkksB5sX/cVikdYrX1yee+KNpim8QORPj16rJ/Ckdp7LxM64Gt5AQUdM\r\nWzEuKDnBXq1ZRDA1EifoD4FynmXgH4w+Wd7brNwFFgyjyW6igLYLF4RW7lV+\r\nwO+IdAMn1I5BO9DSa9QIAF0rVrnYmgnsdJ754qhTGcmG3ysGHeBHSwEMIM+1\r\nwJxuhKIsWAtXHMm+wmfKI6zrYsFdcP8RVTcNn0MksnQbWSZ//2zPKcYPf/1h\r\nbUp6s64pBS5Pi6SN1zmUOWPZD/RwTT95K1DgRkinbF0rtwxiLQbyNL0xuP3L\r\nEPYn7Y+gw21fVjBr9+TxXehT0QC+kWK6YqrHimj9TLbqejpFm2pz3KYsHTCM\r\nUDDDH6FAV/h5Z9qMy/e97HBqexfEB7cjKOoz/UcBLb51SN8XQabk+ZEUiPE0\r\nOmlTeSx7uUGLAdkbjWPbb9okKTNvGUiWMPS7R0gxTuqmaZ8ioTv1vLdCgrhz\r\n6FsH275tuv8liVJUbCvYHMvxdOgHMH9sec+HYZ+kea3ApPAypaQvMbq/oKSm\r\nEKhzKuctyGs5z8cvySfc6byMNxQZsCM8xTg=\r\n=GMFQ\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "shilman",
+				"email": "michael@lab80.co"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "kylegach",
+					"email": "kyle.gach@gmail.com"
+				},
+				{
+					"name": "tooppaaa",
+					"email": "clementdungler@gmail.com"
+				},
+				{
+					"name": "ndelangen",
+					"email": "ndelangen@me.com"
+				},
+				{
+					"name": "shilman",
+					"email": "michael@lab80.co"
+				},
+				{
+					"name": "alexandrebodin",
+					"email": "bodin.alex@gmail.com"
+				},
+				{
+					"name": "hypnosphi",
+					"email": "talpa@yandex.ru"
+				},
+				{
+					"name": "danielduan",
+					"email": "dduan@yahoo.com"
+				},
+				{
+					"name": "igor-dv",
+					"email": "davydkin.igor@gmail.com"
+				},
+				{
+					"name": "pksunkara",
+					"email": "pavan.sss1991@gmail.com"
+				},
+				{
+					"name": "tmeasday",
+					"email": "tom@thesnail.org"
+				},
+				{
+					"name": "gongreg",
+					"email": "gytis.vinclovas@gmail.com"
+				},
+				{
+					"name": "domyen",
+					"email": "dom@hichroma.com"
+				},
+				{
+					"name": "usulpro",
+					"email": "regx@usul.su"
+				},
+				{
+					"name": "kylesuss",
+					"email": "susskyle@gmail.com"
+				},
+				{
+					"name": "ghengeveld",
+					"email": "info@ghengeveld.nl"
+				},
+				{
+					"name": "pago",
+					"email": "patrick.gotthardt@trivago.com"
+				},
+				{
+					"name": "dandean",
+					"email": "me@dandean.com"
+				},
+				{
+					"name": "codebyalex",
+					"email": "wilsonc.alexander@gmail.com"
+				},
+				{
+					"name": "mrmckeb",
+					"email": "mrmckeb.npm@outlook.com"
+				},
+				{
+					"name": "dannyhw",
+					"email": "danny.h.williams@hotmail.com"
+				},
+				{
+					"name": "winkervsbecks",
+					"email": "varunvachhar@gmail.com"
+				},
+				{
+					"name": "rvasikarla",
+					"email": "vasikarla.raj@gmail.com"
+				},
+				{
+					"name": "amalik2",
+					"email": "ahnmalik2@gmail.com"
+				},
+				{
+					"name": "lshadler",
+					"email": "lshadler13@gmail.com"
+				},
+				{
+					"name": "phated",
+					"email": "blaine.bublitz@gmail.com"
+				},
+				{
+					"name": "yannbf",
+					"email": "yannbf@gmail.com"
+				},
+				{
+					"name": "dylanpiercey",
+					"email": "pierceydylan@gmail.com"
+				},
+				{
+					"name": "monkeyworks",
+					"email": "igor.szyporyn@gmail.com"
+				},
+				{
+					"name": "darleendenno",
+					"email": "darleendenno@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/csf_0.0.2--canary.4566f4d.0_1649753705326_0.6614660828495509"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.0.2--canary.4566f4d.1": {
+			"name": "@storybook/csf",
+			"version": "0.0.2--canary.4566f4d.1",
+			"description": "Component Story Format (CSF) utilities",
+			"keywords": [
+				"storybook",
+				"component story format",
+				"csf",
+				"stories"
+			],
+			"homepage": "https://github.com/ComponentDriven/csf",
+			"bugs": {
+				"url": "https://github.com/ComponentDriven/csf/issues"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ComponentDriven/csf.git"
+			},
+			"license": "MIT",
+			"main": "dist/index.js",
+			"types": "dist/index.d.ts",
+			"scripts": {
+				"build": "babel src --out-dir dist --extensions \".ts\" && tsc --emitDeclarationOnly",
+				"lint": "eslint src --ext .js,.ts",
+				"test": "jest",
+				"release": "yarn build && auto shipit"
+			},
+			"eslintConfig": {
+				"extends": [
+					"@storybook/eslint-config-storybook"
+				]
+			},
+			"prettier": "@storybook/linter-config/prettier.config",
+			"jest": {
+				"testEnvironment": "node",
+				"roots": [
+					"<rootDir>/src"
+				]
+			},
+			"dependencies": {
+				"lodash": "^4.17.15"
+			},
+			"devDependencies": {
+				"@babel/cli": "^7.8.4",
+				"@babel/core": "^7.9.0",
+				"@babel/preset-env": "^7.9.5",
+				"@babel/preset-typescript": "^7.9.0",
+				"@storybook/eslint-config-storybook": "^2.1.0",
+				"@types/jest": "^24.0.23",
+				"@types/lodash": "^4.14.149",
+				"auto": "^10.31.0",
+				"babel-core": "7.0.0-bridge.0",
+				"babel-jest": "^24.9.0",
+				"common-tags": "^1.8.0",
+				"eslint": "^6.7.1",
+				"jest": "^24.9.0",
+				"prettier": "^1.19.1",
+				"typescript": "^3.7.2"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"readmeFilename": "README.md",
+			"gitHead": "4566f4da20ea41a599548128cf993d1bae7d1d46",
+			"_id": "@storybook/csf@0.0.2--canary.4566f4d.1",
+			"_nodeVersion": "16.13.0",
+			"_npmVersion": "8.1.0",
+			"dist": {
+				"integrity": "sha512-9OVvMVh3t9znYZwb0Svf/YQoxX2gVOeQTGe2bses2yj+a3+OJnCrUF3/hGv6Em7KujtOdL2LL+JnG49oMVGFgQ==",
+				"shasum": "dac52a21c40ef198554e71fe4d20d61e17f65327",
+				"tarball": "https://registry.npmjs.org/@storybook/csf/-/csf-0.0.2--canary.4566f4d.1.tgz",
+				"fileCount": 21,
+				"unpackedSize": 42388,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIF+YsFg8ZZW4xkqKPiZcZE84PmXEKrxPdYaynQfwahtrAiEAhRd+8XxpWd12sqCkVW9fGGQKO/QvcQ7X3iF84TO3ssU="
+					}
+				],
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJiaI6oACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2VmpE+BAAmhyrFppeU/VjFJr4TfRC8v5Bx83CVezTYmECe4tHsIOlMXcF\r\n4GrX+SRN7AnD0hVWDeAbszEom8Jll9YHkEApjEKSWoLS8gEgMz2cMAfuEc3U\r\nmBzhVT7naBrf3mfHK623ZszXb7F+5Yqnn3h2X8DcqMW0Hp3t59IC/0pKCWtd\r\nVk/iEGCeRHsaWG718Uqk1xZ49rQwzh1uwQzaWUfnkKjj1hspEs2Qb7CjThHc\r\nohybkw/NsFfKnsC55ENXy5xh5ixLd2vYhTP1+YA/asudvIKiZ4/QECSO3YCV\r\nxCqpYi21f/mi7vkzTs57IQiw3RqX44L4GwEkLCiPKx415lijPOywE2BxUsS6\r\nTRFxnrhqMVNKGhtAv3NW2N9KJFA/5uhLxOvC0JtdVWZLWsx8rloPjG9jXC25\r\nLFjzNwYtJehd17LGw4RVABSd1ptYPpVsfdqTO3RJ42xpnCBwq3+KG7yAUYkO\r\nLnfsRCDCCCFOUV7o7xEth4v4ZzXhT+YtsmgXTJFdrEIf68Kw9IRutFvjQz+E\r\nKGzvglKBxRszbVC9PDqETARQEY3j7NRacaWWBljIGrI7us/aecz9TBvbF+gY\r\nGFS+8u9KLtJAgGwu696ILdMLe5iz47MUCSbzF3Rq49wGgRVBbSed5mBS6j8k\r\nTrMOK+M4oerNaRPoJxzUjSAHzhQqc0mrUC0=\r\n=a/+S\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "shilman",
+				"email": "michael@lab80.co"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "kylegach",
+					"email": "kyle.gach@gmail.com"
+				},
+				{
+					"name": "tooppaaa",
+					"email": "clementdungler@gmail.com"
+				},
+				{
+					"name": "ndelangen",
+					"email": "ndelangen@me.com"
+				},
+				{
+					"name": "shilman",
+					"email": "michael@lab80.co"
+				},
+				{
+					"name": "alexandrebodin",
+					"email": "bodin.alex@gmail.com"
+				},
+				{
+					"name": "hypnosphi",
+					"email": "talpa@yandex.ru"
+				},
+				{
+					"name": "danielduan",
+					"email": "dduan@yahoo.com"
+				},
+				{
+					"name": "igor-dv",
+					"email": "davydkin.igor@gmail.com"
+				},
+				{
+					"name": "pksunkara",
+					"email": "pavan.sss1991@gmail.com"
+				},
+				{
+					"name": "tmeasday",
+					"email": "tom@thesnail.org"
+				},
+				{
+					"name": "gongreg",
+					"email": "gytis.vinclovas@gmail.com"
+				},
+				{
+					"name": "domyen",
+					"email": "dom@hichroma.com"
+				},
+				{
+					"name": "usulpro",
+					"email": "regx@usul.su"
+				},
+				{
+					"name": "kylesuss",
+					"email": "susskyle@gmail.com"
+				},
+				{
+					"name": "ghengeveld",
+					"email": "info@ghengeveld.nl"
+				},
+				{
+					"name": "pago",
+					"email": "patrick.gotthardt@trivago.com"
+				},
+				{
+					"name": "dandean",
+					"email": "me@dandean.com"
+				},
+				{
+					"name": "codebyalex",
+					"email": "wilsonc.alexander@gmail.com"
+				},
+				{
+					"name": "mrmckeb",
+					"email": "mrmckeb.npm@outlook.com"
+				},
+				{
+					"name": "dannyhw",
+					"email": "danny.h.williams@hotmail.com"
+				},
+				{
+					"name": "winkervsbecks",
+					"email": "varunvachhar@gmail.com"
+				},
+				{
+					"name": "rvasikarla",
+					"email": "vasikarla.raj@gmail.com"
+				},
+				{
+					"name": "amalik2",
+					"email": "ahnmalik2@gmail.com"
+				},
+				{
+					"name": "lshadler",
+					"email": "lshadler13@gmail.com"
+				},
+				{
+					"name": "phated",
+					"email": "blaine.bublitz@gmail.com"
+				},
+				{
+					"name": "yannbf",
+					"email": "yannbf@gmail.com"
+				},
+				{
+					"name": "dylanpiercey",
+					"email": "pierceydylan@gmail.com"
+				},
+				{
+					"name": "monkeyworks",
+					"email": "igor.szyporyn@gmail.com"
+				},
+				{
+					"name": "darleendenno",
+					"email": "darleendenno@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/csf_0.0.2--canary.4566f4d.1_1651019432670_0.5996886919873008"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.0.2--canary.0899bb7.0": {
+			"name": "@storybook/csf",
+			"version": "0.0.2--canary.0899bb7.0",
+			"description": "Component Story Format (CSF) utilities",
+			"keywords": [
+				"storybook",
+				"component story format",
+				"csf",
+				"stories"
+			],
+			"homepage": "https://github.com/ComponentDriven/csf",
+			"bugs": {
+				"url": "https://github.com/ComponentDriven/csf/issues"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/ComponentDriven/csf.git"
+			},
+			"license": "MIT",
+			"main": "dist/index.js",
+			"types": "dist/index.d.ts",
+			"scripts": {
+				"build": "babel src --out-dir dist --extensions \".ts\" && tsc --emitDeclarationOnly",
+				"lint": "eslint src --ext .js,.ts",
+				"test": "jest",
+				"release": "yarn build && auto shipit"
+			},
+			"eslintConfig": {
+				"extends": [
+					"@storybook/eslint-config-storybook"
+				]
+			},
+			"prettier": "@storybook/linter-config/prettier.config",
+			"jest": {
+				"testEnvironment": "node",
+				"roots": [
+					"<rootDir>/src"
+				]
+			},
+			"dependencies": {
+				"lodash": "^4.17.15"
+			},
+			"devDependencies": {
+				"@babel/cli": "^7.8.4",
+				"@babel/core": "^7.9.0",
+				"@babel/preset-env": "^7.9.5",
+				"@babel/preset-typescript": "^7.9.0",
+				"@storybook/eslint-config-storybook": "^2.1.0",
+				"@types/jest": "^24.0.23",
+				"@types/lodash": "^4.14.149",
+				"auto": "^10.31.0",
+				"babel-core": "7.0.0-bridge.0",
+				"babel-jest": "^24.9.0",
+				"common-tags": "^1.8.0",
+				"eslint": "^6.7.1",
+				"jest": "^24.9.0",
+				"prettier": "^1.19.1",
+				"typescript": "^3.7.2"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"readmeFilename": "README.md",
+			"gitHead": "0899bb7ce75f63e8e152b118d7787fec8dc3ce2f",
+			"_id": "@storybook/csf@0.0.2--canary.0899bb7.0",
+			"_nodeVersion": "14.17.6",
+			"_npmVersion": "6.14.15",
+			"dist": {
+				"integrity": "sha512-R9EryGj3yffdeemH6hJp4XIBNNox8bfN+blCEhENtkGkU/EoXQ9024i2MjHRqMGFQGUapWA3nYJ0+nbsg3iwUw==",
+				"shasum": "0059facfdd5e2b23f158d98fcd2cb5c3d129ba6e",
+				"tarball": "https://registry.npmjs.org/@storybook/csf/-/csf-0.0.2--canary.0899bb7.0.tgz",
+				"fileCount": 16,
+				"unpackedSize": 40898,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCzoF4oreNPQeVnkQ1TvxkEJkvfgM/Yf9681gwkbdE+WAIhAOKjPA1Z+nHCT9kF/vAk5joY3Ta+cYmFKtTUGrSGESr8"
+					}
+				],
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJiyQ9bACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2VmoOmQ/9EmPHJmeVo1vEbtEpcHYCA9t/k36W1VxKwnne1hRQd8yWi/gR\r\nolr/qv5jSjKAUEOhX0L9J4W8pXwSAwysYCnQg2WwBvosRIipVmNgnTIVWIHo\r\nFBdEPiAYglr34mo5sgkwPNaUb1HZZxJTh/qVj/uCU8pgi3bmGL0HzMeUddMn\r\noCox2EHp9bAhAmGGsvOtXYrnVAQGZhsnVsIS2aadGkSAr3c/caSAdD2J1Adg\r\nhywDHI+d3yCW9fjQIk0nSMOAP0N2MXuszNxbzYm+z0V5l/3nqRmdOZjO8UIn\r\nvp80AUaK9XwPeSZgzjkFFSfW7NfZ9L0weOYnIyzFPjI0bCmHys+3Cn9cGQ3k\r\nQhWNJOTiLqhRfigEpxmGs+RwH7b5Nbk2tI8wOCBs7tJpRjVCi6nryUKtbDGU\r\nBhL8wras4wj7dVBir7mKg4BCxUfusSJz0g7tIDZeViBS4QSCrXQjlM3eCgfS\r\nWX3HPypyk7xsCVR2AYQV6M+SgfgbaaEtgE6XmbGCoLzd0FEYNKfu+LNZnvJP\r\nL+fzJ2sHCuh4RuLwMoAyXRJShCMA62rCH43PiyBkTCs5THkisb+aNYBcSOXv\r\njp72au3dNYxXQP7EE7rv2qKLn4j7BUGDCcdKpE1x3JVjbs+T80mVXdrDpkWz\r\nO7/6i9xzihZSsIqDSPJBlLxXvC7AIW6Us7Y=\r\n=4G8a\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "shilman",
+				"email": "michael@lab80.co"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "kylegach",
+					"email": "kyle.gach@gmail.com"
+				},
+				{
+					"name": "tooppaaa",
+					"email": "clementdungler@gmail.com"
+				},
+				{
+					"name": "ndelangen",
+					"email": "ndelangen@me.com"
+				},
+				{
+					"name": "shilman",
+					"email": "michael@lab80.co"
+				},
+				{
+					"name": "alexandrebodin",
+					"email": "bodin.alex@gmail.com"
+				},
+				{
+					"name": "hypnosphi",
+					"email": "talpa@yandex.ru"
+				},
+				{
+					"name": "danielduan",
+					"email": "dduan@yahoo.com"
+				},
+				{
+					"name": "igor-dv",
+					"email": "davydkin.igor@gmail.com"
+				},
+				{
+					"name": "pksunkara",
+					"email": "pavan.sss1991@gmail.com"
+				},
+				{
+					"name": "tmeasday",
+					"email": "tom@thesnail.org"
+				},
+				{
+					"name": "gongreg",
+					"email": "gytis.vinclovas@gmail.com"
+				},
+				{
+					"name": "domyen",
+					"email": "dom@hichroma.com"
+				},
+				{
+					"name": "usulpro",
+					"email": "regx@usul.su"
+				},
+				{
+					"name": "kylesuss",
+					"email": "susskyle@gmail.com"
+				},
+				{
+					"name": "ghengeveld",
+					"email": "info@ghengeveld.nl"
+				},
+				{
+					"name": "pago",
+					"email": "patrick.gotthardt@trivago.com"
+				},
+				{
+					"name": "dandean",
+					"email": "me@dandean.com"
+				},
+				{
+					"name": "codebyalex",
+					"email": "wilsonc.alexander@gmail.com"
+				},
+				{
+					"name": "mrmckeb",
+					"email": "mrmckeb.npm@outlook.com"
+				},
+				{
+					"name": "dannyhw",
+					"email": "danny.h.williams@hotmail.com"
+				},
+				{
+					"name": "winkervsbecks",
+					"email": "varunvachhar@gmail.com"
+				},
+				{
+					"name": "rvasikarla",
+					"email": "vasikarla.raj@gmail.com"
+				},
+				{
+					"name": "amalik2",
+					"email": "ahnmalik2@gmail.com"
+				},
+				{
+					"name": "lshadler",
+					"email": "lshadler13@gmail.com"
+				},
+				{
+					"name": "phated",
+					"email": "blaine.bublitz@gmail.com"
+				},
+				{
+					"name": "yannbf",
+					"email": "yannbf@gmail.com"
+				},
+				{
+					"name": "dylanpiercey",
+					"email": "pierceydylan@gmail.com"
+				},
+				{
+					"name": "monkeyworks",
+					"email": "igor.szyporyn@gmail.com"
+				},
+				{
+					"name": "darleendenno",
+					"email": "darleendenno@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/csf_0.0.2--canary.0899bb7.0_1657343835350_0.03820599255669577"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		}
+	},
+	"time": {
+		"created": "2019-12-09T06:56:42.118Z",
+		"0.0.1": "2019-12-09T06:56:42.376Z",
+		"modified": "2022-07-09T05:17:16.013Z",
+		"0.0.2-alpha.0": "2020-01-30T14:42:22.278Z",
+		"0.0.2--canary.4d00998.0": "2021-08-23T06:27:39.990Z",
+		"0.0.2--canary.3b9fb86.0": "2021-08-23T12:18:38.382Z",
+		"0.0.2--canary.856a16c.0": "2021-08-24T06:06:41.881Z",
+		"0.0.2--canary.9c0fda0.0": "2021-08-25T02:36:27.532Z",
+		"0.0.2--canary.cc8c2b0.0": "2021-08-27T01:10:21.791Z",
+		"0.0.2--canary.c10361d.0": "2021-08-31T06:56:56.238Z",
+		"0.0.2--canary.29b0df7.0": "2021-09-03T03:50:07.056Z",
+		"0.0.2--canary.a1972cb.0": "2021-09-03T04:01:41.006Z",
+		"0.0.2--canary.d61cd6c.0": "2021-09-06T05:11:01.809Z",
+		"0.0.2--canary.a925d24.0": "2021-09-07T06:58:04.196Z",
+		"0.0.2--canary.5459c65.0": "2021-09-07T13:07:14.978Z",
+		"0.0.2--canary.b1d5348.0": "2021-09-08T06:57:16.486Z",
+		"0.0.2--canary.062665d.0": "2021-09-11T09:53:21.860Z",
+		"0.0.2--canary.68887a1.0": "2021-09-13T06:03:49.380Z",
+		"0.0.2--canary.6aca495.0": "2021-09-20T06:57:02.970Z",
+		"0.0.2--canary.87bc651.0": "2021-10-05T15:55:36.020Z",
+		"0.0.2--canary.835a408.0": "2021-12-16T00:01:03.515Z",
+		"0.0.2--canary.789b78e.0": "2022-02-18T03:59:19.902Z",
+		"0.0.2--canary.507502b.0": "2022-02-24T08:58:55.235Z",
+		"0.0.2--canary.d38f8f1.0": "2022-04-05T02:45:20.826Z",
+		"0.0.2--canary.92ac0db.0": "2022-04-05T03:44:47.784Z",
+		"0.0.2--canary.7c6c115.0": "2022-04-05T04:34:10.125Z",
+		"0.0.2--canary.4566f4d.0": "2022-04-12T08:55:05.552Z",
+		"0.0.2--canary.4566f4d.1": "2022-04-27T00:30:32.882Z",
+		"0.0.2--canary.0899bb7.0": "2022-07-09T05:17:15.591Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "0.0.1",
+		"next": "0.0.2-alpha.0",
+		"canary": "0.0.2--canary.0899bb7.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"b8268af63aea9ef821c242852fb04542\"",
+			"fetched": 1660840715892
+		}
+	},
+	"_distfiles": {
+		"csf-0.0.1.tgz": {
+			"url": "https://registry.npmjs.org/@storybook/csf/-/csf-0.0.1.tgz",
+			"sha": "95901507dc02f0bc6f9ac8ee1983e2fc5bb98ce6",
+			"registry": "npmjs"
+		},
+		"csf-0.0.2-alpha.0.tgz": {
+			"url": "https://registry.npmjs.org/@storybook/csf/-/csf-0.0.2-alpha.0.tgz",
+			"sha": "d97cdb01d8b5b5f8e05a61daced1a34b654395c5",
+			"registry": "npmjs"
+		},
+		"csf-0.0.2--canary.4d00998.0.tgz": {
+			"url": "https://registry.npmjs.org/@storybook/csf/-/csf-0.0.2--canary.4d00998.0.tgz",
+			"sha": "17fd55a21b5ac9ee83a068cde958c640b87360c3",
+			"registry": "npmjs"
+		},
+		"csf-0.0.2--canary.3b9fb86.0.tgz": {
+			"url": "https://registry.npmjs.org/@storybook/csf/-/csf-0.0.2--canary.3b9fb86.0.tgz",
+			"sha": "e51e65bf63a3c2f7aa6aef2d1aea49695879ce3f",
+			"registry": "npmjs"
+		},
+		"csf-0.0.2--canary.856a16c.0.tgz": {
+			"url": "https://registry.npmjs.org/@storybook/csf/-/csf-0.0.2--canary.856a16c.0.tgz",
+			"sha": "56284d1df5627884d741835311fd60c0c68d5642",
+			"registry": "npmjs"
+		},
+		"csf-0.0.2--canary.9c0fda0.0.tgz": {
+			"url": "https://registry.npmjs.org/@storybook/csf/-/csf-0.0.2--canary.9c0fda0.0.tgz",
+			"sha": "3fd5261eeb1736846df6aa229148471ab463bb85",
+			"registry": "npmjs"
+		},
+		"csf-0.0.2--canary.cc8c2b0.0.tgz": {
+			"url": "https://registry.npmjs.org/@storybook/csf/-/csf-0.0.2--canary.cc8c2b0.0.tgz",
+			"sha": "c46d2fd177b778b4e37c92ac63d13daf2ea707cb",
+			"registry": "npmjs"
+		},
+		"csf-0.0.2--canary.c10361d.0.tgz": {
+			"url": "https://registry.npmjs.org/@storybook/csf/-/csf-0.0.2--canary.c10361d.0.tgz",
+			"sha": "61b95f5a89c90b83d9aeaa5a48ec0dc91de54172",
+			"registry": "npmjs"
+		},
+		"csf-0.0.2--canary.29b0df7.0.tgz": {
+			"url": "https://registry.npmjs.org/@storybook/csf/-/csf-0.0.2--canary.29b0df7.0.tgz",
+			"sha": "3777bec0d42a2bdaae889afd80a311dc303bb122",
+			"registry": "npmjs"
+		},
+		"csf-0.0.2--canary.a1972cb.0.tgz": {
+			"url": "https://registry.npmjs.org/@storybook/csf/-/csf-0.0.2--canary.a1972cb.0.tgz",
+			"sha": "0bdbe964d6742d98653d62d796d121f7f371d8d4",
+			"registry": "npmjs"
+		},
+		"csf-0.0.2--canary.d61cd6c.0.tgz": {
+			"url": "https://registry.npmjs.org/@storybook/csf/-/csf-0.0.2--canary.d61cd6c.0.tgz",
+			"sha": "2e8d2aa92f247ff873ec790742f4a133df18233f",
+			"registry": "npmjs"
+		},
+		"csf-0.0.2--canary.a925d24.0.tgz": {
+			"url": "https://registry.npmjs.org/@storybook/csf/-/csf-0.0.2--canary.a925d24.0.tgz",
+			"sha": "e55ab5bca96a51b89ac32f8c2b6d195c1a24a8f8",
+			"registry": "npmjs"
+		},
+		"csf-0.0.2--canary.5459c65.0.tgz": {
+			"url": "https://registry.npmjs.org/@storybook/csf/-/csf-0.0.2--canary.5459c65.0.tgz",
+			"sha": "81e047326ce2b40c30a28dbbd00055ef689f552b",
+			"registry": "npmjs"
+		},
+		"csf-0.0.2--canary.b1d5348.0.tgz": {
+			"url": "https://registry.npmjs.org/@storybook/csf/-/csf-0.0.2--canary.b1d5348.0.tgz",
+			"sha": "0ef8351f60f753daf26b50a13df2a8c51de2c6cb",
+			"registry": "npmjs"
+		},
+		"csf-0.0.2--canary.062665d.0.tgz": {
+			"url": "https://registry.npmjs.org/@storybook/csf/-/csf-0.0.2--canary.062665d.0.tgz",
+			"sha": "f9f9065dd7f7efe21e87cd3dda0f490a73573521",
+			"registry": "npmjs"
+		},
+		"csf-0.0.2--canary.68887a1.0.tgz": {
+			"url": "https://registry.npmjs.org/@storybook/csf/-/csf-0.0.2--canary.68887a1.0.tgz",
+			"sha": "5805a953f221b4d9a3c647274ffdb0468e164d27",
+			"registry": "npmjs"
+		},
+		"csf-0.0.2--canary.6aca495.0.tgz": {
+			"url": "https://registry.npmjs.org/@storybook/csf/-/csf-0.0.2--canary.6aca495.0.tgz",
+			"sha": "1569819337b0414e6e5575680c96505eda803d0b",
+			"registry": "npmjs"
+		},
+		"csf-0.0.2--canary.87bc651.0.tgz": {
+			"url": "https://registry.npmjs.org/@storybook/csf/-/csf-0.0.2--canary.87bc651.0.tgz",
+			"sha": "c7b99b3a344117ef67b10137b6477a3d2750cf44",
+			"registry": "npmjs"
+		},
+		"csf-0.0.2--canary.835a408.0.tgz": {
+			"url": "https://registry.npmjs.org/@storybook/csf/-/csf-0.0.2--canary.835a408.0.tgz",
+			"sha": "3cee923a345b07b9b77eb818a5b968bb6502b61e",
+			"registry": "npmjs"
+		},
+		"csf-0.0.2--canary.789b78e.0.tgz": {
+			"url": "https://registry.npmjs.org/@storybook/csf/-/csf-0.0.2--canary.789b78e.0.tgz",
+			"sha": "1924b3f94536b8fd817c628b76080fa58d74f093",
+			"registry": "npmjs"
+		},
+		"csf-0.0.2--canary.507502b.0.tgz": {
+			"url": "https://registry.npmjs.org/@storybook/csf/-/csf-0.0.2--canary.507502b.0.tgz",
+			"sha": "02f6f187a77a46f0dad8b061371201c7eb2395aa",
+			"registry": "npmjs"
+		},
+		"csf-0.0.2--canary.d38f8f1.0.tgz": {
+			"url": "https://registry.npmjs.org/@storybook/csf/-/csf-0.0.2--canary.d38f8f1.0.tgz",
+			"sha": "cb62868ee5c1a57438a3cc44dc370313bfad2d35",
+			"registry": "npmjs"
+		},
+		"csf-0.0.2--canary.92ac0db.0.tgz": {
+			"url": "https://registry.npmjs.org/@storybook/csf/-/csf-0.0.2--canary.92ac0db.0.tgz",
+			"sha": "fc522e4334b446734a6cd3c5459a19a7bb389ef0",
+			"registry": "npmjs"
+		},
+		"csf-0.0.2--canary.7c6c115.0.tgz": {
+			"url": "https://registry.npmjs.org/@storybook/csf/-/csf-0.0.2--canary.7c6c115.0.tgz",
+			"sha": "91724e34be7b168acddb8df7e7821ed371ce31ff",
+			"registry": "npmjs"
+		},
+		"csf-0.0.2--canary.4566f4d.0.tgz": {
+			"url": "https://registry.npmjs.org/@storybook/csf/-/csf-0.0.2--canary.4566f4d.0.tgz",
+			"sha": "2b8e50a9170c0f3dabb33135fc4720cc989c7066",
+			"registry": "npmjs"
+		},
+		"csf-0.0.2--canary.4566f4d.1.tgz": {
+			"url": "https://registry.npmjs.org/@storybook/csf/-/csf-0.0.2--canary.4566f4d.1.tgz",
+			"sha": "dac52a21c40ef198554e71fe4d20d61e17f65327",
+			"registry": "npmjs"
+		},
+		"csf-0.0.2--canary.0899bb7.0.tgz": {
+			"url": "https://registry.npmjs.org/@storybook/csf/-/csf-0.0.2--canary.0899bb7.0.tgz",
+			"sha": "0059facfdd5e2b23f158d98fcd2cb5c3d129ba6e",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_rev": "3-fa83e08e453f30bf",
+	"_id": "@storybook/csf",
+	"readme": "# Storybook Component Story Format (CSF)\n\nA minimal set of utility functions for dealing with Storybook [Component Story Format (CSF)](https://storybook.js.org/docs/formats/component-story-format/).\n\n## Install\n\n```sh\nyarn add @storybook/csf\n```\n\n## API\n\nSee package source for function definitions and types:\n\n- `storyNameFromExport(key)` - Enhance export name (`key`) of the story. Currently implemented with [startCase](https://lodash.com/docs/4.17.11#startCase).\n\n- `isExportStory(key, { includeStories, excludeStories })` - Does a named export match CSF inclusion/exclusion options?\n\n- `parseKind(kind, { rootSeparator, groupSeparator })` - Parse out the component/kind name from a path, using the given separator config.\n\n- `sanitize(string)` - Remove punctuation and illegal characters from a story ID.\n\n- `toId(kind, name)` - Generate a storybook ID from a component/kind and story name.\n\n## Contributing\n\nIf you have any suggestions, please open an issue or a PR.\n\nAll contributions are welcome!\n\n### run tests:\n\n```sh\nyarn test\n```"
+}

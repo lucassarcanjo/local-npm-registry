@@ -1,0 +1,2755 @@
+{
+	"name": "@mui/utils",
+	"versions": {
+		"5.0.0-rc.0": {
+			"name": "@mui/utils",
+			"version": "5.0.0-rc.0",
+			"private": false,
+			"author": {
+				"name": "Material-UI Team"
+			},
+			"description": "Utility functions for React components.",
+			"main": "./index.js",
+			"keywords": [
+				"react",
+				"react-component",
+				"material-ui",
+				"utils"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/mui-org/material-ui.git",
+				"directory": "packages/material-ui-utils"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mui-org/material-ui/issues"
+			},
+			"homepage": "https://github.com/mui-org/material-ui/tree/next/packages/material-ui-utils",
+			"peerDependencies": {
+				"react": "^17.0.2"
+			},
+			"dependencies": {
+				"@babel/runtime": "^7.14.8",
+				"@types/prop-types": "^15.7.4",
+				"@types/react-is": "^16.7.1 || ^17.0.0",
+				"prop-types": "^15.7.2",
+				"react-is": "^17.0.2"
+			},
+			"sideEffects": false,
+			"publishConfig": {
+				"access": "public"
+			},
+			"engines": {
+				"node": ">=12.0.0"
+			},
+			"module": "./esm/index.js",
+			"types": "./index.d.ts",
+			"_id": "@mui/utils@5.0.0-rc.0",
+			"_nodeVersion": "14.17.0",
+			"_npmVersion": "lerna/4.0.0/node@v14.17.0+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-u65YLalK8Md3HIhCLgD1kPMDxO/XCkUixGyOf6Zb3esSSq7iasLspaBcP2Bt288giM8HB1xlFBfaqoqoT9a4SA==",
+				"shasum": "1f6858d55ed0139342c90c1483f520d4e07a893f",
+				"tarball": "https://registry.npmjs.org/@mui/utils/-/utils-5.0.0-rc.0.tgz",
+				"fileCount": 165,
+				"unpackedSize": 437262,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJhMIFSCRA9TVsSAnZWagAAD2MP/0Sm2waoo3c1ZtdTSRav\ns4WE+z0c6ZZlnvGDt80HjhDIszGvGg1JSeODCPUY2Z8iIH+l8zcBFD8QV/Uf\nmMEheiMBXSqJwZJwhV5VywkIdnjTEnVLsrM6ONSxRqmIgxaJSbmDoNPv3gtj\nDPlMmEF0c2mt3Wvg22WMHE7AkhuxmviNswXUUJbb3PE+GvsVbR9n5HKPZ/+C\nAJJtjTYlPd4YWsIRJdAyJc4ostpheT/XIU44Fq1NZOAXk4cH6O+unURkroHP\ntjvObJWQa0mvQg99ngY7QxQLPWyAcgebxYWwHQYJBc9p3BVpoCqO3Hg15FjT\n01lJ8RpL6z2X+DFMUHMNd1qd0/FpYFL1+B5k+0n1bLrYwKlISp/nOYSyPVzb\n/paRNd+CIKRvttlx8uARFpZxr0SvyNuS6BvszsFhyxWfNffOB0Tik6akBGrn\nxfpjEg5f5LRPe5FeXfsMWuMiRx5S4Fp56Vnd79xHyZ7ixg1RWAM6+/D3cXkY\nGDWsx0KrnCYxgzeroJ9b9XlQQp/ellb3i1YpEhiWf6xAP2K4L9flN0KjQ7YY\nRMHVRx+ravCKfg8peI4oz1MdtWvy0ZXOGieoqAHhnJcLYEhEYKrgSVvBgkiW\nB0pAjVNAgJ5sgUJtOtAafKnkOr5G4yJvevjl/vg+3MZl/lMR/0UoRzxUcJna\nJsSc\r\n=GgQf\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIGl2Sb1QnFl0fgu724ZdX4HfRnHFv560534uqQFl0aASAiEA474pc9ELG/2VYOBbn4CXo2MIGp4TE2YFJFbyjR9Ttbc="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "siriwatknp",
+				"email": "siriwatkunaporn@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "siriwatknp",
+					"email": "siriwatkunaporn@gmail.com"
+				},
+				{
+					"name": "eps1lon",
+					"email": "silbermann.sebastian@gmail.com"
+				},
+				{
+					"name": "matheushw",
+					"email": "matheushw@outlook.com"
+				},
+				{
+					"name": "flaviendelangle",
+					"email": "flaviendelangle@gmail.com"
+				},
+				{
+					"name": "danailh",
+					"email": "hadjiatanasov@gmail.com"
+				},
+				{
+					"name": "mnajdova",
+					"email": "mnajdova@gmail.com"
+				},
+				{
+					"name": "michaldudak",
+					"email": "michal@dudak.me"
+				},
+				{
+					"name": "oliviertassinari",
+					"email": "olivier.tassinari@gmail.com"
+				},
+				{
+					"name": "mbrookes",
+					"email": "npm@nospam.33m.co"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/utils_5.0.0-rc.0_1630568785885_0.9034194783413341"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"5.0.0-rc.1": {
+			"name": "@mui/utils",
+			"version": "5.0.0-rc.1",
+			"private": false,
+			"author": {
+				"name": "Material-UI Team"
+			},
+			"description": "Utility functions for React components.",
+			"main": "./index.js",
+			"keywords": [
+				"react",
+				"react-component",
+				"material-ui",
+				"utils"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/mui-org/material-ui.git",
+				"directory": "packages/mui-utils"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mui-org/material-ui/issues"
+			},
+			"homepage": "https://github.com/mui-org/material-ui/tree/next/packages/mui-utils",
+			"peerDependencies": {
+				"react": "^17.0.2"
+			},
+			"dependencies": {
+				"@babel/runtime": "^7.14.8",
+				"@types/prop-types": "^15.7.4",
+				"@types/react-is": "^16.7.1 || ^17.0.0",
+				"prop-types": "^15.7.2",
+				"react-is": "^17.0.2"
+			},
+			"sideEffects": false,
+			"publishConfig": {
+				"access": "public"
+			},
+			"engines": {
+				"node": ">=12.0.0"
+			},
+			"module": "./esm/index.js",
+			"types": "./index.d.ts",
+			"readmeFilename": "README.md",
+			"_id": "@mui/utils@5.0.0-rc.1",
+			"_nodeVersion": "12.19.0",
+			"_npmVersion": "lerna/4.0.0/node@v12.19.0+x64 (win32)",
+			"dist": {
+				"integrity": "sha512-FSh/zaZqfzz0Iz7/RHb2ajA/q6dfFKeNIXZCl7sZeYq9L1u8GR4IHi4n1MphLiJTco02XBw3KwME9Bqmk73LEQ==",
+				"shasum": "8427d1117a380b8c861be9a6bbf51075e776cd63",
+				"tarball": "https://registry.npmjs.org/@mui/utils/-/utils-5.0.0-rc.1.tgz",
+				"fileCount": 165,
+				"unpackedSize": 442010,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJhOMCkCRA9TVsSAnZWagAAgBcQAKMwqb/nn/A1eBaC8bCp\nXtDIrv6VcWAFHXi0qThjYT1Jt0mpHRQAJ7Aa4fM+wVll1TGrqfsAR7slXX6z\nlcnnpWPHkt2iRIRvY51fIoVIMJTtjIIi15tciBP1ZA02XHRIIieTNLsarYAU\n16RE8saZGo+HjqIC/g9+QvIN5Il4Wd1UMcb0JU0t7FHPWJiqHQffb27rltcC\nBf45a6GmdS2LIdsbTDlkTedd4JtUIzf0cE6PnKdRiTDxz4xk2ip62d2q1ptF\nkQyfLdjq+pMn9PUAk/suJPAb+P0bX1Cex6/iqvhF86KFa8mWTT4VmmhXzslQ\n+TQOj0heZfFFwzFlLSfoj9AKordEIRE3DZ0eII1d6JlCMpFvpuzOsE0NzemG\nQN0xF79/FpSiOhJCeH4jxKtVuZwe4xeAscs7NceXYklXdL00fOwpKf0JQU9D\nG+pUhnHDpkkQ32DAVIDyq9RGwikHeUK3vK35IVTSBHwGQI+ZmoGm+OKDnm1D\nFFE0/XInwKSpfFpHOG8l4/62GxIuPJYAtbjQcXi9ahJ/8sNZwJOAaMEXyf6l\nLQuWjoxPN8/87HeCE1YAJ3HY7kf1mDejjmJY9cuO3lwrjS1U/+PnAtkWq5xw\nF3NiMyUtOR4DX4KCbKzeJdJoxXktCcHAiCjb7B6j5DQKMPLmV08ZXnY7btTo\nOBDS\r\n=XRyP\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDdV+zXNFARE0Dr36A3yWK/zDBX+439rFkMm75QjUIVXgIgZAAfKUt+7mQd3jG+qyEUEDiEXM2h2E+BRw6WQjgucf4="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "mnajdova",
+				"email": "mnajdova@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "siriwatknp",
+					"email": "siriwatkunaporn@gmail.com"
+				},
+				{
+					"name": "eps1lon",
+					"email": "silbermann.sebastian@gmail.com"
+				},
+				{
+					"name": "matheushw",
+					"email": "matheushw@outlook.com"
+				},
+				{
+					"name": "flaviendelangle",
+					"email": "flaviendelangle@gmail.com"
+				},
+				{
+					"name": "danailh",
+					"email": "hadjiatanasov@gmail.com"
+				},
+				{
+					"name": "mnajdova",
+					"email": "mnajdova@gmail.com"
+				},
+				{
+					"name": "michaldudak",
+					"email": "michal@dudak.me"
+				},
+				{
+					"name": "oliviertassinari",
+					"email": "olivier.tassinari@gmail.com"
+				},
+				{
+					"name": "mbrookes",
+					"email": "npm@nospam.33m.co"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/utils_5.0.0-rc.1_1631109283811_0.620427697990612"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"5.0.0": {
+			"name": "@mui/utils",
+			"version": "5.0.0",
+			"private": false,
+			"author": {
+				"name": "MUI Team"
+			},
+			"description": "Utility functions for React components.",
+			"main": "./index.js",
+			"keywords": [
+				"react",
+				"react-component",
+				"material-ui",
+				"utils"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/mui-org/material-ui.git",
+				"directory": "packages/mui-utils"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mui-org/material-ui/issues"
+			},
+			"homepage": "https://github.com/mui-org/material-ui/tree/master/packages/mui-utils",
+			"peerDependencies": {
+				"react": "^17.0.2"
+			},
+			"dependencies": {
+				"@babel/runtime": "^7.14.8",
+				"@types/prop-types": "^15.7.4",
+				"@types/react-is": "^16.7.1 || ^17.0.0",
+				"prop-types": "^15.7.2",
+				"react-is": "^17.0.2"
+			},
+			"sideEffects": false,
+			"publishConfig": {
+				"access": "public"
+			},
+			"engines": {
+				"node": ">=12.0.0"
+			},
+			"module": "./esm/index.js",
+			"types": "./index.d.ts",
+			"readmeFilename": "README.md",
+			"_id": "@mui/utils@5.0.0",
+			"_nodeVersion": "12.19.0",
+			"_npmVersion": "lerna/4.0.0/node@v12.19.0+x64 (win32)",
+			"dist": {
+				"integrity": "sha512-WGikt+LTiGadqqKIGRwPVGtOUHchEEN6/af/T6nln8REkE2COY5nUirNc89ciPz1AznwZFzLtDmNkeV3NqUz2w==",
+				"shasum": "f34887968e506707d45594719202135a160b9193",
+				"tarball": "https://registry.npmjs.org/@mui/utils/-/utils-5.0.0.tgz",
+				"fileCount": 165,
+				"unpackedSize": 445740,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJhQypDCRA9TVsSAnZWagAAkF8QAJUlniaYXscc9TVsNyZD\nZn4yO7KbQfNGs7hzYq/zW9ZH8YZxZukp99YpndXKIt/TNzTW2Fvhs783dRZ9\n3p18yMb+GgNqWwIaa+FoUdsUZGc3kdJyzOeMOPcRJcDaQJNy4Fz/NhtQ0Q7u\n3C0gaX+jOWxF0L6m81s6uI83jVrkPO2SPesGIYIeyE6D35InfEcmYJmMSPAy\nnwrjHHzPIv2I6IfmURpRmjwrbO3CB4Lhsb/xIALddqIjQtAEVKhg0MHvo1FS\n39E7TliZM1gU2Y+Ky8cXUtp83CafRD2U8D8YRNiEhpwCaSkMfkubQxuqemE0\nv4x2JbMqy53B+P+unzRxQhzIuJiffWZw/snqSRJOhxkKFIv1YEAqfDufEGjh\nlsZ9/cNHdV+AIF+UtLD9yaAt/9kNKFcCNGdK5noE0v6Bn68Lwjkval1hx3+C\nVtD7KNMQIjs9M+P2y2AfH7KkvevJqaStENpVRxJptxKY8D6WbMDKaKMolfik\nuRRDZh5ylLaw78sHHi/DOPZD0fd5E0KdXperdyxR7nE6eFEy0EEThJXlIdMw\n3UhiFBYvEvjf+vCAsYUGZY+XLxe5i+Wpfg2KVGgU3/ASEKsnw5gG1N7n5z55\nHQ+Fa9GOCV5rDaYiDaIuTDGg23ObiEt25ssCWeRVa9GfXxb66SlbRcJFgTKH\nuvbA\r\n=abcz\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDhBxpjAClkQKNHUs3FPcWWJy/Nyb16qGjPimF8+0ZqiwIhANtMnafQgOigGsRYfuyOmkF9Q8oHut2apoFquV16t982"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "mnajdova",
+				"email": "mnajdova@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "siriwatknp",
+					"email": "siriwatkunaporn@gmail.com"
+				},
+				{
+					"name": "eps1lon",
+					"email": "silbermann.sebastian@gmail.com"
+				},
+				{
+					"name": "matheushw",
+					"email": "matheushw@outlook.com"
+				},
+				{
+					"name": "flaviendelangle",
+					"email": "flaviendelangle@gmail.com"
+				},
+				{
+					"name": "danailh",
+					"email": "hadjiatanasov@gmail.com"
+				},
+				{
+					"name": "mnajdova",
+					"email": "mnajdova@gmail.com"
+				},
+				{
+					"name": "michaldudak",
+					"email": "michal@dudak.me"
+				},
+				{
+					"name": "oliviertassinari",
+					"email": "olivier.tassinari@gmail.com"
+				},
+				{
+					"name": "mbrookes",
+					"email": "npm@nospam.33m.co"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/utils_5.0.0_1631791683018_0.7866334332495173"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"5.0.1": {
+			"name": "@mui/utils",
+			"version": "5.0.1",
+			"private": false,
+			"author": {
+				"name": "MUI Team"
+			},
+			"description": "Utility functions for React components.",
+			"main": "./index.js",
+			"keywords": [
+				"react",
+				"react-component",
+				"material-ui",
+				"utils"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/mui-org/material-ui.git",
+				"directory": "packages/mui-utils"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mui-org/material-ui/issues"
+			},
+			"homepage": "https://github.com/mui-org/material-ui/tree/master/packages/mui-utils",
+			"peerDependencies": {
+				"react": "^17.0.2"
+			},
+			"dependencies": {
+				"@babel/runtime": "^7.15.4",
+				"@types/prop-types": "^15.7.4",
+				"@types/react-is": "^16.7.1 || ^17.0.0",
+				"prop-types": "^15.7.2",
+				"react-is": "^17.0.2"
+			},
+			"sideEffects": false,
+			"publishConfig": {
+				"access": "public"
+			},
+			"engines": {
+				"node": ">=12.0.0"
+			},
+			"module": "./esm/index.js",
+			"types": "./index.d.ts",
+			"_id": "@mui/utils@5.0.1",
+			"_nodeVersion": "16.9.1",
+			"_npmVersion": "lerna/4.0.0/node@v16.9.1+x64 (win32)",
+			"dist": {
+				"integrity": "sha512-GWO104N+o9KG5fKiTEYnAg7kONKEg3vLN+VROAU0f3it6lFGLCVPcQYex/1gJ4QAy96u6Ez8/Hmmhi1+3cX0tQ==",
+				"shasum": "d4f0f41b82db6ac273920a1b5b6a4de7879271f5",
+				"tarball": "https://registry.npmjs.org/@mui/utils/-/utils-5.0.1.tgz",
+				"fileCount": 165,
+				"unpackedSize": 450144,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDqrI85IH2h3gc6Wvw2rvFU2Ht3XFcfc9hVVqf5MhuZzwIgBZaRMW4U2Obo5t+4r0k9YYqEwRuwd8kPZwyR8lXZ1rk="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "mnajdova",
+				"email": "mnajdova@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "siriwatknp",
+					"email": "siriwatkunaporn@gmail.com"
+				},
+				{
+					"name": "eps1lon",
+					"email": "silbermann.sebastian@gmail.com"
+				},
+				{
+					"name": "matheushw",
+					"email": "matheushw@outlook.com"
+				},
+				{
+					"name": "flaviendelangle",
+					"email": "flaviendelangle@gmail.com"
+				},
+				{
+					"name": "danailh",
+					"email": "hadjiatanasov@gmail.com"
+				},
+				{
+					"name": "mnajdova",
+					"email": "mnajdova@gmail.com"
+				},
+				{
+					"name": "michaldudak",
+					"email": "michal@dudak.me"
+				},
+				{
+					"name": "oliviertassinari",
+					"email": "olivier.tassinari@gmail.com"
+				},
+				{
+					"name": "mbrookes",
+					"email": "npm@nospam.33m.co"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/utils_5.0.1_1632312669654_0.8918436386098763"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"5.1.0": {
+			"name": "@mui/utils",
+			"version": "5.1.0",
+			"private": false,
+			"author": {
+				"name": "MUI Team"
+			},
+			"description": "Utility functions for React components.",
+			"main": "./index.js",
+			"keywords": [
+				"react",
+				"react-component",
+				"mui",
+				"utils"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/mui-org/material-ui.git",
+				"directory": "packages/mui-utils"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mui-org/material-ui/issues"
+			},
+			"homepage": "https://github.com/mui-org/material-ui/tree/master/packages/mui-utils",
+			"peerDependencies": {
+				"react": "^17.0.2"
+			},
+			"dependencies": {
+				"@babel/runtime": "^7.16.0",
+				"@types/prop-types": "^15.7.4",
+				"@types/react-is": "^16.7.1 || ^17.0.0",
+				"prop-types": "^15.7.2",
+				"react-is": "^17.0.2"
+			},
+			"sideEffects": false,
+			"publishConfig": {
+				"access": "public"
+			},
+			"engines": {
+				"node": ">=12.0.0"
+			},
+			"module": "./esm/index.js",
+			"types": "./index.d.ts",
+			"_id": "@mui/utils@5.1.0",
+			"_nodeVersion": "16.9.1",
+			"_npmVersion": "lerna/4.0.0/node@v16.9.1+x64 (win32)",
+			"dist": {
+				"integrity": "sha512-TbAa3DZBGE6xjrVsQ6e0Iw0jwgGZqPg/48aZJJWXJJjU8NU5OhBRutYhrk/kbdDRmsIArHNdpJayBSi7yETYvg==",
+				"shasum": "876951933b77828925ad9502a16070497664aae6",
+				"tarball": "https://registry.npmjs.org/@mui/utils/-/utils-5.1.0.tgz",
+				"fileCount": 165,
+				"unpackedSize": 476145,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIEzfpyx8paT7V4pcsnykvVPY05rUU1sThJy0exOtAPP+AiAXXSUi2p0AgWC0IGkAxfroRyGQOEbEYyMQA3gl0Fu3Nw=="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "mnajdova",
+				"email": "mnajdova@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "alexandrefauquette",
+					"email": "alex.fauquette@gmail.com"
+				},
+				{
+					"name": "hbjorbj",
+					"email": "sldisek783@gmail.com"
+				},
+				{
+					"name": "matheushw",
+					"email": "matheushw@outlook.com"
+				},
+				{
+					"name": "oliviertassinari",
+					"email": "olivier.tassinari@gmail.com"
+				},
+				{
+					"name": "michaldudak",
+					"email": "michal@dudak.me"
+				},
+				{
+					"name": "mnajdova",
+					"email": "mnajdova@gmail.com"
+				},
+				{
+					"name": "danailh",
+					"email": "hadjiatanasov@gmail.com"
+				},
+				{
+					"name": "flaviendelangle",
+					"email": "flaviendelangle@gmail.com"
+				},
+				{
+					"name": "eps1lon",
+					"email": "silbermann.sebastian@gmail.com"
+				},
+				{
+					"name": "siriwatknp",
+					"email": "siriwatkunaporn@gmail.com"
+				},
+				{
+					"name": "mbrookes",
+					"email": "npm@nospam.33m.co"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/utils_5.1.0_1636384375580_0.9963092068309629"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"5.1.1": {
+			"name": "@mui/utils",
+			"version": "5.1.1",
+			"private": false,
+			"author": {
+				"name": "MUI Team"
+			},
+			"description": "Utility functions for React components.",
+			"main": "./index.js",
+			"keywords": [
+				"react",
+				"react-component",
+				"mui",
+				"utils"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/mui-org/material-ui.git",
+				"directory": "packages/mui-utils"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mui-org/material-ui/issues"
+			},
+			"homepage": "https://github.com/mui-org/material-ui/tree/master/packages/mui-utils",
+			"peerDependencies": {
+				"react": "^17.0.2"
+			},
+			"dependencies": {
+				"@babel/runtime": "^7.16.3",
+				"@types/prop-types": "^15.7.4",
+				"@types/react-is": "^16.7.1 || ^17.0.0",
+				"prop-types": "^15.7.2",
+				"react-is": "^17.0.2"
+			},
+			"sideEffects": false,
+			"publishConfig": {
+				"access": "public"
+			},
+			"engines": {
+				"node": ">=12.0.0"
+			},
+			"module": "./esm/index.js",
+			"types": "./index.d.ts",
+			"_id": "@mui/utils@5.1.1",
+			"_nodeVersion": "14.17.0",
+			"_npmVersion": "lerna/4.0.0/node@v14.17.0+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-rqakHf0IMaasDo1EcYqkx13VTxeoQoGf/3RxQuazQFKzF7d2uylFwNyb6bnUJGNe2/akiIMk/qiub58sYrwxVQ==",
+				"shasum": "3cb2c049731dacb3830336bc8011141e84434aad",
+				"tarball": "https://registry.npmjs.org/@mui/utils/-/utils-5.1.1.tgz",
+				"fileCount": 165,
+				"unpackedSize": 480261,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJhk8onCRA9TVsSAnZWagAAIFsP/0Wnzs+JOSD3ghxX/ngJ\noYDmfxtNt0WTRY23T/0yhM3sMpNRar21Z5cKNJLz8k3SIqGI//RyPCsyQYvG\nCK4O4uU0ezNnH3RBk5F0BrQFqfVNUXQ7XYNXCOEwr4Zd9kIQ94LpIcR9r4nU\nm/Ubg0cvI3Yst9XPDvXkUI1Qpyh6DuvnpfZcie2mGRj3j5JxspaWcLkHZEgT\nOjXA1hLoaXAWj25L/24oGb5g8bYaml7l4k5mM8tMjIRQDhqXpTlnZvovTPiO\nozCwtXpfge8qnD/xCVY4oypDIWwjUpMJIbCBQsuvDo2/vbSshIHnjLak3Vl1\n0uuxZXCzGfvyd/7D/G+cDz3Z27UOjXJdTTwcnjPHFwVZK0yqzlOVSdD3wd3R\n7pLjB70Lg/AVlkgPXaino46hzEFR2HNgVisBOqivjfjxcKdyw8duRzYl2Zyg\nMbczdrvqtvka+CEMDuMYMdgiaCeSIfS2oR/YDCZ7UiRJ0FA/MqPUqSWrqjji\nVezNXPHqkunjNI+NoVZ5WJHdjGDIm+V2EpuBAkO6aO1vvAsYj7dXQCMLaUvj\n76DntaFtofPfh9qgEgJDkOvjw00isM/3GsJN+rSkE/zmGRMl3luL+SUODgW7\nF89/DVSs8lq/Ia2O3sTBrKcjS4sWE/kjd66p88wVpq6iOiiaksVaG7/mMQhJ\nCWZR\r\n=MSo1\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIELG6ZmvQawnomMjcOQaERpqVGTzOfLJypiKt23CcNLBAiEA9RLoInma5CNlJcOnV0YlXPHZAZyM3suQMdYNT1mvHiY="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "siriwatknp",
+				"email": "siriwatkunaporn@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "alexandrefauquette",
+					"email": "alex.fauquette@gmail.com"
+				},
+				{
+					"name": "hbjorbj",
+					"email": "sldisek783@gmail.com"
+				},
+				{
+					"name": "matheushw",
+					"email": "matheushw@outlook.com"
+				},
+				{
+					"name": "oliviertassinari",
+					"email": "olivier.tassinari@gmail.com"
+				},
+				{
+					"name": "michaldudak",
+					"email": "michal@dudak.me"
+				},
+				{
+					"name": "mnajdova",
+					"email": "mnajdova@gmail.com"
+				},
+				{
+					"name": "danailh",
+					"email": "hadjiatanasov@gmail.com"
+				},
+				{
+					"name": "flaviendelangle",
+					"email": "flaviendelangle@gmail.com"
+				},
+				{
+					"name": "eps1lon",
+					"email": "silbermann.sebastian@gmail.com"
+				},
+				{
+					"name": "siriwatknp",
+					"email": "siriwatkunaporn@gmail.com"
+				},
+				{
+					"name": "mbrookes",
+					"email": "npm@nospam.33m.co"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/utils_5.1.1_1637075495184_0.7025074457885483"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"5.2.0": {
+			"name": "@mui/utils",
+			"version": "5.2.0",
+			"private": false,
+			"author": {
+				"name": "MUI Team"
+			},
+			"description": "Utility functions for React components.",
+			"main": "./index.js",
+			"keywords": [
+				"react",
+				"react-component",
+				"mui",
+				"utils"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/mui-org/material-ui.git",
+				"directory": "packages/mui-utils"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mui-org/material-ui/issues"
+			},
+			"homepage": "https://github.com/mui-org/material-ui/tree/master/packages/mui-utils",
+			"peerDependencies": {
+				"react": "^17.0.2"
+			},
+			"dependencies": {
+				"@babel/runtime": "^7.16.3",
+				"@types/prop-types": "^15.7.4",
+				"@types/react-is": "^16.7.1 || ^17.0.0",
+				"prop-types": "^15.7.2",
+				"react-is": "^17.0.2"
+			},
+			"sideEffects": false,
+			"publishConfig": {
+				"access": "public"
+			},
+			"engines": {
+				"node": ">=12.0.0"
+			},
+			"module": "./esm/index.js",
+			"types": "./index.d.ts",
+			"_id": "@mui/utils@5.2.0",
+			"_nodeVersion": "16.10.0",
+			"_npmVersion": "lerna/4.0.0/node@v16.10.0+x64 (win32)",
+			"dist": {
+				"integrity": "sha512-RiaRY0Qyr8IzgUK0+SuCxugG2wlPYkZ7JQPGmaFdRX2EUbudFiUPgzFAEp+VvJIGkdbxFq8t/t3Sy9WO7DbMEA==",
+				"shasum": "70c22968435e8e4ae86d46bb7f224c65de0d2acc",
+				"tarball": "https://registry.npmjs.org/@mui/utils/-/utils-5.2.0.tgz",
+				"fileCount": 165,
+				"unpackedSize": 486645,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJhnOunCRA9TVsSAnZWagAA/tYQAIL550FeRGTLoydR11Y6\nNC/6ribmy0TXZCojSCcebYdHtI/W8F3bLe52ZeN52PWzZ6W/4/4Vedx/950y\n5HgS0ww0PqZ0GxWFWGEMYL1n72FqlQ1utbXyy7Muz6i7lO32V3zry9G76Eqf\nm3ghMX31DEERM8zw3dxImKeaS/YnVMs3FuFnkKuJ9cgLnTrS3lTKfBbrfVZf\nvYBIKMfpaf03A8tt+3RI+pQpNMk03B61vv41ijYxL8PFc6h9qiFY5rYoDXgY\netqqTEK/xtndluwhdwod43D2wcN1S4/A2xGmRh4Ltkd1kghx1PApyKR5TJsf\nHBpCBCDufbSZBPmp8LyV0qraOOOkbO8ONNg3sWb2RrS+7paXAr5F3HG5hMMt\noGsmp2M5NZCRXwDLG46Fj105zJ0hIu8Mgzvw87aKoKJ6jv7r+OGKiO2r6NUW\nf3qQtw/spW8urhLn+gJEFYbJL2GkaUvzWrRXD3KTqToSq0FCdotfdkRH5ySx\nxZzC3DlF5nHTQKSv8CP/3yo/Km384sP3m2euFBOgK/pZW8evm/u6dl6wz3vf\nmCkHIGIdcai04+L7qYJ0uyOp/zgMwlNAmCNhVTECcNT9cymfr3Rkd5zLT97a\nUa9MOOdISf3sYWDkl0pO+3jjNOPR9Zr4AnV79fPWBLYH3bg4bD3WmHZdWicz\n/j8X\r\n=Moai\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCICQajiDpBpmA0FE1d0AHKRCML8l4X8DuBO+IHNLmC+hEAiAZqa3+BJBagjS9/blS5Dfh8+1JyFUj/TN7snfXG1EN3g=="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "michaldudak",
+				"email": "michal@dudak.me"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "janpotoms",
+					"email": "potoms.jan@gmail.com"
+				},
+				{
+					"name": "oliviertassinari",
+					"email": "olivier.tassinari@gmail.com"
+				},
+				{
+					"name": "mbrookes",
+					"email": "npm@nospam.33m.co"
+				},
+				{
+					"name": "hbjorbj",
+					"email": "sldisek783@gmail.com"
+				},
+				{
+					"name": "eps1lon",
+					"email": "silbermann.sebastian@gmail.com"
+				},
+				{
+					"name": "siriwatknp",
+					"email": "siriwatkunaporn@gmail.com"
+				},
+				{
+					"name": "mnajdova",
+					"email": "mnajdova@gmail.com"
+				},
+				{
+					"name": "michaldudak",
+					"email": "michal@dudak.me"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/utils_5.2.0_1637673895721_0.09694759951805576"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"5.2.1": {
+			"name": "@mui/utils",
+			"version": "5.2.1",
+			"private": false,
+			"author": {
+				"name": "MUI Team"
+			},
+			"description": "Utility functions for React components.",
+			"main": "./index.js",
+			"keywords": [
+				"react",
+				"react-component",
+				"mui",
+				"utils"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/mui-org/material-ui.git",
+				"directory": "packages/mui-utils"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mui-org/material-ui/issues"
+			},
+			"homepage": "https://github.com/mui-org/material-ui/tree/master/packages/mui-utils",
+			"peerDependencies": {
+				"react": "^17.0.2"
+			},
+			"dependencies": {
+				"@babel/runtime": "^7.16.3",
+				"@types/prop-types": "^15.7.4",
+				"@types/react-is": "^16.7.1 || ^17.0.0",
+				"prop-types": "^15.7.2",
+				"react-is": "^17.0.2"
+			},
+			"sideEffects": false,
+			"publishConfig": {
+				"access": "public"
+			},
+			"engines": {
+				"node": ">=12.0.0"
+			},
+			"module": "./esm/index.js",
+			"types": "./index.d.ts",
+			"_id": "@mui/utils@5.2.1",
+			"_nodeVersion": "12.22.6",
+			"_npmVersion": "lerna/4.0.0/node@v12.22.6+x64 (linux)",
+			"dist": {
+				"integrity": "sha512-JQH5ucBxBrubntrN2mvDcwkXlWaHuZGz5goxg9ixnZXRhlZ9Ed5knfsafrX4OFyXNT48DiZXaTRAEkqjyfCExQ==",
+				"shasum": "fdd70067f8fb2d73225d56f2e705afacdeb3255b",
+				"tarball": "https://registry.npmjs.org/@mui/utils/-/utils-5.2.1.tgz",
+				"fileCount": 165,
+				"unpackedSize": 485903,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJhn3haCRA9TVsSAnZWagAANlcP/3HkuR+jnWIlLyZiM6W0\n94UN03s7DA7GXqggXvdIYbOO48JMPGdC+vvICg9IwE+1HvjLRKm0EhTc8Cwf\nAyvlO0pdIi2eDZYjhY01N6f9Ggy4NY5P59jly5eDm+KM5nd406UzzCyxljWW\n9ksK8gEHhDfwnA+z34g9UZmAzRsJ3VfoUOia7NM0LIw3nMf8+UPLl5Ay7HMf\nibrvcq6L7DwVmEpWyalgBz9uqiK63zuYWJRrzfs2P0c1dgzHifelJIo8N4U0\n+6twTBWwrw7BVBnIGqSxsveKc6075ivjlc6wENxOxPo+pl4ljvsimWuuutqH\nhmnLtk/9yFHSxfDfA/vGfJKZiwH9OCXFkECoqdyz4a9V2zuCf2CXhsIn4Z5d\n4o9dRo2ck8KOyP2m8TJ2zAicfV4qfkua4vsyVUVloK4fwocpxBIqDz10iJr8\nUqMo6EmS2DhN3xBciEFzbbKidWJ70CKL0/2OJ4k6VwZWLlyE4wkaIRD6WqS9\nTUW/CmDmrItC8BSkJxrw0LTKGL1+6y568FewCASt0JdDvmG+n7F2Z3t/xRpW\nY+wpf5iff/TwvKEVlCSudvUluJ48pcys8ASTzPaSODljzPijw37cwuT9XZWB\nzRcSqBJHtBtbp68l7Njc6CCvRRQFFAmUDUNLPGWi215q4a9bZhNuhx56qhOu\n6gsc\r\n=mpDI\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIB1qbP72aIw8W8U8BCCAVO7qFu4KGTvDnDr7SH5Uc3PHAiEAsVRdnt31kUPvNvIiUEjhqY+emJg5HzYX1cymsK57IVM="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "eps1lon",
+				"email": "silbermann.sebastian@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "janpotoms",
+					"email": "potoms.jan@gmail.com"
+				},
+				{
+					"name": "oliviertassinari",
+					"email": "olivier.tassinari@gmail.com"
+				},
+				{
+					"name": "mbrookes",
+					"email": "npm@nospam.33m.co"
+				},
+				{
+					"name": "hbjorbj",
+					"email": "sldisek783@gmail.com"
+				},
+				{
+					"name": "eps1lon",
+					"email": "silbermann.sebastian@gmail.com"
+				},
+				{
+					"name": "siriwatknp",
+					"email": "siriwatkunaporn@gmail.com"
+				},
+				{
+					"name": "mnajdova",
+					"email": "mnajdova@gmail.com"
+				},
+				{
+					"name": "michaldudak",
+					"email": "michal@dudak.me"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/utils_5.2.1_1637840986191_0.6728122702550323"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"5.2.2": {
+			"name": "@mui/utils",
+			"version": "5.2.2",
+			"private": false,
+			"author": {
+				"name": "MUI Team"
+			},
+			"description": "Utility functions for React components.",
+			"main": "./index.js",
+			"keywords": [
+				"react",
+				"react-component",
+				"mui",
+				"utils"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/mui-org/material-ui.git",
+				"directory": "packages/mui-utils"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mui-org/material-ui/issues"
+			},
+			"homepage": "https://github.com/mui-org/material-ui/tree/master/packages/mui-utils",
+			"peerDependencies": {
+				"react": "^17.0.2"
+			},
+			"dependencies": {
+				"@babel/runtime": "^7.16.3",
+				"@types/prop-types": "^15.7.4",
+				"@types/react-is": "^16.7.1 || ^17.0.0",
+				"prop-types": "^15.7.2",
+				"react-is": "^17.0.2"
+			},
+			"sideEffects": false,
+			"publishConfig": {
+				"access": "public"
+			},
+			"engines": {
+				"node": ">=12.0.0"
+			},
+			"module": "./esm/index.js",
+			"types": "./index.d.ts",
+			"_id": "@mui/utils@5.2.2",
+			"_nodeVersion": "16.11.1",
+			"_npmVersion": "lerna/4.0.0/node@v16.11.1+arm64 (darwin)",
+			"dist": {
+				"integrity": "sha512-0u9ImUfpCfTxmvQTfUzTSS+jKWMX15MBZeZCRQZ0f7o9Yi8BlrLj33lMx0mFBkUSYdTXnqL4yfOn7RBzV01HMQ==",
+				"shasum": "972aab7d2564e77c06e0c3c11e7b1aec6e37c927",
+				"tarball": "https://registry.npmjs.org/@mui/utils/-/utils-5.2.2.tgz",
+				"fileCount": 165,
+				"unpackedSize": 489839,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJhpQTdCRA9TVsSAnZWagAABNYP/ji+upvINI5vJKpT1Xvy\ngxXbWcSJOm2KZqOPjgkWmSDYoGZ0d/0PdiFbnK/IJOOQ/qQeo/iFzLgQiVd6\nPYNlAfj8zm9IIxIDADLL1MOXB9m2jDlSOy0hkvYIOE3LvXsye2eWymwBBDOo\np0Ghcjy1NbfjkmZxtHmf3q0mjwlxH4oTtCTw9DL+MqUjZVwXOU2GmgLtVX8k\nf/28YkYh5CYYOlRHe2qRLNYImgYNymNWhY+YNXyPjB1rJprPRqQlEtuwzhEa\nTqufcs2wkskOW1vBe6NHyWTcXGVzu993itHzncJVNZvVTqJrHKMgtKfQsPfI\noJpLmHe0L0CtQlGSDpwwd2LWo8fvrPwubPlULIwRLJZ2KK0b+tjPig/svabC\naqxBroD95OlJqwEkWrX9W0FTlATpg+RuW0LCAUdw5Rw5XDz2ZZzlMSAP82Zj\nzSOHXvSk7gDYnUundTP3ZJyznY7YzjZzlX4QF+09nhIfO4n+1Uc9YRl7QoSN\n+RUjdRJjXWKTYOM26QpTCmDGNOHCHiMPUSGb6cycHocJzrbB4jPhahVMpZVB\nDjmP4xiNL98Pu9NGIr0rQIc42gpagNn0WFPBEwbqS4ypbDirNm/knL1Zwi3u\n+IbyLoIPWJceNnRchNC9v5HnmNIfW+3DiOtp1X1LnO4gWfRPbcusn5trXzJo\nTpBw\r\n=hSB5\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQCKMxXCNyW68khHZumr108nFaK0wLTWZZNk8QYWGbZTQAIgFKIdt1v5HZpH42v0vIke3IsczbkI7eVzhxIxwhSK9Dc="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "hbjorbj",
+				"email": "sldisek783@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "janpotoms",
+					"email": "potoms.jan@gmail.com"
+				},
+				{
+					"name": "oliviertassinari",
+					"email": "olivier.tassinari@gmail.com"
+				},
+				{
+					"name": "mbrookes",
+					"email": "npm@nospam.33m.co"
+				},
+				{
+					"name": "hbjorbj",
+					"email": "sldisek783@gmail.com"
+				},
+				{
+					"name": "eps1lon",
+					"email": "silbermann.sebastian@gmail.com"
+				},
+				{
+					"name": "siriwatknp",
+					"email": "siriwatkunaporn@gmail.com"
+				},
+				{
+					"name": "mnajdova",
+					"email": "mnajdova@gmail.com"
+				},
+				{
+					"name": "michaldudak",
+					"email": "michal@dudak.me"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/utils_5.2.2_1638204636858_0.9788811233929526"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"5.2.3": {
+			"name": "@mui/utils",
+			"version": "5.2.3",
+			"private": false,
+			"author": {
+				"name": "MUI Team"
+			},
+			"description": "Utility functions for React components.",
+			"main": "./index.js",
+			"keywords": [
+				"react",
+				"react-component",
+				"mui",
+				"utils"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/mui-org/material-ui.git",
+				"directory": "packages/mui-utils"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mui-org/material-ui/issues"
+			},
+			"homepage": "https://github.com/mui-org/material-ui/tree/master/packages/mui-utils",
+			"funding": {
+				"type": "opencollective",
+				"url": "https://opencollective.com/mui"
+			},
+			"peerDependencies": {
+				"react": "^17.0.2"
+			},
+			"dependencies": {
+				"@babel/runtime": "^7.16.3",
+				"@types/prop-types": "^15.7.4",
+				"@types/react-is": "^16.7.1 || ^17.0.0",
+				"prop-types": "^15.7.2",
+				"react-is": "^17.0.2"
+			},
+			"sideEffects": false,
+			"publishConfig": {
+				"access": "public"
+			},
+			"engines": {
+				"node": ">=12.0.0"
+			},
+			"module": "./esm/index.js",
+			"types": "./index.d.ts",
+			"_id": "@mui/utils@5.2.3",
+			"_nodeVersion": "16.9.1",
+			"_npmVersion": "lerna/4.0.0/node@v16.9.1+x64 (win32)",
+			"dist": {
+				"integrity": "sha512-sQujlajIS0zQKcGIS6tZR0L1R+ib26B6UtuEn+cZqwKHsPo3feuS+SkdscYBdcCdMbrZs4gj8WIJHl2z6tbSzQ==",
+				"shasum": "994f3a500679804483732596fcfa531e59c56445",
+				"tarball": "https://registry.npmjs.org/@mui/utils/-/utils-5.2.3.tgz",
+				"fileCount": 170,
+				"unpackedSize": 497864,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJhrjZJCRA9TVsSAnZWagAAvigP/iM0+S6GPML52ceziruS\nGP2He9TtqbqQVB3saIdO8L3B3NkAacBZ+VLAv5kSAs6u9eXhK2XXQTKu/uMo\nSB4ZdfH+rt+blI7NIy2uWyD8amtEsKas70k89/J+MS4u7G+QiL7T0Ay6s/RW\nlJZSZQkA2JnlXUkKcX1UrVTjX8JwwlQUFFKvD07/XNFO/QxZtpT45zf7S3O/\nAyt/brqg88sO7Tzm5vBoOdloHbBsdcsdfZb9YPseBmhbyz17S2HmGEjIQ6Bw\nyKDrhooST8FGmrqnG3sE1UC/AJsRPok6wjQuifjywg8J0/senHmgamunIMw5\n26ZXUCoSYRynquA3icmo3kYW+C8aj1ACI3Do6KBgsN/yl+SBAYR041gpQjMe\nSn7e4i7Kj4vKK8EgNa1iYueW1R/wxPfZKiJWuwoutcxXUdlxwSJED3HtzKBZ\nHmz05NDdtuIHDkoCwN1KhgEcJFjC6GLmoFKWyEkkOL5ckkjRTTfZ+FrUGo8x\n4JLwaFFyWlzppxI/E0+QxxVTwXMjaMtwWgmmsCvJHmKo5DwgbOfIU8n1mXSG\nGIKyuONYELxoqxk/ZY+SWgguRt1T7HIZfOfmkLtmGrQyt2fmpJfNFJuCU5zP\n+V4vCJ8zu4Q9d1Xf8K+mraB07T4dTvyD6L+D9KTINZPtIBWevR4dfgd/C0Ro\nY0dS\r\n=TfAI\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDA+MhfqG5yq7vnHNz+Xr0slRbbvxgNHhHi+GmT1AGrvQIhAIigVYVbiZDHG3/xlJbKaQqZiV5CgZsqeWYPX9tpA94W"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "mnajdova",
+				"email": "mnajdova@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "janpotoms",
+					"email": "potoms.jan@gmail.com"
+				},
+				{
+					"name": "oliviertassinari",
+					"email": "olivier.tassinari@gmail.com"
+				},
+				{
+					"name": "mbrookes",
+					"email": "npm@nospam.33m.co"
+				},
+				{
+					"name": "hbjorbj",
+					"email": "sldisek783@gmail.com"
+				},
+				{
+					"name": "eps1lon",
+					"email": "silbermann.sebastian@gmail.com"
+				},
+				{
+					"name": "siriwatknp",
+					"email": "siriwatkunaporn@gmail.com"
+				},
+				{
+					"name": "mnajdova",
+					"email": "mnajdova@gmail.com"
+				},
+				{
+					"name": "michaldudak",
+					"email": "michal@dudak.me"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/utils_5.2.3_1638807112939_0.7467537272996843"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"5.3.0": {
+			"name": "@mui/utils",
+			"version": "5.3.0",
+			"private": false,
+			"author": {
+				"name": "MUI Team"
+			},
+			"description": "Utility functions for React components.",
+			"main": "./index.js",
+			"keywords": [
+				"react",
+				"react-component",
+				"mui",
+				"utils"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/mui-org/material-ui.git",
+				"directory": "packages/mui-utils"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mui-org/material-ui/issues"
+			},
+			"homepage": "https://github.com/mui-org/material-ui/tree/master/packages/mui-utils",
+			"funding": {
+				"type": "opencollective",
+				"url": "https://opencollective.com/mui"
+			},
+			"peerDependencies": {
+				"react": "^17.0.0"
+			},
+			"dependencies": {
+				"@babel/runtime": "^7.16.7",
+				"@types/prop-types": "^15.7.4",
+				"@types/react-is": "^16.7.1 || ^17.0.0",
+				"prop-types": "^15.7.2",
+				"react-is": "^17.0.2"
+			},
+			"sideEffects": false,
+			"publishConfig": {
+				"access": "public"
+			},
+			"engines": {
+				"node": ">=12.0.0"
+			},
+			"module": "./esm/index.js",
+			"types": "./index.d.ts",
+			"_id": "@mui/utils@5.3.0",
+			"_nodeVersion": "16.13.2",
+			"_npmVersion": "lerna/4.0.0/node@v16.13.2+x64 (win32)",
+			"dist": {
+				"integrity": "sha512-O/E9IQKPMg0OrN7+gkn7Ga5o5WA2iXQGdyqNBFPNrYzxOvwzsEtM5K7MtTCGGYKFe8mhTRM0ZOjh5OM0dglw+Q==",
+				"shasum": "5f31915063d25c56f1d3ba9e289bf447472a868c",
+				"tarball": "https://registry.npmjs.org/@mui/utils/-/utils-5.3.0.tgz",
+				"fileCount": 170,
+				"unpackedSize": 514567,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJh5fCbCRA9TVsSAnZWagAA4c4P+gIhRwMfrmqK0jFQ0oDb\n3Z6zAN2vvAFtt6l6Q4+8kZQQGgbXbCq5gZxpNHuD7Pc8BS7CNMhmcZnV9VeV\n7mCEtyl7Btlph+g+r90kj0JKsqNKjYDZw8b/2HUUxvUXGnizupXtbMFMxh+O\nRs8EVDmY3/lPGKY/oWR2T+YYhJXzAukF0Qt9JfaR+Bt6gvphxHq75MDnk+f9\ny6Q7QUZsbxfBgzh59DewpX4kHVugjVlLc+kgXKv6oCa+JkWyYP5RZ0r+pHVG\nkslxwAWKTgwrNJVSOJkO/PdRGsylcbmee7bLKh+5MbHm3G1SuGSH7Ny4SvH4\n1r/kKlpqD3RCyBHcbhB1OUAdKAAs+xpyusoP5JBEyMNx+s0NqvfKLgKfbHgQ\nCE3B7ZLTWOl7ns/x1wLBcoRLTL1KwJxtM5zHLWUMJ9qQqO7U8gXkourJwlqR\nlsN62F2gqR8rEIyxNuZyyAQWIq0f1umTt4tItUk0A8jsWySW7DiPm6oj2BiG\nwpmDiCP+47ebRqx/XMzSItr7op2ySGFRAh0Hy3Biy8whDtUWyQbmuUhpBx9I\npmxdcGcJjsuWeA7NpOJDDF2xdsuWxvsbnBWNcBeSVumg6ITJHqZfo/1O5zOg\nAWnu0IN+BwaXG264ioHPpu9FDdzkO17OygLiDlK+cwDN/WUTCPEXfwBqRGMq\nugGZ\r\n=U/hG\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQCpUuV6Y0nT4D47iyEccEjXjb5rEoD3zLOo0h2A5gjthgIgHwwhglyl5Sd9e8cGktJaLPcKpZ7HtwfhH9asDbeGBFo="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "michaldudak",
+				"email": "michal@dudak.me"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "cherniavskii",
+					"email": "andrew.cherniavskii@gmail.com"
+				},
+				{
+					"name": "janpotoms",
+					"email": "potoms.jan@gmail.com"
+				},
+				{
+					"name": "oliviertassinari",
+					"email": "olivier.tassinari@gmail.com"
+				},
+				{
+					"name": "mbrookes",
+					"email": "npm@nospam.33m.co"
+				},
+				{
+					"name": "hbjorbj",
+					"email": "sldisek783@gmail.com"
+				},
+				{
+					"name": "eps1lon",
+					"email": "silbermann.sebastian@gmail.com"
+				},
+				{
+					"name": "siriwatknp",
+					"email": "siriwatkunaporn@gmail.com"
+				},
+				{
+					"name": "mnajdova",
+					"email": "mnajdova@gmail.com"
+				},
+				{
+					"name": "michaldudak",
+					"email": "michal@dudak.me"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/utils_5.3.0_1642459290880_0.5449236499894601"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"5.4.1": {
+			"name": "@mui/utils",
+			"version": "5.4.1",
+			"private": false,
+			"author": {
+				"name": "MUI Team"
+			},
+			"description": "Utility functions for React components.",
+			"main": "./index.js",
+			"keywords": [
+				"react",
+				"react-component",
+				"mui",
+				"utils"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/mui/material-ui.git",
+				"directory": "packages/mui-utils"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mui/material-ui/issues"
+			},
+			"homepage": "https://github.com/mui/material-ui/tree/master/packages/mui-utils",
+			"funding": {
+				"type": "opencollective",
+				"url": "https://opencollective.com/mui"
+			},
+			"peerDependencies": {
+				"react": "^17.0.0"
+			},
+			"dependencies": {
+				"@babel/runtime": "^7.17.0",
+				"@types/prop-types": "^15.7.4",
+				"@types/react-is": "^16.7.1 || ^17.0.0",
+				"prop-types": "^15.7.2",
+				"react-is": "^17.0.2"
+			},
+			"sideEffects": false,
+			"publishConfig": {
+				"access": "public"
+			},
+			"engines": {
+				"node": ">=12.0.0"
+			},
+			"module": "./esm/index.js",
+			"types": "./index.d.ts",
+			"_id": "@mui/utils@5.4.1",
+			"_nodeVersion": "14.17.0",
+			"_npmVersion": "lerna/4.0.0/node@v14.17.0+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-5HzM+ZjlQqbSp7UTOvLlhAjkWB+o9Z4NzO0W+yhZ1KnxITr+zr/MBzYmmQ3kyvhui8pyhgRDoTcVgwb+02ZUZA==",
+				"shasum": "feb365ce9a4426587510f0943fd6d6e1889e06e6",
+				"tarball": "https://registry.npmjs.org/@mui/utils/-/utils-5.4.1.tgz",
+				"fileCount": 170,
+				"unpackedSize": 528942,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJiAlYXCRA9TVsSAnZWagAAmrwP/jtoNGuQRYBvNCGicp2b\nylIIWyIuBJFHQvLQBOnPOZ1syO5HtPjBQ/bqt0W4FhlCq5+aVTqid/Ajd9+Y\n1X+lurXdlZuxFr6NBJSEZpxOps51racdYI5k0aQqTTWsxv7RmFLJoMwclN/m\nyAwdk1iDdOgCDywGiT6tZfCpQIQ+ZSKi+olJZ8ROo7CJ2pRzql0+gYvXd95/\nbQyDM5CnTzw1ffemmOKXBvlNWSAdp+iNkl8gZPfmEQuiz3RjmYjxT9igTzwc\nX6tjzM57O6Gmd1y4uRF/lDC0tipo2PjjCSVn7llbFQgJuUe5LdfkgpaJ1QjT\nZEHyMrOxiTzkSpZ71erG63/buXe667eWd8efbIotI6zU8TpOp//PEPun8AUV\n8pkyjY6y1yfqdD1ym/3XlV0qW+uSqnTh4tr9Q5KiSHg6MUQhGc+oGnLqlRuS\nvJo+UuSxNNV/IsTaVftlEYBeQmHkrQBnRCmFSCMdFXkOfFw8atY42i5ZKUKN\neKz9uOGZ7W4eT0sJgsC0OTf6dqb6Vi3KX8pgCRArAOQ1AlVHbHIoJ5sltg/U\n0EPEqhZj/wzV1uYLcEAv7NeBQTUEBoLE0qliYg3G6g683De/0Ch3PhcuzYHl\nc8QdQhcPT/fil1j1faHgHvCDWadsY+nfSkVVGgxvG8yFEqFJ7SY+X6G+Mkdi\nIYYH\r\n=ORwZ\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDCSCLUuesF/HJkKOLGY0ajmyNOyDYM828xIxRvYp8E5QIgSJgNgq4R8KO+k1K2yqV1dCuAPweqtwkzXDsSIpqx+QI="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "siriwatknp",
+				"email": "siriwatkunaporn@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "cherniavskii",
+					"email": "andrew.cherniavskii@gmail.com"
+				},
+				{
+					"name": "janpotoms",
+					"email": "potoms.jan@gmail.com"
+				},
+				{
+					"name": "oliviertassinari",
+					"email": "olivier.tassinari@gmail.com"
+				},
+				{
+					"name": "mbrookes",
+					"email": "npm@nospam.33m.co"
+				},
+				{
+					"name": "hbjorbj",
+					"email": "sldisek783@gmail.com"
+				},
+				{
+					"name": "eps1lon",
+					"email": "silbermann.sebastian@gmail.com"
+				},
+				{
+					"name": "siriwatknp",
+					"email": "siriwatkunaporn@gmail.com"
+				},
+				{
+					"name": "mnajdova",
+					"email": "mnajdova@gmail.com"
+				},
+				{
+					"name": "michaldudak",
+					"email": "michal@dudak.me"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/utils_5.4.1_1644320279702_0.9343863292580836"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"5.4.2": {
+			"name": "@mui/utils",
+			"version": "5.4.2",
+			"private": false,
+			"author": {
+				"name": "MUI Team"
+			},
+			"description": "Utility functions for React components.",
+			"main": "./index.js",
+			"keywords": [
+				"react",
+				"react-component",
+				"mui",
+				"utils"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/mui/material-ui.git",
+				"directory": "packages/mui-utils"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mui/material-ui/issues"
+			},
+			"homepage": "https://github.com/mui/material-ui/tree/master/packages/mui-utils",
+			"funding": {
+				"type": "opencollective",
+				"url": "https://opencollective.com/mui"
+			},
+			"peerDependencies": {
+				"react": "^17.0.0"
+			},
+			"dependencies": {
+				"@babel/runtime": "^7.17.0",
+				"@types/prop-types": "^15.7.4",
+				"@types/react-is": "^16.7.1 || ^17.0.0",
+				"prop-types": "^15.7.2",
+				"react-is": "^17.0.2"
+			},
+			"sideEffects": false,
+			"publishConfig": {
+				"access": "public"
+			},
+			"engines": {
+				"node": ">=12.0.0"
+			},
+			"module": "./esm/index.js",
+			"types": "./index.d.ts",
+			"_id": "@mui/utils@5.4.2",
+			"_nodeVersion": "16.9.1",
+			"_npmVersion": "lerna/4.0.0/node@v16.9.1+x64 (win32)",
+			"dist": {
+				"integrity": "sha512-646dBCC57MXTo/Gf3AnZSHRHznaTETQq5x7AWp5FRQ4jPeyT4WSs18cpJVwkV01cAHKh06pNQTIufIALIWCL5g==",
+				"shasum": "3edda8f80de235418fff0424ee66e2a49793ec01",
+				"tarball": "https://registry.npmjs.org/@mui/utils/-/utils-5.4.2.tgz",
+				"fileCount": 170,
+				"unpackedSize": 532072,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJiC78TCRA9TVsSAnZWagAA4TYP/A8Ia92bqejaC6qRQc1H\nLV9/Rxm4fmM97T8upobTINJQBdPwVrn+rnCvQ9Th97De/8/z062YGvQjqp1h\nSiEapUnXnrBUn4nj+HY8JaqrrFVOduLK1tv3ZN39yNw7uTgSJap1Mf+p053F\nGUCghgszZ1MwHLobviBx7YR7q1GFwq3vkzJuzufWJK/i0twskXz41+3zt3lp\nnGwar1bMTm8u9Nb71HXTEfYGOt2worKCctNDLMnVwckKUKSft3bw1KQBJF6j\n3GBknLoZSnLXZQeNPt/IbCVJXdUahmZhOfEf2tZbj4nSufQnmQENRcMCNXBZ\npWnB3esaid2r0nC1JN3URjTdyp0CaNlOkJryb7uFO1ygchJsyVCo3/IE6Xzy\nuOg1KBrkxnwmgALYPh7WpwuoL7VnjPclGh++yAHc+g0lHWCua9zzmHmMkAnT\n1b7AMhfb0Xkz1lRC6H8lMGB+mLP4n9qqqA10QIhFn+XyUbmzRWA24mWLg5u1\n5bAt/H7ae06Hgbu05f1GG0vlU71mCVSNBDyYLJsUdJo+MP1UwH8Y/7px2Xap\nzFctF+YyLZkT6q35N6B4Qw/mlzJVP0u22LHSQ5U3dABeYp3Eel7PUjnyujuj\nVlmwMmvBH+XIOxpmL9620z1RaeNTe5rljUtZefXomBqIsqiNnz+LlLmWpKNe\nbpaD\r\n=7gZ9\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDN2QIctJCdIW8qqcF8FAeSSLdZqwdugettWS/aGHjq5AIgATWn3Ic387MCpmcned/9A56lH0yFUD1NOibuPsIpsX4="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "mnajdova",
+				"email": "mnajdova@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "cherniavskii",
+					"email": "andrew.cherniavskii@gmail.com"
+				},
+				{
+					"name": "janpotoms",
+					"email": "potoms.jan@gmail.com"
+				},
+				{
+					"name": "oliviertassinari",
+					"email": "olivier.tassinari@gmail.com"
+				},
+				{
+					"name": "mbrookes",
+					"email": "npm@nospam.33m.co"
+				},
+				{
+					"name": "hbjorbj",
+					"email": "sldisek783@gmail.com"
+				},
+				{
+					"name": "eps1lon",
+					"email": "silbermann.sebastian@gmail.com"
+				},
+				{
+					"name": "siriwatknp",
+					"email": "siriwatkunaporn@gmail.com"
+				},
+				{
+					"name": "mnajdova",
+					"email": "mnajdova@gmail.com"
+				},
+				{
+					"name": "michaldudak",
+					"email": "michal@dudak.me"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/utils_5.4.2_1644936979676_0.5393292000950998"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"5.4.4": {
+			"name": "@mui/utils",
+			"version": "5.4.4",
+			"private": false,
+			"author": {
+				"name": "MUI Team"
+			},
+			"description": "Utility functions for React components.",
+			"main": "./index.js",
+			"keywords": [
+				"react",
+				"react-component",
+				"mui",
+				"utils"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/mui/material-ui.git",
+				"directory": "packages/mui-utils"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mui/material-ui/issues"
+			},
+			"homepage": "https://github.com/mui/material-ui/tree/master/packages/mui-utils",
+			"funding": {
+				"type": "opencollective",
+				"url": "https://opencollective.com/mui"
+			},
+			"peerDependencies": {
+				"react": "^17.0.0"
+			},
+			"dependencies": {
+				"@babel/runtime": "^7.17.2",
+				"@types/prop-types": "^15.7.4",
+				"@types/react-is": "^16.7.1 || ^17.0.0",
+				"prop-types": "^15.7.2",
+				"react-is": "^17.0.2"
+			},
+			"sideEffects": false,
+			"publishConfig": {
+				"access": "public"
+			},
+			"engines": {
+				"node": ">=12.0.0"
+			},
+			"module": "./esm/index.js",
+			"types": "./index.d.ts",
+			"_id": "@mui/utils@5.4.4",
+			"_nodeVersion": "16.9.1",
+			"_npmVersion": "lerna/4.0.0/node@v16.9.1+x64 (win32)",
+			"dist": {
+				"integrity": "sha512-hfYIXEuhc2mXMGN5nUPis8beH6uE/zl3uMWJcyHX0/LN/+QxO9zhYuV6l8AsAaphHFyS/fBv0SW3Nid7jw5hKQ==",
+				"shasum": "bd7dde4f48f60c02b6debf976bd74f3505b188fe",
+				"tarball": "https://registry.npmjs.org/@mui/utils/-/utils-5.4.4.tgz",
+				"fileCount": 170,
+				"unpackedSize": 537974,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJiHOgLACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2Vmq6eRAAnQwZ9OsHIx/buawyW3ZSaTdn2oZA4arHGyMNX6jWUYaAj+yn\r\n/JSr7ZdWakuyIvZeuREGr5gFOcQSnnW2BZRAmgw8Oe4lR8ykLrVAzhiUGrin\r\nR+YpD0xp4UTdv0jnyiVaOnxYA/Cr9iTCP0jpF0ILOkBJ4riYvh4EV97a0Xxx\r\nhU6F2NOj6VsQtVaRjOMPvKd/baAhJhE4TFsASBpr9oBmkGxN1YcRe2ReTMsX\r\n46+d6XuF6x71HpTaI3RzVJMNU88KLWHdeco0VCNtL0eOJ4twn1fEt62dFukA\r\nT2tljMsbdq/vTdAKkS3cFKhXIWqIXbqXnsVU7cm/KpQGJskygdRr7JXz/SKj\r\naq76yq2ifHSHlzapJkPGZrV1fQyQY02tFvc4KYTBwauAw46zPrazCjAmRRTD\r\ngLT5hubJuUrhIU6Gc3MifoceM2ZL0LmPC3RQQAvHwmwilu6RBoKFTSNYLI7W\r\nGpn/EtPfWU5OCWvgyDg6miNOSJpZP6E9z9Tjs1wpy3wHgVufLLPV8EPe53fS\r\ntSziPH95jAPBYpexPzEsNS/xawitQfaxZYnacUO/jYI6NqvemECoZJq7PmKO\r\nkwgYUX/xEWiVSOTnMOwvdVjmuvf4/dl1YkQRlzdZ5+j4bZtOp8JYZRw+W4va\r\nH5hHtdEglH8dwE9+L/mSWwLJvmdMf3Vy64E=\r\n=Ogdp\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDDyW5ddM1GwZVoRqvB3UoOmqbTC6630KbdFey8cA/fHwIhAN/oF7iDceGbyKKuGFt42+TXCHzYrfq9wBCR37ROrCC/"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "mnajdova",
+				"email": "mnajdova@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "oliviertassinari",
+					"email": "olivier.tassinari@gmail.com"
+				},
+				{
+					"name": "mbrookes",
+					"email": "npm@nospam.33m.co"
+				},
+				{
+					"name": "hbjorbj",
+					"email": "sldisek783@gmail.com"
+				},
+				{
+					"name": "eps1lon",
+					"email": "silbermann.sebastian@gmail.com"
+				},
+				{
+					"name": "siriwatknp",
+					"email": "siriwatkunaporn@gmail.com"
+				},
+				{
+					"name": "mnajdova",
+					"email": "mnajdova@gmail.com"
+				},
+				{
+					"name": "michaldudak",
+					"email": "michal@dudak.me"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/utils_5.4.4_1646061579276_0.7807995241661463"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"5.5.3": {
+			"name": "@mui/utils",
+			"version": "5.5.3",
+			"private": false,
+			"author": {
+				"name": "MUI Team"
+			},
+			"description": "Utility functions for React components.",
+			"main": "./index.js",
+			"keywords": [
+				"react",
+				"react-component",
+				"mui",
+				"utils"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/mui/material-ui.git",
+				"directory": "packages/mui-utils"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mui/material-ui/issues"
+			},
+			"homepage": "https://github.com/mui/material-ui/tree/master/packages/mui-utils",
+			"funding": {
+				"type": "opencollective",
+				"url": "https://opencollective.com/mui"
+			},
+			"peerDependencies": {
+				"react": "^17.0.0"
+			},
+			"dependencies": {
+				"@babel/runtime": "^7.17.2",
+				"@types/prop-types": "^15.7.4",
+				"@types/react-is": "^16.7.1 || ^17.0.0",
+				"prop-types": "^15.7.2",
+				"react-is": "^17.0.2"
+			},
+			"sideEffects": false,
+			"publishConfig": {
+				"access": "public"
+			},
+			"engines": {
+				"node": ">=12.0.0"
+			},
+			"module": "./esm/index.js",
+			"types": "./index.d.ts",
+			"_id": "@mui/utils@5.5.3",
+			"_nodeVersion": "16.9.1",
+			"_npmVersion": "lerna/4.0.0/node@v16.9.1+x64 (win32)",
+			"dist": {
+				"integrity": "sha512-t627eVRpl3SlxVya0cIVNs8jPl4KCEiGaTSWY9iKKTcMNaeDbuRML+zv/CFHDPr1zFv+FjJSP02ySB+tZ8xIag==",
+				"shasum": "f6e1f10c0e8f4d0bf750588c2c3a96ad819c5b65",
+				"tarball": "https://registry.npmjs.org/@mui/utils/-/utils-5.5.3.tgz",
+				"fileCount": 170,
+				"unpackedSize": 551822,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJiQcQ9ACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2Vmqa0Q/+IQoIw4PadsNCCxbmnA4XIZeGSCFoNzehykIUqPxjHi/JDCfQ\r\nWHE29gFXZ+QKaHaIsA9rWrQDYp3+Efr6mRgfTUU19D8CJ0+jGcZLw2n4x/MQ\r\neWdSsmF2cqjsnpUUzeJsKPvFh55cQGnDZ/Nj1Aq84qdxCzET3AnAD+ElOLSY\r\naBmoUWw+A79yEkKLNTxtgDEX4aG9VJo9g5f6BNXiwhraJPRNeB7jhgxDD1e/\r\nkcFGPOrt7SGbN7nkmaFpKV1gpdcEQBTYcGhqKuhdFotA79Pz+3ZtrFdLE44a\r\nLJnpJVq1z02b1KUgS+TZX4nlPrZ5GeSUSSiqyJakDIeIWorgA5Dk8FM/Th7s\r\nLq7noJt/s+X/kC+8WEVio598qH4gORby09JZrHods9UmgU1Df+O8f0vQfn8C\r\nJqIjej2Kfl1n53TN2pXeds/E9SNYhicP3Lq97O5C45WwXDUXR9Iw67ZwFc/n\r\nJAbo5NP8X3AO5YkgnCd8M09Td/wJuAh8Vzpfyg1yiOq3SbeToE7hJFb23Bgy\r\nUnZhy1LstmKWzJpv7nnaxsrEgaRpHo6jM3EZPHvoXxQKnRPrTBGjCOdD/QaA\r\nrP1mAoXi9iU1G7ckZY0Y+x0qDd8LM3b9z2rwySd2ZAvhkutNDpplDgIRL78a\r\nGUKxtHiik2UqfYjWY3+9jP17ZHg79YmSMMk=\r\n=NtEJ\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQD/2WZKUa/GpXQ5SiPFmajf11OKREq8KkR34wFDItIwiQIgIR1AUX323U5cYFRkO3pzFB48zWF8huKZDvjWfUGQLXY="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "mnajdova",
+				"email": "mnajdova@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "oliviertassinari",
+					"email": "olivier.tassinari@gmail.com"
+				},
+				{
+					"name": "hbjorbj",
+					"email": "sldisek783@gmail.com"
+				},
+				{
+					"name": "siriwatknp",
+					"email": "siriwatkunaporn@gmail.com"
+				},
+				{
+					"name": "mnajdova",
+					"email": "mnajdova@gmail.com"
+				},
+				{
+					"name": "michaldudak",
+					"email": "michal@dudak.me"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/utils_5.5.3_1648477245146_0.11939675090873703"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"5.6.0": {
+			"name": "@mui/utils",
+			"version": "5.6.0",
+			"private": false,
+			"author": {
+				"name": "MUI Team"
+			},
+			"description": "Utility functions for React components.",
+			"main": "./index.js",
+			"keywords": [
+				"react",
+				"react-component",
+				"mui",
+				"utils"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/mui/material-ui.git",
+				"directory": "packages/mui-utils"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mui/material-ui/issues"
+			},
+			"homepage": "https://github.com/mui/material-ui/tree/master/packages/mui-utils",
+			"funding": {
+				"type": "opencollective",
+				"url": "https://opencollective.com/mui"
+			},
+			"peerDependencies": {
+				"react": "^17.0.0 || ^18.0.0"
+			},
+			"dependencies": {
+				"@babel/runtime": "^7.17.2",
+				"@types/prop-types": "^15.7.4",
+				"@types/react-is": "^16.7.1 || ^17.0.0",
+				"prop-types": "^15.7.2",
+				"react-is": "^17.0.2"
+			},
+			"sideEffects": false,
+			"publishConfig": {
+				"access": "public"
+			},
+			"engines": {
+				"node": ">=12.0.0"
+			},
+			"module": "./esm/index.js",
+			"types": "./index.d.ts",
+			"_id": "@mui/utils@5.6.0",
+			"_nodeVersion": "14.17.0",
+			"_npmVersion": "lerna/4.0.0/node@v14.17.0+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-LbZKkCOn4243vbEVGbaKV7t6eN6kz7t95DR6AcUCRk4daH3l7CXPYkWsyzysRWdXgSzHmIyrgg4FZKzTy0dTHQ==",
+				"shasum": "0ec741f5ac7c89ac76054832bed2d6e17ab1c011",
+				"tarball": "https://registry.npmjs.org/@mui/utils/-/utils-5.6.0.tgz",
+				"fileCount": 170,
+				"unpackedSize": 555942,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIGu4hfJxsIKWxq+AZaJYszbS2gBHVUToXPzsisy62yvoAiEAovUzdkVa7krtyqed8vabHlW4mTHrxTA0dfy5NAgK6Aw="
+					}
+				],
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJiTQlyACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2Vmq1WhAAhJfDN2VuSlnHufQ/EBii6u7L/r5g+Egya12M7/jpQbWneeam\r\n3b7gFQpJoZJ8Qjfa16AFMaL+dBmGEOasSpcU4YiVo31ifGIsXmZFiSJutMhy\r\nYyrT7BCkxSYUNbuhH+MRp3FeS+8ZwdnSlvC8ycoUPZA05YatpxPMSyXhpYwQ\r\nBx/m+1vCJIlqpCdbZouuOdqlm8cMQuPq4HfK6wwoUCKCG7piIklQc9TnkJg4\r\nDxeX6D+8EHkLm18ICyc8DwwZQcY1xrNaGZj/KSJkZWHSrlYdQeLiHu73rRxP\r\nt6qmsKDWnvIIqlzKq+3fQRGxjzJAQPzbkI/f1jiu4tM1+snjBeOOHTZbAXXG\r\nBsLQHIbSPpDsvKOR3HiAb9E+7Ksf7w7Sz9DWOaUIw7BGr5IpYdqdb/MuQMvt\r\nS893Qd7PgFt124xAtIgMHpijvxMknn8CHf71+km42URZClsHj/Ywq7/fvdXZ\r\nVk0xE5Hzo8bGHsVcbbEOEOyqqmHTAVBHwLH3tEOcTIuniy6WpfA3eow3d7n3\r\n8Ah2NefPdH+kWMSeyoTrIwzB9WeR1pH6IQtHNQvkVVqVH/OBARtTgMT74m5l\r\nVX/dfU/r50W2y04m/ntmNNUtoTm6X2gUSIZGmvQEiBImtTtUx3/kY57fLMEj\r\nOcPlokVqoCamiZZc+k3eeTu8ZsRVsvJskyk=\r\n=ALss\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "siriwatknp",
+				"email": "siriwatkunaporn@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "oliviertassinari",
+					"email": "olivier.tassinari@gmail.com"
+				},
+				{
+					"name": "hbjorbj",
+					"email": "sldisek783@gmail.com"
+				},
+				{
+					"name": "siriwatknp",
+					"email": "siriwatkunaporn@gmail.com"
+				},
+				{
+					"name": "mnajdova",
+					"email": "mnajdova@gmail.com"
+				},
+				{
+					"name": "michaldudak",
+					"email": "michal@dudak.me"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/utils_5.6.0_1649215858363_0.05972888137460375"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"5.6.1": {
+			"name": "@mui/utils",
+			"version": "5.6.1",
+			"private": false,
+			"author": {
+				"name": "MUI Team"
+			},
+			"description": "Utility functions for React components.",
+			"main": "./index.js",
+			"keywords": [
+				"react",
+				"react-component",
+				"mui",
+				"utils"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/mui/material-ui.git",
+				"directory": "packages/mui-utils"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mui/material-ui/issues"
+			},
+			"homepage": "https://github.com/mui/material-ui/tree/master/packages/mui-utils",
+			"funding": {
+				"type": "opencollective",
+				"url": "https://opencollective.com/mui"
+			},
+			"peerDependencies": {
+				"react": "^17.0.0 || ^18.0.0"
+			},
+			"dependencies": {
+				"@babel/runtime": "^7.17.2",
+				"@types/prop-types": "^15.7.4",
+				"@types/react-is": "^16.7.1 || ^17.0.0",
+				"prop-types": "^15.7.2",
+				"react-is": "^17.0.2"
+			},
+			"sideEffects": false,
+			"publishConfig": {
+				"access": "public"
+			},
+			"engines": {
+				"node": ">=12.0.0"
+			},
+			"module": "./esm/index.js",
+			"types": "./index.d.ts",
+			"_id": "@mui/utils@5.6.1",
+			"_nodeVersion": "16.13.2",
+			"_npmVersion": "lerna/4.0.0/node@v16.13.2+x64 (win32)",
+			"dist": {
+				"integrity": "sha512-CPrzrkiBusCZBLWu0Sg5MJvR3fKJyK3gKecLVX012LULyqg2U64Oz04BKhfkbtBrPBbSQxM+DWW9B1c9hmV9nQ==",
+				"shasum": "4ab79a21bd481555d9a588f4b18061b3c28ea5db",
+				"tarball": "https://registry.npmjs.org/@mui/utils/-/utils-5.6.1.tgz",
+				"fileCount": 170,
+				"unpackedSize": 558195,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIGs6BRYNRw24M6pteBwsq969bCSMYYxWDY4Pptuf3KdgAiEAv4h4KwiZ31FYiafANVEVaSO9BazwpDwenKkSpEK3tUc="
+					}
+				],
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJiVCszACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2VmqWxg/9H7VXIOTNNzRYIUNG9jWuc1EapEzU6V38X+DRhmug0gRr+9lW\r\npWhqbzNWSAM0D4rohuSbWlD4HNpYA5L+SKXOvQcqgIVeUigaN00CAoOre6iL\r\nxgBW1Zhunic0vhE71vKD1vqYkSiOusJ1ehh2YzNqRDY6ao5Eb48j5+KlJv+n\r\naC0FXN+vsGGtKQsik4GBdohqbsaUr1xnlZ0zmvxI3Dw+VaabpOgVhQo46nJS\r\nNQZGiHzhXzFsZBKIwS5LvtX4BlIyTthpr/SW2s6aagAdk9QAhzVl03XgoASX\r\na3u+HKK+j1ZgNI3FeETX9J+hyLHEyam+Bw0vcHdsUfaQfE9lZoEURiFpnGe2\r\nbXKi8K1r07JZyo7hdnVS9ASDbXsQ+a4GudqBFtqqqVfjoyDX0+RB2ftbzjN/\r\nkO6ngYesInYdlj14BUdAWigTtct2Y/PlD7ejmJNHWpqmAj9Ur6nPIOej+uaW\r\nvzBwht0EQokDF6kv5d1AJqATuoSTOK669OgGiUTXetCzeYD99tb9Cyxj6kpf\r\nAkM7bWZUj+yKCPPkSaYd1hn74OcIh+aQz8yfqK7KtY7DBa8+SrVNEA6emQnX\r\nwaVv6xj12cOQEtpLHrz8xUIkaa4t5CGJHEMFpzoDJE0W2/Hq+YgivNUHn+yK\r\nmGP6a63fjphTMY3rNxTZuLqIkibiNBSYiFE=\r\n=Q+ka\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "michaldudak",
+				"email": "michal@dudak.me"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "oliviertassinari",
+					"email": "olivier.tassinari@gmail.com"
+				},
+				{
+					"name": "hbjorbj",
+					"email": "sldisek783@gmail.com"
+				},
+				{
+					"name": "siriwatknp",
+					"email": "siriwatkunaporn@gmail.com"
+				},
+				{
+					"name": "mnajdova",
+					"email": "mnajdova@gmail.com"
+				},
+				{
+					"name": "michaldudak",
+					"email": "michal@dudak.me"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/utils_5.6.1_1649683251482_0.6014744334011963"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"5.7.0": {
+			"name": "@mui/utils",
+			"version": "5.7.0",
+			"private": false,
+			"author": {
+				"name": "MUI Team"
+			},
+			"description": "Utility functions for React components.",
+			"main": "./index.js",
+			"keywords": [
+				"react",
+				"react-component",
+				"mui",
+				"utils"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/mui/material-ui.git",
+				"directory": "packages/mui-utils"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mui/material-ui/issues"
+			},
+			"homepage": "https://github.com/mui/material-ui/tree/master/packages/mui-utils",
+			"funding": {
+				"type": "opencollective",
+				"url": "https://opencollective.com/mui"
+			},
+			"peerDependencies": {
+				"react": "^17.0.0 || ^18.0.0"
+			},
+			"dependencies": {
+				"@babel/runtime": "^7.17.2",
+				"@types/prop-types": "^15.7.5",
+				"@types/react-is": "^16.7.1 || ^17.0.0",
+				"prop-types": "^15.8.1",
+				"react-is": "^17.0.2"
+			},
+			"sideEffects": false,
+			"publishConfig": {
+				"access": "public"
+			},
+			"engines": {
+				"node": ">=12.0.0"
+			},
+			"module": "./esm/index.js",
+			"types": "./index.d.ts",
+			"_id": "@mui/utils@5.7.0",
+			"_nodeVersion": "16.13.2",
+			"_npmVersion": "lerna/4.0.0/node@v16.13.2+x64 (win32)",
+			"dist": {
+				"integrity": "sha512-uWpDIEXl7bWYkJwKQQ4Rdhc2dcotVETRYuLy29V6qLYZyAbs7AMKwDDz0XKy3RMNmU7S2R/jEeSb9xjXscQUHQ==",
+				"shasum": "7e96df6b871f4d3da13f26a623d73ddf9a11b19c",
+				"tarball": "https://registry.npmjs.org/@mui/utils/-/utils-5.7.0.tgz",
+				"fileCount": 170,
+				"unpackedSize": 574026,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCICAX89oRcAoKR78F4icWKmKT+fFdyYjIawad4wHXHv2vAiEAzEfdXY93kqjE0xyl8QXLFyJwH9t2yK/ONpWn9BS4VrE="
+					}
+				],
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJieirIACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2VmrSvQ//WX2LAfka57GcfhhU7SiyScjk/UscvVEpvok6IQlK0M1lN6Yl\r\nlqbKex7QnCL8/DfB+ZGz5jmy+FLhXrql6bbCNPVpuL5ONYQA2GiBlrQoQPWY\r\n5wpvFCo8W9Qx6IY1uSrC6PvkFp4qfRsnG/Zuw5ONzz713Y9tWNOYWGEhwOP8\r\nPJ0RlxOuIctR1kkkCYLVRtYVdQuGfAxpsGBmDnFtN0KzhG4jzWWhYHxT7sHX\r\nCRcLN6/xz47ss7esA4ZaizfXInvORsMEkAzxR1HMrGssfMrmUzHLLnl+CgYS\r\nWEwitTX8EWq+wfgMo13nG46ZYt+c43+DHx0e4STaciH9xvbiU8eZENjIAGsM\r\n3K2Qe4GW6XRGyd9o5LhldujS/Vv+kA01jhoKYukL1IPB4YPF8p/9GolqTDc+\r\n7qqX/fx3qvU0i3ltL7pRclWhcuFCxxW1i05hnrO4EPqBOmI1yKSMKU8PNGcn\r\noJ0qEFppXMuouVLBe5tfYW1rPY3ins1Ktlvf+sIoOmweoIxU89qp781u2xLc\r\n0yYw9JBMml/NTG6bYqqR3SP7e1cUksxonn+hoEo0jPmftj0k8ujQGBroc2wG\r\nDVhijg+DRkKKd3fMDb+SettAZWab5FCDhO84CgjRl/IV2LIiGxEUhibgzCBA\r\nZyId4CDp3om+PXj2dkApD87ad2ww2fFcIbE=\r\n=HECN\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "michaldudak",
+				"email": "michal@dudak.me"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "oliviertassinari",
+					"email": "olivier.tassinari@gmail.com"
+				},
+				{
+					"name": "mbrookes",
+					"email": "npm@nospam.33m.co"
+				},
+				{
+					"name": "hbjorbj",
+					"email": "sldisek783@gmail.com"
+				},
+				{
+					"name": "siriwatknp",
+					"email": "siriwatkunaporn@gmail.com"
+				},
+				{
+					"name": "mnajdova",
+					"email": "mnajdova@gmail.com"
+				},
+				{
+					"name": "michaldudak",
+					"email": "michal@dudak.me"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/utils_5.7.0_1652173512476_0.07138041649187099"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"5.8.0": {
+			"name": "@mui/utils",
+			"version": "5.8.0",
+			"private": false,
+			"author": {
+				"name": "MUI Team"
+			},
+			"description": "Utility functions for React components.",
+			"main": "./index.js",
+			"keywords": [
+				"react",
+				"react-component",
+				"mui",
+				"utils"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/mui/material-ui.git",
+				"directory": "packages/mui-utils"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mui/material-ui/issues"
+			},
+			"homepage": "https://github.com/mui/material-ui/tree/master/packages/mui-utils",
+			"funding": {
+				"type": "opencollective",
+				"url": "https://opencollective.com/mui"
+			},
+			"peerDependencies": {
+				"react": "^17.0.0 || ^18.0.0"
+			},
+			"dependencies": {
+				"@babel/runtime": "^7.17.2",
+				"@types/prop-types": "^15.7.5",
+				"@types/react-is": "^16.7.1 || ^17.0.0",
+				"prop-types": "^15.8.1",
+				"react-is": "^17.0.2"
+			},
+			"sideEffects": false,
+			"publishConfig": {
+				"access": "public"
+			},
+			"engines": {
+				"node": ">=12.0.0"
+			},
+			"module": "./esm/index.js",
+			"types": "./index.d.ts",
+			"_id": "@mui/utils@5.8.0",
+			"_nodeVersion": "14.18.1",
+			"_npmVersion": "lerna/4.0.0/node@v14.18.1+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-7LgUtCvz78676iC0wpTH7HizMdCrTphhBmRWimIMFrp5Ph6JbDFVuKS1CwYnWWxRyYKL0QzXrDL0lptAU90EXg==",
+				"shasum": "4b1d19cbcf70773283375e763b7b3552b84cb58f",
+				"tarball": "https://registry.npmjs.org/@mui/utils/-/utils-5.8.0.tgz",
+				"fileCount": 214,
+				"unpackedSize": 595798,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCrrpdfCSr0Ei83DxSd1rvtcz0+ZXGxqUSTB0ZMjy9qyAIhAMso4DxWvjk23O4oWalpM4bv7rRj7JANh8dhtU8ICUDH"
+					}
+				],
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJig2nxACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2Vmq96A//b70Vn9u3nnHnyM1RBIoX9a/opYfciBZdxNR02B7aiW/ecpOX\r\nyuexu5DRClE0ce+bpMKcTQKN1fTvLlvwamvUhBcUaeuyvx4eFHqlf2fcIk6v\r\nhxq002OPN0FpwCEkoLXvXsAAvIUkzS0JZaZOcO+VjSDVSR5fRa6UjKaOUyzP\r\nAK/XS4og7hJWAWD647IKGt1IpK7bZ2LjK2hbuiOFE84HaUlCxGGOF6OURmOM\r\n4Wrc9kOY0SMIl7BjnVgpb307R3moj8FVsSTk9fkiUsBePnAUVsznlGwFixtN\r\njilOb3nlJ0cG7NqBez/3SxNddWQKenTqA9rzUalLJ3SVp/LTKRFi5pY7UaVU\r\nbf7ztfrY0qDxASFY4TuFc43Uqdpg6uOvegC3YHJzp+m7CYQH61znb4v9MA5W\r\nZjLUpB1oC8kkHP1uI396HHTLj3Nlm/nbf+FqOrWMTl20m3Ooy8E0lUGsrMT0\r\n7sNz2eGg9CzZ6HHYIZ5r63PjphXEP6rZVxk+iMoBVbvKwPuOQ1VnOqaNEVRW\r\nKfTbb/uq3sH13zCyl3fG7MDrs316kqJ2DE0j8WqStAFE1DwJw/V49r7Iorwo\r\nx/RWtcPNvKWt2KSai+EzMwRv6BumbskxlbkTUnBGY/8IvT5mASIRR/IKc9u5\r\n11zSWAYUEB5ojjVHNHcwSWbKdDl11L+y/ew=\r\n=CrVx\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "hbjorbj",
+				"email": "sldisek783@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "oliviertassinari",
+					"email": "olivier.tassinari@gmail.com"
+				},
+				{
+					"name": "mbrookes",
+					"email": "npm@nospam.33m.co"
+				},
+				{
+					"name": "hbjorbj",
+					"email": "sldisek783@gmail.com"
+				},
+				{
+					"name": "siriwatknp",
+					"email": "siriwatkunaporn@gmail.com"
+				},
+				{
+					"name": "mnajdova",
+					"email": "mnajdova@gmail.com"
+				},
+				{
+					"name": "michaldudak",
+					"email": "michal@dudak.me"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/utils_5.8.0_1652779505030_0.276311598982546"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"5.8.4": {
+			"name": "@mui/utils",
+			"version": "5.8.4",
+			"private": false,
+			"author": {
+				"name": "MUI Team"
+			},
+			"description": "Utility functions for React components.",
+			"main": "./index.js",
+			"keywords": [
+				"react",
+				"react-component",
+				"mui",
+				"utils"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/mui/material-ui.git",
+				"directory": "packages/mui-utils"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mui/material-ui/issues"
+			},
+			"homepage": "https://github.com/mui/material-ui/tree/master/packages/mui-utils",
+			"funding": {
+				"type": "opencollective",
+				"url": "https://opencollective.com/mui"
+			},
+			"peerDependencies": {
+				"react": "^17.0.0 || ^18.0.0"
+			},
+			"dependencies": {
+				"@babel/runtime": "^7.17.2",
+				"@types/prop-types": "^15.7.5",
+				"@types/react-is": "^16.7.1 || ^17.0.0",
+				"prop-types": "^15.8.1",
+				"react-is": "^17.0.2"
+			},
+			"sideEffects": false,
+			"publishConfig": {
+				"access": "public"
+			},
+			"engines": {
+				"node": ">=12.0.0"
+			},
+			"module": "./esm/index.js",
+			"types": "./index.d.ts",
+			"_id": "@mui/utils@5.8.4",
+			"_nodeVersion": "16.14.2",
+			"_npmVersion": "lerna/4.0.0/node@v16.14.2+x64 (win32)",
+			"dist": {
+				"integrity": "sha512-BHYErfrjqqh76KaDAm8wZlhEip1Uj7Cmco65NcsF3BWrAl3FWngACpaPZeEbTgmaEwyWAQEE6LZhsmy43hfyqQ==",
+				"shasum": "5c46b5900bd2452b3ce54a7a1c94a3e2a8a75c34",
+				"tarball": "https://registry.npmjs.org/@mui/utils/-/utils-5.8.4.tgz",
+				"fileCount": 214,
+				"unpackedSize": 610848,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQC5cQq7fyKfMDtkwYAtcY4+P7NHOmYTg2oNTpT6QZh/3AIhAOfmCfbNMjL1BkVRZeHk1/uD/PrzRORtotKpDdwZBdJk"
+					}
+				],
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJiqFgQACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2Vmo4yg/+IAcT0Oc5LhFVYaYmL7gd17saFdIS5sCoPWaLvXvYh+HWApAS\r\noRy41Z/we0RzqHP+6/x0w4HaQTFYekwl9ul/bB6JRi6g3rATH7eDuaETN+H1\r\n4YkF5AMTMAtrHvJE9xI94ZjdLLAUIYgMegTN2Hzo9LeXot40a4tqy7La7NUT\r\ndQtg0cTMGf7FQMiscbZtoR9aDVFJfvDSbEpWB2VEjDEmboArlS2XK6Sv/viz\r\nDSLH7wEt2A68I1PYuXqpLDEEyMl3yMIdKGt2mZYnOOcics0dFUa1DU/yTxxK\r\nJciPXaWoxy0anBp3oVcK+sYOTrfzNp9HjN20N0ZIo/kd1yyNSxZXlGwO3r1x\r\n+UBOZ6WNvPmVeaNy4d7X5ap4Yxj0+XclgugiG16cC20TY7VYfz6RD0HrFeTF\r\njr/66xI5CPNES+Cw4YSlxKGlQisRvNqmJnMB1h/Zqpej0k39Ch88xQyziePO\r\nWFL1hPixddma/qEHbzJEmMbhoU3AE0vDWN+S5raR9y0z/EPSoy59DdQg0RPd\r\nABRauvza8b0/Js16JGns1s+HLHDurK+pnjNiRoItQ8ses2NRKbAnRbzG/MWN\r\n8ia1a5TR2Mq5vQWZFXKVp5RD61DohZ/u/2ccD9aw2Fd31rJRNucsLmYHK2nF\r\nwnmL9n0JurlM3bLSSACyFGMWvTmpx5lJPiQ=\r\n=Cq/Y\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "mnajdova",
+				"email": "mnajdova@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "oliviertassinari",
+					"email": "olivier.tassinari@gmail.com"
+				},
+				{
+					"name": "mbrookes",
+					"email": "npm@nospam.33m.co"
+				},
+				{
+					"name": "hbjorbj",
+					"email": "sldisek783@gmail.com"
+				},
+				{
+					"name": "siriwatknp",
+					"email": "siriwatkunaporn@gmail.com"
+				},
+				{
+					"name": "mnajdova",
+					"email": "mnajdova@gmail.com"
+				},
+				{
+					"name": "michaldudak",
+					"email": "michal@dudak.me"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/utils_5.8.4_1655199760083_0.02110840598218222"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"5.8.6": {
+			"name": "@mui/utils",
+			"version": "5.8.6",
+			"private": false,
+			"author": {
+				"name": "MUI Team"
+			},
+			"description": "Utility functions for React components.",
+			"main": "./index.js",
+			"keywords": [
+				"react",
+				"react-component",
+				"mui",
+				"utils"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/mui/material-ui.git",
+				"directory": "packages/mui-utils"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mui/material-ui/issues"
+			},
+			"homepage": "https://github.com/mui/material-ui/tree/master/packages/mui-utils",
+			"funding": {
+				"type": "opencollective",
+				"url": "https://opencollective.com/mui"
+			},
+			"peerDependencies": {
+				"react": "^17.0.0 || ^18.0.0"
+			},
+			"dependencies": {
+				"@babel/runtime": "^7.17.2",
+				"@types/prop-types": "^15.7.5",
+				"@types/react-is": "^16.7.1 || ^17.0.0",
+				"prop-types": "^15.8.1",
+				"react-is": "^17.0.2"
+			},
+			"sideEffects": false,
+			"publishConfig": {
+				"access": "public"
+			},
+			"engines": {
+				"node": ">=12.0.0"
+			},
+			"module": "./esm/index.js",
+			"types": "./index.d.ts",
+			"_id": "@mui/utils@5.8.6",
+			"_nodeVersion": "16.14.2",
+			"_npmVersion": "lerna/4.0.0/node@v16.14.2+x64 (win32)",
+			"dist": {
+				"integrity": "sha512-QM2Sd1xZo2jOt2Vz5Rmro+pi2FLJyiv4+OjxkUwXR3oUM65KSMAMLl/KNYU55s3W3DLRFP5MVwE4FhAbHseHAg==",
+				"shasum": "543de64a64bb9135316ecfd91d75a8740544d79f",
+				"tarball": "https://registry.npmjs.org/@mui/utils/-/utils-5.8.6.tgz",
+				"fileCount": 214,
+				"unpackedSize": 618383,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIAt8jSvqlBjW004v4+TF6zYmvs0KZGf2ugidypQRHXbTAiEA3wtkSR2F94ei0bXBaQlrN3bSp7PqBorujEyggXWMCYU="
+					}
+				],
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJiubvdACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2Vmq7chAAmrrqHAlYmvHmxMjtibxHrOiS5SG74Ndc2ODh6XMNoT9dV4pd\r\nDfi8qcwyIffv7rB8VKu0YynD6pS+SU1mGtbTlXKltXmc4d3z3EaGcXW6HWKE\r\nNe3+qjuQ3j+By63NaqiPLknLWxhtF6PX+SFEks5i0YaTjanoTuGd19ZxJ3Bi\r\nY5eMO89UVb8EnDFLjXXiWMSBIDk5f7TEK7fXcUqYS59qabMyjTVR1e5HveHE\r\nsH9FE27mrTliOppYtwOVOXZeOUTlqZSFALI6763FWf1sALP8FRjrUPeVw2Fb\r\nj+wPlZUplM1WEHWiCY1YzaBthiwZMOK/OfpNsjnlz3j6V6Xt2c+gR/wthclX\r\nn4XL2FnTtjPbDkDsko4MWNY5bz8LaEBcDp8lI6RIYzXSHme3bAPA63I7HE4H\r\nLQKqZCsKmt64Cl3VLnmKEGq8iKByWwduvs2CfnOQ8X1sl58UW3YjgGVZFhXF\r\nDPEHsQ8/+FXyp3HReNhRv0wcR6EMrUx5r2tvjaZh0ksFfcEuBppZyXNQ9fuL\r\nHRHAIXXWnhnj6Jy71APcZmon2dG9Iz9g1DDiomy7V2zGtf5UMY69KziUR71a\r\nSInkbQjaKUi40mMAGzer61UvTx/VaCGgeJThQ4Ul/Ab4orSsLvU0k3keMipe\r\nNitsTd9xuQeQN65yo8gPPstAEOWDR6kUBmM=\r\n=qAm+\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "mnajdova",
+				"email": "mnajdova@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "oliviertassinari",
+					"email": "olivier.tassinari@gmail.com"
+				},
+				{
+					"name": "mbrookes",
+					"email": "npm@nospam.33m.co"
+				},
+				{
+					"name": "hbjorbj",
+					"email": "sldisek783@gmail.com"
+				},
+				{
+					"name": "siriwatknp",
+					"email": "siriwatkunaporn@gmail.com"
+				},
+				{
+					"name": "mnajdova",
+					"email": "mnajdova@gmail.com"
+				},
+				{
+					"name": "michaldudak",
+					"email": "michal@dudak.me"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/utils_5.8.6_1656339421145_0.7724752614813117"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"5.9.0": {
+			"name": "@mui/utils",
+			"version": "5.9.0",
+			"private": false,
+			"author": {
+				"name": "MUI Team"
+			},
+			"description": "Utility functions for React components.",
+			"main": "./index.js",
+			"keywords": [
+				"react",
+				"react-component",
+				"mui",
+				"utils"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/mui/material-ui.git",
+				"directory": "packages/mui-utils"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mui/material-ui/issues"
+			},
+			"homepage": "https://github.com/mui/material-ui/tree/master/packages/mui-utils",
+			"funding": {
+				"type": "opencollective",
+				"url": "https://opencollective.com/mui"
+			},
+			"peerDependencies": {
+				"react": "^17.0.0 || ^18.0.0"
+			},
+			"dependencies": {
+				"@babel/runtime": "^7.17.2",
+				"@types/prop-types": "^15.7.5",
+				"@types/react-is": "^16.7.1 || ^17.0.0",
+				"prop-types": "^15.8.1",
+				"react-is": "^18.2.0"
+			},
+			"sideEffects": false,
+			"publishConfig": {
+				"access": "public"
+			},
+			"engines": {
+				"node": ">=12.0.0"
+			},
+			"module": "./esm/index.js",
+			"types": "./index.d.ts",
+			"_id": "@mui/utils@5.9.0",
+			"_nodeVersion": "14.17.0",
+			"_npmVersion": "lerna/4.0.0/node@v14.17.0+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-GAaiWP6zBC3RE1NHP9y1c1iKZh5s/nyKKqWxfTrw5lNQY5tWTh9/47F682FuiE5WT1o3h4w/LEkSSIZpMEDzrA==",
+				"shasum": "2e1ac58905b767de47412cb32475862875b8e880",
+				"tarball": "https://registry.npmjs.org/@mui/utils/-/utils-5.9.0.tgz",
+				"fileCount": 214,
+				"unpackedSize": 624268,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIFPLlDLv/lpaM+l8YJn6nNP9CyWfDGyM5G/K8F3S/kr+AiEA2TRzVuErsF+JRlpWm2LsV4TIsX9TgraSKT7TpZymis0="
+					}
+				],
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJizTfJACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2VmobtxAAi1MkjPuph7wJ8Nqgv6zRkuymftnXPrz8bDBVjJbUPrcvGd4z\r\ncEp+lyDabRQb5I0GqTImD6WzScbiMeYYDN3tOTpdvX4yqiMQm8rcwrTKzC7K\r\nbYWZWMLcNQOiZI9Zu//qG4Q7LCEk4arcdQrphWDiXkW++Vzbi5D7JAAhTuPw\r\nC+L6aZoMCgVnaVOmsxf3H/zz7f8sGl+xBdxj25eogeAS9up7yA63V2YHCISH\r\nKqGC8dXY2MKIDY6K5Srbs4Te2hNknuk59Si5Ow/WdDgFoRN2I2gggz/hvrwO\r\ntUiSaNOa1sTc/6Q+9YwLT8YWggoix54nK24fejqJOmhd5+zFR7RG2z/SgLaX\r\nEQ5r3+Jw/bwR8aESkgn3Q2drKD96aBfB3YPuq9cEkEEbEkO52We4/hWQaLW7\r\niWG+hYXjt5e2goYa7cP4bV6nWN6sCEH742YurLRUsu8PNRGoFA0JSTBofiqE\r\no08q4/O8xE6Kq8EQnWpzba5Bk3l9xIDq54AwwXCf4aT79fc7KTXgwsd0NlrQ\r\nrZYj449rlZp8E5a/9ek1Khle1h+CMY/Tb0fCHfGEZSFdn3qHECEKorZnOqSm\r\nJP/yW0ziHZg+7TkPvkXwS/wFGE0p4sTtmhzNJYOtTh9XuaojedrlRKR1rOpc\r\nCh4mAHBIEfPVrmzAm5tRnIWr0HArcPX0i5g=\r\n=LCg6\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "siriwatknp",
+				"email": "siriwatkunaporn@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "oliviertassinari",
+					"email": "olivier.tassinari@gmail.com"
+				},
+				{
+					"name": "mbrookes",
+					"email": "npm@nospam.33m.co"
+				},
+				{
+					"name": "hbjorbj",
+					"email": "sldisek783@gmail.com"
+				},
+				{
+					"name": "siriwatknp",
+					"email": "siriwatkunaporn@gmail.com"
+				},
+				{
+					"name": "mnajdova",
+					"email": "mnajdova@gmail.com"
+				},
+				{
+					"name": "michaldudak",
+					"email": "michal@dudak.me"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/utils_5.9.0_1657616328967_0.09790640783747251"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"5.9.1": {
+			"name": "@mui/utils",
+			"version": "5.9.1",
+			"private": false,
+			"author": {
+				"name": "MUI Team"
+			},
+			"description": "Utility functions for React components.",
+			"main": "./index.js",
+			"keywords": [
+				"react",
+				"react-component",
+				"mui",
+				"utils"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/mui/material-ui.git",
+				"directory": "packages/mui-utils"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mui/material-ui/issues"
+			},
+			"homepage": "https://github.com/mui/material-ui/tree/master/packages/mui-utils",
+			"funding": {
+				"type": "opencollective",
+				"url": "https://opencollective.com/mui"
+			},
+			"peerDependencies": {
+				"react": "^17.0.0 || ^18.0.0"
+			},
+			"dependencies": {
+				"@babel/runtime": "^7.17.2",
+				"@types/prop-types": "^15.7.5",
+				"@types/react-is": "^16.7.1 || ^17.0.0",
+				"prop-types": "^15.8.1",
+				"react-is": "^18.2.0"
+			},
+			"sideEffects": false,
+			"publishConfig": {
+				"access": "public"
+			},
+			"engines": {
+				"node": ">=12.0.0"
+			},
+			"module": "./esm/index.js",
+			"types": "./index.d.ts",
+			"_id": "@mui/utils@5.9.1",
+			"_nodeVersion": "16.14.2",
+			"_npmVersion": "lerna/4.0.0/node@v16.14.2+x64 (win32)",
+			"dist": {
+				"integrity": "sha512-8+4adOR3xusyJwvbnZxcjqcmbWvl7Og+260ZKIrSvwnFs0aLubL+8MhiceeDDGcmb0bTKxfUgRJ96j32Jb7P+A==",
+				"shasum": "2b2c9dadbf8ba6561e145b5688fb7df5ef15a934",
+				"tarball": "https://registry.npmjs.org/@mui/utils/-/utils-5.9.1.tgz",
+				"fileCount": 214,
+				"unpackedSize": 627780,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQChkUMp+T6fBH/8JOgxW7rKk6MIr18h1RY+Y4X5hdPyjAIhAMu18UFeFng5RsDNjaa8Kj0I6F6wf6yxHE3pnFrORInZ"
+					}
+				],
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJi1ZbnACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2Vmr0eQ//Xo0asLEufRozKtT9JaZa0xUgiZlOhW7R1OdzMdcehev9sLIg\r\n2jfuMWab75H/RiXuD5tBr8GvDix3tKh89E51IjSyLSyvbPwonAqTRwJKS0qO\r\nC5iguU1ew5rtnZce7qihKSBTrV40W9jU7O4uzQeAmv+btJ7wfgxAgEnFpRSt\r\nweSI37o6Y1m3PtNEDS08llj5gSGX4WrH399pyG7pVing1qWuZdFWi4rjzWfm\r\n7s3ET/lnuebUv8nVN8xKSADt9XPvglZPY47KwG01BLVQAUEEEAnfhWTj0vyz\r\nfHWoFwyK7xeDWIwBiAWNRMJJcgQCIf6rTbxwoKpPnkV8uCByZMqQwUUav5Vl\r\niq0O2ZMsKFRPmY/Nyj4IrSaWZwzzirlxAbsHufLhGkWJxOpoJ9iLADW2Wh81\r\ncGpZbzcEZJit7dbgAtbxgjUcJzntfTh35dzmeKF1/3woJ8f66h9/h9SeKdkv\r\n131R0QpqQCJANcsfYLIL9UtnyS537AzEKVEEHWzNeQX2lZSTh4Zjym4VyB6e\r\nBaXmAOlf5KoyrW1zBkbiYcD2+YjqHi5ngFUGBOJjqZYqz2lZ6QAq0pch/KYl\r\nHeZ9wV9alGLf5PfJ5kmI0YRe3gL9oIACtls4xuymQ3PynmMaZ9Ui6OmKH7Cj\r\nmGMJJmGCX9BaANNWq7jLgfbeE79mK2s5y/w=\r\n=b/M8\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "mnajdova",
+				"email": "mnajdova@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "oliviertassinari",
+					"email": "olivier.tassinari@gmail.com"
+				},
+				{
+					"name": "mbrookes",
+					"email": "npm@nospam.33m.co"
+				},
+				{
+					"name": "hbjorbj",
+					"email": "sldisek783@gmail.com"
+				},
+				{
+					"name": "siriwatknp",
+					"email": "siriwatkunaporn@gmail.com"
+				},
+				{
+					"name": "mnajdova",
+					"email": "mnajdova@gmail.com"
+				},
+				{
+					"name": "michaldudak",
+					"email": "michal@dudak.me"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/utils_5.9.1_1658164966955_0.619339161169755"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"5.9.3": {
+			"name": "@mui/utils",
+			"version": "5.9.3",
+			"private": false,
+			"author": {
+				"name": "MUI Team"
+			},
+			"description": "Utility functions for React components.",
+			"main": "./index.js",
+			"keywords": [
+				"react",
+				"react-component",
+				"mui",
+				"utils"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/mui/material-ui.git",
+				"directory": "packages/mui-utils"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/mui/material-ui/issues"
+			},
+			"homepage": "https://github.com/mui/material-ui/tree/master/packages/mui-utils",
+			"funding": {
+				"type": "opencollective",
+				"url": "https://opencollective.com/mui"
+			},
+			"peerDependencies": {
+				"react": "^17.0.0 || ^18.0.0"
+			},
+			"dependencies": {
+				"@babel/runtime": "^7.17.2",
+				"@types/prop-types": "^15.7.5",
+				"@types/react-is": "^16.7.1 || ^17.0.0",
+				"prop-types": "^15.8.1",
+				"react-is": "^18.2.0"
+			},
+			"sideEffects": false,
+			"publishConfig": {
+				"access": "public"
+			},
+			"engines": {
+				"node": ">=12.0.0"
+			},
+			"module": "./esm/index.js",
+			"types": "./index.d.ts",
+			"gitHead": "89617ef683d2bcd2c870e9c1bd58ad4d55247fd5",
+			"_id": "@mui/utils@5.9.3",
+			"_nodeVersion": "16.13.2",
+			"_npmVersion": "lerna/5.3.0/node@v16.13.2+x64 (win32)",
+			"dist": {
+				"integrity": "sha512-l0N5bcrenE9hnwZ/jPecpIRqsDFHkPXoFUcmkgysaJwVZzJ3yQkGXB47eqmXX5yyGrSc6HksbbqXEaUya+siew==",
+				"shasum": "a11e0824f00b7ea40257b390060ce167fe861d02",
+				"tarball": "https://registry.npmjs.org/@mui/utils/-/utils-5.9.3.tgz",
+				"fileCount": 214,
+				"unpackedSize": 635028,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDCW/P7fgAv1AViZ8Me4WbiwUM0NhRygDgiBOCFYFZdeQIgEjhzf8J7ss2mhsEStfaHVq1v9Tg667++kLNEb6hWRmE="
+					}
+				],
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJi6D0zACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2VmpPKw/+Nc4UodPocKT/ut6nfUbbx9ympHZCpOBfsC4iT6o95sJJivfF\r\nFTUvEaK/YkWC++BpfBSYvL1Df0J6baugF1HiGmyvBSOrrVMFkCJ3zTia5MVU\r\nf8tLfB5pbkkAQq1q8dy8UYeZRoJsBgeRMWf/nK/XWIcqKYjWfN1c/fDqeKT2\r\nq0Di2hnNbpbBWLM0j6FbsDfZfTJa0JNhC73oGSHg2jmOpa8fiNc9BW2xvpv7\r\nhZmVkv0k9+7tSrD+tDmQOhDYl65diqXlUC0kYWIR+LWAovt+KIKavWC8EEgr\r\nplOLm5fn1zMzjHxnKCSC2vh3zgvYTY/6nw3NipbiHJoNhc1qnnkxbAnOfIUq\r\nafZ9hYww6/mLzW4Hg68PbJXVOcym3l80kSICFGRK8eZXa4F21V4fzOiUSanZ\r\nj1pIDkEYRjy6iNWgBTYy4kmOUUiI6C0G7KdMl157uohPk7UOWZzaUl6t+c7P\r\nuwhqxe5wvlCGClx0e2jxwKRrZxDiezRmsdrGHc3GLyvqTgFpsXBC3TGMaAxA\r\n08nDDMDhcssMXs2G+sqiVRaWqZT8/R+62mrZq3O8mtkKFPc62wZhgAQ8cBHG\r\nLAs0bQ3JofQk3vfQfEnJWPLvaev8ZfdjgAMGgOxEDf+Z7zNN7Did66b9JZaI\r\ndZ89i75eLSkh0ceKdtRyaIP++PeMLRmrBfc=\r\n=6Ciy\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "michaldudak",
+				"email": "michal@dudak.me"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "oliviertassinari",
+					"email": "olivier.tassinari@gmail.com"
+				},
+				{
+					"name": "mbrookes",
+					"email": "npm@nospam.33m.co"
+				},
+				{
+					"name": "hbjorbj",
+					"email": "sldisek783@gmail.com"
+				},
+				{
+					"name": "siriwatknp",
+					"email": "siriwatkunaporn@gmail.com"
+				},
+				{
+					"name": "mnajdova",
+					"email": "mnajdova@gmail.com"
+				},
+				{
+					"name": "michaldudak",
+					"email": "michal@dudak.me"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/utils_5.9.3_1659387186888_0.8572987389799984"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		}
+	},
+	"time": {
+		"created": "2021-09-02T07:46:25.839Z",
+		"5.0.0-rc.0": "2021-09-02T07:46:26.148Z",
+		"modified": "2022-08-01T20:53:07.344Z",
+		"5.0.0-rc.1": "2021-09-08T13:54:44.023Z",
+		"5.0.0": "2021-09-16T11:28:03.153Z",
+		"5.0.1": "2021-09-22T12:11:09.859Z",
+		"5.1.0": "2021-11-08T15:12:55.763Z",
+		"5.1.1": "2021-11-16T15:11:35.337Z",
+		"5.2.0": "2021-11-23T13:24:55.874Z",
+		"5.2.1": "2021-11-25T11:49:46.389Z",
+		"5.2.2": "2021-11-29T16:50:37.064Z",
+		"5.2.3": "2021-12-06T16:11:53.160Z",
+		"5.3.0": "2022-01-17T22:41:31.073Z",
+		"5.4.1": "2022-02-08T11:37:59.937Z",
+		"5.4.2": "2022-02-15T14:56:19.820Z",
+		"5.4.4": "2022-02-28T15:19:39.456Z",
+		"5.5.3": "2022-03-28T14:20:45.333Z",
+		"5.6.0": "2022-04-06T03:30:58.506Z",
+		"5.6.1": "2022-04-11T13:20:51.691Z",
+		"5.7.0": "2022-05-10T09:05:12.733Z",
+		"5.8.0": "2022-05-17T09:25:05.268Z",
+		"5.8.4": "2022-06-14T09:42:40.317Z",
+		"5.8.6": "2022-06-27T14:17:01.370Z",
+		"5.9.0": "2022-07-12T08:58:49.165Z",
+		"5.9.1": "2022-07-18T17:22:47.217Z",
+		"5.9.3": "2022-08-01T20:53:07.182Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"next": "5.0.0-rc.1",
+		"latest": "5.9.3"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"46b5b3157f7ec10857c85f23d75544b5\"",
+			"fetched": 1660840734015
+		}
+	},
+	"_distfiles": {
+		"utils-5.0.0-rc.0.tgz": {
+			"url": "https://registry.npmjs.org/@mui/utils/-/utils-5.0.0-rc.0.tgz",
+			"sha": "1f6858d55ed0139342c90c1483f520d4e07a893f",
+			"registry": "npmjs"
+		},
+		"utils-5.0.0-rc.1.tgz": {
+			"url": "https://registry.npmjs.org/@mui/utils/-/utils-5.0.0-rc.1.tgz",
+			"sha": "8427d1117a380b8c861be9a6bbf51075e776cd63",
+			"registry": "npmjs"
+		},
+		"utils-5.0.0.tgz": {
+			"url": "https://registry.npmjs.org/@mui/utils/-/utils-5.0.0.tgz",
+			"sha": "f34887968e506707d45594719202135a160b9193",
+			"registry": "npmjs"
+		},
+		"utils-5.0.1.tgz": {
+			"url": "https://registry.npmjs.org/@mui/utils/-/utils-5.0.1.tgz",
+			"sha": "d4f0f41b82db6ac273920a1b5b6a4de7879271f5",
+			"registry": "npmjs"
+		},
+		"utils-5.1.0.tgz": {
+			"url": "https://registry.npmjs.org/@mui/utils/-/utils-5.1.0.tgz",
+			"sha": "876951933b77828925ad9502a16070497664aae6",
+			"registry": "npmjs"
+		},
+		"utils-5.1.1.tgz": {
+			"url": "https://registry.npmjs.org/@mui/utils/-/utils-5.1.1.tgz",
+			"sha": "3cb2c049731dacb3830336bc8011141e84434aad",
+			"registry": "npmjs"
+		},
+		"utils-5.2.0.tgz": {
+			"url": "https://registry.npmjs.org/@mui/utils/-/utils-5.2.0.tgz",
+			"sha": "70c22968435e8e4ae86d46bb7f224c65de0d2acc",
+			"registry": "npmjs"
+		},
+		"utils-5.2.1.tgz": {
+			"url": "https://registry.npmjs.org/@mui/utils/-/utils-5.2.1.tgz",
+			"sha": "fdd70067f8fb2d73225d56f2e705afacdeb3255b",
+			"registry": "npmjs"
+		},
+		"utils-5.2.2.tgz": {
+			"url": "https://registry.npmjs.org/@mui/utils/-/utils-5.2.2.tgz",
+			"sha": "972aab7d2564e77c06e0c3c11e7b1aec6e37c927",
+			"registry": "npmjs"
+		},
+		"utils-5.2.3.tgz": {
+			"url": "https://registry.npmjs.org/@mui/utils/-/utils-5.2.3.tgz",
+			"sha": "994f3a500679804483732596fcfa531e59c56445",
+			"registry": "npmjs"
+		},
+		"utils-5.3.0.tgz": {
+			"url": "https://registry.npmjs.org/@mui/utils/-/utils-5.3.0.tgz",
+			"sha": "5f31915063d25c56f1d3ba9e289bf447472a868c",
+			"registry": "npmjs"
+		},
+		"utils-5.4.1.tgz": {
+			"url": "https://registry.npmjs.org/@mui/utils/-/utils-5.4.1.tgz",
+			"sha": "feb365ce9a4426587510f0943fd6d6e1889e06e6",
+			"registry": "npmjs"
+		},
+		"utils-5.4.2.tgz": {
+			"url": "https://registry.npmjs.org/@mui/utils/-/utils-5.4.2.tgz",
+			"sha": "3edda8f80de235418fff0424ee66e2a49793ec01",
+			"registry": "npmjs"
+		},
+		"utils-5.4.4.tgz": {
+			"url": "https://registry.npmjs.org/@mui/utils/-/utils-5.4.4.tgz",
+			"sha": "bd7dde4f48f60c02b6debf976bd74f3505b188fe",
+			"registry": "npmjs"
+		},
+		"utils-5.5.3.tgz": {
+			"url": "https://registry.npmjs.org/@mui/utils/-/utils-5.5.3.tgz",
+			"sha": "f6e1f10c0e8f4d0bf750588c2c3a96ad819c5b65",
+			"registry": "npmjs"
+		},
+		"utils-5.6.0.tgz": {
+			"url": "https://registry.npmjs.org/@mui/utils/-/utils-5.6.0.tgz",
+			"sha": "0ec741f5ac7c89ac76054832bed2d6e17ab1c011",
+			"registry": "npmjs"
+		},
+		"utils-5.6.1.tgz": {
+			"url": "https://registry.npmjs.org/@mui/utils/-/utils-5.6.1.tgz",
+			"sha": "4ab79a21bd481555d9a588f4b18061b3c28ea5db",
+			"registry": "npmjs"
+		},
+		"utils-5.7.0.tgz": {
+			"url": "https://registry.npmjs.org/@mui/utils/-/utils-5.7.0.tgz",
+			"sha": "7e96df6b871f4d3da13f26a623d73ddf9a11b19c",
+			"registry": "npmjs"
+		},
+		"utils-5.8.0.tgz": {
+			"url": "https://registry.npmjs.org/@mui/utils/-/utils-5.8.0.tgz",
+			"sha": "4b1d19cbcf70773283375e763b7b3552b84cb58f",
+			"registry": "npmjs"
+		},
+		"utils-5.8.4.tgz": {
+			"url": "https://registry.npmjs.org/@mui/utils/-/utils-5.8.4.tgz",
+			"sha": "5c46b5900bd2452b3ce54a7a1c94a3e2a8a75c34",
+			"registry": "npmjs"
+		},
+		"utils-5.8.6.tgz": {
+			"url": "https://registry.npmjs.org/@mui/utils/-/utils-5.8.6.tgz",
+			"sha": "543de64a64bb9135316ecfd91d75a8740544d79f",
+			"registry": "npmjs"
+		},
+		"utils-5.9.0.tgz": {
+			"url": "https://registry.npmjs.org/@mui/utils/-/utils-5.9.0.tgz",
+			"sha": "2e1ac58905b767de47412cb32475862875b8e880",
+			"registry": "npmjs"
+		},
+		"utils-5.9.1.tgz": {
+			"url": "https://registry.npmjs.org/@mui/utils/-/utils-5.9.1.tgz",
+			"sha": "2b2c9dadbf8ba6561e145b5688fb7df5ef15a934",
+			"registry": "npmjs"
+		},
+		"utils-5.9.3.tgz": {
+			"url": "https://registry.npmjs.org/@mui/utils/-/utils-5.9.3.tgz",
+			"sha": "a11e0824f00b7ea40257b390060ce167fe861d02",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_rev": "3-1b2021cc18a05ce1",
+	"_id": "@mui/utils",
+	"readme": "# @mui/utils\n\nShared utilities used by MUI packages."
+}

@@ -1,0 +1,2264 @@
+{
+	"name": "remark-slug",
+	"versions": {
+		"3.0.0": {
+			"name": "remark-slug",
+			"version": "3.0.0",
+			"description": "Add anchors to remark heading nodes",
+			"license": "MIT",
+			"keywords": [
+				"text",
+				"markdown",
+				"slug",
+				"id",
+				"github",
+				"npm",
+				"remark"
+			],
+			"dependencies": {
+				"mdast-util-to-string": "^1.0.0",
+				"unist-util-visit": "^1.0.0",
+				"repeat-string": "^1.5.0",
+				"slugg": "^0.1.0"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/wooorm/remark-slug.git"
+			},
+			"author": {
+				"name": "Titus Wormer",
+				"email": "tituswormer@gmail.com"
+			},
+			"files": [
+				"index.js"
+			],
+			"devDependencies": {
+				"browserify": "^11.0.0",
+				"eslint": "^1.0.0",
+				"esmangle": "^1.0.0",
+				"istanbul": "^0.3.0",
+				"jscs": "^2.0.0",
+				"jscs-jsdoc": "^1.0.0",
+				"mdast": "^3.0.0-alpha.5",
+				"mdast-comment-config": "^2.0.0-alpha.1",
+				"mdast-github": "^2.0.0-alpha.1",
+				"mdast-html": "^1.0.0",
+				"mdast-lint": "^2.0.0-alpha.1",
+				"mdast-usage": "^2.0.0-alpha.1",
+				"mdast-validate-links": "^1.0.0",
+				"mocha": "^2.0.0",
+				"slug": "^0.9.0",
+				"to-slug-case": "^0.1.0"
+			},
+			"scripts": {
+				"test-api": "mocha --check-leaks test.js",
+				"test-coverage": "istanbul cover _mocha -- test.js",
+				"test-travis": "npm run test-coverage",
+				"test": "npm run test-api",
+				"lint-api": "eslint .",
+				"lint-style": "jscs --reporter inline .",
+				"lint": "npm run lint-api && npm run lint-style",
+				"make": "npm run lint && npm run test-coverage",
+				"bundle": "browserify index.js --no-builtins -s remarkSlug > remark-slug.js",
+				"postbundle": "esmangle remark-slug.js > remark-slug.min.js",
+				"build-md": "mdast . --quiet",
+				"build": "npm run bundle && npm run build-md"
+			},
+			"gitHead": "830fd6ffcaad34ad7c8ed3530a6f5cc244b4afdd",
+			"bugs": {
+				"url": "https://github.com/wooorm/remark-slug/issues"
+			},
+			"homepage": "https://github.com/wooorm/remark-slug#readme",
+			"_id": "remark-slug@3.0.0",
+			"_shasum": "9a1485464ee06a850395d0072f2cbb1f0752ede9",
+			"_from": ".",
+			"_npmVersion": "3.5.0",
+			"_nodeVersion": "5.1.0",
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"dist": {
+				"shasum": "9a1485464ee06a850395d0072f2cbb1f0752ede9",
+				"tarball": "https://registry.npmjs.org/remark-slug/-/remark-slug-3.0.0.tgz",
+				"integrity": "sha512-0lyZ1DPRBEW97deYSCFhS+r6punE7jEBEngfo2vGOnZMUFHknDHucPQsoup70zanZPWOBIhC7k0xShgk9fHBRQ==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIGlxzBfmZtog5nHxrPnEMwUFR78++MEAUrDoqRDUwtaSAiEA5rY8TxUnLQIJshyKPfbeHbmuoMXp87OuLFxS/TJY1x8="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				}
+			],
+			"directories": {},
+			"contributors": []
+		},
+		"3.0.1": {
+			"name": "remark-slug",
+			"version": "3.0.1",
+			"description": "Add anchors to remark heading nodes",
+			"license": "MIT",
+			"keywords": [
+				"text",
+				"markdown",
+				"slug",
+				"id",
+				"github",
+				"npm",
+				"remark"
+			],
+			"dependencies": {
+				"mdast-util-to-string": "^1.0.0",
+				"unist-util-visit": "^1.0.0",
+				"repeat-string": "^1.5.0",
+				"slugg": "^0.1.0"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/wooorm/remark-slug.git"
+			},
+			"author": {
+				"name": "Titus Wormer",
+				"email": "tituswormer@gmail.com"
+			},
+			"files": [
+				"index.js"
+			],
+			"devDependencies": {
+				"browserify": "^12.0.0",
+				"eslint": "^1.0.0",
+				"esmangle": "^1.0.0",
+				"istanbul": "^0.4.0",
+				"jscs": "^2.0.0",
+				"jscs-jsdoc": "^1.0.0",
+				"remark": "^3.0.0",
+				"remark-comment-config": "^2.0.0",
+				"remark-github": "^2.0.0",
+				"remark-html": "^2.0.0",
+				"remark-lint": "^2.0.0",
+				"remark-usage": "^2.0.0",
+				"remark-validate-links": "^2.0.0",
+				"slug": "^0.9.0",
+				"tape": "^4.0.0",
+				"to-slug-case": "^0.1.0"
+			},
+			"scripts": {
+				"build-bundle": "browserify index.js --no-builtins -s remarkSlug > remark-slug.js",
+				"build-mangle": "esmangle remark-slug.js > remark-slug.min.js",
+				"build-md": "remark . --quiet --frail",
+				"build": "npm run build-md && npm run build-bundle && npm run build-mangle",
+				"lint-api": "eslint .",
+				"lint-style": "jscs --reporter inline .",
+				"lint": "npm run lint-api && npm run lint-style",
+				"test-api": "node test.js",
+				"test-coverage": "istanbul cover test.js",
+				"test": "npm run build && npm run lint && npm run test-coverage"
+			},
+			"gitHead": "49043c52499f217729af4ff11726e843d391043e",
+			"bugs": {
+				"url": "https://github.com/wooorm/remark-slug/issues"
+			},
+			"homepage": "https://github.com/wooorm/remark-slug#readme",
+			"_id": "remark-slug@3.0.1",
+			"_shasum": "05504fa4406becc27d954522f5dfa41f33734d93",
+			"_from": ".",
+			"_npmVersion": "3.5.0",
+			"_nodeVersion": "5.1.0",
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"dist": {
+				"shasum": "05504fa4406becc27d954522f5dfa41f33734d93",
+				"tarball": "https://registry.npmjs.org/remark-slug/-/remark-slug-3.0.1.tgz",
+				"integrity": "sha512-TkiD7clgmzrbRSUgDe5pdWP9OHqAisf0islqTvFz328xuyFBwhQVyhD4P6/jynLAxLTwWFm4Hs2L3JW0fOuSsw==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIDgChOFJRuZTMT3HXvAUHkgqIRJF5L5XunajuPbODLKqAiB40phofLt1Cu/KDVHaM6U/fBvU1J+2K4ymiyBkDeXUGQ=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				}
+			],
+			"directories": {},
+			"contributors": []
+		},
+		"3.0.2": {
+			"name": "remark-slug",
+			"version": "3.0.2",
+			"description": "Add anchors to remark heading nodes",
+			"license": "MIT",
+			"keywords": [
+				"text",
+				"markdown",
+				"slug",
+				"id",
+				"github",
+				"npm",
+				"remark"
+			],
+			"dependencies": {
+				"mdast-util-to-string": "^1.0.0",
+				"unist-util-visit": "^1.0.0",
+				"repeat-string": "^1.5.0",
+				"slugg": "^0.1.0"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wooorm/remark-slug.git"
+			},
+			"bugs": {
+				"url": "https://github.com/wooorm/remark-slug/issues"
+			},
+			"author": {
+				"name": "Titus Wormer",
+				"email": "tituswormer@gmail.com"
+			},
+			"files": [
+				"index.js"
+			],
+			"devDependencies": {
+				"browserify": "^13.0.0",
+				"eslint": "^1.0.0",
+				"esmangle": "^1.0.0",
+				"istanbul": "^0.4.0",
+				"jscs": "^2.0.0",
+				"jscs-jsdoc": "^1.0.0",
+				"remark": "^3.0.0",
+				"remark-comment-config": "^2.0.0",
+				"remark-github": "^3.0.0",
+				"remark-html": "^2.0.0",
+				"remark-lint": "^2.0.0",
+				"remark-usage": "^2.0.0",
+				"remark-validate-links": "^2.0.0",
+				"slug": "^0.9.0",
+				"tape": "^4.0.0",
+				"to-slug-case": "^1.0.0"
+			},
+			"scripts": {
+				"build-bundle": "browserify index.js --no-builtins -s remarkSlug > remark-slug.js",
+				"build-mangle": "esmangle remark-slug.js > remark-slug.min.js",
+				"build-md": "remark . --quiet --frail",
+				"build": "npm run build-md && npm run build-bundle && npm run build-mangle",
+				"lint-api": "eslint .",
+				"lint-style": "jscs --reporter inline .",
+				"lint": "npm run lint-api && npm run lint-style",
+				"test-api": "node test.js",
+				"test-coverage": "istanbul cover test.js",
+				"test": "npm run build && npm run lint && npm run test-coverage"
+			},
+			"gitHead": "877d46d5a4a2b1dbb58e71e32eedd1523da5e7f0",
+			"homepage": "https://github.com/wooorm/remark-slug",
+			"_id": "remark-slug@3.0.2",
+			"_shasum": "e51c5004336e4aea6ccf7cec46af85a1a689bed3",
+			"_from": ".",
+			"_npmVersion": "2.3.0",
+			"_nodeVersion": "0.11.16",
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"dist": {
+				"shasum": "e51c5004336e4aea6ccf7cec46af85a1a689bed3",
+				"tarball": "https://registry.npmjs.org/remark-slug/-/remark-slug-3.0.2.tgz",
+				"integrity": "sha512-wqOv3ZWf5GMU8Q3pV9CkXGTwhmK0m7ogiIgPrLXXFCU2pLtNfBqGzJTQ2fYnPciPGmCyl10tjTep3x3IeOv5Ww==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCOP5Z8LpK2QAlWNGV+nkM7Y3horpEraXy36Bi9+ltNAwIhAK63BN8iX7hepK9laIIlUL3o6Xt4NP2YXBybY1VeHyXo"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				}
+			],
+			"directories": {},
+			"contributors": []
+		},
+		"4.0.0": {
+			"name": "remark-slug",
+			"version": "4.0.0",
+			"description": "Add anchors to remark heading nodes",
+			"license": "MIT",
+			"keywords": [
+				"text",
+				"markdown",
+				"slug",
+				"id",
+				"github",
+				"npm",
+				"remark"
+			],
+			"dependencies": {
+				"github-slugger": "^1.0.0",
+				"mdast-util-to-string": "^1.0.0",
+				"unist-util-visit": "^1.0.0"
+			},
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/wooorm/remark-slug.git"
+			},
+			"bugs": {
+				"url": "https://github.com/wooorm/remark-slug/issues"
+			},
+			"author": {
+				"name": "Titus Wormer",
+				"email": "tituswormer@gmail.com"
+			},
+			"files": [
+				"index.js"
+			],
+			"devDependencies": {
+				"browserify": "^13.0.0",
+				"eslint": "^1.0.0",
+				"esmangle": "^1.0.0",
+				"istanbul": "^0.4.0",
+				"jscs": "^2.0.0",
+				"jscs-jsdoc": "^1.0.0",
+				"remark": "^3.0.0",
+				"remark-comment-config": "^2.0.0",
+				"remark-github": "^3.0.0",
+				"remark-html": "^2.0.0",
+				"remark-lint": "^2.0.0",
+				"remark-usage": "^2.0.0",
+				"remark-validate-links": "^2.0.0",
+				"slug": "^0.9.0",
+				"tape": "^4.0.0"
+			},
+			"scripts": {
+				"build-bundle": "browserify index.js --no-builtins -s remarkSlug > remark-slug.js",
+				"build-mangle": "esmangle remark-slug.js > remark-slug.min.js",
+				"build-md": "remark . --quiet --frail",
+				"build": "npm run build-md && npm run build-bundle && npm run build-mangle",
+				"lint-api": "eslint .",
+				"lint-style": "jscs --reporter inline .",
+				"lint": "npm run lint-api && npm run lint-style",
+				"test-api": "node test.js",
+				"test-coverage": "istanbul cover test.js",
+				"test": "npm run build && npm run lint && npm run test-coverage"
+			},
+			"gitHead": "179ed843f7cefbe41a0be191e94440369d2cbcca",
+			"homepage": "https://github.com/wooorm/remark-slug",
+			"_id": "remark-slug@4.0.0",
+			"_shasum": "7fa823df9ca5dfb885c0b640dff48eb9c9c9cfd9",
+			"_from": ".",
+			"_npmVersion": "2.3.0",
+			"_nodeVersion": "0.11.16",
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"dist": {
+				"shasum": "7fa823df9ca5dfb885c0b640dff48eb9c9c9cfd9",
+				"tarball": "https://registry.npmjs.org/remark-slug/-/remark-slug-4.0.0.tgz",
+				"integrity": "sha512-7gV3y8TseaFtYlxLPnUgNcBPxlg5miP5LS0tRoTStNYx8zBHflk2/7I/DEygvrzo/bbPA/iQ1doABFQXpeSOkw==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCuunPMOHZw32K4g9/o2t3nRyuoxW30j/cmCv3lK3tHoQIhAPSrPQsV7cVGtPbu0DTwGLeKt7BWtz9+SJvmX7+t6A/G"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				}
+			],
+			"directories": {},
+			"contributors": []
+		},
+		"4.1.0": {
+			"name": "remark-slug",
+			"version": "4.1.0",
+			"description": "Add anchors to remark heading nodes",
+			"license": "MIT",
+			"keywords": [
+				"text",
+				"markdown",
+				"slug",
+				"id",
+				"github",
+				"npm",
+				"remark"
+			],
+			"dependencies": {
+				"github-slugger": "^1.0.0",
+				"mdast-util-to-string": "^1.0.0",
+				"unist-util-visit": "^1.0.0"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/wooorm/remark-slug.git"
+			},
+			"bugs": {
+				"url": "https://github.com/wooorm/remark-slug/issues"
+			},
+			"author": {
+				"name": "Titus Wormer",
+				"email": "tituswormer@gmail.com",
+				"url": "http://wooorm.com"
+			},
+			"contributors": [
+				{
+					"name": "Titus Wormer",
+					"email": "tituswormer@gmail.com",
+					"url": "http://wooorm.com"
+				}
+			],
+			"files": [
+				"index.js"
+			],
+			"devDependencies": {
+				"browserify": "^13.0.0",
+				"eslint": "^2.0.0",
+				"esmangle": "^1.0.0",
+				"istanbul": "^0.4.0",
+				"jscs": "^2.0.0",
+				"jscs-jsdoc": "^1.0.0",
+				"remark": "^4.0.0-alpha.4",
+				"remark-comment-config": "^3.0.0",
+				"remark-github": "^4.0.1",
+				"remark-html": "^3.0.0",
+				"remark-lint": "^3.0.0",
+				"remark-usage": "^2.0.0",
+				"remark-validate-links": "^2.0.0",
+				"slug": "^0.9.0",
+				"tape": "^4.0.0"
+			},
+			"scripts": {
+				"build-bundle": "browserify index.js --no-builtins -s remarkSlug > remark-slug.js",
+				"build-mangle": "esmangle remark-slug.js > remark-slug.min.js",
+				"build-md": "remark . --quiet --frail",
+				"build": "npm run build-md && npm run build-bundle && npm run build-mangle",
+				"lint-api": "eslint .",
+				"lint-style": "jscs --reporter inline .",
+				"lint": "npm run lint-api && npm run lint-style",
+				"test-api": "node test.js",
+				"test-coverage": "istanbul cover test.js",
+				"test": "npm run build && npm run lint && npm run test-coverage"
+			},
+			"gitHead": "d47b262a631b8cdce281772d0fdb3691445534f0",
+			"homepage": "https://github.com/wooorm/remark-slug#readme",
+			"_id": "remark-slug@4.1.0",
+			"_shasum": "ba5ecceace51704097ce24c2ef63c2658dbe4414",
+			"_from": ".",
+			"_npmVersion": "3.3.6",
+			"_nodeVersion": "5.0.0",
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"dist": {
+				"shasum": "ba5ecceace51704097ce24c2ef63c2658dbe4414",
+				"tarball": "https://registry.npmjs.org/remark-slug/-/remark-slug-4.1.0.tgz",
+				"integrity": "sha512-Ppy0K9rk4OqJ35RIRxiIb7R5iQ9oo0UeN25TndV0jiFeR7YkSwRn9xpy6TFZuolOvCL3f9mZnye3ZzpMmRu5rg==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQCTHKQVS3xoO0GAwaFjV0xdlq537BcozWMU1cvGZGfa+wIgbu2dtGIc4LS+YATmGp4pl99L+iBEGet+DqhlZn+o/FY="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-5-east.internal.npmjs.com",
+				"tmp": "tmp/remark-slug-4.1.0.tgz_1455449763742_0.6498821231070906"
+			},
+			"directories": {}
+		},
+		"4.1.1": {
+			"name": "remark-slug",
+			"version": "4.1.1",
+			"description": "Add anchors to remark heading nodes",
+			"license": "MIT",
+			"keywords": [
+				"text",
+				"markdown",
+				"slug",
+				"id",
+				"github",
+				"npm",
+				"remark"
+			],
+			"dependencies": {
+				"github-slugger": "^1.0.0",
+				"mdast-util-to-string": "^1.0.0",
+				"unist-util-visit": "^1.0.0"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/wooorm/remark-slug.git"
+			},
+			"bugs": {
+				"url": "https://github.com/wooorm/remark-slug/issues"
+			},
+			"author": {
+				"name": "Titus Wormer",
+				"email": "tituswormer@gmail.com",
+				"url": "http://wooorm.com"
+			},
+			"contributors": [
+				{
+					"name": "Titus Wormer",
+					"email": "tituswormer@gmail.com",
+					"url": "http://wooorm.com"
+				}
+			],
+			"files": [
+				"index.js"
+			],
+			"devDependencies": {
+				"browserify": "^13.0.0",
+				"eslint": "^2.0.0",
+				"esmangle": "^1.0.0",
+				"istanbul": "^0.4.0",
+				"jscs": "^3.0.0",
+				"jscs-jsdoc": "^2.0.0",
+				"remark": "^5.0.0",
+				"remark-cli": "^1.0.0",
+				"remark-comment-config": "^4.0.0",
+				"remark-github": "^5.0.0",
+				"remark-html": "^3.0.0",
+				"remark-lint": "^4.0.0",
+				"remark-usage": "^4.0.0-alpha.1",
+				"remark-validate-links": "^4.0.0",
+				"slug": "^0.9.0",
+				"tape": "^4.0.0"
+			},
+			"scripts": {
+				"build-bundle": "browserify index.js --no-builtins -s remarkSlug > remark-slug.js",
+				"build-mangle": "esmangle remark-slug.js > remark-slug.min.js",
+				"build-md": "remark . --quiet --frail",
+				"build": "npm run build-md && npm run build-bundle && npm run build-mangle",
+				"lint-api": "eslint .",
+				"lint-style": "jscs --reporter inline .",
+				"lint": "npm run lint-api && npm run lint-style",
+				"test-api": "node test.js",
+				"test-coverage": "istanbul cover test.js",
+				"test": "npm run build && npm run lint && npm run test-coverage"
+			},
+			"gitHead": "54d352d709aede18afcae64306ae422fa2f60a9f",
+			"homepage": "https://github.com/wooorm/remark-slug#readme",
+			"_id": "remark-slug@4.1.1",
+			"_shasum": "13114664d83b367e0d70305bba7d5046e428b94b",
+			"_from": ".",
+			"_npmVersion": "3.8.6",
+			"_nodeVersion": "6.1.0",
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"dist": {
+				"shasum": "13114664d83b367e0d70305bba7d5046e428b94b",
+				"tarball": "https://registry.npmjs.org/remark-slug/-/remark-slug-4.1.1.tgz",
+				"integrity": "sha512-7aldfaUavTrXY73rlainU3Nlmn5vkauf/fthat4QjX2XL1Cgn7DFmcaEmcau0weqxN3lfH0uopfdOBodlvDc5Q==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQCh9dMC5n0ZxW6mdtKe5cvBkSdwVikn35HD/7on1JsIuQIgZUFs+oITyf6Ktc0enQFxsepzO5WGgE7gBDZKAPAN2xY="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/remark-slug-4.1.1.tgz_1465825164217_0.6598733521532267"
+			},
+			"directories": {}
+		},
+		"4.2.0": {
+			"name": "remark-slug",
+			"version": "4.2.0",
+			"description": "Add anchors to remark heading nodes",
+			"license": "MIT",
+			"keywords": [
+				"text",
+				"markdown",
+				"slug",
+				"id",
+				"github",
+				"npm",
+				"remark"
+			],
+			"dependencies": {
+				"github-slugger": "^1.0.0",
+				"mdast-util-to-string": "^1.0.0",
+				"unist-util-visit": "^1.0.0"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/wooorm/remark-slug.git"
+			},
+			"bugs": {
+				"url": "https://github.com/wooorm/remark-slug/issues"
+			},
+			"author": {
+				"name": "Titus Wormer",
+				"email": "tituswormer@gmail.com",
+				"url": "http://wooorm.com"
+			},
+			"contributors": [
+				{
+					"name": "Titus Wormer",
+					"email": "tituswormer@gmail.com",
+					"url": "http://wooorm.com"
+				}
+			],
+			"files": [
+				"index.js"
+			],
+			"devDependencies": {
+				"browserify": "^13.0.0",
+				"eslint": "^2.0.0",
+				"esmangle": "^1.0.0",
+				"istanbul": "^0.4.0",
+				"jscs": "^3.0.0",
+				"jscs-jsdoc": "^2.0.0",
+				"remark": "^5.0.0",
+				"remark-cli": "^1.0.0",
+				"remark-comment-config": "^4.0.0",
+				"remark-github": "^5.0.0",
+				"remark-html": "^3.0.0",
+				"remark-lint": "^4.0.0",
+				"remark-usage": "^4.0.0",
+				"remark-validate-links": "^4.0.0",
+				"slug": "^0.9.0",
+				"tape": "^4.0.0"
+			},
+			"scripts": {
+				"build-bundle": "browserify index.js --no-builtins -s remarkSlug > remark-slug.js",
+				"build-mangle": "esmangle remark-slug.js > remark-slug.min.js",
+				"build-md": "remark . --quiet --frail",
+				"build": "npm run build-md && npm run build-bundle && npm run build-mangle",
+				"lint-api": "eslint .",
+				"lint-style": "jscs --reporter inline .",
+				"lint": "npm run lint-api && npm run lint-style",
+				"test-api": "node test.js",
+				"test-coverage": "istanbul cover test.js",
+				"test": "npm run build && npm run lint && npm run test-coverage"
+			},
+			"gitHead": "7694f0d04a20ec9f680af6c0ed95ee0109c50113",
+			"homepage": "https://github.com/wooorm/remark-slug#readme",
+			"_id": "remark-slug@4.2.0",
+			"_shasum": "c118797d0c6db2f543e85c5475df09772e27ce86",
+			"_from": ".",
+			"_npmVersion": "3.8.6",
+			"_nodeVersion": "6.0.0",
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"dist": {
+				"shasum": "c118797d0c6db2f543e85c5475df09772e27ce86",
+				"tarball": "https://registry.npmjs.org/remark-slug/-/remark-slug-4.2.0.tgz",
+				"integrity": "sha512-ky1f1ZBxjVuVuSGoNnqlUk4Mj8jjgg/a1gqeeEZHahE6fyb0xqX7yN1IdDqyBJIyBKv4+SJ7FDZvyyQISEYOYw==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIEvZRhS6sij1htbnbEJf02+pXsyx2JBPgeoyoCS1zobjAiArFs5MBh5ka1F4D/FatWAHWd30uQYLmGHM8mARcxio6A=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/remark-slug-4.2.0.tgz_1466247514170_0.6022652199026197"
+			},
+			"directories": {}
+		},
+		"4.2.1": {
+			"name": "remark-slug",
+			"version": "4.2.1",
+			"description": "Add anchors to remark heading nodes",
+			"license": "MIT",
+			"keywords": [
+				"text",
+				"markdown",
+				"slug",
+				"id",
+				"github",
+				"npm",
+				"remark"
+			],
+			"dependencies": {
+				"github-slugger": "^1.0.0",
+				"mdast-util-to-string": "^1.0.0",
+				"unist-util-visit": "^1.0.0"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/wooorm/remark-slug.git"
+			},
+			"bugs": {
+				"url": "https://github.com/wooorm/remark-slug/issues"
+			},
+			"author": {
+				"name": "Titus Wormer",
+				"email": "tituswormer@gmail.com",
+				"url": "http://wooorm.com"
+			},
+			"contributors": [
+				{
+					"name": "Titus Wormer",
+					"email": "tituswormer@gmail.com",
+					"url": "http://wooorm.com"
+				}
+			],
+			"files": [
+				"index.js"
+			],
+			"devDependencies": {
+				"browserify": "^13.0.0",
+				"eslint": "^3.0.0",
+				"esmangle": "^1.0.0",
+				"istanbul": "^0.4.0",
+				"jscs": "^3.0.0",
+				"jscs-jsdoc": "^2.0.0",
+				"remark": "^6.0.0",
+				"remark-cli": "^1.0.0",
+				"remark-comment-config": "^4.0.0",
+				"remark-github": "^5.0.0",
+				"remark-html": "^3.0.0",
+				"remark-lint": "^4.0.0",
+				"remark-usage": "^4.0.0",
+				"remark-validate-links": "^4.0.0",
+				"tape": "^4.0.0",
+				"unist-util-remove-position": "^1.1.0"
+			},
+			"scripts": {
+				"build-bundle": "browserify index.js --no-builtins -s remarkSlug > remark-slug.js",
+				"build-mangle": "esmangle remark-slug.js > remark-slug.min.js",
+				"build-md": "remark . --quiet --frail",
+				"build": "npm run build-md && npm run build-bundle && npm run build-mangle",
+				"lint-api": "eslint .",
+				"lint-style": "jscs --reporter inline .",
+				"lint": "npm run lint-api && npm run lint-style",
+				"test-api": "node test.js",
+				"test-coverage": "istanbul cover test.js",
+				"test": "npm run build && npm run lint && npm run test-coverage"
+			},
+			"gitHead": "124a81c6b2fb5b911c098c2a144f2518cf82a632",
+			"homepage": "https://github.com/wooorm/remark-slug#readme",
+			"_id": "remark-slug@4.2.1",
+			"_shasum": "e9ae7c124f97cdc68b8f4f92a463275d89fa2195",
+			"_from": ".",
+			"_npmVersion": "3.10.3",
+			"_nodeVersion": "6.3.0",
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"dist": {
+				"shasum": "e9ae7c124f97cdc68b8f4f92a463275d89fa2195",
+				"tarball": "https://registry.npmjs.org/remark-slug/-/remark-slug-4.2.1.tgz",
+				"integrity": "sha512-hixvJsKfc6u0j+oPJQbOUNrLnEfuBNn9LFh5aXfRtGYrQ42uJ5d2ZSyxHFRLu+o0XMx8syclaJYIkXYgsDJAuw==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDkwDswxL6epAO6Rxz/0vb1eRXZusEgI2uoj73LtrJjVwIgEr1QqIyhO4hf26puTGoXx38Sts0F4WOC/zS6ONO4j/k="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/remark-slug-4.2.1.tgz_1471807144201_0.3658668047282845"
+			},
+			"directories": {}
+		},
+		"4.2.2": {
+			"name": "remark-slug",
+			"version": "4.2.2",
+			"description": "Add anchors to remark heading nodes",
+			"license": "MIT",
+			"keywords": [
+				"text",
+				"markdown",
+				"slug",
+				"id",
+				"github",
+				"npm",
+				"remark"
+			],
+			"dependencies": {
+				"github-slugger": "^1.0.0",
+				"mdast-util-to-string": "^1.0.0",
+				"unist-util-visit": "^1.0.0"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/wooorm/remark-slug.git"
+			},
+			"bugs": {
+				"url": "https://github.com/wooorm/remark-slug/issues"
+			},
+			"author": {
+				"name": "Titus Wormer",
+				"email": "tituswormer@gmail.com",
+				"url": "http://wooorm.com"
+			},
+			"contributors": [
+				{
+					"name": "Titus Wormer",
+					"email": "tituswormer@gmail.com",
+					"url": "http://wooorm.com"
+				}
+			],
+			"files": [
+				"index.js"
+			],
+			"devDependencies": {
+				"browserify": "^13.0.0",
+				"esmangle": "^1.0.0",
+				"nyc": "^8.1.0",
+				"remark": "^6.0.0",
+				"remark-cli": "^2.0.0",
+				"remark-preset-wooorm": "^1.0.0",
+				"tape": "^4.0.0",
+				"unist-builder": "^1.0.2",
+				"unist-util-remove-position": "^1.1.0",
+				"xo": "^0.16.0"
+			},
+			"scripts": {
+				"build-bundle": "browserify index.js --no-builtins -s remarkSlug > remark-slug.js",
+				"build-mangle": "esmangle remark-slug.js > remark-slug.min.js",
+				"build-md": "remark . --quiet --frail",
+				"build": "npm run build-md && npm run build-bundle && npm run build-mangle",
+				"lint": "xo",
+				"test-api": "node test.js",
+				"test-coverage": "nyc --reporter lcov tape test.js",
+				"test": "npm run build && npm run lint && npm run test-coverage"
+			},
+			"xo": {
+				"space": true,
+				"ignores": [
+					"remark-slug.js"
+				]
+			},
+			"remarkConfig": {
+				"output": true,
+				"presets": "wooorm"
+			},
+			"gitHead": "5310512a29ae3f48dbd495b812269ff3be02de18",
+			"homepage": "https://github.com/wooorm/remark-slug#readme",
+			"_id": "remark-slug@4.2.2",
+			"_shasum": "3cfaa02e2e24d98405b296072f2ebbdfad279eb6",
+			"_from": ".",
+			"_npmVersion": "3.3.6",
+			"_nodeVersion": "5.0.0",
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"dist": {
+				"shasum": "3cfaa02e2e24d98405b296072f2ebbdfad279eb6",
+				"tarball": "https://registry.npmjs.org/remark-slug/-/remark-slug-4.2.2.tgz",
+				"integrity": "sha512-x0n/r32uIOfP8pXPJcKfpzt3dluCAF1x9CvDhgXqbEwoKHmFX8DCTRVo0xVynvq/vr7263HjPeOufnSCKesvlg==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIH+igYcLm29XDFlivNr/+hYOfwTC9kZVcK0nDveBzouKAiEAxHV06ha+NpjpVHwr5t+ESM6mgtQZ0QyHsOnr5m7JNos="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/remark-slug-4.2.2.tgz_1472073544018_0.25252757826820016"
+			},
+			"directories": {}
+		},
+		"4.2.3": {
+			"name": "remark-slug",
+			"version": "4.2.3",
+			"description": "Add anchors to remark heading nodes",
+			"license": "MIT",
+			"keywords": [
+				"text",
+				"markdown",
+				"slug",
+				"id",
+				"github",
+				"npm",
+				"remark"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/wooorm/remark-slug.git"
+			},
+			"bugs": {
+				"url": "https://github.com/wooorm/remark-slug/issues"
+			},
+			"author": {
+				"name": "Titus Wormer",
+				"email": "tituswormer@gmail.com",
+				"url": "http://wooorm.com"
+			},
+			"contributors": [
+				{
+					"name": "Titus Wormer",
+					"email": "tituswormer@gmail.com",
+					"url": "http://wooorm.com"
+				}
+			],
+			"files": [
+				"index.js"
+			],
+			"dependencies": {
+				"github-slugger": "^1.0.0",
+				"mdast-util-to-string": "^1.0.0",
+				"unist-util-visit": "^1.0.0"
+			},
+			"devDependencies": {
+				"browserify": "^14.0.0",
+				"esmangle": "^1.0.0",
+				"nyc": "^11.0.0",
+				"remark": "^7.0.0",
+				"remark-cli": "^3.0.0",
+				"remark-preset-wooorm": "^3.0.0",
+				"tape": "^4.0.0",
+				"unist-builder": "^1.0.2",
+				"unist-util-remove-position": "^1.1.0",
+				"xo": "^0.18.0"
+			},
+			"scripts": {
+				"build-bundle": "browserify index.js --no-builtins -s remarkSlug > remark-slug.js",
+				"build-mangle": "esmangle remark-slug.js > remark-slug.min.js",
+				"build-md": "remark . -qfo",
+				"build": "npm run build-md && npm run build-bundle && npm run build-mangle",
+				"lint": "xo",
+				"test-api": "node test.js",
+				"test-coverage": "nyc --reporter lcov tape test.js",
+				"test": "npm run build && npm run lint && npm run test-coverage"
+			},
+			"xo": {
+				"space": true,
+				"esnext": false,
+				"ignores": [
+					"remark-slug.js"
+				]
+			},
+			"remarkConfig": {
+				"plugins": [
+					"preset-wooorm"
+				]
+			},
+			"gitHead": "ed79f8545d960e2da74c5dc32e5a5d11135585d4",
+			"homepage": "https://github.com/wooorm/remark-slug#readme",
+			"_id": "remark-slug@4.2.3",
+			"_shasum": "8d987d0e5e63d4a49ea37b90fe999a3dcfc81b72",
+			"_from": ".",
+			"_npmVersion": "2.14.2",
+			"_nodeVersion": "4.0.0",
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"dist": {
+				"shasum": "8d987d0e5e63d4a49ea37b90fe999a3dcfc81b72",
+				"tarball": "https://registry.npmjs.org/remark-slug/-/remark-slug-4.2.3.tgz",
+				"integrity": "sha512-8FJTladB5gzZAOfnVEmJZ5hKa3pdHFKx2YDFchmvzyFNkDYS/EbX9ff8C6lj39/t0JhE88/anhv5ZVOI/CrB+w==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDA1rXG/aenY/qD92u6nNszGhMb72HmfDCMaFyjwtbb5wIhAK/p+sy8H0MAm8zwNMg6YWNuNCC/Q5NOs+TD3c2LeLpu"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/remark-slug-4.2.3.tgz_1497703425821_0.7736920926254243"
+			},
+			"directories": {}
+		},
+		"5.0.0": {
+			"name": "remark-slug",
+			"version": "5.0.0",
+			"description": "Add anchors to remark heading nodes",
+			"license": "MIT",
+			"keywords": [
+				"text",
+				"markdown",
+				"slug",
+				"id",
+				"github",
+				"npm",
+				"remark"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/remarkjs/remark-slug.git"
+			},
+			"bugs": {
+				"url": "https://github.com/remarkjs/remark-slug/issues"
+			},
+			"author": {
+				"name": "Titus Wormer",
+				"email": "tituswormer@gmail.com",
+				"url": "http://wooorm.com"
+			},
+			"contributors": [
+				{
+					"name": "Titus Wormer",
+					"email": "tituswormer@gmail.com",
+					"url": "http://wooorm.com"
+				}
+			],
+			"files": [
+				"index.js"
+			],
+			"dependencies": {
+				"github-slugger": "^1.0.0",
+				"mdast-util-to-string": "^1.0.0",
+				"unist-util-visit": "^1.0.0"
+			},
+			"devDependencies": {
+				"browserify": "^14.0.0",
+				"esmangle": "^1.0.0",
+				"nyc": "^11.0.0",
+				"remark": "^8.0.0",
+				"remark-cli": "^4.0.0",
+				"remark-preset-wooorm": "^3.0.0",
+				"tape": "^4.0.0",
+				"unist-builder": "^1.0.2",
+				"unist-util-remove-position": "^1.1.0",
+				"xo": "^0.18.0"
+			},
+			"scripts": {
+				"build-bundle": "browserify index.js --no-builtins -s remarkSlug > remark-slug.js",
+				"build-mangle": "esmangle remark-slug.js > remark-slug.min.js",
+				"build-md": "remark . -qfo",
+				"build": "npm run build-md && npm run build-bundle && npm run build-mangle",
+				"lint": "xo",
+				"test-api": "node test.js",
+				"test-coverage": "nyc --reporter lcov tape test.js",
+				"test": "npm run build && npm run lint && npm run test-coverage"
+			},
+			"xo": {
+				"space": true,
+				"esnext": false,
+				"ignores": [
+					"remark-slug.js"
+				]
+			},
+			"remarkConfig": {
+				"plugins": [
+					"preset-wooorm"
+				]
+			},
+			"gitHead": "0ca2f83e053fedd1a5c2be2ce4aa4b4f569b70fa",
+			"homepage": "https://github.com/remarkjs/remark-slug#readme",
+			"_id": "remark-slug@5.0.0",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "9.0.0",
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-bRFK90ia6iooqC5KH6e9nEIL3OwRbTPU6ed2fm/fa66uofKdmRcsmRVMwND3pXLbvH2F022cETYlE7YlVs7LNQ==",
+				"shasum": "9de71fcdc2bfae33ebb4a41eb83035288a829980",
+				"tarball": "https://registry.npmjs.org/remark-slug/-/remark-slug-5.0.0.tgz",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCID/ksMnT6GUrPEsFJF/E3xcEt/uGfsBpAFsZDDKaRW2uAiEAnyU5ixu7yg3zispR1V0Pen80Sr3TQYzcxzo8rhYoAEE="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/remark-slug-5.0.0.tgz_1512909544116_0.7386654650326818"
+			},
+			"directories": {}
+		},
+		"5.1.0": {
+			"name": "remark-slug",
+			"version": "5.1.0",
+			"description": "Add anchors to remark heading nodes",
+			"license": "MIT",
+			"keywords": [
+				"text",
+				"markdown",
+				"slug",
+				"id",
+				"github",
+				"npm",
+				"remark"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/remarkjs/remark-slug.git"
+			},
+			"bugs": {
+				"url": "https://github.com/remarkjs/remark-slug/issues"
+			},
+			"author": {
+				"name": "Titus Wormer",
+				"email": "tituswormer@gmail.com",
+				"url": "http://wooorm.com"
+			},
+			"contributors": [
+				{
+					"name": "Titus Wormer",
+					"email": "tituswormer@gmail.com",
+					"url": "http://wooorm.com"
+				}
+			],
+			"files": [
+				"index.js"
+			],
+			"dependencies": {
+				"github-slugger": "^1.0.0",
+				"mdast-util-to-string": "^1.0.0",
+				"unist-util-visit": "^1.0.0"
+			},
+			"devDependencies": {
+				"browserify": "^16.0.0",
+				"nyc": "^12.0.0",
+				"remark": "^9.0.0",
+				"remark-attr": "^0.6.2",
+				"remark-cli": "^5.0.0",
+				"remark-preset-wooorm": "^4.0.0",
+				"tape": "^4.0.0",
+				"tinyify": "^2.4.3",
+				"unist-builder": "^1.0.2",
+				"unist-util-remove-position": "^1.1.0",
+				"xo": "^0.22.0"
+			},
+			"scripts": {
+				"format": "remark . -qfo && prettier --write \"**/*.js\" && xo --fix",
+				"build-bundle": "browserify . -s remarkSlug > remark-slug.js",
+				"build-mangle": "browserify . -s remarkSlug -p tinyify > remark-slug.min.js",
+				"build": "npm run build-bundle && npm run build-mangle",
+				"test-api": "node test",
+				"test-coverage": "nyc --reporter lcov tape test.js",
+				"test": "npm run format && npm run build && npm run test-coverage"
+			},
+			"prettier": {
+				"tabWidth": 2,
+				"useTabs": false,
+				"singleQuote": true,
+				"bracketSpacing": false,
+				"semi": false,
+				"trailingComma": "none"
+			},
+			"xo": {
+				"prettier": true,
+				"esnext": false,
+				"ignores": [
+					"remark-slug.js"
+				]
+			},
+			"remarkConfig": {
+				"plugins": [
+					"preset-wooorm"
+				]
+			},
+			"gitHead": "4f577b30c3d6be3f2b9592e5e00596048ead9904",
+			"homepage": "https://github.com/remarkjs/remark-slug#readme",
+			"_id": "remark-slug@5.1.0",
+			"_npmVersion": "6.3.0",
+			"_nodeVersion": "10.0.0",
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-FW/V7b3ekfDL1eyPDyzfq0qz5HFPKPNWVC2eqFDie45r774FLGoymOS1oU7LVQfdFNEvNLZ6oBJT/oIxAyBISg==",
+				"shasum": "e55cd92d53395665e26b2994441394127d860abf",
+				"tarball": "https://registry.npmjs.org/remark-slug/-/remark-slug-5.1.0.tgz",
+				"fileCount": 4,
+				"unpackedSize": 6749,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbca/aCRA9TVsSAnZWagAAdoIP+wWgU5MwudgoEIV/rnf1\n7mmASVLRfhRbn9U6ncNyRPc0I1hEeAfu5uyrJaB2eWVU49ZBKk32e71E/mN8\nRTkTaNcvy3lj2xKw/pw9ovkjyo5jjELdxHtHbUiqoLK//pDSytg8uy88v3Xf\nqvXsbuHwsoeJUggRE6b8e4yODtejpDXBLhtrJE1yGVq1O1ViXhd6cDuFt4Jy\nh0gueYPAadTybdC4f+FrRRacF9wFOYFviBgM9tBhZSP1UHGO5iraTMZz8q8s\nRKj7jMnVyx7uAonxTuUYVE7UkpvXHEPVtNtErvFWzavc4LuhRAl9ik9u9Ofj\nFTIxjzdcd25h+Mmu4vV/rD9ICYJ12YeRnOefGMryoNRsjocNTFUHbgBNDv+Q\nkbWVvwjLt3EezaSNKiTBcVJT9/e6/wVnFiKe+rfrjThCmsGDlz9jguuX+qSG\n9BJYqxIH37uA/BHgEtIeRiiW72DLTZ+ttpQeH4tGRVuMtPA1SDZhUXoxJhTC\nn1PWOjCs+3I8zoQsCqjLFHChWj9HFEuiZ+E4A3DJdjgVi4Xf79k+xXp527JK\npbp+Z86GkNc7lIFvsP7ca9quNEGu+KynXybOWWWF5En/6dxA7oCXAmi0+6nT\nUXSc/DDlO0nZmPS0jA6zgHkDcGaU2MeBkEHyM881CXufrTs1Qv3MOiH6Ikxw\nIRAo\r\n=FxUO\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQC1Ci2tVz2MZWx5HpeFT0+mWrcV3ROwh+pECi3U0DELOQIhAMpu9XigLPWgqUNjHPQ4aicMzm9vVe0dFrmBEisupM9N"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"email": "Christian.Murphy.42@gmail.com",
+					"name": "christianmurphy"
+				},
+				{
+					"email": "denysdovhan@gmail.com",
+					"name": "denysdovhan"
+				},
+				{
+					"email": "eush77@gmail.com",
+					"name": "eush77"
+				},
+				{
+					"email": "fazouanem3@gmail.com",
+					"name": "fazouane-marouane"
+				},
+				{
+					"email": "david@spektrakel.de",
+					"name": "haggis_"
+				},
+				{
+					"email": "lin90162@yahoo.co.jp",
+					"name": "rhysd"
+				},
+				{
+					"email": "fluke8259@gmail.com",
+					"name": "rokt33r"
+				},
+				{
+					"email": "sethvincent@gmail.com",
+					"name": "sethvincent"
+				},
+				{
+					"email": "victor@draft.li",
+					"name": "vhf"
+				},
+				{
+					"email": "tituswormer@gmail.com",
+					"name": "wooorm"
+				},
+				{
+					"email": "xuopled@gmail.com",
+					"name": "xuopled"
+				},
+				{
+					"email": "zeke@sikelianos.com",
+					"name": "zeke"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/remark-slug_5.1.0_1534177242263_0.885684794036987"
+			},
+			"_hasShrinkwrap": false
+		},
+		"5.1.1": {
+			"name": "remark-slug",
+			"version": "5.1.1",
+			"description": "Add anchors to remark heading nodes",
+			"license": "MIT",
+			"keywords": [
+				"text",
+				"markdown",
+				"slug",
+				"id",
+				"github",
+				"npm",
+				"remark"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/remarkjs/remark-slug.git"
+			},
+			"bugs": {
+				"url": "https://github.com/remarkjs/remark-slug/issues"
+			},
+			"author": {
+				"name": "Titus Wormer",
+				"email": "tituswormer@gmail.com",
+				"url": "https://wooorm.com"
+			},
+			"contributors": [
+				{
+					"name": "Titus Wormer",
+					"email": "tituswormer@gmail.com",
+					"url": "https://wooorm.com"
+				}
+			],
+			"dependencies": {
+				"github-slugger": "^1.0.0",
+				"mdast-util-to-string": "^1.0.0",
+				"unist-util-visit": "^1.0.0"
+			},
+			"devDependencies": {
+				"browserify": "^16.0.0",
+				"nyc": "^13.0.0",
+				"remark": "^10.0.0",
+				"remark-cli": "^6.0.0",
+				"remark-preset-wooorm": "^4.0.0",
+				"tape": "^4.0.0",
+				"tinyify": "^2.4.3",
+				"unist-builder": "^1.0.2",
+				"unist-util-remove-position": "^1.1.0",
+				"xo": "^0.23.0"
+			},
+			"scripts": {
+				"format": "remark . -qfo && prettier --write \"**/*.js\" && xo --fix",
+				"build-bundle": "browserify . -s remarkSlug > remark-slug.js",
+				"build-mangle": "browserify . -s remarkSlug -p tinyify > remark-slug.min.js",
+				"build": "npm run build-bundle && npm run build-mangle",
+				"test-api": "node test",
+				"test-coverage": "nyc --reporter lcov tape test.js",
+				"test": "npm run format && npm run build && npm run test-coverage"
+			},
+			"prettier": {
+				"tabWidth": 2,
+				"useTabs": false,
+				"singleQuote": true,
+				"bracketSpacing": false,
+				"semi": false,
+				"trailingComma": "none"
+			},
+			"xo": {
+				"prettier": true,
+				"esnext": false,
+				"ignores": [
+					"remark-slug.js"
+				]
+			},
+			"remarkConfig": {
+				"plugins": [
+					"preset-wooorm"
+				]
+			},
+			"gitHead": "c6c14f3a3ee87697da1d81491241b5ac7370cf1d",
+			"homepage": "https://github.com/remarkjs/remark-slug#readme",
+			"_id": "remark-slug@5.1.1",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "11.0.0",
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-r591rdoDPJkSSAVvEaTVUkqbMp7c7AyZfif14V0Dp66GQkOHzaPAS6wyhawSbqpS0ZdTnfJS+TltFoxzi6bdIA==",
+				"shasum": "eb5dba0cf779487ef7ddf65c735ba4d4ca017542",
+				"tarball": "https://registry.npmjs.org/remark-slug/-/remark-slug-5.1.1.tgz",
+				"fileCount": 4,
+				"unpackedSize": 7151,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJb9ns8CRA9TVsSAnZWagAA0LYP/j9RyxF8FYeuQFfPga1O\nNn9C+NT+rSds6h90H3VE+gzrFpFCeM9oqWg13nLtehbWV01USgnsryHO6BEm\nj0RWoKUsduroHncbezZTDU42mrl1GFKQbk11VRhzYLsqH3pKnUsk+GG/P6pI\n7uKwE6CAnkuoq1zEbZMp1GXuDGlbh7NOZMw2pb2S7sgNoqvuCofot3BREitT\nesOu1PNHew/GoS/j3MQByjHhO8uzJu6u6EVscd+ygSpWR6KlXDeskB2CbDce\nQSkShPW3pt4blCdNv+/guG/g4p2YdF2zMdIFcTwVApA31NgHgTaWpAM2qVSN\n9bcHZMAHwilOJyGabWQVjhXHJbNIumBLamnvcz5YihF6ov7JwnXRrlpntfKi\nf0v0Bd2dLR1Fr961QNG5TYRHf2VItQVFzz0LOtvRpR2UuOn4HxUXVJWfjLAK\n52h5XJ4DyzsrzrjLeQxQGtwCq7cGwxsRPxLuudTC6blL0zSeULNQm7CW236B\nJmlvvYjHjmNsT8PsT0WUIL88ieZKT9ne0SX4xI9hYGfT6yBl/GkGW5bInNEN\nv2xGpvEWP0+N9SgAsljyph3YwzRYCmaYpVteBLFnM7+MgWQOdqfpjAKYLK+r\noOJEMOOzscWAC1R7pebGRG6aK51dEJlO2LdQa+R4F9kFaZovrspwOgjPktj5\nGXoz\r\n=TrMA\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCUzMb6U6nNxPYR3PJ1bbfpsE+8wAZLhbNb5xXpiMeEGwIhAK5OE0SUkzzHFA9LKsDEwi0fMkPWAnvfnWlmtSxCGE7K"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"email": "Christian.Murphy.42@gmail.com",
+					"name": "christianmurphy"
+				},
+				{
+					"email": "denysdovhan@gmail.com",
+					"name": "denysdovhan"
+				},
+				{
+					"email": "eush77@gmail.com",
+					"name": "eush77"
+				},
+				{
+					"email": "fazouanem3@gmail.com",
+					"name": "fazouane-marouane"
+				},
+				{
+					"email": "david@spektrakel.de",
+					"name": "haggis_"
+				},
+				{
+					"email": "johnotander@gmail.com",
+					"name": "johno"
+				},
+				{
+					"email": "merlijn@soverin.net",
+					"name": "murderlon"
+				},
+				{
+					"email": "lin90162@yahoo.co.jp",
+					"name": "rhysd"
+				},
+				{
+					"email": "fluke8259@gmail.com",
+					"name": "rokt33r"
+				},
+				{
+					"email": "sethvincent@gmail.com",
+					"name": "sethvincent"
+				},
+				{
+					"email": "victor@draft.li",
+					"name": "vhf"
+				},
+				{
+					"email": "tituswormer@gmail.com",
+					"name": "wooorm"
+				},
+				{
+					"email": "xuopled@gmail.com",
+					"name": "xuopled"
+				},
+				{
+					"email": "zeke@sikelianos.com",
+					"name": "zeke"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/remark-slug_5.1.1_1542880060272_0.668749552883944"
+			},
+			"_hasShrinkwrap": false
+		},
+		"5.1.2": {
+			"name": "remark-slug",
+			"version": "5.1.2",
+			"description": "remark plugin to add anchors to headings",
+			"license": "MIT",
+			"keywords": [
+				"unified",
+				"remark",
+				"plugin",
+				"mdast",
+				"markdown",
+				"text",
+				"slug",
+				"id",
+				"github",
+				"npm"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/remarkjs/remark-slug.git"
+			},
+			"bugs": {
+				"url": "https://github.com/remarkjs/remark-slug/issues"
+			},
+			"author": {
+				"name": "Titus Wormer",
+				"email": "tituswormer@gmail.com",
+				"url": "https://wooorm.com"
+			},
+			"contributors": [
+				{
+					"name": "Titus Wormer",
+					"email": "tituswormer@gmail.com",
+					"url": "https://wooorm.com"
+				},
+				{
+					"name": "Jayson Harshbarger",
+					"email": "hypercubed@gmail.com"
+				}
+			],
+			"dependencies": {
+				"github-slugger": "^1.0.0",
+				"mdast-util-to-string": "^1.0.0",
+				"unist-util-visit": "^1.0.0"
+			},
+			"devDependencies": {
+				"browserify": "^16.0.0",
+				"nyc": "^14.0.0",
+				"prettier": "^1.0.0",
+				"remark": "^10.0.0",
+				"remark-cli": "^6.0.0",
+				"remark-preset-wooorm": "^5.0.0",
+				"tape": "^4.0.0",
+				"tinyify": "^2.0.0",
+				"unist-builder": "^1.0.0",
+				"unist-util-remove-position": "^1.0.0",
+				"xo": "^0.24.0"
+			},
+			"scripts": {
+				"format": "remark . -qfo && prettier --write \"**/*.js\" && xo --fix",
+				"build-bundle": "browserify . -s remarkSlug > remark-slug.js",
+				"build-mangle": "browserify . -s remarkSlug -p tinyify > remark-slug.min.js",
+				"build": "npm run build-bundle && npm run build-mangle",
+				"test-api": "node test",
+				"test-coverage": "nyc --reporter lcov tape test.js",
+				"test": "npm run format && npm run build && npm run test-coverage"
+			},
+			"prettier": {
+				"tabWidth": 2,
+				"useTabs": false,
+				"singleQuote": true,
+				"bracketSpacing": false,
+				"semi": false,
+				"trailingComma": "none"
+			},
+			"xo": {
+				"prettier": true,
+				"esnext": false,
+				"ignores": [
+					"remark-slug.js"
+				]
+			},
+			"remarkConfig": {
+				"plugins": [
+					"preset-wooorm"
+				]
+			},
+			"gitHead": "b9e8a9c02f71c7b44d51eb95a008942a8d4a0952",
+			"homepage": "https://github.com/remarkjs/remark-slug#readme",
+			"_id": "remark-slug@5.1.2",
+			"_nodeVersion": "12.2.0",
+			"_npmVersion": "6.9.0",
+			"dist": {
+				"integrity": "sha512-DWX+Kd9iKycqyD+/B+gEFO3jjnt7Yg1O05lygYSNTe5i5PIxxxPjp5qPBDxPIzp5wreF7+1ROCwRgjEcqmzr3A==",
+				"shasum": "715ecdef8df1226786204b1887d31ab16aa24609",
+				"tarball": "https://registry.npmjs.org/remark-slug/-/remark-slug-5.1.2.tgz",
+				"fileCount": 4,
+				"unpackedSize": 7605,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdBepYCRA9TVsSAnZWagAA2W8QAINcm5GVkSuUb/dx/XMB\ns1saWT5FInAi7V1Em/16/ImlWcc0GuJMXUgwSRcktGNcOuiWoeG3R/sCTIGi\nntpPejXCrFU0Y9WMrcIk2CXQYwrm1DL4GpL6bE/LQtx1RAdNVuCezJQqLTKo\ndA5R/kGq/v8gWY+FanPok6aoG0ObLdbqv0f9nhCMX9tF2KYoassfo7GVcraS\ntY/nphjyx3roMKnAJLnCRlZpx0Et7/UQSDST8K2L6WAFaIqf0oRtXg4RGeYv\nY5kDffVKZk+bkLqKp0n/DferAmUNctnz9NptmBB8TyMUmgxxfFQ/IspdPFOH\nbNhfnuEzEB1z9F5o1DmzrHvrDUPb0+b7t3s0Kufp+9JcYibrST6cYWR9/jfm\n5FNMlWCiCs33pR9FaqnNYtjpNtjMFfi31no6d3ZCr24Aj+OxmX1E6pExH/i0\nMKFmZFMAMXq93WFyUhEVN1H4ajcDl02AcdXvsx5piOzZUnpFlf/17Cihb1BU\nJph6v9+NzCoj5BclWysb7fDeg6YRHhcr2HaTlSkQiTmyeKuBtZsggtsHQQrl\nyjVJFGrtMPr5nMyRXscwRRSPqbvc4KDAg3dwcFJyw8D7IeFjZ2uOA5SubGj7\nX+r1G+BSVrb7OWnKA7fRF+IzJUtUYOgOD2ds8AT76o+FvioqYO5XngR2E8ZO\n9l32\r\n=vm4f\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCbLY3J90kxh9szYsPEBwWcu7d5xcNt8XoN1YWf1okbUQIhAOR0cOoehBOgKh5Ckoe0uGc3VnIsNoBtb7K5ydHP5MJ6"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"email": "Christian.Murphy.42@gmail.com",
+					"name": "christianmurphy"
+				},
+				{
+					"email": "johnotander@gmail.com",
+					"name": "johno"
+				},
+				{
+					"email": "merlijn@soverin.net",
+					"name": "murderlon"
+				},
+				{
+					"email": "victor@draft.li",
+					"name": "vhf"
+				},
+				{
+					"email": "tituswormer@gmail.com",
+					"name": "wooorm"
+				}
+			],
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/remark-slug_5.1.2_1560668759931_0.32046449673821464"
+			},
+			"_hasShrinkwrap": false
+		},
+		"6.0.0": {
+			"name": "remark-slug",
+			"version": "6.0.0",
+			"description": "remark plugin to add anchors to headings",
+			"license": "MIT",
+			"keywords": [
+				"unified",
+				"remark",
+				"remark-plugin",
+				"plugin",
+				"mdast",
+				"markdown",
+				"text",
+				"slug",
+				"id",
+				"github",
+				"npm"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/remarkjs/remark-slug.git"
+			},
+			"bugs": {
+				"url": "https://github.com/remarkjs/remark-slug/issues"
+			},
+			"funding": {
+				"type": "opencollective",
+				"url": "https://opencollective.com/unified"
+			},
+			"author": {
+				"name": "Titus Wormer",
+				"email": "tituswormer@gmail.com",
+				"url": "https://wooorm.com"
+			},
+			"contributors": [
+				{
+					"name": "Titus Wormer",
+					"email": "tituswormer@gmail.com",
+					"url": "https://wooorm.com"
+				},
+				{
+					"name": "Jayson Harshbarger",
+					"email": "hypercubed@gmail.com"
+				}
+			],
+			"dependencies": {
+				"github-slugger": "^1.0.0",
+				"mdast-util-to-string": "^1.0.0",
+				"unist-util-visit": "^2.0.0"
+			},
+			"devDependencies": {
+				"browserify": "^16.0.0",
+				"nyc": "^15.0.0",
+				"prettier": "^2.0.0",
+				"remark": "^11.0.0",
+				"remark-cli": "^7.0.0",
+				"remark-preset-wooorm": "^6.0.0",
+				"tape": "^4.0.0",
+				"tinyify": "^2.0.0",
+				"unist-builder": "^2.0.0",
+				"unist-util-remove-position": "^2.0.0",
+				"xo": "^0.28.0"
+			},
+			"scripts": {
+				"format": "remark . -qfo && prettier --write \"**/*.js\" && xo --fix",
+				"build-bundle": "browserify . -s remarkSlug > remark-slug.js",
+				"build-mangle": "browserify . -s remarkSlug -p tinyify > remark-slug.min.js",
+				"build": "npm run build-bundle && npm run build-mangle",
+				"test-api": "node test",
+				"test-coverage": "nyc --reporter lcov tape test.js",
+				"test": "npm run format && npm run build && npm run test-coverage"
+			},
+			"prettier": {
+				"tabWidth": 2,
+				"useTabs": false,
+				"singleQuote": true,
+				"bracketSpacing": false,
+				"semi": false,
+				"trailingComma": "none"
+			},
+			"xo": {
+				"prettier": true,
+				"esnext": false,
+				"ignores": [
+					"remark-slug.js"
+				]
+			},
+			"remarkConfig": {
+				"plugins": [
+					"preset-wooorm"
+				]
+			},
+			"gitHead": "97021c9661c25173abe7a6ddb0f83fe304de1c52",
+			"homepage": "https://github.com/remarkjs/remark-slug#readme",
+			"_id": "remark-slug@6.0.0",
+			"_nodeVersion": "13.10.1",
+			"_npmVersion": "6.14.3",
+			"dist": {
+				"integrity": "sha512-ln67v5BrGKHpETnm6z6adlJPhESFJwfuZZ3jrmi+lKTzeZxh2tzFzUfDD4Pm2hRGOarHLuGToO86MNMZ/hA67Q==",
+				"shasum": "2b54a14a7b50407a5e462ac2f376022cce263e2c",
+				"tarball": "https://registry.npmjs.org/remark-slug/-/remark-slug-6.0.0.tgz",
+				"fileCount": 4,
+				"unpackedSize": 8214,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeeGrgCRA9TVsSAnZWagAADBkP/0BydsKiGFY7ECG784c1\nk2ch8b6We3ca9dynlY2j/w2H8huTA/qexMcsIaijV2dukUtLW/MFMoqBe7DG\nFRFWsr1s8NuvAGl+MI30P3brL+yI6rNfI9cVm/LqHlvPf3KGX89jeBT895NT\nugs+Gs4kKaC+1qzStpD7wCeTwo+vCZFm1mz04bHoi+0Sq7tTnandPYIkGern\n0fgMxF7iWVoHUn7lbfPeChzzJPuUlHk9PuvU7yxuUOPoADamd03o59U0Rksb\nGQdvNxIosUjSd3kh3iMUtPXX3GWjDhF6ZLzYYmjFOeRfuSJCkhv91q/aJZG1\nqm0tmDVC6IX/Whmmy2+jA2jhdc1dkE0JsWEG+4+46e/52FFth3SKgOcirRJr\nocYC7b2NZl9CSXRkJQc9swc3tR4XHEut2asmBcpy9a2juJjJbKIjUO0y0L6b\nvp5ftAaUI5NosZo5Ev+TS93mH88khU5oLp29y43vM/If1jWLmHQeowNeYJO8\ne9WOpq4ym/LPdleL4yulgC3bDpKEB84a/yQwB5xAgyhOi0CcqUWAzTbOugpz\nXwenpq0I+xgrotdZZEDcMs4EtPO2ZP/gZLZbrRr6dLCAMwE8fENqtplNhN8R\n6oqrcQIASxc4/Nu71EG5Gx19804TXbGGtpeZryrf0uHAuPcfxNm8/1Bs9fRn\nEtQf\r\n=b5IT\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQCw7x7PyEgI924TA9bYKrtdoyrNTGevpN0SzP/WKEgZ5QIgIOrL1/o7DasJCicuk14dKQiSwI0RQ60Z71cOQHaaZm4="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"email": "johnotander@gmail.com",
+					"name": "johno"
+				},
+				{
+					"email": "tituswormer@gmail.com",
+					"name": "wooorm"
+				}
+			],
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/remark-slug_6.0.0_1584949984257_0.7745741041762613"
+			},
+			"_hasShrinkwrap": false
+		},
+		"6.1.0": {
+			"name": "remark-slug",
+			"version": "6.1.0",
+			"description": "remark plugin to add anchors to headings",
+			"license": "MIT",
+			"keywords": [
+				"unified",
+				"remark",
+				"remark-plugin",
+				"plugin",
+				"mdast",
+				"markdown",
+				"text",
+				"slug",
+				"id",
+				"github",
+				"npm"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/remarkjs/remark-slug.git"
+			},
+			"bugs": {
+				"url": "https://github.com/remarkjs/remark-slug/issues"
+			},
+			"funding": {
+				"type": "opencollective",
+				"url": "https://opencollective.com/unified"
+			},
+			"author": {
+				"name": "Titus Wormer",
+				"email": "tituswormer@gmail.com",
+				"url": "https://wooorm.com"
+			},
+			"contributors": [
+				{
+					"name": "Titus Wormer",
+					"email": "tituswormer@gmail.com",
+					"url": "https://wooorm.com"
+				},
+				{
+					"name": "Jayson Harshbarger",
+					"email": "hypercubed@gmail.com"
+				}
+			],
+			"types": "types/index.d.ts",
+			"dependencies": {
+				"github-slugger": "^1.0.0",
+				"mdast-util-to-string": "^1.0.0",
+				"unist-util-visit": "^2.0.0"
+			},
+			"devDependencies": {
+				"browserify": "^17.0.0",
+				"dtslint": "^4.0.0",
+				"nyc": "^15.0.0",
+				"prettier": "^2.0.0",
+				"remark": "^13.0.0",
+				"remark-cli": "^9.0.0",
+				"remark-preset-wooorm": "^8.0.0",
+				"tape": "^5.0.0",
+				"tinyify": "^3.0.0",
+				"unist-builder": "^2.0.0",
+				"unist-util-remove-position": "^3.0.0",
+				"xo": "^0.37.0"
+			},
+			"scripts": {
+				"format": "remark . -qfo && prettier . -w --loglevel warn && xo --fix",
+				"build-bundle": "browserify . -s remarkSlug > remark-slug.js",
+				"build-mangle": "browserify . -s remarkSlug -p tinyify > remark-slug.min.js",
+				"build": "npm run build-bundle && npm run build-mangle",
+				"test-api": "node test",
+				"test-coverage": "nyc --reporter lcov tape test.js",
+				"test-types": "dtslint types",
+				"test": "npm run format && npm run build && npm run test-coverage && npm run test-types"
+			},
+			"prettier": {
+				"tabWidth": 2,
+				"useTabs": false,
+				"singleQuote": true,
+				"bracketSpacing": false,
+				"semi": false,
+				"trailingComma": "none"
+			},
+			"xo": {
+				"prettier": true,
+				"esnext": false,
+				"ignores": [
+					"remark-slug.js",
+					"types/index.d.ts"
+				]
+			},
+			"remarkConfig": {
+				"plugins": [
+					"preset-wooorm"
+				]
+			},
+			"gitHead": "9a6f6ba6d2e01ffdad9f6b0b7e57d2fe4aa483b9",
+			"homepage": "https://github.com/remarkjs/remark-slug#readme",
+			"_id": "remark-slug@6.1.0",
+			"_nodeVersion": "16.2.0",
+			"_npmVersion": "7.18.1",
+			"dist": {
+				"integrity": "sha512-oGCxDF9deA8phWvxFuyr3oSJsdyUAxMFbA0mZ7Y1Sas+emILtO+e5WutF9564gDsEN4IXaQXm5pFo6MLH+YmwQ==",
+				"shasum": "0503268d5f0c4ecb1f33315c00465ccdd97923ce",
+				"tarball": "https://registry.npmjs.org/remark-slug/-/remark-slug-6.1.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 8800,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJg8/dLCRA9TVsSAnZWagAAKT4P/3S3Y0wi1yTyMv776EG5\nsxYuLsKYAZGAonBF3yxsnu7pvDz6G1Nmz3jfhgCqXyVHOwzwpOrOqD7H7nBw\niab10awaW8HL+mLJ8dCAxj8rent13TlW5XnvYnpi8z64jssIKTWKAvX3MSFg\nnQHXItQAK1DJIk+z04X0AODOi2tY2erNPx12NCskIU6My4HU/fnA0yzcyYM0\nBhvvbZXBZ9ZZzDGjsD1Y+7w9ch2v05DHF2WuABFFLEUWwfJcbdX9dl6sao1d\nm+ge4K280PHu7v86K1vrku+ymLl5nsqPQQGUwig2tgJzXwBDPij/I4R3jsO0\nykNqC2/RedJScggIT7hNovNHEM3/sOMUJp57mrNiPkDqhkN6ZLwNSGif8uTZ\n/7FuSvGLVcIHjPD25rh0IJDf7wInFYBEyFe/xJ6YfA3wrkYHE5xXJFhlZAVB\nxMdSkx2pxfmRRIEqUj4z5kfj24kYRgUVuZubumli6pdzWXVk7Q1pl+sn8gfy\nAMJnykeaoBA6e5oIUy3KfLCNNP2wSHUIJUukfHVi4oZkUamnEQWJfPet6Uzx\nKHIgyQkWlsNS+icG4A8QyxxSH3kocOdVeBAqA3X2sdqj5lo0l/OEOcr6sNqh\n8IWhpZQSTfcadZjTJWdtrVNMAttNP2ZxvGAfg4HDihFtdJqsvWZA/s3bQa29\nHt8x\r\n=hHvG\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCICQjC9GIbH984avg95u9JEc1Agr0zyyScqNwNrI6D0LJAiAT1aeJ2AU4e/m0t7qEQe6QsErJxxmm6dUcCjdxCZnldg=="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "johno",
+					"email": "johnotander@gmail.com"
+				},
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/remark-slug_6.1.0_1626601291118_0.262801736701324"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.0": {
+			"name": "remark-slug",
+			"version": "7.0.0",
+			"description": "remark plugin to add anchors to headings",
+			"license": "MIT",
+			"keywords": [
+				"unified",
+				"remark",
+				"remark-plugin",
+				"plugin",
+				"mdast",
+				"markdown",
+				"text",
+				"slug",
+				"id",
+				"github",
+				"npm"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/remarkjs/remark-slug.git"
+			},
+			"bugs": {
+				"url": "https://github.com/remarkjs/remark-slug/issues"
+			},
+			"funding": {
+				"type": "opencollective",
+				"url": "https://opencollective.com/unified"
+			},
+			"author": {
+				"name": "Titus Wormer",
+				"email": "tituswormer@gmail.com",
+				"url": "https://wooorm.com"
+			},
+			"contributors": [
+				{
+					"name": "Titus Wormer",
+					"email": "tituswormer@gmail.com",
+					"url": "https://wooorm.com"
+				},
+				{
+					"name": "Jayson Harshbarger",
+					"email": "hypercubed@gmail.com"
+				}
+			],
+			"sideEffects": false,
+			"type": "module",
+			"main": "index.js",
+			"types": "index.d.ts",
+			"dependencies": {
+				"@types/hast": "^2.3.2",
+				"@types/mdast": "^3.0.0",
+				"github-slugger": "^1.0.0",
+				"mdast-util-to-string": "^3.0.0",
+				"unified": "^10.0.0",
+				"unist-util-visit": "^4.0.0"
+			},
+			"devDependencies": {
+				"@types/github-slugger": "^1.3.0",
+				"@types/tape": "^4.0.0",
+				"c8": "^7.0.0",
+				"prettier": "^2.0.0",
+				"remark": "^14.0.0",
+				"remark-cli": "^10.0.0",
+				"remark-preset-wooorm": "^8.0.0",
+				"rimraf": "^3.0.0",
+				"tape": "^5.0.0",
+				"type-coverage": "^2.0.0",
+				"typescript": "^4.0.0",
+				"unist-builder": "^3.0.0",
+				"unist-util-remove-position": "^4.0.0",
+				"xo": "^0.43.0"
+			},
+			"scripts": {
+				"build": "rimraf \"*.d.ts\" && tsc && type-coverage",
+				"format": "remark . -qfo && prettier . -w --loglevel warn && xo --fix",
+				"test-api": "node --conditions development test.js",
+				"test-coverage": "c8 --check-coverage --branches 100 --functions 100 --lines 100 --statements 100 --reporter lcov npm run test-api",
+				"test": "npm run build && npm run format && npm run test-coverage"
+			},
+			"prettier": {
+				"tabWidth": 2,
+				"useTabs": false,
+				"singleQuote": true,
+				"bracketSpacing": false,
+				"semi": false,
+				"trailingComma": "none"
+			},
+			"xo": {
+				"prettier": true
+			},
+			"remarkConfig": {
+				"plugins": [
+					"preset-wooorm"
+				]
+			},
+			"typeCoverage": {
+				"atLeast": 100,
+				"detail": true,
+				"strict": true,
+				"ignoreCatch": true
+			},
+			"gitHead": "1bc77abf3535c34485715edf0774137dd9f36179",
+			"homepage": "https://github.com/remarkjs/remark-slug#readme",
+			"_id": "remark-slug@7.0.0",
+			"_nodeVersion": "16.6.1",
+			"_npmVersion": "7.20.3",
+			"dist": {
+				"integrity": "sha512-ZUb1t/o2TxhdHidOsN6DVq8zVO/RiX2zBz/zXnW9cY6U7lLxcAMCxVf5DIoPToIZCGpJIE/g/vUbghlPKaDXMg==",
+				"shasum": "b9db70defa5f4eead38741d1c36ae153595ce12d",
+				"tarball": "https://registry.npmjs.org/remark-slug/-/remark-slug-7.0.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 9569,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJhDV9fCRA9TVsSAnZWagAAhE4P/3UIhXsi9+Q3carIAL25\nl5pozhgAI34fkmJY80JW7Gx3fGJ4uGs6xAR2Av1JMZG84T7+E97gTngJF7Bo\n/SWjBw5a0QV2X9TlHsHUcoEgaTuAoj+llKuUMjX3vdy0mBfvqAo+oVX25fT1\nbnrJZ2GBbH1++hZaFXNqKJDDfEKwmAB4j122G1OhqVDCqq3RH4beVBVd6GqG\n9tXIJsNzvgqnMZW16/BaHnx/VtqaZqiNBNIn8x6D5bbWHX2iX+WU48gCn6Fo\nOpTb0NeKJPGwDoQQbXU6bfjzzFmnk5Zaa7MbuqLFwIfZHglaO9b6+uHGkh7x\n3X64SrqZuJKoGEMthwQJEpT3jHMKDwhXjlu++IELECPZ1lT2a+NtIKS/+flC\nAZZ7wqzqHYIO9xUI33cBNz7r1qKjIsC+VFxrvkapDrawMzipCsbmMWu9S166\ncx+4Qbte7z8URQRNRzzgrmOcF3NYdJYUMnobDfrTU35waAlAyRAWRO4MIAeE\n/WlVHaszt2JbOKUq+m1dL22nOpkuk1gUS2TKD9jpS68gj8PAsZQG5CKLJg+N\nz5BRdZT6MkMoEB2ZQnZRwwKyTPJytBQgSDqoceHl7kLM3vPlW6IYgjgBN4yE\nL+tKCac2lrARl7KdcpJhuDb/I0iupmy+M22Gd51SGbfMfe21tL9bsdr+kfQV\neS51\r\n=n0bO\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQC7vbQ/TVrh+GJxDYENa0HgfB4qtkgA87INfi0E9ev95gIhAKnTtWGYY+HoV0xdaasclAtnWxNDPgA/gTIlr4b97AR1"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "johno",
+					"email": "johnotander@gmail.com"
+				},
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/remark-slug_7.0.0_1628266335538_0.8233133450345413"
+			},
+			"_hasShrinkwrap": false
+		},
+		"7.0.1": {
+			"name": "remark-slug",
+			"version": "7.0.1",
+			"description": "Legacy remark plugin to add anchors to headings — please use `rehype-slug`",
+			"license": "MIT",
+			"keywords": [],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/remarkjs/remark-slug.git"
+			},
+			"bugs": {
+				"url": "https://github.com/remarkjs/remark-slug/issues"
+			},
+			"funding": {
+				"type": "opencollective",
+				"url": "https://opencollective.com/unified"
+			},
+			"author": {
+				"name": "Titus Wormer",
+				"email": "tituswormer@gmail.com",
+				"url": "https://wooorm.com"
+			},
+			"contributors": [
+				{
+					"name": "Titus Wormer",
+					"email": "tituswormer@gmail.com",
+					"url": "https://wooorm.com"
+				},
+				{
+					"name": "Jayson Harshbarger",
+					"email": "hypercubed@gmail.com"
+				}
+			],
+			"sideEffects": false,
+			"type": "module",
+			"main": "index.js",
+			"types": "index.d.ts",
+			"dependencies": {
+				"@types/hast": "^2.3.2",
+				"@types/mdast": "^3.0.0",
+				"github-slugger": "^1.0.0",
+				"mdast-util-to-string": "^3.0.0",
+				"unified": "^10.0.0",
+				"unist-util-visit": "^4.0.0"
+			},
+			"devDependencies": {
+				"@types/github-slugger": "^1.3.0",
+				"@types/tape": "^4.0.0",
+				"c8": "^7.0.0",
+				"prettier": "^2.0.0",
+				"remark": "^14.0.0",
+				"remark-cli": "^10.0.0",
+				"remark-preset-wooorm": "^9.0.0",
+				"rimraf": "^3.0.0",
+				"tape": "^5.0.0",
+				"type-coverage": "^2.0.0",
+				"typescript": "^4.0.0",
+				"unist-builder": "^3.0.0",
+				"unist-util-remove-position": "^4.0.0",
+				"xo": "^0.45.0"
+			},
+			"scripts": {
+				"build": "rimraf \"*.d.ts\" && tsc && type-coverage",
+				"format": "remark . -qfo && prettier . -w --loglevel warn && xo --fix",
+				"test-api": "node --conditions development test.js",
+				"test-coverage": "c8 --check-coverage --branches 100 --functions 100 --lines 100 --statements 100 --reporter lcov npm run test-api",
+				"test": "npm run build && npm run format && npm run test-coverage"
+			},
+			"prettier": {
+				"tabWidth": 2,
+				"useTabs": false,
+				"singleQuote": true,
+				"bracketSpacing": false,
+				"semi": false,
+				"trailingComma": "none"
+			},
+			"xo": {
+				"prettier": true
+			},
+			"remarkConfig": {
+				"plugins": [
+					"preset-wooorm"
+				]
+			},
+			"typeCoverage": {
+				"atLeast": 100,
+				"detail": true,
+				"strict": true,
+				"ignoreCatch": true
+			},
+			"gitHead": "570315c50d1929815d70ff1cccd7447871d462b7",
+			"homepage": "https://github.com/remarkjs/remark-slug#readme",
+			"_id": "remark-slug@7.0.1",
+			"_nodeVersion": "17.0.1",
+			"_npmVersion": "8.1.0",
+			"dist": {
+				"integrity": "sha512-NRvYePr69LdeCkEGwL4KYAmq7kdWG5rEavCXMzUR4qndLoXHJAOLSUmPY6Qm4NJfKix7/EmgObyVaYivONAFhg==",
+				"shasum": "9827ce6d6ee81ca82b79891b0e5931a8123ce63b",
+				"tarball": "https://registry.npmjs.org/remark-slug/-/remark-slug-7.0.1.tgz",
+				"fileCount": 5,
+				"unpackedSize": 5070,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJh25pICRA9TVsSAnZWagAAlqMP/02XAcY21Tqj3+kT+pHg\nz/L/AUk9HtCKv7dA6Ge/DdEjrSiv9YBcP09DEQSDZo9jvXssHW5oCQIVTjrV\nxA+sS2QRtLn1XeeSvaai4+Ydfbavyjgm2jDytKKueOwYZyxBPzCDG2a433Rg\npskv1OlRwaKVjfRBZlItNLVs93A0Klv6pguEplcruBdBGcSghJ0KYGXuC5B2\njmJMYi9GgrF44ZJQLjeF3zw5sAlgscQOupjdbD4GqdWcD+89mZJsEvN1wF2X\nmpfXgGqVf/3lnxm6ZsUPIgt53tkmr1xo3u1xPXu1eMzCS2mfI+ACfGPJzBnE\n+hbfMnKNiurpuPN1KR4HAkqwdcLv11j0sANLlI/dnDjvO9jLl8AGbK7HSs6Y\nvthR9uRicSBFCnTM9IFRa6iXDElFs3OCX2EbnFmJgPHzXV9MY3bP3/Q8zWRg\nQZ+ys2s3uuEPdb9ugqKoRiZpPTPGzT3VtYSJ8/dXWrbJWGXWFBQWPxyboVLr\n+L449pmQDLHN32y283bdkpejVDdopFzp7Zy+5bzZrWj3EppFnLO3K9HbF6Wz\nK2tk1R9BjT904Ww/ZkN6a9r2i2Yvud2boM5U4U3yi0A4KpEPISfb0qaDZGp5\nGuJEAQXr6PnlP11f3Q4jvGiAo8XjDyDdp9RgPIpUGlZsIEpzJ/j80CIljkYM\n6hLo\r\n=MrFt\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIE+bQbC5vMfrCK0UrtGH2wzEm265taxwyGpqqVAy7hvaAiBizMFiqI5Vg04A1tClZ/zd4cuKvB8HrHlCeq/rKw+FxA=="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "wooorm",
+				"email": "tituswormer@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "johno",
+					"email": "johnotander@gmail.com"
+				},
+				{
+					"name": "wooorm",
+					"email": "tituswormer@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/remark-slug_7.0.1_1635080419586_0.12338730788747987"
+			},
+			"_hasShrinkwrap": false
+		}
+	},
+	"time": {
+		"modified": "2022-06-26T11:03:45.037Z",
+		"created": "2015-12-24T16:37:59.562Z",
+		"3.0.0": "2015-12-24T16:37:59.562Z",
+		"3.0.1": "2015-12-26T16:31:39.403Z",
+		"3.0.2": "2016-01-23T10:43:49.834Z",
+		"4.0.0": "2016-01-23T12:24:16.159Z",
+		"4.1.0": "2016-02-14T11:36:05.740Z",
+		"4.1.1": "2016-06-13T13:39:26.728Z",
+		"4.2.0": "2016-06-18T10:58:36.400Z",
+		"4.2.1": "2016-08-21T19:19:06.101Z",
+		"4.2.2": "2016-08-24T21:19:06.700Z",
+		"4.2.3": "2017-06-17T12:43:46.827Z",
+		"5.0.0": "2017-12-10T12:39:04.963Z",
+		"5.1.0": "2018-08-13T16:20:42.354Z",
+		"5.1.1": "2018-11-22T09:47:40.427Z",
+		"5.1.2": "2019-06-16T07:06:00.061Z",
+		"6.0.0": "2020-03-23T07:53:04.351Z",
+		"6.1.0": "2021-07-18T09:41:31.252Z",
+		"7.0.0": "2021-08-06T16:12:15.708Z",
+		"7.0.1": "2021-10-24T13:00:19.716Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "7.0.1"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"3d36cbf7dab21a07af49589634368654\"",
+			"fetched": 1660840740739
+		}
+	},
+	"_distfiles": {
+		"remark-slug-3.0.0.tgz": {
+			"url": "https://registry.npmjs.org/remark-slug/-/remark-slug-3.0.0.tgz",
+			"sha": "9a1485464ee06a850395d0072f2cbb1f0752ede9",
+			"registry": "npmjs"
+		},
+		"remark-slug-3.0.1.tgz": {
+			"url": "https://registry.npmjs.org/remark-slug/-/remark-slug-3.0.1.tgz",
+			"sha": "05504fa4406becc27d954522f5dfa41f33734d93",
+			"registry": "npmjs"
+		},
+		"remark-slug-3.0.2.tgz": {
+			"url": "https://registry.npmjs.org/remark-slug/-/remark-slug-3.0.2.tgz",
+			"sha": "e51c5004336e4aea6ccf7cec46af85a1a689bed3",
+			"registry": "npmjs"
+		},
+		"remark-slug-4.0.0.tgz": {
+			"url": "https://registry.npmjs.org/remark-slug/-/remark-slug-4.0.0.tgz",
+			"sha": "7fa823df9ca5dfb885c0b640dff48eb9c9c9cfd9",
+			"registry": "npmjs"
+		},
+		"remark-slug-4.1.0.tgz": {
+			"url": "https://registry.npmjs.org/remark-slug/-/remark-slug-4.1.0.tgz",
+			"sha": "ba5ecceace51704097ce24c2ef63c2658dbe4414",
+			"registry": "npmjs"
+		},
+		"remark-slug-4.1.1.tgz": {
+			"url": "https://registry.npmjs.org/remark-slug/-/remark-slug-4.1.1.tgz",
+			"sha": "13114664d83b367e0d70305bba7d5046e428b94b",
+			"registry": "npmjs"
+		},
+		"remark-slug-4.2.0.tgz": {
+			"url": "https://registry.npmjs.org/remark-slug/-/remark-slug-4.2.0.tgz",
+			"sha": "c118797d0c6db2f543e85c5475df09772e27ce86",
+			"registry": "npmjs"
+		},
+		"remark-slug-4.2.1.tgz": {
+			"url": "https://registry.npmjs.org/remark-slug/-/remark-slug-4.2.1.tgz",
+			"sha": "e9ae7c124f97cdc68b8f4f92a463275d89fa2195",
+			"registry": "npmjs"
+		},
+		"remark-slug-4.2.2.tgz": {
+			"url": "https://registry.npmjs.org/remark-slug/-/remark-slug-4.2.2.tgz",
+			"sha": "3cfaa02e2e24d98405b296072f2ebbdfad279eb6",
+			"registry": "npmjs"
+		},
+		"remark-slug-4.2.3.tgz": {
+			"url": "https://registry.npmjs.org/remark-slug/-/remark-slug-4.2.3.tgz",
+			"sha": "8d987d0e5e63d4a49ea37b90fe999a3dcfc81b72",
+			"registry": "npmjs"
+		},
+		"remark-slug-5.0.0.tgz": {
+			"url": "https://registry.npmjs.org/remark-slug/-/remark-slug-5.0.0.tgz",
+			"sha": "9de71fcdc2bfae33ebb4a41eb83035288a829980",
+			"registry": "npmjs"
+		},
+		"remark-slug-5.1.0.tgz": {
+			"url": "https://registry.npmjs.org/remark-slug/-/remark-slug-5.1.0.tgz",
+			"sha": "e55cd92d53395665e26b2994441394127d860abf",
+			"registry": "npmjs"
+		},
+		"remark-slug-5.1.1.tgz": {
+			"url": "https://registry.npmjs.org/remark-slug/-/remark-slug-5.1.1.tgz",
+			"sha": "eb5dba0cf779487ef7ddf65c735ba4d4ca017542",
+			"registry": "npmjs"
+		},
+		"remark-slug-5.1.2.tgz": {
+			"url": "https://registry.npmjs.org/remark-slug/-/remark-slug-5.1.2.tgz",
+			"sha": "715ecdef8df1226786204b1887d31ab16aa24609",
+			"registry": "npmjs"
+		},
+		"remark-slug-6.0.0.tgz": {
+			"url": "https://registry.npmjs.org/remark-slug/-/remark-slug-6.0.0.tgz",
+			"sha": "2b54a14a7b50407a5e462ac2f376022cce263e2c",
+			"registry": "npmjs"
+		},
+		"remark-slug-6.1.0.tgz": {
+			"url": "https://registry.npmjs.org/remark-slug/-/remark-slug-6.1.0.tgz",
+			"sha": "0503268d5f0c4ecb1f33315c00465ccdd97923ce",
+			"registry": "npmjs"
+		},
+		"remark-slug-7.0.0.tgz": {
+			"url": "https://registry.npmjs.org/remark-slug/-/remark-slug-7.0.0.tgz",
+			"sha": "b9db70defa5f4eead38741d1c36ae153595ce12d",
+			"registry": "npmjs"
+		},
+		"remark-slug-7.0.1.tgz": {
+			"url": "https://registry.npmjs.org/remark-slug/-/remark-slug-7.0.1.tgz",
+			"sha": "9827ce6d6ee81ca82b79891b0e5931a8123ce63b",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_rev": "3-054ab24cdaf7f86b",
+	"_id": "remark-slug",
+	"readme": "# remark-slug\n\n**Stability: Legacy**.\nThis package is no longer recommended for use.\nIt’s still covered by semantic-versioning guarantees and not yet deprecated,\nbut use of this package should be avoided.\nPlease use `remark-rehype` to move from remark (markdown) to rehype (HTML)\nand then replace `remark-slug` with\n[`rehype-slug`](https://github.com/rehypejs/rehype-slug/blob/main/readme.md).\n\nLegacy\n[documentation for this package](https://github.com/remarkjs/remark-slug/tree/8e6394c)\nis still available in Git.\n\n## License\n\n[MIT][license] © [Titus Wormer][author]\n\n<!-- Definitions -->\n\n[license]: license\n\n[author]: https://wooorm.com"
+}

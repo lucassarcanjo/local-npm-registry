@@ -1,0 +1,2091 @@
+{
+	"name": "detect-port",
+	"versions": {
+		"0.1.0": {
+			"name": "detect-port",
+			"version": "0.1.0",
+			"description": "detect free port",
+			"keywords": [
+				"detect",
+				"port",
+				"detect-port"
+			],
+			"bin": {
+				"detect": "./bin/detect-port",
+				"detect-port": "./bin/detect-port"
+			},
+			"main": "index.js",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/xudafeng/detect-port.git"
+			},
+			"dependencies": {
+				"co": "3",
+				"commander": "~2.0.0"
+			},
+			"devDependencies": {
+				"mocha": "2.2.4",
+				"co-mocha": "*",
+				"istanbul": "*",
+				"should": "~4.0.4",
+				"jshint": "*"
+			},
+			"scripts": {
+				"test": "make test",
+				"jshint": "make jshint"
+			},
+			"precommit": [
+				"jshint"
+			],
+			"engines": {
+				"node": ">= 10.0.x"
+			},
+			"author": {
+				"name": "xudafeng"
+			},
+			"homepage": "https://github.com/xudafeng/detect-port",
+			"email": "xudafeng@126.com",
+			"blog": "http://xdf.me",
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/xudafeng/detect-port/issues"
+			},
+			"_id": "detect-port@0.1.0",
+			"_shasum": "a71c7d872656a95b8faa744fd2556423a46b7474",
+			"_from": ".",
+			"_npmVersion": "2.7.0",
+			"_nodeVersion": "1.5.0",
+			"_npmUser": {
+				"name": "xudafeng",
+				"email": "xudafeng@126.com"
+			},
+			"maintainers": [
+				{
+					"name": "xudafeng",
+					"email": "xudafeng@126.com"
+				}
+			],
+			"dist": {
+				"shasum": "a71c7d872656a95b8faa744fd2556423a46b7474",
+				"tarball": "https://registry.npmjs.org/detect-port/-/detect-port-0.1.0.tgz",
+				"integrity": "sha512-tYveFIs+9veHek2NICidFi0SJeoVOwj1cl4ACWOZWopkC0qI5lnvGTx4DjTQl0V3jm0vJBIwlrsozLP58GUTiQ==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIDPGr9BGIKrCUKocMSY5kbR90HhkLUya106Wjrf8VAHTAiAMwFFR46bFevdhZQSqfxa+B/QwoxCvRdVUYREcLE9j+w=="
+					}
+				]
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"0.1.1": {
+			"name": "detect-port",
+			"version": "0.1.1",
+			"description": "port detector",
+			"keywords": [
+				"detect",
+				"port",
+				"detect-port"
+			],
+			"bin": {
+				"detect": "./bin/detect-port",
+				"detect-port": "./bin/detect-port"
+			},
+			"main": "index.js",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/xudafeng/detect-port.git"
+			},
+			"dependencies": {
+				"commander": "~2.8.1"
+			},
+			"devDependencies": {
+				"mocha": "2.2.4",
+				"co-mocha": "*",
+				"istanbul": "*",
+				"should": "~6.0.3",
+				"jshint": "*"
+			},
+			"scripts": {
+				"test": "make test",
+				"jshint": "make jshint"
+			},
+			"precommit": [
+				"jshint"
+			],
+			"engines": {
+				"node": ">= 11.14.x"
+			},
+			"author": {
+				"name": "xudafeng"
+			},
+			"homepage": "https://github.com/xudafeng/detect-port",
+			"email": "xudafeng@126.com",
+			"blog": "http://xdf.me",
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/xudafeng/detect-port/issues"
+			},
+			"_id": "detect-port@0.1.1",
+			"dist": {
+				"shasum": "1da9583eaf54b71af4b5b2b95a184d1dfa64dab0",
+				"tarball": "https://registry.npmjs.org/detect-port/-/detect-port-0.1.1.tgz",
+				"integrity": "sha512-1pk2CeKYz1z/xxTGmXNZi6xtKt3SiflMcA5Kt+qpLSsL641b0S9+J3o4ZgXhX4dLx1WiX9jeYTuHiHnemCwqiA==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDPU07Xg36FCPPoJwtY5dq/EiDzb31ZOJ2hZKdO8geNvQIhANmV7k7ZyuZCw5BwQL9AfLKhabHBS6jvbeMGRjg29Ur2"
+					}
+				]
+			},
+			"_from": ".",
+			"_npmVersion": "1.4.3",
+			"_npmUser": {
+				"name": "xudafeng",
+				"email": "xudafeng@126.com"
+			},
+			"maintainers": [
+				{
+					"name": "xudafeng",
+					"email": "xudafeng@126.com"
+				}
+			],
+			"directories": {},
+			"contributors": []
+		},
+		"0.1.2": {
+			"name": "detect-port",
+			"version": "0.1.2",
+			"description": "port detector",
+			"keywords": [
+				"detect",
+				"port",
+				"detect-port"
+			],
+			"bin": {
+				"detect": "./bin/detect-port",
+				"detect-port": "./bin/detect-port"
+			},
+			"main": "index.js",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/xudafeng/detect-port.git"
+			},
+			"dependencies": {
+				"commander": "~2.8.1"
+			},
+			"devDependencies": {
+				"mocha": "2.2.4",
+				"co-mocha": "*",
+				"istanbul": "*",
+				"should": "~6.0.3",
+				"jshint": "*"
+			},
+			"scripts": {
+				"test": "make test",
+				"jshint": "make jshint"
+			},
+			"precommit": [
+				"jshint"
+			],
+			"engines": {
+				"node": ">= 11.14.x"
+			},
+			"author": {
+				"name": "xudafeng"
+			},
+			"homepage": "https://github.com/xudafeng/detect-port",
+			"email": "xudafeng@126.com",
+			"blog": "http://xdf.me",
+			"license": "MIT",
+			"gitHead": "7b49bab9e81a29e68fe92a38103d9f9cbf4a0812",
+			"bugs": {
+				"url": "https://github.com/xudafeng/detect-port/issues"
+			},
+			"_id": "detect-port@0.1.2",
+			"_shasum": "98a6d3798f9ec6be12a79aee80886a9ac0ce4b83",
+			"_from": ".",
+			"_npmVersion": "2.7.0",
+			"_nodeVersion": "1.5.0",
+			"_npmUser": {
+				"name": "xudafeng",
+				"email": "xudafeng@126.com"
+			},
+			"maintainers": [
+				{
+					"name": "xudafeng",
+					"email": "xudafeng@126.com"
+				}
+			],
+			"dist": {
+				"shasum": "98a6d3798f9ec6be12a79aee80886a9ac0ce4b83",
+				"tarball": "https://registry.npmjs.org/detect-port/-/detect-port-0.1.2.tgz",
+				"integrity": "sha512-nJv2bzUixAWUhKNAX2AWQKldsYwWi++EMReffKkN9MV6YL8kwjHnU/0unmWNuxTpu0pEyg0eyckMMhegaJkhrw==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQC717o93F4Jmbp0fk3Kwc6MOJxfp4hcIvh4DY8TFJb8LgIhAKoNtL8Qz8dyjKQ9v0CJqBc5elmceUdP7wrYy15lkcci"
+					}
+				]
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"0.1.3": {
+			"name": "detect-port",
+			"version": "0.1.3",
+			"description": "port detector",
+			"keywords": [
+				"detect",
+				"port",
+				"detect-port"
+			],
+			"bin": {
+				"detect": "./bin/detect-port",
+				"detect-port": "./bin/detect-port"
+			},
+			"main": "index.js",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/xudafeng/detect-port.git"
+			},
+			"dependencies": {
+				"commander": "~2.8.1",
+				"ipv4": "0.0.4"
+			},
+			"devDependencies": {
+				"mocha": "2.2.4",
+				"co-mocha": "*",
+				"istanbul": "*",
+				"should": "~6.0.3",
+				"jshint": "*"
+			},
+			"scripts": {
+				"test": "make test",
+				"jshint": "make jshint"
+			},
+			"precommit": [
+				"jshint"
+			],
+			"engines": {
+				"node": ">= 11.14.x"
+			},
+			"author": {
+				"name": "xudafeng"
+			},
+			"homepage": "https://github.com/xudafeng/detect-port",
+			"email": "xudafeng@126.com",
+			"blog": "http://xdf.me",
+			"license": "MIT",
+			"gitHead": "34f02ca96c27b7586fdba94dbabec722b0594435",
+			"bugs": {
+				"url": "https://github.com/xudafeng/detect-port/issues"
+			},
+			"_id": "detect-port@0.1.3",
+			"_shasum": "604f83608f40071e106eddf0e9be5d7436b50ce4",
+			"_from": ".",
+			"_npmVersion": "2.7.0",
+			"_nodeVersion": "1.5.0",
+			"_npmUser": {
+				"name": "xudafeng",
+				"email": "xudafeng@126.com"
+			},
+			"maintainers": [
+				{
+					"name": "xudafeng",
+					"email": "xudafeng@126.com"
+				}
+			],
+			"dist": {
+				"shasum": "604f83608f40071e106eddf0e9be5d7436b50ce4",
+				"tarball": "https://registry.npmjs.org/detect-port/-/detect-port-0.1.3.tgz",
+				"integrity": "sha512-4DFyW/Hj0IvKuDaXVA9bAElU4HZacbT01fm94ES3/A9VG1fEtX8mefAlCz0ZKebil53ZoSY6hHNQ30bkG/FNeg==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIFKfhJp+GlBQeE04vYhOJt30F5FD9lKupBRsOhloHk32AiAAu0wrQdT+sIKDSwELEKvxr3tYXFX8ukiHuhwBy73DkA=="
+					}
+				]
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"0.1.4": {
+			"name": "detect-port",
+			"version": "0.1.4",
+			"description": "port detector",
+			"keywords": [
+				"detect",
+				"port",
+				"detect-port"
+			],
+			"bin": {
+				"detect": "./bin/detect-port",
+				"detect-port": "./bin/detect-port"
+			},
+			"main": "index.js",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/xudafeng/detect-port.git"
+			},
+			"dependencies": {
+				"commander": "~2.8.1",
+				"ipv4": "0.0.4"
+			},
+			"devDependencies": {
+				"mocha": "2.2.4",
+				"co-mocha": "*",
+				"istanbul": "*",
+				"should": "~6.0.3",
+				"jshint": "*"
+			},
+			"scripts": {
+				"test": "make test",
+				"jshint": "make jshint"
+			},
+			"precommit": [
+				"jshint"
+			],
+			"engines": {
+				"node": ">= 0.11.14"
+			},
+			"author": {
+				"name": "xudafeng"
+			},
+			"homepage": "https://github.com/xudafeng/detect-port",
+			"email": "xudafeng@126.com",
+			"blog": "http://xdf.me",
+			"license": "MIT",
+			"gitHead": "6317a844efe7c591f73bb415870b6c952a17107f",
+			"bugs": {
+				"url": "https://github.com/xudafeng/detect-port/issues"
+			},
+			"_id": "detect-port@0.1.4",
+			"_shasum": "0793cd42225879d7cc7f294ae2a63f50cc2f4cbd",
+			"_from": ".",
+			"_npmVersion": "2.7.0",
+			"_nodeVersion": "1.5.1",
+			"_npmUser": {
+				"name": "ziczhu",
+				"email": "zic.zhu@gmail.com"
+			},
+			"dist": {
+				"shasum": "0793cd42225879d7cc7f294ae2a63f50cc2f4cbd",
+				"tarball": "https://registry.npmjs.org/detect-port/-/detect-port-0.1.4.tgz",
+				"integrity": "sha512-NlBeHyjDgcb+XxscQ/dnCgn+nKy5D/kgn+MD1qSNPu++E6+9VmLLops5Gs7lKdkG6pcTFUjg2RitR6ldSibMiQ==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEMCHzYU2yoaovc9Gwcqe0pAEBWltYXVfdWeibjoVNLa0aQCIG9BdlM087sWPOHXrgV3txBfYfgCIOItfWV8V3PYD8gX"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "xudafeng",
+					"email": "xudafeng@126.com"
+				},
+				{
+					"name": "ziczhu",
+					"email": "zic.zhu@gmail.com"
+				}
+			],
+			"directories": {},
+			"contributors": []
+		},
+		"1.0.0": {
+			"name": "detect-port",
+			"version": "1.0.0",
+			"description": "port detector",
+			"keywords": [
+				"detect",
+				"port",
+				"detect-port"
+			],
+			"bin": {
+				"detect": "./bin/detect-port",
+				"detect-port": "./bin/detect-port"
+			},
+			"main": "index.js",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/xudafeng/detect-port.git"
+			},
+			"dependencies": {
+				"commander": "~2.8.1"
+			},
+			"devDependencies": {
+				"mocha": "2.2.4",
+				"co-mocha": "*",
+				"istanbul": "*",
+				"should": "~6.0.3",
+				"jshint": "*"
+			},
+			"scripts": {
+				"test": "make test",
+				"jshint": "make jshint"
+			},
+			"precommit": [
+				"jshint"
+			],
+			"engines": {
+				"node": ">= 0.11.14"
+			},
+			"author": {
+				"name": "xudafeng"
+			},
+			"homepage": "https://github.com/xudafeng/detect-port",
+			"email": "xudafeng@126.com",
+			"blog": "http://xdf.me",
+			"license": "MIT",
+			"gitHead": "e184c1bd234a3d0668b61811d55aa015bf6e66b5",
+			"bugs": {
+				"url": "https://github.com/xudafeng/detect-port/issues"
+			},
+			"_id": "detect-port@1.0.0",
+			"_shasum": "10d0e0bf0179862c553187273f7a3b45e7a90607",
+			"_from": ".",
+			"_npmVersion": "2.14.7",
+			"_nodeVersion": "4.2.2",
+			"_npmUser": {
+				"name": "xudafeng",
+				"email": "xudafeng@126.com"
+			},
+			"dist": {
+				"shasum": "10d0e0bf0179862c553187273f7a3b45e7a90607",
+				"tarball": "https://registry.npmjs.org/detect-port/-/detect-port-1.0.0.tgz",
+				"integrity": "sha512-7xQwyEmCYBxQOVG4d+KMdF6SJjXiHFX78ZOAawlyq3cZrQDT4bffMihdJSAVX2OsAZn/asWALrhlpCxuhHnpvg==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQCCEgVz2l2dS9xdJeFOnf/IwD95QnDaSH2cqM4CYthK8AIgIGPlLH4G5f8TesAeAzwsRcw9tUlPPHkBTmlZipYlnUE="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "xudafeng",
+					"email": "xudafeng@126.com"
+				},
+				{
+					"name": "ziczhu",
+					"email": "zic.zhu@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/detect-port-1.0.0.tgz_1470064643230_0.24010386620648205"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.0.1": {
+			"name": "detect-port",
+			"version": "1.0.1",
+			"description": "port detector",
+			"keywords": [
+				"detect",
+				"port",
+				"detect-port"
+			],
+			"bin": {
+				"detect": "./bin/detect-port",
+				"detect-port": "./bin/detect-port"
+			},
+			"main": "index.js",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/xudafeng/detect-port.git"
+			},
+			"dependencies": {
+				"commander": "~2.8.1"
+			},
+			"devDependencies": {
+				"mocha": "2.2.4",
+				"co-mocha": "*",
+				"istanbul": "*",
+				"should": "~6.0.3",
+				"jshint": "*"
+			},
+			"scripts": {
+				"test": "make test",
+				"jshint": "make jshint"
+			},
+			"precommit": [
+				"jshint"
+			],
+			"engines": {
+				"node": ">= 0.11.14"
+			},
+			"author": {
+				"name": "xudafeng"
+			},
+			"homepage": "https://github.com/xudafeng/detect-port",
+			"email": "xudafeng@126.com",
+			"blog": "http://xdf.me",
+			"license": "MIT",
+			"gitHead": "fad1c52fc04cd892f0cecf6f61c54195a2176b3f",
+			"bugs": {
+				"url": "https://github.com/xudafeng/detect-port/issues"
+			},
+			"_id": "detect-port@1.0.1",
+			"_shasum": "3e1aa6a7ff6677bb60894b291172529d880c1e85",
+			"_from": ".",
+			"_npmVersion": "2.14.7",
+			"_nodeVersion": "4.2.2",
+			"_npmUser": {
+				"name": "xudafeng",
+				"email": "xudafeng@126.com"
+			},
+			"dist": {
+				"shasum": "3e1aa6a7ff6677bb60894b291172529d880c1e85",
+				"tarball": "https://registry.npmjs.org/detect-port/-/detect-port-1.0.1.tgz",
+				"integrity": "sha512-p7jsY+b5HKJW/eUE/mqH9xYNsk/Dnh2+9HOW2sXWm1MHtHBXlSHGw59YY5DlIZg2c3tuJoDmc1IIRvoQJ4FBFA==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCpVRHMKqjJcEZhP1kuog1RLLjAsCUDor+aeCY5h5bclQIhANla2KW4wWAXRDv9UKYG9rZx2FZzJ/SD96PtAtKz4Gsj"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "xudafeng",
+					"email": "xudafeng@126.com"
+				},
+				{
+					"name": "ziczhu",
+					"email": "zic.zhu@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-16-east.internal.npmjs.com",
+				"tmp": "tmp/detect-port-1.0.1.tgz_1474172006196_0.1975438583176583"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.0.2": {
+			"name": "detect-port",
+			"version": "1.0.2",
+			"description": "detect available port",
+			"keywords": [
+				"detect",
+				"port"
+			],
+			"bin": {
+				"detect": "./bin/detect-port",
+				"detect-port": "./bin/detect-port"
+			},
+			"main": "index.js",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/xudafeng/detect-port.git"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"co-mocha": "*",
+				"command-line-test": "^1.0.8",
+				"istanbul": "*",
+				"jshint": "*",
+				"mocha": "2.2.4",
+				"pre-commit": "^1.1.3",
+				"should": "~6.0.3"
+			},
+			"scripts": {
+				"test": "make test",
+				"jshint": "make jshint"
+			},
+			"precommit": [
+				"jshint"
+			],
+			"engines": {
+				"node": ">= 4.2.1"
+			},
+			"homepage": "https://github.com/xudafeng/detect-port",
+			"license": "MIT",
+			"gitHead": "06566033dadce2b86155da790bcfa8d9349a41ef",
+			"bugs": {
+				"url": "https://github.com/xudafeng/detect-port/issues"
+			},
+			"_id": "detect-port@1.0.2",
+			"_shasum": "c3643db58b411baa17868c789541a0031fb638f8",
+			"_from": ".",
+			"_npmVersion": "3.10.8",
+			"_nodeVersion": "6.9.1",
+			"_npmUser": {
+				"name": "xudafeng",
+				"email": "xudafeng@126.com"
+			},
+			"dist": {
+				"shasum": "c3643db58b411baa17868c789541a0031fb638f8",
+				"tarball": "https://registry.npmjs.org/detect-port/-/detect-port-1.0.2.tgz",
+				"integrity": "sha512-2Jza0eKNkQiXxNpWqEGaEK/FJhgOVdwj6YD0v6+KhiFi7bSQ76nag9Bwb6eyls6O4fy7eR3AjV4wsS46AN8uTQ==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCICD899AgaHDyP89XMXsF+8sGH9Cqr0+NelxjZzgXXtalAiEAznRcTxVHTfjLTXnr/feWlFJAITmvVbfEfXCQnbWpVE4="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "xudafeng",
+					"email": "xudafeng@126.com"
+				},
+				{
+					"name": "ziczhu",
+					"email": "zic.zhu@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/detect-port-1.0.2.tgz_1477756946058_0.8858134793117642"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.0.3": {
+			"name": "detect-port",
+			"version": "1.0.3",
+			"description": "detect available port",
+			"keywords": [
+				"detect",
+				"port"
+			],
+			"bin": {
+				"detect": "./bin/detect-port",
+				"detect-port": "./bin/detect-port"
+			},
+			"main": "index.js",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/xudafeng/detect-port.git"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"co-mocha": "*",
+				"command-line-test": "^1.0.8",
+				"istanbul": "*",
+				"jshint": "*",
+				"mocha": "2.2.4",
+				"pre-commit": "^1.1.3",
+				"should": "~6.0.3"
+			},
+			"scripts": {
+				"test": "make test",
+				"jshint": "make jshint"
+			},
+			"precommit": [
+				"jshint"
+			],
+			"engines": {
+				"node": ">= 4.2.1"
+			},
+			"homepage": "https://github.com/xudafeng/detect-port",
+			"license": "MIT",
+			"gitHead": "6c41df87068390da2f74926010cee21946b55c3c",
+			"bugs": {
+				"url": "https://github.com/xudafeng/detect-port/issues"
+			},
+			"_id": "detect-port@1.0.3",
+			"_shasum": "334189651b1c3e18f47391a93ced6c44666efae6",
+			"_from": ".",
+			"_npmVersion": "3.10.8",
+			"_nodeVersion": "6.9.1",
+			"_npmUser": {
+				"name": "xudafeng",
+				"email": "xudafeng@126.com"
+			},
+			"dist": {
+				"shasum": "334189651b1c3e18f47391a93ced6c44666efae6",
+				"tarball": "https://registry.npmjs.org/detect-port/-/detect-port-1.0.3.tgz",
+				"integrity": "sha512-zhnxxYTqvgaCAGjOF6Z76v1AuaawQDAHL+3ebClC00XRFefiQvuNHrRrHsC/+hYghaNwWZQqEVClbixH9/MKFw==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIFRQbcTW5XdkXjBBHHn1HLFtPt9xB7qGQrYJRI8Rr8VDAiEAhBsjrJYbH9JCG9Ia7eHWJyJxu5zi16dVpbc7ZexYAmA="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "xudafeng",
+					"email": "xudafeng@126.com"
+				},
+				{
+					"name": "ziczhu",
+					"email": "zic.zhu@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/detect-port-1.0.3.tgz_1477791821568_0.6120992531068623"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.0.4": {
+			"name": "detect-port",
+			"version": "1.0.4",
+			"description": "detect available port",
+			"keywords": [
+				"detect",
+				"port"
+			],
+			"bin": {
+				"detect": "./bin/detect-port",
+				"detect-port": "./bin/detect-port"
+			},
+			"main": "index.js",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/xudafeng/detect-port.git"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"co-mocha": "*",
+				"command-line-test": "^1.0.8",
+				"istanbul": "*",
+				"jshint": "*",
+				"mocha": "2.2.4",
+				"pre-commit": "^1.1.3",
+				"should": "~6.0.3"
+			},
+			"scripts": {
+				"test": "make test",
+				"jshint": "make jshint"
+			},
+			"precommit": [
+				"jshint"
+			],
+			"engines": {
+				"node": ">= 4.2.1"
+			},
+			"homepage": "https://github.com/xudafeng/detect-port",
+			"license": "MIT",
+			"gitHead": "6c41df87068390da2f74926010cee21946b55c3c",
+			"bugs": {
+				"url": "https://github.com/xudafeng/detect-port/issues"
+			},
+			"_id": "detect-port@1.0.4",
+			"_shasum": "d1e9325039fe903243d2abb9d4bceebea313c9a7",
+			"_from": ".",
+			"_npmVersion": "3.10.8",
+			"_nodeVersion": "6.9.1",
+			"_npmUser": {
+				"name": "xudafeng",
+				"email": "xudafeng@126.com"
+			},
+			"dist": {
+				"shasum": "d1e9325039fe903243d2abb9d4bceebea313c9a7",
+				"tarball": "https://registry.npmjs.org/detect-port/-/detect-port-1.0.4.tgz",
+				"integrity": "sha512-jDGPQcO9VMqoti4GcUmh0qw7tcpbqOABR4YLj+C7FsQ4H9rGwFWbh6rK7Dytt4xRaWtEC6g89HW1XZPf8n70xw==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCF3lJQGzthde2IJwx6v0FykRmPZsh5INGbV5AUBddrhwIhAKXJCLKMkzZkJxueQsQ0EOTwUv2qjVmqzT86q35sMQOr"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "xudafeng",
+					"email": "xudafeng@126.com"
+				},
+				{
+					"name": "ziczhu",
+					"email": "zic.zhu@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/detect-port-1.0.4.tgz_1477791978399_0.7262728952337056"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.0.5": {
+			"name": "detect-port",
+			"version": "1.0.5",
+			"description": "detect available port",
+			"keywords": [
+				"detect",
+				"port"
+			],
+			"bin": {
+				"detect": "./bin/detect-port",
+				"detect-port": "./bin/detect-port"
+			},
+			"main": "index.js",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/xudafeng/detect-port.git"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"co-mocha": "*",
+				"command-line-test": "^1.0.8",
+				"istanbul": "*",
+				"jshint": "*",
+				"mocha": "2.2.4",
+				"pre-commit": "^1.1.3",
+				"should": "~6.0.3",
+				"startserver": "^1.3.1"
+			},
+			"scripts": {
+				"test": "make test",
+				"jshint": "make jshint"
+			},
+			"precommit": [
+				"jshint"
+			],
+			"engines": {
+				"node": ">= 4.2.1"
+			},
+			"homepage": "https://github.com/xudafeng/detect-port",
+			"license": "MIT",
+			"gitHead": "2dc180b6f0e9065d48704b52e8ec94f14f3807ed",
+			"bugs": {
+				"url": "https://github.com/xudafeng/detect-port/issues"
+			},
+			"_id": "detect-port@1.0.5",
+			"_shasum": "d6a2e2f623ce0523e67d293820194288d8c0da15",
+			"_from": ".",
+			"_npmVersion": "3.10.8",
+			"_nodeVersion": "6.9.1",
+			"_npmUser": {
+				"name": "xudafeng",
+				"email": "xudafeng@126.com"
+			},
+			"dist": {
+				"shasum": "d6a2e2f623ce0523e67d293820194288d8c0da15",
+				"tarball": "https://registry.npmjs.org/detect-port/-/detect-port-1.0.5.tgz",
+				"integrity": "sha512-1mlIXfwfud7DtGhjir8lKD/88928EQ2w3uNea2owObFP+CYKgvUgnMXM0Pr7RoOSMkey1aga88cBapAu/2TdWw==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQCnktcyIz8J/zVEqOQ0Bptc6eegmZoY2JuJcO9MtNi9pAIgMQG/wmedw9AV91wOPtZw9hcEPaJk801mE+nNPEwPajI="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "xudafeng",
+					"email": "xudafeng@126.com"
+				},
+				{
+					"name": "ziczhu",
+					"email": "zic.zhu@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/detect-port-1.0.5.tgz_1477875318580_0.7976049536373466"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.0.6": {
+			"name": "detect-port",
+			"version": "1.0.6",
+			"description": "detect available port",
+			"keywords": [
+				"detect",
+				"port"
+			],
+			"bin": {
+				"detect": "./bin/detect-port",
+				"detect-port": "./bin/detect-port"
+			},
+			"main": "index.js",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/node-modules/detect-port.git"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"co-mocha": "*",
+				"command-line-test": "^1.0.8",
+				"istanbul": "*",
+				"jshint": "*",
+				"mocha": "2.2.4",
+				"pre-commit": "^1.1.3",
+				"should": "~6.0.3"
+			},
+			"scripts": {
+				"test": "make test",
+				"jshint": "make jshint"
+			},
+			"precommit": [
+				"jshint"
+			],
+			"engines": {
+				"node": ">= 4.2.1"
+			},
+			"homepage": "https://github.com/node-modules/detect-port",
+			"license": "MIT",
+			"gitHead": "36833e806cbdbc72b71c5d17fcc202f8661eccd6",
+			"bugs": {
+				"url": "https://github.com/node-modules/detect-port/issues"
+			},
+			"_id": "detect-port@1.0.6",
+			"_shasum": "44b57a9be268ee235d441395b4619b78a41545ef",
+			"_from": ".",
+			"_npmVersion": "3.10.8",
+			"_nodeVersion": "6.9.1",
+			"_npmUser": {
+				"name": "xudafeng",
+				"email": "xudafeng@126.com"
+			},
+			"dist": {
+				"shasum": "44b57a9be268ee235d441395b4619b78a41545ef",
+				"tarball": "https://registry.npmjs.org/detect-port/-/detect-port-1.0.6.tgz",
+				"integrity": "sha512-ww100q/P5UVish5dO+RyEkFIo01+eomNJcdXfma8Gdh4hRq7tFLE6mxo7aKL+IxbAsAxRwlkuX4OFBlOx2RtCw==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCqaqDVxeAmZdr8wihEPhP0LgNziamVdn5BeOvd8MEJtwIhAJ4S4EY8MIRGBl8qso7jTxRWhcX2nlcJaZKG/iDZFmIJ"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "xudafeng",
+					"email": "xudafeng@126.com"
+				},
+				{
+					"name": "ziczhu",
+					"email": "zic.zhu@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/detect-port-1.0.6.tgz_1480422485797_0.8756497125141323"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.0.7": {
+			"name": "detect-port",
+			"version": "1.0.7",
+			"description": "detect available port",
+			"keywords": [
+				"detect",
+				"port"
+			],
+			"bin": {
+				"detect": "./bin/detect-port",
+				"detect-port": "./bin/detect-port"
+			},
+			"main": "index.js",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/node-modules/detect-port.git"
+			},
+			"dependencies": {},
+			"devDependencies": {
+				"co-mocha": "*",
+				"command-line-test": "^1.0.8",
+				"istanbul": "*",
+				"jshint": "*",
+				"mocha": "2.2.4",
+				"pre-commit": "^1.1.3",
+				"should": "~6.0.3"
+			},
+			"scripts": {
+				"test": "make test",
+				"jshint": "make jshint"
+			},
+			"precommit": [
+				"jshint"
+			],
+			"engines": {
+				"node": ">= 4.2.1"
+			},
+			"homepage": "https://github.com/node-modules/detect-port",
+			"license": "MIT",
+			"gitHead": "356370276383fc74acf49dcf8891ea26ca692640",
+			"bugs": {
+				"url": "https://github.com/node-modules/detect-port/issues"
+			},
+			"_id": "detect-port@1.0.7",
+			"_shasum": "f8cddc7b996fb8f8019a5ab50c4b5f3a9b51b046",
+			"_from": ".",
+			"_npmVersion": "3.10.8",
+			"_nodeVersion": "6.9.1",
+			"_npmUser": {
+				"name": "xudafeng",
+				"email": "xudafeng@126.com"
+			},
+			"dist": {
+				"shasum": "f8cddc7b996fb8f8019a5ab50c4b5f3a9b51b046",
+				"tarball": "https://registry.npmjs.org/detect-port/-/detect-port-1.0.7.tgz",
+				"integrity": "sha512-fdLu/pEShS1naT152KDEUfhnXHOpTdAkdXzYOTl7beNJ6lNp4sfJctbomoxszOXHJtddq9BOhNjEXj/aewW0BA==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQCJvZHPOzqjNT1s41auGHqL4K+OCYTp/NGQLmmQJowRQQIga2OfzPXbmvlEbj1OWAg079/kAlzFVINFnWsfWiZfBQA="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "fengmk2",
+					"email": "fengmk2@gmail.com"
+				},
+				{
+					"name": "xudafeng",
+					"email": "xudafeng@126.com"
+				},
+				{
+					"name": "ziczhu",
+					"email": "zic.zhu@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/detect-port-1.0.7.tgz_1481424915986_0.0065647761803120375"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.1.0": {
+			"name": "detect-port",
+			"version": "1.1.0",
+			"description": "detect available port",
+			"keywords": [
+				"detect",
+				"port"
+			],
+			"bin": {
+				"detect": "./bin/detect-port",
+				"detect-port": "./bin/detect-port"
+			},
+			"main": "index.js",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/node-modules/detect-port.git"
+			},
+			"dependencies": {
+				"debug": "^2.6.0"
+			},
+			"devDependencies": {
+				"command-line-test": "^1.0.8",
+				"egg-bin": "^2.0.0",
+				"egg-ci": "^1.1.0",
+				"eslint": "^3.13.1",
+				"eslint-config-egg": "^3.1.0"
+			},
+			"scripts": {
+				"test": "egg-bin test",
+				"ci": "npm run lint && egg-bin cov",
+				"lint": "eslint ."
+			},
+			"engines": {
+				"node": ">= 4.2.1"
+			},
+			"ci": {
+				"version": "4, 6, 7"
+			},
+			"homepage": "https://github.com/node-modules/detect-port",
+			"license": "MIT",
+			"gitHead": "0984b32aed6377e60d37b2bec24fce7afe4df599",
+			"bugs": {
+				"url": "https://github.com/node-modules/detect-port/issues"
+			},
+			"_id": "detect-port@1.1.0",
+			"_shasum": "fde7574591ea3de74445782643c3f921b2a4618c",
+			"_from": ".",
+			"_npmVersion": "3.10.8",
+			"_nodeVersion": "6.9.1",
+			"_npmUser": {
+				"name": "xudafeng",
+				"email": "xudafeng@126.com"
+			},
+			"dist": {
+				"shasum": "fde7574591ea3de74445782643c3f921b2a4618c",
+				"tarball": "https://registry.npmjs.org/detect-port/-/detect-port-1.1.0.tgz",
+				"integrity": "sha512-XACOLDHcfC1q4CuI9NBWCaxpkKDbZGdFsmYt+P1xzbE82+1YtPXlPrb8VYUROk4eG960zfPqzr6jzktX+cNQZA==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQD6xd4QmMD/oyXaWtspCoqoUY5zFCAugIyaI4WHV+PFyAIhAK3V/SAEGzv9Dl8HN2Y9tzUMOxqjY2j+VfL+16FsdPk1"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "fengmk2",
+					"email": "fengmk2@gmail.com"
+				},
+				{
+					"name": "xudafeng",
+					"email": "xudafeng@126.com"
+				},
+				{
+					"name": "ziczhu",
+					"email": "zic.zhu@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/detect-port-1.1.0.tgz_1484662416480_0.19777827593497932"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.1.1": {
+			"name": "detect-port",
+			"version": "1.1.1",
+			"description": "detect available port",
+			"keywords": [
+				"detect",
+				"port"
+			],
+			"bin": {
+				"detect": "./bin/detect-port",
+				"detect-port": "./bin/detect-port"
+			},
+			"main": "index.js",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/node-modules/detect-port.git"
+			},
+			"dependencies": {
+				"debug": "^2.6.0"
+			},
+			"devDependencies": {
+				"command-line-test": "^1.0.8",
+				"egg-bin": "^1.10.3",
+				"egg-ci": "^1.1.0",
+				"eslint": "^3.13.1",
+				"eslint-config-egg": "^3.1.0",
+				"pedding": "^1.1.0"
+			},
+			"scripts": {
+				"test": "egg-bin test",
+				"ci": "npm run lint && egg-bin cov",
+				"lint": "eslint ."
+			},
+			"engines": {
+				"node": ">= 4.2.1"
+			},
+			"ci": {
+				"version": "4, 6, 7"
+			},
+			"homepage": "https://github.com/node-modules/detect-port",
+			"license": "MIT",
+			"gitHead": "bd4593fd17ffb00a6d3b89b58cf17e57ca99141b",
+			"bugs": {
+				"url": "https://github.com/node-modules/detect-port/issues"
+			},
+			"_id": "detect-port@1.1.1",
+			"_shasum": "abb24845a0e0501d2a4313dfde93c2671f6ba998",
+			"_from": ".",
+			"_npmVersion": "4.1.2",
+			"_nodeVersion": "7.7.1",
+			"_npmUser": {
+				"name": "fengmk2",
+				"email": "fengmk2@gmail.com"
+			},
+			"dist": {
+				"shasum": "abb24845a0e0501d2a4313dfde93c2671f6ba998",
+				"tarball": "https://registry.npmjs.org/detect-port/-/detect-port-1.1.1.tgz",
+				"integrity": "sha512-VYsPmRKqR8+IAvPqCgilVRGqtg8svtTqHveZhn5rUCmW5yoeTu2knADMqHJ6UljAhU//+KZuyGWj5oVhOXzFFQ==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIBJcGESWPqAEzh5LqYggZwhjWHv3O+L0RAyp9UGDVw9aAiEA7j2B4sw9GtD2aTz+Fyi2WPnY3DzJM5y4tJ1fs1dwuWQ="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "fengmk2",
+					"email": "fengmk2@gmail.com"
+				},
+				{
+					"name": "xudafeng",
+					"email": "xudafeng@126.com"
+				},
+				{
+					"name": "ziczhu",
+					"email": "zic.zhu@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/detect-port-1.1.1.tgz_1489765661524_0.5871674160007387"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.1.2": {
+			"name": "detect-port",
+			"version": "1.1.2",
+			"description": "detect available port",
+			"keywords": [
+				"detect",
+				"port"
+			],
+			"bin": {
+				"detect": "./bin/detect-port",
+				"detect-port": "./bin/detect-port"
+			},
+			"main": "index.js",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/node-modules/detect-port.git"
+			},
+			"dependencies": {
+				"address": "^1.0.1",
+				"debug": "^2.6.0"
+			},
+			"devDependencies": {
+				"command-line-test": "^1.0.8",
+				"egg-bin": "^1.10.3",
+				"egg-ci": "^1.1.0",
+				"eslint": "^3.13.1",
+				"eslint-config-egg": "^3.1.0",
+				"pedding": "^1.1.0"
+			},
+			"scripts": {
+				"test": "egg-bin test",
+				"ci": "npm run lint && egg-bin cov",
+				"lint": "eslint ."
+			},
+			"engines": {
+				"node": ">= 4.2.1"
+			},
+			"ci": {
+				"version": "4, 6, 7"
+			},
+			"homepage": "https://github.com/node-modules/detect-port",
+			"license": "MIT",
+			"gitHead": "e99c992cfdc59a6861e9ba33b469e2a5c7d306e7",
+			"bugs": {
+				"url": "https://github.com/node-modules/detect-port/issues"
+			},
+			"_id": "detect-port@1.1.2",
+			"_shasum": "f7706366d37af0e3c3fe9c6b7b4d55b4a32d223b",
+			"_from": ".",
+			"_npmVersion": "4.2.0",
+			"_nodeVersion": "7.10.0",
+			"_npmUser": {
+				"name": "fengmk2",
+				"email": "fengmk2@gmail.com"
+			},
+			"dist": {
+				"shasum": "f7706366d37af0e3c3fe9c6b7b4d55b4a32d223b",
+				"tarball": "https://registry.npmjs.org/detect-port/-/detect-port-1.1.2.tgz",
+				"integrity": "sha512-Zsecga8oq3OAef7fmLEqjgoAppf7vAVNHa3SY6C9gikqCMsqb2DKSHI2Cp0St5LjMH767wN73aI/qdb1jDT/XA==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCnvLotRjSRE67SlWy7qWZm9G6z22yyN3urshGRGLmDhQIhAPjYXRZO1HV9FksbxWhHAvH0PMPXtyjB/2eR3pu2i80P"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "fengmk2",
+					"email": "fengmk2@gmail.com"
+				},
+				{
+					"name": "xudafeng",
+					"email": "xudafeng@126.com"
+				},
+				{
+					"name": "ziczhu",
+					"email": "zic.zhu@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/detect-port-1.1.2.tgz_1494474937400_0.23703347309492528"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.1.3": {
+			"name": "detect-port",
+			"version": "1.1.3",
+			"description": "detect available port",
+			"keywords": [
+				"detect",
+				"port"
+			],
+			"bin": {
+				"detect": "./bin/detect-port",
+				"detect-port": "./bin/detect-port"
+			},
+			"main": "index.js",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/node-modules/detect-port.git"
+			},
+			"dependencies": {
+				"address": "^1.0.1",
+				"debug": "^2.6.0"
+			},
+			"devDependencies": {
+				"command-line-test": "^1.0.8",
+				"egg-bin": "^1.10.3",
+				"egg-ci": "^1.1.0",
+				"eslint": "^3.13.1",
+				"eslint-config-egg": "^3.1.0",
+				"mm": "^2.1.0",
+				"pedding": "^1.1.0"
+			},
+			"scripts": {
+				"test": "egg-bin test",
+				"ci": "npm run lint && egg-bin cov",
+				"lint": "eslint ."
+			},
+			"engines": {
+				"node": ">= 4.2.1"
+			},
+			"ci": {
+				"version": "4, 6, 7"
+			},
+			"homepage": "https://github.com/node-modules/detect-port",
+			"license": "MIT",
+			"gitHead": "7e95af88c88223298d3b9cf7f9fd76007e38169a",
+			"bugs": {
+				"url": "https://github.com/node-modules/detect-port/issues"
+			},
+			"_id": "detect-port@1.1.3",
+			"_shasum": "5e639e9d61580d7c5be552431f21a2bc8a7a95d3",
+			"_from": ".",
+			"_npmVersion": "4.2.0",
+			"_nodeVersion": "7.10.0",
+			"_npmUser": {
+				"name": "fengmk2",
+				"email": "fengmk2@gmail.com"
+			},
+			"dist": {
+				"shasum": "5e639e9d61580d7c5be552431f21a2bc8a7a95d3",
+				"tarball": "https://registry.npmjs.org/detect-port/-/detect-port-1.1.3.tgz",
+				"integrity": "sha512-pT01Tpwo3CDAAethVYwEUktA0Dn+vw3xU0IzLHyVNJlE3gODI+YpT7kvYjXWEjZ39Vpw1WDu5iMX8cVvvGsWZw==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDtQBazi3l/gQM74bQzpPsOsXcTzVRuFDHKTn4QtvFPgwIhAKjbwzGgInCBrIL/+9idCoOou8G3Znuywcbqf7Q9pyve"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "fengmk2",
+					"email": "fengmk2@gmail.com"
+				},
+				{
+					"name": "xudafeng",
+					"email": "xudafeng@126.com"
+				},
+				{
+					"name": "ziczhu",
+					"email": "zic.zhu@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/detect-port-1.1.3.tgz_1495598514984_0.5063133237417787"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.1.4": {
+			"name": "detect-port",
+			"version": "1.1.4",
+			"description": "detect available port",
+			"keywords": [
+				"detect",
+				"port"
+			],
+			"bin": {
+				"detect": "./bin/detect-port",
+				"detect-port": "./bin/detect-port"
+			},
+			"main": "index.js",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/node-modules/detect-port.git"
+			},
+			"dependencies": {
+				"address": "^1.0.1",
+				"debug": "^2.6.0"
+			},
+			"devDependencies": {
+				"command-line-test": "^1.0.8",
+				"egg-bin": "^1.10.3",
+				"egg-ci": "^1.1.0",
+				"eslint": "^3.13.1",
+				"eslint-config-egg": "^3.1.0",
+				"mm": "^2.1.0",
+				"pedding": "^1.1.0"
+			},
+			"scripts": {
+				"test": "egg-bin test",
+				"ci": "npm run lint && egg-bin cov",
+				"lint": "eslint ."
+			},
+			"engines": {
+				"node": ">= 4.2.1"
+			},
+			"ci": {
+				"version": "4, 6, 7"
+			},
+			"homepage": "https://github.com/node-modules/detect-port",
+			"license": "MIT",
+			"gitHead": "dee99afcbd1cdf99079c84307cb25bd7fbd6461e",
+			"bugs": {
+				"url": "https://github.com/node-modules/detect-port/issues"
+			},
+			"_id": "detect-port@1.1.4",
+			"_shasum": "e361908f174a9e93b55aa99ac4f9411718575897",
+			"_from": ".",
+			"_npmVersion": "3.10.9",
+			"_nodeVersion": "7.2.0",
+			"_npmUser": {
+				"name": "xudafeng",
+				"email": "xudafeng@126.com"
+			},
+			"dist": {
+				"shasum": "e361908f174a9e93b55aa99ac4f9411718575897",
+				"tarball": "https://registry.npmjs.org/detect-port/-/detect-port-1.1.4.tgz",
+				"integrity": "sha512-goNUSIvZDaaValerhF64JQ6zd0R7gOKD4nY2zrxZkDOE4dD5f+indXqpbDkMIltLBkWsBpU4KXyGGLKcnp+v8A==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIGMwidGr6xPp1gDEEmLY8tMeQhtkLcid7jH3jpgFAVQPAiEA7hTWP6H1hCFKcz2x5V1lkMcTT1tnVevLzd/iGXHYgnU="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "fengmk2",
+					"email": "fengmk2@gmail.com"
+				},
+				{
+					"name": "xudafeng",
+					"email": "xudafeng@126.com"
+				},
+				{
+					"name": "ziczhu",
+					"email": "zic.zhu@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/detect-port-1.1.4.tgz_1496737623296_0.5705332029610872"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.2.0": {
+			"name": "detect-port",
+			"version": "1.2.0",
+			"description": "detect available port",
+			"keywords": [
+				"detect",
+				"port"
+			],
+			"bin": {
+				"detect": "./bin/detect-port",
+				"detect-port": "./bin/detect-port"
+			},
+			"main": "index.js",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/node-modules/detect-port.git"
+			},
+			"dependencies": {
+				"address": "^1.0.1",
+				"debug": "^2.6.0"
+			},
+			"devDependencies": {
+				"command-line-test": "^1.0.8",
+				"egg-bin": "^1.10.3",
+				"egg-ci": "^1.1.0",
+				"eslint": "^3.13.1",
+				"eslint-config-egg": "^3.1.0",
+				"mm": "^2.1.0",
+				"pedding": "^1.1.0"
+			},
+			"scripts": {
+				"test": "egg-bin test",
+				"ci": "npm run lint && egg-bin cov",
+				"lint": "eslint ."
+			},
+			"engines": {
+				"node": ">= 4.2.1"
+			},
+			"ci": {
+				"version": "4, 6, 7"
+			},
+			"homepage": "https://github.com/node-modules/detect-port",
+			"license": "MIT",
+			"gitHead": "4a9e127b6d01bd45d9b689bd931d878aa9b5d397",
+			"bugs": {
+				"url": "https://github.com/node-modules/detect-port/issues"
+			},
+			"_id": "detect-port@1.2.0",
+			"_shasum": "1810bb035835ad8f18c716295924685ddc9ec7ba",
+			"_from": ".",
+			"_npmVersion": "3.10.9",
+			"_nodeVersion": "7.2.0",
+			"_npmUser": {
+				"name": "xudafeng",
+				"email": "xudafeng@126.com"
+			},
+			"dist": {
+				"shasum": "1810bb035835ad8f18c716295924685ddc9ec7ba",
+				"tarball": "https://registry.npmjs.org/detect-port/-/detect-port-1.2.0.tgz",
+				"integrity": "sha512-tVak3J2Ksf32BaNZy/bMPgYLfPI2qWFj9R2yI7jyd2Mkkw73fdr5sGk23/1WWko8aM/LtVKRratju+GEsRuM+w==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIHNehiRqFdCJ1S6GGvif8+azbNpYsrk9kmwZFvUNhZh0AiEApupA3LfOLgeRBpxTkoKNDmracLCcghjvWdkTOLtsDFY="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "fengmk2",
+					"email": "fengmk2@gmail.com"
+				},
+				{
+					"name": "xudafeng",
+					"email": "xudafeng@126.com"
+				},
+				{
+					"name": "ziczhu",
+					"email": "zic.zhu@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/detect-port-1.2.0.tgz_1496752977926_0.4954096411820501"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.2.1": {
+			"name": "detect-port",
+			"version": "1.2.1",
+			"description": "detect available port",
+			"keywords": [
+				"detect",
+				"port"
+			],
+			"bin": {
+				"detect": "./bin/detect-port",
+				"detect-port": "./bin/detect-port"
+			},
+			"main": "index.js",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/node-modules/detect-port.git"
+			},
+			"dependencies": {
+				"address": "^1.0.1",
+				"debug": "^2.6.0"
+			},
+			"devDependencies": {
+				"command-line-test": "^1.0.8",
+				"egg-bin": "^1.10.3",
+				"egg-ci": "^1.1.0",
+				"eslint": "^3.13.1",
+				"eslint-config-egg": "^3.1.0",
+				"mm": "^2.1.0",
+				"pedding": "^1.1.0"
+			},
+			"scripts": {
+				"test": "egg-bin test",
+				"ci": "npm run lint && egg-bin cov",
+				"lint": "eslint ."
+			},
+			"engines": {
+				"node": ">= 4.2.1"
+			},
+			"ci": {
+				"version": "4, 6, 7"
+			},
+			"homepage": "https://github.com/node-modules/detect-port",
+			"license": "MIT",
+			"gitHead": "31562b0b4cea215442ca8704e274930909112b8c",
+			"bugs": {
+				"url": "https://github.com/node-modules/detect-port/issues"
+			},
+			"_id": "detect-port@1.2.1",
+			"_npmVersion": "5.0.3",
+			"_nodeVersion": "8.1.0",
+			"_npmUser": {
+				"name": "xudafeng",
+				"email": "xudafeng@126.com"
+			},
+			"dist": {
+				"integrity": "sha512-2KWLTLsfpi/oYPGNBEniPcFzr1GW/s+Xq/4hJmTQRdE8ULuRwGnRPuVhS/cf+Z4ZEXNo7EO2f6oydHJQd94KMg==",
+				"shasum": "a2c0a048aa9df2b703fc54bb4436ce2118f09b5a",
+				"tarball": "https://registry.npmjs.org/detect-port/-/detect-port-1.2.1.tgz",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQCz9poW9PPuEheayU2x6jq5eyQ4MyC79amBqyNWk3Yt6QIgJDRQfO6XJKpITwyeQpoxqBgBWeecmI/DxaTH72LaYGs="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "fengmk2",
+					"email": "fengmk2@gmail.com"
+				},
+				{
+					"name": "xudafeng",
+					"email": "xudafeng@126.com"
+				},
+				{
+					"name": "ziczhu",
+					"email": "zic.zhu@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/detect-port-1.2.1.tgz_1497241765945_0.42124639824032784"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.2.2": {
+			"name": "detect-port",
+			"version": "1.2.2",
+			"description": "detect available port",
+			"keywords": [
+				"detect",
+				"port"
+			],
+			"bin": {
+				"detect": "./bin/detect-port",
+				"detect-port": "./bin/detect-port"
+			},
+			"main": "index.js",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/node-modules/detect-port.git"
+			},
+			"dependencies": {
+				"address": "^1.0.1",
+				"debug": "^2.6.0"
+			},
+			"devDependencies": {
+				"command-line-test": "^1.0.8",
+				"egg-bin": "^1.10.3",
+				"egg-ci": "^1.1.0",
+				"eslint": "^3.13.1",
+				"eslint-config-egg": "^3.1.0",
+				"mm": "^2.1.0",
+				"pedding": "^1.1.0"
+			},
+			"scripts": {
+				"test": "egg-bin test",
+				"ci": "npm run lint && egg-bin cov",
+				"lint": "eslint ."
+			},
+			"engines": {
+				"node": ">= 4.2.1"
+			},
+			"ci": {
+				"version": "4, 6, 7"
+			},
+			"homepage": "https://github.com/node-modules/detect-port",
+			"license": "MIT",
+			"gitHead": "53331dee3a109d6faf062eeda2029d4a2b1e9b1f",
+			"bugs": {
+				"url": "https://github.com/node-modules/detect-port/issues"
+			},
+			"_id": "detect-port@1.2.2",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "8.9.0",
+			"_npmUser": {
+				"name": "xudafeng",
+				"email": "xudafeng@126.com"
+			},
+			"dist": {
+				"integrity": "sha512-06H99JMCwgbYbA+codm97aBhFLAjABftetp+v+Z88Pvvlkawp2N+1bP/9J24+mihrvk9yBvUYTyIj3NixG1CsA==",
+				"shasum": "57a44533632d8bc74ad255676866ca43f96c7469",
+				"tarball": "https://registry.npmjs.org/detect-port/-/detect-port-1.2.2.tgz",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIBIC1fsBahFtINuEY2ed6CGeKdUaJkNu/1pYoPOF0VDYAiEAuPC8NxoSwxZlgVNd5C6g5mrxSv+bqDnaraFrsrJNI7I="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "fengmk2",
+					"email": "fengmk2@gmail.com"
+				},
+				{
+					"name": "xudafeng",
+					"email": "xudafeng@126.com"
+				},
+				{
+					"name": "ziczhu",
+					"email": "zic.zhu@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/detect-port-1.2.2.tgz_1509901827404_0.022866202984005213"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.2.3": {
+			"name": "detect-port",
+			"version": "1.2.3",
+			"description": "Node.js implementation of port detector",
+			"keywords": [
+				"detect",
+				"port"
+			],
+			"bin": {
+				"detect": "./bin/detect-port",
+				"detect-port": "./bin/detect-port"
+			},
+			"main": "index.js",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/node-modules/detect-port.git"
+			},
+			"dependencies": {
+				"address": "^1.0.1",
+				"debug": "^2.6.0"
+			},
+			"devDependencies": {
+				"command-line-test": "^1.0.8",
+				"egg-bin": "^1.10.3",
+				"egg-ci": "^1.1.0",
+				"eslint": "^3.13.1",
+				"eslint-config-egg": "^3.1.0",
+				"git-contributor": "^1.0.8",
+				"mm": "^2.1.0",
+				"pedding": "^1.1.0"
+			},
+			"scripts": {
+				"test": "egg-bin test",
+				"ci": "npm run lint && egg-bin cov",
+				"lint": "eslint .",
+				"contributor": "git-contributor"
+			},
+			"engines": {
+				"node": ">= 4.2.1"
+			},
+			"ci": {
+				"version": "4, 6, 8, 10"
+			},
+			"homepage": "https://github.com/node-modules/detect-port",
+			"license": "MIT",
+			"gitHead": "609bfa0fd59232433b0afa5f59d217be724b3a10",
+			"bugs": {
+				"url": "https://github.com/node-modules/detect-port/issues"
+			},
+			"_id": "detect-port@1.2.3",
+			"_npmVersion": "5.5.1",
+			"_nodeVersion": "8.4.0",
+			"_npmUser": {
+				"name": "fengmk2",
+				"email": "fengmk2@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-IDbrX6PxqnYy8jV4wSHBaJlErYKTJvW8OQb9F7xivl1iQLqiUYHGa+nZ61Do6+N5uuOn/pReXKNqI9rUn04vug==",
+				"shasum": "15bf49820d02deb84bfee0a74876b32d791bf610",
+				"tarball": "https://registry.npmjs.org/detect-port/-/detect-port-1.2.3.tgz",
+				"fileCount": 10,
+				"unpackedSize": 12685,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJa/DDWCRA9TVsSAnZWagAAqfUP/1cztwYM2mMQ2NvGYdWG\npYloCN2Njs3nClwvCEPiz5kpgRVbrMOr0ieyGNkuk2WKJdkRSzGkF3x9BCAs\nWmm8ih5SnhcmvUynyQGf6USfaJXTHHmNaJbRaTLknDRptaJP3mQ9mVgystRM\nK/d733fl6GfBfIH1Z/R4cEK8/KYhbivv+NlXCfKY9nPGs4BQ+KuGQowR0r6b\nknYcWTXOpuCNI0cCF9xAkzAa/SZcqUXCH83kWJUzSf2DtCnxKeacI1IPxgwZ\nTdATnFzjcLeFc80pZFeVNTGWsviyx2CgB8jvGyMGDMIlgjUjFFLfoXDTfxSN\nYcSsg1HsRb5bAWZIXDSwlZ147N5sRFlvUd9EzGSWBgSGkDB7BmiV404Db57K\n7H5rG2JbnH/4P95iLuDuPvOU/ii+HKJn9XteVfILKWuu8BzOlB/uE4uZbR1C\n48dQkdpxda74dFOX4Y46MuNsGyJOSN1BDyozXZzdn6bNNcvnlJq57hCAne85\nM4JLJTRdw+Kdru/I8elnXnx01kT2hm0n3du9SGvDvhWQAL/+98M+zcypdUxH\nTZbFYV8ViW/vGx4ymuF0BiswK11L2GaTFfDountVMQ9iQ7LLWyDo7qwxt8E7\nFObjv6qyCcpaqNnoMxsENcCa9CMsToRVfaEskCTdGEpYAsJM0Botq4p0gNVd\n3mSl\r\n=fc1e\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDkOXb6EqAzXp2z4Chr7AcCaYtR6gKUS78eI4l8YpwzFAIhAL3HuZZqLkFCj4q+xLKbXp5AGceUAD3WX375Miobu6od"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "fengmk2",
+					"email": "fengmk2@gmail.com"
+				},
+				{
+					"name": "xudafeng",
+					"email": "xudafeng@126.com"
+				},
+				{
+					"name": "ziczhu",
+					"email": "zic.zhu@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/detect-port_1.2.3_1526477013816_0.4053566400969004"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.3.0": {
+			"name": "detect-port",
+			"version": "1.3.0",
+			"description": "Node.js implementation of port detector",
+			"keywords": [
+				"detect",
+				"port"
+			],
+			"bin": {
+				"detect": "./bin/detect-port",
+				"detect-port": "./bin/detect-port"
+			},
+			"main": "index.js",
+			"repository": {
+				"type": "git",
+				"url": "git://github.com/node-modules/detect-port.git"
+			},
+			"dependencies": {
+				"address": "^1.0.1",
+				"debug": "^2.6.0"
+			},
+			"devDependencies": {
+				"command-line-test": "^1.0.8",
+				"egg-bin": "^1.10.3",
+				"egg-ci": "^1.1.0",
+				"eslint": "^3.13.1",
+				"eslint-config-egg": "^3.1.0",
+				"git-contributor": "^1.0.8",
+				"mm": "^2.1.0",
+				"pedding": "^1.1.0"
+			},
+			"scripts": {
+				"test": "egg-bin test",
+				"ci": "npm run lint && egg-bin cov",
+				"lint": "eslint .",
+				"contributor": "git-contributor"
+			},
+			"engines": {
+				"node": ">= 4.2.1"
+			},
+			"ci": {
+				"version": "4, 6, 8, 10"
+			},
+			"homepage": "https://github.com/node-modules/detect-port",
+			"license": "MIT",
+			"gitHead": "b80605357bd7a6396df19d27134308535ec84a4a",
+			"bugs": {
+				"url": "https://github.com/node-modules/detect-port/issues"
+			},
+			"_id": "detect-port@1.3.0",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "10.13.0",
+			"_npmUser": {
+				"name": "fengmk2",
+				"email": "fengmk2@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-E+B1gzkl2gqxt1IhUzwjrxBKRqx1UzC3WLONHinn8S3T6lwV/agVCyitiFOsGJ/eYuEUBvD71MZHy3Pv1G9doQ==",
+				"shasum": "d9c40e9accadd4df5cac6a782aefd014d573d1f1",
+				"tarball": "https://registry.npmjs.org/detect-port/-/detect-port-1.3.0.tgz",
+				"fileCount": 7,
+				"unpackedSize": 12870,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJb86CACRA9TVsSAnZWagAAUkcP/3dYEydFLOeHX8mn9A9Q\nANHwEBK9/aaFdOBFmpdWy16NGzF+w4O6CK85WN+eXTpN7rKc38N2RpQ493K+\nnmINOxVGteeHZu3V+9POxa4sIHovNzn9LuUsWbHB43EwUpaK5JTOf4qvsxkT\nW9iBkziCmUXwMFhOhmXM7bl5jvzPLizWFms74bY4M3eYZ691SLd2Va36aaG1\nzUfG/MZq0j0dVC7Mt96By9Ubs6ZaX07p24JMnQPrG/qMSIZF/QflV0vNCnfL\njQKb/GovKjEyvchIivGNA+ubalgiamtiNsI1VGYuSRo7OezGHdryWfkgotuk\nm9Sjbv27OBoxkjrFvNfyH/nY4Ey6m215r1peXN0WsNKJLN/hk4rxgVwH1CKZ\nX/YOboYcK/UgDXEWonrT60kZ9/vVnk9jXN1GgnjsGF/kpcccKDFUgOZN34R9\ne5A3Fnhu1hv9Umyec+cRuCo2ul7ZUP+iJNN3+hUchJvQom7jBrTXQafGRJn6\n8GKcSifcL8ZH1P6GD6uJE43y48eOf9LyBVwmqsFqHuIXlfm+anUEYOyR36mV\nqw9mMeUeX4IdSp70rZ36YxpI8II5WKriqphCaOrNMw5gxXqvLns8tXELz4qz\ne43qpIBIV38G9uxEf57TvEoUhtzifvaMl3zs7CMpqEa4qQ5epiuwIiek9fqo\nLUhi\r\n=oTNA\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIGz9TnbnyR0gBVpqIXesHVZ3bBsf8iHPCDwdrImFsLdsAiEAo91gGnYhv20nCoiQmOv8QW/uw0MMfGkI9XDRZL8KJJI="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "fengmk2",
+					"email": "fengmk2@gmail.com"
+				},
+				{
+					"name": "xudafeng",
+					"email": "xudafeng@126.com"
+				},
+				{
+					"name": "ziczhu",
+					"email": "zic.zhu@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/detect-port_1.3.0_1542692991772_0.3352833850949015"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		}
+	},
+	"time": {
+		"modified": "2022-06-15T01:58:15.030Z",
+		"created": "2015-05-29T17:24:30.990Z",
+		"0.1.0": "2015-05-29T17:24:30.990Z",
+		"0.1.1": "2015-05-30T03:22:59.807Z",
+		"0.1.2": "2015-05-31T14:15:57.573Z",
+		"0.1.3": "2015-08-17T10:05:51.114Z",
+		"0.1.4": "2015-08-24T12:28:12.749Z",
+		"1.0.0": "2016-08-01T15:17:25.294Z",
+		"1.0.1": "2016-09-18T04:13:28.087Z",
+		"1.0.2": "2016-10-29T16:02:26.590Z",
+		"1.0.3": "2016-10-30T01:43:43.700Z",
+		"1.0.4": "2016-10-30T01:46:20.138Z",
+		"1.0.5": "2016-10-31T00:55:19.128Z",
+		"1.0.6": "2016-11-29T12:28:06.337Z",
+		"1.0.7": "2016-12-11T02:55:18.034Z",
+		"1.1.0": "2017-01-17T14:13:36.707Z",
+		"1.1.1": "2017-03-17T15:47:41.798Z",
+		"1.1.2": "2017-05-11T03:55:39.459Z",
+		"1.1.3": "2017-05-24T04:01:55.187Z",
+		"1.1.4": "2017-06-06T08:27:03.450Z",
+		"1.2.0": "2017-06-06T12:42:58.028Z",
+		"1.2.1": "2017-06-12T04:29:26.059Z",
+		"1.2.2": "2017-11-05T17:10:27.738Z",
+		"1.2.3": "2018-05-16T13:23:33.958Z",
+		"1.3.0": "2018-11-20T05:49:51.899Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "1.3.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"9c5bd58a0fe0513320926a5710ddeb70\"",
+			"fetched": 1660840771557
+		}
+	},
+	"_distfiles": {
+		"detect-port-0.1.0.tgz": {
+			"url": "https://registry.npmjs.org/detect-port/-/detect-port-0.1.0.tgz",
+			"sha": "a71c7d872656a95b8faa744fd2556423a46b7474",
+			"registry": "npmjs"
+		},
+		"detect-port-0.1.1.tgz": {
+			"url": "https://registry.npmjs.org/detect-port/-/detect-port-0.1.1.tgz",
+			"sha": "1da9583eaf54b71af4b5b2b95a184d1dfa64dab0",
+			"registry": "npmjs"
+		},
+		"detect-port-0.1.2.tgz": {
+			"url": "https://registry.npmjs.org/detect-port/-/detect-port-0.1.2.tgz",
+			"sha": "98a6d3798f9ec6be12a79aee80886a9ac0ce4b83",
+			"registry": "npmjs"
+		},
+		"detect-port-0.1.3.tgz": {
+			"url": "https://registry.npmjs.org/detect-port/-/detect-port-0.1.3.tgz",
+			"sha": "604f83608f40071e106eddf0e9be5d7436b50ce4",
+			"registry": "npmjs"
+		},
+		"detect-port-0.1.4.tgz": {
+			"url": "https://registry.npmjs.org/detect-port/-/detect-port-0.1.4.tgz",
+			"sha": "0793cd42225879d7cc7f294ae2a63f50cc2f4cbd",
+			"registry": "npmjs"
+		},
+		"detect-port-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/detect-port/-/detect-port-1.0.0.tgz",
+			"sha": "10d0e0bf0179862c553187273f7a3b45e7a90607",
+			"registry": "npmjs"
+		},
+		"detect-port-1.0.1.tgz": {
+			"url": "https://registry.npmjs.org/detect-port/-/detect-port-1.0.1.tgz",
+			"sha": "3e1aa6a7ff6677bb60894b291172529d880c1e85",
+			"registry": "npmjs"
+		},
+		"detect-port-1.0.2.tgz": {
+			"url": "https://registry.npmjs.org/detect-port/-/detect-port-1.0.2.tgz",
+			"sha": "c3643db58b411baa17868c789541a0031fb638f8",
+			"registry": "npmjs"
+		},
+		"detect-port-1.0.3.tgz": {
+			"url": "https://registry.npmjs.org/detect-port/-/detect-port-1.0.3.tgz",
+			"sha": "334189651b1c3e18f47391a93ced6c44666efae6",
+			"registry": "npmjs"
+		},
+		"detect-port-1.0.4.tgz": {
+			"url": "https://registry.npmjs.org/detect-port/-/detect-port-1.0.4.tgz",
+			"sha": "d1e9325039fe903243d2abb9d4bceebea313c9a7",
+			"registry": "npmjs"
+		},
+		"detect-port-1.0.5.tgz": {
+			"url": "https://registry.npmjs.org/detect-port/-/detect-port-1.0.5.tgz",
+			"sha": "d6a2e2f623ce0523e67d293820194288d8c0da15",
+			"registry": "npmjs"
+		},
+		"detect-port-1.0.6.tgz": {
+			"url": "https://registry.npmjs.org/detect-port/-/detect-port-1.0.6.tgz",
+			"sha": "44b57a9be268ee235d441395b4619b78a41545ef",
+			"registry": "npmjs"
+		},
+		"detect-port-1.0.7.tgz": {
+			"url": "https://registry.npmjs.org/detect-port/-/detect-port-1.0.7.tgz",
+			"sha": "f8cddc7b996fb8f8019a5ab50c4b5f3a9b51b046",
+			"registry": "npmjs"
+		},
+		"detect-port-1.1.0.tgz": {
+			"url": "https://registry.npmjs.org/detect-port/-/detect-port-1.1.0.tgz",
+			"sha": "fde7574591ea3de74445782643c3f921b2a4618c",
+			"registry": "npmjs"
+		},
+		"detect-port-1.1.1.tgz": {
+			"url": "https://registry.npmjs.org/detect-port/-/detect-port-1.1.1.tgz",
+			"sha": "abb24845a0e0501d2a4313dfde93c2671f6ba998",
+			"registry": "npmjs"
+		},
+		"detect-port-1.1.2.tgz": {
+			"url": "https://registry.npmjs.org/detect-port/-/detect-port-1.1.2.tgz",
+			"sha": "f7706366d37af0e3c3fe9c6b7b4d55b4a32d223b",
+			"registry": "npmjs"
+		},
+		"detect-port-1.1.3.tgz": {
+			"url": "https://registry.npmjs.org/detect-port/-/detect-port-1.1.3.tgz",
+			"sha": "5e639e9d61580d7c5be552431f21a2bc8a7a95d3",
+			"registry": "npmjs"
+		},
+		"detect-port-1.1.4.tgz": {
+			"url": "https://registry.npmjs.org/detect-port/-/detect-port-1.1.4.tgz",
+			"sha": "e361908f174a9e93b55aa99ac4f9411718575897",
+			"registry": "npmjs"
+		},
+		"detect-port-1.2.0.tgz": {
+			"url": "https://registry.npmjs.org/detect-port/-/detect-port-1.2.0.tgz",
+			"sha": "1810bb035835ad8f18c716295924685ddc9ec7ba",
+			"registry": "npmjs"
+		},
+		"detect-port-1.2.1.tgz": {
+			"url": "https://registry.npmjs.org/detect-port/-/detect-port-1.2.1.tgz",
+			"sha": "a2c0a048aa9df2b703fc54bb4436ce2118f09b5a",
+			"registry": "npmjs"
+		},
+		"detect-port-1.2.2.tgz": {
+			"url": "https://registry.npmjs.org/detect-port/-/detect-port-1.2.2.tgz",
+			"sha": "57a44533632d8bc74ad255676866ca43f96c7469",
+			"registry": "npmjs"
+		},
+		"detect-port-1.2.3.tgz": {
+			"url": "https://registry.npmjs.org/detect-port/-/detect-port-1.2.3.tgz",
+			"sha": "15bf49820d02deb84bfee0a74876b32d791bf610",
+			"registry": "npmjs"
+		},
+		"detect-port-1.3.0.tgz": {
+			"url": "https://registry.npmjs.org/detect-port/-/detect-port-1.3.0.tgz",
+			"sha": "d9c40e9accadd4df5cac6a782aefd014d573d1f1",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {},
+	"_rev": "3-bf6fe051d50eaabf",
+	"_id": "detect-port",
+	"readme": "[![logo][logo-image]][logo-url]\n\n---\n\n[![NPM version][npm-image]][npm-url]\n[![build status][travis-image]][travis-url]\n[![Test coverage][codecov-image]][codecov-url]\n[![npm download][download-image]][download-url]\n\n[logo-image]: ./logo.png\n[logo-url]: https://npmjs.org/package/detect-port\n[npm-image]: https://img.shields.io/npm/v/detect-port.svg?style=flat-square\n[npm-url]: https://npmjs.org/package/detect-port\n[travis-image]: https://img.shields.io/travis/node-modules/detect-port.svg?style=flat-square\n[travis-url]: https://travis-ci.org/node-modules/detect-port\n[codecov-image]: https://img.shields.io/coveralls/node-modules/detect-port.svg?style=flat-square\n[codecov-url]: https://codecov.io/gh/node-modules/detect-port\n[download-image]: https://img.shields.io/npm/dm/detect-port.svg?style=flat-square\n[download-url]: https://npmjs.org/package/detect-port\n\n> Node.js implementation of port detector\n\n## Usage\n\n```bash\n$ npm i detect-port --save\n```\n\n```javascript\nconst detect = require('detect-port');\n\n/**\n * callback usage\n */\n\ndetect(port, (err, _port) => {\n  if (err) {\n    console.log(err);\n  }\n\n  if (port == _port) {\n    console.log(`port: ${port} was not occupied`);\n  } else {\n    console.log(`port: ${port} was occupied, try port: ${_port}`);\n  }\n});\n\n/**\n * for a yield syntax instead of callback function implement\n */\n\nconst co = require('co');\n\nco(function *() {\n  const _port = yield detect(port);\n\n  if (port == _port) {\n    console.log(`port: ${port} was not occupied`);\n  } else {\n    console.log(`port: ${port} was occupied, try port: ${_port}`);\n  }\n});\n\n/**\n * use as a promise\n */\n\ndetect(port)\n  .then(_port => {\n    if (port == _port) {\n      console.log(`port: ${port} was not occupied`);\n    } else {\n      console.log(`port: ${port} was occupied, try port: ${_port}`);\n    }\n  })\n  .catch(err => {\n    console.log(err);\n  });\n\n```\n\n## Command Line Tool\n\n```bash\n$ npm i detect-port -g\n```\n\n### Quick Start\n\n```bash\n# get an available port randomly\n$ detect\n\n# detect pointed port\n$ detect 80\n\n# output verbose log\n$ detect --verbose\n\n# more help\n$ detect --help\n```\n\n## FAQ\n\nMost likely network error, check that your `/etc/hosts` and make sure the content below:\n\n```\n127.0.0.1       localhost\n255.255.255.255 broadcasthost\n::1             localhost\n```\n\n<!-- GITCONTRIBUTOR_START -->\n\n## Contributors\n\n|[<img src=\"https://avatars1.githubusercontent.com/u/1011681?v=4\" width=\"100px;\"/><br/><sub><b>xudafeng</b></sub>](https://github.com/xudafeng)<br/>|[<img src=\"https://avatars0.githubusercontent.com/u/156269?v=4\" width=\"100px;\"/><br/><sub><b>fengmk2</b></sub>](https://github.com/fengmk2)<br/>|[<img src=\"https://avatars1.githubusercontent.com/u/1044425?v=4\" width=\"100px;\"/><br/><sub><b>ziczhu</b></sub>](https://github.com/ziczhu)<br/>|[<img src=\"https://avatars0.githubusercontent.com/u/810438?v=4\" width=\"100px;\"/><br/><sub><b>gaearon</b></sub>](https://github.com/gaearon)<br/>|[<img src=\"https://avatars1.githubusercontent.com/u/360661?v=4\" width=\"100px;\"/><br/><sub><b>popomore</b></sub>](https://github.com/popomore)<br/>|[<img src=\"https://avatars2.githubusercontent.com/u/197375?v=4\" width=\"100px;\"/><br/><sub><b>jsw0528</b></sub>](https://github.com/jsw0528)<br/>\n| :---: | :---: | :---: | :---: | :---: | :---: |\n\n\nThis project follows the git-contributor [spec](https://github.com/xudafeng/git-contributor), auto upated at `Tue Aug 14 2018 12:43:52 GMT+0800`.\n\n<!-- GITCONTRIBUTOR_END -->\n\n## License\n\n[MIT](LICENSE)"
+}
