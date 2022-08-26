@@ -1,7 +1,7 @@
 #! /bin/zsh
 
 # Constants
-REGISTRY_URL="http://localhost:4873"
+REGISTRY_URL="http://localhost:4873/"
 LIBRARY_NAME="@cockpit/autofill"
 LIBRARY_PATH="/Users/lucas/development/HIAE.COCKPIT.AutoPreenchimento.Frontend/"
 FRONTEND_PATH="/Users/lucas/development/HIAE.COCKPIT.CorpoClinico.Frontend"
@@ -11,7 +11,7 @@ bold=$(tput bold)
 normal=$(tput sgr0)
 
 # Get last version from package on registry
-VERSION=$(curl -s $REGISTRY_URL/$LIBRARY_NAME | jq -r '."dist-tags".latest')
+VERSION=$(curl -s $REGISTRY_URL$LIBRARY_NAME | jq -r '."dist-tags".latest')
 
 increment_version() {
   local delimiter=.
@@ -30,6 +30,15 @@ echo "${bold}New version: $UPDATED_VERSION${normal}"
 # Move to library's folder
 cd $LIBRARY_PATH
 
+# Check if registry is local registry
+CURRENT_REGISTRY=$(npm config get registry)
+
+if [[ $CURRENT_REGISTRY != $REGISTRY_URL ]]; then
+  echo "\n${bold}❌ Error${normal}"
+  echo "\nThe registry at $LIBRARY_PATH is not local! Check .npmrc file."
+  exit 1
+fi
+
 # Edit package.json from autofill
 echo "\nEdit package.json from $LIBRARY_PATH"
 
@@ -47,6 +56,14 @@ npm publish
 
 # Move to frontend's folder
 cd $FRONTEND_PATH
+
+# Check frontend path registry
+CURRENT_REGISTRY=$(npm config get registry)
+
+if [[ $CURRENT_REGISTRY != $REGISTRY_URL ]]; then
+  echo "\n${bold}Set registry to local registry at $FRONTEND_PATH ${normal}"
+  exit 1
+fi
 
 # Update package.json from frontend
 echo "\nEdit package.json from $FRONTEND_PATH"
