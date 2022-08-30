@@ -5,6 +5,7 @@ REGISTRY_URL="http://localhost:4873/"
 LIBRARY_NAME="@cockpit/autofill"
 LIBRARY_PATH="/Users/lucas/development/HIAE.COCKPIT.AutoPreenchimento.Frontend/"
 FRONTEND_PATH="/Users/lucas/development/HIAE.COCKPIT.CorpoClinico.Frontend"
+NPMRC_BASE=$(<.npmrc)
 
 # Utils
 bold=$(tput bold)
@@ -25,48 +26,49 @@ increment_version() {
 UPDATED_VERSION=$(increment_version $VERSION 3)
 
 echo "Last version available on registry: $VERSION"
-echo "${bold}New version: $UPDATED_VERSION${normal}"
+echo "\n${bold}📦 New version: $UPDATED_VERSION${normal}"
 
 # Move to library's folder
 cd $LIBRARY_PATH
 
-# Check if registry is local registry
-CURRENT_REGISTRY=$(npm config get registry)
+# Change registry to local
+echo "\n✍🏽 Updating .npmrc file for local registry"
 
-if [[ $CURRENT_REGISTRY != $REGISTRY_URL ]]; then
-  echo "\n${bold}❌ Error${normal}"
-  echo "\nThe registry at $LIBRARY_PATH is not local! Check .npmrc file."
-  exit 1
-fi
+mv .npmrc .npmrc.bkp
+echo "$NPMRC_BASE" > .npmrc
 
 # Edit package.json from autofill
-echo "\nEdit package.json from $LIBRARY_PATH"
+echo "\n📄 Edit package.json from $LIBRARY_PATH"
 
 mv package.json temp.json
 jq '.version = "'$UPDATED_VERSION'"' temp.json > package.json
 rm temp.json
 
 # Run build script
-echo "\n${bold}Run build script${normal}"
-npm run build --silent
+echo "\n${bold}⚡️ Run build script${normal}"
+npm run --silent build 
 
 # Publish to registry
-echo "\n${bold}Run publish${normal}"
+echo "\n${bold}⚡️ Run publish${normal}"
 npm publish
+
+# Restore original npmrc
+echo "\nRestoring .npmrc file"
+
+rm .npmrc
+mv .npmrc.bkp .npmrc
 
 # Move to frontend's folder
 cd $FRONTEND_PATH
 
-# Check frontend path registry
-CURRENT_REGISTRY=$(npm config get registry)
+# Change registry to local
+echo "\n✍🏽 Updating .npmrc file for local registry"
 
-if [[ $CURRENT_REGISTRY != $REGISTRY_URL ]]; then
-  echo "\n${bold}Set registry to local registry at $FRONTEND_PATH ${normal}"
-  exit 1
-fi
+mv .npmrc .npmrc.bkp
+echo "$NPMRC_BASE" > .npmrc
 
 # Update package.json from frontend
-echo "\nEdit package.json from $FRONTEND_PATH"
+echo "\n📄 Edit package.json from $FRONTEND_PATH"
 
 mv package.json temp.json
 jq -r '.dependencies."'$LIBRARY_NAME'" = "'$UPDATED_VERSION'"' temp.json > package.json
@@ -76,4 +78,10 @@ rm temp.json
 echo "\nUpdate dependencies..."
 npm i --no-audit --no-fund --silent
 
-echo "\n\n${bold}Ready to go! 🚀 ${normal}"
+# Restore original npmrc
+echo "\nRestoring .npmrc file"
+
+rm .npmrc
+mv .npmrc.bkp .npmrc
+
+echo "\n${bold}Ready to go! 🚀 ${normal}"
