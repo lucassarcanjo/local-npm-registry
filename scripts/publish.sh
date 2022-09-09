@@ -32,6 +32,8 @@ cd $LIBRARY_PATH
 # Change registry to local
 echo "\n✍🏽 Updating .npmrc file for local registry"
 
+test -f .npmrc || touch .npmrc
+
 mv .npmrc .npmrc.bkp
 echo "$NPMRC_BASE" > .npmrc
 
@@ -61,6 +63,8 @@ cd $FRONTEND_PATH
 
 # Change registry to local
 echo "\n✍🏽 Updating .npmrc file for local registry"
+
+test -f .npmrc || touch .npmrc
 
 mv .npmrc .npmrc.bkp
 echo "$NPMRC_BASE" > .npmrc
