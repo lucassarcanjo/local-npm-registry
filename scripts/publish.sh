@@ -1,10 +1,8 @@
-#! /bin/zsh
+#! /bin/bash
 
-# Constants
-REGISTRY_URL="http://localhost:4873/"
-LIBRARY_NAME="@cockpit/autofill"
-LIBRARY_PATH="/Users/lucas/development/HIAE.COCKPIT.AutoPreenchimento.Frontend/"
-FRONTEND_PATH="/Users/lucas/development/HIAE.COCKPIT.CorpoClinico.Frontend"
+# Load the configuration file
+[ ! -f .env ] || export $(grep -v '^#' .env | xargs)
+
 NPMRC_BASE=$(<.npmrc)
 
 # Utils
