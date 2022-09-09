@@ -1,0 +1,1 @@
+This folder is the storage where verdaccio will keep the tarballs and package.json files that will be installed on your application. 
