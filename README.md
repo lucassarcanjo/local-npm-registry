@@ -1,11 +1,11 @@
-# Local npm registry
+# 📦 Local NPM Registry
 
-Private registry powered by [Verdaccio](https://verdaccio.org/) and works with docker-compose to act like a proxy between a project and npm registry. With this you can work in a npm library and fastly publish to test in your parent's app.
+Private registry powered by [Verdaccio](https://verdaccio.org/) and works with docker-compose to act like a proxy between a project and npm registry. With this, you can work in an npm library and fastly publish to test in your application.
 
 Contains:
 
 - conf: configuration file and a user httppasswd
-- storage: local of published packages
+- storage: folder of published packages
 
 ## Use
 
@@ -17,7 +17,7 @@ $> cd ./verdaccio
 $> docker-compose up
 ```
 
-Verdaccio will be available on `http://localhost:4873/`. This repo also contains a script to optimize the workflow of publish a package and refresh de dependency on your parent's app. Use at your own risk!
+Verdaccio will be available on `http://localhost:4873/`. This repo also contains a script to optimize the workflow of publishing a package and refresh de dependency on your app. Use at your own risk!
 
 # License
 
