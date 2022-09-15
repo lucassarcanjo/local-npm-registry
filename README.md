@@ -7,7 +7,7 @@ Contains:
 - conf: configuration file and a user httppasswd
 - storage: folder of published packages
 
-## Use
+## Usage
 
 You need to have `docker` and `docker compose` installed on your machine. Then, run:
 
